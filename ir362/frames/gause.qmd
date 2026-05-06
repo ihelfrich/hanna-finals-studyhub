@@ -4,6 +4,18 @@ subtitle: "Frame 4 of 7 · The US had primacy, never hegemony — the difference
 order: 4
 ---
 
+<div class="frame-header">
+  <div class="frame-portrait">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100" height="100" aria-label="FGG monogram"><circle cx="50" cy="50" r="50" fill="#990000"/><text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#FFC72C" font-family="Inter, sans-serif" font-weight="800" font-size="28" letter-spacing="-1">FGG</text></svg>
+  </div>
+  <div class="frame-meta">
+    <div class="frame-author">F. Gregory Gause III</div>
+    <div class="frame-work">"Hegemony, Unipolarity, and American Failure" (2024)</div>
+    <div class="frame-tagline">The US had primacy, never hegemony — and that gap explains the failure.</div>
+  </div>
+</div>
+
+
 ::: {.callout-tip}
 **When to deploy:** Q3 (US role in MENA), Q4 (regional order after 2023), Q6 (multipolarity, China, Russia, Iran). Indispensable for any post-Iraq-war prompt.
 :::

@@ -5,6 +5,10 @@ description: "User-oriented · cumulative · what the number means for a manager
 order: 1
 ---
 
+```{=html}
+<img src="../assets/img/banners/acct410x-banner.svg" alt="ACCT 410x banner with three-statement flow diagram" style="width:100%;border-radius:14px;margin-bottom:1.5rem;box-shadow:0 8px 24px rgba(153,0,0,0.15);" />
+```
+
 ::: {.thesis}
 **Strategy.** Leventhal's 410x is "user-oriented": the exam tests *what the number means for a manager*, not journal-entry mechanics. The April 20 tutoring brief identified four high-yield trap areas — and the existing Mock Final under-tests two of them. Drill the gaps.
 :::

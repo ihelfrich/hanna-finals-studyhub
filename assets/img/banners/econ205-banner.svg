@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a0000"/>
+      <stop offset="100%" stop-color="#1a0000"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#g2)"/>
+  <!-- Axes -->
+  <g stroke="rgba(255,199,44,0.32)" stroke-width="1.5" fill="none">
+    <line x1="700" y1="60" x2="700" y2="240"/>
+    <line x1="700" y1="240" x2="1140" y2="240"/>
+    <!-- Demand curve (downward sloping) -->
+    <path d="M 720 90 L 1130 230" stroke="#FFC72C" stroke-width="2.5"/>
+    <!-- Supply curve (upward sloping) -->
+    <path d="M 720 230 L 1130 90" stroke="#FFC72C" stroke-width="2.5"/>
+    <!-- Shifted demand (dashed) -->
+    <path d="M 760 80 L 1130 200" stroke="rgba(255,255,255,0.55)" stroke-width="2" stroke-dasharray="6,3"/>
+    <!-- Equilibrium point -->
+    <circle cx="925" cy="160" r="5" fill="#fff"/>
+  </g>
+  <g font-family="Inter, sans-serif" fill="rgba(255,255,255,0.62)" font-size="10">
+    <text x="690" y="58" text-anchor="end">P</text>
+    <text x="1145" y="245">Q</text>
+    <text x="935" y="180" font-size="11">E*</text>
+    <text x="1100" y="85" fill="#FFC72C">S</text>
+    <text x="1110" y="225" fill="#FFC72C">D</text>
+  </g>
+  <!-- Title -->
+  <g font-family="Inter, sans-serif" fill="white">
+    <text x="60" y="100" font-size="44" font-weight="800" letter-spacing="-0.02em">ECON 205 — Macroeconomics</text>
+    <text x="60" y="135" font-size="20" font-weight="500" fill="rgba(255,255,255,0.88)">Pérez · USC · Mon May 11, 2:00–4:00 PM · SGM 101 · 35%</text>
+  </g>
+  <rect x="60" y="60" width="60" height="5" fill="#FFC72C" rx="2"/>
+</svg>

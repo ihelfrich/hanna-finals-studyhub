@@ -5,6 +5,10 @@ description: "Cumulative final · 35% of grade · pencil + calculator only"
 order: 1
 ---
 
+```{=html}
+<img src="../assets/img/banners/econ205-banner.svg" alt="ECON 205 banner with supply-demand diagram" style="width:100%;border-radius:14px;margin-bottom:1.5rem;box-shadow:0 8px 24px rgba(153,0,0,0.15);" />
+```
+
 ::: {.thesis}
 **Strategy.** Cumulative final, ~70% post-midterm material per syllabus. Pencil and calculator only — no notes during the exam, so memorization happens *before*. The exam tests *application*: given a scenario, pick the right model and execute. Five days to go.
 :::

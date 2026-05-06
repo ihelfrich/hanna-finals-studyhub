@@ -1,0 +1,431 @@
+---
+title: "📖 Visual Glossary"
+subtitle: "30 key concepts across IR 362, ECON 205, and ACCT 410x — every term has a picture and a one-line 'why it matters'"
+---
+
+## How to use this page
+
+This glossary is built for two passes. **First pass:** read it straight through, top to bottom, the night before each final. The cards are short on purpose — 60–80 words each — and the images are there to give your brain a visual hook so the concept sticks. Don't try to memorize the cards; just notice the *shape* of each idea. **Second pass:** when you're working a problem set or drafting an essay and a term feels fuzzy, jump back here as a lookup index. Every card has a "Why it matters" line that tells you when the concept actually shows up on the exam, and a cross-link to the deeper page on the site where the concept gets fully developed in context.
+
+<div class="gloss-filter">
+  <button data-filter="all" class="active">All (30)</button>
+  <button data-filter="ir">IR 362 (12)</button>
+  <button data-filter="econ">ECON 205 (10)</button>
+  <button data-filter="acct">ACCT 410x (8)</button>
+</div>
+
+<div class="gloss-grid">
+
+<!-- ============================ IR 362 ============================ -->
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Arab Peace Initiative (API)</div>
+    <div class="def">A Saudi-led 2002 Arab League proposal: full normalization with Israel from all 22 Arab states in exchange for withdrawal to 1967 borders, a Palestinian state with East Jerusalem as capital, and a "just solution" to refugees per UNGA 194. Re-endorsed in 2007. Israel never formally responded; the Abraham Accords later bypassed it entirely.</div>
+    <div class="why">Why it matters: it's the baseline Arab counter-offer that the Abraham Accords structurally reject.</div>
+    <a href="ir362/abraham-accords.html" style="font-size:.8rem;">→ Abraham Accords page</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fefaf3"/><circle cx="100" cy="70" r="44" fill="none" stroke="#990000" stroke-width="2"/><text x="100" y="55" text-anchor="middle" font-size="10" font-family="Inter" fill="#990000" font-weight="700">22 Arab states</text><text x="100" y="72" text-anchor="middle" font-size="8" font-family="Inter" fill="#333">→ normalization</text><text x="100" y="86" text-anchor="middle" font-size="8" font-family="Inter" fill="#333">↑ '67 borders + 🇵🇸</text><text x="100" y="120" text-anchor="middle" font-size="9" font-family="Inter" fill="#5a0000" font-style="italic">2002 · Beirut Summit</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Abraham Accords</div>
+    <div class="def">The 2020 normalization agreements between Israel and the UAE, Bahrain, Sudan, and Morocco, brokered by the first Trump administration. They decoupled Arab–Israeli normalization from Palestinian statehood — the historic Arab "land for peace" sequence — and reframed regional alignment around shared opposition to Iran and bilateral economic gains.</div>
+    <div class="why">Why it matters: marks the structural pivot from API logic to anti-Iran logic in Arab foreign policy.</div>
+    <a href="ir362/abraham-accords.html" style="font-size:.8rem;">→ Abraham Accords deep dive</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="50" width="50" height="40" fill="#990000" rx="4"/><text x="45" y="74" text-anchor="middle" font-size="10" fill="#FFC72C" font-weight="700">🇮🇱</text><rect x="130" y="20" width="50" height="20" fill="#c79100" rx="3"/><text x="155" y="34" text-anchor="middle" font-size="8" fill="white">UAE</text><rect x="130" y="50" width="50" height="20" fill="#c79100" rx="3"/><text x="155" y="64" text-anchor="middle" font-size="8" fill="white">Bahrain</text><rect x="130" y="80" width="50" height="20" fill="#c79100" rx="3"/><text x="155" y="94" text-anchor="middle" font-size="8" fill="white">Sudan</text><rect x="130" y="110" width="50" height="20" fill="#c79100" rx="3"/><text x="155" y="124" text-anchor="middle" font-size="8" fill="white">Morocco</text><line x1="70" y1="70" x2="130" y2="30" stroke="#990000" stroke-width="1.5"/><line x1="70" y1="70" x2="130" y2="60" stroke="#990000" stroke-width="1.5"/><line x1="70" y1="70" x2="130" y2="90" stroke="#990000" stroke-width="1.5"/><line x1="70" y1="70" x2="130" y2="120" stroke="#990000" stroke-width="1.5"/></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Axis of Resistance</div>
+    <div class="def">Iran's network of state and non-state allies — Hezbollah (Lebanon), Hamas and PIJ (Palestine), the Houthis (Yemen), pro-Iran militias in Iraq and Syria — that share asymmetric capabilities, anti-Israel/anti-US posture, and Iranian arms and training. It is a forward-defense doctrine: keep the conflict outside Iran's borders by projecting through proxies.</div>
+    <div class="why">Why it matters: 2023–24 collapsed half of it — Hamas degraded, Hezbollah decapitated, Assad gone.</div>
+    <a href="ir362/iran-axis.html" style="font-size:.8rem;">→ Iran & the Axis</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><circle cx="100" cy="70" r="20" fill="#990000"/><text x="100" y="74" text-anchor="middle" font-size="11" fill="#FFC72C" font-weight="700">Iran</text><circle cx="40" cy="40" r="14" fill="#c79100"/><text x="40" y="44" text-anchor="middle" font-size="7" fill="white">Hez</text><circle cx="40" cy="100" r="14" fill="#c79100"/><text x="40" y="104" text-anchor="middle" font-size="7" fill="white">Hamas</text><circle cx="160" cy="40" r="14" fill="#c79100"/><text x="160" y="44" text-anchor="middle" font-size="7" fill="white">Iraq</text><circle cx="160" cy="100" r="14" fill="#c79100"/><text x="160" y="104" text-anchor="middle" font-size="7" fill="white">Houthi</text><line x1="80" y1="60" x2="54" y2="48" stroke="#990000"/><line x1="80" y1="80" x2="54" y2="92" stroke="#990000"/><line x1="120" y1="60" x2="146" y2="48" stroke="#990000"/><line x1="120" y1="80" x2="146" y2="92" stroke="#990000"/></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Nash Equilibrium (MENA)</div>
+    <div class="def">A strategic situation where no actor can improve their payoff by changing strategy unilaterally. In Hammad's framing, MENA is locked in suboptimal equilibria — every state's best response to its rivals reproduces conflict, even though all would gain from cooperation. Coordination requires changing payoffs, not preaching cooperation.</div>
+    <div class="why">Why it matters: explains why "everyone wants peace" but nothing moves.</div>
+    <a href="ir362/nash-equilibrium.html" style="font-size:.8rem;">→ Nash & the Carousel</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="50" y1="20" x2="50" y2="120" stroke="#333"/><line x1="50" y1="120" x2="180" y2="120" stroke="#333"/><line x1="115" y1="20" x2="115" y2="120" stroke="#999" stroke-dasharray="2"/><line x1="50" y1="70" x2="180" y2="70" stroke="#999" stroke-dasharray="2"/><text x="40" y="40" font-size="9" fill="#333">Coop</text><text x="40" y="100" font-size="9" fill="#333">Defect</text><text x="80" y="135" font-size="9" fill="#333">Coop</text><text x="140" y="135" font-size="9" fill="#333">Defect</text><text x="80" y="50" font-size="10" fill="#388e3c">3,3</text><text x="140" y="50" font-size="10" fill="#990000">0,5</text><text x="80" y="100" font-size="10" fill="#990000">5,0</text><text x="140" y="100" font-size="11" font-weight="700" fill="#990000">1,1★</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">The "Carousel" (Hammad)</div>
+    <div class="def">Hammad's metaphor for MENA's repeating strategic loop: states announce peace, normalize selectively, war breaks out, alignments reshuffle, then announce peace again — never reaching a stable settlement. The carousel turns because no actor faces sufficient cost to step off, and each is rewarded for cycling positions rather than committing.</div>
+    <div class="why">Why it matters: it's Hammad's signature framing for the post-2020 region — appears in essay prompts.</div>
+    <a href="ir362/nash-equilibrium.html#the-carousel" style="font-size:.8rem;">→ Carousel framework</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><circle cx="100" cy="70" r="50" fill="none" stroke="#990000" stroke-width="2" stroke-dasharray="6,3"/><text x="100" y="20" text-anchor="middle" font-size="9" font-weight="700" fill="#990000">Peace talk</text><text x="170" y="73" text-anchor="middle" font-size="9" font-weight="700" fill="#990000">Normalize</text><text x="100" y="130" text-anchor="middle" font-size="9" font-weight="700" fill="#990000">War</text><text x="30" y="73" text-anchor="middle" font-size="9" font-weight="700" fill="#990000">Realign</text><polygon points="148,40 156,38 153,46" fill="#990000"/><polygon points="148,100 156,102 153,94" fill="#990000"/></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Primacy vs Hegemony (Gause)</div>
+    <div class="def">Gause's distinction: **primacy** is being the most powerful state in a region; **hegemony** is the ability to set the rules others actually follow. The US had primacy in MENA from 1991 onward but never built hegemony — local actors used American power without accepting American order, which is why "leadership" produced no settlement.</div>
+    <div class="why">Why it matters: Gause's frame for the limits of US Middle East policy — likely essay material.</div>
+    <a href="ir362/frames/gause.html" style="font-size:.8rem;">→ Gause frame</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="40" width="70" height="60" fill="#990000" rx="4"/><text x="55" y="70" text-anchor="middle" font-size="11" fill="#FFC72C" font-weight="700">Primacy</text><text x="55" y="86" text-anchor="middle" font-size="7" fill="white">most power</text><rect x="110" y="40" width="70" height="60" fill="#5a0000" rx="4"/><text x="145" y="70" text-anchor="middle" font-size="11" fill="#FFC72C" font-weight="700">Hegemony</text><text x="145" y="86" text-anchor="middle" font-size="7" fill="white">sets rules</text><text x="100" y="125" text-anchor="middle" font-size="9" fill="#990000" font-style="italic">US: ✓ ✗</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Robustness of Authoritarianism (Bellin)</div>
+    <div class="def">Bellin's argument that MENA regimes endure not because of culture or weak civil society but because of their **coercive apparatus** — military and security services with both the *will* and the *capacity* to repress. The 2011 Arab Spring outcomes (Tunisia transitions, Egypt reverts, Bahrain crackdown, Syria civil war) all turn on these two variables.</div>
+    <div class="why">Why it matters: Bellin is the foundational lens for every regime-trajectory case on the syllabus.</div>
+    <a href="ir362/frames/bellin.html" style="font-size:.8rem;">→ Bellin frame</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="50" y1="20" x2="50" y2="120" stroke="#333"/><line x1="50" y1="120" x2="180" y2="120" stroke="#333"/><text x="20" y="70" font-size="9" fill="#333">Will</text><text x="105" y="135" font-size="9" fill="#333">Capacity</text><line x1="115" y1="20" x2="115" y2="120" stroke="#999" stroke-dasharray="2"/><line x1="50" y1="70" x2="180" y2="70" stroke="#999" stroke-dasharray="2"/><text x="80" y="50" font-size="7" fill="#990000">vulnerable</text><text x="140" y="50" font-size="7" fill="#990000">vulnerable</text><text x="80" y="100" font-size="7" fill="#990000">vulnerable</text><text x="135" y="100" font-size="9" font-weight="700" fill="#388e3c">DURABLE</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Carbon Democracy (Mitchell)</div>
+    <div class="def">Mitchell's claim that energy infrastructure shapes political possibility. Coal — bulky, labor-intensive, transported by rail — gave 19th-century workers chokepoints and made democracy possible. Oil — capital-intensive, piped, controlled by a small cartel of firms and states — concentrates power upward and undercuts the leverage that produced democratic settlements.</div>
+    <div class="why">Why it matters: explains why oil-rich MENA states are structurally hostile to mass democracy.</div>
+    <a href="ir362/frames/mitchell.html" style="font-size:.8rem;">→ Mitchell frame</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="40" width="70" height="80" fill="#333" rx="3"/><text x="55" y="65" text-anchor="middle" font-size="10" fill="#FFC72C" font-weight="700">Coal</text><text x="55" y="80" text-anchor="middle" font-size="7" fill="white">labor-heavy</text><text x="55" y="93" text-anchor="middle" font-size="7" fill="white">→ chokepoints</text><text x="55" y="108" text-anchor="middle" font-size="9" fill="#FFC72C">DEMOC</text><rect x="110" y="40" width="70" height="80" fill="#5a0000" rx="3"/><text x="145" y="65" text-anchor="middle" font-size="10" fill="#FFC72C" font-weight="700">Oil</text><text x="145" y="80" text-anchor="middle" font-size="7" fill="white">capital-heavy</text><text x="145" y="93" text-anchor="middle" font-size="7" fill="white">→ piped</text><text x="145" y="108" text-anchor="middle" font-size="9" fill="#FFC72C">AUTOC</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Crony Capitalism (DMA)</div>
+    <div class="def">Diwan, Malik & Atiyas's framework: MENA's economic stagnation is engineered, not accidental. Politically connected firms enjoy regulatory shelter, cheap credit, and entry barriers in exchange for political loyalty. Ordinary firms can't grow; competitors can't enter. The result: low job creation, low productivity, and a stable political settlement that nobody inside the elite wants to disrupt.</div>
+    <div class="why">Why it matters: links political economy to the Arab Spring's *economic* trigger conditions.</div>
+    <a href="ir362/frames/diwan-malik-atiyas.html" style="font-size:.8rem;">→ DMA frame</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><circle cx="100" cy="40" r="18" fill="#5a0000"/><text x="100" y="44" text-anchor="middle" font-size="9" fill="#FFC72C" font-weight="700">Regime</text><circle cx="50" cy="100" r="16" fill="#c79100"/><text x="50" y="104" text-anchor="middle" font-size="8" fill="white">Crony</text><circle cx="100" cy="100" r="16" fill="#c79100"/><text x="100" y="104" text-anchor="middle" font-size="8" fill="white">Crony</text><circle cx="150" cy="100" r="16" fill="#c79100"/><text x="150" y="104" text-anchor="middle" font-size="8" fill="white">Crony</text><line x1="100" y1="58" x2="50" y2="84" stroke="#990000" stroke-width="2"/><line x1="100" y1="58" x2="100" y2="84" stroke="#990000" stroke-width="2"/><line x1="100" y1="58" x2="150" y2="84" stroke="#990000" stroke-width="2"/><text x="100" y="135" text-anchor="middle" font-size="8" fill="#333" font-style="italic">loyalty ↔ rent</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">Settler-Colonialism Frame</div>
+    <div class="def">An analytical lens that reads the Israel/Palestine conflict not as an inter-state dispute but as an ongoing settler-colonial project structured by the "logic of elimination" of the indigenous population (Wolfe). It puts land, demographic engineering, and legal stratification at the center of analysis rather than diplomacy or terrorism, and connects to Algeria, South Africa, and Australia comparatively.</div>
+    <div class="why">Why it matters: dominant frame in critical scholarship — must be addressed in any historiography essay.</div>
+    <a href="ir362/sources/index.html" style="font-size:.8rem;">→ Primary sources index</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#f4f1e8"/><rect x="0" y="100" width="200" height="40" fill="#8b7355"/><polygon points="20,100 30,80 40,100" fill="#990000"/><polygon points="50,100 60,75 70,100" fill="#990000"/><polygon points="80,100 90,70 100,100" fill="#990000"/><polygon points="110,100 120,72 130,100" fill="#990000"/><polygon points="140,100 150,78 160,100" fill="#990000"/><polygon points="170,100 180,82 190,100" fill="#990000"/><text x="100" y="30" text-anchor="middle" font-size="10" font-weight="700" fill="#5a0000">Logic of elimination</text><text x="100" y="125" text-anchor="middle" font-size="8" fill="white">land → demography → law</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">UNSC 242 — "the article"</div>
+    <div class="def">The 1967 UN Security Council resolution after the Six-Day War: Israel withdraws "from territories" occupied in the conflict in exchange for recognition. The English text says "territories"; the French says "des territoires" (the territories). Israel reads the English ambiguity as license for partial withdrawal; Arab states read the French as requiring full withdrawal. The conflict over peace built on the conflict over a definite article.</div>
+    <div class="why">Why it matters: classic IR exam trap — a primary source where translation = political stake.</div>
+    <a href="ir362/sources/unsc-242.html" style="font-size:.8rem;">→ UNSC 242 source</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="15" y="30" width="80" height="80" fill="#fefaf3" stroke="#990000" rx="4"/><text x="55" y="50" text-anchor="middle" font-size="9" font-weight="700" fill="#990000">EN</text><text x="55" y="68" text-anchor="middle" font-size="8" fill="#333">"from</text><text x="55" y="80" text-anchor="middle" font-size="8" fill="#333">territories"</text><text x="55" y="100" text-anchor="middle" font-size="7" fill="#5a0000" font-style="italic">some</text><rect x="105" y="30" width="80" height="80" fill="#fefaf3" stroke="#990000" rx="4"/><text x="145" y="50" text-anchor="middle" font-size="9" font-weight="700" fill="#990000">FR</text><text x="145" y="68" text-anchor="middle" font-size="8" fill="#333">"des</text><text x="145" y="80" text-anchor="middle" font-size="8" fill="#333">territoires"</text><text x="145" y="100" text-anchor="middle" font-size="7" fill="#5a0000" font-style="italic">all</text><text x="100" y="130" text-anchor="middle" font-size="9" fill="#990000" font-weight="700">⚖ "the"?</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-ir">
+  <div>
+    <div class="pill tag-ir">IR 362</div>
+    <div class="name">The Iron Wall (Jabotinsky / Shlaim)</div>
+    <div class="def">Jabotinsky's 1923 doctrine: Zionism cannot be achieved by negotiation because Arabs will reasonably reject it; only an "iron wall" of overwhelming military power, sustained until they accept its permanence, can produce eventual settlement on Israeli terms. Avi Shlaim adopts the metaphor as the *organizing logic* of Israeli grand strategy from Ben-Gurion forward.</div>
+    <div class="why">Why it matters: structures the long-arc Israeli-strategy essay — Jabotinsky → Ben-Gurion → Netanyahu.</div>
+    <a href="ir362/sources/index.html" style="font-size:.8rem;">→ Primary sources</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="90" y="20" width="20" height="100" fill="#5a0000"/><rect x="80" y="20" width="40" height="10" fill="#5a0000"/><rect x="80" y="115" width="40" height="10" fill="#5a0000"/><circle cx="40" cy="70" r="8" fill="#c79100"/><circle cx="160" cy="70" r="8" fill="#c79100"/><text x="40" y="95" text-anchor="middle" font-size="8" fill="#333">Arab</text><text x="160" y="95" text-anchor="middle" font-size="8" fill="#333">Zion</text><text x="100" y="135" text-anchor="middle" font-size="9" font-weight="700" fill="#5a0000">Iron Wall</text></svg>
+  </div>
+</div>
+
+<!-- ============================ ECON 205 ============================ -->
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Fisher Equation</div>
+    <div class="def">The relationship between nominal interest, real interest, and expected inflation: i ≈ r + π^e (exact form: 1+i = (1+r)(1+π^e)). It pins down what borrowers and lenders actually pay and earn after inflation. When inflation expectations rise, nominal rates rise one-for-one to keep real rates constant — the Fisher effect.</div>
+    <div class="why">Why it matters: the most testable identity on the macro final — appears in every monetary problem.</div>
+    <a href="econ205/diagrams.html" style="font-size:.8rem;">→ ECON Diagram Bank</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><text x="100" y="50" text-anchor="middle" font-size="22" font-family="serif" font-weight="700" fill="#c79100">i = r + π</text><text x="100" y="68" text-anchor="middle" font-size="11" font-style="italic" fill="#333">nominal = real + inflation</text><line x1="40" y1="90" x2="160" y2="90" stroke="#333"/><line x1="40" y1="85" x2="40" y2="95" stroke="#333"/><line x1="100" y1="85" x2="100" y2="95" stroke="#333"/><line x1="160" y1="85" x2="160" y2="95" stroke="#333"/><text x="40" y="110" text-anchor="middle" font-size="9" fill="#388e3c">r=2%</text><text x="100" y="110" text-anchor="middle" font-size="9" fill="#990000">π=3%</text><text x="160" y="110" text-anchor="middle" font-size="9" fill="#5a0000">i=5%</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Crowding Out</div>
+    <div class="def">When the government finances spending by borrowing, it competes with private borrowers for the same pool of loanable funds, pushing real interest rates up. Higher rates discourage private investment — the public sector "crowds out" the private sector. The size of the effect depends on how interest-elastic investment demand is and whether the economy is at full employment.</div>
+    <div class="why">Why it matters: every fiscal-policy essay needs you to discuss it; show the loanable funds graph.</div>
+    <a href="econ205/diagrams.html" style="font-size:.8rem;">→ Loanable funds diagram</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="40" y1="30" x2="170" y2="115" stroke="#388e3c" stroke-width="2"/><line x1="40" y1="115" x2="170" y2="30" stroke="#990000" stroke-width="2"/><line x1="60" y1="115" x2="160" y2="20" stroke="#990000" stroke-width="2" stroke-dasharray="4"/><text x="170" y="40" font-size="8" fill="#990000">D'</text><text x="180" y="115" font-size="8" fill="#333">LF</text><text x="20" y="20" font-size="8" fill="#333">r</text><circle cx="100" cy="70" r="3" fill="#333"/><circle cx="115" cy="58" r="3" fill="#990000"/><text x="125" y="55" font-size="8" fill="#990000">↑r</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">AD-AS Model</div>
+    <div class="def">The aggregate demand–aggregate supply framework: AD slopes downward in (P, Y) space (wealth, interest-rate, exchange-rate effects); SRAS slopes up (sticky wages); LRAS is vertical at potential output. Demand shocks move AD; supply shocks move SRAS. Long-run equilibrium has all three curves intersecting; short-run gaps close as expectations adjust.</div>
+    <div class="why">Why it matters: the central diagram for any macro shock question — practice both shocks in one figure.</div>
+    <a href="econ205/diagrams.html" style="font-size:.8rem;">→ AD-AS in Diagram Bank</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="40" y1="30" x2="170" y2="115" stroke="#990000" stroke-width="2"/><line x1="40" y1="115" x2="170" y2="40" stroke="#388e3c" stroke-width="2"/><line x1="110" y1="20" x2="110" y2="120" stroke="#5a0000" stroke-width="2"/><text x="170" y="40" font-size="8" fill="#388e3c">SRAS</text><text x="170" y="115" font-size="8" fill="#990000">AD</text><text x="100" y="18" font-size="8" fill="#5a0000">LRAS</text><text x="20" y="20" font-size="8" fill="#333">P</text><text x="180" y="135" font-size="8" fill="#333">Y</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Solow Growth Model</div>
+    <div class="def">Long-run growth model: output per worker depends on capital per worker (k) via diminishing returns. Saving raises k until investment equals depreciation plus population growth; the steady state. Higher savings raises level not growth rate; only technology growth raises the per-capita growth rate forever. Cross-country differences come from k, technology, and population dynamics.</div>
+    <div class="why">Why it matters: the long-run growth question — diagnose convergence/divergence with this diagram.</div>
+    <a href="econ205/diagrams.html" style="font-size:.8rem;">→ Solow diagram</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><path d="M 30 120 Q 80 50 170 30" stroke="#388e3c" stroke-width="2" fill="none"/><line x1="30" y1="120" x2="170" y2="60" stroke="#c79100" stroke-width="2"/><line x1="30" y1="120" x2="170" y2="80" stroke="#990000" stroke-width="2"/><circle cx="120" cy="78" r="3" fill="#333"/><text x="170" y="35" font-size="8" fill="#388e3c">f(k)</text><text x="170" y="60" font-size="8" fill="#c79100">sf(k)</text><text x="170" y="80" font-size="8" fill="#990000">(n+δ)k</text><text x="120" y="135" font-size="8" fill="#333">k*</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Quantity Theory of Money</div>
+    <div class="def">MV = PY. Money supply times velocity equals price level times real output. Assume V is constant and Y is at potential: ΔM% = ΔP%. Money is neutral in the long run — printing money raises prices one-for-one. The empirical relationship is loose in the short run but tight at high inflation horizons.</div>
+    <div class="why">Why it matters: the cleanest argument for long-run monetary neutrality — a near-certain MC question.</div>
+    <a href="econ205/cram-sheet.html" style="font-size:.8rem;">→ ECON Cram Sheet</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><text x="100" y="60" text-anchor="middle" font-size="26" font-family="serif" font-weight="700" fill="#c79100">MV = PY</text><text x="60" y="90" font-size="9" fill="#333">M = money</text><text x="60" y="103" font-size="9" fill="#333">V = velocity</text><text x="130" y="90" font-size="9" fill="#333">P = price</text><text x="130" y="103" font-size="9" fill="#333">Y = output</text><text x="100" y="125" text-anchor="middle" font-size="9" font-style="italic" fill="#990000">long run: ΔM% = ΔP%</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Comparative Advantage</div>
+    <div class="def">Ricardo's principle: a country gains from trade by specializing in the good with the lower **opportunity cost**, not the lower absolute cost. Even if one country is more productive at everything, both gain when each focuses where their relative cost is lowest. Trade expands the joint production possibilities frontier.</div>
+    <div class="why">Why it matters: trade questions hinge on opportunity-cost ratios, not absolute productivity — easy trap.</div>
+    <a href="econ205/problem-bank.html" style="font-size:.8rem;">→ Trade problems</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="30" y1="40" x2="120" y2="120" stroke="#388e3c" stroke-width="2"/><line x1="30" y1="80" x2="160" y2="120" stroke="#990000" stroke-width="2"/><text x="125" y="38" font-size="9" fill="#388e3c">A</text><text x="165" y="118" font-size="9" fill="#990000">B</text><text x="20" y="20" font-size="8" fill="#333">Wine</text><text x="160" y="135" font-size="8" fill="#333">Cloth</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Phillips Curve</div>
+    <div class="def">Short-run trade-off between unemployment and inflation: when unemployment falls below its natural rate, inflation accelerates. Long-run Phillips curve is vertical at the natural rate — there is no permanent trade-off, only adjustment around expected inflation. Supply shocks shift the short-run curve up (stagflation).</div>
+    <div class="why">Why it matters: connects AD-AS to monetary policy — appears whenever the question mentions Fed reaction.</div>
+    <a href="econ205/diagrams.html" style="font-size:.8rem;">→ Phillips Curve diagram</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><path d="M 40 30 Q 90 50 170 110" stroke="#990000" stroke-width="2" fill="none"/><line x1="100" y1="20" x2="100" y2="120" stroke="#5a0000" stroke-width="2" stroke-dasharray="3"/><text x="20" y="20" font-size="8" fill="#333">π</text><text x="180" y="135" font-size="8" fill="#333">u</text><text x="170" y="105" font-size="8" fill="#990000">SRPC</text><text x="105" y="35" font-size="8" fill="#5a0000">LRPC</text><text x="100" y="135" font-size="8" fill="#5a0000">u*</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Loanable Funds Market</div>
+    <div class="def">The market for borrowing and saving, with the real interest rate as price. Saving (supply) slopes upward; investment plus government deficits (demand) slopes downward. Equilibrium r equates desired saving with desired investment. Used to analyze fiscal policy, capital flows, and crowding out — the simplest model of the bond market.</div>
+    <div class="why">Why it matters: the workhorse for any "what happens to interest rates if..." question.</div>
+    <a href="econ205/diagrams.html" style="font-size:.8rem;">→ Loanable funds graph</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="40" y1="30" x2="170" y2="115" stroke="#388e3c" stroke-width="2"/><line x1="40" y1="115" x2="170" y2="30" stroke="#990000" stroke-width="2"/><circle cx="105" cy="73" r="4" fill="#333"/><text x="170" y="40" font-size="8" fill="#388e3c">S</text><text x="170" y="115" font-size="8" fill="#990000">D</text><text x="20" y="20" font-size="8" fill="#333">r</text><text x="180" y="135" font-size="8" fill="#333">LF</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Open-Economy Multiplier</div>
+    <div class="def">In a closed economy the spending multiplier is 1/(1−MPC). Once you allow for taxes and imports, the multiplier shrinks: 1/(1 − MPC(1−t) + MPM) where MPM is the marginal propensity to import. Imports leak demand abroad, taxes leak it to the government — both dampen the original spending impulse before it can re-circulate.</div>
+    <div class="why">Why it matters: open-economy fiscal questions almost always test whether you remember to include MPM.</div>
+    <a href="econ205/cram-sheet.html" style="font-size:.8rem;">→ Cram sheet</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><text x="100" y="40" text-anchor="middle" font-size="14" font-family="serif" fill="#388e3c">k = 1/(1−MPC)</text><text x="100" y="60" text-anchor="middle" font-size="9" fill="#333">↓ add taxes &amp; imports</text><text x="100" y="90" text-anchor="middle" font-size="13" font-family="serif" fill="#990000">k = 1/[1−MPC(1−t)+MPM]</text><text x="100" y="115" text-anchor="middle" font-size="9" font-style="italic" fill="#5a0000">leakages shrink k</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-econ">
+  <div>
+    <div class="pill tag-econ">ECON 205</div>
+    <div class="name">Exchange Rate Pass-through</div>
+    <div class="def">The fraction of an exchange-rate change that shows up in import prices. Full pass-through: a 10% currency depreciation raises imported-goods prices 10%. Partial pass-through is the empirical norm — firms absorb some of the move in margins to keep market share. Pass-through is faster for commodities, slower for differentiated consumer goods.</div>
+    <div class="why">Why it matters: ties exchange rates to inflation — the connector between open-economy and price-level questions.</div>
+    <a href="econ205/cram-sheet.html" style="font-size:.8rem;">→ Cram sheet</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="60" width="50" height="20" fill="#c79100" rx="3"/><text x="45" y="74" text-anchor="middle" font-size="9" fill="white" font-weight="700">↓ FX</text><polygon points="80,70 100,65 100,75" fill="#333"/><line x1="80" y1="70" x2="100" y2="70" stroke="#333" stroke-width="2"/><rect x="105" y="60" width="75" height="20" fill="#990000" rx="3"/><text x="142" y="74" text-anchor="middle" font-size="9" fill="white" font-weight="700">↑ import P</text><text x="100" y="105" text-anchor="middle" font-size="9" fill="#333">pass-through ≤ 100%</text></svg>
+  </div>
+</div>
+
+<!-- ============================ ACCT 410x ============================ -->
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Accrual Accounting</div>
+    <div class="def">Revenue is recognized when earned and expenses when incurred, regardless of when cash moves. The result: the income statement reflects economic activity in the period it occurred, but reported income usually differs from operating cash flow. Differences are absorbed by accrual accounts — A/R, A/P, inventory, deferred revenue, accrued expenses — on the balance sheet.</div>
+    <div class="why">Why it matters: the foundation premise — every adjusting-entry question depends on it.</div>
+    <a href="acct410x/cheat-sheet.html" style="font-size:.8rem;">→ Cheat sheet</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="40" width="70" height="60" fill="#fefaf3" stroke="#5a0000" rx="4"/><text x="55" y="62" text-anchor="middle" font-size="9" font-weight="700" fill="#5a0000">Earned</text><text x="55" y="80" text-anchor="middle" font-size="8" fill="#333">≠ Received</text><line x1="95" y1="70" x2="115" y2="70" stroke="#333" stroke-width="2"/><polygon points="115,65 125,70 115,75" fill="#333"/><rect x="130" y="40" width="50" height="60" fill="#fefaf3" stroke="#5a0000" rx="4"/><text x="155" y="62" text-anchor="middle" font-size="9" font-weight="700" fill="#5a0000">A/R</text><text x="155" y="80" text-anchor="middle" font-size="8" fill="#333">accrual</text><text x="100" y="125" text-anchor="middle" font-size="8" fill="#5a0000" font-style="italic">match revenue to period</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Cash Flow — Indirect Method</div>
+    <div class="def">Operating cash flow built by starting with net income and adjusting: add back non-cash expenses (depreciation, amortization), subtract gains and add losses on non-operating items, then adjust for changes in working capital (Δ A/R, Δ inventory, Δ A/P, etc.). The reverse-engineering converts accrual income into cash actually generated by operations.</div>
+    <div class="why">Why it matters: the most-tested ACCT topic — practice the working-capital sign rules until automatic.</div>
+    <a href="acct410x/walkthroughs.html" style="font-size:.8rem;">→ Walkthroughs</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="20" width="160" height="20" fill="#5a0000" rx="3"/><text x="100" y="34" text-anchor="middle" font-size="9" fill="white" font-weight="700">Net Income</text><text x="30" y="62" font-size="8" fill="#388e3c">+ Depreciation</text><text x="30" y="76" font-size="8" fill="#388e3c">+ Loss / − Gain</text><text x="30" y="90" font-size="8" fill="#990000">± Δ Working Cap</text><rect x="20" y="100" width="160" height="20" fill="#990000" rx="3"/><text x="100" y="114" text-anchor="middle" font-size="9" fill="white" font-weight="700">Operating CF</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Multi-Product CVP</div>
+    <div class="def">Cost-volume-profit analysis when a firm sells more than one product. Compute a **weighted-average contribution margin** using the sales mix, then break-even units = fixed costs / weighted-avg CM. Allocate that to each product by mix percentage. Sensitive to mix assumptions: a shift in product mix changes break-even even with no change in costs.</div>
+    <div class="why">Why it matters: classic exam trap — students forget to weight by mix and use a single product's CM.</div>
+    <a href="acct410x/trap-drills.html" style="font-size:.8rem;">→ Trap drills</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="30" y1="80" x2="180" y2="80" stroke="#990000" stroke-width="2"/><line x1="30" y1="120" x2="180" y2="40" stroke="#388e3c" stroke-width="2"/><line x1="30" y1="100" x2="180" y2="60" stroke="#c79100" stroke-width="2" stroke-dasharray="3"/><circle cx="125" cy="80" r="4" fill="#333"/><text x="20" y="20" font-size="8" fill="#333">$</text><text x="180" y="135" font-size="8" fill="#333">Q</text><text x="120" y="135" font-size="8" fill="#5a0000">BE*</text><text x="170" y="55" font-size="8" fill="#388e3c">Rev</text><text x="170" y="78" font-size="8" fill="#990000">FC+VC</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">FIFO vs LIFO</div>
+    <div class="def">Inventory cost-flow assumptions. **FIFO** (first-in, first-out) sends oldest costs to COGS — when prices rise, lower COGS, higher net income, higher ending inventory. **LIFO** sends newest costs to COGS — when prices rise, higher COGS, lower net income, lower taxes (US-only; banned under IFRS). Physical flow is unrelated; only the cost assignment differs.</div>
+    <div class="why">Why it matters: classic rising-price scenario — know the four signs (COGS, NI, Inv, Tax) cold.</div>
+    <a href="acct410x/cheat-sheet.html" style="font-size:.8rem;">→ Cheat sheet</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="40" width="70" height="80" fill="#fefaf3" stroke="#5a0000" rx="4"/><text x="55" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#5a0000">FIFO</text><text x="55" y="78" text-anchor="middle" font-size="8" fill="#333">↓COGS ↑NI</text><text x="55" y="92" text-anchor="middle" font-size="8" fill="#333">↑Inv ↑Tax</text><rect x="110" y="40" width="70" height="80" fill="#fefaf3" stroke="#5a0000" rx="4"/><text x="145" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#5a0000">LIFO</text><text x="145" y="78" text-anchor="middle" font-size="8" fill="#333">↑COGS ↓NI</text><text x="145" y="92" text-anchor="middle" font-size="8" fill="#333">↓Inv ↓Tax</text><text x="100" y="135" text-anchor="middle" font-size="8" font-style="italic" fill="#5a0000">prices rising</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Bond Premium vs Discount</div>
+    <div class="def">A bond issued at **premium** sells above par because its coupon rate exceeds the market rate; the premium amortizes down over the bond's life, reducing interest expense each period. A bond at **discount** sells below par — coupon < market — and the discount amortizes up, increasing interest expense. Effective-interest method: interest = carrying value × market rate.</div>
+    <div class="why">Why it matters: bond questions test whether you remember which direction carrying value moves each period.</div>
+    <a href="acct410x/walkthroughs.html" style="font-size:.8rem;">→ Walkthroughs</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="30" y1="70" x2="180" y2="70" stroke="#5a0000" stroke-width="1" stroke-dasharray="3"/><text x="180" y="68" font-size="7" fill="#5a0000">par</text><line x1="30" y1="40" x2="180" y2="70" stroke="#990000" stroke-width="2"/><line x1="30" y1="100" x2="180" y2="70" stroke="#388e3c" stroke-width="2"/><text x="170" y="40" font-size="8" fill="#990000">Premium</text><text x="170" y="105" font-size="8" fill="#388e3c">Discount</text><text x="180" y="135" font-size="8" fill="#333">time</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Depreciation — 3 Methods</div>
+    <div class="def">**Straight-line:** (cost − salvage) / useful life — equal each year. **Units-of-production:** (cost − salvage) × (units this period / total units) — varies with use. **Double-declining-balance:** 2 × (1/life) × beginning book value — accelerated, ignores salvage until BV hits it. All three yield the same lifetime expense; they differ only in the *timing* of that expense.</div>
+    <div class="why">Why it matters: a guaranteed numerical question — DDB sign in early years is the trap.</div>
+    <a href="acct410x/cheat-sheet.html" style="font-size:.8rem;">→ Cheat sheet</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="30" y1="20" x2="30" y2="120" stroke="#333"/><line x1="30" y1="120" x2="180" y2="120" stroke="#333"/><line x1="40" y1="80" x2="170" y2="80" stroke="#388e3c" stroke-width="2"/><path d="M 40 30 Q 80 80 170 110" stroke="#990000" stroke-width="2" fill="none"/><polyline points="40,60 70,90 100,75 130,95 160,70" stroke="#c79100" stroke-width="2" fill="none"/><text x="170" y="78" font-size="7" fill="#388e3c">SL</text><text x="170" y="108" font-size="7" fill="#990000">DDB</text><text x="170" y="65" font-size="7" fill="#c79100">UoP</text><text x="20" y="20" font-size="8" fill="#333">$</text><text x="170" y="135" font-size="8" fill="#333">yr</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Allowance for Doubtful Accounts</div>
+    <div class="def">A contra-asset account that estimates A/R the firm doesn't expect to collect. Set up via period-end adjusting entry: debit Bad Debt Expense, credit Allowance. When a specific account is written off: debit Allowance, credit A/R — no income-statement impact. Two estimation methods: percent-of-sales (focuses on expense) and aging-of-receivables (focuses on net A/R).</div>
+    <div class="why">Why it matters: students miss that write-offs *don't* hit the income statement under the allowance method.</div>
+    <a href="acct410x/trap-drills.html" style="font-size:.8rem;">→ Trap drills</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><line x1="100" y1="20" x2="100" y2="120" stroke="#333" stroke-width="1.5"/><line x1="40" y1="35" x2="160" y2="35" stroke="#333" stroke-width="1.5"/><text x="100" y="28" text-anchor="middle" font-size="9" font-weight="700" fill="#5a0000">Allowance for D/A</text><text x="70" y="50" font-size="8" fill="#990000">Dr</text><text x="130" y="50" font-size="8" fill="#388e3c">Cr</text><text x="70" y="68" font-size="8" fill="#333">w/o</text><text x="130" y="68" font-size="8" fill="#333">est.</text><text x="100" y="115" text-anchor="middle" font-size="7" fill="#5a0000" font-style="italic">contra-asset</text></svg>
+  </div>
+</div>
+
+<div class="gloss-card tag-acct">
+  <div>
+    <div class="pill tag-acct">ACCT 410x</div>
+    <div class="name">Statement of Cash Flows — O/I/F</div>
+    <div class="def">Cash flows are partitioned into three categories. **Operating:** cash from running the business (collections from customers, payments to suppliers and employees). **Investing:** cash from buying/selling long-term assets (PP&E, securities). **Financing:** cash from raising capital or returning it (debt issuance, equity issuance, dividends, buybacks). Together they reconcile beginning to ending cash.</div>
+    <div class="why">Why it matters: classification questions — interest paid is operating but dividends paid is financing.</div>
+    <a href="acct410x/walkthroughs.html" style="font-size:.8rem;">→ Walkthroughs</a>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#fff"/><rect x="20" y="20" width="160" height="30" fill="#990000" rx="3"/><text x="100" y="40" text-anchor="middle" font-size="11" fill="#FFC72C" font-weight="700">Operating</text><rect x="20" y="55" width="160" height="30" fill="#c79100" rx="3"/><text x="100" y="75" text-anchor="middle" font-size="11" fill="white" font-weight="700">Investing</text><rect x="20" y="90" width="160" height="30" fill="#5a0000" rx="3"/><text x="100" y="110" text-anchor="middle" font-size="11" fill="#FFC72C" font-weight="700">Financing</text></svg>
+  </div>
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  const buttons = document.querySelectorAll('.gloss-filter button');
+  const cards = document.querySelectorAll('.gloss-card');
+  buttons.forEach(b => b.addEventListener('click', () => {
+    buttons.forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    const f = b.dataset.filter;
+    cards.forEach(c => {
+      if (f === 'all') { c.style.display = ''; return; }
+      c.style.display = c.classList.contains('tag-' + f) ? '' : 'none';
+    });
+  }));
+});
+</script>

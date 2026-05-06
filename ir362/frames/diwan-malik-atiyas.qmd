@@ -4,6 +4,18 @@ subtitle: "Frame 5 of 7 · MENA's economic stagnation is a feature of the politi
 order: 5
 ---
 
+<div class="frame-header">
+  <div class="frame-portrait">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100" height="100" aria-label="DMA monogram"><circle cx="50" cy="50" r="50" fill="#990000"/><text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#FFC72C" font-family="Inter, sans-serif" font-weight="800" font-size="28" letter-spacing="-1">DMA</text></svg>
+  </div>
+  <div class="frame-meta">
+    <div class="frame-author">Diwan, Malik & Atiyas</div>
+    <div class="frame-work">"Crony Capitalism in the Middle East" (2019)</div>
+    <div class="frame-tagline">Stagnation is a feature of the political settlement, not a bug.</div>
+  </div>
+</div>
+
+
 ::: {.callout-tip}
 **When to deploy:** Q5 (political economy of MENA), Q2 (why economic grievances drove 2011 but reform stalled), any prompt about reform, IMF, or development.
 :::

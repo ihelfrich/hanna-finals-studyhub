@@ -5,6 +5,10 @@ description: "All 17 study-guide questions converted into exam-ready essay outli
 order: 1
 ---
 
+```{=html}
+<img src="../assets/img/banners/ir362-banner.svg" alt="IR 362 banner with regional actor map" style="width:100%;border-radius:14px;margin-bottom:1.5rem;box-shadow:0 8px 24px rgba(153,0,0,0.15);" />
+```
+
 ::: {.callout-warning appearance="default"}
 **Heaviest weight on your transcript this term — 65% of your final grade.** Essay-format. Memorization of names + dates is required. Every page on this site is built to serve this exam.
 :::

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0000"/>
+      <stop offset="60%" stop-color="#5a0000"/>
+      <stop offset="100%" stop-color="#990000"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#g3)"/>
+  <!-- Three statement boxes flowing -->
+  <g font-family="Inter, sans-serif">
+    <!-- Income Statement -->
+    <rect x="700" y="55" width="120" height="50" fill="rgba(255,199,44,0.16)" stroke="rgba(255,199,44,0.55)" stroke-width="1.4" rx="6"/>
+    <text x="760" y="78" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Income</text>
+    <text x="760" y="93" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Statement</text>
+    <!-- Arrow -->
+    <path d="M 825 80 L 855 80 L 850 76 M 855 80 L 850 84" stroke="#FFC72C" stroke-width="1.5" fill="none"/>
+    <!-- Retained Earnings -->
+    <rect x="860" y="55" width="120" height="50" fill="rgba(255,199,44,0.16)" stroke="rgba(255,199,44,0.55)" stroke-width="1.4" rx="6"/>
+    <text x="920" y="78" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Retained</text>
+    <text x="920" y="93" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Earnings</text>
+    <!-- Arrow down -->
+    <path d="M 920 110 L 920 145 L 916 140 M 920 145 L 924 140" stroke="#FFC72C" stroke-width="1.5" fill="none"/>
+    <!-- Balance Sheet -->
+    <rect x="860" y="150" width="120" height="50" fill="rgba(255,199,44,0.16)" stroke="rgba(255,199,44,0.55)" stroke-width="1.4" rx="6"/>
+    <text x="920" y="173" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Balance</text>
+    <text x="920" y="188" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Sheet</text>
+    <!-- Arrow left -->
+    <path d="M 855 175 L 825 175 L 830 171 M 825 175 L 830 179" stroke="#FFC72C" stroke-width="1.5" fill="none"/>
+    <!-- Cash Flow -->
+    <rect x="700" y="150" width="120" height="50" fill="rgba(255,199,44,0.16)" stroke="rgba(255,199,44,0.55)" stroke-width="1.4" rx="6"/>
+    <text x="760" y="173" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Statement of</text>
+    <text x="760" y="188" fill="#FFC72C" font-size="11" font-weight="700" text-anchor="middle">Cash Flows</text>
+    <!-- Arrow up to close cycle -->
+    <path d="M 760 145 L 760 110 L 756 115 M 760 110 L 764 115" stroke="#FFC72C" stroke-width="1.5" fill="none"/>
+    <text x="1000" y="135" fill="rgba(255,255,255,0.55)" font-size="10" font-style="italic">closed cycle</text>
+  </g>
+  <!-- Title -->
+  <g font-family="Inter, sans-serif" fill="white">
+    <text x="60" y="100" font-size="44" font-weight="800" letter-spacing="-0.02em">ACCT 410x — Foundations of Accounting</text>
+    <text x="60" y="135" font-size="20" font-weight="500" fill="rgba(255,255,255,0.88)">Leventhal · USC · Spring 2026 · "User-oriented" exam</text>
+  </g>
+  <rect x="60" y="60" width="60" height="5" fill="#FFC72C" rx="2"/>
+</svg>

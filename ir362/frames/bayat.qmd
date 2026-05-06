@@ -4,6 +4,18 @@ subtitle: "Frame 7 of 7 · The Arab Spring had revolutions but no revolutionarie
 order: 7
 ---
 
+<div class="frame-header">
+  <div class="frame-portrait">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100" height="100" aria-label="AB monogram"><circle cx="50" cy="50" r="50" fill="#990000"/><text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#FFC72C" font-family="Inter, sans-serif" font-weight="800" font-size="40" letter-spacing="-1">AB</text></svg>
+  </div>
+  <div class="frame-meta">
+    <div class="frame-author">Asef Bayat</div>
+    <div class="frame-work">"Revolution without Revolutionaries" (2017)</div>
+    <div class="frame-tagline">The Arab Spring had revolutions but no revolutionaries — institutions outlived the fallen.</div>
+  </div>
+</div>
+
+
 ::: {.callout-tip}
 **When to deploy:** Q1 (why Arab Spring outcomes disappointed), Q2 (continuity of institutions), Q4 (ideological vacuum and the rise of populism). Use to explain the *cultural* and *ideological* layer Bellin and Brownlee leave thin.
 :::

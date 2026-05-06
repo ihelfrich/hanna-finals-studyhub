@@ -35,6 +35,8 @@ website:
         text: "🃏 Flashcards"
       - href: connections.qmd
         text: "🔗 Connections"
+      - href: glossary.qmd
+        text: "📖 Glossary"
       - text: "IR 362"
         menu:
           - href: ir362/index.qmd
