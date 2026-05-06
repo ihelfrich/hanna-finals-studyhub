@@ -29,6 +29,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: tonight.qmd
+        text: "🎯 Tonight"
       - href: flashcards.qmd
         text: "🃏 Flashcards"
       - href: connections.qmd
@@ -45,6 +47,8 @@ website:
             text: Nash Equilibrium & the Carousel
           - href: ir362/syria-collapse.qmd
             text: Syria — Alliance & 2024 Collapse
+          - href: ir362/mock-essays.qmd
+            text: "📝 Mock Essays + Sample Answers"
           - href: ir362/concept-graph.qmd
             text: "🗺️ Concept Graph"
           - href: ir362/frames/index.qmd
@@ -57,6 +61,8 @@ website:
             text: Overview & 5-Day Plan
           - href: econ205/cram-sheet.qmd
             text: One-Page Cram Sheet
+          - href: econ205/diagrams.qmd
+            text: Diagram Bank
           - href: econ205/active-recall.qmd
             text: Active Recall Bank
           - href: econ205/mock-exam-a.qmd
@@ -71,6 +77,8 @@ website:
             text: Overview & Strategy
           - href: acct410x/cheat-sheet.qmd
             text: Cheat Sheet
+          - href: acct410x/walkthroughs.qmd
+            text: Transaction Walkthroughs
           - href: acct410x/mock-final.qmd
             text: Mock Final
           - href: acct410x/trap-drills.qmd
@@ -108,6 +116,7 @@ website:
       contents:
         - econ205/index.qmd
         - econ205/cram-sheet.qmd
+        - econ205/diagrams.qmd
         - section: "Practice"
           contents:
             - econ205/active-recall.qmd
@@ -118,6 +127,7 @@ website:
       contents:
         - acct410x/index.qmd
         - acct410x/cheat-sheet.qmd
+        - acct410x/walkthroughs.qmd
         - acct410x/mock-final.qmd
         - acct410x/trap-drills.qmd
         - acct410x/day-of.qmd

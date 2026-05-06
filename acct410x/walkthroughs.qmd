@@ -1,0 +1,453 @@
+---
+title: "ACCT 410x — Transaction Walkthroughs"
+subtitle: "From event → 4 statements → manager signal"
+description: "Ten transactions, traced through IS / RE / BS / SCF, with the user-oriented payoff line"
+order: 3
+---
+
+## Why this page exists
+
+Leventhal's 410x is a **user-oriented** course. The grader does not want to see your debits and credits — they want to see that you understand *what the number means for a manager reading the financials*. Every transaction sends a signal: about liquidity, about profitability, about the firm's ability to keep the lights on next quarter.
+
+A "user-oriented" lens reframes each transaction with three questions in mind: (1) **does cash actually move?** (because cash pays bills, and accrual income does not), (2) **does this hit the income statement now, later, or never?** (timing is the entire game in accrual accounting), and (3) **what does an outsider — a CFO, lender, or analyst — infer about the business from this entry?** A $30,000 credit sale and a $30,000 cash sale produce the same revenue line, but they tell totally different liquidity stories. A "loss on sale" looks like bad news on the income statement but is fully non-cash on the SCF. The journal entry is a bookkeeping artifact; the *signal* is what matters on the exam.
+
+Read each walkthrough with the manager's eye: what would you do differently *next quarter* if you saw this entry on your firm's books?
+
+## Three-statement diagram
+
+```{mermaid}
+flowchart LR
+  IS[Income Statement<br/>Net Income] --> RE[Retained Earnings<br/>RE+ = NI − Dividends]
+  RE --> BS[Balance Sheet<br/>A = L + E]
+  BS --> SCF[Statement of Cash Flows<br/>Δ Cash = OCF + ICF + FCF]
+  IS -.non-cash items.-> SCF
+  BS -.changes in WC.-> SCF
+  SCF --> CASH[Ending Cash<br/>ties back to BS]
+```
+
+The income statement feeds retained earnings. RE plugs into stockholders' equity on the balance sheet. The balance sheet supplies the *changes* (in AR, inventory, AP, etc.) that the indirect-method SCF uses to translate accrual NI into cash. Ending cash on the SCF must tie to cash on the balance sheet — that is your single best self-check.
+
+## Five questions a CFO asks of every transaction
+
+1. **Does this affect liquidity?** Is cash actually moving, or is this an accrual that will hit cash later (or never)?
+2. **Does this hit profitability ratios this quarter?** Or does revenue/expense recognition land in a different period than the cash?
+3. **What's the leverage signal?** Did total liabilities rise relative to equity? Will debt covenants notice?
+4. **Is the working capital cycle stretching or tightening?** Are AR days, inventory days, or AP days drifting?
+5. **What does an external user infer?** Would a lender, an investor, or an analyst see this entry as a positive, negative, or neutral signal about the firm's quality of earnings?
+
+---
+
+# The 10 walkthroughs
+
+### Walkthrough 1: Issue common stock for cash
+
+**Scenario.** A startup raises seed capital from founders to fund operations. The firm authorizes and issues new shares directly to investors at par.
+
+**Transaction:** Issued $100,000 of common stock at par for cash.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+No effect. Stock issuance is a capital transaction with owners, not an operating activity. NI impact: **$0**.
+
+#### 2. Retained Earnings
+No effect. RE only moves through NI and dividends. Contributed capital is a separate equity bucket.
+
+#### 3. Balance Sheet
+Cash (asset) **+$100,000**. Common stock (equity) **+$100,000**.
+Check: Total Assets +$100,000 = Total Liabilities $0 + Total Equity +$100,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Financing inflow +$100,000.** Not operating, not investing. Indirect method starts at NI ($0 effect here), then adds the $100k under Financing.
+
+#### 5. What this means for a manager
+Cash is up but the firm has not earned anything — capital has been raised, not generated. A CFO reads this as a runway extension, not a profitability event. External users will note the dilution and ask: what's the burn rate that justified this raise?
+
+:::
+
+::: {.callout-warning}
+**Trap:** Treating the $100k as revenue. It is contributed capital, never touches the income statement.
+:::
+
+---
+
+### Walkthrough 2: Buy equipment, depreciate it
+
+**Scenario.** A growing manufacturer purchases a new CNC machine to expand production capacity. The machine has a 5-year useful life with no salvage value; the firm uses straight-line depreciation.
+
+**Transaction:** Purchased equipment for $50,000 cash. Year 1: record one full year of depreciation ($10,000).
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+At purchase: no effect. **Depreciation expense $10,000** in Year 1 reduces NI. NI impact: **−$10,000**.
+
+#### 2. Retained Earnings
+RE down $10,000 via NI flow-through.
+
+#### 3. Balance Sheet
+At purchase: Cash −$50,000, Equipment +$50,000 (asset swap, total unchanged).
+End of Year 1: Accumulated depreciation +$10,000 (contra-asset), so net PP&E = $40,000. Equity (RE) −$10,000.
+Check: Total Assets −$10,000 = Total Liabilities $0 + Total Equity −$10,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+Purchase: **Investing outflow −$50,000**. Depreciation is **non-cash** — under indirect method, it is **added back to NI** in Operating. So OCF effect from depreciation is +$10,000 (offsetting the −$10k inside NI). Net cash impact in Year 1: **−$50,000** (all investing).
+
+#### 5. What this means for a manager
+The full $50k cash hit is investing — capacity-building, not a recurring expense. Depreciation smooths the cost across the asset's useful life on the IS, but a manager should never confuse the IS expense with cash drain. The cash was gone in Year 0; what shows up on the IS in Years 1–5 is just allocation.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Forgetting depreciation is non-cash. On the SCF indirect method, depreciation is **always** added back to NI in operating.
+:::
+
+---
+
+### Walkthrough 3: Revenue on account (credit sale)
+
+**Scenario.** A B2B software firm closes a $30,000 deal with a corporate customer on net-30 terms. The product is delivered today; payment is due in 30 days.
+
+**Transaction:** Recorded $30,000 of revenue on account.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+**Revenue +$30,000.** NI impact: **+$30,000** (ignoring COGS for this isolated walkthrough — see #9 for the composite).
+
+#### 2. Retained Earnings
+RE up $30,000 via NI.
+
+#### 3. Balance Sheet
+Accounts Receivable (asset) **+$30,000**. RE (equity) **+$30,000**. Cash unchanged.
+Check: Total Assets +$30,000 = Total Liabilities $0 + Total Equity +$30,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Zero cash impact.** Indirect method: NI +$30k, but Δ AR is +$30k (an increase in AR is **subtracted** from NI in operating). Net OCF effect from this transaction: **$0**.
+
+#### 5. What this means for a manager
+The income statement shows profitability, the cash flow statement shows reality. A firm growing through credit sales can post stellar NI while bleeding cash. The signal: watch the AR balance. If revenue grows faster than collections, working capital is being financed by the firm itself — and lenders will notice.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Thinking revenue recognition implies cash. Accrual revenue is recognized when **earned**, not when **collected**.
+:::
+
+---
+
+### Walkthrough 4: Collect on the AR
+
+**Scenario.** Thirty days after the credit sale in #3, the customer wires $20,000 against their balance. (The remaining $10,000 will pay next quarter.)
+
+**Transaction:** Collected $20,000 from customer on account.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+**No effect.** Revenue was already recognized in #3. Collection is not a new earnings event.
+
+#### 2. Retained Earnings
+No effect.
+
+#### 3. Balance Sheet
+Cash +$20,000, AR −$20,000. Asset-side swap; totals unchanged.
+Check: Total Assets $0 = Total Liabilities $0 + Total Equity $0. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Operating inflow +$20,000.** Indirect method: NI $0, but Δ AR is −$20k (a decrease in AR is **added** to NI in operating). OCF effect: **+$20,000**.
+
+#### 5. What this means for a manager
+This is the moment accrual revenue becomes real money. A CFO compares the collection lag against industry norms — if days-sales-outstanding (DSO) is creeping up, that is a quality-of-earnings warning sign. Collections, not bookings, fund payroll.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Double-counting. The revenue already hit NI in period 1; the cash collection is an OCF event only. Booking it as revenue again is a classic error.
+:::
+
+---
+
+### Walkthrough 5: Prepaid insurance
+
+**Scenario.** A retailer pays its annual property insurance premium up front to lock in the rate and earn a small discount.
+
+**Transaction:** Paid $12,000 cash for 12 months of insurance coverage. Monthly: recognize $1,000 of insurance expense.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+At payment: **no effect.** Each month: **insurance expense $1,000.** Year-1 NI impact (12 months): **−$12,000**.
+
+#### 2. Retained Earnings
+RE down $1,000/month as expense flows through NI.
+
+#### 3. Balance Sheet
+At payment: Cash −$12,000, Prepaid Insurance +$12,000 (asset swap).
+Each month: Prepaid Insurance −$1,000, RE −$1,000.
+Check at month-end 1: Total Assets −$1,000 = Total Liabilities $0 + Total Equity −$1,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+At payment: **Operating outflow −$12,000.** The cash leaves immediately. Each month, the $1,000 expense is non-cash (already paid), so under indirect method: NI −$1,000 offset by Δ Prepaid Insurance −$1,000 (which is **added back** to NI). OCF effect each month: $0 after the initial outflow.
+
+#### 5. What this means for a manager
+The payment is an operating cash outflow today; the expense is smeared over 12 months on the IS. This is the matching principle in action. A manager who confuses payment timing with expense timing will misread monthly profitability.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Hitting the full $12,000 as an expense at payment. That violates matching — coverage extends across 12 months, so the expense must be allocated.
+:::
+
+---
+
+### Walkthrough 6: Accrued wages
+
+**Scenario.** Year-end falls on a Wednesday. Employees have worked Monday–Wednesday but won't be paid until Friday's payroll. The firm must accrue the wages earned but not yet paid.
+
+**Transaction:** Recorded $8,000 of accrued wages payable at year-end.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+**Wages expense +$8,000.** NI impact: **−$8,000**.
+
+#### 2. Retained Earnings
+RE down $8,000 via NI.
+
+#### 3. Balance Sheet
+Wages Payable (liability) **+$8,000**. RE (equity) **−$8,000**. No cash movement.
+Check: Total Assets $0 = Total Liabilities +$8,000 + Total Equity −$8,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Zero cash impact.** Indirect method: NI −$8k, but Δ Wages Payable is +$8k (an increase in a current liability is **added** to NI in operating). Net OCF effect: **$0**.
+
+#### 5. What this means for a manager
+Profitability has dropped this quarter even though no cash moved — that is accrual matching forcing the IS to tell the truth about labor costs incurred. The CFO sees a current liability that must be paid in days. External users read accrued wages as a near-term cash claim against next period's cash.
+
+:::
+
+::: {.callout-warning}
+**Trap:** "Accrued" sounds like cash to many students. It is the *opposite* — accrued = expense recognized **without** cash movement yet.
+:::
+
+---
+
+### Walkthrough 7: Sell equipment at a loss (the indirect-method gotcha)
+
+**Scenario.** The firm sells an old delivery van. It was purchased years ago for $20,000 and has $14,000 of accumulated depreciation. The buyer pays $5,000 cash.
+
+**Transaction:** Sold equipment (cost $20,000, accum. dep. $14,000) for $5,000 cash. Book value = $6,000 → **Loss on sale = $1,000**.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+**Loss on sale of equipment −$1,000.** NI impact: **−$1,000**.
+
+#### 2. Retained Earnings
+RE down $1,000 via NI.
+
+#### 3. Balance Sheet
+Cash +$5,000. Equipment (gross) −$20,000. Accum. depreciation −$14,000 (contra-asset removed). Net asset change: +$5,000 − $20,000 + $14,000 = **−$1,000**. RE −$1,000.
+Check: Total Assets −$1,000 = Total Liabilities $0 + Total Equity −$1,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Investing inflow +$5,000** (the full sale proceeds, regardless of book value). Under indirect method, the **$1,000 loss is added back to NI in operating** — because it is a non-cash item from an operations standpoint; the cash impact is captured entirely in investing. Net cash impact: **+$5,000**.
+
+#### 5. What this means for a manager
+The loss is an accounting artifact (book value > sale price), not a cash event. A CFO sees a $5,000 cash inflow from divestiture and a small IS hit that signals the asset was on the books at too-high a value. The lesson for external users: do not subtract the loss from "real" cash generated — the SCF separates it out for exactly this reason.
+
+:::
+
+::: {.callout-warning}
+**Trap:** This is THE indirect-method exam trap. Students forget to add back the loss (or subtract gains). The rule: **gains from non-operating asset sales → subtract from NI; losses → add back to NI** in the operating section. Cash from the sale itself goes in investing.
+:::
+
+---
+
+### Walkthrough 8: Issue bonds at a premium
+
+**Scenario.** The firm issues 10-year bonds with a stated coupon of 6% in a market where prevailing rates are 5%. Because the coupon exceeds the market rate, investors pay more than face value.
+
+**Transaction:** Issued $200,000 face value of bonds at 102 — proceeds = $204,000.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+**No effect at issuance.** Over the life of the bond, the $4,000 premium amortizes against interest expense (reducing reported interest expense each period).
+
+#### 2. Retained Earnings
+No effect at issuance.
+
+#### 3. Balance Sheet
+Cash **+$204,000**. Bonds Payable **+$200,000** (face). Premium on Bonds Payable **+$4,000** (added to bonds payable to get carrying value of $204,000).
+Check: Total Assets +$204,000 = Total Liabilities +$204,000 + Total Equity $0. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Financing inflow +$204,000.** The full proceeds — face plus premium — go in financing.
+
+#### 5. What this means for a manager
+The premium tells you the firm's coupon is **more generous** than what the market demands today — investors paid extra for the higher cash interest. Effective cost of debt is **lower** than the 6% stated rate (it equals the market 5%). External users read a premium as either (a) the firm locked in attractive terms or (b) market rates fell after the bonds were designed.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Premium vs. discount direction. Memorize: **coupon > market = premium** (bond sells above par). **Coupon < market = discount** (bond sells below par). The firm's effective borrowing cost is always the **market rate**, not the coupon.
+:::
+
+---
+
+### Walkthrough 9: Inventory purchase + sale (composite)
+
+**Scenario.** A retailer stocks holiday inventory on credit, then sells most of it before quarter-end on store-credit terms.
+
+**Transaction:** (a) Bought $40,000 of inventory on account. (b) Sold inventory costing $25,000 for $40,000 on account.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+Purchase: no effect.
+Sale: **Sales revenue +$40,000**, **COGS −$25,000**. **Gross margin +$15,000.** NI impact: **+$15,000**.
+
+#### 2. Retained Earnings
+RE up $15,000 via NI.
+
+#### 3. Balance Sheet
+After purchase: Inventory +$40,000, AP +$40,000.
+After sale: Inventory −$25,000, AR +$40,000, RE +$15,000.
+Net effect: Inventory **+$15,000**, AR **+$40,000**, AP **+$40,000**, RE **+$15,000**.
+Check: Total Assets +$55,000 = Total Liabilities +$40,000 + Total Equity +$15,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+**Zero cash impact** (everything was on credit). Indirect method: NI +$15k; Δ Inventory +$15k (subtract from NI); Δ AR +$40k (subtract from NI); Δ AP +$40k (add to NI). Net OCF: $15k − $15k − $40k + $40k = **$0**.
+
+#### 5. What this means for a manager
+A profitable quarter on paper, with **zero cash to show for it**. Working capital absorbed everything: AR financed the customer, the firm financed itself with AP. A CFO watching this pattern asks: when does AR start collecting and when does AP come due? Mismatched timing = a cash crunch even while NI looks healthy.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Forgetting that COGS lags purchase. You only expense the cost of inventory **when sold**, not when bought. The unsold $15,000 stays on the balance sheet as an asset.
+:::
+
+---
+
+### Walkthrough 10: Declare a cash dividend
+
+**Scenario.** The board declares a quarterly cash dividend on December 15, payable on January 30 to shareholders of record on December 31.
+
+**Transaction:** Declared a $15,000 cash dividend; will be paid next quarter.
+
+::: {.panel-tabset}
+
+#### 1. Income Statement
+**No effect.** Dividends are not an expense — they are a distribution of earnings to owners.
+
+#### 2. Retained Earnings
+**RE −$15,000.** Dividends reduce RE directly, not through NI.
+
+#### 3. Balance Sheet
+Dividends Payable (liability) **+$15,000**. RE (equity) **−$15,000**. No cash movement at declaration.
+Check: Total Assets $0 = Total Liabilities +$15,000 + Total Equity −$15,000. **Balances.**
+
+#### 4. Statement of Cash Flows
+**No cash impact at declaration.** When paid next quarter: **Financing outflow −$15,000.**
+
+#### 5. What this means for a manager
+The signal is twofold: (a) the firm is committing to return capital, which means management believes near-term cash flow is sufficient; (b) external users read a dividend declaration as a credible signal of earnings quality — managers do not initiate dividends they expect to cut. The cash claim sits on the balance sheet as a current liability until paid.
+
+:::
+
+::: {.callout-warning}
+**Trap:** Treating declaration as a cash outflow. The cash leaves only at **payment**. Declaration creates a liability, payment satisfies it.
+:::
+
+---
+
+# Mini cumulative drill
+
+Predict the impact of each transaction on **Net Income**, **Total Assets**, and **Cash**. Use +, −, or 0.
+
+1. Received $5,000 cash in advance from a customer for services to be performed next month.
+2. Paid $2,000 of accounts payable.
+3. Recorded $3,000 of depreciation on factory equipment.
+4. Wrote off a $1,500 accounts receivable as uncollectible (firm uses the allowance method, allowance already exists).
+5. Repurchased $10,000 of treasury stock for cash.
+
+<details>
+<summary><strong>Click for answers</strong></summary>
+
+| # | Transaction | NI | Total Assets | Cash |
+|---|---|---|---|---|
+| 1 | Cash received in advance | **0** (unearned revenue is a liability) | **+$5,000** | **+$5,000** |
+| 2 | Pay AP | **0** | **−$2,000** | **−$2,000** |
+| 3 | Depreciation | **−$3,000** | **−$3,000** (accum. dep. up) | **0** (non-cash) |
+| 4 | Write off AR (allowance method) | **0** (allowance already absorbed the hit) | **0** (AR down, allowance down — both contra) | **0** |
+| 5 | Treasury stock repurchase | **0** | **−$10,000** | **−$10,000** (financing outflow) |
+
+</details>
+
+---
+
+# Composite year-end exam-style problem
+
+**Scenario.** Bluebird Co. begins Q4 with retained earnings of $80,000 and cash of $40,000. During the quarter, the following six transactions occur:
+
+1. Issued additional common stock for $50,000 cash.
+2. Purchased manufacturing equipment for $30,000 cash; useful life 10 years, straight-line, no salvage. Record one quarter (3 months) of depreciation at year-end.
+3. Made credit sales of $120,000; cost of goods sold was $70,000. Inventory came from existing stock.
+4. Collected $90,000 on accounts receivable.
+5. Paid $25,000 of operating expenses in cash.
+6. Declared (but did not pay) a $5,000 cash dividend at year-end.
+
+**Compute:** (a) ending Net Income for the quarter, (b) ending Retained Earnings, (c) the *change* in total assets, (d) net cash from operating activities (indirect method).
+
+<details>
+<summary><strong>Click for full worked solution</strong></summary>
+
+**(a) Net Income**
+
+| Item | Amount |
+|---|---|
+| Sales revenue | +$120,000 |
+| COGS | −$70,000 |
+| Operating expenses (cash) | −$25,000 |
+| Depreciation: $30,000 / 10 yrs × 3/12 = | −$750 |
+| **Net Income** | **+$24,250** |
+
+**(b) Ending Retained Earnings**
+
+Beginning RE $80,000 + NI $24,250 − Dividends declared $5,000 = **$99,250**.
+
+**(c) Change in Total Assets**
+
+| Source | Δ Cash | Δ Other Assets |
+|---|---|---|
+| Stock issuance | +$50,000 | — |
+| Equipment purchase | −$30,000 | +$30,000 (PP&E gross) |
+| Credit sales | — | +$120,000 (AR) |
+| COGS | — | −$70,000 (Inventory) |
+| AR collection | +$90,000 | −$90,000 (AR) |
+| Op-ex paid | −$25,000 | — |
+| Depreciation | — | −$750 (accum. dep.) |
+| **Totals** | **+$85,000** | **−$10,750** |
+
+**Δ Total Assets = +$85,000 − $10,750 = +$74,250.**
+
+Cross-check via the accounting equation: Δ Liabilities = +$5,000 (dividends payable). Δ Equity = +$50,000 (stock) + $24,250 (NI) − $5,000 (dividends) = **+$69,250**. Δ L + Δ E = $5,000 + $69,250 = **$74,250.** ✓
+
+**(d) Net Cash from Operating Activities (indirect method)**
+
+| Item | Amount |
+|---|---|
+| Net Income | $24,250 |
+| + Depreciation (non-cash) | +$750 |
+| − Δ AR ($120k sales − $90k collected = +$30k AR) | −$30,000 |
+| + Δ Inventory ($70k decrease — sold from existing stock) | +$70,000 |
+| **Net cash from operations** | **+$65,000** |
+
+(Stock issuance is financing; equipment is investing; dividend declaration creates a liability but no cash flow yet.)
+
+**Manager takeaway.** Bluebird looks profitable ($24k NI) but generated $65k of operating cash mostly by drawing down inventory. Once inventory is replenished, OCF will compress. The CFO should ask: is this a sustainable cash run, or did we just liquidate the warehouse?
+
+</details>

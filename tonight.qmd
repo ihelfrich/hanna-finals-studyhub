@@ -1,0 +1,143 @@
+---
+title: "🎯 Tonight's Plan"
+subtitle: "What to do right now, given how many days you have"
+description: "A daily-updated study sequencer"
+toc: false
+---
+
+::: {.callout-tip}
+**Open this page first thing every morning.** It auto-generates your priority sequence based on how close each final is.
+:::
+
+```{=html}
+<style>
+.day-block { border: 1px solid var(--bs-border-color); border-radius: 12px; padding: 1.2rem 1.4rem; margin: 1rem 0; }
+.day-block.urgent { border-left: 6px solid #b71c1c; background: linear-gradient(180deg, rgba(183,28,28,0.06), transparent); }
+.day-block.upcoming { border-left: 6px solid #FFC72C; background: linear-gradient(180deg, rgba(255,199,44,0.06), transparent); }
+.day-block.distant { border-left: 6px solid #2e7d32; background: linear-gradient(180deg, rgba(46,125,50,0.04), transparent); }
+.day-block h3 { margin-top: 0; }
+.day-block .meta { font-size: .9rem; color: var(--bs-secondary-color); }
+.day-block ol { margin: .5rem 0 .25rem 1.2rem; }
+.day-block li { margin: .35rem 0; }
+.checkbox { margin-right: .4rem; }
+</style>
+
+<div id="tonight-plan"></div>
+
+<script>
+(function(){
+  const finals = [
+    { name: "ECON 205 (Pérez)", date: "2026-05-11T14:00:00", color: "primary", url: "econ205/" },
+    { name: "ACCT 410x (Leventhal)", date: "2026-05-13T09:00:00", color: "secondary", url: "acct410x/", tbd: true },
+    { name: "IR 362 (Hammad)", date: "2026-05-14T09:00:00", color: "primary", url: "ir362/", tbd: true }
+  ];
+  const now = new Date();
+  finals.forEach(f => {
+    f.daysOut = Math.ceil((new Date(f.date) - now) / (1000*60*60*24));
+  });
+  finals.sort((a,b) => a.daysOut - b.daysOut);
+
+  // Daily sequencing logic
+  const today = new Date();
+  const dayOfWeek = today.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+
+  let html = `<h2>Today is ${dayOfWeek}</h2>`;
+
+  finals.forEach((f, idx) => {
+    const cls = f.daysOut <= 2 ? 'urgent' : (f.daysOut <= 5 ? 'upcoming' : 'distant');
+    const dayWord = f.daysOut === 1 ? 'day' : 'days';
+    let priorityLabel = idx === 0 ? '🔥 Top priority tonight' : (idx === 1 ? '🎯 Secondary focus' : '📅 Background work');
+    let dateBlock = f.tbd ? `${f.daysOut} ${dayWord} (date TBD)` : `${f.daysOut} ${dayWord} away · ${new Date(f.date).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'})}`;
+
+    html += `<div class="day-block ${cls}">
+      <h3>${priorityLabel} — ${f.name}</h3>
+      <div class="meta">${dateBlock}</div>
+      <ol>${getTasks(f, idx).map(t => `<li><input type="checkbox" class="checkbox">${t}</li>`).join('')}</ol>
+    </div>`;
+  });
+
+  html += `<div class="callout callout-style-default callout-tip" style="margin-top:1.5rem;padding:1rem 1.2rem;border-radius:8px;background:rgba(46,125,50,0.05);border-left:4px solid #2e7d32;">
+    <strong>Habit reminder:</strong> 90 minutes of focused work · 15 minute break · repeat. Phone in another room. Water, snack, no Twitter. The work is the work.
+  </div>`;
+
+  document.getElementById('tonight-plan').innerHTML = html;
+
+  function getTasks(f, idx) {
+    const days = f.daysOut;
+    const isPrimary = idx === 0;
+    const tasks = [];
+
+    if (f.name.startsWith("ECON")) {
+      if (days <= 1) {
+        tasks.push("Light skim of <a href='econ205/cram-sheet.html'>Cram Sheet</a> — 30 min max");
+        tasks.push("90-min walk + dinner + sleep by 11 PM");
+        tasks.push("Tomorrow: pencil + calculator + photo ID");
+      } else if (days <= 3) {
+        tasks.push("Take <a href='econ205/mock-exam-b.html'>Mock Exam B</a> under timed conditions (120 min, no notes)");
+        tasks.push("Score, identify top 3 weak topics");
+        tasks.push("Drill <a href='econ205/killer-traps.html'>Killer Traps</a> on those 3 topics");
+      } else if (days <= 5) {
+        tasks.push("Take <a href='econ205/mock-exam-a.html'>Mock Exam A</a> under timed conditions");
+        tasks.push("Review key, label every error: trap / forgot formula / arithmetic");
+        tasks.push(isPrimary ? "Run <a href='econ205/active-recall.html'>Active Recall §2</a> — at least 30 cards" : "Skim <a href='econ205/cram-sheet.html'>Cram Sheet</a>");
+      } else {
+        tasks.push("Read <a href='econ205/cram-sheet.html'>Cram Sheet</a> end-to-end");
+        tasks.push("Run <a href='econ205/active-recall.html'>Active Recall §1</a> (pre-midterm) — 30 cards");
+        tasks.push("Skim <a href='econ205/diagrams.html'>Diagram Bank</a> if available");
+      }
+    } else if (f.name.startsWith("ACCT")) {
+      if (days <= 1) {
+        tasks.push("Light skim of <a href='acct410x/cheat-sheet.html'>Cheat Sheet</a>");
+        tasks.push("Read <a href='acct410x/day-of.html'>Day-Of Playbook</a>");
+        tasks.push("Sleep");
+      } else if (days <= 3) {
+        tasks.push("Take <a href='acct410x/mock-final.html'>Mock Final</a> timed");
+        tasks.push("Run <a href='acct410x/trap-drills.html'>Trap Drills</a> on the 4 high-yield areas");
+        tasks.push("Read <a href='acct410x/walkthroughs.html'>Walkthroughs</a> if available");
+      } else {
+        tasks.push("Memorize <a href='acct410x/cheat-sheet.html'>Cheat Sheet</a> formulas");
+        tasks.push("Drill indirect-method cash flow questions specifically");
+        tasks.push(isPrimary ? "Take <a href='acct410x/mock-final.html'>Mock Final</a> diagnostic" : "Skim <a href='acct410x/index.qmd'>Strategic Brief</a>");
+      }
+    } else if (f.name.startsWith("IR 362")) {
+      if (days <= 1) {
+        tasks.push("Read <a href='ir362/cram-sheet.html'>Cram Sheet</a> end-to-end");
+        tasks.push("Memorize all dates in the cram-sheet table");
+        tasks.push("Sleep with the page on your phone");
+      } else if (days <= 3) {
+        tasks.push("Pick a <a href='ir362/mock-essays.html'>Mock Essay Prompt</a>; outline + write under 30-min timer");
+        tasks.push("Compare your answer to the sample; mark every missing citation");
+        tasks.push("Re-skim <a href='ir362/frames/'>Hammad's 7 Frames</a>");
+      } else {
+        tasks.push("Read <a href='ir362/index.html'>Framework</a> — all 17 questions");
+        tasks.push("Read 1 deep-dive: <a href='ir362/iran-axis.html'>Iran/Axis</a> or <a href='ir362/abraham-accords.html'>Abraham Accords</a>");
+        tasks.push(isPrimary ? "Run flashcard deck — IR 362 (<a href='flashcards.html'>here</a>)" : "Read 1 lecture frame from <a href='ir362/frames/'>Frames</a>");
+      }
+    }
+    return tasks;
+  }
+})();
+</script>
+```
+
+## How this page works
+
+This page reads the date and your final-exam dates, sorts them by urgency, and prescribes the highest-yield activity for *tonight*. It updates automatically — no need to maintain a separate to-do list.
+
+The three priority levels:
+
+- 🔥 **Top priority** — the closest exam; spend 60–70% of tonight on it
+- 🎯 **Secondary focus** — the next-closest; 20–30% of tonight
+- 📅 **Background** — the more distant; 10–20% to keep momentum
+
+The checkboxes are local-only (your browser remembers them) — they reset if you clear browser data, which is fine. The point is the *act* of checking off, not the persistence.
+
+## When to break the auto-plan
+
+- **You did poorly on a mock today.** Override and drill the weak area, regardless of which course is closest.
+- **You're cooked.** Skip the lower-priority finals tonight; full sleep > marginal study after 11 PM.
+- **A friend wants to study together.** Take it. Group study is rare-but-good if both people commit. Use the [Connections](connections.qmd) page to bridge across courses.
+
+::: {.callout-warning}
+**The biggest mistake right now is over-planning.** Read the top block. Do those tasks. Don't second-guess the sequence. The compounding wins from consistent execution beat the marginal gains from re-optimizing the schedule every night.
+:::

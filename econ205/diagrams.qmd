@@ -1,0 +1,466 @@
+---
+title: "ECON 205 — Diagram Bank"
+subtitle: "10 canonical macro diagrams · what shifts what · common traps"
+description: "Visual reference for the cumulative final"
+order: 7
+---
+
+::: {.thesis}
+**Strategy.** Pérez exam questions almost always reduce to: *pick the right diagram, identify which curve shifts, read off the new equilibrium.* If you have the diagram in your head, the algebra is automatic. Memorize all ten.
+:::
+
+## How to read every macro diagram
+
+Every macro graph in this course has the same skeleton: two curves that cross at an equilibrium, axes that name a quantity (horizontal) and a price-like variable (vertical), and a story about which exogenous force shifts which curve.
+
+**Axis convention.** The vertical axis is always the "price" of whatever is traded — the *price level* in AD-AS, the *real interest rate* in loanable funds, the *nominal interest rate* in the money market, the *wage* in the labor market, the *exchange rate* in FX. The horizontal axis is the *quantity* — output, capital per worker, employment, money, foreign currency, the good in question.
+
+**Equilibrium.** Mark $E_0$ where the two curves cross *before* the shock. Drop dashed perpendiculars to read $P_0$ and $Q_0$. After the shock, mark $E_1$ and read $P_1, Q_1$. The two pairs are what the question is actually asking for.
+
+**Shift logic.** Movement *along* a curve happens when the price-axis variable changes; the curve *itself* shifts only when something *else* changes (income, expectations, technology, policy, foreign factors). When two shifts happen at once, do them sequentially: first shock, read intermediate equilibrium, then second shock. If both shifts push the same direction on price but opposite on quantity (or vice-versa), the answer is *ambiguous* — say so explicitly.
+
+---
+
+## 1. Supply & demand
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="385" y="265" font-size="12" fill="#333">Q</text>
+  <text x="40" y="20" font-size="12" fill="#333">P</text>
+  <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">S</text>
+  <path d="M 70 240 L 350 50" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="55" font-size="11" fill="#888">D</text>
+  <path d="M 130 240 L 380 90" stroke="#990000" stroke-width="2" fill="none" stroke-dasharray="6,3"/>
+  <text x="383" y="95" font-size="11" fill="#990000">D'</text>
+  <circle cx="210" cy="145" r="3.5" fill="#333"/>
+  <text x="215" y="140" font-size="11" fill="#333">E₀</text>
+  <line x1="210" y1="145" x2="210" y2="260" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <line x1="210" y1="145" x2="50" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="200" y="275" font-size="11" fill="#333">Q₀</text>
+  <text x="30" y="150" font-size="11" fill="#333">P₀</text>
+  <circle cx="265" cy="115" r="3.5" fill="#990000"/>
+  <text x="270" y="110" font-size="11" fill="#990000">E₁</text>
+</svg>
+
+**What shifts what.**
+
+- *Demand right:* income up (normal good), preferences favor it, price of substitute up, complement cheaper, more buyers, expected future price up.
+- *Demand left:* opposite of above; income up for *inferior* good.
+- *Supply right:* input prices down, technology up, more sellers, expected future price down (sell now), favorable shock.
+- *Supply left:* input prices up, regulation, bad weather/shock, fewer sellers.
+
+::: {.callout-warning}
+**Trap.** A change in *price* moves you *along* the curves — it never shifts D or S. If the question says "the price of bread fell," that's a movement, not a shift. A shift requires a non-price determinant.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** Wages of bakers rise. What happens to the price and quantity of bread?
+
+**A.** Input cost up → supply of bread shifts *left*. New equilibrium: $P$ up, $Q$ down. Demand is unchanged.
+</details>
+
+---
+
+## 2. Production possibilities frontier (PPF)
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">Good X</text>
+  <text x="55" y="18" font-size="12" fill="#333">Good Y</text>
+  <path d="M 50 40 Q 100 60 200 130 Q 300 220 350 260" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="255" font-size="11" fill="#888">PPF</text>
+  <circle cx="160" cy="100" r="3.5" fill="#333"/>
+  <text x="120" y="100" font-size="11" fill="#333">A (efficient)</text>
+  <circle cx="120" cy="200" r="3.5" fill="#333"/>
+  <text x="80" y="205" font-size="11" fill="#333">B (inefficient)</text>
+  <circle cx="280" cy="80" r="3.5" fill="#990000"/>
+  <text x="290" y="80" font-size="11" fill="#990000">C (unattainable)</text>
+  <path d="M 50 30 Q 100 50 220 110 Q 320 200 380 250" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="385" y="245" font-size="11" fill="#990000">PPF'</text>
+</svg>
+
+**What shifts what.**
+
+- *PPF outward (whole curve):* technology, capital accumulation, labor force growth, education, trade.
+- *PPF outward on one axis only:* sector-specific tech (e.g., better wheat seeds → more X but Y unchanged).
+- *PPF inward:* war, natural disaster, capital depreciation.
+- *Bowed-out shape:* increasing opportunity cost — resources are *not* equally good at both tasks.
+
+**Opportunity cost** = slope (in absolute value) at a point. Moving from one point to another on the PPF, opp. cost of one more X = how much Y you give up.
+
+::: {.callout-warning}
+**Trap.** Comparative advantage uses *opportunity cost ratios*, not absolute productivity. If country A makes 10 X or 5 Y per hour and country B makes 6 X or 4 Y per hour, A is absolutely better at both — but B's opp. cost of Y is 1.5 X (vs A's 2 X), so B has comparative advantage in Y and should specialize there.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** Country A: 1 hour produces 10 wheat *or* 5 cloth. Country B: 1 hour produces 6 wheat *or* 4 cloth. Who exports what?
+
+**A.** Opp. cost of wheat: A = 0.5 cloth, B = 0.67 cloth → A exports wheat. Opp. cost of cloth: A = 2 wheat, B = 1.5 wheat → B exports cloth.
+</details>
+
+---
+
+## 3. Labor market with a binding minimum wage
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">Labor (L)</text>
+  <text x="55" y="18" font-size="12" fill="#333">Wage (W)</text>
+  <path d="M 70 240 L 350 50" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="55" font-size="11" fill="#888">Lᴰ</text>
+  <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">Lˢ</text>
+  <circle cx="210" cy="145" r="3.5" fill="#333"/>
+  <text x="215" y="140" font-size="11" fill="#333">E₀</text>
+  <line x1="50" y1="145" x2="210" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="20" y="150" font-size="11" fill="#333">W*</text>
+  <line x1="50" y1="90" x2="350" y2="90" stroke="#990000" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="20" y="94" font-size="11" fill="#990000">W̄</text>
+  <text x="355" y="86" font-size="11" fill="#990000">min wage</text>
+  <circle cx="130" cy="90" r="3.5" fill="#990000"/>
+  <text x="100" y="83" font-size="11" fill="#990000">Lᴰ@W̄</text>
+  <circle cx="290" cy="90" r="3.5" fill="#990000"/>
+  <text x="295" y="83" font-size="11" fill="#990000">Lˢ@W̄</text>
+  <line x1="130" y1="90" x2="290" y2="90" stroke="#990000" stroke-width="3" opacity="0.4"/>
+  <text x="180" y="110" font-size="11" fill="#990000" font-weight="bold">unemployment</text>
+</svg>
+
+**What shifts what.**
+
+- *Lᴰ right:* productivity up, output price up, complementary capital up.
+- *Lᴰ left:* automation that substitutes for low-skill labor, recession.
+- *Lˢ right:* population growth, immigration, lower reservation wages, more labor-force participation.
+- *Lˢ left:* aging out of workforce, generous transfer payments.
+- *Min wage above $W^*$:* gap between $L^s$ and $L^d$ at $\bar W$ = unemployment.
+
+::: {.callout-warning}
+**Trap.** A min wage *below* equilibrium wage is non-binding — it has zero effect. The question must establish $\bar W > W^*$ for unemployment to appear. Always check.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** Equilibrium wage is $12. Government sets min wage of $10. What happens to employment?
+
+**A.** Nothing. $10 < 12 = W^*$, so the minimum is non-binding. The market clears at $12 with no unemployment.
+</details>
+
+---
+
+## 4. Solow growth model
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">k (capital/worker)</text>
+  <text x="55" y="18" font-size="12" fill="#333">y, sy, (n+δ)k</text>
+  <path d="M 50 260 Q 150 130 350 70" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="70" font-size="11" fill="#888">y = f(k)</text>
+  <path d="M 50 260 Q 150 200 350 165" stroke="#444" stroke-width="2" fill="none"/>
+  <text x="355" y="170" font-size="11" fill="#444">s·f(k)</text>
+  <line x1="50" y1="260" x2="350" y2="80" stroke="#990000" stroke-width="2"/>
+  <text x="355" y="85" font-size="11" fill="#990000">(n+δ)k</text>
+  <circle cx="200" cy="190" r="3.5" fill="#333"/>
+  <text x="205" y="186" font-size="11" fill="#333">k*</text>
+  <line x1="200" y1="190" x2="200" y2="260" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="195" y="275" font-size="11" fill="#333">k*</text>
+  <text x="220" y="225" font-size="10" fill="#333">steady state:</text>
+  <text x="220" y="240" font-size="10" fill="#333">s·f(k*) = (n+δ)k*</text>
+</svg>
+
+**What shifts what.**
+
+- *Saving rate $s$ up:* $s\cdot f(k)$ rotates up → $k^*$ rises → higher $y^*$ (level effect, not growth rate).
+- *Population growth $n$ up:* $(n+\delta)k$ steepens → $k^*$ falls.
+- *Depreciation $\delta$ up:* same as above — $k^*$ falls.
+- *Technology (TFP) up:* $f(k)$ shifts up — both saving and output curves rise; $k^*$ and $y^*$ rise.
+- Long-run growth rate of $y$ per worker = rate of *technical progress* only. Saving raises levels, not steady-state growth.
+
+::: {.callout-warning}
+**Trap.** Higher saving raises the *level* of output per worker, not its long-run *growth rate*. Only TFP/tech progress drives sustained per-capita growth. Pérez often asks "if China saves more, will it grow faster forever?" — answer: faster *transitionally*, not permanently.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** A country experiences a one-time jump in $s$ from 0.20 to 0.30. Long-run effects on (a) level of $y$, (b) growth rate of $y$?
+
+**A.** (a) $y^*$ rises permanently. (b) Growth rate is temporarily positive during transition, then returns to its prior long-run rate (set by tech progress).
+</details>
+
+---
+
+## 5. Money market
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">M</text>
+  <text x="55" y="18" font-size="12" fill="#333">i (nominal rate)</text>
+  <line x1="220" y1="20" x2="220" y2="260" stroke="#888" stroke-width="2"/>
+  <text x="225" y="35" font-size="11" fill="#888">Mˢ</text>
+  <path d="M 70 60 Q 150 130 350 240" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">Mᴰ</text>
+  <line x1="290" y1="20" x2="290" y2="260" stroke="#990000" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="295" y="35" font-size="11" fill="#990000">Mˢ'</text>
+  <circle cx="220" cy="150" r="3.5" fill="#333"/>
+  <text x="225" y="145" font-size="11" fill="#333">E₀</text>
+  <line x1="50" y1="150" x2="220" y2="150" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="30" y="155" font-size="11" fill="#333">i₀</text>
+  <circle cx="290" cy="190" r="3.5" fill="#990000"/>
+  <text x="295" y="185" font-size="11" fill="#990000">E₁</text>
+  <line x1="50" y1="190" x2="290" y2="190" stroke="#990000" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="30" y="195" font-size="11" fill="#990000">i₁</text>
+</svg>
+
+**What shifts what.**
+
+- *Mˢ right (Fed buys bonds, OMO):* $i$ falls.
+- *Mˢ left (Fed sells bonds, raises reserve req., raises discount rate):* $i$ rises.
+- *Mᴰ right (real income up, price level up):* $i$ rises at given $M^s$.
+- *Mᴰ left (income falls, expected inflation falls):* $i$ falls.
+- $M^s$ is vertical because the Fed sets the quantity; doesn't depend on $i$.
+
+::: {.callout-warning}
+**Trap.** Money market gives the *nominal* rate $i$. Loanable funds gives the *real* rate $r$. They move differently when expected inflation changes. Fisher: $i = r + \pi^e$. If $\pi^e$ jumps, $i$ rises one-for-one in long run; $r$ unchanged.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** Fed conducts an open-market *purchase* of $100B in bonds. What happens to nominal interest rate?
+
+**A.** Fed pays for bonds with new reserves → $M^s$ shifts right → $i$ falls.
+</details>
+
+---
+
+## 6. AD-AS short run
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">Y (output)</text>
+  <text x="55" y="18" font-size="12" fill="#333">P (price level)</text>
+  <path d="M 70 240 L 350 60" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="60" font-size="11" fill="#888">SRAS</text>
+  <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">AD</text>
+  <path d="M 70 200 L 350 20" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="355" y="20" font-size="11" fill="#990000">SRAS' (neg shock)</text>
+  <path d="M 130 50 L 380 195" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="385" y="200" font-size="11" fill="#990000">AD' (pos shock)</text>
+  <circle cx="210" cy="145" r="3.5" fill="#333"/>
+  <text x="215" y="140" font-size="11" fill="#333">E₀</text>
+  <circle cx="160" cy="120" r="3.5" fill="#990000"/>
+  <text x="120" y="118" font-size="11" fill="#990000">stagflation</text>
+  <circle cx="260" cy="120" r="3.5" fill="#990000"/>
+  <text x="265" y="118" font-size="11" fill="#990000">boom</text>
+</svg>
+
+**What shifts what.**
+
+- *AD right:* G up, T down, C up (wealth/confidence), I up, NX up (foreign income up, weaker $), $M^s$ up.
+- *AD left:* opposite.
+- *SRAS right (positive supply shock):* input prices fall, productivity surge, favorable weather/oil.
+- *SRAS left (negative supply shock):* oil shock, war, supply chain disruption, expected inflation up.
+- *LRAS right:* anything that grows potential output (capital, labor, tech) — long-run only.
+
+::: {.callout-warning}
+**Trap.** Negative supply shock vs negative demand shock both lower $Y$, but they move $P$ in *opposite* directions. Supply shock: $P$ ↑, $Y$ ↓ (stagflation). Demand shock: $P$ ↓, $Y$ ↓ (recession). If the question says "prices and output both fell" → demand. "Prices up, output down" → supply.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** OPEC cuts production, oil prices spike. Short-run effect on US $P$ and $Y$?
+
+**A.** SRAS shifts left → $P$ rises, $Y$ falls. Stagflation.
+</details>
+
+---
+
+## 7. Loanable funds market
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">Loanable funds</text>
+  <text x="55" y="18" font-size="12" fill="#333">r (real rate)</text>
+  <path d="M 70 240 L 350 50" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="55" font-size="11" fill="#888">S (saving)</text>
+  <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">I (investment)</text>
+  <path d="M 130 240 L 380 90" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="385" y="95" font-size="11" fill="#990000">S' (deficit ↑)</text>
+  <circle cx="210" cy="145" r="3.5" fill="#333"/>
+  <text x="180" y="140" font-size="11" fill="#333">E₀</text>
+  <circle cx="260" cy="115" r="3.5" fill="#990000"/>
+  <text x="265" y="110" font-size="11" fill="#990000">E₁ (crowding out)</text>
+  <line x1="50" y1="145" x2="210" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="30" y="150" font-size="11" fill="#333">r₀</text>
+  <line x1="50" y1="115" x2="260" y2="115" stroke="#990000" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="30" y="120" font-size="11" fill="#990000">r₁</text>
+</svg>
+
+**What shifts what.**
+
+- *Saving (S) right:* private saving up (households save more, taxes down with no spending), public saving up (deficit shrinks/surplus grows), inflows of foreign capital.
+- *Saving (S) left:* government deficit ↑ (less national saving), households save less.
+- *Investment (I) right:* better expected returns, technology, investment tax credit.
+- *Investment (I) left:* recession, regulation, higher corporate taxes.
+- *Crowding out:* government deficit → S left → $r$ up → private $I$ falls.
+
+::: {.callout-warning}
+**Trap.** "Government borrows more" → national $S$ shifts *left* (less to lend), not right. The deficit subtracts from national saving: $S = S_{priv} + (T-G)$. Higher $G$ at given $T$ ⇒ $T-G$ falls ⇒ $S$ left.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** Congress passes a $500B unfunded tax cut. Effect on $r$ and private $I$?
+
+**A.** $T$ falls with $G$ unchanged → public saving falls → $S$ left → $r$ up → private $I$ falls. Crowding out.
+</details>
+
+---
+
+## 8. Phillips curve
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">u (unemployment)</text>
+  <text x="55" y="18" font-size="12" fill="#333">π (inflation)</text>
+  <path d="M 70 60 Q 150 100 350 230" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">SRPC</text>
+  <path d="M 70 30 Q 150 70 350 200" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="355" y="200" font-size="11" fill="#990000">SRPC' (supply shock)</text>
+  <circle cx="210" cy="145" r="3.5" fill="#333"/>
+  <text x="215" y="140" font-size="11" fill="#333">E₀</text>
+  <circle cx="210" cy="115" r="3.5" fill="#990000"/>
+  <text x="215" y="110" font-size="11" fill="#990000">stagflation point</text>
+</svg>
+
+**What shifts what.**
+
+- *Move along SRPC:* AD shock (demand shifts cause negative slope — higher inflation, lower unemployment).
+- *SRPC up/right (whole curve):* expected inflation $\pi^e$ rises, adverse supply shock, oil price spike.
+- *SRPC down/left:* expected inflation falls, favorable supply shock.
+- *Long run:* PC is vertical at natural rate $u^*$. No long-run trade-off.
+
+::: {.callout-warning}
+**Trap.** Stagflation = both $u$ *and* $\pi$ rise — that's a *shift* of SRPC outward (supply shock), not a movement along it. A movement along SRPC has $u$ and $\pi$ moving in opposite directions.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** In 1973–75, US unemployment and inflation both rose. What does the Phillips curve diagram show?
+
+**A.** SRPC shifted right/up due to oil supply shock. Movement is from old SRPC to new SRPC, not along a single curve.
+</details>
+
+---
+
+## 9. Foreign exchange market
+
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;">
+  <line x1="50" y1="260" x2="380" y2="260" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333" stroke-width="1.5"/>
+  <text x="370" y="278" font-size="12" fill="#333">Q of foreign $</text>
+  <text x="55" y="18" font-size="12" fill="#333">e (USD per foreign $)</text>
+  <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="245" font-size="11" fill="#888">D (foreign $)</text>
+  <path d="M 70 240 L 350 50" stroke="#888" stroke-width="2" fill="none"/>
+  <text x="355" y="55" font-size="11" fill="#888">S (foreign $)</text>
+  <path d="M 30 50 L 310 240" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="35" y="48" font-size="11" fill="#990000">D' (US rates ↑)</text>
+  <circle cx="210" cy="145" r="3.5" fill="#333"/>
+  <text x="215" y="140" font-size="11" fill="#333">E₀</text>
+  <circle cx="170" cy="118" r="3.5" fill="#990000"/>
+  <text x="120" y="115" font-size="11" fill="#990000">E₁ (USD ↑)</text>
+  <line x1="50" y1="145" x2="210" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="20" y="150" font-size="11" fill="#333">e₀</text>
+  <line x1="50" y1="118" x2="170" y2="118" stroke="#990000" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="20" y="123" font-size="11" fill="#990000">e₁</text>
+</svg>
+
+**What shifts what** (axis = USD per unit of foreign currency; $e$ ↑ = USD *depreciates*, foreign currency appreciates).
+
+- *D for foreign currency right:* US wants more foreign goods (US imports up), US investors buy foreign assets (foreign rates up vs US).
+- *S of foreign currency right:* foreigners want more US goods (US exports up), foreign investors buy US assets (US rates up).
+- *US interest rate ↑:* foreigners supply more of their currency to buy US bonds → S right *and* US D for foreign falls (D left) → $e$ falls (USD appreciates).
+- *US inflation up:* US goods less competitive → exports fall (S left), imports up (D right) → $e$ rises (USD depreciates).
+
+::: {.callout-warning}
+**Trap.** Quote convention. If $e$ = USD per foreign, *higher e* means USD *depreciated*. If $e$ = foreign per USD, higher $e$ means USD *appreciated*. Always check axis label before saying "appreciation" or "depreciation." Pérez loves to flip this.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** Fed raises rates while ECB holds. What happens to USD/EUR exchange rate (USD per euro)?
+
+**A.** US rates up → foreign capital flows into US → demand for USD up, supply of euros up → $e$ (USD per euro) falls. USD appreciates against the euro.
+</details>
+
+---
+
+## 10. Balance of payments identity
+
+```{mermaid}
+flowchart LR
+  CA["**Current Account (CA)**<br/>Exports − Imports<br/>+ Net income from abroad<br/>+ Net transfers"]
+  KA["**Capital / Financial Account (KFA)**<br/>Net foreign purchases<br/>of domestic assets<br/>− Net domestic purchases<br/>of foreign assets"]
+  ID["CA + KFA ≈ 0<br/>(plus statistical discrepancy)"]
+  CA -->|"deficit (CA<0)<br/>⟹ borrow from abroad"| ID
+  KA -->|"surplus (KFA>0)<br/>⟹ foreigners buy US assets"| ID
+  ID --> Result["**If CA < 0**: country is a net borrower<br/>**If CA > 0**: country is a net lender"]
+
+  classDef ca fill:#FFC72C,stroke:#990000,stroke-width:2px,color:#000
+  classDef kfa fill:#FFC72C,stroke:#990000,stroke-width:2px,color:#000
+  classDef id fill:#990000,stroke:#990000,stroke-width:2px,color:#fff
+  classDef result fill:#fff,stroke:#333,stroke-width:1px,color:#000
+
+  class CA ca
+  class KA kfa
+  class ID id
+  class Result result
+```
+
+**What shifts what.**
+
+- *CA deficit widens:* import surge (strong domestic demand or appreciated currency), export collapse, foreign income falls.
+- *KFA surplus widens:* domestic interest rates up, political stability, profitable investment opportunities — *exact mirror* of CA deficit.
+- *Identity:* CA + KFA = 0. By definition. If you import more than you export, foreigners must be financing it by acquiring your assets (or your IOUs).
+- *Currency mechanics:* persistent CA deficit + free float typically associated with currency depreciation pressure unless KFA inflows are strong (the US case for decades).
+
+::: {.callout-warning}
+**Trap.** Students often think a CA deficit is automatically "bad." It's not — the US has run one for 40+ years because it pairs with a KFA surplus (foreigners want US assets). The deficit *is* the inflow. They are the same transaction, viewed from opposite sides.
+:::
+
+<details><summary>Practice question — show answer</summary>
+**Q.** US runs a $700B current account deficit. By the BoP identity, what must be true of the capital/financial account?
+
+**A.** KFA = +$700B (approximately, ignoring statistical discrepancy and reserves). Foreigners net acquire $700B of US assets to finance the trade gap.
+</details>
+
+---
+
+## Diagram-shifting cheat sheet
+
+| If this happens... | ...this curve shifts... | ...this direction... | ...equilibrium effect |
+|---|---|---|---|
+| Income rises (normal good) | Demand | right | $P↑, Q↑$ |
+| Wages of producers rise | Supply | left | $P↑, Q↓$ |
+| Government runs larger deficit | Loanable-funds Saving | left | $r↑$, private $I↓$ |
+| Fed buys bonds (expansionary OMO) | Money supply | right | $i↓$ |
+| Oil price spike | SRAS | left | $P↑, Y↓$ (stagflation) |
+| Tax cut for households (no $G$ change) | AD (and $S$ left) | AD right | $P↑, Y↑$ short run |
+| Saving rate $s$ rises (Solow) | $s\cdot f(k)$ | up | $k^*↑, y^*↑$ (level only) |
+| Population growth $n$ rises (Solow) | $(n+\delta)k$ | rotates up | $k^*↓$ |
+| Min wage set above equilibrium | — | along curves | $L↓$, unemployment $>0$ |
+| Expected inflation $\pi^e$ rises | SRPC | up | higher $\pi$ at every $u$ |
+| US interest rate rises (FX, USD/foreign) | Demand for foreign | left, S right | $e↓$ (USD appreciates) |
+| Foreign income rises | AD (via NX) | right | $P↑, Y↑$ |
+
+## Common diagram traps
+
+::: {.callout-warning}
+1. **FX quote convention flip.** "USD per euro" rising = USD *depreciation*. "Euro per USD" rising = USD *appreciation*. Always read the axis label first; never assume.
+2. **Supply shock vs demand shock in AD-AS.** Both cause recessions, but supply shock raises $P$ while demand shock lowers $P$. If $P$ and $Y$ move *together* down, it's demand. If $P$ up while $Y$ down, it's supply.
+3. **Movement along vs shift of curve.** A change in the price-axis variable moves *along* a curve. A change in any *other* exogenous factor *shifts* the curve. Common error: treating "the price of bread fell" as a demand shift (it's not — it's an event on the supply curve).
+4. **Saving rate vs growth rate (Solow).** Higher $s$ raises the *level* of $y$ in the long run, not the long-run *growth rate*. Only TFP/tech progress raises the growth rate sustainably.
+5. **Crowding out direction.** A government *deficit* shifts loanable-funds *Saving* to the *left* (less national saving), not Investment. Result: $r$ up, private $I$ down. Don't shift the wrong curve — Pérez will mark this wrong even if the final answer for $r$ comes out right.
+:::
