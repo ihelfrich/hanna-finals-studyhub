@@ -1,0 +1,16 @@
+---
+title: "Nash Equilibrium & the Carousel"
+subtitle: "Why the region is stuck — and the five ways it could unstick"
+description: "Deep research dive: game-theoretic framing of MENA regional politics"
+order: 4
+---
+
+::: {.callout-tip}
+**Maps directly to:** Q10 (Nash equilibrium in the discussion), Q12 (4 key but not equal actors), Q13 (carousel revolving), Q14 (ways the Nash equilibrium could end — last slide), Q15 (possible outcomes/scenarios), Q17 (logic/calculus of different players).
+:::
+
+::: {.callout-warning}
+**Action item from the research agent:** Hammad assigned a specific article + slide for the Nash-equilibrium discussion. **Check Brightspace for the exact reading** before relying on the canonical scaffolding below. Schelling, *The Strategy of Conflict* (1960), chapters 4–5, is the most likely source — borrow it from Doheny if you can.
+:::
+
+{{< include _nash_equilibrium.md >}}

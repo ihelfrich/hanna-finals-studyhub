@@ -1,0 +1,81 @@
+/*-- scss:defaults --*/
+$primary: #990000;          // USC cardinal
+$secondary: #FFC72C;        // USC gold
+$body-bg-dark: #0f1419;
+$body-color-dark: #e8e8e8;
+
+/*-- scss:rules --*/
+.navbar { font-weight: 600; }
+
+.countdown-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+.countdown-card .item {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(180deg, rgba(153,0,0,0.04), transparent);
+  position: relative;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.countdown-card .item:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+.countdown-card .item h4 { margin: 0 0 .25rem 0; font-size: 1rem; color: $primary; }
+.countdown-card .item .days { font-size: 2.4rem; font-weight: 700; line-height: 1; letter-spacing: -0.02em; }
+.countdown-card .item .when { color: var(--bs-secondary-color); font-size: .92rem; }
+.countdown-card .item .weight {
+  display: inline-block;
+  background: $secondary;
+  color: #222;
+  font-weight: 700;
+  font-size: .75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: .35rem;
+}
+
+.callout { border-left-width: 6px !important; }
+.callout-tip { background: rgba(255,199,44,0.07); }
+.callout-warning { background: rgba(153,0,0,0.05); }
+
+table { font-size: .95rem; }
+table thead { background: rgba(153,0,0,0.06); }
+
+.flash-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  margin: 0.5rem 0;
+}
+.flash-card details summary { cursor: pointer; font-weight: 600; }
+
+.muted { color: var(--bs-secondary-color); }
+
+.thesis {
+  border-left: 4px solid $primary;
+  padding: .35rem .9rem;
+  background: rgba(153,0,0,0.04);
+  font-style: italic;
+  margin: .8rem 0;
+}
+
+.memorize {
+  background: rgba(255,199,44,0.10);
+  border-left: 4px solid $secondary;
+  padding: .6rem .9rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+}
+.memorize h4 { margin-top: 0; color: #8a6d00; }
+
+.kbd-tag {
+  display: inline-block;
+  background: var(--bs-secondary-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: .8rem;
+  font-family: var(--bs-font-monospace);
+}

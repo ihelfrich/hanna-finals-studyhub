@@ -1,0 +1,141 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "assets/**"
+  render:
+    - "*.qmd"
+    - "ir362/*.qmd"
+    - "econ205/*.qmd"
+    - "acct410x/*.qmd"
+    - "!research/"
+    - "!ir362/_*.md"
+    - "!econ205/_*.md"
+    - "!acct410x/_*.md"
+
+website:
+  title: "Hanna's Finals — StudyHub Spring 2026"
+  description: "Cumulative finals prep for IR 362, ECON 205, ACCT 410x"
+  favicon: assets/img/favicon.ico
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    background: primary
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "IR 362"
+        menu:
+          - href: ir362/index.qmd
+            text: Overview & Framework
+          - href: ir362/iran-axis.qmd
+            text: Iran & the Axis of Resistance
+          - href: ir362/abraham-accords.qmd
+            text: Abraham Accords & Saudi Track
+          - href: ir362/nash-equilibrium.qmd
+            text: Nash Equilibrium & the Carousel
+          - href: ir362/syria-collapse.qmd
+            text: Syria — Alliance & 2024 Collapse
+          - href: ir362/cram-sheet.qmd
+            text: Cram Sheet
+      - text: "ECON 205"
+        menu:
+          - href: econ205/index.qmd
+            text: Overview & 5-Day Plan
+          - href: econ205/cram-sheet.qmd
+            text: One-Page Cram Sheet
+          - href: econ205/active-recall.qmd
+            text: Active Recall Bank
+          - href: econ205/mock-exam-a.qmd
+            text: Mock Exam A
+          - href: econ205/mock-exam-b.qmd
+            text: Mock Exam B
+          - href: econ205/killer-traps.qmd
+            text: Killer Traps Drills
+      - text: "ACCT 410x"
+        menu:
+          - href: acct410x/index.qmd
+            text: Overview & Strategy
+          - href: acct410x/cheat-sheet.qmd
+            text: Cheat Sheet
+          - href: acct410x/mock-final.qmd
+            text: Mock Final
+          - href: acct410x/trap-drills.qmd
+            text: Trap Drills
+          - href: acct410x/day-of.qmd
+            text: Day-Of Playbook
+
+  sidebar:
+    - title: "IR 362"
+      style: docked
+      align: left
+      contents:
+        - section: "Synthesis"
+          contents:
+            - ir362/index.qmd
+            - ir362/cram-sheet.qmd
+        - section: "Deep dives"
+          contents:
+            - ir362/iran-axis.qmd
+            - ir362/abraham-accords.qmd
+            - ir362/nash-equilibrium.qmd
+            - ir362/syria-collapse.qmd
+    - title: "ECON 205"
+      contents:
+        - econ205/index.qmd
+        - econ205/cram-sheet.qmd
+        - section: "Practice"
+          contents:
+            - econ205/active-recall.qmd
+            - econ205/mock-exam-a.qmd
+            - econ205/mock-exam-b.qmd
+            - econ205/killer-traps.qmd
+    - title: "ACCT 410x"
+      contents:
+        - acct410x/index.qmd
+        - acct410x/cheat-sheet.qmd
+        - acct410x/mock-final.qmd
+        - acct410x/trap-drills.qmd
+        - acct410x/day-of.qmd
+
+  page-footer:
+    border: true
+    left: "Built for Hanna · Spring 2026 finals · v1.0"
+    right: "🤖 Synthesized by Dr. Helfrich + Claude + research swarm"
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/css/custom.scss]
+      dark: [darkly, assets/css/custom.scss]
+    css: assets/css/custom.scss
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    toc-location: right
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: true
+    fig-cap-location: bottom
+    citation-location: document
+    page-layout: full
+    grid:
+      sidebar-width: 280px
+      body-width: 920px
+      margin-width: 280px
+    fontsize: "1.05rem"
+    mainfont: "Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+    monofont: "JetBrains Mono, ui-monospace, SFMono-Regular, monospace"
+    html-math-method: katex
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false

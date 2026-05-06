@@ -1,0 +1,98 @@
+---
+title: "IR 362 — One-Page Cram Sheet"
+subtitle: "Final-night condensation. Memorize cold."
+description: "The minimum viable knowledge for a defensible essay"
+order: 6
+---
+
+::: {.thesis}
+**If everything you read this term were burned and you had only one page, this would be it.** Read this last on the night before the exam. Sleep on it. Walk in.
+:::
+
+## Three throughlines (everything else is a recombination)
+
+1. **API → Abraham Accords pivot** — sequencing inversion: Palestine-precondition removed; security-and-economics linkage takes over.
+2. **Nash equilibrium / carousel** — each actor best-responds to the others; cycles of escalation/de-escalation leave the structure intact; only payoff-matrix shocks produce real shifts.
+3. **Iran's linkage engine** — Tehran connected the Gulf-security sphere to the Israeli sphere via Hezbollah + Syria; this engine was *structurally* central but is *functionally* diminished after 2024.
+
+## The four key but not equal actors (Q12)
+
+| Actor | What they want | Source of leverage | Constraint |
+|---|---|---|---|
+| Israel | Security, deterrence, demographic stability | Military primacy, US alignment, tech sector | Domestic coalition fragility, demographic squeeze |
+| Palestinian factions (Hamas + PA) | Statehood / resistance — bifurcated goals | Moral claim, refugee diaspora, regional public opinion | Coercive asymmetry, factional split, donor dependence |
+| Iran | Forward defense, axis of resistance, sanctions relief | Asymmetric warfare via proxies, oil leverage | Sanctions, IRGC overreach, popular discontent |
+| Saudi Arabia / Gulf | Regime survival, economic transformation, Iran balance | Energy, capital, US security relationship | Public-regime delinking, Yemen quagmire, succession |
+
+US is the structural backstop — a fifth actor whose presence sets the payoff matrix.
+
+## Critical dates (memorize cold)
+
+| Date | Event | Why it matters |
+|---|---|---|
+| 1917 | Balfour Declaration | British promise · root of Mandate-era settler-colonial framing |
+| 1947 | UNGA 181 (partition plan) | International legal basis for Israel; rejected by Arab states |
+| 1948 | Israeli independence + Nakba | Founding rupture; Palestinian dispossession |
+| 1967 | Six-Day War; UNSC 242 | Israel takes WB/Gaza/Sinai/Golan; "land for peace" doctrine begins |
+| 1973 | Yom Kippur War; UNSC 338 | Last major Arab-state war on Israel |
+| 1978 | Camp David Accords | Egypt-Israel peace; first Arab break with the Palestinian veto |
+| 1979 | Iranian Revolution | Iran flips from US ally to adversary |
+| 1982 | Israeli invasion of Lebanon → Hezbollah founding | Birth of the axis-of-resistance arm |
+| 1993 | Oslo I (DoP) | PA created; "two-state" diplomacy formalized |
+| 2000–05 | Second Intifada | Oslo dies in practice |
+| 2002 | Arab Peace Initiative | Saudi-led; full normalization for full withdrawal + state |
+| 2003 | US invasion of Iraq | Iran's regional opening; Gause: US never had hegemony |
+| 2011 | Arab Spring | Bouazizi 12/17/2010; Bahrain crushed by Peninsula Shield 3/2011 |
+| 2013 | Sisi coup in Egypt | Saudi/UAE-backed; counter-revolutionary template |
+| 2015 | JCPOA | Iran nuclear deal; Russia enters Syria |
+| 2017 | Hamas Political Document | Recalibration of charter |
+| 2020 | Abraham Accords (UAE 8/13, Bahrain 9/11, Sudan 10/23, Morocco 12/10) | Sequencing-inversion |
+| 1/2020 | Soleimani assassination | US escalation moment |
+| 3/2023 | Saudi-Iran rapprochement (Beijing) | China as regional security broker |
+| 10/7/2023 | Hamas attack on Israel | Spoiler theory of Saudi normalization |
+| 9/2024 | Nasrallah killed | Hezbollah leadership decapitated |
+| 11/27–12/8/2024 | HTS offensive → Damascus falls; Assad to Russia | Iran's land bridge severed |
+| 2025 | Sharaa interim government; Caesar Act repeal; Alawite coastal massacres (3/25); Suwayda crisis (7/25) | Sharaa's trajectory contested |
+
+## Hammad's lecture frames you must invoke (with the right author)
+
+- **Bellin** (2004, Comp Politics): Robustness of authoritarianism → coercive apparatus determines transition outcomes
+- **Brownlee, Masoud, Reynolds** (Oxford 2015): Two variables predict regime survival — hereditary executive AND oil rents (Tunisia had neither → transitioned)
+- **Mitchell** (Verso 2011): *Carbon Democracy* → infrastructure shapes politics; MENA is most-penetrated subsystem
+- **Gause III** (2024–25 POMEPS/MEI): Primacy ≠ unipolarity ≠ hegemony; US never had hegemony, only primacy
+- **Diwan/Malik/Atiyas** (Oxford 2019): Crony capitalism reduces *aggregate* growth, doesn't just redistribute
+- **Sayigh** (Carnegie 2019): Egyptian military runs ~25% of govt spending
+- **Bayat** (Stanford 2017): *Revolution without Revolutionaries* — institutions outlive leaders
+- **Schelling** (1960): Strategy of conflict; coordination, deterrence, mutual best-response
+- **Goodarzi** (2006): *Syria and Iran* — strategic alliance, not sectarian
+- **Khalidi** (2020): *Hundred Years' War on Palestine* — settler-colonial frame
+- **Shlaim** (2000): *Iron Wall* — Jabotinsky's revisionist-Zionist doctrine in practice
+
+## Five essay-bank thesis statements (deploy + adapt)
+
+1. *"The Israeli-Palestinian conflict in 2026 cannot be analyzed in isolation — it is one node in a regional system whose center of gravity has shifted from Palestine-centered linkage (the API logic) to security-and-economics linkage (the Abraham Accords logic), with Iran as the engine connecting both spheres until late 2024."*
+2. *"The 2002 Arab Peace Initiative and the 2020 Abraham Accords represent the two competing equilibria of the regional system — a sequencing-precondition equilibrium versus a sequencing-inversion equilibrium — and the post-October-7 trajectory shows partial reversion to the former without restoring its formal text."*
+3. *"The regional system is best understood as a Nash equilibrium in which no actor can unilaterally deviate from its current strategy without making itself worse off — which is why escalation cycles produce the appearance of motion (the carousel) while leaving the underlying structure intact."*
+4. *"Iran's regional engine functioned by linking the Gulf-security sphere to the Israeli-Lebanese sphere through Syria's geographic position and Hezbollah's forward arm; the December 2024 Assad collapse subtracted that scaffolding, making 2024–26 the most consequential structural shift since 1979."*
+5. *"Authoritarian robustness in MENA depends on a coercive apparatus and rentier resources (Bellin; Brownlee/Masoud/Reynolds), which is why most Arab Spring transitions reverted — and why the Saudi-Israeli normalization track survived the API framework's erosion: regimes are not constrained by publics in the way the API assumed."*
+
+## Trap-avoidance reminders
+
+- ❌ Don't treat "Abraham Accords" as the full story — they're four bilateral deals, not a regional architecture. Saudi never signed.
+- ❌ Don't conflate "axis of resistance" with monolithic coordination. Each member has local interests that limit synchronization.
+- ❌ Don't use "sectarian" as primary explanation for Iran-Syria — it's strategic with a sectarian veneer. Cite Goodarzi.
+- ❌ Don't claim Assad fell because HTS won. He fell because four scaffolds (Hezbollah, IRGC, Russian air, regime army) failed simultaneously.
+- ❌ Don't say the API "failed." It became the *regional template* even without execution; it was the framework Abraham Accords *deviated from*.
+- ❌ Don't conflate primacy, unipolarity, and hegemony. Gause's distinction is testable.
+
+## Exam-day micro-protocol
+
+1. **Read all questions first** (3 min). Identify which throughline each one targets.
+2. **Outline before writing** (5 min per essay). Thesis → 3 evidentiary moves → tie-back to a Hammad frame.
+3. **Date density** = signal to grader. Drop at least 4 specific dates per essay.
+4. **Cite by author + year inline.** "(Bellin 2004)" beats "scholars argue."
+5. **Tie back to throughline in your final sentence.** That signals you understood the system, not just the topic.
+
+::: {.callout-tip}
+**Final reminder.** Hammad rewards structure and source-citation density. The students who fail this exam aren't the ones who don't know the material — they're the ones who write reactive prose. Outline first, write second.
+:::

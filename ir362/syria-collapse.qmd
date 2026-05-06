@@ -1,0 +1,16 @@
+---
+title: "Syria — Iran Alliance and the December 2024 Collapse"
+subtitle: "Scaffolding-subtraction, not military victory: how the regime fell in 12 days"
+description: "Deep research dive: Iran-Syria sources, the Sharaa government, regional implications"
+order: 5
+---
+
+::: {.callout-tip}
+**Maps directly to:** Q5 (sources of Iran-Syria alliance and how it connects the two subregional structures — the load-bearing question), Q6 (how the collapse will affect regional politics — the freshest material on the entire final).
+:::
+
+::: {.callout-warning}
+**Intellectual-honesty marker.** Sharaa's trajectory is genuinely contested at ~17 months out. The March 2025 Alawite coastal massacres and July 2025 Suwayda crisis sit alongside UNSC delisting and Caesar Act repeal. Your essay should *flag* the contestation rather than pretending the post-collapse Syria is settled.
+:::
+
+{{< include _syria_collapse.md >}}

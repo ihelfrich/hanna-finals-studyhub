@@ -1,0 +1,20 @@
+---
+title: "ECON 205 — Mock Final, Form B"
+subtitle: "Alternate full-length practice exam · 150 pts · 120 min"
+description: "Take after Mock A and reviewing weak spots"
+order: 5
+---
+
+::: {.callout-warning}
+**Take Mock B *after* you've reviewed your Mock A weak spots.** Goal: net error rate ≤ 10%. If you score below ~80% here, you need more drilling, not more mocks.
+:::
+
+## Exam
+
+{{< include _mock_b_q.md >}}
+
+---
+
+## Key + intuition
+
+{{< include _mock_b_a.md >}}

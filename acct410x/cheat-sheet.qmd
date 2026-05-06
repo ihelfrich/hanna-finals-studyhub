@@ -1,0 +1,8 @@
+---
+title: "ACCT 410x — Cheat Sheet"
+subtitle: "All formulas, all sections, one page"
+description: "Memorize before the exam"
+order: 2
+---
+
+{{< include _cheat.md >}}

@@ -1,0 +1,20 @@
+---
+title: "ACCT 410x — Trap Drills"
+subtitle: "40 trap-style questions on the highest-yield error patterns"
+description: "Indirect cash flow · multi-product CVP · inventory error reversal · bond pricing"
+order: 4
+---
+
+::: {.callout-tip}
+**Distribution:** ~12 indirect cash flow · 8 multi-product CVP · 8 inventory errors · 6 bonds · 6 secondary (depreciation, allowance, ratios). Mix of ~60% calculation and ~40% conceptual.
+:::
+
+## Drills
+
+{{< include _traps_q.md >}}
+
+---
+
+## Solutions + "why students miss this" notes
+
+{{< include _traps_a.md >}}

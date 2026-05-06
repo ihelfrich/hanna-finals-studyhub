@@ -1,0 +1,20 @@
+---
+title: "ECON 205 — Killer Traps Drills"
+subtitle: "25 trap-style problems targeting the predictable mistakes"
+description: "Where most students lose 10–15 points unnecessarily"
+order: 6
+---
+
+::: {.callout-tip}
+**Targets the 6 trap areas:** Fisher equation real-vs-nominal · AD/AS supply-shock direction · Crowding out · Open-economy multipliers · Exchange-rate appreciation/depreciation · Comparative advantage opportunity-cost ratios · Quantity theory applications.
+:::
+
+## Drills
+
+{{< include _traps_q.md >}}
+
+---
+
+## Solutions
+
+{{< include _traps_a.md >}}

@@ -1,0 +1,70 @@
+---
+title: "ECON 205 — Final Exam Strategy"
+subtitle: "Principles of Macroeconomics · Prof. Andrés Pérez Corsini · Mon May 11, 2:00–4:00 PM · SGM 101"
+description: "Cumulative final · 35% of grade · pencil + calculator only"
+order: 1
+---
+
+::: {.thesis}
+**Strategy.** Cumulative final, ~70% post-midterm material per syllabus. Pencil and calculator only — no notes during the exam, so memorization happens *before*. The exam tests *application*: given a scenario, pick the right model and execute. Five days to go.
+:::
+
+## Five-day plan
+
+| Day | Focus | Deliverable |
+|---|---|---|
+| **Wed 5/6** (today) | Read [Cram Sheet](cram-sheet.qmd) · run [Active Recall §1](active-recall.qmd) (pre-midterm) | 30 cards correct in a row |
+| **Thu 5/7** | Active Recall §2 (Money/Inflation, Fluctuations, Fiscal) · diagnostic [Mock A](mock-exam-a.qmd) untimed | Identify weak chapters |
+| **Fri 5/8** | [Mock A](mock-exam-a.qmd) under timed conditions (120 min) · review key | List of 5 weak spots |
+| **Sat 5/9** | [Killer Traps](killer-traps.qmd) · drill the 5 weak spots from Mock A | Trap-drill score ≥ 80% |
+| **Sun 5/10** | [Mock B](mock-exam-b.qmd) under timed conditions · review key | Net error rate ≤ 10% |
+| **Mon 5/11** | Light skim of Cram Sheet · 90-min walk · sleep · exam at 2 PM | — |
+
+## What's on this exam
+
+Per Pérez's syllabus, the cumulative final pulls from:
+
+::: {.panel-tabset}
+
+### Pre-midterm (Ch. 3–9) — ~30%
+
+- Supply & Demand model + applications
+- Macroeconomic components (GDP, NAS, GNP)
+- National accounts; spending shares; saving & investment identity
+- Labor market: unemployment, participation, wage determination
+- Production, productivity, growth (Solow-style intuition)
+
+### Post-midterm (Ch. 11–19) — ~70%
+
+- **Ch. 11** Money & Inflation (quantity theory, Fisher equation, real vs. nominal)
+- **Ch. 12** Economic Fluctuations (intro)
+- **Ch. 13** Fluctuations Model (AD/AS)
+- **Ch. 14** Application of the Fluctuations Model
+- **Ch. 15** Fiscal Policy (multipliers, deficits, automatic stabilizers, crowding out)
+- **Ch. 16** Monetary Policy (Fed, interest-rate targeting, Taylor rule)
+- **Ch. 17** Financial Markets (loanable funds, term structure)
+- **Ch. 18** International Trade (comparative advantage, gains, tariffs)
+- **Ch. 19** International Finance (FX rates, BoP)
+- International Development & Integration (conceptual; light)
+
+:::
+
+## The 6 traps Pérez exams reliably set
+
+::: {.callout-warning}
+1. **Real vs. nominal interest rate.** Fisher: $r \approx i - \pi^e$. If the question gives nominal and inflation, almost always wants real (or vice-versa).
+2. **AD vs. AS shifts under supply shock.** Negative supply shock = AS left; price up, output down. Don't confuse with demand-side recession.
+3. **Crowding out direction.** Expansionary fiscal → higher real rates → private investment falls. *Open* economy adds NX falls via FX appreciation.
+4. **Open-economy multiplier formula.** Closed: $1/(1-MPC)$. Open with imports: $1/(1-MPC+m)$ where $m$ = marginal propensity to import. Open with taxes too: $1/(1-MPC(1-t)+m)$.
+5. **Exchange rate appreciation vs. depreciation direction.** Higher domestic rates → capital inflow → currency *appreciates* → exports cheaper… wait, no — exports *more expensive abroad*, NX falls.
+6. **Comparative advantage with PPF math.** Compute *opportunity cost ratios*, not absolute productivities. The country with lower opportunity cost in good X exports X.
+:::
+
+## Files in this section
+
+- [Cram Sheet (one page)](cram-sheet.qmd) — formulas + concepts, dense
+- [Active Recall Bank](active-recall.qmd) — 60 Q&A pairs
+- [Mock Exam A](mock-exam-a.qmd) + key on the same page
+- [Mock Exam B](mock-exam-b.qmd) + key on the same page
+- [Killer Traps Drills](killer-traps.qmd) — 25 trap-style problems
+- Master Study Tool (raw): {{< include _master.md >}}

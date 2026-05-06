@@ -1,0 +1,12 @@
+---
+title: "Iran & the Axis of Resistance"
+subtitle: "How Tehran links the two regional spheres — and what 2024 broke"
+description: "Deep research dive: Iran-Syria-Hezbollah, the axis, and post-2024 reality"
+order: 2
+---
+
+::: {.callout-tip}
+**Maps directly to:** Q5 (sources of Iran-Syria alliance), Q6 (collapse of Syrian regime), Q16 (Iran's policy engine and Hezbollah-Syria linkage), Q17 (logic/calculus of different players).
+:::
+
+{{< include _iran_axis.md >}}

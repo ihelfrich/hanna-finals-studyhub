@@ -1,0 +1,12 @@
+---
+title: "Abraham Accords & the Saudi Normalization Track"
+subtitle: "From the Arab Peace Initiative (2002) to the post-Oct-7 freeze"
+description: "Deep research dive: structural shift, Saudi-Israel track, post-Gaza status"
+order: 3
+---
+
+::: {.callout-tip}
+**Maps directly to:** Q1 (rupture and alliance), Q3 (new frame of reference vs. API), Q4 (Arab Peace Initiative), Q7 (impact of normalization on Israeli-Palestinian conflict), Q8 (impact on both sides), Q9 (Abraham Accords — Morocco, Sudan, UAE, Saudi).
+:::
+
+{{< include _abraham_accords.md >}}

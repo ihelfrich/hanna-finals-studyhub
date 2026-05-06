@@ -1,0 +1,31 @@
+---
+title: "IR 362 — Final Exam Framework"
+subtitle: "Politics of the Middle East · Prof. Fayez Hammad · USC · Spring 2026"
+description: "All 17 study-guide questions converted into exam-ready essay outlines. Cite, structure, deploy."
+order: 1
+---
+
+::: {.callout-warning appearance="default"}
+**Heaviest weight on your transcript this term — 65% of your final grade.** Essay-format. Memorization of names + dates is required. Every page on this site is built to serve this exam.
+:::
+
+::: {.thesis}
+**Master throughline.** The 17 study-guide questions revolve around three throughlines: (1) the **API → Abraham Accords pivot** — a regional shift from Palestine-centered linkage to security-and-economics linkage; (2) the **Nash equilibrium "carousel"** — a regional system stuck because each actor's strategy is a best response to the others; (3) **Iran's linkage role** — the engine connecting the Israeli-Palestinian sphere to the Gulf-security sphere via Hezbollah and Syria. Every essay you write should anchor itself to one or more of these throughlines and use specific dates, actors, and Hammad's lecture frames as its supporting beams.
+:::
+
+## Recommended reading order
+
+For maximum yield given limited time, follow this sequence:
+
+1. **This page** — read the framework for all 17 questions (below)
+2. **[Iran & the Axis of Resistance](iran-axis.qmd)** — the deep-dive that addresses Q5, Q6, Q16, Q17 directly
+3. **[Abraham Accords & Saudi Track](abraham-accords.qmd)** — Q1, Q3, Q4, Q7, Q8, Q9
+4. **[Nash Equilibrium & the Carousel](nash-equilibrium.qmd)** — Q10, Q12, Q13, Q14, Q15, Q17
+5. **[Syria — Alliance & 2024 Collapse](syria-collapse.qmd)** — Q5, Q6 (the freshest material in the entire exam)
+6. **[Cram Sheet](cram-sheet.qmd)** — final-night condensation
+
+Then return to this page and re-read the 17-question framework. The deep-dives will have changed how each question reads.
+
+---
+
+{{< include _framework_body.md >}}

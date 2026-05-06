@@ -1,0 +1,20 @@
+---
+title: "ECON 205 — Active Recall Bank"
+subtitle: "60 short-answer Q&A pairs · close the page after each Q · check your answer"
+description: "Retrieval beats re-reading. Cover the answers; don't let them be the easy path."
+order: 3
+---
+
+::: {.callout-tip}
+**How to use:** Cover the Solutions section (scroll past it). Answer each question aloud or in writing. Only then check your answer below. **The act of retrieval is what builds memory** — re-reading does almost nothing.
+:::
+
+## Questions
+
+{{< include _recall_q.md >}}
+
+---
+
+## Solutions
+
+{{< include _recall_a.md >}}

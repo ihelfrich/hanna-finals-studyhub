@@ -1,0 +1,20 @@
+---
+title: "ACCT 410x — Mock Final Exam"
+subtitle: "Full-length practice exam · with pedagogical solutions key"
+description: "Take under timed conditions; review key after"
+order: 3
+---
+
+::: {.callout-warning}
+The existing Mock Final **under-tests trap B (Multi-Product CVP)** and **trap D (Bond Pricing)**. After this, run the [Trap Drills](trap-drills.qmd) to close those gaps.
+:::
+
+## Exam
+
+{{< include _mock_q.md >}}
+
+---
+
+## Solutions (pedagogical key)
+
+{{< include _mock_a.md >}}

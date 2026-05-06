@@ -1,0 +1,8 @@
+---
+title: "ACCT 410x — Day-Of Playbook"
+subtitle: "One page · order of attack · 60-second self-check · pivot moves"
+description: "Open this 30 minutes before walking into the exam"
+order: 5
+---
+
+{{< include _dayof.md >}}

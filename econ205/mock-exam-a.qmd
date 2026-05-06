@@ -1,0 +1,20 @@
+---
+title: "ECON 205 — Mock Final, Form A"
+subtitle: "Full-length practice exam · 150 pts · 120 min · cumulative"
+description: "Take this under exam conditions. Phone away. Calculator only."
+order: 4
+---
+
+::: {.callout-warning}
+**Use exam conditions.** Set a 120-minute timer. Pencil + calculator only. **Don't peek at the key until you finish.** Mock-exam scores predict actual scores only if you take the mock seriously.
+:::
+
+## Exam
+
+{{< include _mock_a_q.md >}}
+
+---
+
+## Key + intuition
+
+{{< include _mock_a_a.md >}}

@@ -1,0 +1,118 @@
+---
+title: "Hanna's Finals — StudyHub"
+subtitle: "Spring 2026 · IR 362 · ECON 205 · ACCT 410x"
+date: today
+date-format: long
+toc: false
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+        function dayCount(targetISO){
+          const now = new Date();
+          const target = new Date(targetISO);
+          const ms = target - now;
+          if (ms < 0) return "DONE";
+          const d = Math.ceil(ms / (1000*60*60*24));
+          return d + (d===1 ? " day" : " days");
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+          document.querySelectorAll("[data-final]").forEach(el => {
+            el.textContent = dayCount(el.getAttribute("data-final"));
+          });
+        });
+        </script>
+---
+
+::: {.thesis}
+**Mission.** Five days. Three finals. Build a structure that holds under pressure: every claim has a source, every source has a frame, every frame ties back to one of the three professors' lecture spines. This site is the spine.
+:::
+
+## Countdown {.unnumbered}
+
+::: {.countdown-card}
+::: {.item}
+#### IR 362 (Hammad)
+<span class="days" data-final="2026-05-14T09:00:00">…</span>
+<div class="when">Date TBD — finals window May 6–13</div>
+<span class="weight">65% of grade · essay-style</span>
+:::
+::: {.item}
+#### ECON 205 (Pérez)
+<span class="days" data-final="2026-05-11T14:00:00">…</span>
+<div class="when">Mon May 11 · 2:00–4:00 PM · SGM 101</div>
+<span class="weight">35% · cumulative · pencil + calculator</span>
+:::
+::: {.item}
+#### ACCT 410x (Leventhal)
+<span class="days" data-final="2026-05-13T09:00:00">…</span>
+<div class="when">Date TBD — confirm with class schedule</div>
+<span class="weight">cumulative · "user-oriented"</span>
+:::
+:::
+
+## How to use this site
+
+1. **Read the per-course Overview pages first.** They each open with the strategy that drives every other page.
+2. **Memorize before you practice.** Each course has a one-page Cram Sheet. Get it cold *before* opening any mock exam.
+3. **Practice deliberately, not passively.** Active Recall Banks force retrieval. Mock exams simulate pressure. Killer Traps target the predictable mistakes.
+4. **For IR 362 specifically:** the four research deep-dives are the moat. Read them, then map each onto Hammad's 17 study-guide questions using the Framework.
+5. **Use the search bar (top right)** to jump to any concept by name.
+
+## Course strategy at a glance
+
+::: {.panel-tabset}
+
+### IR 362 — heaviest weight, essay format
+
+**Strategy:** Build *six* essay-bank thesis statements you can deploy across any of Hammad's 17 study-guide questions. The questions are not independent — they revolve around the **API → Abraham Accords pivot**, the **Nash equilibrium "carousel,"** and **Iran's linkage role** between the two regional spheres. Master those three throughlines and the 17 questions become recombinations of the same material.
+
+- Framework with all 17 questions: [ir362/index.qmd](ir362/index.qmd)
+- Iran's regional engine: [ir362/iran-axis.qmd](ir362/iran-axis.qmd)
+- Abraham Accords + Saudi normalization: [ir362/abraham-accords.qmd](ir362/abraham-accords.qmd)
+- Nash equilibrium + the carousel: [ir362/nash-equilibrium.qmd](ir362/nash-equilibrium.qmd)
+- Syria — Iran alliance and the December 2024 collapse: [ir362/syria-collapse.qmd](ir362/syria-collapse.qmd)
+- One-page cram sheet: [ir362/cram-sheet.qmd](ir362/cram-sheet.qmd)
+
+::: {.callout-warning}
+**Source-coverage gaps in the local research library** — these are flagged in the Framework and the deep-dives:
+
+- **Q10 (Nash equilibrium)**: Hammad assigned a specific article + slide. **Check Brightspace.** The deep-dive scaffolds the canonical IR-game-theory canon (Schelling, Fearon, Jervis, Axelrod) but cannot substitute for the assigned reading.
+- **Q16 (Iran/Hezbollah/Syria)**: deep-dive triangulates Nasr / Parsi / Goodarzi / Norton — confirm against the syllabus.
+- **Q6 + Q13/Q14 (Syrian collapse + carousel)**: lecture-based; carousel is Hammad's own framing.
+:::
+
+### ECON 205 — Mon May 11, 2:00–4:00 PM
+
+**Strategy:** Cumulative final, ~70% post-midterm material. Pencil + calculator only. The exam tests *application* — given a scenario, can you pick the right model and execute the algebra. Cram-sheet memorization happens *before* exam day, not on it.
+
+5-day plan (Wed May 6 → Mon May 11):
+
+| Day | Focus | Deliverable |
+|---|---|---|
+| Wed 5/6 | Read Cram Sheet · run Active Recall Bank §1 (pre-midterm) | 30 cards correct in a row |
+| Thu 5/7 | Active Recall §2 (Money/Inflation, Fluctuations, Fiscal) | Mock Exam A diagnostic |
+| Fri 5/8 | Mock Exam A under timed conditions · review key | Identify 5 weak spots |
+| Sat 5/9 | Killer Traps · drill the 5 weak spots | Trap-drill score ≥ 80% |
+| Sun 5/10 | Mock Exam B under timed conditions · review key | Net error rate ≤ 10% |
+| Mon 5/11 | Light skim of Cram Sheet · 90 min walk · sleep · exam | — |
+
+Start here: [econ205/index.qmd](econ205/index.qmd)
+
+### ACCT 410x — date TBD
+
+**Strategy:** Leventhal "user-oriented" — emphasize *what the number means for a manager*, not journal-entry mechanics. The April 20 tutoring brief identified four high-yield trap areas (indirect cash flow, multi-product CVP, inventory error reversal, bond pricing). Drill those first.
+
+Start here: [acct410x/index.qmd](acct410x/index.qmd)
+
+:::
+
+## Source-of-truth files
+
+All this content is generated from markdown files in the same folder structure. To edit, open the source `.qmd` file in your editor and re-render (`quarto render`). The site is also pushed to GitHub Pages — see the repo for version history.
+
+::: {.callout-tip}
+**This site renders cleanly on phones.** Open it on Hanna's iPhone, bookmark it to her home screen, and study from anywhere.
+:::
