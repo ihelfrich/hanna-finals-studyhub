@@ -24,44 +24,147 @@ format:
           });
         });
         </script>
+        <style>
+        .hero {
+          background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+          color: white;
+          padding: 2.5rem 2rem;
+          border-radius: 14px;
+          margin-bottom: 2rem;
+          box-shadow: 0 8px 24px rgba(153,0,0,0.18);
+        }
+        .hero h1 { color: white !important; font-size: 2.2rem; margin: 0 0 .5rem; letter-spacing: -0.02em; }
+        .hero p { color: rgba(255,255,255,0.92); font-size: 1.08rem; line-height: 1.55; margin-bottom: 0; max-width: 720px; }
+        .hero .accent-bar {
+          height: 5px; width: 60px; background: #FFC72C; border-radius: 999px; margin-bottom: 1.2rem;
+        }
+        .countdown-card {
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+          gap: 1rem; margin: 1.5rem 0 2.5rem;
+        }
+        .countdown-card .item {
+          border: 1px solid var(--bs-border-color); border-radius: 14px;
+          padding: 1.2rem 1.4rem;
+          background: linear-gradient(180deg, rgba(153,0,0,0.04), transparent);
+          position: relative; transition: transform .15s ease, box-shadow .2s ease;
+        }
+        .countdown-card .item:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+        .countdown-card .item h4 { margin: 0 0 .3rem 0; font-size: 1rem; color: #990000; font-weight: 700; }
+        .countdown-card .item .days { font-size: 2.6rem; font-weight: 800; line-height: 1; letter-spacing: -0.03em; color: #1a1a1a; }
+        .dark .countdown-card .item .days { color: #f5f5f5; }
+        .countdown-card .item .when { color: var(--bs-secondary-color); font-size: .92rem; margin-top: .3rem; }
+        .countdown-card .item .weight {
+          display: inline-block; background: #FFC72C; color: #1a1a1a; font-weight: 700;
+          font-size: .75rem; padding: 3px 10px; border-radius: 999px; margin-top: .55rem;
+        }
+        .quick-grid {
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 1.2rem; margin: 1.5rem 0;
+        }
+        .quick-tile {
+          border: 1px solid var(--bs-border-color); border-radius: 12px;
+          padding: 1.1rem 1.3rem;
+          background: var(--bs-body-bg);
+          text-decoration: none !important; color: inherit !important;
+          transition: all .15s ease;
+          display: block;
+        }
+        .quick-tile:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.06); border-color: #990000; }
+        .quick-tile .emoji { font-size: 1.8rem; line-height: 1; }
+        .quick-tile h4 { margin: .35rem 0 .25rem; color: #990000; font-size: 1.05rem; }
+        .quick-tile p { margin: 0; font-size: .88rem; color: var(--bs-secondary-color); line-height: 1.45; }
+        .stat-row {
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+          gap: 1rem; margin: 1.2rem 0 2rem; text-align: center;
+        }
+        .stat-row .stat { border: 1px solid var(--bs-border-color); border-radius: 10px; padding: .9rem .6rem; }
+        .stat-row .stat .num { font-size: 1.7rem; font-weight: 800; color: #990000; line-height: 1; }
+        .stat-row .stat .lbl { font-size: .8rem; color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .05em; margin-top: .3rem; }
+        </style>
 ---
 
-::: {.thesis}
-**Mission.** Five days. Three finals. Build a structure that holds under pressure: every claim has a source, every source has a frame, every frame ties back to one of the three professors' lecture spines. This site is the spine.
-:::
+```{=html}
+<div class="hero">
+  <div class="accent-bar"></div>
+  <h1>Three finals. One spine.</h1>
+  <p>Every claim has a source. Every source has a frame. Every frame ties back to one of the three professors' lecture spines. This site is the spine — built fast, built deep, built to hold under exam pressure. Open <a href="tonight.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">Tonight's Plan</a> first; everything else is fuel for it.</p>
+</div>
 
-## Countdown {.unnumbered}
+<div class="countdown-card">
+  <div class="item">
+    <h4>📘 IR 362 (Hammad)</h4>
+    <span class="days" data-final="2026-05-14T09:00:00">…</span>
+    <div class="when">Date TBD · finals window May 6–13</div>
+    <span class="weight">65% · essay-style</span>
+  </div>
+  <div class="item">
+    <h4>📗 ECON 205 (Pérez)</h4>
+    <span class="days" data-final="2026-05-11T14:00:00">…</span>
+    <div class="when">Mon May 11 · 2:00–4:00 PM · SGM 101</div>
+    <span class="weight">35% · cumulative · pencil + calculator</span>
+  </div>
+  <div class="item">
+    <h4>📕 ACCT 410x (Leventhal)</h4>
+    <span class="days" data-final="2026-05-13T09:00:00">…</span>
+    <div class="when">Date TBD · "user-oriented" exam</div>
+    <span class="weight">cumulative · CFO-level lens</span>
+  </div>
+</div>
+```
 
-::: {.countdown-card}
-::: {.item}
-#### IR 362 (Hammad)
-<span class="days" data-final="2026-05-14T09:00:00">…</span>
-<div class="when">Date TBD — finals window May 6–13</div>
-<span class="weight">65% of grade · essay-style</span>
-:::
-::: {.item}
-#### ECON 205 (Pérez)
-<span class="days" data-final="2026-05-11T14:00:00">…</span>
-<div class="when">Mon May 11 · 2:00–4:00 PM · SGM 101</div>
-<span class="weight">35% · cumulative · pencil + calculator</span>
-:::
-::: {.item}
-#### ACCT 410x (Leventhal)
-<span class="days" data-final="2026-05-13T09:00:00">…</span>
-<div class="when">Date TBD — confirm with class schedule</div>
-<span class="weight">cumulative · "user-oriented"</span>
-:::
-:::
+## What's on the site
 
-## How to use this site
+```{=html}
+<div class="quick-grid">
+  <a href="tonight.html" class="quick-tile">
+    <div class="emoji">🎯</div>
+    <h4>Tonight's Plan</h4>
+    <p>Auto-generated daily priorities based on which final is closest. Open this first every morning.</p>
+  </a>
+  <a href="flashcards.html" class="quick-tile">
+    <div class="emoji">🃏</div>
+    <h4>75 Flashcards</h4>
+    <p>Three decks — IR 362, ECON 205, ACCT 410x — with localStorage tracking. Click to flip; mark got-it / missed.</p>
+  </a>
+  <a href="connections.html" class="quick-tile">
+    <div class="emoji">🔗</div>
+    <h4>Cross-Course Connections</h4>
+    <p>Eight bridges across the three courses — oil rents · GDP · monetary policy · crony capitalism · ratios.</p>
+  </a>
+  <a href="ir362/" class="quick-tile">
+    <div class="emoji">📘</div>
+    <h4>IR 362 — heaviest weight</h4>
+    <p>17-question framework · 4 deep-dive research pages · 7 lecture frames · 5 mock essays + sample answers · 8 primary sources · concept graph · timeline · maps.</p>
+  </a>
+  <a href="econ205/" class="quick-tile">
+    <div class="emoji">📗</div>
+    <h4>ECON 205 — Mon May 11</h4>
+    <p>5-day plan · cram sheet · 60-Q recall bank · 2 mock exams · 25 killer traps · 10 diagrams · 117-problem chapter bank.</p>
+  </a>
+  <a href="acct410x/" class="quick-tile">
+    <div class="emoji">📕</div>
+    <h4>ACCT 410x — user-oriented</h4>
+    <p>Cheat sheet · mock final w/ pedagogical key · 40 trap drills · 10 transaction walkthroughs · day-of playbook.</p>
+  </a>
+</div>
+```
 
-1. **Read the per-course Overview pages first.** They each open with the strategy that drives every other page.
-2. **Memorize before you practice.** Each course has a one-page Cram Sheet. Get it cold *before* opening any mock exam.
-3. **Practice deliberately, not passively.** Active Recall Banks force retrieval. Mock exams simulate pressure. Killer Traps target the predictable mistakes.
-4. **For IR 362 specifically:** the four research deep-dives are the moat. Read them, then map each onto Hammad's 17 study-guide questions using the Framework.
-5. **Use the search bar (top right)** to jump to any concept by name.
+## What's already in here
 
-## Course strategy at a glance
+```{=html}
+<div class="stat-row">
+  <div class="stat"><div class="num">~50K</div><div class="lbl">words written</div></div>
+  <div class="stat"><div class="num">17,000</div><div class="lbl">words deep research</div></div>
+  <div class="stat"><div class="num">75</div><div class="lbl">flashcards</div></div>
+  <div class="stat"><div class="num">117</div><div class="lbl">ECON practice problems</div></div>
+  <div class="stat"><div class="num">40</div><div class="lbl">ACCT trap drills</div></div>
+  <div class="stat"><div class="num">5</div><div class="lbl">mock IR 362 essays</div></div>
+  <div class="stat"><div class="num">10</div><div class="lbl">macro diagrams</div></div>
+  <div class="stat"><div class="num">8</div><div class="lbl">primary sources</div></div>
+</div>
+```
+
+## Strategy at a glance
 
 ::: {.panel-tabset}
 
@@ -69,18 +172,20 @@ format:
 
 **Strategy:** Build *six* essay-bank thesis statements you can deploy across any of Hammad's 17 study-guide questions. The questions are not independent — they revolve around the **API → Abraham Accords pivot**, the **Nash equilibrium "carousel,"** and **Iran's linkage role** between the two regional spheres. Master those three throughlines and the 17 questions become recombinations of the same material.
 
-- Framework with all 17 questions: [ir362/index.qmd](ir362/index.qmd)
-- Iran's regional engine: [ir362/iran-axis.qmd](ir362/iran-axis.qmd)
-- Abraham Accords + Saudi normalization: [ir362/abraham-accords.qmd](ir362/abraham-accords.qmd)
-- Nash equilibrium + the carousel: [ir362/nash-equilibrium.qmd](ir362/nash-equilibrium.qmd)
-- Syria — Iran alliance and the December 2024 collapse: [ir362/syria-collapse.qmd](ir362/syria-collapse.qmd)
-- One-page cram sheet: [ir362/cram-sheet.qmd](ir362/cram-sheet.qmd)
+Reading order:
+
+1. [Framework with all 17 questions](ir362/index.qmd) — the spine
+2. [Iran & the Axis](ir362/iran-axis.qmd), [Abraham Accords](ir362/abraham-accords.qmd), [Nash Equilibrium](ir362/nash-equilibrium.qmd), [Syria Collapse](ir362/syria-collapse.qmd) — the four deep-dive research pages
+3. [Hammad's 7 Frames](ir362/frames/index.qmd) — Bellin, Brownlee/Masoud/Reynolds, Mitchell, Gause, Diwan/Malik/Atiyas, Sayigh, Bayat
+4. [Primary Sources](ir362/sources/index.qmd) — Balfour → Abraham Accords text
+5. [Mock Essays + Sample Answers](ir362/mock-essays.qmd) — 5 prompts, 6,150 words of A-grade demonstrations
+6. [Cram Sheet](ir362/cram-sheet.qmd) — final-night condensation
 
 ::: {.callout-warning}
-**Source-coverage gaps in the local research library** — these are flagged in the Framework and the deep-dives:
+**Source-coverage gaps to flag with Hammad's syllabus:**
 
-- **Q10 (Nash equilibrium)**: Hammad assigned a specific article + slide. **Check Brightspace.** The deep-dive scaffolds the canonical IR-game-theory canon (Schelling, Fearon, Jervis, Axelrod) but cannot substitute for the assigned reading.
-- **Q16 (Iran/Hezbollah/Syria)**: deep-dive triangulates Nasr / Parsi / Goodarzi / Norton — confirm against the syllabus.
+- **Q10 Nash equilibrium**: Hammad assigned a specific article + slide. **Check Brightspace.**
+- **Q16 Iran/Hezbollah/Syria**: deep-dive triangulates Nasr / Parsi / Goodarzi / Norton — confirm against syllabus.
 - **Q6 + Q13/Q14 (Syrian collapse + carousel)**: lecture-based; carousel is Hammad's own framing.
 :::
 
@@ -92,7 +197,7 @@ format:
 
 | Day | Focus | Deliverable |
 |---|---|---|
-| Wed 5/6 | Read Cram Sheet · run Active Recall Bank §1 (pre-midterm) | 30 cards correct in a row |
+| Wed 5/6 | Read Cram Sheet · run Active Recall §1 (pre-midterm) | 30 cards correct in a row |
 | Thu 5/7 | Active Recall §2 (Money/Inflation, Fluctuations, Fiscal) | Mock Exam A diagnostic |
 | Fri 5/8 | Mock Exam A under timed conditions · review key | Identify 5 weak spots |
 | Sat 5/9 | Killer Traps · drill the 5 weak spots | Trap-drill score ≥ 80% |
@@ -109,10 +214,6 @@ Start here: [acct410x/index.qmd](acct410x/index.qmd)
 
 :::
 
-## Source-of-truth files
-
-All this content is generated from markdown files in the same folder structure. To edit, open the source `.qmd` file in your editor and re-render (`quarto render`). The site is also pushed to GitHub Pages — see the repo for version history.
-
 ::: {.callout-tip}
-**This site renders cleanly on phones.** Open it on Hanna's iPhone, bookmark it to her home screen, and study from anywhere.
+**This site renders cleanly on phones.** Open it on your iPhone, bookmark to home screen, study anywhere.
 :::

@@ -51,6 +51,10 @@ website:
             text: "📝 Mock Essays + Sample Answers"
           - href: ir362/sources/index.qmd
             text: "📜 Primary Sources"
+          - href: ir362/timeline.qmd
+            text: "📅 Visual Timeline"
+          - href: ir362/maps.qmd
+            text: "🗺️ Maps Gallery"
           - href: ir362/concept-graph.qmd
             text: "🗺️ Concept Graph"
           - href: ir362/frames/index.qmd
@@ -127,6 +131,10 @@ website:
             - ir362/sources/oslo-i.qmd
             - ir362/sources/api-2002.qmd
             - ir362/sources/abraham-accords-text.qmd
+        - section: "Visual reference"
+          contents:
+            - ir362/timeline.qmd
+            - ir362/maps.qmd
     - title: "ECON 205"
       contents:
         - econ205/index.qmd

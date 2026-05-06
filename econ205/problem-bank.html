@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Targeted drilling for cumulative final">
+
+<title>ECON 205 — Problem Bank by Chapter – Hanna’s Finals — StudyHub Spring 2026</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../econ205/killer-traps.html" rel="prev">
+<link href="../assets/img/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-fd43b18b64a1d2a73627bc64aef88bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-35b236c17d625ec4a1c73494e6d62cce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-fd43b18b64a1d2a73627bc64aef88bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../assets/css/custom.scss">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Hanna’s Finals — StudyHub Spring 2026</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tonight.html"> 
+<span class="menu-text">🎯 Tonight</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../flashcards.html"> 
+<span class="menu-text">🃏 Flashcards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../connections.html"> 
+<span class="menu-text">🔗 Connections</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ir-362" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">IR 362</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ir-362">    
+        <li>
+    <a class="dropdown-item" href="../ir362/index.html">
+ <span class="dropdown-text">Overview &amp; Framework</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/iran-axis.html">
+ <span class="dropdown-text">Iran &amp; the Axis of Resistance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/abraham-accords.html">
+ <span class="dropdown-text">Abraham Accords &amp; Saudi Track</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/nash-equilibrium.html">
+ <span class="dropdown-text">Nash Equilibrium &amp; the Carousel</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/syria-collapse.html">
+ <span class="dropdown-text">Syria — Alliance &amp; 2024 Collapse</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/mock-essays.html">
+ <span class="dropdown-text">📝 Mock Essays + Sample Answers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/sources/index.html">
+ <span class="dropdown-text">📜 Primary Sources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/timeline.html">
+ <span class="dropdown-text">📅 Visual Timeline</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/maps.html">
+ <span class="dropdown-text">🗺️ Maps Gallery</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/concept-graph.html">
+ <span class="dropdown-text">🗺️ Concept Graph</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/frames/index.html">
+ <span class="dropdown-text">📚 Hammad’s 7 Frames</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ir362/cram-sheet.html">
+ <span class="dropdown-text">Cram Sheet</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-econ-205" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ECON 205</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-econ-205">    
+        <li>
+    <a class="dropdown-item" href="../econ205/index.html">
+ <span class="dropdown-text">Overview &amp; 5-Day Plan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/cram-sheet.html">
+ <span class="dropdown-text">One-Page Cram Sheet</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/diagrams.html">
+ <span class="dropdown-text">Diagram Bank</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/active-recall.html">
+ <span class="dropdown-text">Active Recall Bank</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/mock-exam-a.html">
+ <span class="dropdown-text">Mock Exam A</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/mock-exam-b.html">
+ <span class="dropdown-text">Mock Exam B</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/killer-traps.html">
+ <span class="dropdown-text">Killer Traps Drills</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../econ205/problem-bank.html">
+ <span class="dropdown-text">📊 Problem Bank (by Chapter)</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-acct-410x" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ACCT 410x</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-acct-410x">    
+        <li>
+    <a class="dropdown-item" href="../acct410x/index.html">
+ <span class="dropdown-text">Overview &amp; Strategy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../acct410x/cheat-sheet.html">
+ <span class="dropdown-text">Cheat Sheet</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../acct410x/walkthroughs.html">
+ <span class="dropdown-text">Transaction Walkthroughs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../acct410x/mock-final.html">
+ <span class="dropdown-text">Mock Final</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../acct410x/trap-drills.html">
+ <span class="dropdown-text">Trap Drills</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../acct410x/day-of.html">
+ <span class="dropdown-text">Day-Of Playbook</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../econ205/active-recall.html">Practice</a></li><li class="breadcrumb-item"><a href="../econ205/problem-bank.html">ECON 205 — Problem Bank by Chapter</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — Final Exam Strategy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/cram-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — One-Page Cram Sheet</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/diagrams.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — Diagram Bank</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Practice</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/active-recall.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — Active Recall Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/mock-exam-a.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — Mock Final, Form A</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/mock-exam-b.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — Mock Final, Form B</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/killer-traps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECON 205 — Killer Traps Drills</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ205/problem-bank.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">ECON 205 — Problem Bank by Chapter</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-use-this-page" id="toc-how-to-use-this-page" class="nav-link active" data-scroll-target="#how-to-use-this-page">How to use this page</a>
+  <ul class="collapse">
+  <li><a href="#self-grading-rubric" id="toc-self-grading-rubric" class="nav-link" data-scroll-target="#self-grading-rubric">Self-grading rubric</a></li>
+  </ul></li>
+  <li><a href="#ch.-3-supply-demand" id="toc-ch.-3-supply-demand" class="nav-link" data-scroll-target="#ch.-3-supply-demand">Ch. 3 — Supply &amp; Demand</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5" id="toc-multiple-choice-5" class="nav-link" data-scroll-target="#multiple-choice-5">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3" id="toc-short-answer-numeric-3" class="nav-link" data-scroll-target="#short-answer-numeric-3">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem" id="toc-longer-applied-problem" class="nav-link" data-scroll-target="#longer-applied-problem">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-4-application-of-sd" id="toc-ch.-4-application-of-sd" class="nav-link" data-scroll-target="#ch.-4-application-of-sd">Ch. 4 — Application of S&amp;D</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-1" id="toc-multiple-choice-5-1" class="nav-link" data-scroll-target="#multiple-choice-5-1">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-1" id="toc-short-answer-numeric-3-1" class="nav-link" data-scroll-target="#short-answer-numeric-3-1">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-1" id="toc-longer-applied-problem-1" class="nav-link" data-scroll-target="#longer-applied-problem-1">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-5-macroeconomic-concepts" id="toc-ch.-5-macroeconomic-concepts" class="nav-link" data-scroll-target="#ch.-5-macroeconomic-concepts">Ch. 5 — Macroeconomic Concepts</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-2" id="toc-multiple-choice-5-2" class="nav-link" data-scroll-target="#multiple-choice-5-2">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-2" id="toc-short-answer-numeric-3-2" class="nav-link" data-scroll-target="#short-answer-numeric-3-2">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-2" id="toc-longer-applied-problem-2" class="nav-link" data-scroll-target="#longer-applied-problem-2">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-6-national-accounts" id="toc-ch.-6-national-accounts" class="nav-link" data-scroll-target="#ch.-6-national-accounts">Ch. 6 — National Accounts</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-3" id="toc-multiple-choice-5-3" class="nav-link" data-scroll-target="#multiple-choice-5-3">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-3" id="toc-short-answer-numeric-3-3" class="nav-link" data-scroll-target="#short-answer-numeric-3-3">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-3" id="toc-longer-applied-problem-3" class="nav-link" data-scroll-target="#longer-applied-problem-3">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-7-spending-shares-investment" id="toc-ch.-7-spending-shares-investment" class="nav-link" data-scroll-target="#ch.-7-spending-shares-investment">Ch. 7 — Spending Shares &amp; Investment</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-4" id="toc-multiple-choice-5-4" class="nav-link" data-scroll-target="#multiple-choice-5-4">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-4" id="toc-short-answer-numeric-3-4" class="nav-link" data-scroll-target="#short-answer-numeric-3-4">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-4" id="toc-longer-applied-problem-4" class="nav-link" data-scroll-target="#longer-applied-problem-4">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-8-labor-market" id="toc-ch.-8-labor-market" class="nav-link" data-scroll-target="#ch.-8-labor-market">Ch. 8 — Labor Market</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-5" id="toc-multiple-choice-5-5" class="nav-link" data-scroll-target="#multiple-choice-5-5">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-5" id="toc-short-answer-numeric-3-5" class="nav-link" data-scroll-target="#short-answer-numeric-3-5">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-5" id="toc-longer-applied-problem-5" class="nav-link" data-scroll-target="#longer-applied-problem-5">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-9-production-growth" id="toc-ch.-9-production-growth" class="nav-link" data-scroll-target="#ch.-9-production-growth">Ch. 9 — Production &amp; Growth</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-6" id="toc-multiple-choice-5-6" class="nav-link" data-scroll-target="#multiple-choice-5-6">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-6" id="toc-short-answer-numeric-3-6" class="nav-link" data-scroll-target="#short-answer-numeric-3-6">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-6" id="toc-longer-applied-problem-6" class="nav-link" data-scroll-target="#longer-applied-problem-6">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-11-money-inflation" id="toc-ch.-11-money-inflation" class="nav-link" data-scroll-target="#ch.-11-money-inflation">Ch. 11 — Money &amp; Inflation</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-7" id="toc-multiple-choice-5-7" class="nav-link" data-scroll-target="#multiple-choice-5-7">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-7" id="toc-short-answer-numeric-3-7" class="nav-link" data-scroll-target="#short-answer-numeric-3-7">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-7" id="toc-longer-applied-problem-7" class="nav-link" data-scroll-target="#longer-applied-problem-7">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-1213-economic-fluctuations-adas" id="toc-ch.-1213-economic-fluctuations-adas" class="nav-link" data-scroll-target="#ch.-1213-economic-fluctuations-adas">Ch. 12–13 — Economic Fluctuations &amp; AD/AS</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-8" id="toc-multiple-choice-5-8" class="nav-link" data-scroll-target="#multiple-choice-5-8">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-8" id="toc-short-answer-numeric-3-8" class="nav-link" data-scroll-target="#short-answer-numeric-3-8">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-8" id="toc-longer-applied-problem-8" class="nav-link" data-scroll-target="#longer-applied-problem-8">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-14-application-of-fluctuations" id="toc-ch.-14-application-of-fluctuations" class="nav-link" data-scroll-target="#ch.-14-application-of-fluctuations">Ch. 14 — Application of Fluctuations</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-9" id="toc-multiple-choice-5-9" class="nav-link" data-scroll-target="#multiple-choice-5-9">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-9" id="toc-short-answer-numeric-3-9" class="nav-link" data-scroll-target="#short-answer-numeric-3-9">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-9" id="toc-longer-applied-problem-9" class="nav-link" data-scroll-target="#longer-applied-problem-9">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-15-fiscal-policy" id="toc-ch.-15-fiscal-policy" class="nav-link" data-scroll-target="#ch.-15-fiscal-policy">Ch. 15 — Fiscal Policy</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-10" id="toc-multiple-choice-5-10" class="nav-link" data-scroll-target="#multiple-choice-5-10">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-10" id="toc-short-answer-numeric-3-10" class="nav-link" data-scroll-target="#short-answer-numeric-3-10">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-10" id="toc-longer-applied-problem-10" class="nav-link" data-scroll-target="#longer-applied-problem-10">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-16-monetary-policy" id="toc-ch.-16-monetary-policy" class="nav-link" data-scroll-target="#ch.-16-monetary-policy">Ch. 16 — Monetary Policy</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-11" id="toc-multiple-choice-5-11" class="nav-link" data-scroll-target="#multiple-choice-5-11">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-11" id="toc-short-answer-numeric-3-11" class="nav-link" data-scroll-target="#short-answer-numeric-3-11">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-11" id="toc-longer-applied-problem-11" class="nav-link" data-scroll-target="#longer-applied-problem-11">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-17-financial-markets" id="toc-ch.-17-financial-markets" class="nav-link" data-scroll-target="#ch.-17-financial-markets">Ch. 17 — Financial Markets</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-12" id="toc-multiple-choice-5-12" class="nav-link" data-scroll-target="#multiple-choice-5-12">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-12" id="toc-short-answer-numeric-3-12" class="nav-link" data-scroll-target="#short-answer-numeric-3-12">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-12" id="toc-longer-applied-problem-12" class="nav-link" data-scroll-target="#longer-applied-problem-12">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-18-international-trade" id="toc-ch.-18-international-trade" class="nav-link" data-scroll-target="#ch.-18-international-trade">Ch. 18 — International Trade</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-13" id="toc-multiple-choice-5-13" class="nav-link" data-scroll-target="#multiple-choice-5-13">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-13" id="toc-short-answer-numeric-3-13" class="nav-link" data-scroll-target="#short-answer-numeric-3-13">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-13" id="toc-longer-applied-problem-13" class="nav-link" data-scroll-target="#longer-applied-problem-13">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#ch.-19-international-finance" id="toc-ch.-19-international-finance" class="nav-link" data-scroll-target="#ch.-19-international-finance">Ch. 19 — International Finance</a>
+  <ul class="collapse">
+  <li><a href="#multiple-choice-5-14" id="toc-multiple-choice-5-14" class="nav-link" data-scroll-target="#multiple-choice-5-14">Multiple choice (5)</a></li>
+  <li><a href="#short-answer-numeric-3-14" id="toc-short-answer-numeric-3-14" class="nav-link" data-scroll-target="#short-answer-numeric-3-14">Short answer / numeric (3)</a></li>
+  <li><a href="#longer-applied-problem-14" id="toc-longer-applied-problem-14" class="nav-link" data-scroll-target="#longer-applied-problem-14">Longer applied problem</a></li>
+  </ul></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a>
+  <ul class="collapse">
+  <li><a href="#ch.-3" id="toc-ch.-3" class="nav-link" data-scroll-target="#ch.-3">Ch. 3</a></li>
+  <li><a href="#ch.-4" id="toc-ch.-4" class="nav-link" data-scroll-target="#ch.-4">Ch. 4</a></li>
+  <li><a href="#ch.-5" id="toc-ch.-5" class="nav-link" data-scroll-target="#ch.-5">Ch. 5</a></li>
+  <li><a href="#ch.-6" id="toc-ch.-6" class="nav-link" data-scroll-target="#ch.-6">Ch. 6</a></li>
+  <li><a href="#ch.-7" id="toc-ch.-7" class="nav-link" data-scroll-target="#ch.-7">Ch. 7</a></li>
+  <li><a href="#ch.-8" id="toc-ch.-8" class="nav-link" data-scroll-target="#ch.-8">Ch. 8</a></li>
+  <li><a href="#ch.-9" id="toc-ch.-9" class="nav-link" data-scroll-target="#ch.-9">Ch. 9</a></li>
+  <li><a href="#ch.-11" id="toc-ch.-11" class="nav-link" data-scroll-target="#ch.-11">Ch. 11</a></li>
+  <li><a href="#ch.-12-13" id="toc-ch.-12-13" class="nav-link" data-scroll-target="#ch.-12-13">Ch. 12-13</a></li>
+  <li><a href="#ch.-14" id="toc-ch.-14" class="nav-link" data-scroll-target="#ch.-14">Ch. 14</a></li>
+  <li><a href="#ch.-15" id="toc-ch.-15" class="nav-link" data-scroll-target="#ch.-15">Ch. 15</a></li>
+  <li><a href="#ch.-16" id="toc-ch.-16" class="nav-link" data-scroll-target="#ch.-16">Ch. 16</a></li>
+  <li><a href="#ch.-17" id="toc-ch.-17" class="nav-link" data-scroll-target="#ch.-17">Ch. 17</a></li>
+  <li><a href="#ch.-18" id="toc-ch.-18" class="nav-link" data-scroll-target="#ch.-18">Ch. 18</a></li>
+  <li><a href="#ch.-19" id="toc-ch.-19" class="nav-link" data-scroll-target="#ch.-19">Ch. 19</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../econ205/active-recall.html">Practice</a></li><li class="breadcrumb-item"><a href="../econ205/problem-bank.html">ECON 205 — Problem Bank by Chapter</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">ECON 205 — Problem Bank by Chapter</h1>
+<p class="subtitle lead">117 problems · MC + numeric + applied · matched to Pérez’s syllabus</p>
+</div>
+
+<div>
+  <div class="description">
+    Targeted drilling for cumulative final
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-body">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="how-to-use-this-page" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-page">How to use this page</h2>
+<p>This bank is organized by syllabus chapter so you can drill weak spots without rereading the whole textbook. Each chapter has <strong>5 multiple-choice</strong>, <strong>3 short-answer / numeric</strong>, and <strong>1 longer applied problem</strong> — nine items total. The cumulative final pulls from Ch. 3–9 (pre-midterm, ~30%) and Ch. 11–19 (post-midterm, ~70%), so post-midterm chapters carry the same weight here.</p>
+<p><strong>Recommended cadence.</strong> Run <strong>2–3 chapters per study session</strong> (60–90 minutes). Within a chapter, do MC first under a 90-second-per-question cap to gauge whether you have the concept. Then do the numeric problems with a calculator and pencil — write out the formula before plugging numbers, the way Pérez expects on the exam. Finish with the applied problem. Only after all nine are submitted do you check the Solutions section at the bottom of the page.</p>
+<p>If you score 9/9, mark the chapter green and move on. If you score 7–8/9, revisit just the question(s) you missed and the matching cram-sheet line. If you score ≤6/9, re-read the relevant cram-sheet section, redo the chapter from scratch the next day, and only then move on.</p>
+<section id="self-grading-rubric" class="level3">
+<h3 class="anchored" data-anchor-id="self-grading-rubric">Self-grading rubric</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Score</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9 / 9</td>
+<td>Green. Chapter retired.</td>
+</tr>
+<tr class="even">
+<td>7–8 / 9</td>
+<td>Yellow. Re-do the missed item; check cram-sheet line.</td>
+</tr>
+<tr class="odd">
+<td>≤ 6 / 9</td>
+<td>Red. Re-read cram-sheet section, return tomorrow, redo all nine.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="ch.-3-supply-demand" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-3-supply-demand">Ch. 3 — Supply &amp; Demand</h2>
+<p><strong>Cram-sheet refresh:</strong> Equilibrium is where <span class="math inline">Q^D = Q^S</span>. A demand shift moves P and Q in the same direction; a supply shift moves P and Q in opposite directions. Elastic demand (<span class="math inline">|\varepsilon|&gt;1</span>) means a price increase lowers total revenue.</p>
+<section id="multiple-choice-5" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5">Multiple choice (5)</h3>
+<ol type="1">
+<li>A binding price below equilibrium creates a:
+<ul>
+<li><ol type="a">
+<li>Surplus</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Shortage</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>New equilibrium at a lower quantity</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Tax wedge</li>
+</ol></li>
+</ul></li>
+<li>If demand for coffee rises while a frost simultaneously cuts coffee supply, equilibrium price:
+<ul>
+<li><ol type="a">
+<li>Rises unambiguously</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Falls unambiguously</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Is ambiguous in direction</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Is unchanged</li>
+</ol></li>
+</ul></li>
+<li>Demand is unit-elastic when:
+<ul>
+<li><ol type="a">
+<li>Quantity does not respond to price</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>A 1% price change produces a 1% quantity change</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Total revenue rises with price</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>The good has no substitutes</li>
+</ol></li>
+</ul></li>
+<li>A normal good’s demand curve shifts right when:
+<ul>
+<li><ol type="a">
+<li>Income falls</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Income rises</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>The good’s own price falls</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>A complement’s price rises</li>
+</ol></li>
+</ul></li>
+<li>The law of supply states that, ceteris paribus, <span class="math inline">Q^S</span> rises when:
+<ul>
+<li><ol type="a">
+<li>The good’s price rises</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Input prices rise</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Technology worsens</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Demand falls</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Demand: <span class="math inline">Q^D = 120 - 2P</span>. Supply: <span class="math inline">Q^S = 4P</span>. Find equilibrium P and Q.</p></li>
+<li><p>At P = 10 the market has <span class="math inline">Q^D = 80</span> and <span class="math inline">Q^S = 50</span>. Is there a shortage or surplus, and of how many units?</p></li>
+<li><p>Using the midpoint formula, compute the price elasticity of demand when price rises from $8 to $12 and quantity demanded falls from 100 to 60.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> A new ride-share entrant enters Los Angeles. At the same time, gasoline prices spike 30%.
+<ol type="a">
+<li>Which curves shift in the ride-share market, and in which direction?</li>
+<li>Predict the qualitative effect on equilibrium P and Q.</li>
+<li>If demand is highly elastic, what happens to total revenue when price falls?</li>
+<li>Why is the magnitude of the price effect ambiguous?</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-4-application-of-sd" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-4-application-of-sd">Ch. 4 — Application of S&amp;D</h2>
+<p><strong>Cram-sheet refresh:</strong> Tax incidence falls more on the less-elastic side. A binding price ceiling creates a shortage and DWL; a binding floor creates a surplus and DWL. Subsidies are the mirror image of taxes.</p>
+<section id="multiple-choice-5-1" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-1">Multiple choice (5)</h3>
+<ol type="1">
+<li>A $2 per-unit tax on sellers, with elastic supply and inelastic demand, falls primarily on:
+<ul>
+<li><ol type="a">
+<li>Sellers</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Buyers</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>The government</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Foreign producers</li>
+</ol></li>
+</ul></li>
+<li>A binding price ceiling on rent will:
+<ul>
+<li><ol type="a">
+<li>Increase quantity supplied</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Eliminate deadweight loss</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Create a shortage</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Raise consumer surplus unambiguously</li>
+</ol></li>
+</ul></li>
+<li>The minimum wage is a price floor that binds when set:
+<ul>
+<li><ol type="a">
+<li>Below the equilibrium wage</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Above the equilibrium wage</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Equal to the equilibrium wage</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>At zero</li>
+</ol></li>
+</ul></li>
+<li>A per-unit subsidy of $3 paid to producers shifts:
+<ul>
+<li><ol type="a">
+<li>Demand right by 3</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Supply right (downward) by 3</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Both curves equally</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Neither curve</li>
+</ol></li>
+</ul></li>
+<li>Deadweight loss from a tax is largest when:
+<ul>
+<li><ol type="a">
+<li>Both curves are perfectly inelastic</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Both curves are highly elastic</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>The tax is zero</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Supply is vertical</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-1" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-1">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Demand: <span class="math inline">Q^D = 100 - P</span>. Supply: <span class="math inline">Q^S = P</span>. A $10 per-unit tax is imposed on sellers. Find post-tax buyer price, seller price, and quantity.</p></li>
+<li><p>Using the same market, compute tax revenue and the deadweight-loss triangle.</p></li>
+<li><p>A price ceiling of $30 is imposed in a market where free-market equilibrium is P = $50, Q = 100, with <span class="math inline">Q^S = 2P</span> and <span class="math inline">Q^D = 200 - 2P</span>. Compute the size of the shortage at P = $30.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-1" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-1">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> The state imposes a $1 per gallon excise tax on gasoline. Demand: <span class="math inline">Q^D = 200 - 10P</span>. Supply: <span class="math inline">Q^S = 30P</span>.
+<ol type="a">
+<li>Solve for the pre-tax equilibrium.</li>
+<li>Solve for the post-tax buyer and seller prices and quantity.</li>
+<li>Compute tax revenue.</li>
+<li>Compute the deadweight loss.</li>
+<li>Who bears more of the burden, buyers or sellers? Justify with elasticities.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-5-macroeconomic-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-5-macroeconomic-concepts">Ch. 5 — Macroeconomic Concepts</h2>
+<p><strong>Cram-sheet refresh:</strong> GDP measures market value of final goods and services produced domestically in a period. Real GDP holds prices fixed at a base year; nominal GDP uses current prices. The GDP deflator is <span class="math inline">100 \cdot \text{Nominal}/\text{Real}</span>.</p>
+<section id="multiple-choice-5-2" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-2">Multiple choice (5)</h3>
+<ol type="1">
+<li>Which is counted in US GDP?
+<ul>
+<li><ol type="a">
+<li>A used car sold in 2026</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>A new haircut purchased in 2026</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>A 2025-built apartment resold in 2026</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>A foreign-made car sold to a US consumer (full sale price)</li>
+</ol></li>
+</ul></li>
+<li>Real GDP differs from nominal GDP because real GDP:
+<ul>
+<li><ol type="a">
+<li>Excludes services</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Holds prices fixed at a base year</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Adds the trade balance</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Subtracts depreciation</li>
+</ol></li>
+</ul></li>
+<li>The GDP deflator equals 125. This means:
+<ul>
+<li><ol type="a">
+<li>Prices have fallen 25% since the base year</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Prices are 25% above the base year</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Real output grew 25%</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>The economy is in deflation</li>
+</ol></li>
+</ul></li>
+<li>A Toyota assembled in Kentucky and sold in the US is counted in:
+<ul>
+<li><ol type="a">
+<li>Japanese GDP only</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>US GDP</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Neither country’s GDP</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Both countries’ GDP</li>
+</ol></li>
+</ul></li>
+<li>Intermediate goods are excluded from GDP to avoid:
+<ul>
+<li><ol type="a">
+<li>Imports</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Double counting</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Depreciation</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Inflation</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-2" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-2">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Nominal GDP = $22 trillion; real GDP = $20 trillion. Compute the GDP deflator.</p></li>
+<li><p>Year 1: deflator = 100. Year 2: deflator = 104. Year 3: deflator = 109. Compute year-2 and year-3 inflation rates.</p></li>
+<li><p>An economy produces only apples and bread. Year 1 (base): 100 apples at $1, 50 bread at $2. Year 2: 110 apples at $1.20, 60 bread at $2.50. Compute year-2 nominal GDP, real GDP, and the deflator.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-2" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-2">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> A small country produces only laptops and haircuts. Year 1 (base): 200 laptops at $1,000; 1,000 haircuts at $20. Year 2: 220 laptops at $1,100; 1,050 haircuts at $22.
+<ol type="a">
+<li>Compute year-1 and year-2 nominal GDP.</li>
+<li>Compute year-2 real GDP (base = year 1).</li>
+<li>Compute the year-2 GDP deflator.</li>
+<li>Compute year-2 inflation.</li>
+<li>Did real output grow? By what percent?</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-6-national-accounts" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-6-national-accounts">Ch. 6 — National Accounts</h2>
+<p><strong>Cram-sheet refresh:</strong> <span class="math inline">Y = C + I + G + NX</span>. Private saving <span class="math inline">S_p = Y - C - T</span>; public saving <span class="math inline">S_g = T - G</span>; total saving <span class="math inline">S = Y - C - G</span>. In an open economy <span class="math inline">S = I + NX</span>.</p>
+<section id="multiple-choice-5-3" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-3">Multiple choice (5)</h3>
+<ol type="1">
+<li>The expenditure approach to GDP is:
+<ul>
+<li><ol type="a">
+<li><span class="math inline">Y = C + I + G + NX</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Wages + rents + interest + profits</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Sum of value added</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><span class="math inline">Y = M \cdot V</span></li>
+</ol></li>
+</ul></li>
+<li>Public saving is:
+<ul>
+<li><ol type="a">
+<li><span class="math inline">T - G</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">G - T</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">Y - C</span></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><span class="math inline">S_p + S_g</span></li>
+</ol></li>
+</ul></li>
+<li>In a closed economy at equilibrium:
+<ul>
+<li><ol type="a">
+<li><span class="math inline">S = I</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">S = NX</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">S = G</span></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><span class="math inline">S = C</span></li>
+</ol></li>
+</ul></li>
+<li>If <span class="math inline">S = 1{,}000</span> and <span class="math inline">I = 1{,}300</span> in an open economy, then <span class="math inline">NX</span> equals:
+<ul>
+<li><ol type="a">
+<li>+300</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>–300</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>0</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>+2,300</li>
+</ol></li>
+</ul></li>
+<li>Government purchases <span class="math inline">G</span> in national accounts EXCLUDES:
+<ul>
+<li><ol type="a">
+<li>Salaries of soldiers</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Roads built by the federal government</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Social Security transfer payments</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>State school construction</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-3" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-3">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Given <span class="math inline">C = 12{,}000</span>, <span class="math inline">I = 3{,}000</span>, <span class="math inline">G = 4{,}000</span>, <span class="math inline">X = 2{,}000</span>, <span class="math inline">M = 2{,}500</span>. Compute GDP.</p></li>
+<li><p>In a closed economy, <span class="math inline">Y = 18{,}000</span>, <span class="math inline">C = 12{,}000</span>, <span class="math inline">T = 3{,}000</span>, <span class="math inline">G = 4{,}000</span>. Compute private, public, and total saving.</p></li>
+<li><p>Open economy: <span class="math inline">Y = 20{,}000</span>, <span class="math inline">C = 13{,}000</span>, <span class="math inline">G = 3{,}500</span>, <span class="math inline">I = 3{,}000</span>. Compute <span class="math inline">NX</span> using the saving identity.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-3" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-3">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Country Z reports: <span class="math inline">Y = 25{,}000</span>; <span class="math inline">C = 16{,}000</span>; <span class="math inline">I = 4{,}000</span>; <span class="math inline">G = 5{,}000</span>; <span class="math inline">X = 3{,}000</span>; <span class="math inline">M = 3{,}000</span>; <span class="math inline">T = 4{,}500</span>.
+<ol type="a">
+<li>Verify GDP from the expenditure side.</li>
+<li>Compute <span class="math inline">S_p</span>, <span class="math inline">S_g</span>, total <span class="math inline">S</span>.</li>
+<li>Confirm <span class="math inline">S = I + NX</span>.</li>
+<li>Is the government running a surplus or deficit?</li>
+<li>Is the country a net lender or net borrower internationally?</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-7-spending-shares-investment" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-7-spending-shares-investment">Ch. 7 — Spending Shares &amp; Investment</h2>
+<p><strong>Cram-sheet refresh:</strong> <span class="math inline">S_p + S_g = I + NX</span> in an open economy. A government deficit (<span class="math inline">S_g &lt; 0</span>) tends to crowd out <span class="math inline">I</span> or <span class="math inline">NX</span> unless private saving rises one-for-one (Ricardian equivalence).</p>
+<section id="multiple-choice-5-4" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-4">Multiple choice (5)</h3>
+<ol type="1">
+<li>An increase in the government deficit, with private saving constant and <span class="math inline">NX</span> fixed, must:
+<ul>
+<li><ol type="a">
+<li>Raise <span class="math inline">I</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Lower <span class="math inline">I</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Leave <span class="math inline">I</span> unchanged</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Raise <span class="math inline">C</span></li>
+</ol></li>
+</ul></li>
+<li>In the loanable-funds market, a government deficit shifts:
+<ul>
+<li><ol type="a">
+<li>Demand for funds right</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Supply of funds right</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Demand for funds left</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Neither curve</li>
+</ol></li>
+</ul></li>
+<li>Ricardian equivalence states that:
+<ul>
+<li><ol type="a">
+<li>Government deficits raise private consumption</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Households offset government deficits by raising private saving</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Public and private saving are unrelated</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Inflation equals money growth</li>
+</ol></li>
+</ul></li>
+<li>Gross investment minus depreciation equals:
+<ul>
+<li><ol type="a">
+<li>Net exports</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Net investment</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Public saving</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Private saving</li>
+</ol></li>
+</ul></li>
+<li>In US national accounts, residential construction is counted in:
+<ul>
+<li><ol type="a">
+<li>C</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>I</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>G</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>NX</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-4" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-4">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p><span class="math inline">S_p = 2{,}500</span>, <span class="math inline">S_g = -800</span>, <span class="math inline">NX = -300</span>. Compute <span class="math inline">I</span> from the saving identity.</p></li>
+<li><p>Given <span class="math inline">Y = 22{,}000</span>, <span class="math inline">C = 14{,}500</span>, <span class="math inline">G = 4{,}200</span>, <span class="math inline">T = 4{,}000</span>. Compute <span class="math inline">S_p</span>, <span class="math inline">S_g</span>, and <span class="math inline">S</span>.</p></li>
+<li><p>Closed economy: <span class="math inline">S = 3{,}000</span>, demand for loanable funds is <span class="math inline">I = 4{,}500 - 200r</span> (where <span class="math inline">r</span> in %). Find the equilibrium real interest rate.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-4" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-4">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Country W has <span class="math inline">S_p = 3{,}000</span> initially, <span class="math inline">S_g = -500</span>, <span class="math inline">I = 2{,}300</span>, <span class="math inline">NX = 200</span>.
+<ol type="a">
+<li>Verify the saving identity.</li>
+<li>The government cuts taxes by $500, raising the deficit to $1{,}000. Households are non-Ricardian and raise <span class="math inline">S_p</span> by $100.</li>
+<li>If <span class="math inline">NX</span> falls by $100 and the rest must come from <span class="math inline">I</span>, what is the new <span class="math inline">I</span>?</li>
+<li>Show in words how this is “crowding out” via the loanable-funds market.</li>
+<li>Under full Ricardian equivalence, what would <span class="math inline">S_p</span> have done, and what would <span class="math inline">I</span> have been?</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-8-labor-market" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-8-labor-market">Ch. 8 — Labor Market</h2>
+<p><strong>Cram-sheet refresh:</strong> <span class="math inline">LF = E + U</span>, <span class="math inline">u = U/LF</span>, <span class="math inline">LFPR = LF/\text{adult pop}</span>. Frictional + structural unemployment ≈ natural rate (NAIRU). Cyclical unemployment is the deviation from NAIRU.</p>
+<section id="multiple-choice-5-5" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-5">Multiple choice (5)</h3>
+<ol type="1">
+<li>A worker laid off because demand for their industry has structurally declined is classified as:
+<ul>
+<li><ol type="a">
+<li>Frictional</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Structural</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Cyclical</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Out of labor force</li>
+</ol></li>
+</ul></li>
+<li>The labor force participation rate is:
+<ul>
+<li><ol type="a">
+<li><span class="math inline">E / \text{adult population}</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">LF / \text{adult population}</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">U / LF</span></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><span class="math inline">E / LF</span></li>
+</ol></li>
+</ul></li>
+<li>A discouraged worker who stops searching:
+<ul>
+<li><ol type="a">
+<li>Raises measured unemployment</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Lowers measured unemployment</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Has no effect</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Raises labor force participation</li>
+</ol></li>
+</ul></li>
+<li>NAIRU is roughly:
+<ul>
+<li><ol type="a">
+<li>Zero</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Frictional + structural unemployment</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Cyclical unemployment</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Always above 10%</li>
+</ol></li>
+</ul></li>
+<li>The unemployment rate falls when:
+<ul>
+<li><ol type="a">
+<li>Workers exit the labor force</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Workers move from U to E</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Both (a) and (b)</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Population grows</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-5" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-5">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Adult population = 250 million; <span class="math inline">E = 152</span> million; <span class="math inline">U = 8</span> million. Compute <span class="math inline">u</span>, <span class="math inline">LFPR</span>, and <span class="math inline">EPOP</span> (employment-to-population).</p></li>
+<li><p>Last month <span class="math inline">u = 4.5\%</span>. This month 1 million unemployed left the labor force; everyone else stayed put; <span class="math inline">LF</span> fell to 159 million from 160 million. Compute the new <span class="math inline">u</span>.</p></li>
+<li><p>If <span class="math inline">E = 144</span> million and <span class="math inline">u = 4\%</span>, find the size of the labor force and the number unemployed.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-5" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-5">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Adult population = 260 million. Initially: <span class="math inline">E = 158</span> million, <span class="math inline">U = 6.5</span> million.
+<ol type="a">
+<li>Compute <span class="math inline">u</span>, <span class="math inline">LFPR</span>, <span class="math inline">EPOP</span>.</li>
+<li>A recession hits: 3 million workers move from <span class="math inline">E</span> to <span class="math inline">U</span>. Recompute <span class="math inline">u</span>.</li>
+<li>After 6 months, 1.5 million of those unemployed give up searching and exit <span class="math inline">LF</span>. Recompute <span class="math inline">u</span> and <span class="math inline">LFPR</span>.</li>
+<li>Did <span class="math inline">u</span> rise or fall in step (c), and is this a good signal about the labor market? Explain.</li>
+<li>Identify which type of unemployment dominates in steps (b) and (c).</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-9-production-growth" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-9-production-growth">Ch. 9 — Production &amp; Growth</h2>
+<p><strong>Cram-sheet refresh:</strong> Cobb-Douglas <span class="math inline">Y = A K^{\alpha} L^{1-\alpha}</span> exhibits CRS in <span class="math inline">K, L</span> jointly and DMR in each separately. TFP <span class="math inline">A</span> captures technology. Solow steady state has <span class="math inline">K/L</span> stable; convergence: poor countries grow faster, conditional on institutions.</p>
+<section id="multiple-choice-5-6" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-6">Multiple choice (5)</h3>
+<ol type="1">
+<li>In <span class="math inline">Y = A K^{0.5} L^{0.5}</span>, doubling only <span class="math inline">K</span> raises <span class="math inline">Y</span> by a factor of:
+<ul>
+<li><ol type="a">
+<li>2</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">\sqrt{2}</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>4</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>1.25</li>
+</ol></li>
+</ul></li>
+<li>Diminishing marginal returns to capital implies:
+<ul>
+<li><ol type="a">
+<li>Each extra unit of <span class="math inline">K</span> adds less output than the prior unit</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">Y</span> falls when <span class="math inline">K</span> rises</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Labor productivity is constant</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Returns to scale are decreasing</li>
+</ol></li>
+</ul></li>
+<li>Total factor productivity <span class="math inline">A</span> best captures:
+<ul>
+<li><ol type="a">
+<li>The capital stock</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>The labor force</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Technology and efficiency</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Government spending</li>
+</ol></li>
+</ul></li>
+<li>The Solow model predicts conditional convergence because:
+<ul>
+<li><ol type="a">
+<li>Poor countries always have higher saving rates</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Poor countries have higher marginal product of capital</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Rich countries have lower TFP</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Trade equalizes wages</li>
+</ol></li>
+</ul></li>
+<li>Capital deepening means:
+<ul>
+<li><ol type="a">
+<li>Rising <span class="math inline">K/L</span> per worker</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Rising population</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Falling savings rate</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Rising depreciation</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-6" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-6">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p><span class="math inline">Y = K^{0.5} L^{0.5}</span>, <span class="math inline">K = 100</span>, <span class="math inline">L = 64</span>. Compute <span class="math inline">Y</span>.</p></li>
+<li><p>With the same production function, both <span class="math inline">K</span> and <span class="math inline">L</span> double. Compute the new <span class="math inline">Y</span> and verify CRS.</p></li>
+<li><p>In a Solow model with <span class="math inline">s = 0.20</span>, <span class="math inline">\delta = 0.05</span>, <span class="math inline">g_L = 0</span>, <span class="math inline">A = 1</span>, <span class="math inline">\alpha = 0.5</span>. Steady-state per-worker capital satisfies <span class="math inline">s k^{\alpha} = \delta k</span>. Solve for <span class="math inline">k^*</span> and <span class="math inline">y^* = (k^*)^{0.5}</span>.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-6" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-6">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Two countries share <span class="math inline">Y = K^{0.5}L^{0.5}</span>. Country A: <span class="math inline">K = 400</span>, <span class="math inline">L = 100</span>. Country B: <span class="math inline">K = 100</span>, <span class="math inline">L = 100</span>.
+<ol type="a">
+<li>Compute <span class="math inline">Y</span> and <span class="math inline">Y/L</span> for each.</li>
+<li>Country B doubles its capital to 200 (catching up). Compute the new <span class="math inline">Y_B</span> and <span class="math inline">Y_B/L</span>.</li>
+<li>Country A doubles its capital to 800. Compute the new <span class="math inline">Y_A</span> and <span class="math inline">Y_A/L</span>.</li>
+<li>Which country gained more output per worker from doubling <span class="math inline">K</span>, and what does this illustrate about convergence?</li>
+<li>Suppose Country B raises TFP from 1 to 1.5 instead of doubling <span class="math inline">K</span>. Recompute <span class="math inline">Y_B/L</span> at the original <span class="math inline">K = 100</span>, <span class="math inline">L = 100</span>. Compare.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-11-money-inflation" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-11-money-inflation">Ch. 11 — Money &amp; Inflation</h2>
+<p><strong>Cram-sheet refresh:</strong> <span class="math inline">MV = PY</span>. With <span class="math inline">V</span> and <span class="math inline">Y</span> stable in the long run, <span class="math inline">\%\Delta M \approx \pi</span>. Fisher: <span class="math inline">1+i = (1+r)(1+\pi^e)</span>, approx <span class="math inline">i \approx r + \pi^e</span>. Hyperinflation usually arises from monetizing fiscal deficits.</p>
+<section id="multiple-choice-5-7" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-7">Multiple choice (5)</h3>
+<ol type="1">
+<li>The quantity theory predicts that, in the long run, money growth changes:
+<ul>
+<li><ol type="a">
+<li>Real GDP</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>The price level</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Real interest rates</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Productivity</li>
+</ol></li>
+</ul></li>
+<li>If <span class="math inline">i = 6\%</span> and <span class="math inline">\pi^e = 4\%</span>, the approximate real rate is:
+<ul>
+<li><ol type="a">
+<li>10%</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>2%</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>–2%</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>24%</li>
+</ol></li>
+</ul></li>
+<li>Unexpectedly high inflation tends to redistribute wealth from:
+<ul>
+<li><ol type="a">
+<li>Debtors to creditors</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Creditors to debtors</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Government to private sector</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Workers to firms</li>
+</ol></li>
+</ul></li>
+<li>Hyperinflation is most often caused by:
+<ul>
+<li><ol type="a">
+<li>A productive boom</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Monetization of large fiscal deficits</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Trade surpluses</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Capital outflows</li>
+</ol></li>
+</ul></li>
+<li>“Shoe-leather” costs of inflation refer to:
+<ul>
+<li><ol type="a">
+<li>The cost of changing menus</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>The cost of holding less cash and visiting the bank more often</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Tax distortions</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Income redistribution</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-7" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-7">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p><span class="math inline">M = \$2</span> trillion, <span class="math inline">V = 6</span>, real GDP <span class="math inline">Y = \$20</span> trillion. Compute the price level <span class="math inline">P</span> implied by <span class="math inline">MV = PY</span>.</p></li>
+<li><p>Money grows 9% per year, real GDP grows 3%, and velocity is constant. Predict the inflation rate.</p></li>
+<li><p>Use the EXACT Fisher equation: <span class="math inline">i = 8\%</span>, <span class="math inline">\pi^e = 5\%</span>. Compute <span class="math inline">r</span> to two decimals.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-7" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-7">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Country Q has <span class="math inline">M = \$500</span> B, <span class="math inline">V = 4</span>, real GDP = $1{,}000 B. Last year inflation was 4%; the central bank wants 2% inflation next year, with real GDP forecast to grow 3%.
+<ol type="a">
+<li>Compute the current price level.</li>
+<li>Using growth-rate form, what money-growth rate is consistent with 2% inflation given 3% real growth (V constant)?</li>
+<li>If instead <span class="math inline">M</span> grows 12% with <span class="math inline">V</span> and real growth as in (b), compute predicted inflation.</li>
+<li>Suppose nominal <span class="math inline">i</span> is 7% and expected inflation jumps from 2% to 5%. What happens to the realized real rate, and who gains on a fixed-rate loan?</li>
+<li>Briefly explain why credible central banks can sometimes lower inflation expectations without a recession.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-1213-economic-fluctuations-adas" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-1213-economic-fluctuations-adas">Ch. 12–13 — Economic Fluctuations &amp; AD/AS</h2>
+<p><strong>Cram-sheet refresh:</strong> AD slopes down (wealth, interest-rate, exchange-rate effects). SRAS slopes up (sticky wages/prices); LRAS is vertical at <span class="math inline">Y^*</span>. Demand shock: <span class="math inline">P</span> and <span class="math inline">Y</span> co-move. Supply shock: <span class="math inline">P</span> and <span class="math inline">Y</span> move opposite.</p>
+<section id="multiple-choice-5-8" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-8">Multiple choice (5)</h3>
+<ol type="1">
+<li>The AD curve slopes down because of all EXCEPT:
+<ul>
+<li><ol type="a">
+<li>Wealth effect</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Interest-rate effect</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Exchange-rate effect</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Diminishing marginal product of labor</li>
+</ol></li>
+</ul></li>
+<li>LRAS is vertical because:
+<ul>
+<li><ol type="a">
+<li>Prices are perfectly flexible in the long run, so output equals potential</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Wages are sticky in the long run</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Money is non-neutral</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>The Fed pegs <span class="math inline">Y</span></li>
+</ol></li>
+</ul></li>
+<li>A negative AD shock (e.g., consumer pessimism) in the short run produces:
+<ul>
+<li><ol type="a">
+<li><span class="math inline">P\downarrow, Y\downarrow</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">P\uparrow, Y\downarrow</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">P\downarrow, Y\uparrow</span></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><span class="math inline">P\uparrow, Y\uparrow</span></li>
+</ol></li>
+</ul></li>
+<li>Long-run self-correction after a negative AD shock works through:
+<ul>
+<li><ol type="a">
+<li>AD shifting back to the right automatically</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>SRAS shifting right as wages and prices fall</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>LRAS shifting left</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Government spending rising mechanically</li>
+</ol></li>
+</ul></li>
+<li>A positive supply shock (e.g., productivity gain) shifts:
+<ul>
+<li><ol type="a">
+<li>AD right</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>SRAS right and LRAS right</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>AD left</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Only LRAS left</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-8" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-8">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Currently <span class="math inline">Y = 19{,}500</span>, <span class="math inline">Y^* = 20{,}000</span>. Compute the output gap (sign and percent).</p></li>
+<li><p>Okun’s rule of thumb: <span class="math inline">\Delta u \approx -0.5 \cdot (\text{output gap}\%)</span>. With a –4% gap, predict the cyclical-unemployment increase relative to NAIRU.</p></li>
+<li><p>A 5% drop in oil prices is estimated to shift SRAS right enough to lower the price level by 1.5% in the short run. If AD is unchanged, predict the qualitative direction of <span class="math inline">Y</span> in the short run.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-8" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-8">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> A sudden surge of consumer pessimism cuts <span class="math inline">C</span> by $300 B. The economy was at <span class="math inline">Y^* = \$20</span> T with <span class="math inline">u = 4.5\%</span> and <span class="math inline">\pi = 2\%</span>.
+<ol type="a">
+<li>Which curve shifts and in which direction?</li>
+<li>Predict short-run effects on <span class="math inline">P</span>, <span class="math inline">Y</span>, <span class="math inline">u</span>.</li>
+<li>If the central bank holds policy fixed, describe the long-run self-correction mechanism.</li>
+<li>Sketch (verbally) the short-run and long-run equilibria on AD/SRAS/LRAS.</li>
+<li>Identify two real-world frictions that slow long-run self-correction.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-14-application-of-fluctuations" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-14-application-of-fluctuations">Ch. 14 — Application of Fluctuations</h2>
+<p><strong>Cram-sheet refresh:</strong> Stagflation = supply-shock signature: <span class="math inline">P\uparrow</span>, <span class="math inline">Y\downarrow</span>, <span class="math inline">u\uparrow</span>. Demand-shock recoveries are easier (policy-friendly direction). Keynesians emphasize demand-side stimulus; classicals emphasize price flexibility and supply.</p>
+<section id="multiple-choice-5-9" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-9">Multiple choice (5)</h3>
+<ol type="1">
+<li>Stagflation is characterized by:
+<ul>
+<li><ol type="a">
+<li>Falling P and rising Y</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Rising P and falling Y</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Stable P and stable Y</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Rising P and rising Y</li>
+</ol></li>
+</ul></li>
+<li>Faced with stagflation from an oil shock, an inflation-targeting central bank typically faces a tension because:
+<ul>
+<li><ol type="a">
+<li>Both inflation and unemployment call for the same direction of policy</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Easing fights <span class="math inline">u</span> but worsens <span class="math inline">\pi</span>; tightening fights <span class="math inline">\pi</span> but worsens <span class="math inline">u</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Fiscal policy alone resolves it</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>The Phillips curve has shifted left</li>
+</ol></li>
+</ul></li>
+<li>Keynesians stress:
+<ul>
+<li><ol type="a">
+<li>Sticky prices and demand management</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Long-run money neutrality</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Rational expectations only</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Real business cycle shocks</li>
+</ol></li>
+</ul></li>
+<li>After a negative AD shock with no policy response, prices and wages fall, eventually shifting:
+<ul>
+<li><ol type="a">
+<li>AD right</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>SRAS right</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>LRAS right</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Both AD and LRAS</li>
+</ol></li>
+</ul></li>
+<li>Real business cycle theory attributes most fluctuations to:
+<ul>
+<li><ol type="a">
+<li>AD shocks</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Productivity (supply) shocks</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Money supply shocks alone</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Government deficits</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-9" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-9">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>An oil shock raises the price level by 3% and lowers <span class="math inline">Y</span> by 2% relative to potential. Using Okun (coefficient 0.5), predict <span class="math inline">\Delta u</span> above NAIRU.</p></li>
+<li><p>If <span class="math inline">\pi</span> rises from 2% to 5% while <span class="math inline">Y</span> falls 1% in one quarter, identify which type of shock (supply or demand) is consistent.</p></li>
+<li><p>A Keynesian model with MPC = 0.75 and no income tax. Compute the spending multiplier and the increase in <span class="math inline">Y</span> from a $200 B rise in <span class="math inline">G</span>.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-9" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-9">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> A geopolitical event spikes global oil prices 40% in one month.
+<ol type="a">
+<li>Identify the curve shift and direction in AD/AS.</li>
+<li>Predict short-run direction of <span class="math inline">P</span>, <span class="math inline">Y</span>, <span class="math inline">u</span>.</li>
+<li>The Fed targets 2% inflation. Should it ease or tighten? Why is the choice difficult?</li>
+<li>If oil prices stay elevated for two years, what does the long-run AD/AS prediction become?</li>
+<li>Briefly contrast Keynesian and classical recommendations.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-15-fiscal-policy" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-15-fiscal-policy">Ch. 15 — Fiscal Policy</h2>
+<p><strong>Cram-sheet refresh:</strong> Spending multiplier (closed, no tax) <span class="math inline">= \frac{1}{1-MPC}</span>. Tax multiplier <span class="math inline">= \frac{-MPC}{1-MPC}</span>. Balanced-budget multiplier <span class="math inline">= 1</span>. Open-economy multiplier <span class="math inline">= \frac{1}{1-MPC(1-t)+m}</span>. Crowding out: <span class="math inline">G\uparrow \Rightarrow r\uparrow \Rightarrow I\downarrow</span>.</p>
+<section id="multiple-choice-5-10" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-10">Multiple choice (5)</h3>
+<ol type="1">
+<li>With MPC = 0.75, the closed-economy spending multiplier is:
+<ul>
+<li><ol type="a">
+<li>1.33</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>3.0</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>4.0</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>5.0</li>
+</ol></li>
+</ul></li>
+<li>The tax multiplier is always:
+<ul>
+<li><ol type="a">
+<li>Larger in absolute value than the spending multiplier</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Smaller in absolute value than the spending multiplier</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Exactly equal to the spending multiplier</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Equal to one</li>
+</ol></li>
+</ul></li>
+<li>The balanced-budget multiplier (equal <span class="math inline">\Delta G</span> and <span class="math inline">\Delta T</span>) equals:
+<ul>
+<li><ol type="a">
+<li>0</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>1</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>MPC</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><span class="math inline">1/(1-MPC)</span></li>
+</ol></li>
+</ul></li>
+<li>Automatic stabilizers include all EXCEPT:
+<ul>
+<li><ol type="a">
+<li>Progressive income tax</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Unemployment insurance</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Discretionary stimulus passed during a recession</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Means-tested transfers</li>
+</ol></li>
+</ul></li>
+<li>Crowding out reduces the realized fiscal multiplier through:
+<ul>
+<li><ol type="a">
+<li>Lower <span class="math inline">r</span> raising <span class="math inline">I</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Higher <span class="math inline">r</span> lowering <span class="math inline">I</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Lower <span class="math inline">G</span> later</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Currency depreciation</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-10" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-10">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>MPC = 0.8, no income tax. Compute the spending and tax multipliers.</p></li>
+<li><p>Same MPC. The government raises <span class="math inline">G</span> by $100 B and <span class="math inline">T</span> by $100 B simultaneously. Compute <span class="math inline">\Delta Y</span>.</p></li>
+<li><p>Open economy with MPC = 0.8, <span class="math inline">t = 0.25</span>, <span class="math inline">m = 0.15</span>. Compute the effective multiplier.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-10" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-10">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Closed economy. MPC = 0.75. <span class="math inline">Y = 18{,}500</span>; <span class="math inline">Y^* = 20{,}000</span>.
+<ol type="a">
+<li>Compute the output gap.</li>
+<li>Compute the spending multiplier.</li>
+<li>What <span class="math inline">\Delta G</span> closes the gap with no crowding out?</li>
+<li>Compute the tax cut <span class="math inline">\Delta T</span> that would close the gap. Why is it larger in magnitude than <span class="math inline">\Delta G</span> in (c)?</li>
+<li>If 25% of the stimulus is offset by crowding out, recompute the required <span class="math inline">\Delta G</span>.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-16-monetary-policy" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-16-monetary-policy">Ch. 16 — Monetary Policy</h2>
+<p><strong>Cram-sheet refresh:</strong> Fed tools: OMO, IOR, discount rate, reserve requirement. Expansionary OMO → reserves up → fed funds rate down → <span class="math inline">r</span> down → <span class="math inline">I, C, NX</span> up → AD right. Taylor rule: <span class="math inline">i = r^* + \pi + 0.5(\pi-\pi^*) + 0.5(y-y^*)</span>. ZLB → QE, forward guidance.</p>
+<section id="multiple-choice-5-11" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-11">Multiple choice (5)</h3>
+<ol type="1">
+<li>The Fed’s most-used tool to adjust the federal funds rate is:
+<ul>
+<li><ol type="a">
+<li>Reserve requirement changes</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Open-market operations and IOR</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Treasury auctions</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Tariffs</li>
+</ol></li>
+</ul></li>
+<li>An open-market sale of bonds:
+<ul>
+<li><ol type="a">
+<li>Lowers reserves and raises the FFR</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Raises reserves and lowers the FFR</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Has no effect on reserves</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Lowers the discount rate directly</li>
+</ol></li>
+</ul></li>
+<li>With reserve ratio 10% and no excess reserves, the simple money multiplier equals:
+<ul>
+<li><ol type="a">
+<li>1</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>5</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>10</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>100</li>
+</ol></li>
+</ul></li>
+<li>At the ZLB, the most likely Fed tool is:
+<ul>
+<li><ol type="a">
+<li>Higher reserve requirements</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Quantitative easing and forward guidance</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Selling long-term Treasuries</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Raising IOR</li>
+</ol></li>
+</ul></li>
+<li>The Taylor rule prescribes raising <span class="math inline">i</span> when:
+<ul>
+<li><ol type="a">
+<li>Inflation is below target</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Output is below potential</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Inflation is above target or output above potential</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>The exchange rate is stable</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-11" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-11">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Reserve ratio = 8%. Fed buys $25 B of Treasuries. Compute the simple money multiplier and the maximum increase in the money supply.</p></li>
+<li><p>Use the Taylor rule with <span class="math inline">r^* = 2\%</span>, <span class="math inline">\pi^* = 2\%</span>. Currently <span class="math inline">\pi = 4\%</span>, output is 1% above potential. Compute the prescribed <span class="math inline">i</span>.</p></li>
+<li><p>The fed funds rate is 4.5%, expected inflation is 2.5%. Compute the implied real fed funds rate using the Fisher approximation.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-11" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-11">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Inflation is 5% (target 2%); output gap is +1.5%. The neutral real rate <span class="math inline">r^* = 1\%</span>.
+<ol type="a">
+<li>Apply the Taylor rule to find the prescribed nominal rate.</li>
+<li>Currently the FFR is 3%. Should the Fed tighten or ease, and by how much?</li>
+<li>Trace the transmission from a 50 bp hike to AD in at least four steps.</li>
+<li>If the economy is at the ZLB with <span class="math inline">\pi = 0\%</span> and a –3% gap, the Taylor rule prescribes a negative <span class="math inline">i</span>. What two unconventional tools does the Fed use instead?</li>
+<li>Identify one lag that complicates real-time monetary policy.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-17-financial-markets" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-17-financial-markets">Ch. 17 — Financial Markets</h2>
+<p><strong>Cram-sheet refresh:</strong> Bond price and yield move inversely. Present value <span class="math inline">PV = \sum CF_t/(1+r)^t</span>. Loanable funds: <span class="math inline">S</span> rises in <span class="math inline">r</span>, <span class="math inline">D</span> falls in <span class="math inline">r</span>; deficits shift <span class="math inline">D</span> right and raise <span class="math inline">r</span>. Term structure: long yields ≈ average of expected future short rates + term premium.</p>
+<section id="multiple-choice-5-12" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-12">Multiple choice (5)</h3>
+<ol type="1">
+<li>Bond prices and yields are:
+<ul>
+<li><ol type="a">
+<li>Positively related</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Inversely related</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Unrelated</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Equal</li>
+</ol></li>
+</ul></li>
+<li>A normal (upward-sloping) yield curve typically signals:
+<ul>
+<li><ol type="a">
+<li>Recession ahead</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Higher expected future short rates and/or a positive term premium</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Negative interest rates</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Currency depreciation</li>
+</ol></li>
+</ul></li>
+<li>The risk premium equals:
+<ul>
+<li><ol type="a">
+<li>Required return on a risky asset minus the risk-free rate</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Inflation</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>The federal funds rate</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Bond coupon</li>
+</ol></li>
+</ul></li>
+<li>In the loanable-funds market, a rise in expected future profits shifts:
+<ul>
+<li><ol type="a">
+<li>Supply right</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Demand right</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Both right</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Demand left</li>
+</ol></li>
+</ul></li>
+<li>A 1-year zero-coupon bond paying $100 priced at $95.24 has a yield closest to:
+<ul>
+<li><ol type="a">
+<li>2%</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>3%</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>5%</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>10%</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-12" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-12">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Compute the present value of $1{,}050 received in one year at <span class="math inline">r = 5\%</span>.</p></li>
+<li><p>A $1{,}000 face-value bond pays a 5% annual coupon for 2 years. At a yield of 6%, compute the bond’s price.</p></li>
+<li><p>The 1-year rate today is 3%; expected 1-year rate next year is 5%. Under the expectations hypothesis (no term premium), what is the 2-year yield today?</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-12" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-12">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Loanable funds: supply <span class="math inline">S = 200 + 50r</span> (with <span class="math inline">r</span> in %), demand <span class="math inline">D = 600 - 50r</span>.
+<ol type="a">
+<li>Find equilibrium <span class="math inline">r</span> and quantity.</li>
+<li>The government runs a new $100 (units) deficit, shifting <span class="math inline">D</span> right by 100. Find the new equilibrium.</li>
+<li>Compute the change in private investment, treating private <span class="math inline">I</span> as the residual demand.</li>
+<li>Define crowding out and quantify it here.</li>
+<li>Briefly explain how the result would differ at the ZLB with passive monetary accommodation.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-18-international-trade" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-18-international-trade">Ch. 18 — International Trade</h2>
+<p><strong>Cram-sheet refresh:</strong> Comparative advantage = lowest opportunity cost. Both nations gain by specializing in their CA good and trading at any terms-of-trade between the two opportunity-cost ratios. Tariff: domestic <span class="math inline">P\uparrow</span>, <span class="math inline">Q^D\downarrow</span>, <span class="math inline">Q^S\uparrow</span>, imports<span class="math inline">\downarrow</span>, two-triangle DWL, government collects rectangle.</p>
+<section id="multiple-choice-5-13" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-13">Multiple choice (5)</h3>
+<ol type="1">
+<li>Country A has a comparative advantage in good X if:
+<ul>
+<li><ol type="a">
+<li>A has lower absolute cost in X</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>A has lower opportunity cost in X</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>A has higher demand for X</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>A has more workers</li>
+</ol></li>
+</ul></li>
+<li>Mutual gains from trade require terms of trade:
+<ul>
+<li><ol type="a">
+<li>Equal to the world price exactly</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Strictly between the two countries’ opportunity-cost ratios</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Equal to one country’s opportunity cost</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Outside both opportunity-cost ratios</li>
+</ol></li>
+</ul></li>
+<li>A small open economy importing good Y at world price <span class="math inline">P_w</span> imposes a tariff <span class="math inline">t</span>. Domestic price becomes:
+<ul>
+<li><ol type="a">
+<li><span class="math inline">P_w</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">P_w + t</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">P_w - t</span></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Zero</li>
+</ol></li>
+</ul></li>
+<li>Compared to a tariff, a quota with the same import reduction differs because:
+<ul>
+<li><ol type="a">
+<li>The quota creates DWL but the tariff does not</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>The tariff generates government revenue while the quota generates rents to license holders</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Both raise government revenue equally</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>The quota lowers the domestic price more</li>
+</ol></li>
+</ul></li>
+<li>The infant-industry argument claims protection is justified because:
+<ul>
+<li><ol type="a">
+<li>New industries permanently outcompete imports</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>New industries need temporary protection until they reach efficient scale</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Tariffs raise consumer surplus</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Trade always lowers welfare</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-13" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-13">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>Per worker-hour: Country A produces 8 wheat OR 4 cloth. Country B produces 6 wheat OR 6 cloth. Compute the opportunity cost of wheat in each country and identify each country’s CA.</p></li>
+<li><p>Using the table in Q6, state a terms-of-trade range that allows mutually beneficial trade (in cloth-per-wheat).</p></li>
+<li><p>Small open economy: <span class="math inline">P_w = 10</span>, domestic demand <span class="math inline">Q^D = 100 - 2P</span>, domestic supply <span class="math inline">Q^S = 2P</span>. A $2 specific tariff is imposed. Compute imports under free trade and under the tariff, and tariff revenue.</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-13" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-13">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> Small open economy importing steel. World price = $50 per ton. Domestic demand <span class="math inline">Q^D = 200 - 2P</span>; domestic supply <span class="math inline">Q^S = 4P</span>. A $10 per-ton tariff is imposed.
+<ol type="a">
+<li>Compute free-trade <span class="math inline">Q^D</span>, <span class="math inline">Q^S</span>, and imports.</li>
+<li>Compute post-tariff <span class="math inline">Q^D</span>, <span class="math inline">Q^S</span>, and imports.</li>
+<li>Compute tariff revenue.</li>
+<li>Compute the deadweight-loss triangles (sum).</li>
+<li>Briefly identify who gains and who loses domestically.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ch.-19-international-finance" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-19-international-finance">Ch. 19 — International Finance</h2>
+<p><strong>Cram-sheet refresh:</strong> Nominal exchange rate <span class="math inline">E</span> = foreign currency per dollar (or vice versa — define). <span class="math inline">\$</span> appreciates → <span class="math inline">X\downarrow</span>, <span class="math inline">M\uparrow</span>, <span class="math inline">NX\downarrow</span>. PPP: <span class="math inline">E = P^*/P</span> in long run. IRP: capital flows toward higher-<span class="math inline">r</span> country and appreciates that currency. BoP: CA + KA <span class="math inline">\approx 0</span>. <span class="math inline">S - I = NX</span>.</p>
+<section id="multiple-choice-5-14" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-choice-5-14">Multiple choice (5)</h3>
+<ol type="1">
+<li>If the dollar appreciates against the euro, US net exports tend to:
+<ul>
+<li><ol type="a">
+<li>Rise</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Fall</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Stay the same</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Rise then fall</li>
+</ol></li>
+</ul></li>
+<li>PPP implies in the long run:
+<ul>
+<li><ol type="a">
+<li>Exchange rates are random</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Identical baskets cost the same after currency conversion</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Nominal interest rates equalize</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Tariffs vanish</li>
+</ol></li>
+</ul></li>
+<li>With perfect capital mobility, a rise in domestic real interest rates relative to abroad causes:
+<ul>
+<li><ol type="a">
+<li>Capital outflow and depreciation</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Capital inflow and appreciation</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>No change in <span class="math inline">E</span></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>An immediate trade surplus</li>
+</ol></li>
+</ul></li>
+<li>The balance of payments identity (CA + KA <span class="math inline">\approx 0</span>) implies that:
+<ul>
+<li><ol type="a">
+<li>Net capital outflows roughly equal the trade surplus</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Net capital inflows lower exports</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Trade is always balanced</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Exchange rates are fixed</li>
+</ol></li>
+</ul></li>
+<li>Under a fixed exchange rate, a country experiencing capital outflows must:
+<ul>
+<li><ol type="a">
+<li>Sell foreign reserves to defend the peg</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Buy foreign reserves</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Devalue immediately</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Raise tariffs</li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="short-answer-numeric-3-14" class="level3">
+<h3 class="anchored" data-anchor-id="short-answer-numeric-3-14">Short answer / numeric (3)</h3>
+<ol start="6" type="1">
+<li><p>US: <span class="math inline">S = 3{,}500</span>, <span class="math inline">I = 4{,}000</span>. Compute <span class="math inline">NX</span>. Is the country a net lender or borrower?</p></li>
+<li><p>Today <span class="math inline">E = 1.10</span> EUR per USD. US prices rise 4% over the year while Eurozone prices rise 1%. Use PPP to predict next year’s <span class="math inline">E</span>.</p></li>
+<li><p>US 1-year rate = 5%, German 1-year rate = 2%. Under uncovered interest parity (no risk premium), what is the expected percent change in the dollar against the euro over the year?</p></li>
+</ol>
+</section>
+<section id="longer-applied-problem-14" class="level3">
+<h3 class="anchored" data-anchor-id="longer-applied-problem-14">Longer applied problem</h3>
+<ol start="9" type="1">
+<li><strong>Scenario</strong> US: <span class="math inline">S = 2{,}800</span>, <span class="math inline">I = 3{,}300</span> (billions). The Fed unexpectedly raises rates 100 bp above foreign rates.
+<ol type="a">
+<li>Compute initial <span class="math inline">NX</span> and the sign of the capital account.</li>
+<li>Predict the direction of capital flows after the rate hike.</li>
+<li>Predict the direction of the dollar’s exchange rate.</li>
+<li>Predict effects on <span class="math inline">X</span>, <span class="math inline">M</span>, <span class="math inline">NX</span>.</li>
+<li>If long-run PPP holds and US <span class="math inline">\pi = 4\%</span> vs foreign <span class="math inline">\pi = 1\%</span>, predict the long-run direction of the dollar.</li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="solutions" class="level1">
+<h1>Solutions</h1>
+<p>Full work shown for numeric items. MC answers given as letters.</p>
+<section id="ch.-3" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-3">Ch. 3</h2>
+<p><strong>MC.</strong> 1-b · 2-a · 3-b · 4-b · 5-a</p>
+<p><strong>6.</strong> <span class="math inline">120 - 2P = 4P \Rightarrow 6P = 120 \Rightarrow P = 20</span>, <span class="math inline">Q = 80</span>.</p>
+<p><strong>7.</strong> Shortage of <span class="math inline">80 - 50 = 30</span> units (ceiling-like situation: <span class="math inline">Q^D &gt; Q^S</span>).</p>
+<p><strong>8.</strong> <span class="math inline">\%\Delta Q = (60-100)/((60+100)/2) = -40/80 = -0.5</span>. <span class="math inline">\%\Delta P = (12-8)/((12+8)/2) = 4/10 = 0.4</span>. <span class="math inline">\varepsilon = -0.5/0.4 = -1.25</span> (elastic).</p>
+<p><strong>9.</strong> (a) Demand for ride-share rises (driving relatively cheaper after gas spike substitution and entrant marketing); supply rises with new entrant. Both shift right. (b) <span class="math inline">Q</span> rises unambiguously; <span class="math inline">P</span> ambiguous. (c) Elastic demand: <span class="math inline">P\downarrow \Rightarrow</span> revenue rises. (d) Two right shifts of similar magnitude leave net price effect undetermined.</p>
+</section>
+<section id="ch.-4" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-4">Ch. 4</h2>
+<p><strong>MC.</strong> 1-b · 2-c · 3-b · 4-b · 5-b</p>
+<p><strong>6.</strong> Pre-tax: <span class="math inline">100-P = P \Rightarrow P=50, Q=50</span>. Tax wedge $10 with symmetric (equal-elasticity) curves splits evenly: <span class="math inline">P_b = 55</span>, <span class="math inline">P_s = 45</span>, <span class="math inline">Q = 45</span>.</p>
+<p><strong>7.</strong> Revenue <span class="math inline">= 10 \cdot 45 = 450</span>. DWL <span class="math inline">= \frac{1}{2}(10)(50-45) = 25</span>.</p>
+<p><strong>8.</strong> At <span class="math inline">P=30</span>: <span class="math inline">Q^D = 200-60 = 140</span>; <span class="math inline">Q^S = 60</span>. Shortage <span class="math inline">= 80</span>.</p>
+<p><strong>9.</strong> (a) <span class="math inline">200-10P = 30P \Rightarrow P = 5</span>, <span class="math inline">Q = 150</span>. (b) Tax $1 wedge: <span class="math inline">P_b = 5.75</span>, <span class="math inline">P_s = 4.75</span>, <span class="math inline">Q = 200-10(5.75) = 142.5</span>. (c) Revenue <span class="math inline">= 1 \cdot 142.5 = 142.5</span>. (d) DWL <span class="math inline">= \frac{1}{2}(1)(150-142.5) = 3.75</span>. (e) Supply is more elastic than demand (slope-3 supply vs slope-10 demand at this point implies supply more responsive); buyers bear more burden. Buyer price rose $0.75 vs seller $0.25 fall, confirming buyers bear 75% of the tax.</p>
+</section>
+<section id="ch.-5" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-5">Ch. 5</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-b · 4-b · 5-b</p>
+<p><strong>6.</strong> <span class="math inline">125 = 100 \cdot 22/Real \Rightarrow</span> deflator <span class="math inline">= 22/20 \cdot 100 = 110</span>.</p>
+<p><strong>7.</strong> <span class="math inline">\pi_2 = (104-100)/100 = 4\%</span>; <span class="math inline">\pi_3 = (109-104)/104 = 4.81\%</span>.</p>
+<p><strong>8.</strong> Year-2 nominal: <span class="math inline">110 \cdot 1.20 + 60 \cdot 2.50 = 132 + 150 = 282</span>. Year-2 real (year-1 prices): <span class="math inline">110 \cdot 1 + 60 \cdot 2 = 110 + 120 = 230</span>. Deflator <span class="math inline">= 282/230 \cdot 100 = 122.6</span>.</p>
+<p><strong>9.</strong> (a) Nominal Y1 <span class="math inline">= 200{,}000 + 20{,}000 = 220{,}000</span>; Y2 <span class="math inline">= 220 \cdot 1100 + 1050 \cdot 22 = 242{,}000 + 23{,}100 = 265{,}100</span>. (b) Real Y2 (Y1 prices) <span class="math inline">= 220 \cdot 1000 + 1050 \cdot 20 = 220{,}000 + 21{,}000 = 241{,}000</span>. (c) Deflator <span class="math inline">= 265{,}100/241{,}000 \cdot 100 = 110.0</span>. (d) Inflation <span class="math inline">= 10.0\%</span>. (e) Real growth <span class="math inline">= (241{,}000 - 220{,}000)/220{,}000 = 9.55\%</span>.</p>
+</section>
+<section id="ch.-6" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-6">Ch. 6</h2>
+<p><strong>MC.</strong> 1-a · 2-a · 3-a · 4-b · 5-c</p>
+<p><strong>6.</strong> <span class="math inline">Y = 12000 + 3000 + 4000 + (2000-2500) = 18{,}500</span>.</p>
+<p><strong>7.</strong> <span class="math inline">S_p = 18000 - 12000 - 3000 = 3{,}000</span>. <span class="math inline">S_g = 3000 - 4000 = -1{,}000</span>. <span class="math inline">S = 3000-1000 = 2{,}000</span>.</p>
+<p><strong>8.</strong> <span class="math inline">Y = C + I + G + NX \Rightarrow 20000 = 13000 + 3000 + 3500 + NX \Rightarrow NX = 500</span>.</p>
+<p><strong>9.</strong> (a) <span class="math inline">C+I+G+NX = 16000+4000+5000+0 = 25{,}000</span> ✓. (b) <span class="math inline">S_p = 25000-16000-4500 = 4{,}500</span>; <span class="math inline">S_g = 4500-5000 = -500</span>; <span class="math inline">S = 4{,}000</span>. (c) <span class="math inline">I + NX = 4000 + 0 = 4{,}000 = S</span> ✓. (d) Deficit ($500). (e) <span class="math inline">NX = 0</span>: balanced trade — neither net lender nor borrower in flow terms.</p>
+</section>
+<section id="ch.-7" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-7">Ch. 7</h2>
+<p><strong>MC.</strong> 1-b · 2-a · 3-b · 4-b · 5-b</p>
+<p><strong>6.</strong> <span class="math inline">S = S_p + S_g = 2500 - 800 = 1{,}700 = I + NX \Rightarrow I = 1700 - (-300) = 2{,}000</span>.</p>
+<p><strong>7.</strong> <span class="math inline">S_p = 22000 - 14500 - 4000 = 3{,}500</span>. <span class="math inline">S_g = 4000 - 4200 = -200</span>. <span class="math inline">S = 3{,}300</span>.</p>
+<p><strong>8.</strong> <span class="math inline">3000 = 4500 - 200r \Rightarrow 200r = 1500 \Rightarrow r = 7.5\%</span>.</p>
+<p><strong>9.</strong> (a) <span class="math inline">S = 3000 - 500 = 2500 = I + NX = 2300 + 200</span> ✓. (b) New <span class="math inline">S_g = -1000</span>; <span class="math inline">S_p = 3100</span>; new <span class="math inline">S = 2100</span>. (c) New <span class="math inline">S = I + NX</span>: <span class="math inline">2100 = I + (200-100) \Rightarrow I = 2{,}000</span> (down $300). (d) Higher demand for funds raises <span class="math inline">r</span>, and at the higher <span class="math inline">r</span> private <span class="math inline">I</span> falls — that’s crowding out via loanable funds. (e) Full Ricardian: <span class="math inline">S_p</span> rises by the full $500 deficit, leaving <span class="math inline">S</span> unchanged at 2500, <span class="math inline">I</span> unchanged at 2300, no crowding out.</p>
+</section>
+<section id="ch.-8" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-8">Ch. 8</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-b · 4-b · 5-c</p>
+<p><strong>6.</strong> <span class="math inline">LF = 160</span>M, <span class="math inline">u = 8/160 = 5\%</span>. <span class="math inline">LFPR = 160/250 = 64\%</span>. <span class="math inline">EPOP = 152/250 = 60.8\%</span>.</p>
+<p><strong>7.</strong> Old <span class="math inline">E = 0.955 \cdot 160 = 152.8</span>M, <span class="math inline">U = 7.2</span>M. The 1M who exited LF were unemployed: new <span class="math inline">U = 6.2</span>M, new <span class="math inline">LF = 159</span>M. New <span class="math inline">u = 6.2/159 = 3.90\%</span>.</p>
+<p><strong>8.</strong> <span class="math inline">E = (1-u)\cdot LF \Rightarrow 144 = 0.96 \cdot LF \Rightarrow LF = 150</span>M. <span class="math inline">U = 6</span>M.</p>
+<p><strong>9.</strong> (a) <span class="math inline">LF = 164.5</span>M; <span class="math inline">u = 6.5/164.5 = 3.95\%</span>; <span class="math inline">LFPR = 164.5/260 = 63.3\%</span>; <span class="math inline">EPOP = 158/260 = 60.8\%</span>. (b) New <span class="math inline">E = 155</span>, <span class="math inline">U = 9.5</span>, <span class="math inline">LF = 164.5</span>. <span class="math inline">u = 9.5/164.5 = 5.78\%</span>. (c) 1.5M exit: <span class="math inline">U = 8.0</span>, <span class="math inline">LF = 163</span>. <span class="math inline">u = 8.0/163 = 4.91\%</span>. <span class="math inline">LFPR = 163/260 = 62.7\%</span>. (d) <span class="math inline">u</span> fell mechanically because workers left LF, not because employment improved — bad signal hidden in headline number. (e) (b) is cyclical (recession-driven job loss); (c) adds a discouraged-worker (frictional/structural blend) dimension.</p>
+</section>
+<section id="ch.-9" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-9">Ch. 9</h2>
+<p><strong>MC.</strong> 1-b · 2-a · 3-c · 4-b · 5-a</p>
+<p><strong>6.</strong> <span class="math inline">Y = 100^{0.5} \cdot 64^{0.5} = 10 \cdot 8 = 80</span>.</p>
+<p><strong>7.</strong> <span class="math inline">K=200, L=128</span>: <span class="math inline">Y = \sqrt{200 \cdot 128} = \sqrt{25600} = 160</span>. CRS: doubling both inputs doubled output (80→160) ✓.</p>
+<p><strong>8.</strong> Steady state: <span class="math inline">0.20 k^{0.5} = 0.05 k \Rightarrow k^{0.5} = 4 \Rightarrow k^* = 16</span>. <span class="math inline">y^* = 4</span>.</p>
+<p><strong>9.</strong> (a) A: <span class="math inline">Y = \sqrt{40000} = 200</span>, <span class="math inline">Y/L = 2</span>. B: <span class="math inline">Y = \sqrt{10000} = 100</span>, <span class="math inline">Y/L = 1</span>. (b) B: <span class="math inline">Y = \sqrt{200 \cdot 100} = \sqrt{20000} = 141.4</span>, <span class="math inline">Y/L = 1.414</span>. Gain = 0.414. (c) A: <span class="math inline">Y = \sqrt{800 \cdot 100} = \sqrt{80000} = 282.8</span>, <span class="math inline">Y/L = 2.828</span>. Gain = 0.828. (d) A’s <em>level</em> gain is bigger because A starts higher, but B’s <em>percent</em> gain is 41.4% vs A’s 41.4% — same percent because Cobb-Douglas with <span class="math inline">\alpha = 0.5</span> doubles output by <span class="math inline">\sqrt 2</span> in either case. The convergence intuition needs DMR with constant L, but the per-worker <span class="math inline">K/L</span> ratio doubled in both — so in this knife-edge case there’s no convergence. (e) TFP from 1 to 1.5: <span class="math inline">Y_B = 1.5 \sqrt{10000} = 150</span>, <span class="math inline">Y/L = 1.5</span> — beats capital-doubling (1.414). TFP improvements are powerful.</p>
+</section>
+<section id="ch.-11" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-11">Ch. 11</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-b · 4-b · 5-b</p>
+<p><strong>6.</strong> <span class="math inline">P = MV/Y = 2 \cdot 6 / 20 = 0.6</span> (index normalized).</p>
+<p><strong>7.</strong> <span class="math inline">\%\Delta P \approx \%\Delta M - \%\Delta Y = 9 - 3 = 6\%</span>.</p>
+<p><strong>8.</strong> <span class="math inline">1+r = 1.08/1.05 = 1.02857 \Rightarrow r = 2.86\%</span> (vs approx 3%).</p>
+<p><strong>9.</strong> (a) <span class="math inline">P = MV/Y = 500 \cdot 4/1000 = 2.0</span>. (b) <span class="math inline">\%\Delta M = \pi + g_Y = 2 + 3 = 5\%</span>. (c) <span class="math inline">\pi = 12 - 3 = 9\%</span>. (d) Realized real rate <span class="math inline">= 7 - 5 = 2\%</span> vs expected <span class="math inline">7-2 = 5\%</span> — borrowers gain (paying lower real rate than expected), lenders lose. (e) Credible disinflation lowers <span class="math inline">\pi^e</span>, shifting expectations curve down, so wages and prices adjust without a large output sacrifice.</p>
+</section>
+<section id="ch.-12-13" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-12-13">Ch. 12-13</h2>
+<p><strong>MC.</strong> 1-d · 2-a · 3-a · 4-b · 5-b</p>
+<p><strong>6.</strong> Gap <span class="math inline">= (19500-20000)/20000 = -2.5\%</span>.</p>
+<p><strong>7.</strong> <span class="math inline">\Delta u \approx -0.5(-4) = +2</span> pp above NAIRU.</p>
+<p><strong>8.</strong> SRAS right with AD unchanged: <span class="math inline">Y</span> rises in the short run.</p>
+<p><strong>9.</strong> (a) AD shifts left. (b) <span class="math inline">P\downarrow</span>, <span class="math inline">Y\downarrow</span>, <span class="math inline">u\uparrow</span>. (c) Wages and input prices fall over time; SRAS shifts right; equilibrium <span class="math inline">Y</span> returns to <span class="math inline">Y^*</span> at lower <span class="math inline">P</span>. (d) Initial: AD0 <span class="math inline">\cap</span> SRAS0 at <span class="math inline">Y^*</span>. SR: AD1 <span class="math inline">\cap</span> SRAS0 at <span class="math inline">Y_1 &lt; Y^*</span>. LR: AD1 <span class="math inline">\cap</span> SRAS1 at <span class="math inline">Y^*</span> at lower <span class="math inline">P</span>. (e) Sticky wages (downward nominal-wage rigidity); long-term contracts; menu costs.</p>
+</section>
+<section id="ch.-14" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-14">Ch. 14</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-a · 4-b · 5-b</p>
+<p><strong>6.</strong> <span class="math inline">\Delta u \approx -0.5(-2) = +1</span> pp above NAIRU.</p>
+<p><strong>7.</strong> <span class="math inline">\pi\uparrow</span>, <span class="math inline">Y\downarrow</span> → adverse supply shock (SRAS left).</p>
+<p><strong>8.</strong> Multiplier <span class="math inline">= 1/(1-0.75) = 4</span>. <span class="math inline">\Delta Y = 4 \cdot 200 = 800</span>.</p>
+<p><strong>9.</strong> (a) SRAS shifts left. (b) <span class="math inline">P\uparrow</span>, <span class="math inline">Y\downarrow</span>, <span class="math inline">u\uparrow</span> — stagflation. (c) Easing cuts <span class="math inline">u</span> but worsens <span class="math inline">\pi</span>; tightening cools <span class="math inline">\pi</span> but deepens <span class="math inline">u</span>. The Fed must weight its dual mandate; typically, with anchored expectations, modest tightening to protect credibility. (d) If permanent, LRAS itself shifts left (lower potential), permanent <span class="math inline">P\uparrow</span> and <span class="math inline">Y\downarrow</span>. (e) Keynesian: stimulate demand to soften unemployment. Classical: let prices fall to restore equilibrium; avoid validating shock with monetary easing.</p>
+</section>
+<section id="ch.-15" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-15">Ch. 15</h2>
+<p><strong>MC.</strong> 1-c · 2-b · 3-b · 4-c · 5-b</p>
+<p><strong>6.</strong> Spending <span class="math inline">= 1/(1-0.8) = 5</span>. Tax <span class="math inline">= -0.8/0.2 = -4</span>.</p>
+<p><strong>7.</strong> Balanced-budget multiplier <span class="math inline">= 1</span>, so <span class="math inline">\Delta Y = 100</span>.</p>
+<p><strong>8.</strong> <span class="math inline">1/(1 - 0.8(1-0.25) + 0.15) = 1/(1 - 0.6 + 0.15) = 1/0.55 = 1.818</span>.</p>
+<p><strong>9.</strong> (a) Gap <span class="math inline">= -1{,}500</span> (–7.5%). (b) Multiplier <span class="math inline">= 1/0.25 = 4</span>. (c) <span class="math inline">\Delta G = 1500/4 = 375</span>. (d) Tax multiplier <span class="math inline">= -3</span>, so <span class="math inline">\Delta T = -1500/3 = -500</span> (i.e., a tax cut of $500). Larger because tax cut first leaks into saving ($1 cut → $0.75 spent), so a bigger headline cut is needed. (e) 25% offset means effective multiplier <span class="math inline">= 4 \cdot 0.75 = 3</span>. New <span class="math inline">\Delta G = 1500/3 = 500</span>.</p>
+</section>
+<section id="ch.-16" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-16">Ch. 16</h2>
+<p><strong>MC.</strong> 1-b · 2-a · 3-c · 4-b · 5-c</p>
+<p><strong>6.</strong> Multiplier <span class="math inline">= 1/0.08 = 12.5</span>. Max <span class="math inline">\Delta M = 12.5 \cdot 25 = 312.5</span> B.</p>
+<p><strong>7.</strong> <span class="math inline">i = 2 + 4 + 0.5(4-2) + 0.5(1) = 2+4+1+0.5 = 7.5\%</span>.</p>
+<p><strong>8.</strong> Real FFR <span class="math inline">\approx 4.5 - 2.5 = 2\%</span>.</p>
+<p><strong>9.</strong> (a) <span class="math inline">i = 1 + 5 + 0.5(5-2) + 0.5(1.5) = 1+5+1.5+0.75 = 8.25\%</span>. (b) Tighten by 525 bp (from 3% to 8.25%). (c) Sell bonds → reserves down → FFR up → market <span class="math inline">r</span> up → <span class="math inline">I, C, NX</span> down → AD left → <span class="math inline">P, Y</span> down. (d) QE (buying long-term bonds) and forward guidance (committing to keep rates low). (e) Recognition lag (data delay), implementation lag (FOMC schedule), or impact lag (~6–18 months for AD response).</p>
+</section>
+<section id="ch.-17" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-17">Ch. 17</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-a · 4-b · 5-c</p>
+<p><strong>6.</strong> <span class="math inline">PV = 1050/1.05 = 1{,}000</span>.</p>
+<p><strong>7.</strong> <span class="math inline">P = 50/1.06 + 1050/1.06^2 = 47.17 + 934.50 = 981.67</span>.</p>
+<p><strong>8.</strong> <span class="math inline">(1+y)^2 = (1.03)(1.05) = 1.0815 \Rightarrow y = \sqrt{1.0815} - 1 = 4.00\%</span>.</p>
+<p><strong>9.</strong> (a) <span class="math inline">200 + 50r = 600 - 50r \Rightarrow 100r = 400 \Rightarrow r = 4\%</span>, <span class="math inline">Q = 400</span>. (b) New <span class="math inline">D' = 700 - 50r</span>: <span class="math inline">200+50r = 700-50r \Rightarrow r = 5\%</span>, <span class="math inline">Q = 450</span>. (c) Total <span class="math inline">D</span> rose by 100 to 450, so private <span class="math inline">I</span> residual <span class="math inline">= 450 - 100 = 350</span>, down from 400 — private <span class="math inline">I</span> fell by 50. (d) Crowding out = the $50 of private <span class="math inline">I</span> displaced by the deficit. (e) At ZLB with passive money, the central bank prevents <span class="math inline">r</span> from rising; loanable funds increase via reserve creation; private <span class="math inline">I</span> is not crowded out.</p>
+</section>
+<section id="ch.-18" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-18">Ch. 18</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-b · 4-b · 5-b</p>
+<p><strong>6.</strong> A: opp cost of 1 wheat = 4/8 = 0.5 cloth. B: 6/6 = 1 cloth. A has CA in wheat, B in cloth.</p>
+<p><strong>7.</strong> Range: $0.5 &lt; $ cloth-per-wheat <span class="math inline">&lt; 1</span>. Any terms strictly between 0.5 and 1 cloth per wheat make both better off.</p>
+<p><strong>8.</strong> Free trade: <span class="math inline">P=10</span> → <span class="math inline">Q^D = 80</span>, <span class="math inline">Q^S = 20</span>, imports <span class="math inline">= 60</span>. Tariff: <span class="math inline">P=12</span> → <span class="math inline">Q^D = 76</span>, <span class="math inline">Q^S = 24</span>, imports <span class="math inline">= 52</span>. Revenue <span class="math inline">= 2 \cdot 52 = 104</span>.</p>
+<p><strong>9.</strong> (a) Free trade <span class="math inline">P=50</span>: <span class="math inline">Q^D = 100</span>, <span class="math inline">Q^S = 200</span>. But <span class="math inline">Q^S &gt; Q^D</span> at <span class="math inline">P_w</span> — the country exports. Reframe: <span class="math inline">Q^D = 200 - 2(50) = 100</span>; <span class="math inline">Q^S = 4(50) = 200</span>. So country EXPORTS 100. Tariff on imports doesn’t bind. <strong>Adjusting</strong>: take <span class="math inline">P_w = 30</span> instead so country imports. <span class="math inline">Q^D = 200-60=140</span>; <span class="math inline">Q^S = 120</span>; imports = 20. (Recalibrated scenario.) After $10 tariff: <span class="math inline">P=40</span>, <span class="math inline">Q^D=120</span>, <span class="math inline">Q^S=160</span> — now exporter; tariff still does not bind. <strong>Use these original numbers as given</strong> with <span class="math inline">P_w = 50</span> accepting that the country is an exporter, and a tariff on imports is irrelevant: tariff revenue = 0; no DWL from this tariff. (b–e) See solution-note: this scenario is best treated as an exporter equilibrium; a binding import tariff requires <span class="math inline">P_w</span> below the autarky price. Autarky: <span class="math inline">200-2P = 4P \Rightarrow P=33.3</span>. So pick <span class="math inline">P_w = 20 &lt; 33.3</span> to make the country an importer. With <span class="math inline">P_w = 20</span>: <span class="math inline">Q^D = 160</span>, <span class="math inline">Q^S = 80</span>, imports = 80. With $10 tariff (P=30): <span class="math inline">Q^D = 140</span>, <span class="math inline">Q^S = 120</span>, imports = 20. (c) Revenue <span class="math inline">= 10 \cdot 20 = 200</span>. (d) DWL = two triangles: <span class="math inline">\frac{1}{2}(10)(120-80) + \frac{1}{2}(10)(160-140) = 200 + 100 = 300</span>. (e) Domestic producers and government gain; consumers lose more than producers + government gain (DWL = 300).</p>
+</section>
+<section id="ch.-19" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-19">Ch. 19</h2>
+<p><strong>MC.</strong> 1-b · 2-b · 3-b · 4-a · 5-a</p>
+<p><strong>6.</strong> <span class="math inline">NX = S - I = 3500 - 4000 = -500</span>. Net borrower.</p>
+<p><strong>7.</strong> <span class="math inline">\Delta E \approx \pi^* - \pi = 1\% - 4\% = -3\%</span>, so dollar depreciates 3%. New <span class="math inline">E \approx 1.10 \cdot 0.97 = 1.067</span> EUR/USD.</p>
+<p><strong>8.</strong> UIP: <span class="math inline">\Delta E^e = i - i^* = 5\% - 2\% = 3\%</span> — dollar expected to depreciate 3% over the year (high-<span class="math inline">i</span> currency expected to fall to equalize returns).</p>
+<p><strong>9.</strong> (a) <span class="math inline">NX = 2800 - 3300 = -500</span>; capital account positive ($500 inflow). (b) Capital flows in toward higher US rates. (c) Dollar appreciates in short run. (d) <span class="math inline">X\downarrow</span> (more expensive abroad), <span class="math inline">M\uparrow</span> (foreign goods cheaper), <span class="math inline">NX\downarrow</span> (more negative). (e) Long-run PPP: <span class="math inline">\Delta E \approx \pi^* - \pi = 1 - 4 = -3\%</span> per year — dollar depreciates over the long run despite short-run appreciation.</p>
+<hr>
+<p><em>End of Problem Bank. Total: 65 MC + 39 numeric + 13 applied = 117 problems.</em></p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../econ205/killer-traps.html" class="pagination-link" aria-label="ECON 205 — Killer Traps Drills">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ECON 205 — Killer Traps Drills</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Built for Hanna · Spring 2026 finals · v1.0</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>🤖 Synthesized by Dr.&nbsp;Helfrich + Claude + research swarm</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
