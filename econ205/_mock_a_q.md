@@ -128,7 +128,7 @@ Country has nominal GDP $4 trillion, M = $1 trillion.
 3. If the central bank targets 2% inflation under same V and growth, what M growth rate is consistent? (4)
 
 ### 28) Tariff welfare (12 pts)
-Small open economy, world price P_w = $20. Domestic D: $Q^D = 100 - 2P$; Domestic S: $Q^S = 2P$. Government imposes tariff t = $5 (so domestic price under tariff = $25).
+Small open economy, world price P_w = $20. Domestic D: $Q^D = 120 - 2P$; Domestic S: $Q^S = 2P$. Government imposes tariff t = $5 (so domestic price under tariff = $25). *(Note: parameters set so the post-tariff price stays below the autarky price of $30, keeping imports positive — verify this first as part of (1).)*
 
 1. Free-trade quantities: domestic Q^D, Q^S, imports. (3)
 2. Post-tariff quantities. (3)

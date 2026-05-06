@@ -39,6 +39,8 @@ website:
         text: "🔗 Connections"
       - href: glossary.qmd
         text: "📖 Glossary"
+      - href: curveballs.qmd
+        text: "🎢 Curveballs"
       - text: "IR 362"
         menu:
           - href: ir362/index.qmd

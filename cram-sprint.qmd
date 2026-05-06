@@ -1,0 +1,249 @@
+---
+title: "🏃 Cram Sprint"
+subtitle: "Time-budgeted study sequencer · pick a window, get a plan"
+description: "How much time do you have right now? Click a button — get a tailored retrieval-driven sequence."
+toc: false
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        .sprint-hero {
+          background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+          color: white; padding: 1.8rem 1.5rem; border-radius: 14px;
+          margin-bottom: 1.5rem; box-shadow: 0 6px 20px rgba(153,0,0,0.18);
+        }
+        .sprint-hero h1 { color: white !important; margin: 0 0 .35rem; font-size: 1.7rem; letter-spacing: -.02em; }
+        .sprint-hero p { color: rgba(255,255,255,0.92); margin: 0; font-size: 1rem; }
+        .sprint-hero .accent-bar { height: 4px; width: 50px; background: #FFC72C; border-radius: 999px; margin-bottom: .8rem; }
+        .sprint-buttons {
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+          gap: .8rem; margin: 1.2rem 0 2rem;
+        }
+        .sprint-btn {
+          border: 2px solid #990000; border-radius: 12px;
+          background: var(--bs-body-bg); color: #990000;
+          padding: 1.2rem .8rem; font-weight: 800; font-size: 1.1rem;
+          cursor: pointer; text-align: center;
+          transition: all .15s ease;
+          display: flex; flex-direction: column; gap: .25rem; align-items: center;
+        }
+        .sprint-btn:hover { background: #990000; color: white; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(153,0,0,.22); }
+        .sprint-btn.active { background: #990000; color: white; box-shadow: 0 6px 16px rgba(153,0,0,.3); }
+        .sprint-btn.panic { border-color: #FFC72C; color: #8a6d00; background: rgba(255,199,44,0.15); }
+        .sprint-btn.panic:hover, .sprint-btn.panic.active { background: #FFC72C; color: #1a1a1a; }
+        .sprint-btn .num { font-size: 1.6rem; line-height: 1; }
+        .sprint-btn .lbl { font-size: .82rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+        .sequence { display: none; border: 1px solid var(--bs-border-color); border-radius: 12px; padding: 1.2rem 1.4rem; margin-bottom: 1.2rem; background: var(--bs-body-bg); }
+        .sequence.show { display: block; }
+        .sequence h3 { color: #990000; margin: 0 0 .8rem; font-size: 1.2rem; }
+        .sequence ul { list-style: none; padding-left: 0; margin: 0; }
+        .sequence li {
+          padding: .55rem .7rem; margin: .35rem 0; border-radius: 8px;
+          background: rgba(153,0,0,0.04); border-left: 3px solid #990000;
+          display: flex; align-items: flex-start; gap: .6rem; cursor: pointer;
+        }
+        .sequence li.done { opacity: .55; text-decoration: line-through; background: rgba(153,0,0,0.02); }
+        .sequence li input[type=checkbox] { margin-top: .25rem; width: 18px; height: 18px; cursor: pointer; flex-shrink: 0; }
+        .sequence li .mins { display: inline-block; background: #FFC72C; color: #1a1a1a; font-weight: 700; font-size: .72rem; padding: 2px 8px; border-radius: 999px; margin-right: .3rem; }
+        .timer-bar {
+          display: flex; align-items: center; gap: .8rem;
+          margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed var(--bs-border-color);
+          flex-wrap: wrap;
+        }
+        .timer-display {
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 1.6rem; font-weight: 800; color: #990000;
+          min-width: 90px;
+        }
+        .timer-display.flash { animation: flash 0.6s ease 3; }
+        @keyframes flash { 0%,100% { background: transparent; } 50% { background: #FFC72C; } }
+        .timer-btn {
+          border: 1px solid #990000; background: #990000; color: white;
+          padding: .45rem 1rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: .9rem;
+        }
+        .timer-btn.stop { background: var(--bs-body-bg); color: #990000; }
+        .panic-banner {
+          background: linear-gradient(135deg, #FFC72C 0%, #f5a623 100%);
+          color: #1a1a1a; padding: .7rem 1rem; border-radius: 8px;
+          font-weight: 700; margin-bottom: .8rem; font-size: .92rem;
+        }
+        @media (max-width: 600px) {
+          .sprint-btn { padding: .9rem .5rem; }
+          .sprint-btn .num { font-size: 1.3rem; }
+        }
+        </style>
+---
+
+```{=html}
+<div class="sprint-hero">
+  <div class="accent-bar"></div>
+  <h1>🏃 Cram Sprint</h1>
+  <p>How much time do you have right now? Pick a window. Get a retrieval-driven sequence. Tick boxes as you go. Your choice persists in this browser.</p>
+</div>
+
+<div class="sprint-buttons">
+  <button class="sprint-btn" data-seq="s30"><span class="num">30</span><span class="lbl">minutes</span></button>
+  <button class="sprint-btn" data-seq="s60"><span class="num">60</span><span class="lbl">minutes</span></button>
+  <button class="sprint-btn" data-seq="s90"><span class="num">90</span><span class="lbl">minutes</span></button>
+  <button class="sprint-btn panic" data-seq="panic"><span class="num">🚨</span><span class="lbl">Panic mode</span></button>
+</div>
+
+<div class="sequence" id="seq-s30">
+  <h3>30-min sprint · pure retrieval, no new reading</h3>
+  <ul>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Scan IR 362 <a href="ir362/cram-sheet.html">cram sheet</a> — three throughlines + dates table only</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>15 flashcards mixed deck (<a href="flashcards.html">flashcards</a>) — flip, mark, no peeking</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>1 trap-drill problem from <a href="acct410x/trap-drills.html">ACCT trap drills</a> — work it, then check key</span></li>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Re-read 3 Marketing positioning bullets (<a href="marketing/index.html">marketing page</a>)</span></li>
+  </ul>
+  <div class="timer-bar">
+    <span class="timer-display" data-target="30">30:00</span>
+    <button class="timer-btn">Start timer</button>
+    <button class="timer-btn stop">Stop</button>
+    <span style="font-size:.85rem; color: var(--bs-secondary-color);">Visual flash every 5 min</span>
+  </div>
+</div>
+
+<div class="sequence" id="seq-s60">
+  <h3>60-min sprint · retrieval + 1 application rep</h3>
+  <ul>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Scan IR 362 cram sheet — three throughlines + dates</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>15 flashcards mixed deck</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>1 ACCT trap-drill problem</span></li>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Re-read 3 Marketing positioning bullets</span></li>
+    <li><input type="checkbox"><span><span class="mins">25 min</span>Pick ONE: outline a <a href="ir362/mock-essays.html">mock essay</a> (thesis + 3 moves + Hammad frame) OR drill 5 ACCT trap problems</span></li>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Re-read the 6 trap-avoidance reminders on the IR 362 cram sheet</span></li>
+  </ul>
+  <div class="timer-bar">
+    <span class="timer-display" data-target="60">60:00</span>
+    <button class="timer-btn">Start timer</button>
+    <button class="timer-btn stop">Stop</button>
+    <span style="font-size:.85rem; color: var(--bs-secondary-color);">Visual flash every 5 min</span>
+  </div>
+</div>
+
+<div class="sequence" id="seq-s90">
+  <h3>90-min sprint · full mock section + retrieval</h3>
+  <ul>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Scan IR 362 cram sheet — three throughlines + dates</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>15 flashcards mixed deck</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>1 ACCT trap-drill problem</span></li>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Re-read 3 Marketing positioning bullets</span></li>
+    <li><input type="checkbox"><span><span class="mins">25 min</span>Outline a mock essay OR drill 5 ACCT trap problems</span></li>
+    <li><input type="checkbox"><span><span class="mins">30 min</span>1 timed mock-exam section: <a href="ir362/mock-essays.html">IR 362 mock essay</a> (write the intro + first body para under timer) OR <a href="acct410x/mock-final.html">ACCT mock</a> Section A</span></li>
+    <li><input type="checkbox"><span><span class="mins">5 min</span>Self-review against sample answer · note 1 fix for next time</span></li>
+  </ul>
+  <div class="timer-bar">
+    <span class="timer-display" data-target="90">90:00</span>
+    <button class="timer-btn">Start timer</button>
+    <button class="timer-btn stop">Stop</button>
+    <span style="font-size:.85rem; color: var(--bs-secondary-color);">Visual flash every 5 min</span>
+  </div>
+</div>
+
+<div class="sequence" id="seq-panic">
+  <div class="panic-banner">🚨 Panic mode · 4 high-impact retrieval tasks. The point isn't to learn new material — it's to feel competent, fast.</div>
+  <h3>"I have an hour but I'm panicking"</h3>
+  <ul>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>Memorize 5 dates cold from the IR 362 dates table — say each one out loud + significance</span></li>
+    <li><input type="checkbox"><span><span class="mins">15 min</span>Recite 3 essay-bank thesis statements aloud (pick from the <a href="ir362/cram-sheet.html#five-essay-bank-thesis-statements-deploy-adapt">5 on the cram sheet</a>) — say each twice without looking</span></li>
+    <li><input type="checkbox"><span><span class="mins">25 min</span>Do 2 indirect-cash-flow problems from <a href="acct410x/trap-drills.html">ACCT trap drills</a> · the asset-up = subtract / liab-up = add direction rules are the highest-yield trap</span></li>
+    <li><input type="checkbox"><span><span class="mins">10 min</span>Re-read the 6 IR 362 trap-avoidance reminders. Breathe. You know more than you think.</span></li>
+  </ul>
+  <div class="timer-bar">
+    <span class="timer-display" data-target="60">60:00</span>
+    <button class="timer-btn">Start timer</button>
+    <button class="timer-btn stop">Stop</button>
+    <span style="font-size:.85rem; color: var(--bs-secondary-color);">Visual flash every 5 min</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  const KEY = 'studyhub_cram_sprint_v1';
+  const CHECKS_KEY = 'studyhub_cram_sprint_checks_v1';
+
+  function showSeq(id){
+    document.querySelectorAll('.sequence').forEach(s => s.classList.remove('show'));
+    document.querySelectorAll('.sprint-btn').forEach(b => b.classList.remove('active'));
+    const seq = document.getElementById('seq-' + id);
+    const btn = document.querySelector('.sprint-btn[data-seq="' + id + '"]');
+    if (seq) seq.classList.add('show');
+    if (btn) btn.classList.add('active');
+    localStorage.setItem(KEY, id);
+  }
+
+  function loadChecks(){ try { return JSON.parse(localStorage.getItem(CHECKS_KEY)||'{}'); } catch(e){ return {}; } }
+  function saveChecks(s){ localStorage.setItem(CHECKS_KEY, JSON.stringify(s)); }
+
+  document.querySelectorAll('.sprint-btn').forEach(b => {
+    b.addEventListener('click', () => showSeq(b.dataset.seq));
+  });
+
+  // restore last choice
+  const last = localStorage.getItem(KEY);
+  if (last) showSeq(last);
+
+  // checkbox state
+  document.querySelectorAll('.sequence').forEach(seq => {
+    const seqId = seq.id;
+    seq.querySelectorAll('li').forEach((li, idx) => {
+      const key = seqId + ':' + idx;
+      const checks = loadChecks();
+      const cb = li.querySelector('input[type=checkbox]');
+      if (checks[key]) { cb.checked = true; li.classList.add('done'); }
+      cb.addEventListener('change', () => {
+        const c = loadChecks();
+        c[key] = cb.checked;
+        saveChecks(c);
+        li.classList.toggle('done', cb.checked);
+      });
+      li.addEventListener('click', e => {
+        if (e.target.tagName === 'A' || e.target.tagName === 'INPUT') return;
+        cb.checked = !cb.checked;
+        cb.dispatchEvent(new Event('change'));
+      });
+    });
+
+    // timer
+    const display = seq.querySelector('.timer-display');
+    const startBtn = seq.querySelector('.timer-btn:not(.stop)');
+    const stopBtn = seq.querySelector('.timer-btn.stop');
+    let intervalId = null;
+    let remaining = 0;
+    function fmt(s){ const m = Math.floor(s/60); const ss = s%60; return (m<10?'0':'')+m+':'+(ss<10?'0':'')+ss; }
+    function tick(){
+      remaining--;
+      display.textContent = fmt(remaining);
+      // flash every 5 min boundary (when remaining is multiple of 300 and > 0)
+      const target = parseInt(display.dataset.target,10) * 60;
+      const elapsed = target - remaining;
+      if (elapsed > 0 && elapsed % 300 === 0 && remaining > 0) {
+        display.classList.add('flash');
+        setTimeout(() => display.classList.remove('flash'), 1800);
+        try { const beep = new AudioContext(); const o = beep.createOscillator(); const g = beep.createGain(); o.connect(g); g.connect(beep.destination); o.frequency.value = 880; g.gain.value = 0.1; o.start(); setTimeout(() => { o.stop(); beep.close(); }, 200); } catch(e){}
+      }
+      if (remaining <= 0) {
+        clearInterval(intervalId); intervalId = null;
+        display.classList.add('flash');
+        display.textContent = 'DONE';
+      }
+    }
+    startBtn.addEventListener('click', () => {
+      if (intervalId) return;
+      const target = parseInt(display.dataset.target,10);
+      remaining = target * 60;
+      display.textContent = fmt(remaining);
+      intervalId = setInterval(tick, 1000);
+    });
+    stopBtn.addEventListener('click', () => {
+      if (intervalId) { clearInterval(intervalId); intervalId = null; }
+      const target = parseInt(display.dataset.target,10);
+      display.textContent = fmt(target * 60);
+    });
+  });
+})();
+</script>
+```

@@ -1,0 +1,118 @@
+---
+title: "🎢 Curveballs — What Each Prof Might Surprise You With"
+subtitle: "Gemini's predictions for the questions you're least ready for"
+description: "Aggregated curveball predictions from Gemini's independent reviews"
+order: 95
+---
+
+::: {.thesis}
+**Why this page exists.** Gemini did independent critical-friend reviews of the IR 362 and ECON 205 prep materials and identified **three "curveball" questions per course** — questions that the standard study materials don't fully prepare you for. They're the kind of questions that separate an A from an A-minus. Read each one. If you can't outline an answer in 60 seconds, **come back to it.**
+:::
+
+## IR 362 — Hammad's potential curveballs
+
+::: {.callout-warning}
+*Source: Gemini's IR 362 review at [`ir362/independent-review.html`](ir362/independent-review.html).*
+:::
+
+### Curveball 1 — The Comparativist's Inversion
+
+> *"Apply the framework you used to explain the failure of the Arab Spring (Bellin; Brownlee/Masoud/Reynolds) to **Israel**. Does the analytic apparatus designed for authoritarian-regime durability map onto a parliamentary democracy with a contested governance crisis (judicial reform protests, anti-Netanyahu mobilization, post–Oct 7 coalition fragility)? What does the comparison illuminate; what does it strain?"*
+
+**Why it's hard.** The frames you've drilled are calibrated to authoritarian persistence. Israel is a *democratic* case. The question forces you to identify which features of the framework are domain-specific (rentier rents, coercive apparatus design) versus domain-general (institutional inertia, coalition lock-in).
+
+**Outline of an answer.**
+- Bellin's coercive-apparatus argument applies *partially* — Israeli security institutions (IDF, Shin Bet) shape political possibilities but operate inside democratic guardrails (HCJ rulings, Knesset oversight) absent in MENA cases.
+- Brownlee/Masoud/Reynolds's two variables (oil rents, hereditary executive) don't apply — Israel has neither — yet *coalitional rents* (settlement subsidies, ultra-Orthodox transfers) play a structurally analogous role.
+- Bayat's "revolution without revolutionaries" maps eerily well to anti-judicial-reform protests of 2023: massive mobilization, no counter-elite to capture state institutions.
+- Tie-back: the framework has **portable diagnostic value** but its causal claims need re-specification for democratic regimes.
+
+### Curveball 2 — The Counterfactual on the Pivot
+
+> *"Counterfactual: imagine MBS had publicly accepted the Saudi-Israel normalization deal in early September 2023, two weeks before October 7. Trace what changes and what doesn't. Does Hamas still attack? Does Iran respond differently? Does Hezbollah open the northern front? Does Assad survive?"*
+
+**Why it's hard.** Counterfactuals test whether you understand the *causal structure* of the system, not just the events.
+
+**Outline of an answer.**
+- Most plausible chain: Saudi normalization → Hamas perceives existential blow to the cause → attack timing locks in. Spoiler theory becomes *more* compelling, not less.
+- Iran's incentives sharpen: an axis-of-resistance failure to respond would mean strategic capitulation. Hezbollah opens the northern front harder.
+- BUT — Saudi normalization may have included a Palestinian-state component (per ICG/Jacobs reading), which would have given Hamas a *political* lever to lose by attacking. Read the spoiler theory as conditional on the deal's substance.
+- Assad's fate is overdetermined by 2024 — Hezbollah/IRGC/Russia/army scaffolding-collapse logic doesn't depend on the Saudi pivot.
+
+### Curveball 3 — The Methodological Self-Audit
+
+> *"You've used Gause's primacy/unipolarity/hegemony distinction throughout your essays. Critique it. What does the distinction obscure? Could a constructivist (Wendt, Hopf) or a Marxist (Mitchell, *Carbon Democracy*) read of the same evidence produce a different conclusion about US power in the region?"*
+
+**Why it's hard.** You're being asked to be skeptical of a frame you've used as an authority.
+
+**Outline of an answer.**
+- Gause's tripartite distinction is *operationalizable* but treats legitimacy as a yes/no rather than a continuous variable.
+- Constructivist critique: the distinction reifies material capabilities and downplays how regional states *narrate* US power — Saudi/Egyptian elites can invoke US "leadership" rhetorically while undermining it materially (Egyptian neutrality on Russia/Ukraine, Saudi-Iran via China).
+- Mitchell's structuralism: focuses on infrastructure (oil, finance, basing) rather than legitimacy — concludes US has been *more* hegemonic than Gause allows because the carbon-energy architecture itself is American.
+- Tie-back: Gause is right *within his framing*; the framing's choice of legitimacy as load-bearing variable is itself a theoretical commitment.
+
+---
+
+## ECON 205 — Pérez's potential curveballs
+
+::: {.callout-warning}
+*Source: Gemini's ECON 205 review at [`econ205/independent-review.html`](econ205/independent-review.html).*
+:::
+
+### Curveball 1 — The Impossible Trinity (Trilemma)
+
+> *"Standard international macro theory posits a country cannot simultaneously have all three: a fixed exchange rate, free capital mobility, and an independent monetary policy. Explain the trilemma's intuition. If Canada wants free capital flow with the U.S. and an independent monetary policy, what must its exchange rate look like? If Saudi Arabia pegs to the dollar with free capital flow, what must it give up?"*
+
+**Outline of an answer.**
+- **Intuition:** if you fix the exchange rate AND allow capital to move freely, then to keep the peg you must match foreign interest rates — leaving you no monetary independence.
+- **Canada (free capital + monetary independence)** must accept a *floating* exchange rate. The CAD/USD rate absorbs the policy divergence.
+- **Saudi Arabia (peg + free capital)** must give up *monetary independence* — Saudi rates effectively track the Fed. This is exactly what we observe.
+- Connect to ECON 205 Ch 16 (monetary policy) + Ch 19 (international finance).
+
+### Curveball 2 — The Sovereign Debt-Bank Doom Loop
+
+> *"Spanish banks hold large amounts of Spanish sovereign bonds. A recession reduces tax revenue; markets fear default; bond prices collapse. Trace the feedback loop into the banking system. How might the ECB intervene, and what are the risks?"*
+
+**Outline of an answer.**
+- **Loop:** sovereign-bond prices fall → bank balance sheets hit (assets marked down) → bank capital ratios deteriorate → banks tighten lending → economy slows → tax revenue falls more → sovereign-bond prices fall further. Self-reinforcing.
+- **ECB intervention** options: (1) OMTs / outright purchase of sovereign bonds (Draghi 2012 "whatever it takes"); (2) liquidity to banks via LTRO; (3) regulatory forbearance.
+- **Risks:** moral hazard (governments borrow more knowing the ECB will support); inflation (debt monetization); legal challenge in EU treaties.
+- Connect to ECON 205 Ch 17 (financial markets) + Ch 16 (monetary policy).
+
+### Curveball 3 — Hysteresis vs. NAIRU
+
+> *"After a deep recession, unemployment stays high for years even after demand recovers. An economist suggests 'hysteresis.' Define it. How does hysteresis challenge the AD/AS model's vertical LRAS and stable NAIRU? If hysteresis is real, does it strengthen or weaken the case for aggressive policy intervention?"*
+
+**Outline of an answer.**
+- **Hysteresis:** long-term unemployment causes skill atrophy, network erosion, employer-screening signaling effects → the *natural* rate itself rises after a recession.
+- **Challenge to standard model:** standard AD/AS assumes LRAS is independent of demand — hysteresis says LRAS *shifts* with demand history. NAIRU is endogenous, not exogenous.
+- **Policy implication:** hysteresis *strengthens* the case for aggressive intervention — every quarter of demand-deficient unemployment damages the long-run productive capacity, so the cost of underinvolvement is higher than the standard model suggests.
+- Connect to ECON 205 Ch 8 (labor market) + Ch 13–14 (fluctuations model).
+
+---
+
+## ACCT 410x — likely curveballs
+
+*Gemini's ACCT 410x review is in flight; I'll add its curveball predictions here when it lands. Until then, these are the highest-yield "user-perspective" surprises Leventhal exams reliably set:*
+
+### Curveball A — The "Why does NI ≠ OCF?" diagnostic
+
+> *"A company reports net income of \$50M but operating cash flow of only \$5M. As a manager looking at this divergence, what are the four most likely explanations, and what would you check first?"*
+
+**Outline.** AR growth (sales booked but not collected), inventory build (cash tied up), AP shrinking (paying suppliers faster than recognizing expense), big non-cash gains (e.g. asset revaluations). Check first: AR/sales ratio trend.
+
+### Curveball B — The cross-statement audit
+
+> *"Given a company's three statements, prove or disprove the assertion that 'this company is healthy.' Use at least one liquidity ratio, one solvency ratio, and one profitability ratio. Then identify the single biggest red flag a CFO would notice."*
+
+**Outline.** Pull current ratio (liquidity), debt-to-assets (solvency), ROA or profit margin (profitability). Red flag: divergence between accrual and cash measures (NI vs. OCF), aggressive revenue recognition, or rising AR aging.
+
+### Curveball C — The bond pricing intuition test
+
+> *"You see a bond trading at 102. The 5-year Treasury yields 4%. The bond's stated coupon is 5%. Without a calculator, is the bond's yield to maturity above or below 4%? Above or below 5%? Why?"*
+
+**Outline.** Coupon (5%) > market rate, so the bond trades at a *premium* (>100). YTM is between 4% and 5% — closer to 4% if 102 reflects a meaningful premium. The premium signals "buyer pays extra now to receive above-market coupons."
+
+::: {.callout-tip}
+**Strategy note.** The curveballs above are designed to be *uncomfortable*. If you can outline an answer to each in 60 seconds, you're ready. If you're stuck on more than three, drill those specific connections before any other study activity.
+:::

@@ -63,20 +63,23 @@
 2. $\pi = \%\Delta M - \%\Delta Y = 7-3 = 4\%$.
 3. Need $\%\Delta M = \pi + \%\Delta Y = 2 + 3 = 5\%$.
 
-### 28) Tariff
-Free trade at P=20: $Q^D=100-40=60$, $Q^S=40$, imports = 20.
-With tariff at P=25: $Q^D=100-50=50$, $Q^S=50$, imports = 0.
+### 28) Tariff (parameters fixed per Gemini review — see note in question)
 
-Wait — at $P=25$ both equal 50, so imports = 0; the tariff is prohibitive. Recompute carefully:
+**Step 0 — autarky check (always do this first):** $Q^D = Q^S \Rightarrow 120 - 2P = 2P \Rightarrow P_A = 30$. Since $P_w = 20 < P_A$, country is an importer. After tariff, price rises to $25$, still below $P_A = 30$, so imports remain positive — tariff is *not* prohibitive.
 
-1. Free-trade: $Q^D=60$, $Q^S=40$, imports = 20.
-2. Post-tariff at $P=25$: $Q^D = 50$, $Q^S = 50$, imports = 0.
-3. Tariff revenue = tariff × imports = $5 × 0 = $0 (prohibitive tariff).
-4. Deadweight loss = full triangle of lost gains from trade. Two triangles each with base = change in quantity × height = $5 (price wedge), summed:
-   - Production-side triangle: ½ × ($Q^S$-rise = 10) × $5 = $25.
-   - Consumption-side triangle: ½ × ($Q^D$-fall = 10) × $5 = $25.
-   - Total DWL = $50.
-   Intuition: prohibitive tariff eliminates all imports and all tariff revenue; entire welfare loss is deadweight.
+1. Free-trade at $P = 20$: $Q^D = 120 - 40 = 80$, $Q^S = 40$, imports = $40$.
+2. Post-tariff at $P = 25$: $Q^D = 120 - 50 = 70$, $Q^S = 50$, imports = $20$.
+3. Tariff revenue = tariff × imports = $\$5 × 20 = \$100$.
+4. Deadweight loss — two triangles with the price wedge of $5:
+   - Production-side: $\frac{1}{2} × (Q^S\text{-rise} = 10) × \$5 = \$25$.
+   - Consumption-side: $\frac{1}{2} × (Q^D\text{-fall} = 10) × \$5 = \$25$.
+   - **Total DWL = \$50.**
+
+   Intuition: tariff transfers consumer surplus to producers and the government, with the two triangles representing pure welfare loss from distorted production (inefficient domestic suppliers replacing cheaper imports) and lost consumption.
+
+::: {.callout-tip}
+**Why this is now a good problem (Gemini-fix):** the autarky price ($30$) is strictly above the post-tariff price ($25$), so imports stay positive, tariff revenue is non-zero, and all four welfare components (CS loss, PS gain, govt revenue, DWL) are non-trivial. The original parameters made the tariff prohibitive — a degenerate edge case Pérez is unlikely to test.
+:::
 
 ### 29) International finance
 1. $NX = S-I = 2500-2800 = -300$ (deficit of $300B).

@@ -783,12 +783,20 @@ If you score 9/9, mark the chapter green and move on. If you score 7–8/9, revi
 
 ### Longer applied problem
 
-9. **Scenario** Small open economy importing steel. World price = \$50 per ton. Domestic demand $Q^D = 200 - 2P$; domestic supply $Q^S = 4P$. A \$10 per-ton tariff is imposed.
-   (a) Compute free-trade $Q^D$, $Q^S$, and imports.
-   (b) Compute post-tariff $Q^D$, $Q^S$, and imports.
-   (c) Compute tariff revenue.
-   (d) Compute the deadweight-loss triangles (sum).
-   (e) Briefly identify who gains and who loses domestically.
+9. **Scenario** Small open economy importing steel. **Always confirm the autarky price first** — set $Q^D = Q^S$ to find $P_A$, then compare to $P_w$. If $P_A > P_w$ this is an importer (the only case where a tariff has an effect); if $P_A < P_w$, this is an exporter and a tariff has no effect.
+
+   Domestic demand $Q^D = 200 - 2P$; domestic supply $Q^S = 2P$. World price $P_w = \$20$ per ton. A \$10 per-ton tariff is imposed.
+
+   (a) Compute the autarky (no-trade) price; confirm the country is an importer at $P_w = 20$.
+   (b) Compute free-trade $Q^D$, $Q^S$, and imports.
+   (c) Compute post-tariff $Q^D$, $Q^S$, and imports.
+   (d) Compute tariff revenue.
+   (e) Compute the deadweight-loss triangles (sum).
+   (f) Briefly identify who gains and who loses domestically.
+
+   ::: {.callout-warning}
+   **Setup discipline (per Gemini's review):** Before running any tariff/quota math, always solve $Q^D=Q^S$ for the autarky price and compare to $P_w$. If you skip this step, you can spend 15 minutes computing a tariff that doesn't even bind.
+   :::
 
 ---
 

@@ -1,0 +1,12 @@
+---
+title: "Independent Critical-Friend Review"
+subtitle: "Gemini's blunt audit of the ECON 205 prep materials"
+description: "1,700-word independent critique — formula checks, sign conventions, curveballs"
+order: 99
+---
+
+::: {.callout-tip}
+**Independent review by Gemini 0.26.** Asked to find formula errors, sign-convention mistakes, and concepts that need stronger framing. Read once. Apply the fixes it flags.
+:::
+
+{{< include independent-review.md >}}
