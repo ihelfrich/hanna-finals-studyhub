@@ -1,0 +1,36 @@
+---
+title: "UN Security Council Resolution 338 (October 1973)"
+subtitle: "The Yom Kippur ceasefire — turning 242 from a principle into a negotiating mandate"
+order: 4
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q1 (post-1973 negotiation architecture), Q5 (history of negotiations), and any prompt about how the Yom Kippur War reshaped the region. Cite 242 and 338 together — they are almost always invoked as a pair.
+:::
+
+## Historical context
+
+On October 6, 1973 — the Jewish holiday of Yom Kippur and during the Islamic month of Ramadan — Egypt and Syria launched a coordinated surprise attack on Israeli positions in the Sinai and the Golan Heights. Initial Egyptian and Syrian gains were reversed within roughly two weeks; Israel pushed across the Suez Canal and threatened to encircle the Egyptian Third Army. The war triggered an Arab oil embargo against the United States and other states perceived as supporting Israel, producing the 1973 oil crisis. As the military situation deteriorated for the Arab side and as superpower tensions rose to a near-DEFCON-3 confrontation between the US and the Soviet Union, the two superpowers jointly drafted a ceasefire resolution. The Security Council adopted Resolution 338 on October 22, 1973, in the early morning hours — a remarkably short text passed under intense great-power pressure. The Resolution did not end the fighting immediately (combat continued for several days), but it laid the procedural groundwork for the disengagement agreements of 1974 and 1975, which were the immediate precursors to Camp David.
+
+## What the document says (in plain English)
+
+Resolution 338 is roughly half a page. It does three things. First, it calls on all parties to the current fighting to cease all firing and terminate all military activity within twelve hours of the Resolution's adoption, in the positions they then occupied. Second, it calls on the parties concerned to begin immediately, after the ceasefire, the implementation of Security Council Resolution 242 in all of its parts. Third, it decides that, concurrently with the ceasefire, negotiations shall start between the parties concerned under appropriate auspices aimed at establishing a just and durable peace in the Middle East. That is the entire document. Its brevity is its power: it transforms 242 from a set of principles into a binding mandate to negotiate, and it commits the parties — by name as "parties concerned" rather than as states — to negotiations under external auspices, which became the diplomatic structure of the Geneva Conference (1973), the Sinai disengagements, and ultimately Camp David.
+
+## Key terms and ambiguities
+
+The contested term is **"under appropriate auspices"**. The American reading, advanced by Henry Kissinger, was that Washington would mediate bilaterally — shuttle diplomacy — and that the Geneva framework, with Soviet co-sponsorship, would become a formality. The Soviet reading was that the ceasefire's superpower co-sponsorship guaranteed Moscow a co-equal mediation role. The Arab reading at the time emphasized comprehensive multilateral negotiation; the Israeli preference quickly aligned with the bilateral track. Within a year, Kissinger's interpretation had won, and Camp David four years later was a US-mediated bilateral framework with no meaningful Soviet role. A second ambiguity is **"in all of its parts"** — does this mean the full sequence of withdrawal-then-recognition, or simultaneous implementation? That question shaped every subsequent negotiation.
+
+## Hammad-frame connections
+
+This is a [Gause frame](../frames/gause.qmd) document — superpower co-management of the regional system in its purest form. It is also relevant to the [Brownlee-Masoud-Reynolds frame](../frames/brownlee-masoud-reynolds.qmd) because the post-1973 settlement architecture is what locked in the existing Arab state system and ruled out further inter-state war as a viable instrument for a generation. The Resolution is the procedural hinge between the era of conventional Arab-Israeli wars and the era of negotiated bilateral peace.
+
+## How to deploy this in an essay
+
+If your prompt mentions **Yom Kippur**, **the 1973 war**, **the Geneva Conference**, **disengagement**, or the procedural origins of **Camp David**, cite UNSC 338 with date October 22, 1973, and the one-line significance: the superpower-brokered ceasefire that made implementation of 242 a binding negotiating mandate. The mistake students make is to treat 338 as a pure ceasefire — its diplomatic significance is that it operationalized 242 and committed the parties to negotiate under external mediation. Citable phrasing: cease all firing in current positions, and begin immediate implementation of Resolution 242 in all its parts under appropriate auspices.
+
+## Cross-links
+
+- Companion: [UNSC 242](unsc-242.qmd)
+- Frame: [Gause on regional international politics](../frames/gause.qmd)
+- Deep dive: [Abraham Accords & Saudi track](../abraham-accords.qmd)
+- Official text: [UN — S/RES/338(1973)](https://digitallibrary.un.org/record/93466)

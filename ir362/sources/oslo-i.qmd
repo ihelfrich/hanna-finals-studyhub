@@ -1,0 +1,37 @@
+---
+title: "Oslo I — Declaration of Principles (September 1993)"
+subtitle: "Mutual recognition between Israel and the PLO — and the deferral that became permanent"
+order: 6
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q1 (post-Cold-War settlement architecture), Q4 (two-state framework, why it stalled), Q5 (negotiation history), Q7 (the Palestinian track the Abraham Accords bypassed). Oslo is the document students reach for first and understand most superficially — the deferred-issues list is what to memorize.
+:::
+
+## Historical context
+
+By the early 1990s, several developments converged. The First Intifada (1987–1993) had raised the political and human cost of the Israeli occupation; the PLO, exiled in Tunis, had endorsed UN Resolutions 242 and 338 and renounced terrorism in 1988, and was politically and financially weakened by its alignment with Iraq during the 1990–91 Gulf War; the Soviet Union had collapsed, removing the great-power patronage system that had structured Arab regional politics for forty years; the 1991 Madrid Conference had reopened formal Arab-Israeli negotiations under US-Soviet co-sponsorship. Within that opening, Norwegian academics and diplomats facilitated a back-channel between Israeli and PLO negotiators in Oslo throughout 1992 and 1993, parallel to and outside of the official Madrid track. The result, surprising even to most participants in the official process, was the **Declaration of Principles on Interim Self-Government Arrangements**, signed on the White House lawn on September 13, 1993, by Yitzhak Rabin and Yasser Arafat, with US President Bill Clinton presiding. Two letters of mutual recognition were exchanged separately on September 9.
+
+## What the document says (in plain English)
+
+The Declaration of Principles is a framework, not a peace treaty. It establishes a five-year interim period during which a Palestinian Interim Self-Government Authority (later, the Palestinian Authority) would administer the West Bank and Gaza. It sets out a phased Israeli redeployment from Palestinian population centers, beginning with Gaza and Jericho. It creates joint Israeli-Palestinian committees on economic cooperation, security, and other functional matters. Most importantly, it sets out a list of **permanent status issues** — Jerusalem, refugees, settlements, security arrangements, borders, relations with neighbors — that are explicitly **not** addressed in the Declaration and are deferred to negotiations beginning no later than the third year of the interim period. The Declaration cites UNSC 242 and 338 as its foundational legal framework and frames the interim arrangements as preparatory to a permanent settlement based on those resolutions.
+
+## Key terms and ambiguities
+
+The decisive phrasing is the deferral of **"permanent status issues"** — the list reads like the list of every issue that actually matters. By design, Oslo I addresses none of them; it builds the procedural and institutional scaffolding for future negotiations. The Israeli reading at the time was that this gradualism was prudent confidence-building. The Palestinian reading at the time was that the interim period would compress quickly into a permanent agreement. Neither side anticipated that the permanent status negotiations would fail at Camp David II (2000) and Taba (2001), and that the interim arrangements would harden into a quarter-century-and-counting status quo. A second contested term is **"redeployment"** rather than withdrawal, which preserved Israeli legal claims; the maps that followed (Areas A, B, C in Oslo II, 1995) operationalized the redeployment in ways the original Declaration did not specify.
+
+## Hammad-frame connections
+
+Oslo is central evidence for the [Sayigh frame](../frames/sayigh.qmd) on Palestinian state-building under occupation — the Palestinian Authority is the institutional product of this Declaration. It also fits the [Mitchell frame](../frames/mitchell.qmd) on how international procedural forms shape what local politics can do; the deferral of permanent status issues is the textbook case of an institutional design choice that constrained subsequent political possibilities. Hammad's lecture on the carousel logic of failed negotiations begins here.
+
+## How to deploy this in an essay
+
+If your prompt mentions **the peace process**, **the two-state solution**, **mutual recognition**, **the Palestinian Authority**, or **why the Israeli-Palestinian track stalled**, cite Oslo I with date September 13, 1993, and the one-line significance: mutual recognition between Israel and the PLO, with a five-year interim self-government period, and explicit deferral of all permanent status issues. The mistake students make is to invoke Oslo as if it were a peace agreement; it is a framework that deferred peace. The strongest essays note that the deferral list — Jerusalem, refugees, settlements, borders — is the same list that has blocked every subsequent negotiation, and that Oslo's institutional creation (the Palestinian Authority) survived the failure of its political project. Citable phrasing: a five-year interim self-government with permanent status issues — Jerusalem, refugees, settlements, borders — deferred to later negotiations.
+
+## Cross-links
+
+- Frame: [Sayigh on Palestinian politics](../frames/sayigh.qmd)
+- Frame: [Mitchell on the international and the local](../frames/mitchell.qmd)
+- Deep dive: [Nash equilibrium & the carousel](../nash-equilibrium.qmd)
+- Companion: [UNSC 242](unsc-242.qmd)
+- Official text: [UN — Declaration of Principles](https://peacemaker.un.org/israelopt-osloaccord93)

@@ -1,0 +1,1036 @@
+---
+title: "ECON 205 — Problem Bank by Chapter"
+subtitle: "117 problems · MC + numeric + applied · matched to Pérez's syllabus"
+description: "Targeted drilling for cumulative final"
+order: 8
+---
+
+## How to use this page
+
+This bank is organized by syllabus chapter so you can drill weak spots without rereading the whole textbook. Each chapter has **5 multiple-choice**, **3 short-answer / numeric**, and **1 longer applied problem** — nine items total. The cumulative final pulls from Ch. 3–9 (pre-midterm, ~30%) and Ch. 11–19 (post-midterm, ~70%), so post-midterm chapters carry the same weight here.
+
+**Recommended cadence.** Run **2–3 chapters per study session** (60–90 minutes). Within a chapter, do MC first under a 90-second-per-question cap to gauge whether you have the concept. Then do the numeric problems with a calculator and pencil — write out the formula before plugging numbers, the way Pérez expects on the exam. Finish with the applied problem. Only after all nine are submitted do you check the Solutions section at the bottom of the page.
+
+If you score 9/9, mark the chapter green and move on. If you score 7–8/9, revisit just the question(s) you missed and the matching cram-sheet line. If you score ≤6/9, re-read the relevant cram-sheet section, redo the chapter from scratch the next day, and only then move on.
+
+### Self-grading rubric
+
+| Score | Action |
+|---|---|
+| 9 / 9 | Green. Chapter retired. |
+| 7–8 / 9 | Yellow. Re-do the missed item; check cram-sheet line. |
+| ≤ 6 / 9 | Red. Re-read cram-sheet section, return tomorrow, redo all nine. |
+
+---
+
+## Ch. 3 — Supply & Demand
+
+**Cram-sheet refresh:** Equilibrium is where $Q^D = Q^S$. A demand shift moves P and Q in the same direction; a supply shift moves P and Q in opposite directions. Elastic demand ($|\varepsilon|>1$) means a price increase lowers total revenue.
+
+### Multiple choice (5)
+
+1. A binding price below equilibrium creates a:
+   - (a) Surplus
+   - (b) Shortage
+   - (c) New equilibrium at a lower quantity
+   - (d) Tax wedge
+
+2. If demand for coffee rises while a frost simultaneously cuts coffee supply, equilibrium price:
+   - (a) Rises unambiguously
+   - (b) Falls unambiguously
+   - (c) Is ambiguous in direction
+   - (d) Is unchanged
+
+3. Demand is unit-elastic when:
+   - (a) Quantity does not respond to price
+   - (b) A 1% price change produces a 1% quantity change
+   - (c) Total revenue rises with price
+   - (d) The good has no substitutes
+
+4. A normal good's demand curve shifts right when:
+   - (a) Income falls
+   - (b) Income rises
+   - (c) The good's own price falls
+   - (d) A complement's price rises
+
+5. The law of supply states that, ceteris paribus, $Q^S$ rises when:
+   - (a) The good's price rises
+   - (b) Input prices rise
+   - (c) Technology worsens
+   - (d) Demand falls
+
+### Short answer / numeric (3)
+
+6. Demand: $Q^D = 120 - 2P$. Supply: $Q^S = 4P$. Find equilibrium P and Q.
+
+7. At P = 10 the market has $Q^D = 80$ and $Q^S = 50$. Is there a shortage or surplus, and of how many units?
+
+8. Using the midpoint formula, compute the price elasticity of demand when price rises from \$8 to \$12 and quantity demanded falls from 100 to 60.
+
+### Longer applied problem
+
+9. **Scenario** A new ride-share entrant enters Los Angeles. At the same time, gasoline prices spike 30%.
+   (a) Which curves shift in the ride-share market, and in which direction?
+   (b) Predict the qualitative effect on equilibrium P and Q.
+   (c) If demand is highly elastic, what happens to total revenue when price falls?
+   (d) Why is the magnitude of the price effect ambiguous?
+
+---
+
+## Ch. 4 — Application of S&D
+
+**Cram-sheet refresh:** Tax incidence falls more on the less-elastic side. A binding price ceiling creates a shortage and DWL; a binding floor creates a surplus and DWL. Subsidies are the mirror image of taxes.
+
+### Multiple choice (5)
+
+1. A \$2 per-unit tax on sellers, with elastic supply and inelastic demand, falls primarily on:
+   - (a) Sellers
+   - (b) Buyers
+   - (c) The government
+   - (d) Foreign producers
+
+2. A binding price ceiling on rent will:
+   - (a) Increase quantity supplied
+   - (b) Eliminate deadweight loss
+   - (c) Create a shortage
+   - (d) Raise consumer surplus unambiguously
+
+3. The minimum wage is a price floor that binds when set:
+   - (a) Below the equilibrium wage
+   - (b) Above the equilibrium wage
+   - (c) Equal to the equilibrium wage
+   - (d) At zero
+
+4. A per-unit subsidy of \$3 paid to producers shifts:
+   - (a) Demand right by 3
+   - (b) Supply right (downward) by 3
+   - (c) Both curves equally
+   - (d) Neither curve
+
+5. Deadweight loss from a tax is largest when:
+   - (a) Both curves are perfectly inelastic
+   - (b) Both curves are highly elastic
+   - (c) The tax is zero
+   - (d) Supply is vertical
+
+### Short answer / numeric (3)
+
+6. Demand: $Q^D = 100 - P$. Supply: $Q^S = P$. A \$10 per-unit tax is imposed on sellers. Find post-tax buyer price, seller price, and quantity.
+
+7. Using the same market, compute tax revenue and the deadweight-loss triangle.
+
+8. A price ceiling of \$30 is imposed in a market where free-market equilibrium is P = \$50, Q = 100, with $Q^S = 2P$ and $Q^D = 200 - 2P$. Compute the size of the shortage at P = \$30.
+
+### Longer applied problem
+
+9. **Scenario** The state imposes a \$1 per gallon excise tax on gasoline. Demand: $Q^D = 200 - 10P$. Supply: $Q^S = 30P$.
+   (a) Solve for the pre-tax equilibrium.
+   (b) Solve for the post-tax buyer and seller prices and quantity.
+   (c) Compute tax revenue.
+   (d) Compute the deadweight loss.
+   (e) Who bears more of the burden, buyers or sellers? Justify with elasticities.
+
+---
+
+## Ch. 5 — Macroeconomic Concepts
+
+**Cram-sheet refresh:** GDP measures market value of final goods and services produced domestically in a period. Real GDP holds prices fixed at a base year; nominal GDP uses current prices. The GDP deflator is $100 \cdot \text{Nominal}/\text{Real}$.
+
+### Multiple choice (5)
+
+1. Which is counted in US GDP?
+   - (a) A used car sold in 2026
+   - (b) A new haircut purchased in 2026
+   - (c) A 2025-built apartment resold in 2026
+   - (d) A foreign-made car sold to a US consumer (full sale price)
+
+2. Real GDP differs from nominal GDP because real GDP:
+   - (a) Excludes services
+   - (b) Holds prices fixed at a base year
+   - (c) Adds the trade balance
+   - (d) Subtracts depreciation
+
+3. The GDP deflator equals 125. This means:
+   - (a) Prices have fallen 25% since the base year
+   - (b) Prices are 25% above the base year
+   - (c) Real output grew 25%
+   - (d) The economy is in deflation
+
+4. A Toyota assembled in Kentucky and sold in the US is counted in:
+   - (a) Japanese GDP only
+   - (b) US GDP
+   - (c) Neither country's GDP
+   - (d) Both countries' GDP
+
+5. Intermediate goods are excluded from GDP to avoid:
+   - (a) Imports
+   - (b) Double counting
+   - (c) Depreciation
+   - (d) Inflation
+
+### Short answer / numeric (3)
+
+6. Nominal GDP = \$22 trillion; real GDP = \$20 trillion. Compute the GDP deflator.
+
+7. Year 1: deflator = 100. Year 2: deflator = 104. Year 3: deflator = 109. Compute year-2 and year-3 inflation rates.
+
+8. An economy produces only apples and bread. Year 1 (base): 100 apples at \$1, 50 bread at \$2. Year 2: 110 apples at \$1.20, 60 bread at \$2.50. Compute year-2 nominal GDP, real GDP, and the deflator.
+
+### Longer applied problem
+
+9. **Scenario** A small country produces only laptops and haircuts. Year 1 (base): 200 laptops at \$1,000; 1,000 haircuts at \$20. Year 2: 220 laptops at \$1,100; 1,050 haircuts at \$22.
+   (a) Compute year-1 and year-2 nominal GDP.
+   (b) Compute year-2 real GDP (base = year 1).
+   (c) Compute the year-2 GDP deflator.
+   (d) Compute year-2 inflation.
+   (e) Did real output grow? By what percent?
+
+---
+
+## Ch. 6 — National Accounts
+
+**Cram-sheet refresh:** $Y = C + I + G + NX$. Private saving $S_p = Y - C - T$; public saving $S_g = T - G$; total saving $S = Y - C - G$. In an open economy $S = I + NX$.
+
+### Multiple choice (5)
+
+1. The expenditure approach to GDP is:
+   - (a) $Y = C + I + G + NX$
+   - (b) Wages + rents + interest + profits
+   - (c) Sum of value added
+   - (d) $Y = M \cdot V$
+
+2. Public saving is:
+   - (a) $T - G$
+   - (b) $G - T$
+   - (c) $Y - C$
+   - (d) $S_p + S_g$
+
+3. In a closed economy at equilibrium:
+   - (a) $S = I$
+   - (b) $S = NX$
+   - (c) $S = G$
+   - (d) $S = C$
+
+4. If $S = 1{,}000$ and $I = 1{,}300$ in an open economy, then $NX$ equals:
+   - (a) +300
+   - (b) –300
+   - (c) 0
+   - (d) +2,300
+
+5. Government purchases $G$ in national accounts EXCLUDES:
+   - (a) Salaries of soldiers
+   - (b) Roads built by the federal government
+   - (c) Social Security transfer payments
+   - (d) State school construction
+
+### Short answer / numeric (3)
+
+6. Given $C = 12{,}000$, $I = 3{,}000$, $G = 4{,}000$, $X = 2{,}000$, $M = 2{,}500$. Compute GDP.
+
+7. In a closed economy, $Y = 18{,}000$, $C = 12{,}000$, $T = 3{,}000$, $G = 4{,}000$. Compute private, public, and total saving.
+
+8. Open economy: $Y = 20{,}000$, $C = 13{,}000$, $G = 3{,}500$, $I = 3{,}000$. Compute $NX$ using the saving identity.
+
+### Longer applied problem
+
+9. **Scenario** Country Z reports: $Y = 25{,}000$; $C = 16{,}000$; $I = 4{,}000$; $G = 5{,}000$; $X = 3{,}000$; $M = 3{,}000$; $T = 4{,}500$.
+   (a) Verify GDP from the expenditure side.
+   (b) Compute $S_p$, $S_g$, total $S$.
+   (c) Confirm $S = I + NX$.
+   (d) Is the government running a surplus or deficit?
+   (e) Is the country a net lender or net borrower internationally?
+
+---
+
+## Ch. 7 — Spending Shares & Investment
+
+**Cram-sheet refresh:** $S_p + S_g = I + NX$ in an open economy. A government deficit ($S_g < 0$) tends to crowd out $I$ or $NX$ unless private saving rises one-for-one (Ricardian equivalence).
+
+### Multiple choice (5)
+
+1. An increase in the government deficit, with private saving constant and $NX$ fixed, must:
+   - (a) Raise $I$
+   - (b) Lower $I$
+   - (c) Leave $I$ unchanged
+   - (d) Raise $C$
+
+2. In the loanable-funds market, a government deficit shifts:
+   - (a) Demand for funds right
+   - (b) Supply of funds right
+   - (c) Demand for funds left
+   - (d) Neither curve
+
+3. Ricardian equivalence states that:
+   - (a) Government deficits raise private consumption
+   - (b) Households offset government deficits by raising private saving
+   - (c) Public and private saving are unrelated
+   - (d) Inflation equals money growth
+
+4. Gross investment minus depreciation equals:
+   - (a) Net exports
+   - (b) Net investment
+   - (c) Public saving
+   - (d) Private saving
+
+5. In US national accounts, residential construction is counted in:
+   - (a) C
+   - (b) I
+   - (c) G
+   - (d) NX
+
+### Short answer / numeric (3)
+
+6. $S_p = 2{,}500$, $S_g = -800$, $NX = -300$. Compute $I$ from the saving identity.
+
+7. Given $Y = 22{,}000$, $C = 14{,}500$, $G = 4{,}200$, $T = 4{,}000$. Compute $S_p$, $S_g$, and $S$.
+
+8. Closed economy: $S = 3{,}000$, demand for loanable funds is $I = 4{,}500 - 200r$ (where $r$ in %). Find the equilibrium real interest rate.
+
+### Longer applied problem
+
+9. **Scenario** Country W has $S_p = 3{,}000$ initially, $S_g = -500$, $I = 2{,}300$, $NX = 200$.
+   (a) Verify the saving identity.
+   (b) The government cuts taxes by \$500, raising the deficit to \$1{,}000. Households are non-Ricardian and raise $S_p$ by \$100.
+   (c) If $NX$ falls by \$100 and the rest must come from $I$, what is the new $I$?
+   (d) Show in words how this is "crowding out" via the loanable-funds market.
+   (e) Under full Ricardian equivalence, what would $S_p$ have done, and what would $I$ have been?
+
+---
+
+## Ch. 8 — Labor Market
+
+**Cram-sheet refresh:** $LF = E + U$, $u = U/LF$, $LFPR = LF/\text{adult pop}$. Frictional + structural unemployment ≈ natural rate (NAIRU). Cyclical unemployment is the deviation from NAIRU.
+
+### Multiple choice (5)
+
+1. A worker laid off because demand for their industry has structurally declined is classified as:
+   - (a) Frictional
+   - (b) Structural
+   - (c) Cyclical
+   - (d) Out of labor force
+
+2. The labor force participation rate is:
+   - (a) $E / \text{adult population}$
+   - (b) $LF / \text{adult population}$
+   - (c) $U / LF$
+   - (d) $E / LF$
+
+3. A discouraged worker who stops searching:
+   - (a) Raises measured unemployment
+   - (b) Lowers measured unemployment
+   - (c) Has no effect
+   - (d) Raises labor force participation
+
+4. NAIRU is roughly:
+   - (a) Zero
+   - (b) Frictional + structural unemployment
+   - (c) Cyclical unemployment
+   - (d) Always above 10%
+
+5. The unemployment rate falls when:
+   - (a) Workers exit the labor force
+   - (b) Workers move from U to E
+   - (c) Both (a) and (b)
+   - (d) Population grows
+
+### Short answer / numeric (3)
+
+6. Adult population = 250 million; $E = 152$ million; $U = 8$ million. Compute $u$, $LFPR$, and $EPOP$ (employment-to-population).
+
+7. Last month $u = 4.5\%$. This month 1 million unemployed left the labor force; everyone else stayed put; $LF$ fell to 159 million from 160 million. Compute the new $u$.
+
+8. If $E = 144$ million and $u = 4\%$, find the size of the labor force and the number unemployed.
+
+### Longer applied problem
+
+9. **Scenario** Adult population = 260 million. Initially: $E = 158$ million, $U = 6.5$ million.
+   (a) Compute $u$, $LFPR$, $EPOP$.
+   (b) A recession hits: 3 million workers move from $E$ to $U$. Recompute $u$.
+   (c) After 6 months, 1.5 million of those unemployed give up searching and exit $LF$. Recompute $u$ and $LFPR$.
+   (d) Did $u$ rise or fall in step (c), and is this a good signal about the labor market? Explain.
+   (e) Identify which type of unemployment dominates in steps (b) and (c).
+
+---
+
+## Ch. 9 — Production & Growth
+
+**Cram-sheet refresh:** Cobb-Douglas $Y = A K^{\alpha} L^{1-\alpha}$ exhibits CRS in $K, L$ jointly and DMR in each separately. TFP $A$ captures technology. Solow steady state has $K/L$ stable; convergence: poor countries grow faster, conditional on institutions.
+
+### Multiple choice (5)
+
+1. In $Y = A K^{0.5} L^{0.5}$, doubling only $K$ raises $Y$ by a factor of:
+   - (a) 2
+   - (b) $\sqrt{2}$
+   - (c) 4
+   - (d) 1.25
+
+2. Diminishing marginal returns to capital implies:
+   - (a) Each extra unit of $K$ adds less output than the prior unit
+   - (b) $Y$ falls when $K$ rises
+   - (c) Labor productivity is constant
+   - (d) Returns to scale are decreasing
+
+3. Total factor productivity $A$ best captures:
+   - (a) The capital stock
+   - (b) The labor force
+   - (c) Technology and efficiency
+   - (d) Government spending
+
+4. The Solow model predicts conditional convergence because:
+   - (a) Poor countries always have higher saving rates
+   - (b) Poor countries have higher marginal product of capital
+   - (c) Rich countries have lower TFP
+   - (d) Trade equalizes wages
+
+5. Capital deepening means:
+   - (a) Rising $K/L$ per worker
+   - (b) Rising population
+   - (c) Falling savings rate
+   - (d) Rising depreciation
+
+### Short answer / numeric (3)
+
+6. $Y = K^{0.5} L^{0.5}$, $K = 100$, $L = 64$. Compute $Y$.
+
+7. With the same production function, both $K$ and $L$ double. Compute the new $Y$ and verify CRS.
+
+8. In a Solow model with $s = 0.20$, $\delta = 0.05$, $g_L = 0$, $A = 1$, $\alpha = 0.5$. Steady-state per-worker capital satisfies $s k^{\alpha} = \delta k$. Solve for $k^*$ and $y^* = (k^*)^{0.5}$.
+
+### Longer applied problem
+
+9. **Scenario** Two countries share $Y = K^{0.5}L^{0.5}$. Country A: $K = 400$, $L = 100$. Country B: $K = 100$, $L = 100$.
+   (a) Compute $Y$ and $Y/L$ for each.
+   (b) Country B doubles its capital to 200 (catching up). Compute the new $Y_B$ and $Y_B/L$.
+   (c) Country A doubles its capital to 800. Compute the new $Y_A$ and $Y_A/L$.
+   (d) Which country gained more output per worker from doubling $K$, and what does this illustrate about convergence?
+   (e) Suppose Country B raises TFP from 1 to 1.5 instead of doubling $K$. Recompute $Y_B/L$ at the original $K = 100$, $L = 100$. Compare.
+
+---
+
+## Ch. 11 — Money & Inflation
+
+**Cram-sheet refresh:** $MV = PY$. With $V$ and $Y$ stable in the long run, $\%\Delta M \approx \pi$. Fisher: $1+i = (1+r)(1+\pi^e)$, approx $i \approx r + \pi^e$. Hyperinflation usually arises from monetizing fiscal deficits.
+
+### Multiple choice (5)
+
+1. The quantity theory predicts that, in the long run, money growth changes:
+   - (a) Real GDP
+   - (b) The price level
+   - (c) Real interest rates
+   - (d) Productivity
+
+2. If $i = 6\%$ and $\pi^e = 4\%$, the approximate real rate is:
+   - (a) 10%
+   - (b) 2%
+   - (c) –2%
+   - (d) 24%
+
+3. Unexpectedly high inflation tends to redistribute wealth from:
+   - (a) Debtors to creditors
+   - (b) Creditors to debtors
+   - (c) Government to private sector
+   - (d) Workers to firms
+
+4. Hyperinflation is most often caused by:
+   - (a) A productive boom
+   - (b) Monetization of large fiscal deficits
+   - (c) Trade surpluses
+   - (d) Capital outflows
+
+5. "Shoe-leather" costs of inflation refer to:
+   - (a) The cost of changing menus
+   - (b) The cost of holding less cash and visiting the bank more often
+   - (c) Tax distortions
+   - (d) Income redistribution
+
+### Short answer / numeric (3)
+
+6. $M = \$2$ trillion, $V = 6$, real GDP $Y = \$20$ trillion. Compute the price level $P$ implied by $MV = PY$.
+
+7. Money grows 9% per year, real GDP grows 3%, and velocity is constant. Predict the inflation rate.
+
+8. Use the EXACT Fisher equation: $i = 8\%$, $\pi^e = 5\%$. Compute $r$ to two decimals.
+
+### Longer applied problem
+
+9. **Scenario** Country Q has $M = \$500$ B, $V = 4$, real GDP = \$1{,}000 B. Last year inflation was 4%; the central bank wants 2% inflation next year, with real GDP forecast to grow 3%.
+   (a) Compute the current price level.
+   (b) Using growth-rate form, what money-growth rate is consistent with 2% inflation given 3% real growth (V constant)?
+   (c) If instead $M$ grows 12% with $V$ and real growth as in (b), compute predicted inflation.
+   (d) Suppose nominal $i$ is 7% and expected inflation jumps from 2% to 5%. What happens to the realized real rate, and who gains on a fixed-rate loan?
+   (e) Briefly explain why credible central banks can sometimes lower inflation expectations without a recession.
+
+---
+
+## Ch. 12–13 — Economic Fluctuations & AD/AS
+
+**Cram-sheet refresh:** AD slopes down (wealth, interest-rate, exchange-rate effects). SRAS slopes up (sticky wages/prices); LRAS is vertical at $Y^*$. Demand shock: $P$ and $Y$ co-move. Supply shock: $P$ and $Y$ move opposite.
+
+### Multiple choice (5)
+
+1. The AD curve slopes down because of all EXCEPT:
+   - (a) Wealth effect
+   - (b) Interest-rate effect
+   - (c) Exchange-rate effect
+   - (d) Diminishing marginal product of labor
+
+2. LRAS is vertical because:
+   - (a) Prices are perfectly flexible in the long run, so output equals potential
+   - (b) Wages are sticky in the long run
+   - (c) Money is non-neutral
+   - (d) The Fed pegs $Y$
+
+3. A negative AD shock (e.g., consumer pessimism) in the short run produces:
+   - (a) $P\downarrow, Y\downarrow$
+   - (b) $P\uparrow, Y\downarrow$
+   - (c) $P\downarrow, Y\uparrow$
+   - (d) $P\uparrow, Y\uparrow$
+
+4. Long-run self-correction after a negative AD shock works through:
+   - (a) AD shifting back to the right automatically
+   - (b) SRAS shifting right as wages and prices fall
+   - (c) LRAS shifting left
+   - (d) Government spending rising mechanically
+
+5. A positive supply shock (e.g., productivity gain) shifts:
+   - (a) AD right
+   - (b) SRAS right and LRAS right
+   - (c) AD left
+   - (d) Only LRAS left
+
+### Short answer / numeric (3)
+
+6. Currently $Y = 19{,}500$, $Y^* = 20{,}000$. Compute the output gap (sign and percent).
+
+7. Okun's rule of thumb: $\Delta u \approx -0.5 \cdot (\text{output gap}\%)$. With a –4% gap, predict the cyclical-unemployment increase relative to NAIRU.
+
+8. A 5% drop in oil prices is estimated to shift SRAS right enough to lower the price level by 1.5% in the short run. If AD is unchanged, predict the qualitative direction of $Y$ in the short run.
+
+### Longer applied problem
+
+9. **Scenario** A sudden surge of consumer pessimism cuts $C$ by \$300 B. The economy was at $Y^* = \$20$ T with $u = 4.5\%$ and $\pi = 2\%$.
+   (a) Which curve shifts and in which direction?
+   (b) Predict short-run effects on $P$, $Y$, $u$.
+   (c) If the central bank holds policy fixed, describe the long-run self-correction mechanism.
+   (d) Sketch (verbally) the short-run and long-run equilibria on AD/SRAS/LRAS.
+   (e) Identify two real-world frictions that slow long-run self-correction.
+
+---
+
+## Ch. 14 — Application of Fluctuations
+
+**Cram-sheet refresh:** Stagflation = supply-shock signature: $P\uparrow$, $Y\downarrow$, $u\uparrow$. Demand-shock recoveries are easier (policy-friendly direction). Keynesians emphasize demand-side stimulus; classicals emphasize price flexibility and supply.
+
+### Multiple choice (5)
+
+1. Stagflation is characterized by:
+   - (a) Falling P and rising Y
+   - (b) Rising P and falling Y
+   - (c) Stable P and stable Y
+   - (d) Rising P and rising Y
+
+2. Faced with stagflation from an oil shock, an inflation-targeting central bank typically faces a tension because:
+   - (a) Both inflation and unemployment call for the same direction of policy
+   - (b) Easing fights $u$ but worsens $\pi$; tightening fights $\pi$ but worsens $u$
+   - (c) Fiscal policy alone resolves it
+   - (d) The Phillips curve has shifted left
+
+3. Keynesians stress:
+   - (a) Sticky prices and demand management
+   - (b) Long-run money neutrality
+   - (c) Rational expectations only
+   - (d) Real business cycle shocks
+
+4. After a negative AD shock with no policy response, prices and wages fall, eventually shifting:
+   - (a) AD right
+   - (b) SRAS right
+   - (c) LRAS right
+   - (d) Both AD and LRAS
+
+5. Real business cycle theory attributes most fluctuations to:
+   - (a) AD shocks
+   - (b) Productivity (supply) shocks
+   - (c) Money supply shocks alone
+   - (d) Government deficits
+
+### Short answer / numeric (3)
+
+6. An oil shock raises the price level by 3% and lowers $Y$ by 2% relative to potential. Using Okun (coefficient 0.5), predict $\Delta u$ above NAIRU.
+
+7. If $\pi$ rises from 2% to 5% while $Y$ falls 1% in one quarter, identify which type of shock (supply or demand) is consistent.
+
+8. A Keynesian model with MPC = 0.75 and no income tax. Compute the spending multiplier and the increase in $Y$ from a \$200 B rise in $G$.
+
+### Longer applied problem
+
+9. **Scenario** A geopolitical event spikes global oil prices 40% in one month.
+   (a) Identify the curve shift and direction in AD/AS.
+   (b) Predict short-run direction of $P$, $Y$, $u$.
+   (c) The Fed targets 2% inflation. Should it ease or tighten? Why is the choice difficult?
+   (d) If oil prices stay elevated for two years, what does the long-run AD/AS prediction become?
+   (e) Briefly contrast Keynesian and classical recommendations.
+
+---
+
+## Ch. 15 — Fiscal Policy
+
+**Cram-sheet refresh:** Spending multiplier (closed, no tax) $= \frac{1}{1-MPC}$. Tax multiplier $= \frac{-MPC}{1-MPC}$. Balanced-budget multiplier $= 1$. Open-economy multiplier $= \frac{1}{1-MPC(1-t)+m}$. Crowding out: $G\uparrow \Rightarrow r\uparrow \Rightarrow I\downarrow$.
+
+### Multiple choice (5)
+
+1. With MPC = 0.75, the closed-economy spending multiplier is:
+   - (a) 1.33
+   - (b) 3.0
+   - (c) 4.0
+   - (d) 5.0
+
+2. The tax multiplier is always:
+   - (a) Larger in absolute value than the spending multiplier
+   - (b) Smaller in absolute value than the spending multiplier
+   - (c) Exactly equal to the spending multiplier
+   - (d) Equal to one
+
+3. The balanced-budget multiplier (equal $\Delta G$ and $\Delta T$) equals:
+   - (a) 0
+   - (b) 1
+   - (c) MPC
+   - (d) $1/(1-MPC)$
+
+4. Automatic stabilizers include all EXCEPT:
+   - (a) Progressive income tax
+   - (b) Unemployment insurance
+   - (c) Discretionary stimulus passed during a recession
+   - (d) Means-tested transfers
+
+5. Crowding out reduces the realized fiscal multiplier through:
+   - (a) Lower $r$ raising $I$
+   - (b) Higher $r$ lowering $I$
+   - (c) Lower $G$ later
+   - (d) Currency depreciation
+
+### Short answer / numeric (3)
+
+6. MPC = 0.8, no income tax. Compute the spending and tax multipliers.
+
+7. Same MPC. The government raises $G$ by \$100 B and $T$ by \$100 B simultaneously. Compute $\Delta Y$.
+
+8. Open economy with MPC = 0.8, $t = 0.25$, $m = 0.15$. Compute the effective multiplier.
+
+### Longer applied problem
+
+9. **Scenario** Closed economy. MPC = 0.75. $Y = 18{,}500$; $Y^* = 20{,}000$.
+   (a) Compute the output gap.
+   (b) Compute the spending multiplier.
+   (c) What $\Delta G$ closes the gap with no crowding out?
+   (d) Compute the tax cut $\Delta T$ that would close the gap. Why is it larger in magnitude than $\Delta G$ in (c)?
+   (e) If 25% of the stimulus is offset by crowding out, recompute the required $\Delta G$.
+
+---
+
+## Ch. 16 — Monetary Policy
+
+**Cram-sheet refresh:** Fed tools: OMO, IOR, discount rate, reserve requirement. Expansionary OMO → reserves up → fed funds rate down → $r$ down → $I, C, NX$ up → AD right. Taylor rule: $i = r^* + \pi + 0.5(\pi-\pi^*) + 0.5(y-y^*)$. ZLB → QE, forward guidance.
+
+### Multiple choice (5)
+
+1. The Fed's most-used tool to adjust the federal funds rate is:
+   - (a) Reserve requirement changes
+   - (b) Open-market operations and IOR
+   - (c) Treasury auctions
+   - (d) Tariffs
+
+2. An open-market sale of bonds:
+   - (a) Lowers reserves and raises the FFR
+   - (b) Raises reserves and lowers the FFR
+   - (c) Has no effect on reserves
+   - (d) Lowers the discount rate directly
+
+3. With reserve ratio 10% and no excess reserves, the simple money multiplier equals:
+   - (a) 1
+   - (b) 5
+   - (c) 10
+   - (d) 100
+
+4. At the ZLB, the most likely Fed tool is:
+   - (a) Higher reserve requirements
+   - (b) Quantitative easing and forward guidance
+   - (c) Selling long-term Treasuries
+   - (d) Raising IOR
+
+5. The Taylor rule prescribes raising $i$ when:
+   - (a) Inflation is below target
+   - (b) Output is below potential
+   - (c) Inflation is above target or output above potential
+   - (d) The exchange rate is stable
+
+### Short answer / numeric (3)
+
+6. Reserve ratio = 8%. Fed buys \$25 B of Treasuries. Compute the simple money multiplier and the maximum increase in the money supply.
+
+7. Use the Taylor rule with $r^* = 2\%$, $\pi^* = 2\%$. Currently $\pi = 4\%$, output is 1% above potential. Compute the prescribed $i$.
+
+8. The fed funds rate is 4.5%, expected inflation is 2.5%. Compute the implied real fed funds rate using the Fisher approximation.
+
+### Longer applied problem
+
+9. **Scenario** Inflation is 5% (target 2%); output gap is +1.5%. The neutral real rate $r^* = 1\%$.
+   (a) Apply the Taylor rule to find the prescribed nominal rate.
+   (b) Currently the FFR is 3%. Should the Fed tighten or ease, and by how much?
+   (c) Trace the transmission from a 50 bp hike to AD in at least four steps.
+   (d) If the economy is at the ZLB with $\pi = 0\%$ and a –3% gap, the Taylor rule prescribes a negative $i$. What two unconventional tools does the Fed use instead?
+   (e) Identify one lag that complicates real-time monetary policy.
+
+---
+
+## Ch. 17 — Financial Markets
+
+**Cram-sheet refresh:** Bond price and yield move inversely. Present value $PV = \sum CF_t/(1+r)^t$. Loanable funds: $S$ rises in $r$, $D$ falls in $r$; deficits shift $D$ right and raise $r$. Term structure: long yields ≈ average of expected future short rates + term premium.
+
+### Multiple choice (5)
+
+1. Bond prices and yields are:
+   - (a) Positively related
+   - (b) Inversely related
+   - (c) Unrelated
+   - (d) Equal
+
+2. A normal (upward-sloping) yield curve typically signals:
+   - (a) Recession ahead
+   - (b) Higher expected future short rates and/or a positive term premium
+   - (c) Negative interest rates
+   - (d) Currency depreciation
+
+3. The risk premium equals:
+   - (a) Required return on a risky asset minus the risk-free rate
+   - (b) Inflation
+   - (c) The federal funds rate
+   - (d) Bond coupon
+
+4. In the loanable-funds market, a rise in expected future profits shifts:
+   - (a) Supply right
+   - (b) Demand right
+   - (c) Both right
+   - (d) Demand left
+
+5. A 1-year zero-coupon bond paying \$100 priced at \$95.24 has a yield closest to:
+   - (a) 2%
+   - (b) 3%
+   - (c) 5%
+   - (d) 10%
+
+### Short answer / numeric (3)
+
+6. Compute the present value of \$1{,}050 received in one year at $r = 5\%$.
+
+7. A \$1{,}000 face-value bond pays a 5% annual coupon for 2 years. At a yield of 6%, compute the bond's price.
+
+8. The 1-year rate today is 3%; expected 1-year rate next year is 5%. Under the expectations hypothesis (no term premium), what is the 2-year yield today?
+
+### Longer applied problem
+
+9. **Scenario** Loanable funds: supply $S = 200 + 50r$ (with $r$ in %), demand $D = 600 - 50r$.
+   (a) Find equilibrium $r$ and quantity.
+   (b) The government runs a new \$100 (units) deficit, shifting $D$ right by 100. Find the new equilibrium.
+   (c) Compute the change in private investment, treating private $I$ as the residual demand.
+   (d) Define crowding out and quantify it here.
+   (e) Briefly explain how the result would differ at the ZLB with passive monetary accommodation.
+
+---
+
+## Ch. 18 — International Trade
+
+**Cram-sheet refresh:** Comparative advantage = lowest opportunity cost. Both nations gain by specializing in their CA good and trading at any terms-of-trade between the two opportunity-cost ratios. Tariff: domestic $P\uparrow$, $Q^D\downarrow$, $Q^S\uparrow$, imports$\downarrow$, two-triangle DWL, government collects rectangle.
+
+### Multiple choice (5)
+
+1. Country A has a comparative advantage in good X if:
+   - (a) A has lower absolute cost in X
+   - (b) A has lower opportunity cost in X
+   - (c) A has higher demand for X
+   - (d) A has more workers
+
+2. Mutual gains from trade require terms of trade:
+   - (a) Equal to the world price exactly
+   - (b) Strictly between the two countries' opportunity-cost ratios
+   - (c) Equal to one country's opportunity cost
+   - (d) Outside both opportunity-cost ratios
+
+3. A small open economy importing good Y at world price $P_w$ imposes a tariff $t$. Domestic price becomes:
+   - (a) $P_w$
+   - (b) $P_w + t$
+   - (c) $P_w - t$
+   - (d) Zero
+
+4. Compared to a tariff, a quota with the same import reduction differs because:
+   - (a) The quota creates DWL but the tariff does not
+   - (b) The tariff generates government revenue while the quota generates rents to license holders
+   - (c) Both raise government revenue equally
+   - (d) The quota lowers the domestic price more
+
+5. The infant-industry argument claims protection is justified because:
+   - (a) New industries permanently outcompete imports
+   - (b) New industries need temporary protection until they reach efficient scale
+   - (c) Tariffs raise consumer surplus
+   - (d) Trade always lowers welfare
+
+### Short answer / numeric (3)
+
+6. Per worker-hour: Country A produces 8 wheat OR 4 cloth. Country B produces 6 wheat OR 6 cloth. Compute the opportunity cost of wheat in each country and identify each country's CA.
+
+7. Using the table in Q6, state a terms-of-trade range that allows mutually beneficial trade (in cloth-per-wheat).
+
+8. Small open economy: $P_w = 10$, domestic demand $Q^D = 100 - 2P$, domestic supply $Q^S = 2P$. A \$2 specific tariff is imposed. Compute imports under free trade and under the tariff, and tariff revenue.
+
+### Longer applied problem
+
+9. **Scenario** Small open economy importing steel. World price = \$50 per ton. Domestic demand $Q^D = 200 - 2P$; domestic supply $Q^S = 4P$. A \$10 per-ton tariff is imposed.
+   (a) Compute free-trade $Q^D$, $Q^S$, and imports.
+   (b) Compute post-tariff $Q^D$, $Q^S$, and imports.
+   (c) Compute tariff revenue.
+   (d) Compute the deadweight-loss triangles (sum).
+   (e) Briefly identify who gains and who loses domestically.
+
+---
+
+## Ch. 19 — International Finance
+
+**Cram-sheet refresh:** Nominal exchange rate $E$ = foreign currency per dollar (or vice versa — define). $\$$ appreciates → $X\downarrow$, $M\uparrow$, $NX\downarrow$. PPP: $E = P^*/P$ in long run. IRP: capital flows toward higher-$r$ country and appreciates that currency. BoP: CA + KA $\approx 0$. $S - I = NX$.
+
+### Multiple choice (5)
+
+1. If the dollar appreciates against the euro, US net exports tend to:
+   - (a) Rise
+   - (b) Fall
+   - (c) Stay the same
+   - (d) Rise then fall
+
+2. PPP implies in the long run:
+   - (a) Exchange rates are random
+   - (b) Identical baskets cost the same after currency conversion
+   - (c) Nominal interest rates equalize
+   - (d) Tariffs vanish
+
+3. With perfect capital mobility, a rise in domestic real interest rates relative to abroad causes:
+   - (a) Capital outflow and depreciation
+   - (b) Capital inflow and appreciation
+   - (c) No change in $E$
+   - (d) An immediate trade surplus
+
+4. The balance of payments identity (CA + KA $\approx 0$) implies that:
+   - (a) Net capital outflows roughly equal the trade surplus
+   - (b) Net capital inflows lower exports
+   - (c) Trade is always balanced
+   - (d) Exchange rates are fixed
+
+5. Under a fixed exchange rate, a country experiencing capital outflows must:
+   - (a) Sell foreign reserves to defend the peg
+   - (b) Buy foreign reserves
+   - (c) Devalue immediately
+   - (d) Raise tariffs
+
+### Short answer / numeric (3)
+
+6. US: $S = 3{,}500$, $I = 4{,}000$. Compute $NX$. Is the country a net lender or borrower?
+
+7. Today $E = 1.10$ EUR per USD. US prices rise 4% over the year while Eurozone prices rise 1%. Use PPP to predict next year's $E$.
+
+8. US 1-year rate = 5%, German 1-year rate = 2%. Under uncovered interest parity (no risk premium), what is the expected percent change in the dollar against the euro over the year?
+
+### Longer applied problem
+
+9. **Scenario** US: $S = 2{,}800$, $I = 3{,}300$ (billions). The Fed unexpectedly raises rates 100 bp above foreign rates.
+   (a) Compute initial $NX$ and the sign of the capital account.
+   (b) Predict the direction of capital flows after the rate hike.
+   (c) Predict the direction of the dollar's exchange rate.
+   (d) Predict effects on $X$, $M$, $NX$.
+   (e) If long-run PPP holds and US $\pi = 4\%$ vs foreign $\pi = 1\%$, predict the long-run direction of the dollar.
+
+---
+
+# Solutions
+
+Full work shown for numeric items. MC answers given as letters.
+
+## Ch. 3
+
+**MC.** 1-b · 2-a · 3-b · 4-b · 5-a
+
+**6.** $120 - 2P = 4P \Rightarrow 6P = 120 \Rightarrow P = 20$, $Q = 80$.
+
+**7.** Shortage of $80 - 50 = 30$ units (ceiling-like situation: $Q^D > Q^S$).
+
+**8.** $\%\Delta Q = (60-100)/((60+100)/2) = -40/80 = -0.5$. $\%\Delta P = (12-8)/((12+8)/2) = 4/10 = 0.4$. $\varepsilon = -0.5/0.4 = -1.25$ (elastic).
+
+**9.** (a) Demand for ride-share rises (driving relatively cheaper after gas spike substitution and entrant marketing); supply rises with new entrant. Both shift right. (b) $Q$ rises unambiguously; $P$ ambiguous. (c) Elastic demand: $P\downarrow \Rightarrow$ revenue rises. (d) Two right shifts of similar magnitude leave net price effect undetermined.
+
+## Ch. 4
+
+**MC.** 1-b · 2-c · 3-b · 4-b · 5-b
+
+**6.** Pre-tax: $100-P = P \Rightarrow P=50, Q=50$. Tax wedge \$10 with symmetric (equal-elasticity) curves splits evenly: $P_b = 55$, $P_s = 45$, $Q = 45$.
+
+**7.** Revenue $= 10 \cdot 45 = 450$. DWL $= \frac{1}{2}(10)(50-45) = 25$.
+
+**8.** At $P=30$: $Q^D = 200-60 = 140$; $Q^S = 60$. Shortage $= 80$.
+
+**9.** (a) $200-10P = 30P \Rightarrow P = 5$, $Q = 150$. (b) Tax \$1 wedge: $P_b = 5.75$, $P_s = 4.75$, $Q = 200-10(5.75) = 142.5$. (c) Revenue $= 1 \cdot 142.5 = 142.5$. (d) DWL $= \frac{1}{2}(1)(150-142.5) = 3.75$. (e) Supply is more elastic than demand (slope-3 supply vs slope-10 demand at this point implies supply more responsive); buyers bear more burden. Buyer price rose \$0.75 vs seller \$0.25 fall, confirming buyers bear 75% of the tax.
+
+## Ch. 5
+
+**MC.** 1-b · 2-b · 3-b · 4-b · 5-b
+
+**6.** $125 = 100 \cdot 22/Real \Rightarrow$ deflator $= 22/20 \cdot 100 = 110$.
+
+**7.** $\pi_2 = (104-100)/100 = 4\%$; $\pi_3 = (109-104)/104 = 4.81\%$.
+
+**8.** Year-2 nominal: $110 \cdot 1.20 + 60 \cdot 2.50 = 132 + 150 = 282$. Year-2 real (year-1 prices): $110 \cdot 1 + 60 \cdot 2 = 110 + 120 = 230$. Deflator $= 282/230 \cdot 100 = 122.6$.
+
+**9.** (a) Nominal Y1 $= 200{,}000 + 20{,}000 = 220{,}000$; Y2 $= 220 \cdot 1100 + 1050 \cdot 22 = 242{,}000 + 23{,}100 = 265{,}100$. (b) Real Y2 (Y1 prices) $= 220 \cdot 1000 + 1050 \cdot 20 = 220{,}000 + 21{,}000 = 241{,}000$. (c) Deflator $= 265{,}100/241{,}000 \cdot 100 = 110.0$. (d) Inflation $= 10.0\%$. (e) Real growth $= (241{,}000 - 220{,}000)/220{,}000 = 9.55\%$.
+
+## Ch. 6
+
+**MC.** 1-a · 2-a · 3-a · 4-b · 5-c
+
+**6.** $Y = 12000 + 3000 + 4000 + (2000-2500) = 18{,}500$.
+
+**7.** $S_p = 18000 - 12000 - 3000 = 3{,}000$. $S_g = 3000 - 4000 = -1{,}000$. $S = 3000-1000 = 2{,}000$.
+
+**8.** $Y = C + I + G + NX \Rightarrow 20000 = 13000 + 3000 + 3500 + NX \Rightarrow NX = 500$.
+
+**9.** (a) $C+I+G+NX = 16000+4000+5000+0 = 25{,}000$ ✓. (b) $S_p = 25000-16000-4500 = 4{,}500$; $S_g = 4500-5000 = -500$; $S = 4{,}000$. (c) $I + NX = 4000 + 0 = 4{,}000 = S$ ✓. (d) Deficit (\$500). (e) $NX = 0$: balanced trade — neither net lender nor borrower in flow terms.
+
+## Ch. 7
+
+**MC.** 1-b · 2-a · 3-b · 4-b · 5-b
+
+**6.** $S = S_p + S_g = 2500 - 800 = 1{,}700 = I + NX \Rightarrow I = 1700 - (-300) = 2{,}000$.
+
+**7.** $S_p = 22000 - 14500 - 4000 = 3{,}500$. $S_g = 4000 - 4200 = -200$. $S = 3{,}300$.
+
+**8.** $3000 = 4500 - 200r \Rightarrow 200r = 1500 \Rightarrow r = 7.5\%$.
+
+**9.** (a) $S = 3000 - 500 = 2500 = I + NX = 2300 + 200$ ✓. (b) New $S_g = -1000$; $S_p = 3100$; new $S = 2100$. (c) New $S = I + NX$: $2100 = I + (200-100) \Rightarrow I = 2{,}000$ (down \$300). (d) Higher demand for funds raises $r$, and at the higher $r$ private $I$ falls — that's crowding out via loanable funds. (e) Full Ricardian: $S_p$ rises by the full \$500 deficit, leaving $S$ unchanged at 2500, $I$ unchanged at 2300, no crowding out.
+
+## Ch. 8
+
+**MC.** 1-b · 2-b · 3-b · 4-b · 5-c
+
+**6.** $LF = 160$M, $u = 8/160 = 5\%$. $LFPR = 160/250 = 64\%$. $EPOP = 152/250 = 60.8\%$.
+
+**7.** Old $E = 0.955 \cdot 160 = 152.8$M, $U = 7.2$M. The 1M who exited LF were unemployed: new $U = 6.2$M, new $LF = 159$M. New $u = 6.2/159 = 3.90\%$.
+
+**8.** $E = (1-u)\cdot LF \Rightarrow 144 = 0.96 \cdot LF \Rightarrow LF = 150$M. $U = 6$M.
+
+**9.** (a) $LF = 164.5$M; $u = 6.5/164.5 = 3.95\%$; $LFPR = 164.5/260 = 63.3\%$; $EPOP = 158/260 = 60.8\%$. (b) New $E = 155$, $U = 9.5$, $LF = 164.5$. $u = 9.5/164.5 = 5.78\%$. (c) 1.5M exit: $U = 8.0$, $LF = 163$. $u = 8.0/163 = 4.91\%$. $LFPR = 163/260 = 62.7\%$. (d) $u$ fell mechanically because workers left LF, not because employment improved — bad signal hidden in headline number. (e) (b) is cyclical (recession-driven job loss); (c) adds a discouraged-worker (frictional/structural blend) dimension.
+
+## Ch. 9
+
+**MC.** 1-b · 2-a · 3-c · 4-b · 5-a
+
+**6.** $Y = 100^{0.5} \cdot 64^{0.5} = 10 \cdot 8 = 80$.
+
+**7.** $K=200, L=128$: $Y = \sqrt{200 \cdot 128} = \sqrt{25600} = 160$. CRS: doubling both inputs doubled output (80→160) ✓.
+
+**8.** Steady state: $0.20 k^{0.5} = 0.05 k \Rightarrow k^{0.5} = 4 \Rightarrow k^* = 16$. $y^* = 4$.
+
+**9.** (a) A: $Y = \sqrt{40000} = 200$, $Y/L = 2$. B: $Y = \sqrt{10000} = 100$, $Y/L = 1$. (b) B: $Y = \sqrt{200 \cdot 100} = \sqrt{20000} = 141.4$, $Y/L = 1.414$. Gain = 0.414. (c) A: $Y = \sqrt{800 \cdot 100} = \sqrt{80000} = 282.8$, $Y/L = 2.828$. Gain = 0.828. (d) A's *level* gain is bigger because A starts higher, but B's *percent* gain is 41.4% vs A's 41.4% — same percent because Cobb-Douglas with $\alpha = 0.5$ doubles output by $\sqrt 2$ in either case. The convergence intuition needs DMR with constant L, but the per-worker $K/L$ ratio doubled in both — so in this knife-edge case there's no convergence. (e) TFP from 1 to 1.5: $Y_B = 1.5 \sqrt{10000} = 150$, $Y/L = 1.5$ — beats capital-doubling (1.414). TFP improvements are powerful.
+
+## Ch. 11
+
+**MC.** 1-b · 2-b · 3-b · 4-b · 5-b
+
+**6.** $P = MV/Y = 2 \cdot 6 / 20 = 0.6$ (index normalized).
+
+**7.** $\%\Delta P \approx \%\Delta M - \%\Delta Y = 9 - 3 = 6\%$.
+
+**8.** $1+r = 1.08/1.05 = 1.02857 \Rightarrow r = 2.86\%$ (vs approx 3%).
+
+**9.** (a) $P = MV/Y = 500 \cdot 4/1000 = 2.0$. (b) $\%\Delta M = \pi + g_Y = 2 + 3 = 5\%$. (c) $\pi = 12 - 3 = 9\%$. (d) Realized real rate $= 7 - 5 = 2\%$ vs expected $7-2 = 5\%$ — borrowers gain (paying lower real rate than expected), lenders lose. (e) Credible disinflation lowers $\pi^e$, shifting expectations curve down, so wages and prices adjust without a large output sacrifice.
+
+## Ch. 12-13
+
+**MC.** 1-d · 2-a · 3-a · 4-b · 5-b
+
+**6.** Gap $= (19500-20000)/20000 = -2.5\%$.
+
+**7.** $\Delta u \approx -0.5(-4) = +2$ pp above NAIRU.
+
+**8.** SRAS right with AD unchanged: $Y$ rises in the short run.
+
+**9.** (a) AD shifts left. (b) $P\downarrow$, $Y\downarrow$, $u\uparrow$. (c) Wages and input prices fall over time; SRAS shifts right; equilibrium $Y$ returns to $Y^*$ at lower $P$. (d) Initial: AD0 $\cap$ SRAS0 at $Y^*$. SR: AD1 $\cap$ SRAS0 at $Y_1 < Y^*$. LR: AD1 $\cap$ SRAS1 at $Y^*$ at lower $P$. (e) Sticky wages (downward nominal-wage rigidity); long-term contracts; menu costs.
+
+## Ch. 14
+
+**MC.** 1-b · 2-b · 3-a · 4-b · 5-b
+
+**6.** $\Delta u \approx -0.5(-2) = +1$ pp above NAIRU.
+
+**7.** $\pi\uparrow$, $Y\downarrow$ → adverse supply shock (SRAS left).
+
+**8.** Multiplier $= 1/(1-0.75) = 4$. $\Delta Y = 4 \cdot 200 = 800$.
+
+**9.** (a) SRAS shifts left. (b) $P\uparrow$, $Y\downarrow$, $u\uparrow$ — stagflation. (c) Easing cuts $u$ but worsens $\pi$; tightening cools $\pi$ but deepens $u$. The Fed must weight its dual mandate; typically, with anchored expectations, modest tightening to protect credibility. (d) If permanent, LRAS itself shifts left (lower potential), permanent $P\uparrow$ and $Y\downarrow$. (e) Keynesian: stimulate demand to soften unemployment. Classical: let prices fall to restore equilibrium; avoid validating shock with monetary easing.
+
+## Ch. 15
+
+**MC.** 1-c · 2-b · 3-b · 4-c · 5-b
+
+**6.** Spending $= 1/(1-0.8) = 5$. Tax $= -0.8/0.2 = -4$.
+
+**7.** Balanced-budget multiplier $= 1$, so $\Delta Y = 100$.
+
+**8.** $1/(1 - 0.8(1-0.25) + 0.15) = 1/(1 - 0.6 + 0.15) = 1/0.55 = 1.818$.
+
+**9.** (a) Gap $= -1{,}500$ (–7.5%). (b) Multiplier $= 1/0.25 = 4$. (c) $\Delta G = 1500/4 = 375$. (d) Tax multiplier $= -3$, so $\Delta T = -1500/3 = -500$ (i.e., a tax cut of \$500). Larger because tax cut first leaks into saving (\$1 cut → \$0.75 spent), so a bigger headline cut is needed. (e) 25% offset means effective multiplier $= 4 \cdot 0.75 = 3$. New $\Delta G = 1500/3 = 500$.
+
+## Ch. 16
+
+**MC.** 1-b · 2-a · 3-c · 4-b · 5-c
+
+**6.** Multiplier $= 1/0.08 = 12.5$. Max $\Delta M = 12.5 \cdot 25 = 312.5$ B.
+
+**7.** $i = 2 + 4 + 0.5(4-2) + 0.5(1) = 2+4+1+0.5 = 7.5\%$.
+
+**8.** Real FFR $\approx 4.5 - 2.5 = 2\%$.
+
+**9.** (a) $i = 1 + 5 + 0.5(5-2) + 0.5(1.5) = 1+5+1.5+0.75 = 8.25\%$. (b) Tighten by 525 bp (from 3% to 8.25%). (c) Sell bonds → reserves down → FFR up → market $r$ up → $I, C, NX$ down → AD left → $P, Y$ down. (d) QE (buying long-term bonds) and forward guidance (committing to keep rates low). (e) Recognition lag (data delay), implementation lag (FOMC schedule), or impact lag (~6–18 months for AD response).
+
+## Ch. 17
+
+**MC.** 1-b · 2-b · 3-a · 4-b · 5-c
+
+**6.** $PV = 1050/1.05 = 1{,}000$.
+
+**7.** $P = 50/1.06 + 1050/1.06^2 = 47.17 + 934.50 = 981.67$.
+
+**8.** $(1+y)^2 = (1.03)(1.05) = 1.0815 \Rightarrow y = \sqrt{1.0815} - 1 = 4.00\%$.
+
+**9.** (a) $200 + 50r = 600 - 50r \Rightarrow 100r = 400 \Rightarrow r = 4\%$, $Q = 400$. (b) New $D' = 700 - 50r$: $200+50r = 700-50r \Rightarrow r = 5\%$, $Q = 450$. (c) Total $D$ rose by 100 to 450, so private $I$ residual $= 450 - 100 = 350$, down from 400 — private $I$ fell by 50. (d) Crowding out = the \$50 of private $I$ displaced by the deficit. (e) At ZLB with passive money, the central bank prevents $r$ from rising; loanable funds increase via reserve creation; private $I$ is not crowded out.
+
+## Ch. 18
+
+**MC.** 1-b · 2-b · 3-b · 4-b · 5-b
+
+**6.** A: opp cost of 1 wheat = 4/8 = 0.5 cloth. B: 6/6 = 1 cloth. A has CA in wheat, B in cloth.
+
+**7.** Range: $0.5 < $ cloth-per-wheat $< 1$. Any terms strictly between 0.5 and 1 cloth per wheat make both better off.
+
+**8.** Free trade: $P=10$ → $Q^D = 80$, $Q^S = 20$, imports $= 60$. Tariff: $P=12$ → $Q^D = 76$, $Q^S = 24$, imports $= 52$. Revenue $= 2 \cdot 52 = 104$.
+
+**9.** (a) Free trade $P=50$: $Q^D = 100$, $Q^S = 200$. But $Q^S > Q^D$ at $P_w$ — the country exports. Reframe: $Q^D = 200 - 2(50) = 100$; $Q^S = 4(50) = 200$. So country EXPORTS 100. Tariff on imports doesn't bind. **Adjusting**: take $P_w = 30$ instead so country imports. $Q^D = 200-60=140$; $Q^S = 120$; imports = 20. (Recalibrated scenario.) After \$10 tariff: $P=40$, $Q^D=120$, $Q^S=160$ — now exporter; tariff still does not bind. **Use these original numbers as given** with $P_w = 50$ accepting that the country is an exporter, and a tariff on imports is irrelevant: tariff revenue = 0; no DWL from this tariff. (b–e) See solution-note: this scenario is best treated as an exporter equilibrium; a binding import tariff requires $P_w$ below the autarky price. Autarky: $200-2P = 4P \Rightarrow P=33.3$. So pick $P_w = 20 < 33.3$ to make the country an importer. With $P_w = 20$: $Q^D = 160$, $Q^S = 80$, imports = 80. With \$10 tariff (P=30): $Q^D = 140$, $Q^S = 120$, imports = 20. (c) Revenue $= 10 \cdot 20 = 200$. (d) DWL = two triangles: $\frac{1}{2}(10)(120-80) + \frac{1}{2}(10)(160-140) = 200 + 100 = 300$. (e) Domestic producers and government gain; consumers lose more than producers + government gain (DWL = 300).
+
+## Ch. 19
+
+**MC.** 1-b · 2-b · 3-b · 4-a · 5-a
+
+**6.** $NX = S - I = 3500 - 4000 = -500$. Net borrower.
+
+**7.** $\Delta E \approx \pi^* - \pi = 1\% - 4\% = -3\%$, so dollar depreciates 3%. New $E \approx 1.10 \cdot 0.97 = 1.067$ EUR/USD.
+
+**8.** UIP: $\Delta E^e = i - i^* = 5\% - 2\% = 3\%$ — dollar expected to depreciate 3% over the year (high-$i$ currency expected to fall to equalize returns).
+
+**9.** (a) $NX = 2800 - 3300 = -500$; capital account positive (\$500 inflow). (b) Capital flows in toward higher US rates. (c) Dollar appreciates in short run. (d) $X\downarrow$ (more expensive abroad), $M\uparrow$ (foreign goods cheaper), $NX\downarrow$ (more negative). (e) Long-run PPP: $\Delta E \approx \pi^* - \pi = 1 - 4 = -3\%$ per year — dollar depreciates over the long run despite short-run appreciation.
+
+---
+
+*End of Problem Bank. Total: 65 MC + 39 numeric + 13 applied = 117 problems.*

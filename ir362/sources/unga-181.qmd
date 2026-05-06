@@ -1,0 +1,36 @@
+---
+title: "UN General Assembly Resolution 181 (1947)"
+subtitle: "The partition plan — first international blueprint for two states in Palestine"
+order: 2
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q1 (origins, 1948 war), Q2 (international institutions and the conflict), Q4 (two-state framework as a baseline). Date this carefully — November 29, 1947, before the British Mandate ended in May 1948.
+:::
+
+## Historical context
+
+By 1947, Britain had concluded that the Mandate was unmanageable. Jewish immigration after the Holocaust had accelerated; Arab opposition had hardened into open insurgency; the King David Hotel bombing (1946) and broader Zionist paramilitary pressure had raised the political and financial cost of continued British presence. London handed the question to the newly created United Nations. A UN Special Committee on Palestine (UNSCOP) toured the territory in mid-1947 and split: a majority recommended partition into Jewish and Arab states with an international zone for Jerusalem, while a minority recommended a binational federal state. The General Assembly adopted the majority plan as Resolution 181 on November 29, 1947, by a vote of 33 in favor, 13 against, and 10 abstentions. The Jewish Agency accepted the plan publicly. The Arab Higher Committee, the Arab League states, and most Palestinian Arab leadership rejected it on the grounds that the General Assembly had no authority to partition a territory whose majority population opposed partition. Within hours of the vote, civil war broke out across Mandate Palestine, and by the time the British departed in May 1948, the demographic and military map already departed sharply from the lines on the Resolution's map.
+
+## Key provisions in plain English
+
+Resolution 181 is a long technical document with maps. The operative move is to terminate the British Mandate, partition Palestine into two independent states, and place Jerusalem and Bethlehem under a separate international administration governed by a UN Trusteeship Council. The Jewish state was assigned roughly 55 percent of the territory, including most of the Negev; the Arab state received the remainder, including the central highlands, Galilee uplands, and Gaza coastal strip. The two states were to enter an economic union — common currency, shared transport, joint customs — meaning the partition was political but not economic. Citizenship rules, minority protections, and access to holy places were specified at length. The resolution set a transition timetable with the British evacuation completed by August 1948 and full independence shortly thereafter. None of these details survived contact with the war that followed.
+
+## Key terms and ambiguities
+
+Two phrases carry most of the contestation. First, **"economic union"**: was partition meant to be a hard separation, or a managed coexistence? The detailed economic provisions strongly imply the latter, which means the political map is less tidy than students often assume. Second, the **status of Jerusalem as a corpus separatum** — a city under international administration, neither Israeli nor Arab. This formula has never been implemented, and both Israeli and Palestinian positions on Jerusalem after 1948 deviate from it; nonetheless, when Hammad asks whether the international community has a coherent position on Jerusalem, 181 is the document that establishes the baseline. A deeper ambiguity is whether General Assembly resolutions carry binding legal force at all (they do not, in the strict sense — but 181 has been treated as a recurring legal reference point regardless).
+
+## Hammad-frame connections
+
+This document fits most naturally into the [Mitchell frame](../frames/mitchell.qmd) on how international institutions and "the international" enter and structure local politics, and the [Brownlee-Masoud-Reynolds frame](../frames/brownlee-masoud-reynolds.qmd) on the construction of the post-mandate state system. It is the document where the international system formally endorses two-state partition as the model — a model that will be reaffirmed and undermined in roughly equal measure for the next eighty years.
+
+## How to deploy this in an essay
+
+If your prompt mentions the **two-state framework**, **1948**, or **the international community's baseline position**, cite UNGA 181 with date November 29, 1947, and the one-line significance: the UN General Assembly endorses partition into a Jewish state, an Arab state, and an internationally administered Jerusalem. The mistake students make is to treat 181 as if it created Israel — it did not (the May 1948 declaration did, against the backdrop of war, not the Resolution). The Resolution's importance is normative: it is the moment the two-state principle entered international law as the baseline against which every later proposal is judged. Citable phrasing: partition into independent Arab and Jewish states with a separate international regime for Jerusalem.
+
+## Cross-links
+
+- Frame: [Mitchell on the international and the local](../frames/mitchell.qmd)
+- Frame: [Brownlee-Masoud-Reynolds on state formation](../frames/brownlee-masoud-reynolds.qmd)
+- Deep dive: [Iran & the axis of resistance](../iran-axis.qmd) (for how 1948 reshaped regional politics)
+- Official text: [UN — A/RES/181(II)](https://www.un.org/unispal/document/auto-insert-185393/)

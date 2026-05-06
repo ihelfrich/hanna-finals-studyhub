@@ -1,0 +1,36 @@
+---
+title: "Balfour Declaration (1917)"
+subtitle: "British endorsement of a Jewish national home in Palestine — the legal seed of the Mandate"
+order: 1
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q1 (origins of the conflict), Q2 (colonial legacies), and any prompt asking how external powers structured the regional state system. This is the document students forget to date — note that it predates the Mandate (1922) and the founding of the UN.
+:::
+
+## Historical context
+
+In November 1917, Britain was at war with the Ottoman Empire and increasingly committed to dismantling Ottoman rule in the Levant. The Sykes-Picot understanding with France (1916) had already carved out spheres of influence; the Hussein-McMahon correspondence (1915–16) had encouraged Sharif Hussein of Mecca to expect Arab independence in territories that, on the Arab reading, included Palestine. Into this set of overlapping promises came a third commitment: a short letter from Foreign Secretary Arthur Balfour to Lord Rothschild, conveying the British Cabinet's support for Zionist political objectives in Palestine. The motivations were a mixture of imperial calculation (a friendly settler population on the eastern flank of the Suez route), wartime diplomacy (signaling to Russian and American Jewish opinion), and genuine ideological sympathy among parts of the British elite. Crucially, no Palestinian Arab representative was party to any of these arrangements. The Balfour Declaration is therefore the first document in our sequence in which an external power assumes the right to allocate political futures in Palestine — and it allocates them to two communities of unequal political weight in London.
+
+## What the document says (in plain English)
+
+The letter is one paragraph long. Britain views with favor the establishment in Palestine of a national home for the Jewish people, and will use its best efforts to facilitate that objective. It is then immediately qualified: nothing shall be done that may prejudice the civil and religious rights of the existing non-Jewish communities in Palestine, or the rights and political status enjoyed by Jews in other countries. The text does not promise a sovereign state. It does not specify borders. It does not name the Palestinians as a national community — only as "non-Jewish communities" defined negatively, and only their civil and religious (not political) rights are protected. The Declaration was incorporated almost verbatim into the preamble of the British Mandate for Palestine adopted by the League of Nations in 1922, which is what gave it legal force. Without that incorporation, it would be a foreign-policy letter; with it, it became the constitutional foundation of three decades of British rule.
+
+## Key terms and ambiguities
+
+The contested phrasing is the asymmetry between **"national home for the Jewish people"** and **"civil and religious rights" of the non-Jewish communities**. On the Zionist reading, "national home" is a deliberate, expandable formula that points toward eventual statehood and is the operative commitment; the qualifier protects only individual rights, not collective political ones. On the Palestinian reading, the qualifier is the binding constraint: the Mandate cannot lawfully advance one community's national project at the cost of another's political future, and Britain's failure to recognize Arab Palestinians as a political community was itself the foundational injustice. A second contested point is whether Palestine was included in the Hussein-McMahon promises; British and Arab interpretations diverged from the start. These ambiguities are not academic — they recur in every subsequent document.
+
+## Hammad-frame connections
+
+This is a Hammad **state-formation** document, fitting most naturally into the [Brownlee-Masoud-Reynolds frame](../frames/brownlee-masoud-reynolds.qmd) on how external powers built the modern Arab state system from the wreckage of empire. It is also the foundational evidence for the [Sayigh frame](../frames/sayigh.qmd) on Palestinian political development under conditions of imposed external sovereignty. If your essay is about colonial inheritance, this document and the Mandate are your two primary citations.
+
+## How to deploy this in an essay
+
+If your prompt asks about the **origins** of the Israeli-Palestinian conflict, or about how colonial powers shaped the regional system, drop Balfour with the date 1917 and the one-line significance: the British government endorses a Jewish national home in Palestine, with a qualifier protecting non-Jewish civil and religious — but not political — rights. The mistake students make is invoking Balfour as if it created a Jewish state; it did not. It created the legal and political conditions under which the Mandate operated, and it framed Palestinian Arabs as a community without recognized national standing. Citable phrasing: a national home for the Jewish people, qualified by protections for the civil and religious rights of existing non-Jewish communities.
+
+## Cross-links
+
+- Frame: [Brownlee-Masoud-Reynolds on state formation](../frames/brownlee-masoud-reynolds.qmd)
+- Frame: [Sayigh on Palestinian politics](../frames/sayigh.qmd)
+- Deep dive: [Iran & the axis of resistance](../iran-axis.qmd) (for the long arc of imposed political maps)
+- Official text: [UK National Archives — Balfour Declaration](https://www.nationalarchives.gov.uk/education/resources/the-middle-east/the-balfour-declaration/)

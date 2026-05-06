@@ -1,0 +1,37 @@
+---
+title: "Camp David Accords (September 1978)"
+subtitle: "The Egypt-Israel framework — the first Arab state to make peace, and the cost of going alone"
+order: 5
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q3 (Arab-state recognition track), Q4 (alternatives to two-state at the Palestinian level), Q7 (precedent for the Abraham Accords), Q8 (regime survival under regional pressure). Camp David is the template the Abraham Accords either revive or repudiate, depending on your reading.
+:::
+
+## Historical context
+
+By 1977, Egyptian President Anwar Sadat had concluded that the cost of the Arab-Israeli rejectionist front was greater than Egypt could continue to bear. The 1973 war had restored Egyptian honor but had not recovered the Sinai; Egypt's economy, swollen with Soviet debt and military expenditure, was straining; Sadat had expelled the Soviet advisors in 1972 and was repositioning Cairo toward Washington. In November 1977, Sadat made an unprecedented visit to Jerusalem and addressed the Knesset, signaling Egyptian willingness to recognize Israel in exchange for the Sinai. Negotiations in 1978 stalled until US President Jimmy Carter brought Sadat and Israeli Prime Minister Menachem Begin to the presidential retreat at Camp David, Maryland, for thirteen days of intensive talks in September 1978. The result was two framework documents, signed at the White House on September 17, 1978, and followed in March 1979 by a full Egypt-Israel peace treaty. The Arab League responded by suspending Egypt and moving its headquarters from Cairo to Tunis. Egypt was diplomatically isolated within the Arab world for roughly a decade. Sadat was assassinated by Egyptian Islamists in October 1981.
+
+## What the document says (in plain English)
+
+Camp David is two documents, not one. The first is **A Framework for Peace in the Middle East**, addressing the Palestinian question. It proposes a five-year transitional period during which the inhabitants of the West Bank and Gaza would receive full autonomy under a "self-governing authority," with Israeli military government withdrawing to specified security locations. Negotiations on the territories' final status would occur in parallel and would involve Egypt, Israel, Jordan, and elected representatives of the inhabitants. The second is **A Framework for the Conclusion of a Peace Treaty between Egypt and Israel**, which sets out the bilateral path: full Israeli withdrawal from the Sinai over three years, full Egyptian sovereignty restored, demilitarized zones, freedom of navigation, and full diplomatic recognition. The two frameworks were formally linked in the documents but were severable in practice — and they were severed. The Egypt-Israel treaty was implemented; the autonomy framework was not.
+
+## Key terms and ambiguities
+
+The contested term is **"full autonomy"** for the inhabitants of the West Bank and Gaza. On the Israeli reading, autonomy referred to the population, not to the territory, and was compatible with continued Israeli sovereignty claims, settlement expansion, and military control. On the Palestinian and Egyptian reading, autonomy was a transitional step toward full self-determination, including eventual sovereignty. The PLO, excluded from the negotiations, rejected the framework outright on the grounds that no party representing the Palestinian people had agreed to it. A second ambiguity is the linkage between the two frameworks: Sadat's defense against pan-Arab criticism was that he had secured a Palestinian track. In practice, the Palestinian track was implemented loosely if at all, and the Egyptian-Israeli track proceeded to a full treaty regardless. This severability is the precedent the Abraham Accords later exploited.
+
+## Hammad-frame connections
+
+Camp David is core evidence for the [Gause frame](../frames/gause.qmd) on US-mediated regional alignment, and for the [Bellin frame](../frames/bellin.qmd) on regime survival strategies — Sadat is making a calculated bet that the security and economic returns of US patronage exceed the costs of pan-Arab isolation. It is also the documentary precedent for the [Abraham Accords deep dive](../abraham-accords.qmd): bilateral Arab-state normalization without resolution of the Palestinian question, justified by a thin Palestinian track that does not bind the bilateral deal.
+
+## How to deploy this in an essay
+
+If your prompt is about **Arab-state normalization**, **the Egypt-Israel peace**, **the Abraham Accords precedent**, or **Sadat's strategic pivot**, cite Camp David with date September 17, 1978 (the frameworks; the full treaty is March 1979) and the one-line significance: the first Arab state recognizes Israel, in exchange for Sinai withdrawal, with a Palestinian autonomy framework that was not implemented. The mistake students make is to treat Camp David as if it solved the Palestinian question — it did not even attempt to. The strongest essays note that Camp David established the pattern of bilateral Arab-Israeli peace decoupled from the Palestinian track, and that this pattern is what the Arab Peace Initiative tried to reverse and the Abraham Accords restored. Citable phrasing: full Egypt-Israel peace and Sinai withdrawal, paired with a five-year Palestinian autonomy framework.
+
+## Cross-links
+
+- Frame: [Gause on regional international politics](../frames/gause.qmd)
+- Frame: [Bellin on regime survival](../frames/bellin.qmd)
+- Deep dive: [Abraham Accords & Saudi track](../abraham-accords.qmd)
+- Companion: [UNSC 242](unsc-242.qmd) (the framework formally invokes 242)
+- Official text: [Jimmy Carter Library — Camp David Accords](https://www.jimmycarterlibrary.gov/research/camp_david_accords)

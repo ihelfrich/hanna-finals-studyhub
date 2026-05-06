@@ -1,0 +1,37 @@
+---
+title: "Arab Peace Initiative (Beirut Summit, March 2002)"
+subtitle: "Full Arab normalization in exchange for full Israeli withdrawal — the offer the region almost made"
+order: 7
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q3 (the API → Abraham Accords pivot — this is the document the Accords departed from), Q4 (two-state framework), Q7 (Saudi normalization track). If your essay is about the structural shift the Abraham Accords represent, you must establish the API baseline first.
+:::
+
+## Historical context
+
+By early 2002, the Israeli-Palestinian situation was deteriorating rapidly. The Camp David II summit (July 2000) had failed; the Second Intifada had begun in September 2000; suicide bombings in Israeli cities and Israeli military operations in the West Bank were escalating in roughly synchronous cycles. In a February 2002 interview with Thomas Friedman of the New York Times, Crown Prince Abdullah of Saudi Arabia floated the outline of a comprehensive Arab offer to Israel: full Arab recognition and normalization in exchange for full withdrawal to the 1967 lines, a just settlement of the refugee question, and acceptance of a Palestinian state with East Jerusalem as its capital. The Arab League, meeting at its summit in Beirut on March 27–28, 2002, adopted the proposal as the **Arab Peace Initiative**. The Initiative was endorsed by all twenty-two Arab League members, including states with no formal contact with Israel. It was reaffirmed by the Arab League at Riyadh in 2007 and remains, in formal terms, the standing collective Arab offer. Its adoption was overshadowed within hours by the Park Hotel suicide bombing in Netanya, which killed thirty Israelis and triggered Israel's Operation Defensive Shield in the West Bank. The diplomatic moment passed without a substantive Israeli response.
+
+## What the document says (in plain English)
+
+The Initiative is a short Arab League resolution. It proposes a comprehensive settlement on three linked elements. First, **Israeli withdrawal** from all the Arab territories occupied since June 1967, including the Syrian Golan Heights, to the lines of June 4, 1967, and from territories still occupied in southern Lebanon. Second, achievement of a **just solution to the Palestinian refugee problem** to be agreed upon in accordance with UN General Assembly Resolution 194. Third, acceptance of the establishment of a sovereign independent **Palestinian state** in the West Bank and Gaza, with East Jerusalem as its capital. In exchange, the Arab states would consider the Arab-Israeli conflict ended, sign a peace agreement with Israel, achieve peace and security for all states in the region, and **establish normal relations** with Israel. The offer is presented as a single integrated package — withdrawal, refugees, statehood, and recognition are linked, not severable.
+
+## Key terms and ambiguities
+
+The contested term is the **"just solution to the Palestinian refugee problem... in accordance with Resolution 194"**. Resolution 194 (1948) calls for refugees wishing to return to their homes to be permitted to do so, with compensation for those choosing not to. The Israeli reading is that any large-scale right of return would be incompatible with Israel's character as a Jewish-majority state and is therefore a non-starter. The Palestinian and broader Arab reading is that 194 is the legally established baseline. The API's drafters left the phrase "to be agreed upon" deliberately open — signaling that the formula was not a unilateral Palestinian demand but a negotiated outcome — but Israeli governments have consistently rejected even that softened framing. A second crucial feature is the API's **integrated linkage**: the offer cannot be partially accepted. This linkage is what the Abraham Accords explicitly broke.
+
+## Hammad-frame connections
+
+The API is the documentary anchor for the [Gause frame](../frames/gause.qmd) on the regional system: it represents pan-Arab collective bargaining at its high-water mark, and its subsequent erosion is the empirical heart of Hammad's argument that the regional system has shifted from collective Arab politics to bilateral state-led politics. It is also relevant to the [Bellin frame](../frames/bellin.qmd) on regime survival — the Saudi sponsorship of the API, and the later Saudi posture toward the Abraham Accords, can be read as two phases of the same monarchic survival strategy under different threat environments.
+
+## How to deploy this in an essay
+
+If your prompt mentions **Arab normalization**, **the Abraham Accords pivot**, **the Saudi track**, or **the comprehensive Arab offer**, cite the API with date March 28, 2002 (Beirut Summit; reaffirmed Riyadh 2007), and the one-line significance: full Arab normalization with Israel offered in exchange for full withdrawal to 1967 lines, a just refugee solution, and Palestinian statehood with East Jerusalem as capital. The mistake students make is to forget that the API still formally exists; the Arab League has never withdrawn it. The strongest essays argue that the Abraham Accords did not repudiate the API but rather decoupled its components — taking the normalization piece bilaterally without the Palestinian preconditions. Citable phrasing: full normalization in exchange for full withdrawal to 1967 lines, a just refugee solution per Resolution 194, and a sovereign Palestinian state with East Jerusalem as capital.
+
+## Cross-links
+
+- Frame: [Gause on regional international politics](../frames/gause.qmd)
+- Frame: [Bellin on regime survival](../frames/bellin.qmd)
+- Deep dive: [Abraham Accords & Saudi track](../abraham-accords.qmd)
+- Companion: [UNSC 242](unsc-242.qmd), [Abraham Accords text](abraham-accords-text.qmd)
+- Official text: [Al-Bab — Arab Peace Initiative full text](https://al-bab.com/documents-section/arab-peace-initiative)

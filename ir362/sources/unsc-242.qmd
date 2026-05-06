@@ -1,0 +1,37 @@
+---
+title: "UN Security Council Resolution 242 (November 1967)"
+subtitle: "Land for peace — the most cited and most contested resolution of the conflict"
+order: 3
+---
+
+::: {.callout-tip}
+**When this matters on the final:** Q1 (post-1967 settlement architecture), Q4 (two-state framework), Q5 (negotiation history), Q7 (Abraham Accords and Oslo both invoke 242). If you cite only one Security Council resolution all exam, cite this one.
+:::
+
+## Historical context
+
+In June 1967, Israel fought and decisively won the Six-Day War against Egypt, Jordan, and Syria. Within six days, Israel had taken the Sinai Peninsula and the Gaza Strip from Egypt, the West Bank and East Jerusalem from Jordan, and the Golan Heights from Syria. The territory under Israeli control roughly tripled. The Arab League's response, at the Khartoum summit in September 1967, was the famous "three nos" — no peace, no recognition, no negotiation with Israel. Against that backdrop, the UN Security Council spent five months negotiating a resolution that could attract great-power consensus and offer a procedural path forward. The British draft, presented by Lord Caradon, was adopted unanimously on November 22, 1967. It became the foundational reference text for every subsequent peace process — Camp David, Madrid, Oslo, and the Arab Peace Initiative all formally cite it. It is also a document whose central language was deliberately ambiguous to secure that unanimous vote, and whose ambiguity has structured every negotiation since.
+
+## What the document says (in plain English)
+
+The Resolution opens by stressing the inadmissibility of the acquisition of territory by war, and then sets out two principles whose simultaneous application is required for a just and lasting peace: first, withdrawal of Israeli armed forces from territories occupied in the recent conflict; second, termination of all claims of belligerency, and respect for and acknowledgment of the sovereignty, territorial integrity, and political independence of every state in the region, including the right to live in peace within secure and recognized boundaries. It also affirms the necessity of guaranteeing freedom of navigation through international waterways, achieving a just settlement of the refugee problem, and guaranteeing the territorial inviolability and political independence of every state in the region through demilitarized zones if needed. A Special Representative was designated to facilitate agreement. Crucially, the Resolution does not name the Palestinian people; it refers to the refugee problem as a humanitarian matter and treats the dispute as one between sovereign states.
+
+## Key terms and ambiguities
+
+This is the **single most contested phrasing in the diplomatic record of the conflict** — the so-called "article-the" question. The English text says withdrawal from "territories occupied" — without a definite article. The French text, equally authoritative under UN rules, says withdrawal from "des territoires occupés" — which in French strongly implies a definite article and reads as "the territories occupied." On the Israeli reading, the missing English article is decisive: 242 requires withdrawal from some territories, the extent to be settled in negotiations, in exchange for secure boundaries. On the Palestinian and most Arab readings, the French text, the preambular reference to inadmissibility of territorial acquisition by war, and the negotiating record together require withdrawal from all territories occupied in 1967. A second ambiguity is the Resolution's silence on the Palestinians as a national community — they appear only as refugees. Every later document either inherits this silence (Camp David's autonomy framework) or explicitly corrects it (Oslo's mutual recognition; the Arab Peace Initiative's reference to a sovereign Palestinian state).
+
+## Hammad-frame connections
+
+UNSC 242 is core evidence for the [Gause frame](../frames/gause.qmd) on the international politics of the regional system: it is a great-power negotiated text that constitutes the formal vocabulary all later parties must speak. It is also relevant to the [Mitchell frame](../frames/mitchell.qmd) — the way the Resolution's elision of Palestinian peoplehood structures what can and cannot be negotiated is a textbook case of the international shaping local political possibilities.
+
+## How to deploy this in an essay
+
+If your prompt mentions **land for peace**, **post-1967 settlement**, **withdrawal**, **Oslo**, **Camp David**, or **the Arab Peace Initiative**, cite UNSC 242 with date November 22, 1967, and the one-line significance: the unanimous Security Council formula linking Israeli withdrawal to Arab recognition and secure boundaries. The mistake students make is to invoke 242 without flagging the article-the ambiguity — that ambiguity is the whole point. The strongest essays note that 242 set the procedural template for every later document, and that its silence on Palestinian peoplehood is what Oslo's mutual recognition (1993) was designed to correct. Citable phrasing: withdrawal of Israeli forces from territories occupied, in exchange for recognition of every state's right to secure and recognized boundaries.
+
+## Cross-links
+
+- Frame: [Gause on regional international politics](../frames/gause.qmd)
+- Frame: [Mitchell on the international and the local](../frames/mitchell.qmd)
+- Deep dive: [Abraham Accords & Saudi track](../abraham-accords.qmd)
+- Deep dive: [Nash equilibrium & the carousel](../nash-equilibrium.qmd)
+- Official text: [UN — S/RES/242(1967)](https://digitallibrary.un.org/record/90717)

@@ -1,0 +1,37 @@
+---
+title: "Primary Sources — Quick Reference"
+subtitle: "8 documents · what each one *did* to the regional system"
+order: 0
+---
+
+::: {.thesis}
+The diplomatic record of the modern Middle East is not one conversation but two. One track is the Israeli-Palestinian dispute over a single piece of land — Balfour, UNGA 181, UNSC 242, Oslo. The other track is Arab-state recognition of Israel — Camp David, the Arab Peace Initiative, and the Abraham Accords. The story of the last quarter-century is the gradual decoupling of those tracks: Arab-state normalization advancing while the Israeli-Palestinian channel froze.
+:::
+
+## How to use this page
+
+These eight documents are the spine of the post-1917 record. Hammad's lectures assume you know them by name and date; the strongest essays move from frame (Bellin, Mitchell, Gause) to evidence and cite at least one of these documents per major claim. Each linked page gives you historical context, the operative provisions in plain English, the contested phrasings (the "article-the" debate over UNSC 242 is the classic), the Hammad-frame the document fits, and a one-line deployment instruction telling you exactly when to drop it into an essay. Read the index table first, then click into the two or three documents most relevant to the prompt you are answering. Do not try to memorize all eight in equal depth — instead, learn dates and operative moves cold, and learn the contested phrasings of UNSC 242 and Oslo I in detail.
+
+## The 8 documents in chronological order
+
+| Year | Document | Operative move | What it preserved | What it broke |
+|------|----------|----------------|-------------------|---------------|
+| 1917 | [Balfour Declaration](balfour.qmd) | British government endorses Jewish national home in Palestine | Legal foundation of Mandate-era Zionism | Pre-existing Arab claims to Palestine; Hussein-McMahon expectations |
+| 1947 | [UNGA 181](unga-181.qmd) | International partition plan with economic union | Two-state framework as the UN baseline | Indivisibility doctrine; produced civil war and 1948 |
+| 1967 | [UNSC 242](unsc-242.qmd) | Land-for-peace formula after Six-Day War | Sovereignty-and-recognition principle | The pre-1967 Green Line; opened the "all/the territories" ambiguity |
+| 1973 | [UNSC 338](unsc-338.qmd) | Yom Kippur War ceasefire; calls for negotiations under 242 | The 242 framework as the reference point | Pure military settlement; mandates negotiation |
+| 1978 | [Camp David Accords](camp-david.qmd) | Bilateral Egypt-Israel framework + Palestinian autonomy track | Possibility of Arab-state peace with Israel | Pan-Arab unity; isolated Egypt from the Arab League for a decade |
+| 1993 | [Oslo I DOP](oslo-i.qmd) | Mutual recognition; interim Palestinian self-rule | Direct PLO-Israel channel | The deferral of "permanent status" issues — Jerusalem, refugees, settlements, borders |
+| 2002 | [Arab Peace Initiative](api-2002.qmd) | Full Arab normalization in exchange for full withdrawal + just refugee solution | Pan-Arab linkage between Palestinian and recognition tracks | The notion that normalization had to wait for unanimous Arab consensus |
+| 2020 | [Abraham Accords](abraham-accords-text.qmd) | UAE-Bahrain-Israel normalization without prior Palestinian settlement | Bilateral diplomacy as an Arab option | The API's linkage rule; reordered the regional system |
+
+## How to use these sources together
+
+The most important sequence on the final is the **API → Abraham Accords pivot** — the moment when the Arab world's unified, conditional offer (2002) was replaced by a series of bilateral deals that explicitly bypassed the Palestinian condition (2020). To trace this, read the API page first to see what was being offered and what was demanded in return. Then read Abraham Accords to see what was dropped. The crucial Hammad point is that the pivot did not happen because anyone repudiated the API; it happened because Saudi Arabia, the UAE, and Bahrain re-priced the value of the Palestinian linkage relative to the value of an Israeli-American security architecture against Iran. UNSC 242 is the connective tissue between the two: both documents formally cite the 242 land-for-peace logic, but the API treats it as a precondition and the Accords treat it as a long-term aspiration. If your prompt is about regime survival, recognition, or alliance reordering, this is the three-document spine. Add UNGA 181 only if the prompt explicitly asks about origins.
+
+## Cross-links
+
+- [Hammad's 7 frames](../frames/index.qmd)
+- [Abraham Accords deep dive](../abraham-accords.qmd)
+- [Iran & the axis of resistance](../iran-axis.qmd)
+- [Mock essays](../mock-essays.qmd)

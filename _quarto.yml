@@ -49,6 +49,8 @@ website:
             text: Syria — Alliance & 2024 Collapse
           - href: ir362/mock-essays.qmd
             text: "📝 Mock Essays + Sample Answers"
+          - href: ir362/sources/index.qmd
+            text: "📜 Primary Sources"
           - href: ir362/concept-graph.qmd
             text: "🗺️ Concept Graph"
           - href: ir362/frames/index.qmd
@@ -71,6 +73,8 @@ website:
             text: Mock Exam B
           - href: econ205/killer-traps.qmd
             text: Killer Traps Drills
+          - href: econ205/problem-bank.qmd
+            text: "📊 Problem Bank (by Chapter)"
       - text: "ACCT 410x"
         menu:
           - href: acct410x/index.qmd
@@ -112,6 +116,17 @@ website:
             - ir362/frames/diwan-malik-atiyas.qmd
             - ir362/frames/sayigh.qmd
             - ir362/frames/bayat.qmd
+        - section: "Primary sources"
+          contents:
+            - ir362/sources/index.qmd
+            - ir362/sources/balfour.qmd
+            - ir362/sources/unga-181.qmd
+            - ir362/sources/unsc-242.qmd
+            - ir362/sources/unsc-338.qmd
+            - ir362/sources/camp-david.qmd
+            - ir362/sources/oslo-i.qmd
+            - ir362/sources/api-2002.qmd
+            - ir362/sources/abraham-accords-text.qmd
     - title: "ECON 205"
       contents:
         - econ205/index.qmd
@@ -123,6 +138,7 @@ website:
             - econ205/mock-exam-a.qmd
             - econ205/mock-exam-b.qmd
             - econ205/killer-traps.qmd
+            - econ205/problem-bank.qmd
     - title: "ACCT 410x"
       contents:
         - acct410x/index.qmd
