@@ -29,6 +29,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: flashcards.qmd
+        text: "🃏 Flashcards"
+      - href: connections.qmd
+        text: "🔗 Connections"
       - text: "IR 362"
         menu:
           - href: ir362/index.qmd
@@ -41,6 +45,10 @@ website:
             text: Nash Equilibrium & the Carousel
           - href: ir362/syria-collapse.qmd
             text: Syria — Alliance & 2024 Collapse
+          - href: ir362/concept-graph.qmd
+            text: "🗺️ Concept Graph"
+          - href: ir362/frames/index.qmd
+            text: "📚 Hammad's 7 Frames"
           - href: ir362/cram-sheet.qmd
             text: Cram Sheet
       - text: "ECON 205"
@@ -85,6 +93,17 @@ website:
             - ir362/abraham-accords.qmd
             - ir362/nash-equilibrium.qmd
             - ir362/syria-collapse.qmd
+            - ir362/concept-graph.qmd
+        - section: "Hammad's 7 Frames"
+          contents:
+            - ir362/frames/index.qmd
+            - ir362/frames/bellin.qmd
+            - ir362/frames/brownlee-masoud-reynolds.qmd
+            - ir362/frames/mitchell.qmd
+            - ir362/frames/gause.qmd
+            - ir362/frames/diwan-malik-atiyas.qmd
+            - ir362/frames/sayigh.qmd
+            - ir362/frames/bayat.qmd
     - title: "ECON 205"
       contents:
         - econ205/index.qmd

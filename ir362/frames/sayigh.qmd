@@ -1,0 +1,51 @@
+---
+title: "Yezid Sayigh — Owners of the Republic (2019)"
+subtitle: "Frame 6 of 7 · Egypt's political economy is built around military rents — roughly a quarter of state spending flows through the officer corps"
+order: 6
+---
+
+::: {.callout-tip}
+**When to deploy:** Q2 (Egypt's reversion after 2013), Q5 (military economies), Q1 (why Bellin's coercive apparatus stayed cohesive). Use whenever the prompt mentions Sisi, the deep state, or the military's political role.
+:::
+
+## Core claim
+
+Sayigh's book-length Carnegie report *Owners of the Republic* documents how the Egyptian armed forces have evolved from a security institution into a vertically integrated economic conglomerate. By his estimates, the military controls or routes roughly a quarter of central-government spending, operating firms across construction, food, fuel, real estate, and consumer goods. Under Sisi, this footprint expanded sharply: military contracts, no-bid awards, and military-linked holding companies became the principal vehicles of state-led development. The book's analytic punch is that Egypt's political stability and economic sluggishness share a single source — the officer corps's incentive to preserve a system that pays it directly.
+
+## Why it matters for IR 362
+
+Sayigh is Hammad's go-to reference for explaining the 2013 reversion and the durability of Egyptian authoritarianism. He shows that Bellin's "coercive apparatus" in Egypt is not just disciplined and externally backed but also *materially invested* in regime survival in a way that would be nearly impossible to dismantle without a full restructuring of the economy. Sayigh's 2024 follow-up *Tension and Collusion* extends the framework to Tunisia under Saied, complicating the Tunisia-as-success narrative.
+
+## Key concepts to memorize
+
+- **Military economy** — the network of firms, holding companies, and procurement channels owned or controlled by armed forces.
+- **Officers' welfare state** — housing, healthcare, retail, and pension benefits distributed through military firms.
+- **No-bid contracting** — legal mechanism letting agencies award infrastructure work directly to military firms.
+- **Civilian-military arbitrage** — military firms' access to conscript labor, tax exemption, and subsidized land lets them outcompete private firms.
+- **Refeudalization of the economy** — Sayigh's image for the post-2013 reorganization of rents around the officer corps.
+- **Tension and collusion** (2024 sequel) — Tunisian variant where Saied uses an institutionally weaker security sector to similar political effect.
+
+## MENA cases the author analyzes
+
+- **Egypt under Sisi (2013–):** the central case; military firms dominate post-Mubarak infrastructure spending.
+- **Egypt under Mubarak:** the military economy existed but was constrained by civilian crony rivals.
+- **Tunisia under Saied (2024 sequel):** security and bureaucratic apparatus colludes with the executive, eroding the post-2011 transition.
+- **Algeria (comparative reference):** earlier military-economic model that shaped the Egyptian trajectory.
+
+## Strongest counterargument
+
+Some Egyptian economists (and the Sisi government itself) argue Sayigh's 25%-of-spending estimate is inflated and conflates security infrastructure with productive enterprise. Others contend that military involvement in the economy is a stabilizer in the short run — it prevented the post-2013 fiscal collapse that Egypt's external accounts foreshadowed — even if it depresses long-run growth. From a structural angle, Mitchell- and Diwan-style readers would say the military is a *form* of crony capital rather than a distinct phenomenon.
+
+## Citation
+
+Sayigh, Yezid. 2019. *Owners of the Republic: An Anatomy of Egypt's Military Economy*. Beirut and Washington, D.C.: Carnegie Middle East Center. See also Sayigh, Yezid. 2024. *Tension and Collusion: Tunisia's Security Sector under Kais Saied*. Carnegie Middle East Center.
+
+## Exam-ready 60-second invocation
+
+> Yezid Sayigh's 2019 Carnegie study *Owners of the Republic* documents Egypt's transformation into a state whose political economy is organized around the military's commercial empire. Sayigh estimates the armed forces control or route roughly a quarter of central-government spending through firms in construction, food, fuel, real estate, and consumer goods, expanded sharply under Sisi after 2013 via no-bid contracting and conscript labor. The framework explains both the cohesion of Egypt's coercive apparatus, in Bellin's terms, and the country's reform deadlock: the officer corps has direct material incentives to preserve a system that pays it. His 2024 sequel extends the logic to Saied's Tunisia.
+
+## Cross-links
+
+- Pairs with [Diwan/Malik/Atiyas](diwan-malik-atiyas.qmd) — military firms as the most concentrated form of crony capital.
+- Pairs with [Bellin](bellin.qmd) — supplies the *why* behind the Egyptian apparatus's cohesion.
+- Supports the [framework body](../_framework_body.md) on Egypt's reversion pathway.

@@ -1,0 +1,52 @@
+---
+title: "Asef Bayat — Revolution without Revolutionaries (2017)"
+subtitle: "Frame 7 of 7 · The Arab Spring had revolutions but no revolutionaries — institutions outlived the leaders who fell"
+order: 7
+---
+
+::: {.callout-tip}
+**When to deploy:** Q1 (why Arab Spring outcomes disappointed), Q2 (continuity of institutions), Q4 (ideological vacuum and the rise of populism). Use to explain the *cultural* and *ideological* layer Bellin and Brownlee leave thin.
+:::
+
+## Core claim
+
+Bayat argues that the 2011 uprisings were genuine revolutionary moments — millions in the streets, regimes toppled — but they were carried out by movements that lacked a counter-elite capable of seizing and reorganizing state institutions. Earlier revolutions (Iran 1979, Cuba, Russia) produced not just regime change but vanguards with worked-out programs and personnel ready to occupy ministries. The 2011 movements, shaped by post-ideological, horizontal, neoliberal-era political imaginaries, demanded reform of the existing order rather than its transformation. The result: leaders fell, but institutions, bureaucracies, security services, and economic networks remained intact and were available for the old elite to reclaim.
+
+## Why it matters for IR 362
+
+Bayat supplies the ideological and sociological complement to Bellin and Brownlee. Where they explain the *coercive* and *structural* sides, Bayat explains the *demand-side deficit*: even if the security apparatus had cracked, the protest movements were not equipped to govern. He also gives Hammad's class its working vocabulary for the post-2011 disenchantment, including the concept of *refolution*. Bayat's approach is rooted in his earlier *Life as Politics* (2010) on quiet encroachment.
+
+## Key concepts to memorize
+
+- **Refolution** — Bayat's coinage: a hybrid where revolutionary mobilization demands *reform* of existing institutions rather than their replacement.
+- **Counter-elite deficit** — the absence of an organized alternative leadership ready to take over the state.
+- **Post-ideological mobilization** — protest framed in terms of dignity, rights, and anti-corruption rather than coherent transformative ideology.
+- **Quiet encroachment of the ordinary** — Bayat's earlier concept (2010) for slow, decentralized claim-making by the urban poor; the substrate of 2011.
+- **Non-movements** — collective action without formal organizations or leaders; characteristic of the post-2011 landscape.
+- **Institutional persistence** — the deep state, bureaucracy, and security apparatus survive leadership change.
+
+## MENA cases the author analyzes
+
+- **Egypt:** Mubarak fell but the security state, military economy, and judiciary endured and ultimately restored authoritarian rule.
+- **Tunisia:** Ben Ali fell; transition succeeded *in part* because the security apparatus was thin, but no transformative counter-elite emerged either, leaving institutional reform incomplete.
+- **Iran (1979 contrast case):** the model of a revolution *with* revolutionaries — clerical networks ready to staff the new state.
+- **Yemen, Libya:** mobilization without counter-elites yielded fragmentation rather than capture.
+- **Syria:** mobilization quickly outflanked by armed factions and external sponsors, producing civil war rather than transition.
+
+## Strongest counterargument
+
+Critics argue Bayat romanticizes the Iranian 1979 model and underplays how thoroughly the 2011 protesters *did* articulate alternative visions — they were defeated by repression and external interference, not by ideological emptiness. Brownlee/Masoud/Reynolds-style structuralists argue Bayat's variable (counter-elite presence) is downstream of the structural conditions they identify. Feminist and Islamist scholars also note that Bayat's framework underweights the genuine novelty of horizontal, decentralized politics, treating its absence-of-vanguard as deficit rather than form.
+
+## Citation
+
+Bayat, Asef. 2017. *Revolution without Revolutionaries: Making Sense of the Arab Spring*. Stanford: Stanford University Press. See also Bayat, Asef. 2010. *Life as Politics: How Ordinary People Change the Middle East*. Stanford: Stanford University Press.
+
+## Exam-ready 60-second invocation
+
+> Asef Bayat's *Revolution without Revolutionaries* (2017) argues that the Arab Spring uprisings were genuine revolutions in their mobilizational moment but lacked the organized counter-elites needed to seize and remake state institutions. Shaped by a post-ideological, neoliberal-era political imagination, protesters demanded reform of the existing order rather than its transformation — what Bayat calls a refolution. The result is institutional persistence: Mubarak and Ben Ali fell, but the security services, bureaucracies, judiciaries, and economic networks endured and were available for the old elite to reclaim, most starkly in Egypt's 2013 reversion. Bayat thus complements Bellin's coercive and Brownlee's structural accounts with an ideological one.
+
+## Cross-links
+
+- Pairs with [Bellin](bellin.qmd) and [Brownlee/Masoud/Reynolds](brownlee-masoud-reynolds.qmd) — supplies the demand-side complement.
+- Pairs with [Sayigh](sayigh.qmd) — the institutional persistence Bayat names is concretely the Egyptian military economy.
+- Supports deep-dives on [Syria](../syria-collapse.qmd) and the [framework body](../_framework_body.md).

@@ -1,0 +1,131 @@
+---
+title: "🗺️ IR 362 Concept Graph"
+subtitle: "How actors, events, and frames connect across the regional system"
+description: "A Mermaid diagram of the IR 362 universe, with throughline commentary"
+order: 7
+---
+
+## Reading guide
+
+This graph is **not** a timeline. It is a *theoretical map*: each edge is a claim, not a date. Use it three ways.
+
+**First, find an actor (blue) and trace the events (orange) it shapes or is shaped by.** Israel and Iran both touch nearly everything — they are the two poles around which the system orbits. The Gulf states cluster on one side, the Iran–Syria–Hezbollah engine on the other.
+
+**Second, ask which frame (green) explains an edge.** When you see "Saudi Arabia → 2002 API," the frame above isn't an actor's intent — it's *Gause* (primacy without hegemony) explaining why the API needed Riyadh, not Washington, to lead. When you see "1979 Iranian Revolution → Iran–Syria alliance," the frame is *Goodarzi* — strategic, not sectarian.
+
+**Third, look at the subgraph clusters as eras.** "Pre-Pivot" is the API-dominant equilibrium; "Pivot Moment" is 10/7 + 12/8/2024; "Post-Pivot" is the Accords-dominant equilibrium with Iran's engine subtracted. The frames cluster sits *outside* time — the same frames keep doing work across eras, which is why this is a finals exam in *theory*, not just in dates.
+
+If a question asks you to "analyze X," start by finding X on the graph, then walk one or two edges out, and write that sentence: "X connects to Y *because* Z (frame)."
+
+---
+
+```{mermaid}
+%%| fig-width: 9
+flowchart LR
+  classDef actor fill:#cfe3f7,stroke:#1f4e79,color:#0b2a44,stroke-width:1px;
+  classDef event fill:#fde2c7,stroke:#b25c11,color:#5a2b00,stroke-width:1px;
+  classDef frame fill:#d4ecd0,stroke:#2e7d32,color:#1b3a1c,stroke-width:1px;
+
+  subgraph PRE["Pre-Pivot — API era"]
+    E1948["1948 Nakba"]:::event
+    E1967["1967 Six-Day War"]:::event
+    E1979["1979 Iran Revolution"]:::event
+    E1982["1982 Hezbollah founding"]:::event
+    E2002["2002 Arab Peace Initiative"]:::event
+    E2003["2003 Iraq War"]:::event
+    E2011["2011 Arab Spring"]:::event
+    E2015["2015 JCPOA"]:::event
+  end
+
+  subgraph PIVOT["Pivot Moment"]
+    E1007["10/7/2023 Hamas attack"]:::event
+    E1208["12/8/2024 Damascus falls"]:::event
+    E_SaIr["3/2023 Saudi-Iran rapprochement"]:::event
+  end
+
+  subgraph POST["Post-Pivot — Accords era"]
+    E2020["2020 Abraham Accords"]:::event
+  end
+
+  subgraph ACTORS["Actors"]
+    A_IL["Israel"]:::actor
+    A_PA["PA / Hamas"]:::actor
+    A_IR["Iran"]:::actor
+    A_GULF["Saudi / UAE / Gulf"]:::actor
+    A_US["United States"]:::actor
+    A_HZ["Hezbollah"]:::actor
+    A_SYR["Syria (Assad, pre-2024)"]:::actor
+    A_SHA["Sharaa-Syria (post-12/2024)"]:::actor
+  end
+
+  subgraph FRAMES["Frames"]
+    F_BEL["Bellin: authoritarian robustness"]:::frame
+    F_BMR["Brownlee/Masoud/Reynolds: oil + hereditary"]:::frame
+    F_MIT["Mitchell: Carbon Democracy"]:::frame
+    F_GAU["Gause: primacy ≠ hegemony"]:::frame
+    F_SCH["Schelling: Nash / carousel"]:::frame
+    F_GOO["Goodarzi: Iran-Syria strategic"]:::frame
+    F_SAY["Sayigh: military economy"]:::frame
+    F_DMA["Diwan/Malik/Atiyas: crony capitalism"]:::frame
+    F_BAY["Bayat: revolution w/o revolutionaries"]:::frame
+  end
+
+  E1948 -- "ruptures" --> A_PA
+  E1948 -- "founds" --> A_IL
+  E1967 -- "expands" --> A_IL
+  E1967 -- "constrains" --> A_PA
+  E1979 -- "flips" --> A_IR
+  E1979 -- "enables" --> E1982
+  E1982 -- "creates" --> A_HZ
+  A_IR -- "links via" --> A_SYR
+  A_SYR -- "hosts" --> A_HZ
+  F_GOO -- "explains" --> A_IR
+  F_GOO -- "explains" --> A_SYR
+
+  A_GULF -- "leads" --> E2002
+  E2002 -- "frames" --> A_PA
+  F_GAU -- "explains why" --> E2002
+  A_US -- "backstops" --> A_IL
+  A_US -- "backstops" --> A_GULF
+  F_GAU -- "describes" --> A_US
+
+  E2003 -- "opens space for" --> A_IR
+  E2011 -- "tests" --> A_GULF
+  F_BEL -- "predicts" --> E2011
+  F_BMR -- "predicts" --> E2011
+  F_BAY -- "reframes" --> E2011
+  F_MIT -- "explains" --> A_GULF
+  F_SAY -- "describes" --> A_GULF
+  F_DMA -- "describes" --> A_GULF
+
+  E2015 -- "shapes" --> A_IR
+  E2015 -- "alarms" --> A_GULF
+  E_SaIr -- "links" --> A_GULF
+  E_SaIr -- "links" --> A_IR
+
+  A_GULF -- "signs" --> E2020
+  A_IL -- "signs" --> E2020
+  E2020 -- "inverts" --> E2002
+  F_SCH -- "explains" --> E2020
+
+  E1007 -- "spoils" --> E2020
+  E1007 -- "triggers" --> A_IL
+  A_IL -- "degrades" --> A_HZ
+  A_HZ -- "weakens" --> A_SYR
+  E1208 -- "ends" --> A_SYR
+  E1208 -- "creates" --> A_SHA
+  E1208 -- "severs" --> A_IR
+
+  F_SCH -- "frames" --> E1007
+  F_SCH -- "frames" --> E1208
+```
+
+---
+
+## Three throughlines visible in the graph
+
+**1. The pivot from sequencing-precondition to sequencing-inversion (and the partial reversion).** Look at the edge from 2002 API to 2020 Abraham Accords labeled "inverts." That single edge carries half of Hammad's course. The API made a Palestinian state the *precondition* for normalization; the Accords made normalization the *precondition* (or in practice, a *substitute*) for any Palestinian-state work later. After 10/7/2023, the Saudi normalization track stalled — the spoiler edge — but the *Accords* themselves did not unravel. The system reverts toward API-style rhetoric without restoring API-style sequencing. That non-restoration is the current equilibrium.
+
+**2. Iran's linkage engine, and what was subtracted in late 2024.** Trace the chain: 1979 → Iran's adversarial flip → 1982 Hezbollah founding → Iran-Syria alliance (Goodarzi: strategic, not sectarian) → forward arms reaching Israel's northern border. The graph shows four edges converging on Syria: Iran "links via" Syria, Hezbollah is "hosted" there, Goodarzi explains the strategic logic. When 12/8/2024 "ends" Assad and "severs" Iran, *all four edges break at once*. That's why this is the most consequential structural shift since 1979 — not because one event changed, but because the multi-edge scaffolding was load-bearing.
+
+**3. Frames are not optional decoration — each frame retires a naive explanation.** The trap on this exam is to write actor-driven prose. The frames cluster shows the alternatives: Bellin retires "publics drive transitions"; Brownlee/Masoud/Reynolds retires "Arab Spring failed because it was premature"; Mitchell retires "oil is just an export"; Gause retires "the US shaped the region"; Goodarzi retires "Iran-Syria is sectarian"; Bayat retires "no revolution because no revolutionaries." Each frame's edge in the graph is a sentence you can drop into an essay. If your essay doesn't cite at least three frames, your grader will read it as undergraduate description, not analysis.

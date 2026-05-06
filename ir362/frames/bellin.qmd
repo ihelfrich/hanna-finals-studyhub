@@ -1,0 +1,52 @@
+---
+title: "Eva Bellin — Robustness of Authoritarianism in the Middle East (2004)"
+subtitle: "Frame 1 of 7 · Regimes survive when their coercive apparatus has both the will and the capacity to repress"
+order: 1
+---
+
+::: {.callout-tip}
+**When to deploy:** Q1 (why did Arab Spring succeed in Tunisia but fail elsewhere?), Q2 (variation in regime durability), any question that asks why MENA democratized so little.
+:::
+
+## Core claim
+
+Bellin reframes Middle East authoritarianism by shifting attention away from culture, Islam, or weak civil society and onto the security sector itself. Regimes endure not because populations are passive but because the military and internal-security services possess two things at once: the *will* to fire on protesters and the *capacity* (resources, cohesion, external backing) to do so effectively. Where either condition fails, the regime is vulnerable; where both hold, even mass mobilization can be defeated.
+
+## Why it matters for IR 362
+
+Hammad uses Bellin as the foundational lens for the post-2011 portion of the course. Almost every regime-trajectory case in the syllabus — Tunisia's transition, Egypt's reversion, Bahrain's GCC-backed crackdown, Syria's civil war, Libya's collapse — can be parsed through her two variables. It also pairs cleanly with Brownlee/Masoud/Reynolds: Bellin gives the *mechanism* (coercive choice), they supply the *structural priors* (oil and dynasty) that determine the mechanism's inputs.
+
+## Key concepts to memorize
+
+- **Coercive apparatus** — the integrated military-police-intelligence complex; the unit of analysis, not "the state" broadly.
+- **Patrimonial vs. institutionalized military** — patrimonial forces (Syria, Libya pre-2011) fragment under stress; institutionalized forces (Egypt, Tunisia) act collectively, which can cut either way.
+- **Fiscal health of the security sector** — rentier rents and external aid keep officers loyal; fiscal crisis erodes will.
+- **International support networks** — patron states (US, GCC, Russia) underwrite repression and shield regimes from sanctions.
+- **Low levels of popular mobilization** — small, fragmented opposition lowers the cost of repression for officers.
+- **Will to repress** — the officer corps's willingness to use lethal force, shaped by identity ties, ideology, and patronage.
+
+## MENA cases the author analyzes
+
+- **Egypt (2011 and 2013):** institutionalized military defected from Mubarak when costs rose, then re-asserted control under Sisi — same apparatus, different calculation.
+- **Tunisia (2011):** small, professionalized army with no rentier stake refused to fire; regime collapsed.
+- **Bahrain (2011):** GCC intervention plus sectarian officer corps preserved will and capacity.
+- **Syria (2011–):** patrimonial Alawi-anchored security services held together because defection meant communal annihilation.
+- **Saudi Arabia:** rentier wealth, dynastic legitimacy, and US backing keep coercive will indefinitely robust.
+
+## Strongest counterargument
+
+Critics (notably Lisa Anderson and later Marc Lynch) argue Bellin's framework is near-tautological: we infer "will and capacity" from the outcome (regime survived = apparatus had will), making the theory hard to falsify ex ante. It also under-theorizes the role of mass non-violent mobilization in fracturing officer cohesion (Tunisia) and underweights ideological and sectarian variables that Bayat and Brownlee emphasize.
+
+## Citation
+
+Bellin, Eva. 2004. "The Robustness of Authoritarianism in the Middle East: Exceptionalism in Comparative Perspective." *Comparative Politics* 36 (2): 139–157. See also Bellin, Eva. 2012. "Reconsidering the Robustness of Authoritarianism in the Middle East: Lessons from the Arab Spring." *Comparative Politics* 44 (2): 127–149.
+
+## Exam-ready 60-second invocation
+
+> Eva Bellin's 2004 article in *Comparative Politics*, updated in 2012 after the uprisings, argues that the durability of Middle East authoritarianism is best explained not by culture or weak civil society but by the will and capacity of the coercive apparatus. Where the security sector is well-funded by rents, externally backed, and identity-bound to the regime, it will fire on protesters and survive even mass mobilization. Bellin's framework explains the divergent 2011 outcomes: Tunisia's small professionalized army refused to repress and the regime fell, while Bahrain's GCC-backed security forces and Syria's Alawi-anchored military both held, preserving authoritarian rule.
+
+## Cross-links
+
+- Pairs with [Brownlee/Masoud/Reynolds](brownlee-masoud-reynolds.qmd) — structural inputs that determine Bellin's coercive will.
+- Pairs with [Sayigh](sayigh.qmd) — Egyptian military's economic stake is *why* the apparatus held together post-2013.
+- Supports the deep-dive on [Syria's collapse](../syria-collapse.qmd) and [Iran's regional axis](../iran-axis.qmd).

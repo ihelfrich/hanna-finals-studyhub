@@ -1,0 +1,54 @@
+---
+title: "Brownlee, Masoud & Reynolds — The Arab Spring: Pathways of Repression and Reform (2015)"
+subtitle: "Frame 2 of 7 · Two structural variables — hereditary executive and oil rents — predict every Arab Spring outcome"
+order: 2
+---
+
+::: {.callout-tip}
+**When to deploy:** Q1 (why Tunisia transitioned and others did not), Q2 (typology of post-2011 trajectories), Q5 (role of monarchies and rentierism). The single cleanest framework on the syllabus.
+:::
+
+## Core claim
+
+Brownlee, Masoud, and Reynolds reduce the chaos of 2011 to a parsimonious structural argument. Two pre-existing features determined whether a regime experienced sustained protest, fell, transitioned, or rebounded: (1) whether the executive was *hereditary* (a monarchy or dynastic republic with established succession), and (2) whether the state earned significant *oil rents*. Hereditary rule supplied succession legitimacy and elite cohesion; oil supplied the cash to buy off citizens and pay security forces. States with both faced minor pressure; states with neither faced regime-threatening uprisings whose outcome then turned on contingent military choices.
+
+## Why it matters for IR 362
+
+This is the framework Hammad keeps returning to when he draws the 2x2 on the board. It does the heavy lifting of *predicting* which regimes were exposed; Bellin then explains *what happened* once they were exposed. Together the two frames cover roughly half the analytical demand of the final exam.
+
+## Key concepts to memorize
+
+- **Hereditary executive** — monarchies plus "republican" dynasties (Syria's Assads). Generates elite cohesion via succession rules.
+- **Oil-rentier state** — government revenue from hydrocarbon exports rather than taxation; weakens the citizen-state accountability link.
+- **2x2 typology** — the book's core diagram crossing the two variables.
+- **Pathway of reform** — minor liberalization without regime change (Morocco, Jordan).
+- **Pathway of repression** — sustained protest crushed by coercion (Bahrain, Syria).
+- **Pathway of transition** — regime falls and elections produce a new order (Tunisia).
+- **Pathway of reversion** — regime falls but old elites recapture the state (Egypt 2013).
+
+## MENA cases the author analyzes
+
+- **Tunisia (no hereditary, no oil):** maximally exposed, fell, and transitioned — the framework's positive case.
+- **Egypt (no hereditary, modest oil):** fell but the deep state restored authoritarian rule via the 2013 coup.
+- **Libya, Yemen (no hereditary, oil but weak institutions):** collapsed into civil war.
+- **Bahrain (hereditary + oil):** survived through GCC intervention and rentier distribution.
+- **Saudi, UAE, Qatar, Kuwait (hereditary + oil):** experienced minimal pressure; structural insulation worked.
+- **Morocco, Jordan (hereditary, no oil):** modest reform, no regime change — monarchy alone sufficed.
+
+## Strongest counterargument
+
+The framework is criticized for structural over-determination. It under-weights agency, ideology, and the role of regional diffusion (Lynch); it also struggles with Tunisia's *positive* outcome — having neither variable should predict collapse, not democratic transition specifically, suggesting civil-society and military variables (Bellin, Bayat) are needed to complete the story. Some scholars also question whether Syria's Alawi-republic counts as "hereditary" in the same sense as Gulf monarchies.
+
+## Citation
+
+Brownlee, Jason, Tarek Masoud, and Andrew Reynolds. 2015. *The Arab Spring: Pathways of Repression and Reform*. Oxford: Oxford University Press.
+
+## Exam-ready 60-second invocation
+
+> In *The Arab Spring: Pathways of Repression and Reform* (2015), Brownlee, Masoud, and Reynolds argue that the divergent outcomes of 2011 were structurally predictable along two axes: hereditary executive succession and oil-rentier revenue. States with both — the Gulf monarchies — were insulated; states with neither — Tunisia, Egypt — were maximally exposed. Hereditary rule produced elite cohesion; oil produced fiscal capacity to repress and to buy off citizens. The framework explains why Tunisia transitioned, Egypt reverted under a military coup, and Bahrain survived only through Saudi-led GCC intervention that supplied the coercive resources its rulers temporarily lacked.
+
+## Cross-links
+
+- Pairs with [Bellin](bellin.qmd) — supplies the structural priors that determine her coercive variable.
+- Pairs with [Bayat](bayat.qmd) — explains regime structure where Bayat explains revolutionary deficit.
+- Supports deep-dives on [Syria](../syria-collapse.qmd), [Iran's axis](../iran-axis.qmd), and the [Abraham Accords](../abraham-accords.qmd).

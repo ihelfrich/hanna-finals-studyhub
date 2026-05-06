@@ -1,0 +1,52 @@
+---
+title: "Timothy Mitchell — Carbon Democracy (2011)"
+subtitle: "Frame 3 of 7 · Energy infrastructure shapes political possibility — coal democratized labor, oil concentrates power"
+order: 3
+---
+
+::: {.callout-tip}
+**When to deploy:** Q3 (structural imperialism / Western penetration of MENA), Q5 (rentierism and democracy), any prompt invoking oil, climate, or political economy of fossil fuels.
+:::
+
+## Core claim
+
+Mitchell argues that modern democracy is a product of the coal-based energy system: long, vulnerable supply chains gave miners and rail workers strategic chokepoints they used to win mass political rights between roughly 1880 and 1945. Oil, by contrast, flows through pipelines, tankers, and offshore wells that bypass labor, are physically remote, and route through capital-intensive choke points controlled by states and majors. The shift from coal to oil therefore *unwound* the material basis of mass democracy and helped concentrate power in regimes, multinationals, and Western patrons. The Middle East is the central case: its political forms are inseparable from how the West built oil's extraction and transport architecture.
+
+## Why it matters for IR 362
+
+Mitchell anchors Hammad's structural-imperialism lectures and the unit on Western penetration of the regional system. He furnishes a non-culturalist explanation for both authoritarian persistence and US dominance — both flow from the *physical* structure of the oil economy. He also bridges to the climate-and-IR material from the USC Globalized Ecologies panel that Hanna logged in her journal.
+
+## Key concepts to memorize
+
+- **Carbon democracy** — the coupling of fossil-fuel infrastructure to political form; democracy was a coal phenomenon.
+- **Energy chokepoint** — the strategic spatial node where workers (or now states) can interrupt flow; coal mines, vs. the Strait of Hormuz.
+- **Sabotage as political agency** — workers' ability to halt the energy system gave them democratic leverage; oil minimizes this.
+- **Most penetrated subsystem** — Mitchell's image of MENA as a region where Western corporate, military, and financial structures run *through* domestic institutions, not merely around them.
+- **The "economy" as artifact** — Mitchell argues the very category was invented mid-20th century, partly to manage oil flows.
+- **Limits-of-growth politics** — Mitchell traces how oil enabled a politics premised on infinite growth, displacing earlier scarcity frames.
+
+## MENA cases the author analyzes
+
+- **Iran (1908, 1953):** Anglo-Persian/AIOC built infrastructure designed to bypass Iranian labor; Mossadeq's nationalization triggered the 1953 coup.
+- **Saudi Arabia:** Aramco and the US security guarantee illustrate oil as joint US-Saudi political project, not a market relationship.
+- **Iraq:** colonial-era IPC and post-2003 occupation both organized around extraction architecture.
+- **Egypt:** Suez as an oil-transit chokepoint; explains 1956 and ongoing US-Egypt military relationship.
+- **Palestine/Israel:** Mitchell reads the regional security order as partly an oil-protection regime.
+
+## Strongest counterargument
+
+Robert Vitalis (*America's Kingdom*) and others argue Mitchell over-reads the material structure: oil workers in Iran and Saudi Arabia *did* strike and *did* win concessions, and democratic deficits in MENA owe at least as much to colonial state-building, Cold War geopolitics, and elite choices as to pipeline geometry. Critics also note that coal-era democracy was thin and racially exclusionary, complicating Mitchell's contrast.
+
+## Citation
+
+Mitchell, Timothy. 2011. *Carbon Democracy: Political Power in the Age of Oil*. London: Verso.
+
+## Exam-ready 60-second invocation
+
+> Timothy Mitchell's *Carbon Democracy* (2011) argues that political forms are shaped by the material organization of energy. Coal's labor-intensive, chokepoint-rich infrastructure gave nineteenth- and twentieth-century workers the leverage to win mass democratic rights; oil's pipelines, tankers, and offshore wells bypass labor and concentrate power in states, majors, and external patrons. Mitchell reads the modern Middle East as the most penetrated subsystem of the global order, where Western influence runs through the very architecture of extraction — Anglo-Iranian Oil before 1953, Aramco in Saudi Arabia, Suez transit, the post-2003 Iraqi oil regime — making authoritarian durability and US primacy partly artifacts of carbon infrastructure.
+
+## Cross-links
+
+- Pairs with [Gause](gause.qmd) — supplies the material substrate for what Gause analyzes as US primacy.
+- Pairs with [Diwan/Malik/Atiyas](diwan-malik-atiyas.qmd) — rentier political economy at the firm level.
+- Supports deep-dives on [Iran's axis](../iran-axis.qmd) and the [framework body](../_framework_body.md).

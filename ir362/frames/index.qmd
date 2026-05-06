@@ -1,0 +1,42 @@
+---
+title: "Hammad's 7 Lecture Frames — Quick Reference"
+subtitle: "Author, year, core claim, and what each frame explains"
+order: 0
+---
+
+These are the seven analytical frames Prof. Hammad returns to most often in IR 362 lecture, and which Hanna's journal already cites by name. Each one is a tool for *organizing* an essay answer: name the author and year early, deploy the core claim as your structural argument, then bring in MENA cases as evidence. The exam is essay-format and 65% of the grade, so the goal is to be able to invoke any of these in roughly sixty seconds with no prep.
+
+Use the **exam-ready 60-second invocation** block on each sub-page as a verbatim drop-in for the opening paragraph of an essay answer. Then expand using the **key concepts**, **cases**, and **counterargument** sections.
+
+## Quick-reference table
+
+| # | Frame | Author(s) | Year | Core claim (one line) | Best for |
+|---|---|---|---|---|---|
+| 1 | [bellin](bellin.qmd) | Eva Bellin | 2004 / 2012 | Authoritarian survival depends on the will and capacity of the coercive apparatus. | Q1, Q2 |
+| 2 | [brownlee-masoud-reynolds](brownlee-masoud-reynolds.qmd) | Brownlee, Masoud & Reynolds | 2015 | Hereditary executive plus oil rents jointly predict every Arab Spring outcome. | Q1, Q2, Q5 |
+| 3 | [mitchell](mitchell.qmd) | Timothy Mitchell | 2011 | Energy infrastructure shapes political possibility — coal democratized, oil concentrates. | Q3, Q5 |
+| 4 | [gause](gause.qmd) | F. Gregory Gause III | 2024 | The US has primacy, not hegemony, in MENA — and the difference now defines regional order. | Q3, Q4, Q6 |
+| 5 | [diwan-malik-atiyas](diwan-malik-atiyas.qmd) | Diwan, Malik & Atiyas | 2019 | Politically connected firms capture rents; their entry reduces aggregate sector growth. | Q5, Q2 |
+| 6 | [sayigh](sayigh.qmd) | Yezid Sayigh | 2019 / 2024 | The Egyptian military controls about a quarter of state spending; political economy is built around it. | Q2, Q5 |
+| 7 | [bayat](bayat.qmd) | Asef Bayat | 2017 | The Arab Spring had revolutions but no revolutionaries — institutions outlived the leaders who fell. | Q1, Q4 |
+
+## How the frames combine
+
+The frames are designed to *layer*, not to compete. A strong essay typically uses two or three together:
+
+- **Structural pair:** Brownlee/Masoud/Reynolds (regime structure) + Bellin (coercive choice). Use this for any "why did 2011 outcomes diverge?" question.
+- **Political-economy pair:** Mitchell (carbon substrate) + Diwan/Malik/Atiyas (firm-level cronyism) + Sayigh (military variant). Use for any prompt about reform, rentierism, or stagnation.
+- **International-order pair:** Gause (primacy vs. hegemony) + Mitchell (oil as substrate of US influence). Use for any post-2023 great-power or Abraham-Accords question.
+- **Ideological complement:** Bayat. Drop in whenever the prompt asks why 2011 failed or why protest did not yield transformation.
+
+## Sub-pages
+
+1. [Bellin — Robustness of Authoritarianism (2004)](bellin.qmd)
+2. [Brownlee, Masoud & Reynolds — The Arab Spring (2015)](brownlee-masoud-reynolds.qmd)
+3. [Mitchell — Carbon Democracy (2011)](mitchell.qmd)
+4. [Gause — Hegemony, Unipolarity, American Failure (2024)](gause.qmd)
+5. [Diwan, Malik & Atiyas — Crony Capitalism (2019)](diwan-malik-atiyas.qmd)
+6. [Sayigh — Owners of the Republic (2019)](sayigh.qmd)
+7. [Bayat — Revolution without Revolutionaries (2017)](bayat.qmd)
+
+See also the parent [cram-sheet](../cram-sheet.qmd) for one-page Q-by-Q deployment notes, and the deep-dive pages on [Iran's axis](../iran-axis.qmd), the [Abraham Accords](../abraham-accords.qmd), and [Syria's collapse](../syria-collapse.qmd).

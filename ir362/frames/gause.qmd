@@ -1,0 +1,53 @@
+---
+title: "F. Gregory Gause III — Hegemony, Unipolarity, and American Failure in the Middle East (2024)"
+subtitle: "Frame 4 of 7 · The US had primacy, never hegemony — the difference now defines regional order"
+order: 4
+---
+
+::: {.callout-tip}
+**When to deploy:** Q3 (US role in MENA), Q4 (regional order after 2023), Q6 (multipolarity, China, Russia, Iran). Indispensable for any post-Iraq-war prompt.
+:::
+
+## Core claim
+
+Gause's central move is conceptual: he insists on distinguishing three terms that policy discourse routinely conflates. *Primacy* is having more capabilities than any rival. *Unipolarity* is a structural condition where no balancing coalition can form. *Hegemony* is rule that other actors accept as legitimate, channeled through institutions. The United States enjoyed primacy and (briefly) unipolarity in the Middle East after 1991, but it never built hegemony: it lacked institutional consent from regional states and steadily lost what legitimacy it had after the 2003 Iraq invasion. The result is a region where the US still has the most military power but cannot translate it into outcomes — what Gause calls American failure despite material dominance.
+
+## Why it matters for IR 362
+
+Gause is the syllabus's canonical IR-theory frame for the post-2023 reset. He gives Hanna the vocabulary to explain why Saudi Arabia talks to China, why Israel defies US presidents, and why the regional order increasingly looks multipolar even though the US still has the carriers. Pairs naturally with Mitchell (material substrate of US primacy) and with the Iran-axis and Abraham-Accords deep-dives.
+
+## Key concepts to memorize
+
+- **Primacy** — preponderant material capability; necessary but not sufficient for influence.
+- **Unipolarity** — system-structural absence of balancing; transient in MENA.
+- **Hegemony** — legitimate, institutionalized leadership that other states *consent* to.
+- **Legitimacy deficit** — Gause's diagnosis of the post-2003 US position.
+- **Regional autonomy** — the growing willingness of MENA states to hedge among great powers.
+- **Hedging behavior** — Saudi, UAE, and Egypt simultaneously aligning with US, China, and Russia on different files.
+
+## MENA cases the author analyzes
+
+- **Saudi-Iran rapprochement (March 2023):** brokered by Beijing, not Washington — the cleanest single piece of evidence.
+- **Israel under Netanyahu:** open defiance of Biden over Gaza policy and of Trump over Iran negotiations.
+- **Iraq (2003 onward):** the war that converted residual legitimacy into a deficit.
+- **UAE and Saudi Arabia:** OPEC+ coordination with Russia despite US sanctions pressure.
+- **Iran:** survives sanctions through Chinese oil purchases and Russian military exchange.
+- **Egypt:** accepts US aid while buying Russian and Chinese systems.
+
+## Strongest counterargument
+
+Realist critics (Mearsheimer, Walt) argue Gause overstates "failure" — the US still keeps carriers in the Gulf, sustains Israel, and shapes oil markets; what looks like hedging is normal small-state behavior in any system. From the other side, scholars in the Mitchell/critical-IR tradition argue Gause's framework still treats US influence as benign-but-failed rather than structurally extractive, missing the political-economy dimension that Mitchell foregrounds.
+
+## Citation
+
+Gause, F. Gregory III. 2024. "Hegemony, Unipolarity and American Failure in the Middle East." POMEPS Studies / Middle East Institute working paper. See also Gause, F. Gregory III. 2010. *The International Relations of the Persian Gulf*. Cambridge: Cambridge University Press.
+
+## Exam-ready 60-second invocation
+
+> F. Gregory Gause III argues in his 2024 POMEPS / MEI essay that the United States has confused primacy with hegemony in the Middle East. Primacy means greater capabilities; hegemony requires legitimate, institutionalized consent from regional states. Washington achieved the former after 1991 but never the latter, and the 2003 Iraq invasion converted residual legitimacy into a deficit. The result is visible in the March 2023 Saudi-Iran rapprochement brokered by Beijing, in Israeli defiance of two consecutive US administrations, and in routine Saudi and Emirati hedging between US, Chinese, and Russian partners. Material dominance now coexists with declining ability to set the regional agenda.
+
+## Cross-links
+
+- Pairs with [Mitchell](mitchell.qmd) — Mitchell explains the carbon substrate of the primacy Gause analyzes.
+- Pairs with [Brownlee/Masoud/Reynolds](brownlee-masoud-reynolds.qmd) — regime structure mediates response to US pressure.
+- Supports deep-dives on [Iran's axis](../iran-axis.qmd) and the [Abraham Accords](../abraham-accords.qmd).

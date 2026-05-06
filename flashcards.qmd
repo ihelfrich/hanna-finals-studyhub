@@ -1,0 +1,1650 @@
+---
+title: "🃏 Flashcards"
+subtitle: "Self-grading drill decks for IR 362, ECON 205, ACCT 410x"
+description: "Click cards to flip. Mark Got it / Missed it. Progress saves per browser."
+---
+
+::: {.callout-tip}
+**How to use.** Click any card to flip it. Then mark **Got it ✓** or **Missed it ✗**. Your progress stays in this browser (localStorage) — refresh-safe. Use **Reset deck** to start over. Cycle through *missed* cards on second pass.
+:::
+
+::: {.panel-tabset}
+
+## IR 362
+
+::: {.deck-stats id="stats-ir362"}
+0 / 25 mastered
+:::
+
+::: {.deck-controls}
+<button onclick="fcReset('ir362')">Reset deck</button>
+<button onclick="fcShowOnly('ir362','missed')">Show missed only</button>
+<button onclick="fcShowOnly('ir362','all')">Show all</button>
+:::
+
+::: {.flashcard-grid data-deck="ir362"}
+
+::: {.flashcard data-card-id="ir362-01"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+What happened in **1948** and why does it anchor the conflict?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-01','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-01','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Israeli independence + the **Nakba**: founding rupture and Palestinian dispossession. The originating reference point for every later claim.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-02"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**1967** — what war, what doctrine emerged?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-02','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-02','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Six-Day War; Israel takes WB / Gaza / Sinai / Golan. UNSC 242 launches the **"land for peace"** doctrine.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-03"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**1979** — what flips, and how?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-03','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-03','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Iranian Revolution. Iran flips from US ally to adversary; pivots the regional alignment system.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-04"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**1982** — what is founded and why does it matter long-term?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-04','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-04','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Israeli invasion of Lebanon → **Hezbollah founding**. Birth of the axis-of-resistance forward arm.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-05"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**2002** — what document, what bargain?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-05','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-05','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Arab Peace Initiative** (Saudi-led): full normalization in exchange for full withdrawal + Palestinian state. Sequencing-precondition logic.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-06"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**2003** — what event, what regional consequence?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-06','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-06','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+US invasion of Iraq. Opens regional space for Iran. Gause: shows the US never had **hegemony**, only primacy.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-07"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**2011** — name the spark and the counter-move
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-07','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-07','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Arab Spring. Bouazizi self-immolates 12/17/2010. **Bahrain crushed by Peninsula Shield (3/2011)** — counter-revolutionary template.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-08"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**2015** — name two events that change Iran's geopolitical position
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-08','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-08','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**JCPOA** signed (Iran nuclear deal); **Russia enters Syria** to backstop Assad.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-09"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**2020** — list the four Abraham Accords signatories with months
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-09','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-09','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+UAE 8/13, Bahrain 9/11, Sudan 10/23, Morocco 12/10. The **sequencing-inversion** equilibrium.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-10"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Date]{.label}
+::: {.q}
+**12/8/2024** — what falls and what is severed?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-10','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-10','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Damascus falls (HTS offensive 11/27 → 12/8); Assad to Russia. **Iran's land bridge severed** — most consequential structural shift since 1979.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-11"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Bellin (2004)** — what is her central argument?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-11','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-11','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Robustness of authoritarianism**: the *coercive apparatus* (its will and capacity to repress) determines transition outcomes — not opposition strength.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-12"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Brownlee, Masoud, Reynolds (2015)** — two-variable predictor?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-12','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-12','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Regime survival predicted by **hereditary executive AND oil rents**. Tunisia had neither → it transitioned.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-13"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Mitchell** — name the book and the thesis
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-13','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-13','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+***Carbon Democracy*** (Verso 2011). Energy infrastructure shapes political possibility; MENA is the most-penetrated subsystem.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-14"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Gause III** — what distinction does he draw?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-14','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-14','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Primacy ≠ unipolarity ≠ hegemony**. The US had primacy in MENA but never hegemony.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-15"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Sayigh (2019)** — what number do you cite?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-15','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-15','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Egyptian military runs **~25% of government spending**. Carnegie 2019.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-16"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Bayat (2017)** — name the book + slogan
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-16','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-16','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+***Revolution without Revolutionaries*** (Stanford). Institutions outlive leaders; mass uprising without a vanguard project.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-17"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Author]{.label}
+::: {.q}
+**Goodarzi (2006)** — what frame for Iran-Syria?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-17','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-17','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+***Syria and Iran*** — alliance is **strategic, not sectarian**, with a sectarian veneer.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-18"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+Define **the carousel** in Hammad's framing.
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-18','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-18','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+A Nash-equilibrium pattern where each actor best-responds; cycles of escalation/de-escalation produce the *appearance* of motion while the structure stays intact. Only payoff-matrix shocks shift it.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-19"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Primacy vs. hegemony** — the one-sentence test
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-19','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-19','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Primacy = preponderant material power. Hegemony = the ability to set the rules others follow. The US has had the first; it never had the second in MENA (Gause).
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-20"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+What makes the **Abraham Accords** a *sequencing inversion*?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-20','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-20','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+The API put a Palestinian state *first*, normalization second. The Accords reverse the order: normalization first, with the Palestinian question demoted to "later." Same actors, inverted dependency.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-21"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+Why did **Assad fall** in 2024 — single-cause vs. structural answer?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-21','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-21','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Not "HTS won." **Four scaffolds failed simultaneously**: Hezbollah (post-Nasrallah), IRGC (post-Soleimani-doctrine), Russian air (Ukraine drain), regime army (rotted). The HTS push only mattered because the props were gone.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-22"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+What is **Iran's "linkage engine"**?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-22','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-22','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Tehran connected the Gulf-security sphere to the Israeli-Lebanese sphere via **Hezbollah + Syria's geographic land bridge**. Structurally central until 12/2024; functionally diminished after.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-23"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Thesis]{.label}
+::: {.q}
+Complete: *"The regional system is best understood as a Nash equilibrium in which..."*
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-23','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-23','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+*"...no actor can unilaterally deviate from its current strategy without making itself worse off — which is why escalation cycles produce the appearance of motion (the carousel) while leaving the underlying structure intact."*
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-24"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Thesis]{.label}
+::: {.q}
+Complete: *"Iran's regional engine functioned by linking..."*
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-24','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-24','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+*"...the Gulf-security sphere to the Israeli-Lebanese sphere through Syria's geographic position and Hezbollah's forward arm; the December 2024 Assad collapse subtracted that scaffolding, making 2024–26 the most consequential structural shift since 1979."*
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="ir362-25"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Thesis]{.label}
+::: {.q}
+Complete: *"Authoritarian robustness in MENA depends on..."* — and which two authors do you cite?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'ir362-25','got')">Got it ✓</button><button onclick="fcMark(event,'ir362-25','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+*"...a coercive apparatus and rentier resources (**Bellin 2004; Brownlee/Masoud/Reynolds 2015**), which is why most Arab Spring transitions reverted."*
+:::
+:::
+:::
+:::
+
+:::
+
+## ECON 205
+
+::: {.deck-stats id="stats-econ205"}
+0 / 25 mastered
+:::
+
+::: {.deck-controls}
+<button onclick="fcReset('econ205')">Reset deck</button>
+<button onclick="fcShowOnly('econ205','missed')">Show missed only</button>
+<button onclick="fcShowOnly('econ205','all')">Show all</button>
+:::
+
+::: {.flashcard-grid data-deck="econ205"}
+
+::: {.flashcard data-card-id="econ205-01"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Spending GDP** — write the identity, including NX expansion
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-01','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-01','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$Y = C + I + G + NX$, with $NX = X - M$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-02"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Fisher equation** (exact and approximate)
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-02','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-02','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Exact: $1+i = (1+r)(1+\pi^e)$. Approx: $i \approx r + \pi^e$, so $r \approx i - \pi^e$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-03"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Quantity equation** + the long-run quantity-theory implication
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-03','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-03','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$M \cdot V = P \cdot Y$. With V, Y stable in LR: $\%\Delta M \approx \pi$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-04"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Spending and tax multipliers** (closed economy)
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-04','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-04','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Spending: $\frac{1}{1-MPC}$. Tax: $\frac{-MPC}{1-MPC}$. Balanced budget = 1.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-05"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Open-economy multiplier** with proportional tax t and import propensity m
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-05','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-05','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$\frac{1}{1 - MPC(1-t) + m}$. Imports leak → multiplier shrinks.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-06"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Okun's Law** (rule of thumb)
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-06','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-06','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$\Delta u \approx -0.5 \cdot (\text{real GDP gap growth})$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-07"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Real exchange rate** and **PPP** in the long run
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-07','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-07','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$\varepsilon = E \cdot P / P^*$. PPP (LR): $E = P^*/P$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-08"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Saving identity** in an open economy
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-08','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-08','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$S = I + NX$, equivalently $S - I = NX$ (capital outflow = trade surplus).
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-09"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**GDP deflator** and inflation rate from it
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-09','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-09','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$\text{Def} = \frac{\text{Nominal}}{\text{Real}} \times 100$; $\pi = \frac{\text{Def}_t - \text{Def}_{t-1}}{\text{Def}_{t-1}}$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-10"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Cobb-Douglas** with $Y=AK^{0.5}L^{0.5}$ — what happens if K alone doubles?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-10','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-10','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$Y$ rises by $\sqrt{2}$ (diminishing marginal returns). If both K and L double → Y doubles (CRS).
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-11"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+**Demand shock** in AD/AS — how do P and Y co-move?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-11','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-11','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Same direction.** AD↓ → P↓ and Y↓ (recession with disinflation). AD↑ → P↑ and Y↑.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-12"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+**Supply (SRAS) shock** — how do P and Y move?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-12','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-12','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Opposite directions.** SRAS↓ → P↑, Y↓, u↑ (stagflation).
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-13"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+**Long-run self-correction** after an AD shift — what restores Y*?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-13','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-13','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**SRAS shifts** as wages/prices adjust until output returns to potential. LRAS is vertical at $Y^*$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-14"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+**Loanable funds** — government deficit shifts which curve, and what happens to r and I?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-14','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-14','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Deficit → **supply of loanable funds shifts left** (S↓) → **r↑**, private **I↓** = **crowding out**.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-15"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+**Fed buys bonds** — trace AD/AS to P, Y
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-15','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-15','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Reserves↑ → fed funds rate↓ → r↓ → I↑, C↑, NX↑ (via $ depreciation) → **AD shifts right** → P↑, Y↑.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-16"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+**Tariff** vs. **quota** — what's the rectangle, who gets it?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-16','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-16','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Tariff: rectangle is **government revenue**. Quota: identical-shape rectangle is **license-holder rent**. Two DWL triangles either way.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-17"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Model]{.label}
+::: {.q}
+$ **appreciates** — what happens to X, M, NX?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-17','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-17','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+US exports more expensive abroad → **X↓**; foreign goods cheaper here → **M↑** → **NX↓**. Appreciation hurts exporters.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-18"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+If the Fed **raises** the fed funds rate, what happens to bond prices and asset values?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-18','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-18','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Bond prices fall** (price ↔ yield inverse). Asset prices generally fall via PV discounting. Investment demand falls.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-19"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Comparative advantage** — what's the basis (and the trap)?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-19','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-19','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Lowest **opportunity cost** — NOT lowest absolute cost. Both nations gain by specializing in their CA good and trading at terms-of-trade between the two opportunity-cost ratios.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-20"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Interest-rate parity** — direction of capital flows and currency
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-20','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-20','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Capital flows to the **higher-r country** → that country's currency **appreciates** until expected returns equalize.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-21"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+Why is the **tax multiplier smaller** than the spending multiplier in absolute value?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-21','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-21','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+A tax cut adds income; only the MPC fraction is spent on the **first round**. G is direct purchases — full first-round impact.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-22"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Fisher direction** — common error to avoid
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-22','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-22','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Don't confuse *ex ante* (uses $\pi^e$) with *ex post* (uses realized $\pi$). When π unexpectedly **rises**, real rate **falls** — wealth redistributes from creditors to debtors.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-23"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+Define **crowding out** in one sentence
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-23','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-23','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Government borrowing pushes up real interest rates, reducing private investment (and via $ appreciation, NX) — partially offsetting fiscal expansion.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-24"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Quantity theory** — confusing $\Delta M$ with $\%\Delta M$. Which one maps to π?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-24','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-24','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Percent change** in M maps to inflation: $\%\Delta M \approx \pi$ in the long run when V, Y are stable.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="econ205-25"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Automatic stabilizers** — give two and explain mechanism
+:::
+::: {.actions}
+<button onclick="fcMark(event,'econ205-25','got')">Got it ✓</button><button onclick="fcMark(event,'econ205-25','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Progressive taxes** + **unemployment insurance**. Tax revenue falls and transfers rise during downturns — dampens cycles without legislative action.
+:::
+:::
+:::
+:::
+
+:::
+
+## ACCT 410x
+
+::: {.deck-stats id="stats-acct410x"}
+0 / 25 mastered
+:::
+
+::: {.deck-controls}
+<button onclick="fcReset('acct410x')">Reset deck</button>
+<button onclick="fcShowOnly('acct410x','missed')">Show missed only</button>
+<button onclick="fcShowOnly('acct410x','all')">Show all</button>
+:::
+
+::: {.flashcard-grid data-deck="acct410x"}
+
+::: {.flashcard data-card-id="acct410x-01"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+State the **accounting equation** and the equity expansion
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-01','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-01','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$Assets = Liabilities + Equity$. Equity = Contributed Capital + Retained Earnings.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-02"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Retained Earnings** roll-forward
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-02','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-02','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$RE_{end} = RE_{begin} + Net~Income - Dividends$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-03"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**COGS equation** from inventory flow
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-03','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-03','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$COGS = Beginning~Inv + Purchases - Ending~Inv$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-04"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Current ratio** and **inventory turnover**
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-04','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-04','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Current = $CA / CL$. Inventory turnover = $COGS / Avg~Inventory$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-05"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Profit margin** and **ROA**
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-05','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-05','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Profit Margin = $NI / Net~Sales$. ROA = $NI / Avg~Total~Assets$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-06"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Debt-to-Assets** ratio
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-06','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-06','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$Total~Liabilities / Total~Assets$. Solvency / leverage measure.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-07"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Straight-line depreciation**
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-07','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-07','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$(Cost - Salvage) / Useful~Life$ per year.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-08"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Contribution margin** and **CM ratio**
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-08','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-08','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+CM = $Sales - Variable~Costs$. CM ratio = $Unit~CM / Unit~Price$ (or total CM / total sales).
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-09"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Break-even units** and **target-profit units**
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-09','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-09','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+BE units = $FC / Unit~CM$. Target = $(FC + Target~Profit) / Unit~CM$.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-10"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Formula]{.label}
+::: {.q}
+**Net income** in one identity
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-10','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-10','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+$NI = Revenues - Expenses$. Flows into RE.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-11"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Normal balance** of Assets, Dividends, Expenses?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-11','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-11','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Debit** (mnemonic: **ADE**). Debits increase, credits decrease.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-12"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Normal balance** of Liabilities, Equity, Revenue?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-12','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-12','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Credit** (mnemonic: **LER**). Credits increase, debits decrease.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-13"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Accrual vs. cash** basis — one-line distinction
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-13','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-13','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Accrual recognizes revenue when **earned** and expense when **incurred** (matching). Cash recognizes only when money moves.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-14"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**FIFO vs. LIFO** in **rising-price** environment — which gives higher NI? Higher ending inventory?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-14','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-14','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**FIFO**: lower COGS → higher NI; ending inv reflects current (higher) costs. **LIFO**: higher COGS → lower NI and lower taxes; ending inv reflects old (lower) costs.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-15"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Relevant costs** for a decision — what to ignore, what to include
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-15','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-15','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Ignore**: sunk costs, allocated fixed costs that don't change. **Include**: incremental revenues, variable costs, opportunity costs.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-16"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+On the **liquidity** vs. **solvency** distinction — which ratios live where?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-16','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-16','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Liquidity (short-term): Current ratio, Inventory turnover. Solvency (long-term): Debt-to-Assets. Profitability is its own bucket: Profit margin, ROA.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-17"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Concept]{.label}
+::: {.q}
+**Why** does depreciation get added back on the indirect cash-flow statement?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-17','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-17','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+It's a **non-cash expense** that reduced NI. The cash already left in an earlier period (when the asset was bought). Add it back to reconcile NI to cash from operations.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-18"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Indirect method** — direction rules for current-asset and current-liability changes
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-18','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-18','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Asset ↑ = Subtract**, asset ↓ = Add. **Liability ↑ = Add**, liability ↓ = Subtract. Add back **Losses**, subtract **Gains**.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-19"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Multi-product CVP** — what's the trick when product mix matters?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-19','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-19','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Use a **weighted-average CM** (or weighted CM ratio) based on the sales mix. BE units in mix = FC / Weighted-Avg Unit CM. Then split by mix percentages.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-20"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Inventory error reversal** — if you overstate ending inventory in Year 1, what happens to NI in Year 1 vs Year 2?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-20','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-20','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+Year 1 NI is **overstated** (COGS understated). Year 2 begins with overstated beginning inventory → COGS overstated → Year 2 NI **understated**. Errors **reverse** over two years; cumulative RE is correct by end of Year 2.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-21"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Bond pricing direction** — when market rate > coupon rate, the bond sells at?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-21','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-21','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**Discount** (price < face). Market rate < coupon → **premium**. Market rate = coupon → par. Carrying value drifts toward face over the bond's life.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-22"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Trap]{.label}
+::: {.q}
+**Allocated fixed costs** — why is it a trap to include them in keep/drop decisions?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-22','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-22','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+They don't disappear when you drop the segment — they get reallocated. Only **avoidable** fixed costs are relevant. Including allocated FC fakes "losses" that aren't real cash differences.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-23"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Statements]{.label}
+::: {.q}
+**Unearned Revenue collected $10k cash** — flow through three statements?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-23','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-23','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**BS**: Cash +$10k, Unearned Rev (liability) +$10k. **IS**: no impact yet (not earned). **CF**: Operating +$10k (cash inflow). Recognize revenue later when earned: liability ↓, Revenue ↑, NI ↑.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-24"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Statements]{.label}
+::: {.q}
+**Buy equipment $50k cash** — flow through three statements?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-24','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-24','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**BS**: Cash −$50k, PP&E +$50k (asset swap, totals unchanged). **IS**: no immediate impact (depreciation later). **CF**: **Investing** −$50k.
+:::
+:::
+:::
+:::
+
+::: {.flashcard data-card-id="acct410x-25"}
+::: {.flashcard-inner}
+::: {.flashcard-front}
+[Statements]{.label}
+::: {.q}
+**Issue $100k of common stock for cash** — three-statement flow?
+:::
+::: {.actions}
+<button onclick="fcMark(event,'acct410x-25','got')">Got it ✓</button><button onclick="fcMark(event,'acct410x-25','missed')">Missed ✗</button>
+:::
+:::
+::: {.flashcard-back}
+[Answer]{.label}
+::: {.a}
+**BS**: Cash +$100k, Contributed Capital +$100k. **IS**: no impact (not income). **CF**: **Financing** +$100k.
+:::
+:::
+:::
+:::
+
+:::
+
+:::
+
+```{=html}
+<script>
+(function(){
+  const STORE_KEY = 'studyhub_flashcards_v1';
+  function load(){ try { return JSON.parse(localStorage.getItem(STORE_KEY)||'{}'); } catch(e){ return {}; } }
+  function save(s){ localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
+
+  function deckOf(card){
+    const grid = card.closest('.flashcard-grid');
+    return grid ? grid.dataset.deck : null;
+  }
+  function allCardsOf(deck){
+    return document.querySelectorAll('.flashcard-grid[data-deck="'+deck+'"] .flashcard');
+  }
+
+  function applyState(){
+    const s = load();
+    document.querySelectorAll('.flashcard').forEach(card => {
+      const id = card.dataset.cardId;
+      card.classList.remove('got-it','missed');
+      const badge = card.querySelector('.status-badge');
+      if (badge) badge.remove();
+      if (s[id] === 'got'){
+        card.classList.add('got-it');
+        const b = document.createElement('div');
+        b.className = 'status-badge'; b.textContent = '✓ got';
+        card.appendChild(b);
+      } else if (s[id] === 'missed'){
+        card.classList.add('missed');
+        const b = document.createElement('div');
+        b.className = 'status-badge'; b.textContent = '✗ missed';
+        card.appendChild(b);
+      }
+    });
+    ['ir362','econ205','acct410x'].forEach(updateStats);
+  }
+
+  function updateStats(deck){
+    const cards = allCardsOf(deck);
+    const s = load();
+    let got = 0;
+    cards.forEach(c => { if (s[c.dataset.cardId] === 'got') got++; });
+    const el = document.getElementById('stats-'+deck);
+    if (el) el.textContent = got + ' / ' + cards.length + ' mastered';
+  }
+
+  window.fcMark = function(ev, id, kind){
+    ev.stopPropagation();
+    const s = load();
+    if (s[id] === kind) delete s[id]; else s[id] = kind;
+    save(s);
+    applyState();
+  };
+
+  window.fcReset = function(deck){
+    if (!confirm('Reset all progress for the '+deck+' deck?')) return;
+    const s = load();
+    allCardsOf(deck).forEach(c => { delete s[c.dataset.cardId]; });
+    save(s);
+    // also unflip
+    allCardsOf(deck).forEach(c => c.classList.remove('flipped'));
+    applyState();
+  };
+
+  window.fcShowOnly = function(deck, mode){
+    const s = load();
+    allCardsOf(deck).forEach(c => {
+      const st = s[c.dataset.cardId];
+      if (mode === 'all') c.style.display = '';
+      else if (mode === 'missed') c.style.display = (st === 'missed') ? '' : 'none';
+    });
+  };
+
+  function init(){
+    document.querySelectorAll('.flashcard').forEach(card => {
+      card.addEventListener('click', function(e){
+        if (e.target.closest('button')) return;
+        card.classList.toggle('flipped');
+      });
+    });
+    applyState();
+  }
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
+```

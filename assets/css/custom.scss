@@ -79,3 +79,147 @@ table thead { background: rgba(153,0,0,0.06); }
   font-size: .8rem;
   font-family: var(--bs-font-monospace);
 }
+
+/* === Flashcards === */
+.deck-stats {
+  display: inline-block;
+  background: $secondary;
+  color: #222;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin: .5rem 0 1rem;
+  font-size: .95rem;
+}
+.deck-controls { margin-bottom: 1rem; }
+.deck-controls button {
+  background: transparent;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 6px;
+  padding: .35rem .8rem;
+  font-size: .85rem;
+  cursor: pointer;
+  margin-right: .4rem;
+}
+.deck-controls button:hover { background: rgba(153,0,0,0.06); }
+
+.flashcard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.flashcard {
+  perspective: 1200px;
+  height: 220px;
+  cursor: pointer;
+  position: relative;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform .55s cubic-bezier(.4,.2,.2,1);
+  transform-style: preserve-3d;
+}
+.flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--bs-border-color);
+  background: var(--bs-body-bg);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+.flashcard-front {
+  border-left: 4px solid $primary;
+  background: linear-gradient(180deg, rgba(153,0,0,0.05), transparent);
+}
+.flashcard-back {
+  transform: rotateY(180deg);
+  border-left: 4px solid $secondary;
+  background: linear-gradient(180deg, rgba(255,199,44,0.08), transparent);
+}
+.flashcard .q, .flashcard .a {
+  flex: 1;
+  font-size: .98rem;
+  line-height: 1.45;
+}
+.flashcard .q { font-weight: 600; }
+.flashcard .label {
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--bs-secondary-color);
+  margin-bottom: .35rem;
+}
+.flashcard .actions {
+  display: flex;
+  gap: .4rem;
+  margin-top: .6rem;
+}
+.flashcard .actions button {
+  flex: 1;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 6px;
+  padding: .3rem .5rem;
+  font-size: .8rem;
+  cursor: pointer;
+  background: var(--bs-body-bg);
+}
+.flashcard .actions button:hover { background: rgba(255,199,44,0.15); }
+.flashcard.got-it .flashcard-front { border-left-color: #2e7d32; background: linear-gradient(180deg, rgba(46,125,50,0.10), transparent); }
+.flashcard.missed .flashcard-front { border-left-color: #b71c1c; background: linear-gradient(180deg, rgba(183,28,28,0.10), transparent); }
+.flashcard .status-badge {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: .7rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+  z-index: 2;
+}
+.flashcard.got-it .status-badge { background: #2e7d32; color: #fff; }
+.flashcard.missed .status-badge { background: #b71c1c; color: #fff; }
+
+@media (max-width: 600px) {
+  .flashcard { height: 240px; }
+  .flashcard-grid { grid-template-columns: 1fr; }
+}
+
+/* === Concept graph + connections === */
+.connection-card {
+  border: 1px solid var(--bs-border-color);
+  border-left: 4px solid $primary;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  background: linear-gradient(180deg, rgba(153,0,0,0.03), transparent);
+}
+.connection-card h3 { color: $primary; margin-top: 0; }
+.connection-card .terms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5rem;
+  margin: .5rem 0;
+}
+.connection-card .terms .term {
+  background: rgba(255,199,44,0.10);
+  border-radius: 6px;
+  padding: .4rem .6rem;
+  font-size: .9rem;
+}
+.connection-card .exercise {
+  background: rgba(153,0,0,0.05);
+  border-radius: 6px;
+  padding: .5rem .7rem;
+  margin-top: .6rem;
+  font-size: .92rem;
+}

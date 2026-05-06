@@ -1,0 +1,52 @@
+---
+title: "Diwan, Malik & Atiyas — Crony Capitalism in the Middle East (2019)"
+subtitle: "Frame 5 of 7 · MENA's economic stagnation is a feature of the political settlement, not a bug"
+order: 5
+---
+
+::: {.callout-tip}
+**When to deploy:** Q5 (political economy of MENA), Q2 (why economic grievances drove 2011 but reform stalled), any prompt about reform, IMF, or development.
+:::
+
+## Core claim
+
+Diwan, Malik, and Atiyas assemble firm-level evidence across Egypt, Tunisia, Morocco, Lebanon, and Iran to show that politically connected firms — those owned by, or tied to, ruling families and security elites — systematically capture trade protection, energy subsidies, credit, land, and licensing. The book's most striking finding is dynamic: when crony firms enter a sector, *aggregate* growth in that sector slows, because they crowd out competitive entry rather than expand the frontier. Stagnation is therefore not a result of insufficient liberalization but of a political settlement in which economic rents are the medium of elite cohesion.
+
+## Why it matters for IR 362
+
+Hammad uses this volume to push back against the standard IMF/World Bank story that MENA needs more privatization and openness. Diwan and colleagues show privatization in cronyist conditions just transfers rents to regime allies. The book is essential for explaining the *economic* dimension of 2011 protests and why post-2011 reform programs (Egypt 2016 IMF deal, Tunisia under Saied) have failed to dislodge the underlying structure. It pairs with Sayigh on the Egyptian military as a particularly weaponized form of the same logic.
+
+## Key concepts to memorize
+
+- **Politically connected firm (PCF)** — a company with ownership, board, or kinship ties to ruling elites; the book's unit of analysis.
+- **Trade protection capture** — non-tariff barriers and tariffs concentrated in sectors dominated by PCFs.
+- **Energy subsidy capture** — cheap fuel and electricity disproportionately benefit connected industrial firms.
+- **Sector-entry effect** — PCF entry *reduces* sector growth, the book's signature finding.
+- **Political settlement** — the elite bargain that distributes rents in exchange for political loyalty.
+- **Selective liberalization** — opening sectors where PCFs are positioned to capture gains; mimics reform without disturbing the settlement.
+
+## MENA cases the author analyzes
+
+- **Egypt (Mubarak and Sisi):** Mubarak-era PCFs captured manufacturing protection; under Sisi the military expanded its share of the same logic.
+- **Tunisia (Ben Ali):** Trabelsi-Ben Ali family network dominated import licenses and privatized firms; post-2011 networks adapted but persisted.
+- **Morocco:** royal holding company and palace-linked firms shape the modern sector.
+- **Lebanon:** sectarian-political families convert state contracts into private rents.
+- **Iran:** bonyads (parastatal foundations) and IRGC-linked firms occupy the equivalent role.
+
+## Strongest counterargument
+
+Some development economists argue the dataset over-relies on a narrow set of formally registered firms in a few countries and that informal-sector dynamism is undercounted. Others (closer to the World Bank tradition) contend that crony capitalism is a symptom rather than a cause: weak property rights and political instability would generate similar outcomes regardless of regime type. Mitchell-style critics add that the framework still treats the firm as the primary unit, missing the transnational oil and finance structures that situate MENA cronies inside a global system.
+
+## Citation
+
+Diwan, Ishac, Adeel Malik, and Izak Atiyas, eds. 2019. *Crony Capitalism in the Middle East: Business and Politics from Liberalization to the Arab Spring*. Oxford: Oxford University Press.
+
+## Exam-ready 60-second invocation
+
+> Diwan, Malik, and Atiyas's 2019 volume *Crony Capitalism in the Middle East* shows that politically connected firms across Egypt, Tunisia, Morocco, Lebanon, and Iran systematically capture trade protection, energy subsidies, and credit, and that their entry into a sector reduces aggregate growth rather than expanding it. Stagnation is therefore a feature of the political settlement, not a failure of liberalization. The framework explains why 2011's economic grievances were real, why the IMF reform agenda has repeatedly disappointed, and why post-2013 Egypt under Sisi simply substituted military firms for Mubarak-era cronies, an evolution Sayigh documents in detail.
+
+## Cross-links
+
+- Pairs with [Sayigh](sayigh.qmd) — Egyptian military economy as the militarized variant of the same logic.
+- Pairs with [Mitchell](mitchell.qmd) — global carbon political economy in which MENA cronies operate.
+- Supports the [framework body](../_framework_body.md) and Q5 cram-sheet entries.
