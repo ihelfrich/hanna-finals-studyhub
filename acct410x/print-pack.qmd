@@ -1,0 +1,25 @@
+---
+title: "ACCT 410x Print Pack"
+subtitle: "Cheat sheet + Day-of playbook · printable"
+description: "Single-page consolidated PDF source for ACCT 410x final"
+order: 99
+body-classes: cheat-sheet key-reference
+toc: false
+page-layout: article
+---
+
+::: {.print-header}
+[ACCT 410x Print Pack — Cheat Sheet + Day-of Playbook]{.print-title}[Printed for final exam prep]{.print-date}
+:::
+
+::: {.callout-tip}
+**How to use this page.** Use your browser's *Print* (Cmd-P / Ctrl-P) and "Save as PDF". Memorize the cheat sheet before exam day, then re-read the day-of playbook 30 minutes before walking in.
+:::
+
+# Part 1 — Cheat Sheet
+
+{{< include _cheat.md >}}
+
+# Part 2 — Day-Of Playbook
+
+{{< include _dayof.md >}}

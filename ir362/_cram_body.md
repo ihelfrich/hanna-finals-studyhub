@@ -1,14 +1,3 @@
----
-title: "IR 362 — One-Page Cram Sheet"
-subtitle: "Final-night condensation. Memorize cold."
-description: "The minimum viable knowledge for a defensible essay"
-order: 6
-body-classes: cram-sheet
----
-
-::: {.print-header}
-[IR 362 — One-Page Cram Sheet]{.print-title}[Printed for final exam prep]{.print-date}
-:::
 
 ::: {.thesis}
 **If everything you read this term were burned and you had only one page, this would be it.** Read this last on the night before the exam. Sleep on it. Walk in.
@@ -50,16 +39,14 @@ US is the structural backstop — a fifth actor whose presence sets the payoff m
 | 2011 | Arab Spring | Bouazizi 12/17/2010; Bahrain crushed by Peninsula Shield 3/2011 |
 | 2013 | Sisi coup in Egypt | Saudi/UAE-backed; counter-revolutionary template |
 | 2015 | JCPOA | Iran nuclear deal; Russia enters Syria |
-| 2017 | Hamas Political Document | Recalibration of platform: accepts 1967-border state as transitional goal *without* superseding 1988 Charter or recognizing Israel |
+| 2017 | Hamas Political Document | Recalibration of charter |
 | 2020 | Abraham Accords (UAE 8/13, Bahrain 9/11, Sudan 10/23, Morocco 12/10) | Sequencing-inversion |
 | 1/2020 | Soleimani assassination | US escalation moment |
 | 3/2023 | Saudi-Iran rapprochement (Beijing) | China as regional security broker |
 | 10/7/2023 | Hamas attack on Israel | Spoiler theory of Saudi normalization |
-| 9/17–18/2024 | Pager / walkie-talkie attacks on Hezbollah | Israeli covert escalation, supply-chain operation |
-| 9/27/2024 | Nasrallah killed by Israeli strike | Hezbollah leadership decapitated |
-| 11/27/2024 | HTS offensive begins from Idlib | Combined collapse of regime scaffolding starts |
-| 12/8/2024 | Damascus falls; Assad to Russia | Iran's land bridge severed |
-| 2025 | Sharaa interim government; Caesar Act repeal; reported sectarian incidents (Alawite coast, Suwayda) | Sharaa's trajectory contested · cite as analyst-flagged risks, not settled events |
+| 9/2024 | Nasrallah killed | Hezbollah leadership decapitated |
+| 11/27–12/8/2024 | HTS offensive → Damascus falls; Assad to Russia | Iran's land bridge severed |
+| 2025 | Sharaa interim government; Caesar Act repeal; Alawite coastal massacres (3/25); Suwayda crisis (7/25) | Sharaa's trajectory contested |
 
 ## Hammad's lecture frames you must invoke (with the right author)
 

@@ -1,0 +1,25 @@
+---
+title: "IR 362 Print Pack"
+subtitle: "Cram sheet + Q1–Q9 framework essentials · printable"
+description: "Single-page consolidated PDF source for IR 362 final"
+order: 99
+body-classes: cram-sheet key-reference
+toc: false
+page-layout: article
+---
+
+::: {.print-header}
+[IR 362 Print Pack — Cram Sheet + Q1–Q9]{.print-title}[Printed for final exam prep]{.print-date}
+:::
+
+::: {.callout-tip}
+**How to use this page.** Use your browser's *Print* (Cmd-P / Ctrl-P) and "Save as PDF". The print stylesheet hides nav and tightens layout. Each major section starts on a new page.
+:::
+
+# Part 1 — One-Page Cram Sheet
+
+{{< include _cram_body.md >}}
+
+# Part 2 — Framework Q1–Q9
+
+{{< include _framework_q1_q9.md >}}

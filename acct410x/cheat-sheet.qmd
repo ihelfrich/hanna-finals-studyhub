@@ -3,6 +3,11 @@ title: "ACCT 410x — Cheat Sheet"
 subtitle: "All formulas, all sections, one page"
 description: "Memorize before the exam"
 order: 2
+body-classes: cheat-sheet
 ---
+
+::: {.print-header}
+[ACCT 410x — Cheat Sheet]{.print-title}[Printed for final exam prep]{.print-date}
+:::
 
 {{< include _cheat.md >}}

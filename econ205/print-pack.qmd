@@ -1,0 +1,25 @@
+---
+title: "ECON 205 Print Pack"
+subtitle: "Cram sheet + the 6 Pérez traps · printable"
+description: "Single-page consolidated PDF source for ECON 205 final"
+order: 99
+body-classes: cram-sheet key-reference
+toc: false
+page-layout: article
+---
+
+::: {.print-header}
+[ECON 205 Print Pack — Cram Sheet + 6 Traps]{.print-title}[Printed for final exam prep]{.print-date}
+:::
+
+::: {.callout-tip}
+**How to use this page.** Use your browser's *Print* (Cmd-P / Ctrl-P) and "Save as PDF". No notes are allowed in the exam — memorize this beforehand.
+:::
+
+# Part 1 — One-Page Cram Sheet
+
+{{< include _cram.md >}}
+
+# Part 2 — The 6 Traps Pérez Reliably Sets
+
+{{< include _six_traps.md >}}

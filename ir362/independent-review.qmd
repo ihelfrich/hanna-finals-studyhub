@@ -1,0 +1,12 @@
+---
+title: "Independent Critical-Friend Review"
+subtitle: "Gemini's blunt audit of the IR 362 prep materials"
+description: "1,900-word independent critique — gaps, contestable claims, curveballs"
+order: 99
+---
+
+::: {.callout-tip}
+**This review was produced by Gemini 0.26**, an independent LLM, asked to do a critical-friend review of the IR 362 prep materials on this site. It catches things the build agents missed — sharper date precision, the 2017 Hamas Document nuance, and a warning about treating speculative 2025 events as settled facts. Read it once. Apply the corrections it flags.
+:::
+
+{{< include independent-review.md >}}

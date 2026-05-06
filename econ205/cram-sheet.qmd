@@ -3,7 +3,12 @@ title: "ECON 205 — One-Page Cram Sheet"
 subtitle: "Formulas, identities, and intuitions — for memorization before the exam"
 description: "Pencil + calculator only at exam, so memorize this cold beforehand"
 order: 2
+body-classes: cram-sheet
 ---
+
+::: {.print-header}
+[ECON 205 — One-Page Cram Sheet]{.print-title}[Printed for final exam prep]{.print-date}
+:::
 
 ::: {.callout-warning}
 **No notes are allowed during the exam.** This sheet is for *memorization* before exam day, not for the exam itself.

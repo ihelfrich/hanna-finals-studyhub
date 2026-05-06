@@ -31,6 +31,8 @@ website:
         text: Home
       - href: tonight.qmd
         text: "🎯 Tonight"
+      - href: print-pack.qmd
+        text: "🖨️ Print Packs"
       - href: flashcards.qmd
         text: "🃏 Flashcards"
       - href: connections.qmd
@@ -63,6 +65,8 @@ website:
             text: "📚 Hammad's 7 Frames"
           - href: ir362/cram-sheet.qmd
             text: Cram Sheet
+          - href: ir362/print-pack.qmd
+            text: "🖨️ Printable Pack"
       - text: "ECON 205"
         menu:
           - href: econ205/index.qmd
@@ -81,6 +85,8 @@ website:
             text: Killer Traps Drills
           - href: econ205/problem-bank.qmd
             text: "📊 Problem Bank (by Chapter)"
+          - href: econ205/print-pack.qmd
+            text: "🖨️ Printable Pack"
       - text: "ACCT 410x"
         menu:
           - href: acct410x/index.qmd
@@ -95,6 +101,8 @@ website:
             text: Trap Drills
           - href: acct410x/day-of.qmd
             text: Day-Of Playbook
+          - href: acct410x/print-pack.qmd
+            text: "🖨️ Printable Pack"
 
   sidebar:
     - title: "IR 362"

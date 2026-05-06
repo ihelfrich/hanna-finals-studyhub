@@ -1,0 +1,144 @@
+---
+title: "🖨️ Print Packs"
+subtitle: "Take-anywhere PDF versions of every cram sheet & key reference"
+description: "Master index of printable study packs across all three courses"
+order: 99
+toc: false
+page-layout: full
+---
+
+::: {.thesis}
+**Print these. Carry them. Annotate them by hand.** Each pack below is laid out for a clean browser "Save as PDF" — nav and chrome are hidden, contrast is forced to black-on-white, and major sections start on fresh pages.
+:::
+
+::: {.callout-tip}
+**How to print:** click any 🖨️ button to open the page, then **Cmd-P** (Mac) or **Ctrl-P** (Windows) → **Save as PDF**. The print stylesheet kicks in automatically.
+:::
+
+## Master print order
+
+Read the printed packs in this sequence on the runup to your finals:
+
+1. **Two weeks out** — print all three *consolidated print packs* (links below). Annotate them as you study from the on-screen versions.
+2. **One week out** — print each course's individual cram sheet / cheat sheet for spaced-repetition rehearsal.
+3. **Exam morning** — re-read only the cram sheet (IR 362 / ECON 205) or the Day-Of Playbook (ACCT 410x).
+
+---
+
+## IR 362 — Politics of the Middle East
+
+**What to print and bring:** the consolidated *IR 362 Print Pack* (cram sheet + Q1–Q9 framework). Bring nothing into the exam itself — Hammad's exam is closed-book, but you'll have rehearsed off the printed pack.
+
+::: {.print-pack-grid}
+
+::: {.print-pack-card}
+### Consolidated Print Pack
+Cram sheet + Q1–Q9 framework, single PDF.
+
+[🖨️ Print IR 362 Pack](ir362/print-pack.html){.btn .btn-primary}
+:::
+
+::: {.print-pack-card}
+### One-Page Cram Sheet
+Just the throughlines, dates, and frames.
+
+[🖨️ Print Cram Sheet](ir362/cram-sheet.html){.btn .btn-outline-primary}
+:::
+
+::: {.print-pack-card}
+### Full 17-Question Framework
+Every Q1–Q17 outline (longer — 8–10 pages).
+
+[🖨️ Print Framework](ir362/index.html){.btn .btn-outline-primary}
+:::
+
+:::
+
+---
+
+## ECON 205 — Macroeconomics
+
+**What to print and bring:** Pérez's exam allows pencil + calculator only. Print the *ECON 205 Print Pack* and the cram sheet for memorization at home — nothing comes into the exam room.
+
+::: {.print-pack-grid}
+
+::: {.print-pack-card}
+### Consolidated Print Pack
+Cram sheet + the 6 Pérez traps.
+
+[🖨️ Print ECON 205 Pack](econ205/print-pack.html){.btn .btn-primary}
+:::
+
+::: {.print-pack-card}
+### One-Page Cram Sheet
+Formulas, identities, intuitions.
+
+[🖨️ Print Cram Sheet](econ205/cram-sheet.html){.btn .btn-outline-primary}
+:::
+
+::: {.print-pack-card}
+### Killer Traps Drills
+25 trap-style problems with solutions.
+
+[🖨️ Print Trap Drills](econ205/killer-traps.html){.btn .btn-outline-primary}
+:::
+
+:::
+
+---
+
+## ACCT 410x — Financial Accounting
+
+**What to print and bring:** the *ACCT 410x Print Pack* (cheat sheet + day-of playbook). Re-read the playbook 30 minutes before walking in — it's a deliberate sequence of moves.
+
+::: {.print-pack-grid}
+
+::: {.print-pack-card}
+### Consolidated Print Pack
+Cheat sheet + Day-of playbook.
+
+[🖨️ Print ACCT 410x Pack](acct410x/print-pack.html){.btn .btn-primary}
+:::
+
+::: {.print-pack-card}
+### Cheat Sheet
+All formulas, all sections, one page.
+
+[🖨️ Print Cheat Sheet](acct410x/cheat-sheet.html){.btn .btn-outline-primary}
+:::
+
+::: {.print-pack-card}
+### Day-Of Playbook
+Order of attack · 60-second self-check · pivots.
+
+[🖨️ Print Day-Of](acct410x/day-of.html){.btn .btn-outline-primary}
+:::
+
+:::
+
+---
+
+```{=html}
+<style>
+.print-pack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.print-pack-card {
+  border: 1px solid var(--bs-border-color);
+  border-left: 5px solid #990000;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  background: linear-gradient(180deg, rgba(153,0,0,0.03), transparent);
+  transition: transform .15s ease, box-shadow .2s ease;
+  display: flex;
+  flex-direction: column;
+}
+.print-pack-card:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.06); }
+.print-pack-card h3 { margin-top: 0; font-size: 1.05rem; color: #990000; }
+.print-pack-card p { font-size: .92rem; flex: 1; }
+.print-pack-card .btn { margin-top: .6rem; }
+</style>
+```
