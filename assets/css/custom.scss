@@ -952,3 +952,83 @@ table thead { background: rgba(153,0,0,0.06); }
 @media screen {
   .print-header, .print-only { display: none !important; }
 }
+
+/* === Walkthrough page === */
+.stop {
+  border-top: 1px solid rgba(153,0,0,.12);
+  padding: 2rem 0 1.2rem;
+  margin: 0;
+  scroll-margin-top: 80px;
+}
+.stop:first-of-type { border-top: none; }
+.stop-header {
+  display: flex; align-items: baseline; gap: .8rem; flex-wrap: wrap;
+  margin-bottom: .8rem;
+}
+.stop-header .stop-num {
+  background: $primary; color: $secondary;
+  font-weight: 800; font-size: .85rem; letter-spacing: .04em;
+  padding: 4px 12px; border-radius: 999px;
+}
+.stop-header .stop-time {
+  color: var(--bs-secondary-color); font-size: .85rem;
+}
+.stop-header .stop-progress {
+  margin-left: auto; font-size: .8rem; font-weight: 700;
+  color: var(--bs-secondary-color); letter-spacing: .04em;
+}
+.stop h2 {
+  margin-top: .3rem; font-size: 1.5rem; letter-spacing: -0.01em;
+  color: $primary;
+}
+.stop figure { margin: 1.2rem 0; }
+.stop figure img { width: 100%; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,.10); }
+.stop figcaption { font-size: .85rem; color: var(--bs-secondary-color); margin-top: .5rem; text-align: center; }
+.scene-pair {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;
+}
+.scene-pair > div {
+  border: 1px solid var(--bs-border-color); border-radius: 12px; padding: 1.1rem 1.2rem;
+  background: var(--bs-body-bg);
+}
+.scene-pair img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: .8rem; }
+.actor-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;
+}
+.actor-cell {
+  border: 1px solid var(--bs-border-color); border-left: 4px solid $primary;
+  border-radius: 10px; padding: 1rem 1.1rem;
+  background: linear-gradient(180deg, rgba(153,0,0,.03), transparent);
+}
+.actor-cell h3 { margin: 0 0 .5rem; color: $primary; font-size: 1.05rem; }
+.actor-cell .row { display: grid; grid-template-columns: 80px 1fr; gap: .4rem .8rem; font-size: .9rem; line-height: 1.4; }
+.actor-cell .row .lbl { color: var(--bs-secondary-color); font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+.generate {
+  background: rgba(255,199,44,.1);
+  border: 1px solid rgba(255,199,44,.4);
+  border-left: 5px solid $secondary;
+  border-radius: 8px; padding: 1rem 1.2rem; margin: 1.2rem 0;
+}
+.generate .gen-label {
+  font-size: .75rem; font-weight: 800; color: #8a6d00;
+  text-transform: uppercase; letter-spacing: .07em;
+  display: block; margin-bottom: .35rem;
+}
+.do-this {
+  background: rgba(46,125,50,.08); border: 1px solid rgba(46,125,50,.3);
+  border-left: 5px solid #2e7d32; border-radius: 8px;
+  padding: .9rem 1.2rem; margin: 1.2rem 0; font-size: .95rem;
+}
+.do-this::before {
+  content: "▷ "; color: #2e7d32; font-weight: 800;
+}
+.scaffold {
+  background: var(--bs-secondary-bg); border-radius: 10px;
+  padding: 1.4rem 1.6rem; margin: 1.5rem 0;
+  font-family: ui-monospace, monospace; font-size: .92rem;
+  line-height: 1.7; white-space: pre-wrap;
+}
+@media (max-width: 700px) {
+  .scene-pair, .actor-grid { grid-template-columns: 1fr; }
+  .actor-cell .row { grid-template-columns: 60px 1fr; }
+}

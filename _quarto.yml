@@ -36,6 +36,8 @@ website:
         menu:
           - href: ir362/final-run.qmd
             text: "🏃 Final Run"
+          - href: ir362/walkthrough.qmd
+            text: "📖 The Walkthrough (75 min)"
           - href: ir362/cram-sheet.qmd
             text: "🧠 Cram Sheet"
           - href: ir362/sample-answers.qmd
@@ -141,6 +143,7 @@ website:
         - section: "Synthesis"
           contents:
             - ir362/final-run.qmd
+            - ir362/walkthrough.qmd
             - ir362/index.qmd
             - ir362/cram-sheet.qmd
             - ir362/sample-answers.qmd

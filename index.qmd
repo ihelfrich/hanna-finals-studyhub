@@ -166,10 +166,15 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/walkthrough.html" class="cram-button">
+      <div class="emoji">📖</div>
+      <h4>IR — The Walkthrough</h4>
+      <p>The whole exam in eight stops · 75 min · images, story, fill-ins, the game-theory chapter</p>
+    </a>
     <a href="ir362/final-run.html" class="cram-button">
-      <div class="emoji">IR</div>
+      <div class="emoji">🏃</div>
       <h4>IR Final Run</h4>
-      <p>Low-clutter exam path · timer · closed-page drills · essay spine</p>
+      <p>Quick low-clutter path · timer · drills · essay spine</p>
     </a>
     <a href="cram-sprint.html" class="cram-button">
       <div class="emoji">🏃</div>
@@ -229,10 +234,10 @@ format:
     <h4>Source Check</h4>
     <p>What is verified, what is lecture-dependent, and what still needs Hanna's syllabus or Brightspace before exam use.</p>
   </a>
-  <a href="ir362/final-run.html" class="quick-tile">
+  <a href="ir362/walkthrough.html" class="quick-tile">
     <div class="emoji">📘</div>
-    <h4>IR 362 — Final Run</h4>
-    <p>Start with the uncluttered exam path: timed cycle, closed-page drills, prompt triage, and links into the full framework only when needed.</p>
+    <h4>IR 362 — The Walkthrough</h4>
+    <p>The whole exam in eight stops, told as a story with images and the game-theory chapter walked through scene by scene. ~75 minutes.</p>
   </a>
   <a href="acct410x/" class="quick-tile">
     <div class="emoji">📕</div>
