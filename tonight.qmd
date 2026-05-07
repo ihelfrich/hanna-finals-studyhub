@@ -107,16 +107,16 @@ toc: false
       }
     } else if (f.name.startsWith("IR 362")) {
       if (days <= 1) {
-        tasks.push("Run the <a href='ir362/final-run.html'>IR Final Run</a> 20-minute path");
-        tasks.push("Read <a href='ir362/cram-sheet.html'>Cram Sheet</a> dates + frames only");
+        tasks.push("Walk through <a href='ir362/walkthrough.html'>IR — The Walkthrough</a> end to end (~75 min)");
+        tasks.push("Read <a href='ir362/cram-sheet.html'>Cram Sheet</a> — dates + frames only");
         tasks.push("Write two thesis statements from memory, then stop adding new material");
       } else if (days <= 3) {
-        tasks.push("Open <a href='ir362/final-run.html'>IR Final Run</a> and complete the 45-minute path");
+        tasks.push("Walk through <a href='ir362/walkthrough.html'>IR — The Walkthrough</a> from Stop 0 to Stop 8");
         tasks.push("Pick a <a href='ir362/mock-essays.html'>Mock Essay Prompt</a>; outline before reading any model");
         tasks.push("Repair one missing citation or date, then move on");
       } else {
-        tasks.push("Start with <a href='ir362/final-run.html'>IR Final Run</a> — one closed-page cycle");
-        tasks.push("Read <a href='ir362/index.html'>Framework</a> — all 17 questions");
+        tasks.push("Open <a href='ir362/walkthrough.html'>IR — The Walkthrough</a> · do Stops 0–4 tonight");
+        tasks.push("Skim <a href='ir362/index.html'>Framework</a> — all 17 questions");
         tasks.push("Read 1 deep-dive: <a href='ir362/iran-axis.html'>Iran/Axis</a> or <a href='ir362/abraham-accords.html'>Abraham Accords</a>");
         tasks.push(isPrimary ? "Run flashcard deck — IR 362 (<a href='flashcards.html'>here</a>)" : "Read 1 lecture frame from <a href='ir362/frames/'>Frames</a>");
       }

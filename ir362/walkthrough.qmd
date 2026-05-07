@@ -6,6 +6,11 @@ order: 0
 ---
 
 ```{=html}
+<div class="walk-progress" aria-label="Walkthrough progress">
+  <div class="walk-progress-fill" style="width: 0%"></div>
+  <div class="walk-progress-label">0 of 9 stops</div>
+</div>
+
 <section class="stop">
   <div class="stop-header">
     <span class="stop-num">STOP 0</span>
@@ -29,6 +34,10 @@ Eight stops. Roughly seventy-five minutes if you keep moving. The ground we cove
 
 ```{=html}
   <div class="do-this">Take a breath. Scroll down. One stop at a time.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="0">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -110,6 +119,10 @@ That's the spine. Seven scenes: 1917, 1948, 1967, 1978, 1979/1982, 1993/2002, 20
 
 ```{=html}
   <div class="do-this">Close this tab. On paper, in three sentences, tell yourself this story. Then come back.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="1">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -161,6 +174,10 @@ Two complications worth holding in your head. First, the API didn't *fail* — i
 
 ```{=html}
   <div class="do-this">Out loud, in one sentence each: <em>API said ___________. Accords said ___________.</em></div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="2">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -208,6 +225,10 @@ A fifth note before we move on. The **United States** is the structural backstop
 
 ```{=html}
   <div class="do-this">Cover the grid. Tell yourself each actor's <em>Wants / Has / Cannot</em> without looking. You'll miss one — that's fine, look it up, redo.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="3">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -229,6 +250,8 @@ Imagine four people sitting at a table. Each one has a strategy. None of them is
 **Scene 3.** Iran is asked: why don't you demobilize the axis and accept a deal? Because if Iran stands its proxies down and the US and Israel don't pull back, Iran loses deterrence, loses its forward defense, and invites the very regime-change pressure the axis was built to prevent. The forward-defense strategy is Iran's best response.
 
 **Scene 4.** Saudi Arabia is asked: why don't you simply sign with Israel and take the F-35s and the security pact? Because if Saudi signs while Gaza burns, the Palestinian-cause mobilization on the Saudi street becomes a regime-survival problem — exactly the variable Vision-2030 cannot afford. Holding back is Saudi's best response.
+
+Each actor faces a 2-by-2 lens: cooperate or defect, given that the others cooperate or defect. With more than two players the lens widens, but the logic is the same — your move depends on your prediction of theirs. The payoff to deviating unilaterally is negative for every actor, even though the joint outcome is suboptimal for all of them.
 
 Each actor is rationally pursuing its **best response given everyone else's strategy**. That configuration has a name: a **Nash equilibrium**. The system is stable not because anyone likes it, but because no one can deviate alone without paying.
 
@@ -277,8 +300,21 @@ Now the second piece: this equilibrium is not peaceful. It cycles. Escalation, w
 ```{=html}
 <figure>
 <svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The carousel of escalation and de-escalation">
+  <style>
+    .carousel-rotate { transform-origin: 240px 160px; animation: spin 30s linear infinite; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .carousel-rotate { animation: none; } }
+  </style>
   <rect x="0" y="0" width="480" height="320" fill="#fdfcf7" stroke="#e8e2d0"/>
-  <circle cx="240" cy="160" r="120" fill="none" stroke="#990000" stroke-width="2" stroke-dasharray="6 4"/>
+  <g class="carousel-rotate">
+    <circle cx="240" cy="160" r="120" fill="none" stroke="#990000" stroke-width="2" stroke-dasharray="6 4"/>
+    <g stroke="#990000" stroke-width="1.8" fill="none">
+      <path d="M300,60 A130,130 0 0 1 360,140" marker-end="url(#arr)"/>
+      <path d="M360,180 A130,130 0 0 1 300,260" marker-end="url(#arr)"/>
+      <path d="M180,260 A130,130 0 0 1 120,180" marker-end="url(#arr)"/>
+      <path d="M120,140 A130,130 0 0 1 180,60" marker-end="url(#arr)"/>
+    </g>
+  </g>
   <g font-family="Georgia, serif" font-size="13" text-anchor="middle" fill="#3a3a3a">
     <text x="240" y="48" font-weight="700" fill="#990000">Escalation</text>
     <text x="376" y="166" font-weight="700" fill="#990000">War</text>
@@ -286,12 +322,6 @@ Now the second piece: this equilibrium is not peaceful. It cycles. Escalation, w
     <text x="104" y="166" font-weight="700" fill="#990000">Normalization talks</text>
     <text x="240" y="158" font-style="italic" fill="#5a5a5a">structure</text>
     <text x="240" y="174" font-style="italic" fill="#5a5a5a">unchanged</text>
-  </g>
-  <g stroke="#990000" stroke-width="1.8" fill="none">
-    <path d="M300,60 A130,130 0 0 1 360,140" marker-end="url(#arr)"/>
-    <path d="M360,180 A130,130 0 0 1 300,260" marker-end="url(#arr)"/>
-    <path d="M180,260 A130,130 0 0 1 120,180" marker-end="url(#arr)"/>
-    <path d="M120,140 A130,130 0 0 1 180,60" marker-end="url(#arr)"/>
   </g>
 </svg>
 <figcaption>The carousel — phases rotate; the equilibrium beneath them does not.</figcaption>
@@ -306,9 +336,34 @@ So how does the equilibrium ever break? **Five exit conditions** — in the orde
 4. **Domestic upheaval.** Arab Spring 2011 — some regimes fell, most didn't. Bellin's coercive-apparatus argument explains who survived.
 5. **Cost-rebalancing.** When status-quo costs exceed cooperation costs. As of 2026, this remains hypothetical for the Israeli-Palestinian system.
 
+### Why this matters for Hammad's exam
+
+| Nash concept | Hammad question this answers |
+|---|---|
+| Best response | Q10 (Nash in the discussion), Q12 (4 actors) |
+| Stable but conflictual equilibrium | Q13 (the carousel) |
+| Exit conditions | Q14 (how the equilibrium ends) |
+| Multiple actors with asymmetric power | Q15 (possible scenarios), Q17 (player calculus) |
+
 ```{=html}
   <div class="do-this">Out loud, in your own words, explain why each actor is stuck. If you get through all four without looking, you've got the answer to Q10 cold.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="4">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
+
+<aside class="lightning">
+  <div class="lightning-icon">⚡</div>
+  <div>
+    <p class="lightning-q">Quick check before we move on:</p>
+    <p class="lightning-prompt">Why can't Iran unilaterally demobilize the axis of resistance?</p>
+    <details>
+      <summary>Show the answer</summary>
+      <p class="lightning-a">Because if it does and the US/Israel don't pull back in lockstep, deterrence collapses. Each actor's strategy is a best response to the others' strategies — that's the equilibrium. Unilateral deviation makes you worse off.</p>
+    </details>
+  </div>
+</aside>
 
 <section class="stop">
   <div class="stop-header">
@@ -367,6 +422,10 @@ On the exam, cite **Goodarzi (2006)** — the Iran-Syria alliance is *strategic,
 
 ```{=html}
   <div class="do-this">Cover the dates. Reconstruct: 1979, 1982, 2011, 2024. What happened in each?</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="5">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -403,6 +462,10 @@ Hammad's exam rewards source-citation density. You don't need all seven of his f
 
 ```{=html}
   <div class="do-this">Memorize four pairs out loud: Bellin 2004, BMR 2015, Mitchell 2011, Goodarzi 2006.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="6">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -440,9 +503,15 @@ Pick one of these prompts. Fill in the blanks. Twelve minutes on the clock.
 1. *To what extent does the December 2024 collapse of the Assad regime mark the most consequential structural shift in the Middle East since 1979? Discuss with reference to at least two of Hammad's frames.*
 2. *The Abraham Accords have been read both as a continuation of and a rupture with the 2002 Arab Peace Initiative. Defend one reading with specific evidence.*
 3. *"The regional system is a Nash equilibrium that nobody chose." Evaluate this claim using at least three actors and one exogenous shock.*
+4. *Use Bellin (2004) and the carousel framing to explain why the 2011 Arab Spring's outcomes were so uneven across countries. Cite at least one specific country case.*
+5. *Argue whether the December 8, 2024 fall of Damascus represents a Nash-equilibrium exit condition or merely a phase shift in the carousel. Use Goodarzi (2006) and at least one specific dated event from 2024.*
 
 ```{=html}
   <div class="do-this">Pick one prompt. Open a fresh page. Twelve minutes. Fill the scaffold. Don't edit — just fill it.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="7">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
 
 <section class="stop">
@@ -484,5 +553,50 @@ You have the spine. The exam is now mostly recall, not invention. Sleep.
 
 ```{=html}
   <div class="do-this">One last thing: write the three throughlines on an index card. Put it on the desk. Lights out.</div>
+  <label class="stop-complete">
+    <input type="checkbox" data-stop="8">
+    <span>I worked through this stop. ✓</span>
+  </label>
 </section>
+
+<script>
+(function() {
+  var KEY = 'ir362_walkthrough_v1';
+  var TOTAL = 9;
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch(e) { return {}; }
+  }
+  function save(state) {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e) {}
+  }
+  function count(state) {
+    var n = 0;
+    for (var k in state) if (state[k]) n++;
+    return n;
+  }
+  function updateBar(state) {
+    var done = count(state);
+    var pct = Math.round((done / TOTAL) * 100);
+    var fill = document.querySelector('.walk-progress-fill');
+    var label = document.querySelector('.walk-progress-label');
+    if (fill) fill.style.width = pct + '%';
+    if (label) label.textContent = done + ' of ' + TOTAL + ' stops';
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var state = load();
+    var boxes = document.querySelectorAll('.stop-complete input[type="checkbox"][data-stop]');
+    boxes.forEach(function(box) {
+      var id = box.getAttribute('data-stop');
+      if (state[id]) box.checked = true;
+      box.addEventListener('change', function() {
+        state[box.getAttribute('data-stop')] = box.checked;
+        save(state);
+        updateBar(state);
+      });
+    });
+    updateBar(state);
+  });
+})();
+</script>
 ```

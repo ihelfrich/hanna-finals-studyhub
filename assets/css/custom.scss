@@ -1032,3 +1032,82 @@ table thead { background: rgba(153,0,0,0.06); }
   .scene-pair, .actor-grid { grid-template-columns: 1fr; }
   .actor-cell .row { grid-template-columns: 60px 1fr; }
 }
+
+/* === Walkthrough: progress bar === */
+.walk-progress {
+  position: sticky;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(153,0,0,.10);
+  z-index: 1020;
+  margin: 0 0 1.2rem;
+}
+.walk-progress-fill {
+  height: 100%;
+  background: $primary;
+  width: 0%;
+  transition: width .35s ease;
+}
+.walk-progress-label {
+  position: absolute;
+  right: .8rem;
+  top: 6px;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: $primary;
+  background: var(--bs-body-bg);
+  padding: 1px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(153,0,0,.18);
+}
+
+/* === Walkthrough: per-stop completion === */
+.stop-complete {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  min-height: 44px;
+  padding: .55rem 1rem;
+  margin: 1rem 0 0;
+  background: rgba(46,125,50,.06);
+  border: 1px solid rgba(46,125,50,.25);
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: .92rem;
+  color: #246a29;
+  width: fit-content;
+  transition: background .15s ease, border-color .15s ease;
+}
+.stop-complete:hover { background: rgba(46,125,50,.12); }
+.stop-complete input[type="checkbox"] {
+  width: 18px; height: 18px;
+  accent-color: #2e7d32;
+  cursor: pointer;
+}
+.stop-complete input[type="checkbox"]:checked + span {
+  color: #1b5e20;
+  text-decoration: line-through;
+}
+.stop-complete:has(input:checked) {
+  background: rgba(46,125,50,.18);
+  border-color: rgba(46,125,50,.55);
+}
+
+/* === Walkthrough: lightning question === */
+.lightning {
+  display: grid; grid-template-columns: 60px 1fr; gap: 1rem;
+  background: linear-gradient(180deg, rgba(37,99,235,.06), transparent);
+  border: 1px solid rgba(37,99,235,.3); border-left: 5px solid #2563eb;
+  border-radius: 10px; padding: 1.1rem 1.3rem; margin: 1.5rem 0;
+}
+.lightning-icon { font-size: 2rem; line-height: 1; align-self: start; }
+.lightning-q { color: #2563eb; font-weight: 800; font-size: .82rem;
+  text-transform: uppercase; letter-spacing: .07em; margin: 0 0 .3rem; }
+.lightning-prompt { font-size: 1.05rem; font-weight: 600; margin: 0 0 .5rem; }
+.lightning-a { font-size: .95rem; line-height: 1.5; margin: .5rem 0 0;
+  padding: .6rem .8rem; background: rgba(37,99,235,.08); border-radius: 6px; }
+.lightning details summary { cursor: pointer; font-weight: 600; color: #2563eb; }

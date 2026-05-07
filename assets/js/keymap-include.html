@@ -11,7 +11,7 @@
   function go(href){ window.location.href = rootPrefix() + href; }
   const targets = {
     h: "index.html", t: "tonight.html",
-    i: "ir362/final-run.html", f: "ir362/index.html",
+    i: "ir362/final-run.html", w: "ir362/walkthrough.html", f: "ir362/index.html",
     s: "ir362/sample-answers.html", c: "ir362/cram-sheet.html",
     a: "acct410x/cheat-sheet.html", e: "econ205/cram-sheet.html",
     m: "marketing/index.html", r: "reset.html"
@@ -27,6 +27,7 @@
         <tr><td><kbd>g</kbd> <kbd>h</kbd></td><td>Home</td></tr>
         <tr><td><kbd>g</kbd> <kbd>t</kbd></td><td>🎯 Tonight</td></tr>
         <tr><td><kbd>g</kbd> <kbd>i</kbd></td><td>📘 IR Final Run</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>w</kbd></td><td>📖 IR Walkthrough</td></tr>
         <tr><td><kbd>g</kbd> <kbd>f</kbd></td><td>IR Framework</td></tr>
         <tr><td><kbd>g</kbd> <kbd>s</kbd></td><td>IR Sample Answers</td></tr>
         <tr><td><kbd>g</kbd> <kbd>c</kbd></td><td>IR Cram Sheet</td></tr>
@@ -103,3 +104,64 @@
 @media print { .kbd-fab, #kbd-help-overlay { display: none !important; } }
 </style>
 <button class="kbd-fab" title="Keyboard shortcuts (?)" onclick="document.dispatchEvent(new KeyboardEvent('keydown',{key:'?',shiftKey:true}))">?</button>
+<script>
+/* Scroll-triggered reveal animations — IntersectionObserver, motion-respectful */
+(function(){
+  if (typeof window === "undefined" || typeof document === "undefined") return;
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce) return;
+  if (!("IntersectionObserver" in window)) return;
+  const targets = ".stop, .focus-card, .focus-hero, .countdown-card .item, .quick-tile, .cram-button, .timeline-event, .map-card, .frame-header, .gloss-card, .truth-card, .verification-note, .actor-cell, .scene-pair > div, .lightning, .generate, .do-this, .sample-answer, .q-card";
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add("in-view");
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: "0px 0px -40px 0px" });
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(targets).forEach(el => {
+      el.classList.add("reveal");
+      obs.observe(el);
+    });
+  });
+})();
+</script>
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.55s cubic-bezier(.4,0,.2,1), transform 0.55s cubic-bezier(.4,0,.2,1);
+    will-change: opacity, transform;
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Subtle pulse on countdown numbers — once on load */
+@keyframes count-pulse {
+  0% { transform: scale(.92); opacity: 0; }
+  60% { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .countdown-card .days {
+    animation: count-pulse 0.7s cubic-bezier(.4,0,.2,1) both;
+  }
+}
+/* Smooth gradient drift on hero — slow */
+@keyframes hero-drift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero {
+    background-size: 200% 200%;
+    animation: hero-drift 22s ease-in-out infinite;
+  }
+}
+</style>
