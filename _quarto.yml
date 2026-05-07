@@ -34,10 +34,12 @@ website:
         text: "🎯 Tonight"
       - text: "📘 IR 362"
         menu:
-          - href: ir362/final-run.qmd
-            text: "🏃 Final Run"
+          - href: ir362/exam-day.qmd
+            text: "🎯 Exam Day Path"
           - href: ir362/memorize.qmd
             text: "💎 Memorize Now"
+          - href: ir362/final-run.qmd
+            text: "🏃 Final Run"
           - href: ir362/walkthrough.qmd
             text: "📖 The Walkthrough (75 min)"
           - href: ir362/cram-sheet.qmd
@@ -144,9 +146,10 @@ website:
       contents:
         - section: "Synthesis"
           contents:
-            - ir362/final-run.qmd
+            - ir362/exam-day.qmd
             - ir362/memorize.qmd
             - ir362/walkthrough.qmd
+            - ir362/final-run.qmd
             - ir362/index.qmd
             - ir362/cram-sheet.qmd
             - ir362/sample-answers.qmd

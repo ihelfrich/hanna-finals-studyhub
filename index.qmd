@@ -166,6 +166,11 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/exam-day.html" class="cram-button">
+      <div class="emoji">🎯</div>
+      <h4>IR — Exam Day Path</h4>
+      <p>Six steps in order · drills → walkthrough → outline → cram → walk → walk in</p>
+    </a>
     <a href="ir362/memorize.html" class="cram-button">
       <div class="emoji">💎</div>
       <h4>IR — Memorize Now</h4>

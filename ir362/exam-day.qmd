@@ -1,0 +1,191 @@
+---
+title: "IR 362 — Exam Day"
+subtitle: "The path · in order · in time"
+description: "What to do today, in the order to do it"
+order: 0
+toc: false
+---
+
+```{=html}
+<style>
+.eday-hero {
+  background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+  color: white; padding: 2rem 2rem 2.2rem; border-radius: 14px;
+  margin-bottom: 1.6rem; box-shadow: 0 8px 28px rgba(153,0,0,.22);
+}
+.eday-hero h1 { color: white !important; margin: .15rem 0 .35rem; font-size: 1.9rem; letter-spacing: -0.02em; }
+.eday-hero .accent { width: 56px; height: 4px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem; }
+.eday-hero p { color: rgba(255,255,255,.92); font-size: 1.05rem; line-height: 1.55; margin: 0; max-width: 64ch; }
+.eday-step {
+  display: grid; grid-template-columns: 70px 1fr; gap: 1.1rem;
+  border: 1px solid var(--bs-border-color); border-left: 5px solid #990000;
+  border-radius: 12px; padding: 1.2rem 1.3rem; margin: 1rem 0;
+  background: var(--bs-body-bg);
+  scroll-margin-top: 80px;
+}
+.eday-step .num {
+  font-weight: 850; font-size: 2.2rem; color: #990000; line-height: .95;
+  font-variant-numeric: tabular-nums; letter-spacing: -0.02em;
+}
+.eday-step .num small {
+  display: block; font-size: .72rem; font-weight: 700;
+  color: var(--bs-secondary-color); letter-spacing: .07em;
+  text-transform: uppercase; margin-top: .15rem;
+}
+.eday-step h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
+.eday-step p { font-size: .96rem; line-height: 1.5; margin: 0 0 .55rem; }
+.eday-step .actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; }
+.eday-step .actions a {
+  display: inline-block; padding: .5rem .9rem; border-radius: 8px;
+  background: var(--bs-body-bg); border: 1px solid var(--bs-border-color);
+  color: var(--bs-body-color); text-decoration: none; font-weight: 700; font-size: .92rem;
+}
+.eday-step .actions a:hover {
+  background: rgba(153,0,0,.08); border-color: rgba(153,0,0,.4); color: #990000;
+}
+.eday-step .actions a.primary {
+  background: #990000; color: #FFC72C; border-color: #990000;
+}
+.eday-step .actions a.primary:hover { background: #5a0000; color: #FFC72C; }
+.eday-spine {
+  background: linear-gradient(180deg, rgba(255,199,44,.10), transparent);
+  border: 1px solid rgba(255,199,44,.5); border-radius: 12px;
+  padding: 1.1rem 1.4rem; margin: 1.5rem 0;
+}
+.eday-spine h2 { color: #8a6d00; font-size: 1.1rem; margin: 0 0 .6rem; }
+.eday-spine ol { margin: 0; padding-left: 1.3rem; }
+.eday-spine li { margin: .35rem 0; }
+.eday-spine li strong { color: #990000; }
+.eday-mini {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .8rem;
+  margin: 1rem 0;
+}
+.eday-mini > div {
+  border: 1px solid var(--bs-border-color); border-radius: 10px;
+  padding: .85rem 1rem; background: var(--bs-body-bg);
+}
+.eday-mini h4 { margin: 0 0 .25rem; color: #990000; font-size: .95rem; }
+.eday-mini ul { margin: 0; padding-left: 1.1rem; font-size: .88rem; line-height: 1.45; }
+@media (max-width: 600px) { .eday-step { grid-template-columns: 50px 1fr; gap: .8rem; } .eday-step .num { font-size: 1.7rem; } }
+</style>
+
+<section class="eday-hero">
+  <div class="accent"></div>
+  <h1>The path, in order, in time.</h1>
+  <p>This page is the only thing you need open today. Six steps. About three hours total if you have it; about an hour if you don't. Either is enough.</p>
+</section>
+```
+
+## Six steps
+
+```{=html}
+<section class="eday-step">
+  <div class="num">1<small>~30 min</small></div>
+  <div>
+    <h3>💎 Drill the dates and frames cold</h3>
+    <p>Open Memorize Now. Run the dates drill twice in a row. Then the frames drill twice. Goal: 9 of 10 dates and all 4 frames in your fingers without thinking.</p>
+    <div class="actions"><a href="memorize.html" class="primary">Open Memorize Now</a></div>
+  </div>
+</section>
+
+<section class="eday-step">
+  <div class="num">2<small>~75 min</small></div>
+  <div>
+    <h3>📖 Walk through the eight stops</h3>
+    <p>Read the Walkthrough end to end. Do the fill-ins in real time — they're not optional, they're how the spine gets into your head. Check the box at the bottom of each stop.</p>
+    <div class="actions"><a href="walkthrough.html" class="primary">Open The Walkthrough</a></div>
+  </div>
+</section>
+
+<section class="eday-step">
+  <div class="num">3<small>~25 min</small></div>
+  <div>
+    <h3>📝 Outline one essay from memory</h3>
+    <p>Pick any of the 17 questions on the Framework. Outline it on paper using the five-paragraph spine: thesis · three moves · counter · tie-back. Don't read the model first.</p>
+    <div class="actions"><a href="index.html">Pick a question</a><a href="sample-answers.html">Compare to model after</a></div>
+  </div>
+</section>
+
+<section class="eday-step">
+  <div class="num">4<small>~10 min</small></div>
+  <div>
+    <h3>🧠 Read the Cram Sheet once, slowly</h3>
+    <p>Last pass over the dates table, the four frames, the three throughlines, and the five thesis statements. If a date doesn't have an image in your head, pause and rebuild it from the Memorize page.</p>
+    <div class="actions"><a href="cram-sheet.html">Open Cram Sheet</a></div>
+  </div>
+</section>
+
+<section class="eday-step">
+  <div class="num">5<small>15 min</small></div>
+  <div>
+    <h3>🌬 Walk and breathe</h3>
+    <p>Close the laptop. Take a real walk — outside, or up a stairwell — for fifteen minutes. No phone, no notes. The material is in. The walk lets it settle.</p>
+    <div class="actions"><a href="../reset.html">Open Reset (if you'd rather sit)</a></div>
+  </div>
+</section>
+
+<section class="eday-step">
+  <div class="num">6<small>5 min</small></div>
+  <div>
+    <h3>📋 The 30-minute spine, before you walk in</h3>
+    <p>Right before the exam, glance through the spine below. Don't read anything new. Don't open Twitter. Drink water.</p>
+  </div>
+</section>
+```
+
+## The 30-minute spine
+
+```{=html}
+<section class="eday-spine">
+  <h2>The five things you need cold</h2>
+  <ol>
+    <li><strong>Three throughlines:</strong> the API → Abraham Accords pivot · the Nash equilibrium carousel · Iran as the linkage engine.</li>
+    <li><strong>Eight dates that prove you know the shape:</strong> 1948 (Nakba) · 1967 (Six-Day War + UNSC 242) · 1979 (Iranian Revolution) · 1982 (Hezbollah founded) · 1993 (Oslo) · 2002 (API, Beirut) · 2020 (Abraham Accords) · 8 December 2024 (Damascus falls).</li>
+    <li><strong>Four frames you cite by author + year:</strong> Bellin (2004) · Brownlee, Masoud, Reynolds (2015) · Mitchell (2011) · Goodarzi (2006).</li>
+    <li><strong>Four actors:</strong> Israel, Palestinians (Hamas + PA), Iran, Saudi/Gulf. The US is the structural backstop, not a fifth player.</li>
+    <li><strong>One thesis sentence to adapt:</strong> <em>"In 2026, the regional order has shifted from API-anchored linkage to Abraham-Accords-style security-and-economics linkage, with Iran as the engine connecting both spheres until Damascus fell on 8 December 2024."</em></li>
+  </ol>
+</section>
+```
+
+## In the room
+
+```{=html}
+<div class="eday-mini">
+  <div>
+    <h4>Read first</h4>
+    <ul>
+      <li>Read every prompt before writing</li>
+      <li>Pick the one you can outline cleanest</li>
+      <li>Outline 5 min before writing</li>
+    </ul>
+  </div>
+  <div>
+    <h4>Structure</h4>
+    <ul>
+      <li>Thesis sentence in P1</li>
+      <li>Three moves in P2-4</li>
+      <li>Counter + rebuttal in P5</li>
+      <li>Tie-back in last sentence</li>
+    </ul>
+  </div>
+  <div>
+    <h4>Density signals</h4>
+    <ul>
+      <li>Drop ≥4 specific dates per essay</li>
+      <li>Cite ≥2 frames by author + year</li>
+      <li>Name a throughline by name</li>
+    </ul>
+  </div>
+  <div>
+    <h4>If stuck</h4>
+    <ul>
+      <li>Write "this question is really about ____"</li>
+      <li>List 4 dates, 2 authors in margin</li>
+      <li>Start the first paragraph before improving the plan</li>
+    </ul>
+  </div>
+</div>
+```
+
+You have the spine. Walk in.
