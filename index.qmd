@@ -154,6 +154,11 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/the-essay.html" class="cram-button">
+      <div class="emoji">✍️</div>
+      <h4>The Essay (memorize)</h4>
+      <p>700-word essay that flexes for most prompts · 60-second sketch · openers + closers</p>
+    </a>
     <a href="ir362/slides-vii-plus.html" class="cram-button">
       <div class="emoji">📌</div>
       <h4>Hammad's Slides VII Plus</h4>

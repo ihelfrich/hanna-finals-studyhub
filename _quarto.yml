@@ -34,6 +34,8 @@ website:
         text: "🎯 Tonight"
       - text: "📘 IR 362"
         menu:
+          - href: ir362/the-essay.qmd
+            text: "✍️ The Essay (memorize)"
           - href: ir362/slides-vii-plus.qmd
             text: "📌 Hammad's Slides VII Plus"
           - href: ir362/exam-day.qmd
@@ -136,6 +138,7 @@ website:
       contents:
         - section: "Synthesis"
           contents:
+            - ir362/the-essay.qmd
             - ir362/slides-vii-plus.qmd
             - ir362/exam-day.qmd
             - ir362/memorize.qmd

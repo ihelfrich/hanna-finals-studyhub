@@ -1,0 +1,261 @@
+---
+title: "The Essay (memorize this · sketch it · write it)"
+subtitle: "One ~700-word answer that flexes for most likely prompts"
+description: "A single memorizable IR 362 essay + a 60-second sketch you draw before writing"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #5a0000 0%, #990000 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">One essay, three prompts, sixty-second sketch.</h1>
+  <p style="color: rgba(255,255,255,.92); margin: 0; font-size: 1.02rem; max-width: 70ch;">This is the essay you memorize today. Six paragraphs. About 700 words. Built around the (Re)-Palestinization arc so it flexes to answer Hammad's most likely prompts. Read it three times. Sketch the spine. Walk in.</p>
+</div>
+```
+
+## The 60-second sketch (do this on scratch paper before writing)
+
+In the room, before you write anything, sketch this on your exam paper. Takes ~60 seconds. **It's the spine of every paragraph.**
+
+```{=html}
+<pre class="sketch">
+THESIS:  1967 ── 1979 ── 1993 ── ?
+         rupture · delink · defer
+
+¶1  THESIS:    re-Palestinization · Hammad's arc
+¶2  PRE-1967:  inter-state Arab-Israeli (Nasser)
+¶3  1967:      Six-Day War + UNSC 242 → Pal. re-emerges
+¶4  1979:      Camp David (Sep '78) → Egypt-Israel Treaty
+              → DELINKED Palestine
+¶5  1993:      Oslo I (Sep 13) → A/B/C → ISLANDING
+              → final status DEFERRED → never came
+¶6  COUNTER + TIE-BACK to "unfinished business"
+
+NAMES (drop in essay):  Beinin · Shlaim · Morris · Bellin · Goodarzi
+DATES (drop in essay):  Sep 1970 · 1974 Rabat · Jun 7 1981 · Dec 1981 Golan
+                        Sep 5–17 '78 Camp David · Mar '79 Treaty
+                        Sep 13 '93 Oslo · Nov 4 '95 Rabin · Oct 26 '94 Jordan
+</pre>
+```
+
+That's it. Six boxes. Five names. Eight dates. **Sketch this first, then write.** The sketch becomes the topic-sentence map of every paragraph.
+
+## The essay (memorize this)
+
+::: {.thesis}
+**Thesis sentence to memorize verbatim:**
+*"The Arab-Israeli conflict's center of gravity has migrated through three structural ruptures — 1967, 1979, and 1993 — each of which re-Palestinized the conflict by removing Arab states from its center, until what remained was a deferred Palestinian question with no agreed framework for resolution."*
+:::
+
+```{=html}
+<div class="essay-block">
+```
+
+**Paragraph 1 — Thesis & frame.**
+The Arab-Israeli conflict began as an inter-state struggle whose central actors were Arab states acting in the Palestinians' name. Three structural ruptures changed that. **1967** broke the Arab states' military credibility and forced the Palestinians back into history as a distinct national actor — a process Hammad calls **the (Re)-Palestinization** of the conflict. **1979** delinked the Palestinian question from Egyptian leverage when Sadat signed a separate peace. **1993** institutionalized the Palestinian-as-state-actor at Oslo, but did so by deferring every hard question for five years that never produced a settlement. Read together, the three ruptures explain why the conflict today is *more* Palestinian-centered than it was in 1948 and *less* solvable through the inter-state diplomacy that produced Camp David.
+
+**Paragraph 2 — Before 1967, the inter-state frame.**
+Pre-1967, the Arab-Israeli conflict was carried by Arab states, especially Nasser's Egypt. The 1948 War, the 1956 Suez crisis, and the rhetoric of Arab nationalism all framed Palestine as an Arab cause that Arab armies would resolve. The Palestinians themselves had no recognized political body capable of negotiating; the PLO existed (founded 1964) but answered to Arab capitals more than to Palestinian leadership. As Avi Shlaim and Benny Morris later showed using newly declassified Israeli archives, even the *inter-state* frame masked pre-1948 understandings — King Abdullah I's pre-war talks with the Yishuv shaped the war's outcome more than the public Arab unity rhetoric admitted (Shlaim 1988; Morris 1988).
+
+**Paragraph 3 — 1967 as the founding rupture.**
+The Six-Day War destroyed the Arab states' claim to be the bearer of Palestinian liberation. Israel took the West Bank, Gaza, the Sinai, and the Golan; **UNSC 242** introduced the "land for peace" doctrine; the Arab regimes' credibility collapsed. Into the vacuum stepped a transformed PLO under Arafat, which the **1974 Rabat Declaration** recognized as the sole legitimate Palestinian representative, followed by UN observer status the same year. The conflict's center of gravity began shifting from inter-state to Palestinian-centered. Israel's **invincibility myth** and its decision to extend settlements into the occupied territories made the shift structural rather than cyclical: each settlement in 1968, 1972, 1978 made a 1967-lines withdrawal more politically costly inside Israel.
+
+**Paragraph 4 — 1979 as the delinking.**
+The **Camp David Accords (Sept 5–17, 1978)** and the **Egyptian-Israeli Peace Treaty (March 1979)** cracked the pan-Arab consensus. Sadat traded full Egyptian normalization for complete Israeli withdrawal from the Sinai within three years. But Hammad's word for what happened to Palestine is **delinked**: the Palestinian question was reduced to "autonomy talks" with no enforceable timeline, while Israel kept the West Bank, Gaza, and the Golan. The cascade was immediate — the Israeli strike on the Iraqi nuclear plant (June 7, 1981), the **annexation of the Golan Heights (December 1981)**, and the **1982 Lebanon War** that expelled the PLO to Tunisia. The Iranian Revolution arrived in the same year, opening a *second* axis of regional politics that would later return through Hezbollah and Syria — an axis Goodarzi (2006) reads as strategic, not sectarian. Egypt's defection didn't resolve the Palestinian question; it removed the strongest Arab leverage that might have.
+
+**Paragraph 5 — 1993 as the deferral.**
+The **Oslo Accords (signed September 13, 1993)** institutionalized the Palestinian-as-state-actor through the Palestinian Authority, the Declaration of Principles, and initial withdrawals from Gaza and Jericho. But Oslo's structure is its weakness: Jerusalem, borders, refugees, settlements, and security arrangements were *all* deferred to a "permanent" negotiation that was supposed to begin May 1996. **Oslo II's Areas A/B/C** produced what Hammad calls **"Islanding"** — Palestinian areas as discontiguous islands inside Israeli-controlled C, where settlement expansion continued freely. **Rabin's assassination (November 4, 1995)** removed the only Israeli leader whose coalition could have closed a final-status deal. By the time the Second Intifada (2000–2005) erupted, Oslo as a living process was over, but the institutional architecture remained — leaving a Palestinian quasi-state with no path to actual sovereignty.
+
+**Paragraph 6 — Counter, rebuttal, and tie-back.**
+One might object that this arc overweights structural ruptures and underweights agency — that Israeli rejectionism and Palestinian factionalism (the PA-Hamas split since 2007) explain the deferral better than the ruptures themselves. The objection is partly right: structural openings don't close themselves. But the deeper point is that each rupture *changed what agency could accomplish*. Bellin (2004) shows that authoritarian Arab regimes survived the post-1967 shift by relying on coercive apparatus rather than legitimacy, which constrained their ability to credibly champion the Palestinian cause. After 1979, Egypt could not. After 1993, the PA could not. After 2024, with Damascus fallen and Iran's land bridge severed, the regional system has lost yet another node that might have generated leverage. **This is part of the unfinished business Hammad's lectures returned to — the question of how a regional system absorbs structural change without resolving its founding ruptures.**
+
+```{=html}
+</div>
+```
+
+## How to flex this essay for different prompts
+
+The essay above is built so you can *re-order or swap one paragraph* and answer most of Hammad's likely prompts. Here's the substitution table:
+
+```{=html}
+<table class="flex-table">
+<thead>
+<tr><th>Prompt type</th><th>Lead paragraph</th><th>Swap in</th><th>Tie-back to</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>(Re)-Palestinization</strong></td>
+  <td>¶1 thesis as written</td>
+  <td>—</td>
+  <td>"unfinished business"</td>
+</tr>
+<tr>
+  <td><strong>Egypt's defection / Camp David</strong></td>
+  <td>¶4 (1979 delinking) leads</td>
+  <td>Open with Sadat at Camp David</td>
+  <td>"the strongest Arab leverage that might have"</td>
+</tr>
+<tr>
+  <td><strong>New Historians + Beinin</strong></td>
+  <td>¶2 (pre-1967) leads</td>
+  <td>Add Beinin paragraph: "history and categories of knowledge" + 1973/Lebanon as the cracks</td>
+  <td>Progress vs. pessimism</td>
+</tr>
+<tr>
+  <td><strong>Oslo failure</strong></td>
+  <td>¶5 (1993 deferral) leads</td>
+  <td>Open with the Rabin/Arafat handshake; expand A/B/C "Islanding"</td>
+  <td>Quasi-state with no path</td>
+</tr>
+<tr>
+  <td><strong>Why Egypt + Jordan but not Syria</strong></td>
+  <td>¶4 leads + add Jordan/Syria contrast</td>
+  <td>Replace 1982 Lebanon line with: "Jordan signed Oct 26, 1994 (pre-1948 Abdullah understandings); Syria stalled on June 4, 1967 lines + Dec 1981 Golan annexation"</td>
+  <td>"Each Arab state had a different price"</td>
+</tr>
+<tr>
+  <td><strong>Compare two wars</strong></td>
+  <td>¶3 (1967 rupture) leads</td>
+  <td>Compare 1967 vs 1973: invincibility myth → punctured → diplomatic opening</td>
+  <td>"Wars don't resolve structural conflicts; they shift their venue"</td>
+</tr>
+</tbody>
+</table>
+```
+
+## The Beinin paragraph (memorize as a swap-in)
+
+If the prompt asks about the New Historians or methodology, drop this paragraph after ¶2:
+
+> *"Joel Beinin's reading of the New Historians — Morris, Pappé, Flapan, Shlaim, and Lustick — frames the 1980s archival turn as a question of 'history and categories of knowledge.' What changed wasn't the events of 1948 but what Israeli scholars could publicly claim. The 1973 War punctured the invincibility myth; the 1982 invasion of Lebanon and the death of Israeli soldiers in a war of choice cracked open public discourse. The four points of contention — British policy, military balance, the refugee problem, and Israeli-Jordanian pre-war understandings — are all empirical claims now grounded in declassified Israeli state archives. Beinin reads this as a story of 'progress vs. pessimism': what the New Historians proved was that the official Israeli narrative had been ideologically curated, not just historically incomplete."*
+
+That's ~140 words. Memorize it. It's its own answer if Hammad asks about historiography.
+
+## Three openers (pick by prompt)
+
+```{=html}
+<div class="opener-grid">
+  <div class="opener-card">
+    <h4>Opener A — Standard</h4>
+    <p>"The Arab-Israeli conflict's center of gravity has migrated through three structural ruptures — 1967, 1979, and 1993 — each of which re-Palestinized the conflict…"</p>
+  </div>
+  <div class="opener-card">
+    <h4>Opener B — Question-led</h4>
+    <p>"To ask why the Arab-Israeli conflict became more Palestinian-centered after 1967 is really to ask three connected questions: who was its central actor, what was its bargaining unit, and where its legitimacy lay. Each of three ruptures…"</p>
+  </div>
+  <div class="opener-card">
+    <h4>Opener C — Source-led</h4>
+    <p>"Joel Beinin's reading of the Israeli New Historians frames the post-1973 archival turn as a shift in 'categories of knowledge.' Reading the regional system through that frame, three ruptures stand out — 1967, 1979, 1993 — each of which…"</p>
+  </div>
+</div>
+```
+
+## Three closers (pick by tone)
+
+```{=html}
+<div class="opener-grid">
+  <div class="opener-card">
+    <h4>Closer A — The unfinished business</h4>
+    <p>"This is part of the unfinished business Hammad's lectures returned to — the question of how a regional system absorbs structural change without resolving its founding ruptures."</p>
+  </div>
+  <div class="opener-card">
+    <h4>Closer B — The deferred quasi-state</h4>
+    <p>"What Oslo institutionalized — a Palestinian quasi-state with no path to sovereignty — is what (Re)-Palestinization without resolution looks like in 2026."</p>
+  </div>
+  <div class="opener-card">
+    <h4>Closer C — The structural reading</h4>
+    <p>"The arc from 1967 to 1993 to 2024 isn't a sequence of failures but a single structural process: each rupture removed an actor from the center while leaving the founding rupture — 1948 — exactly where it was."</p>
+  </div>
+</div>
+```
+
+## Memorize check (do this twice before the exam)
+
+```{=html}
+<ol class="memo-check">
+  <li>Recite the <strong>thesis sentence</strong> verbatim.</li>
+  <li>Sketch the <strong>6-paragraph spine</strong> on paper from memory.</li>
+  <li>List the <strong>five names</strong>: Beinin · Shlaim · Morris · Bellin · Goodarzi.</li>
+  <li>List the <strong>eight dates</strong>: 1967 · 1973 · Sept 1978 · March 1979 · 1974 · Dec 1987 · Sept 13 1993 · Oct 26 1994.</li>
+  <li>Recite the <strong>Beinin paragraph</strong> verbatim.</li>
+  <li>Pick a closer and recite it verbatim.</li>
+</ol>
+```
+
+If you can do all six in five minutes without notes, you have the essay cold. Walk in.
+
+```{=html}
+<style>
+.sketch {
+  background: var(--bs-body-bg);
+  border: 2px dashed #990000;
+  border-radius: 12px;
+  padding: 1.4rem;
+  font-family: ui-monospace, "JetBrains Mono", monospace;
+  font-size: .9rem;
+  line-height: 1.7;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.essay-block {
+  border: 1px solid var(--bs-border-color);
+  border-left: 5px solid #990000;
+  border-radius: 12px;
+  padding: 1.6rem 1.8rem;
+  background: var(--bs-body-bg);
+  margin: 1.5rem 0;
+  line-height: 1.65;
+}
+.essay-block p {
+  margin: 0 0 1rem;
+}
+.essay-block p:last-child {
+  margin-bottom: 0;
+}
+.flex-table {
+  width: 100%; border-collapse: collapse; margin: 1.2rem 0;
+  font-size: .92rem;
+}
+.flex-table th, .flex-table td {
+  padding: .6rem .8rem; border-bottom: 1px solid var(--bs-border-color);
+  vertical-align: top; text-align: left;
+}
+.flex-table thead {
+  background: rgba(153,0,0,.06);
+}
+.flex-table th { color: #990000; font-weight: 800; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
+.opener-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.opener-card {
+  border: 1px solid var(--bs-border-color);
+  border-left: 4px solid #FFC72C;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  background: var(--bs-body-bg);
+}
+.opener-card h4 {
+  color: #8a6d00; font-size: .95rem; margin: 0 0 .5rem;
+}
+.opener-card p {
+  font-size: .92rem; line-height: 1.55; margin: 0;
+  font-style: italic;
+}
+.memo-check {
+  background: linear-gradient(180deg, rgba(46,125,50,.06), transparent);
+  border: 1px solid rgba(46,125,50,.4);
+  border-left: 5px solid #2e7d32;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem 1.2rem 2.6rem;
+  margin: 1.5rem 0;
+}
+.memo-check li {
+  margin: .5rem 0;
+}
+</style>
+```
