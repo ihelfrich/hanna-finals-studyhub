@@ -1,0 +1,209 @@
+---
+title: "The Smallest Version"
+subtitle: "Five minutes. Six things. Walk in."
+description: "The minimum viable IR 362 spine — vivid story, hand mnemonic, one thesis sentence, one closer"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">If you remember only this, you can write the essay.</h1>
+  <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">Six dates told as a story you can finish in 60 seconds. Three frames. One thesis sentence. One closer. Five fingers on your right hand, one on your left. That's the whole spine — everything else on this site is gravy. Read this three times. Walk in.</p>
+</div>
+```
+
+## Story you tell yourself in 60 seconds
+
+Read this aloud. Twice. The dates are not bullet points — they are characters in a sentence that keeps going. The brain remembers a story.
+
+::: {.smallstory}
+
+**In 1948, a state was born and another was broken** — the Nakba. *(That's the founding rupture. Hold it.)*
+
+**In 1967, six days changed the map** — Israel took the West Bank, Gaza, the Sinai, and the Golan. The Arab states' credibility cracked, and the Palestinians began to come back into history on their own terms.
+
+**In 1979, Sadat shook a hand and changed everything** — the Egyptian-Israeli peace treaty broke the pan-Arab consensus and *delinked* the Palestinian question from Egyptian leverage.
+
+**In 1993, three men stood on the South Lawn** — Rabin, Clinton, Arafat — and Oslo created a Palestinian quasi-state by deferring every hard question for five years. The five years became forever.
+
+**In 2020, the price of peace changed** — the Abraham Accords swapped "a Palestinian state" for "Iran-deterrence and economic upside." The Saudis didn't sign.
+
+**On December 8, 2024, Damascus fell** — Iran's land bridge to Hezbollah severed. The carousel kept turning, but with one less rider.
+
+:::
+
+```{=html}
+<aside class="recite-aloud">
+  <h4>Recite this in 30 seconds</h4>
+  <p class="rhyme">
+    <strong>Forty-eight</strong>: born and broken ·
+    <strong>Sixty-seven</strong>: six-day shock ·
+    <strong>Seventy-nine</strong>: Sadat shakes hands ·
+    <strong>Ninety-three</strong>: Oslo on the lawn ·
+    <strong>Twenty-twenty</strong>: the price flips ·
+    <strong>Twelve-eight twenty-four</strong>: Damascus down.
+  </p>
+  <p class="hum">Six beats. Repeat three times. The rhythm is the memory.</p>
+</aside>
+```
+
+## The hand mnemonic
+
+You have ten fingers. You only need six. Six dates, six fingers — and they are *in order*, left to right, just like the timeline.
+
+```{=html}
+<div class="hand-mnemonic">
+  <div class="hand-row">
+    <div class="finger"><div class="finger-label">RIGHT THUMB</div><div class="finger-year">1948</div><div class="finger-tag">Born &amp; broken</div></div>
+    <div class="finger"><div class="finger-label">RIGHT INDEX</div><div class="finger-year">1967</div><div class="finger-tag">Six-day shock</div></div>
+    <div class="finger"><div class="finger-label">RIGHT MIDDLE</div><div class="finger-year">1979</div><div class="finger-tag">Sadat shakes</div></div>
+    <div class="finger"><div class="finger-label">RIGHT RING</div><div class="finger-year">1993</div><div class="finger-tag">Oslo on lawn</div></div>
+    <div class="finger"><div class="finger-label">RIGHT PINKY</div><div class="finger-year">2020</div><div class="finger-tag">Price flips</div></div>
+    <div class="finger left-thumb"><div class="finger-label">LEFT THUMB</div><div class="finger-year">12·8·24</div><div class="finger-tag">Damascus down</div></div>
+  </div>
+</div>
+```
+
+If your mind blanks in the room: put your right hand on the desk, look down, and tap each finger. The story comes back.
+
+## Three frames, three vivid images
+
+Drop the four. Three is enough. Each one is a single picture you carry with you.
+
+```{=html}
+<div class="three-frames">
+  <div class="vivid-frame">
+    <div class="frame-emoji">🛡️</div>
+    <h3>Bellin → Bouncers</h3>
+    <p class="frame-year">2004</p>
+    <p>Picture <strong>bouncers at the door of an Arab regime</strong> — military, secret police, riot police. The regime survives because of who's at the door, not because anyone loves it. <em>Use this for any "why didn't the Arab Spring work" question.</em></p>
+  </div>
+  <div class="vivid-frame">
+    <div class="frame-emoji">⛽</div>
+    <h3>Mitchell → Mineral</h3>
+    <p class="frame-year">2011</p>
+    <p>Picture a <strong>black pipeline running under the region</strong>. Coal democratized labor. Oil concentrates power. The MENA region is "the most-penetrated subsystem" because of those pipes. <em>Use this for any US power / sanctions / structural-critique question.</em></p>
+  </div>
+  <div class="vivid-frame">
+    <div class="frame-emoji">🤝</div>
+    <h3>Goodarzi → Glue</h3>
+    <p class="frame-year">2006</p>
+    <p>Picture <strong>Iran and Syria glued together</strong> — by mutual threat, not by sect. Someone whispers "they're allies because both are Shia"; you shake your head. It was always strategy. <em>Use this for Iran-Syria, axis of resistance, or December 2024 collapse.</em></p>
+  </div>
+</div>
+```
+
+::: {.callout-tip}
+**One more, only if you have time:** *Beinin* — "history and categories of knowledge." If the prompt asks about the New Historians or 1948 historiography, drop his name and that exact phrase.
+:::
+
+## One thesis sentence (four fill-in slots)
+
+This sentence works for almost any prompt. The four highlighted words are the only things you adapt to the specific question.
+
+::: {.fillthesis}
+> "In 2026, the Arab-Israeli conflict has been reshaped by **[1967]** — *the founding shock* — through **[1979]** — *Egypt's defection* — and **[1993]** — *Oslo's deferral* — leaving **[a Palestinian question]** that is more central to the regional system than ever before, and less solvable than at any moment since 1948."
+:::
+
+You can substitute the bracketed terms. For example, if the prompt is about the Abraham Accords, you'd write *"by the API of 2002, the Abraham Accords of 2020, and the post-Oct-7 freeze, leaving a Palestinian question..."*
+
+The structure stays. The words flex.
+
+## One counterargument move
+
+Every essay needs a moment where you say "one might object…" and then beat the objection. **Memorize this exact sentence.** It works against almost any objection.
+
+::: {.fillthesis style="border-left-color:#555;background:rgba(85,85,85,.06);"}
+> *"One might object that this account overweights structure and underweights agency. The objection is partly right — structural openings don't close themselves — but the deeper point is that each rupture changed what agency could accomplish, which is why the same actors produce different outcomes at different moments."*
+:::
+
+That's it. One paragraph. Beats almost any "but what about X" question.
+
+## One closer (drop this as the last sentence)
+
+::: {.fillthesis style="border-left-color:#2e7d32;background:rgba(46,125,50,.06);"}
+> *"This is part of the unfinished business Hammad's lectures returned to — the question of how a regional system absorbs structural change without resolving its founding ruptures."*
+:::
+
+That sentence signals you read his slides. He'll see it. **Don't skip it.**
+
+## If you blank in the room
+
+Three reset moves, in order:
+
+1. **Stop writing.** Put the pen down. Look at the desk for ten seconds.
+2. **Tap your right thumb.** Say "1948 — born and broken." Then your index — "1967 — six-day shock." The whole story comes back through your hand.
+3. **Write *one* sentence on the page** — any sentence, even just *"This question is really about [something]."* The first sentence breaks the freeze.
+
+## Memorize check (90 seconds)
+
+```{=html}
+<ol class="memo-check">
+  <li>Recite the 6-date story aloud, in order.</li>
+  <li>Recite the rhythmic cadence: "Forty-eight: born and broken · Sixty-seven: six-day shock · Seventy-nine: Sadat shakes hands · Ninety-three: Oslo on the lawn · Twenty-twenty: price flips · Twelve-eight twenty-four: Damascus down."</li>
+  <li>Tap your right hand: thumb 1948, index 1967, middle 1979, ring 1993, pinky 2020 · left thumb 12·8·24.</li>
+  <li>Name the three frames: <strong>Bouncers · Mineral · Glue</strong>.</li>
+  <li>Say the thesis sentence aloud, swapping in the four bracketed terms.</li>
+  <li>Say the closer: "This is part of the unfinished business…"</li>
+</ol>
+```
+
+If you can do all six in 90 seconds, you have what you need. Walk in.
+
+```{=html}
+<style>
+.smallstory {
+  background: linear-gradient(180deg, rgba(46,125,50,.06), transparent);
+  border: 1px solid rgba(46,125,50,.4); border-left: 5px solid #2e7d32;
+  border-radius: 12px; padding: 1.4rem 1.8rem; margin: 1.5rem 0;
+  font-size: 1.05rem; line-height: 1.7;
+}
+.smallstory p { margin: 0 0 .9rem; }
+.smallstory p:last-child { margin-bottom: 0; }
+.smallstory p strong { color: #1b5e20; }
+.recite-aloud {
+  background: linear-gradient(135deg, #5a0000 0%, #990000 100%); color: white;
+  border-radius: 12px; padding: 1.4rem 1.6rem; margin: 1.5rem 0;
+  box-shadow: 0 8px 22px rgba(153,0,0,.22);
+}
+.recite-aloud h4 { color: #FFC72C; margin: 0 0 .8rem; font-size: 1rem; letter-spacing: .04em; text-transform: uppercase; font-weight: 800; }
+.recite-aloud .rhyme { font-size: 1.05rem; line-height: 1.85; margin: 0 0 .7rem; color: rgba(255,255,255,.95); }
+.recite-aloud .rhyme strong { color: #FFC72C; }
+.recite-aloud .hum { font-size: .88rem; color: rgba(255,255,255,.78); margin: 0; font-style: italic; }
+.hand-mnemonic { margin: 1.5rem 0; padding: 1.2rem; background: var(--bs-secondary-bg); border-radius: 12px; }
+.hand-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: .6rem; }
+.finger {
+  background: var(--bs-body-bg); border: 1px solid var(--bs-border-color);
+  border-top: 4px solid #990000; border-radius: 8px;
+  padding: .7rem .5rem; text-align: center;
+}
+.finger.left-thumb { border-top-color: #2e7d32; }
+.finger-label { font-size: .65rem; color: var(--bs-secondary-color); font-weight: 700; letter-spacing: .05em; text-transform: uppercase; margin-bottom: .25rem; }
+.finger-year { font-size: 1.15rem; font-weight: 800; color: #990000; line-height: 1.1; margin-bottom: .25rem; font-variant-numeric: tabular-nums; }
+.finger.left-thumb .finger-year { color: #2e7d32; }
+.finger-tag { font-size: .78rem; line-height: 1.3; color: var(--bs-body-color); }
+@media (max-width: 700px) { .hand-row { grid-template-columns: repeat(3, 1fr); } }
+.three-frames {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem; margin: 1.5rem 0;
+}
+.vivid-frame {
+  background: var(--bs-body-bg); border: 1px solid var(--bs-border-color);
+  border-left: 5px solid #FFC72C; border-radius: 12px;
+  padding: 1.1rem 1.3rem; transition: transform .15s ease, box-shadow .15s ease;
+}
+.vivid-frame:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.06); }
+.vivid-frame .frame-emoji { font-size: 2.2rem; line-height: 1; margin-bottom: .35rem; }
+.vivid-frame h3 { color: #990000; margin: 0 0 .15rem; font-size: 1.1rem; }
+.vivid-frame .frame-year { color: var(--bs-secondary-color); font-size: .82rem; font-weight: 700; margin: 0 0 .55rem; }
+.vivid-frame p { font-size: .92rem; line-height: 1.55; margin: 0; }
+.fillthesis {
+  background: rgba(153,0,0,.05); border-left: 5px solid #990000;
+  border-radius: 8px; padding: 1.2rem 1.4rem; margin: 1.2rem 0;
+  font-size: 1.02rem; line-height: 1.65;
+}
+.fillthesis blockquote, .fillthesis > p { margin: 0; }
+</style>
+```

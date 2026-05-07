@@ -34,6 +34,8 @@ website:
         text: "🎯 Tonight"
       - text: "📘 IR 362"
         menu:
+          - href: ir362/smallest-version.qmd
+            text: "🌱 The Smallest Version"
           - href: ir362/the-essay.qmd
             text: "✍️ The Essay (memorize)"
           - href: ir362/slides-vii-plus.qmd
@@ -138,6 +140,7 @@ website:
       contents:
         - section: "Synthesis"
           contents:
+            - ir362/smallest-version.qmd
             - ir362/the-essay.qmd
             - ir362/slides-vii-plus.qmd
             - ir362/exam-day.qmd

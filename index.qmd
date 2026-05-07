@@ -154,10 +154,15 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/smallest-version.html" class="cram-button" style="border-color:#2e7d32;color:#2e7d32;">
+      <div class="emoji">🌱</div>
+      <h4>The Smallest Version</h4>
+      <p>If you only have 5 minutes · 6 dates as a story · hand mnemonic · 3 frames · 1 thesis</p>
+    </a>
     <a href="ir362/the-essay.html" class="cram-button">
       <div class="emoji">✍️</div>
       <h4>The Essay (memorize)</h4>
-      <p>700-word essay that flexes for most prompts · 60-second sketch · openers + closers</p>
+      <p>9 modular blocks · 6 recipe cards · pick the recipe and write</p>
     </a>
     <a href="ir362/slides-vii-plus.html" class="cram-button">
       <div class="emoji">📌</div>
