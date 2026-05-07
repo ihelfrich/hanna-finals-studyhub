@@ -1,0 +1,455 @@
+---
+title: "The Sentence Bank"
+subtitle: "Drop-in sentences. Memorize the ones you like. Glue them together in the room."
+description: "Pre-built sentences for every part of an IR 362 essay — by function, not by topic"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">Don't memorize keywords. Memorize sentences.</h1>
+  <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">A whole sentence is easier to remember than a list of facts. Pick five or six you like from each section. Read them aloud until they feel natural. In the room, glue them together — that <em>is</em> the essay. The keywords come along automatically because they're already inside the sentences.</p>
+</div>
+```
+
+## How to use this page
+
+1. **Read the whole bank once** — about ten minutes.
+2. **Mark a star next to the 1-2 sentences in each section that feel most natural in your voice.** Memorize those.
+3. **In the room**, pick one Opener · 3-4 Evidence sentences · 1 Frame-deployer · 1 Counterargument · 1 Rebuttal · 1 Closer. **Glue them together. That's a complete essay paragraph-by-paragraph.**
+4. The keywords (Bellin · Goodarzi · 1967 · Oslo · API · Damascus) are already baked into the sentences. You don't need to *also* remember the keyword and *then* build a sentence. The sentence carries the keyword.
+
+::: {.callout-tip}
+**The trick:** under exam pressure, your brain wants a sentence-shaped object to grab. Lists scatter. Sentences hold.
+:::
+
+---
+
+## Section 1 — Openers (pick 1)
+
+The first sentence of the essay. Each of these introduces the master arc.
+
+```{=html}
+<div class="sb-grid">
+
+<div class="sb-card sb-opener">
+  <div class="sb-tag">Opener · standard</div>
+  <p>"The Arab-Israeli conflict's center of gravity has migrated through three structural ruptures — 1967, 1979, and 1993 — each of which reshaped what counts as the conflict's central actor."</p>
+</div>
+
+<div class="sb-card sb-opener">
+  <div class="sb-tag">Opener · question-led</div>
+  <p>"To ask why the Arab-Israeli conflict became more Palestinian-centered after 1967 is really to ask three questions: who was the central actor, what was the bargaining unit, and where did legitimacy lie."</p>
+</div>
+
+<div class="sb-card sb-opener">
+  <div class="sb-tag">Opener · for the (Re)-Palestinization prompt</div>
+  <p>"What Hammad calls the (Re)-Palestinization of the conflict is best read as a structural process, not a sequence of events — three ruptures across three decades that each removed an Arab state from its center."</p>
+</div>
+
+<div class="sb-card sb-opener">
+  <div class="sb-tag">Opener · for the Camp David / delinking prompt</div>
+  <p>"The Egyptian-Israeli Peace Treaty of March 1979 is best read not as the end of the Arab-Israeli conflict but as the moment that delinked it from Egyptian leverage and forced the Palestinian question to stand alone."</p>
+</div>
+
+<div class="sb-card sb-opener">
+  <div class="sb-tag">Opener · for the Oslo prompt</div>
+  <p>"The Oslo Accords of September 1993 institutionalized a Palestinian quasi-state by deferring every hard question for five years — and the deferral became the design."</p>
+</div>
+
+<div class="sb-card sb-opener">
+  <div class="sb-tag">Opener · for the New Historians / Beinin prompt</div>
+  <p>"Joel Beinin reads the Israeli New Historians as a question of categories of knowledge — what scholars could publicly claim once the 1973 War and the 1982 invasion of Lebanon had cracked the official narrative open."</p>
+</div>
+
+</div>
+```
+
+---
+
+## Section 2 — Throughline-setters (pick 1, drop early)
+
+These set up the arc that every later paragraph will return to.
+
+```{=html}
+<div class="sb-grid">
+
+<div class="sb-card sb-arc">
+  <div class="sb-tag">Throughline · the (Re)-Palestinization arc</div>
+  <p>"Each rupture re-Palestinized the conflict by removing Arab states from its center, until what remained was a Palestinian question with no agreed framework for resolution."</p>
+</div>
+
+<div class="sb-card sb-arc">
+  <div class="sb-tag">Throughline · the carousel</div>
+  <p>"What looks like a sequence of failures is better read as a single equilibrium turning in place — Hammad's carousel — where escalation, ceasefire, and normalization-talks rotate without changing the underlying structure."</p>
+</div>
+
+<div class="sb-card sb-arc">
+  <div class="sb-tag">Throughline · the unfinished business</div>
+  <p>"This is the unfinished business Hammad's lectures kept returning to: how a regional system absorbs structural change without resolving its founding ruptures."</p>
+</div>
+
+</div>
+```
+
+---
+
+## Section 3 — Date-anchored evidence sentences
+
+The factual body of the essay. Each sentence does one thing: drops a specific date with the context that makes it matter.
+
+### 1948 + the founding rupture
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"On 14 May 1948, Ben-Gurion declared the state of Israel; by 1949 around 750,000 Palestinians were displaced — the founding rupture the conflict has not metabolized since."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"Avi Shlaim and Benny Morris, working in newly declassified Israeli archives, showed that pre-1948 understandings between King Abdullah I and the Yishuv shaped the war's outcome more than the public Arab unity rhetoric admitted."</p>
+  </div>
+</div>
+```
+
+### 1967 + the (Re)-Palestinization
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"The June 1967 War took six days and four territories — the West Bank, Gaza, the Sinai, and the Golan — and produced UNSC 242, whose ambiguous 'land for peace' formula has structured every diplomatic move since."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"With the Arab states' military credibility broken, the 1974 Rabat Declaration recognized the PLO as the sole legitimate Palestinian representative, and the conflict's center of gravity began to shift from inter-state to Palestinian-centered."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"By the time of the First Intifada in December 1987 and the Palestinian Declaration of Independence in November 1988, what had been an Arab-Israeli conflict had become — structurally — a Palestinian-Israeli one."</p>
+  </div>
+</div>
+```
+
+### 1979 + the delinking
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"The Camp David Accords of September 1978 and the Egyptian-Israeli Peace Treaty of March 1979 cracked the pan-Arab consensus and reduced the Palestinian question to autonomy talks with no enforceable timeline — what Hammad calls delinking."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"The cascade was immediate: the Israeli strike on Iraq's nuclear plant on 7 June 1981, the annexation of the Golan in December 1981, and the 1982 Lebanon War that expelled the PLO from Beirut to Tunisia."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"Egypt's defection didn't resolve the Palestinian question — it removed the strongest Arab leverage that might have."</p>
+  </div>
+</div>
+```
+
+### 1993 + the deferral
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"The Oslo Declaration of Principles, signed on 13 September 1993, established the Palestinian Authority and initial withdrawals from Gaza and Jericho — but deferred Jerusalem, borders, refugees, settlements, and security to a permanent negotiation that never came."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"Oslo II's Areas A, B, and C produced what Hammad calls Islanding — Palestinian areas as discontiguous islands inside Israeli-controlled C, where settlement expansion continued freely."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"Rabin's assassination on 4 November 1995 removed the only Israeli leader whose coalition could plausibly have closed a final-status deal."</p>
+  </div>
+</div>
+```
+
+### 2020 + the pivot
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"The Abraham Accords — UAE on 13 August 2020, Bahrain on 11 September, Sudan on 23 October, Morocco on 10 December — inverted the Arab Peace Initiative's sequencing: normalization without a Palestinian state, the price of peace recalibrated."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"The 2002 Arab Peace Initiative had offered full Arab normalization in exchange for full Israeli withdrawal and a Palestinian state; the 2020 Accords routed around it without Saudi Arabia, the state that had drafted it."</p>
+  </div>
+</div>
+```
+
+### Egypt vs Jordan vs Syria
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"The Israeli-Jordanian Peace Treaty of 26 October 1994 closed because the dispute was bounded — water, border, security — and built on pre-1948 understandings that Avi Shlaim documents in Collusion across the Jordan."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"The Israeli-Syrian track never closed because the Golan, annexed in December 1981, became inseparable from Israeli strategic doctrine; Syria's irreducible demand for withdrawal to the 4 June 1967 lines collided with that fact."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"Trump's recognition of Israeli sovereignty over the Golan in March 2019 made the impasse near-permanent, which is why even the post-Assad transition in 2024-25 has not generated diplomatic motion."</p>
+  </div>
+</div>
+```
+
+### 2024 + the engine
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-evidence">
+    <p>"On 8 December 2024, Damascus fell to an HTS-led offensive, severing Iran's land bridge to Hezbollah and ending the strategic alliance Goodarzi (2006) reads as the linchpin between the Gulf-security and Israeli-Lebanese subsystems."</p>
+  </div>
+  <div class="sb-card sb-evidence">
+    <p>"Assad's regime collapsed not because HTS was strong but because its scaffolding — Hezbollah, the IRGC ground presence, Russian air power — had collapsed first."</p>
+  </div>
+</div>
+```
+
+---
+
+## Section 4 — Frame-deployer sentences
+
+These drop a frame (author + year) into your essay without making it sound forced. Memorize one or two from each.
+
+### Bellin (2004) — coercive apparatus
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-frame">
+    <p>"Bellin (2004) shows that the durability of authoritarian regimes in the Middle East depends on the will and capacity of the coercive apparatus — military, security, and police — which is why Egypt's reversion in 2013 was structurally available in a way Tunisia's was not."</p>
+  </div>
+  <div class="sb-card sb-frame">
+    <p>"Following Bellin's argument, what looks like Arab states' inability to credibly champion the Palestinian cause is better read as the price of regime survival: legitimacy was traded for coercive capacity."</p>
+  </div>
+</div>
+```
+
+### Mitchell (2011) — Carbon Democracy
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-frame">
+    <p>"Mitchell (2011) argues that energy infrastructure shapes political possibilities — coal democratized labor, oil concentrates power — and that the Middle East is the most-penetrated subsystem of US power because of those pipes."</p>
+  </div>
+  <div class="sb-card sb-frame">
+    <p>"Reading Mitchell's structuralism into the post-1979 cascade explains why settlement expansion and Israeli annexation accelerated even as US sponsorship grew: the pipelines pre-committed the alignment."</p>
+  </div>
+</div>
+```
+
+### Goodarzi (2006) — Iran-Syria
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-frame">
+    <p>"Goodarzi (2006) reads the Iran-Syria alliance as strategic rather than sectarian — built on mutual threat perception, not Shia identity — which is why its rupture in December 2024 reshaped the regional system rather than merely a religious bloc."</p>
+  </div>
+  <div class="sb-card sb-frame">
+    <p>"The lazy reading of the axis of resistance is sectarian; Goodarzi's reading is strategic, and his frame is the one that makes the December 2024 collapse legible as a structural event, not a sectarian outcome."</p>
+  </div>
+</div>
+```
+
+### Beinin — categories of knowledge
+
+```{=html}
+<div class="sb-grid">
+  <div class="sb-card sb-frame">
+    <p>"Joel Beinin reads the Israeli New Historians — Morris, Pappé, Flapan, Shlaim, Lustick — as a question of 'history and categories of knowledge': what changed in the 1980s wasn't 1948, but what Israeli scholars could publicly claim about it."</p>
+  </div>
+  <div class="sb-card sb-frame">
+    <p>"For Beinin, the 1973 War punctured Israeli invincibility and the 1982 Lebanon invasion put soldiers in the ground in a war of choice — together they cracked the official narrative open enough for the archives to be read against it."</p>
+  </div>
+</div>
+```
+
+---
+
+## Section 5 — Transition sentences
+
+To move between paragraphs without "first... second... third..." Use these to layer arguments.
+
+```{=html}
+<div class="sb-grid">
+
+<div class="sb-card sb-transition">
+  <p>"This shift was not cyclical but structural — and the next rupture would deepen it."</p>
+</div>
+
+<div class="sb-card sb-transition">
+  <p>"What 1967 had loosened, 1979 broke; what 1979 broke, 1993 institutionalized."</p>
+</div>
+
+<div class="sb-card sb-transition">
+  <p>"The pattern repeats with a different actor."</p>
+</div>
+
+<div class="sb-card sb-transition">
+  <p>"The same frame, applied to the next decade, yields the same answer."</p>
+</div>
+
+<div class="sb-card sb-transition">
+  <p>"What looked like an exit was a recalibration."</p>
+</div>
+
+<div class="sb-card sb-transition">
+  <p>"The structural reading produces a different counterfactual than the agency reading does."</p>
+</div>
+
+</div>
+```
+
+---
+
+## Section 6 — Counterargument + rebuttal pairs
+
+Memorize one pair. Drop them as the second-to-last paragraph of any essay.
+
+```{=html}
+<div class="sb-grid">
+
+<div class="sb-card sb-counter">
+  <div class="sb-tag">Counter — agency vs structure</div>
+  <p>"One might object that this account overweights structure and underweights agency — that Israeli rejectionism and Palestinian factionalism explain the deferral better than the ruptures themselves."</p>
+  <p class="sb-rebut"><strong>Rebuttal:</strong> "The objection is partly right — structural openings don't close themselves — but the deeper point is that each rupture changed what agency could accomplish, which is why the same actors produce different outcomes at different moments."</p>
+</div>
+
+<div class="sb-card sb-counter">
+  <div class="sb-tag">Counter — overstating Iran's role</div>
+  <p>"One might object that this account overstates Iran's centrality, and that Saudi-Egyptian dynamics or Israeli-Palestinian agency drive the regional system more than Tehran does."</p>
+  <p class="sb-rebut"><strong>Rebuttal:</strong> "The objection has weight, but Iran is structurally central not because it is the most powerful actor but because it is the only one with security interests in both subregional spheres simultaneously — which is why Damascus's fall reverberated across both at once."</p>
+</div>
+
+<div class="sb-card sb-counter">
+  <div class="sb-tag">Counter — the Accords mattered less than claimed</div>
+  <p>"One might object that the Abraham Accords were diplomatic theater more than structural change — four bilateral deals, no Saudi Arabia, no Palestinian dimension."</p>
+  <p class="sb-rebut"><strong>Rebuttal:</strong> "What the Accords changed was not the regional balance of power but the regional balance of *legitimacy*: they removed the Palestinian-state precondition from the public price of normalization, and that linguistic shift restructured what Arab regimes could and could not say."</p>
+</div>
+
+</div>
+```
+
+---
+
+## Section 7 — Closers
+
+Pick one. Memorize it verbatim. Drop as the last sentence.
+
+```{=html}
+<div class="sb-grid">
+
+<div class="sb-card sb-closer">
+  <div class="sb-tag">Closer · the unfinished business (use this one if unsure)</div>
+  <p>"This is part of the unfinished business Hammad's lectures returned to — the question of how a regional system absorbs structural change without resolving its founding ruptures."</p>
+</div>
+
+<div class="sb-card sb-closer">
+  <div class="sb-tag">Closer · the deferred quasi-state</div>
+  <p>"What Oslo institutionalized — a Palestinian quasi-state with no path to sovereignty — is what (Re)-Palestinization without resolution looks like in 2026."</p>
+</div>
+
+<div class="sb-card sb-closer">
+  <div class="sb-tag">Closer · the structural reading</div>
+  <p>"The arc from 1967 to 1993 to 2024 is not a sequence of failures but a single structural process: each rupture removed an actor from the center while leaving the founding rupture — 1948 — exactly where it was."</p>
+</div>
+
+<div class="sb-card sb-closer">
+  <div class="sb-tag">Closer · the regional system</div>
+  <p>"Whatever the next decade produces in Riyadh, Tehran, or Damascus, the regional system has already shown it can absorb a great deal without changing its structure — and that is the analytic puzzle Hammad's framework is built to address."</p>
+</div>
+
+</div>
+```
+
+---
+
+## How to glue them together
+
+Here's an example essay paragraph using nothing but sentences from the bank — it would take 90 seconds to write.
+
+::: {.example-paragraph}
+**Prompt:** *"How did Camp David reshape regional politics?"*
+
+**Paragraph from the bank:**
+
+> [**Opener · for the Camp David prompt**] *"The Egyptian-Israeli Peace Treaty of March 1979 is best read not as the end of the Arab-Israeli conflict but as the moment that delinked it from Egyptian leverage and forced the Palestinian question to stand alone."*
+>
+> [**Date-anchored evidence**] *"The Camp David Accords of September 1978 and the Egyptian-Israeli Peace Treaty of March 1979 cracked the pan-Arab consensus and reduced the Palestinian question to autonomy talks with no enforceable timeline — what Hammad calls delinking."*
+>
+> [**Date-anchored evidence**] *"The cascade was immediate: the Israeli strike on Iraq's nuclear plant on 7 June 1981, the annexation of the Golan in December 1981, and the 1982 Lebanon War that expelled the PLO from Beirut to Tunisia."*
+>
+> [**Frame-deployer · Bellin**] *"Following Bellin's argument, what looks like Arab states' inability to credibly champion the Palestinian cause is better read as the price of regime survival: legitimacy was traded for coercive capacity."*
+>
+> [**Counter + Rebuttal · agency vs structure**] *"One might object that this account overweights structure and underweights agency... [full rebuttal as above]."*
+>
+> [**Closer · unfinished business**] *"This is part of the unfinished business Hammad's lectures returned to — the question of how a regional system absorbs structural change without resolving its founding ruptures."*
+
+That's 6 sentences — about 280 words — and it's a complete defensible essay paragraph. Add the same recipe for two more prompts and you have a full essay.
+:::
+
+---
+
+## Memorize check (do this twice)
+
+```{=html}
+<ol class="memo-check">
+  <li>Pick your favorite Opener. Recite it.</li>
+  <li>Pick your favorite throughline-setter. Recite it.</li>
+  <li>Pick three favorite date-anchored evidence sentences (one each from 1967, 1979, 1993). Recite them in order.</li>
+  <li>Pick one frame-deployer sentence. Recite it.</li>
+  <li>Recite the counterargument + rebuttal pair you chose.</li>
+  <li>Recite your chosen closer.</li>
+</ol>
+```
+
+If you can do all six steps in three minutes, you have a full essay's worth of pre-built sentences ready to deploy. The keywords come along for the ride. Walk in.
+
+```{=html}
+<style>
+.sb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: .85rem; margin: 1rem 0; }
+.sb-card {
+  border: 1px solid var(--bs-border-color); border-radius: 10px;
+  padding: 1rem 1.2rem; background: var(--bs-body-bg);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.sb-card:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.06); }
+.sb-card .sb-tag {
+  display: inline-block; font-size: .68rem; font-weight: 800;
+  padding: 3px 8px; border-radius: 999px; margin-bottom: .55rem;
+  letter-spacing: .05em; text-transform: uppercase;
+  font-family: ui-monospace, monospace;
+}
+.sb-card p { font-size: .95rem; line-height: 1.55; margin: 0; }
+.sb-card p + p { margin-top: .6rem; }
+
+.sb-opener { border-left: 5px solid #2563eb; }
+.sb-opener .sb-tag { background: rgba(37,99,235,.12); color: #1e40af; }
+
+.sb-arc { border-left: 5px solid #6b21a8; }
+.sb-arc .sb-tag { background: rgba(107,33,168,.12); color: #6b21a8; }
+
+.sb-evidence { border-left: 5px solid #990000; }
+.sb-evidence p::before { content: "📅 "; opacity: .6; font-size: .9em; }
+
+.sb-frame { border-left: 5px solid #c79100; background: linear-gradient(180deg, rgba(255,199,44,.05), transparent); }
+
+.sb-transition { border-left: 5px solid #0f766e; font-style: italic; }
+
+.sb-counter { border-left: 5px solid #555; }
+.sb-counter .sb-tag { background: rgba(85,85,85,.15); color: #444; }
+.sb-counter .sb-rebut {
+  margin-top: .6rem; padding: .55rem .75rem;
+  background: rgba(46,125,50,.08); border-left: 3px solid #2e7d32;
+  border-radius: 4px; font-size: .92rem;
+}
+
+.sb-closer { border-left: 5px solid #2e7d32; background: linear-gradient(180deg, rgba(46,125,50,.05), transparent); }
+.sb-closer .sb-tag { background: rgba(46,125,50,.12); color: #2e7d32; }
+
+.example-paragraph {
+  background: linear-gradient(180deg, rgba(255,199,44,.08), transparent);
+  border: 1px dashed rgba(255,199,44,.5); border-left: 5px solid #FFC72C;
+  border-radius: 12px; padding: 1.4rem 1.6rem; margin: 1.5rem 0;
+}
+.example-paragraph blockquote { margin: 0; padding-left: 1rem; border-left: 3px solid rgba(0,0,0,.1); }
+.example-paragraph blockquote p { margin: .5rem 0; line-height: 1.6; }
+</style>
+```

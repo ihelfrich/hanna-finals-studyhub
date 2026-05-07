@@ -159,6 +159,11 @@ format:
       <h4>The Smallest Version</h4>
       <p>If you only have 5 minutes · 6 dates as a story · hand mnemonic · 3 frames · 1 thesis</p>
     </a>
+    <a href="ir362/sentence-bank.html" class="cram-button" style="border-color:#2563eb;color:#2563eb;">
+      <div class="emoji">💬</div>
+      <h4>The Sentence Bank</h4>
+      <p>~30 pre-built sentences by function · openers · evidence · frames · counter+rebuttal · closers</p>
+    </a>
     <a href="ir362/the-essay.html" class="cram-button">
       <div class="emoji">✍️</div>
       <h4>The Essay (memorize)</h4>
