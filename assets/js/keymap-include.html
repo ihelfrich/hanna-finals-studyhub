@@ -1,0 +1,105 @@
+<script>
+/* StudyHub keyboard shortcuts — press ? for help */
+(function(){
+  if (typeof document === "undefined") return;
+  let chord = null, chordTimer = null;
+  function rootPrefix(){
+    const a = document.querySelector(".navbar a[href$='index.html'], .navbar a[href$='/']");
+    if (!a) return "./";
+    return a.getAttribute("href").replace(/index\.html$/, "");
+  }
+  function go(href){ window.location.href = rootPrefix() + href; }
+  const targets = {
+    h: "index.html", t: "tonight.html",
+    i: "ir362/final-run.html", f: "ir362/index.html",
+    s: "ir362/sample-answers.html", c: "ir362/cram-sheet.html",
+    a: "acct410x/cheat-sheet.html", e: "econ205/cram-sheet.html",
+    m: "marketing/index.html", r: "reset.html"
+  };
+  function showHelp(){
+    let o = document.getElementById("kbd-help-overlay");
+    if (o){ o.remove(); return; }
+    o = document.createElement("div");
+    o.id = "kbd-help-overlay";
+    o.innerHTML = `<div class="kbd-help-card"><button class="kbd-close" aria-label="Close">×</button>
+      <h3>Keyboard shortcuts</h3>
+      <table>
+        <tr><td><kbd>g</kbd> <kbd>h</kbd></td><td>Home</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>t</kbd></td><td>🎯 Tonight</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>i</kbd></td><td>📘 IR Final Run</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>f</kbd></td><td>IR Framework</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>s</kbd></td><td>IR Sample Answers</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>c</kbd></td><td>IR Cram Sheet</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>a</kbd></td><td>📕 ACCT Cheat</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>e</kbd></td><td>📗 ECON Cram</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>m</kbd></td><td>🛍 Marketing</td></tr>
+        <tr><td><kbd>g</kbd> <kbd>r</kbd></td><td>🌬 Reset</td></tr>
+        <tr><td><kbd>?</kbd></td><td>Toggle this help</td></tr>
+        <tr><td><kbd>Esc</kbd></td><td>Close this help</td></tr>
+      </table>
+      <p class="kbd-hint">Press <kbd>g</kbd>, then a letter within 1.5s.</p></div>`;
+    document.body.appendChild(o);
+    o.querySelector(".kbd-close").addEventListener("click", hideHelp);
+    o.addEventListener("click", (e)=>{ if(e.target===o) hideHelp(); });
+  }
+  function hideHelp(){ document.getElementById("kbd-help-overlay")?.remove(); }
+  document.addEventListener("keydown", (e)=>{
+    const t = (e.target?.tagName || "").toLowerCase();
+    if (t==="input"||t==="textarea"||t==="select"||e.target?.isContentEditable) return;
+    if (e.key==="Escape"){ hideHelp(); return; }
+    if (e.key==="?" || (e.shiftKey && e.key==="/")){ e.preventDefault(); showHelp(); return; }
+    if (chord==="g"){
+      const k = e.key.toLowerCase();
+      if (targets[k]){ e.preventDefault(); go(targets[k]); }
+      chord = null; if (chordTimer) clearTimeout(chordTimer);
+      return;
+    }
+    if (e.key.toLowerCase()==="g" && !e.metaKey && !e.ctrlKey && !e.altKey){
+      chord = "g";
+      if (chordTimer) clearTimeout(chordTimer);
+      chordTimer = setTimeout(()=>{ chord = null; }, 1500);
+    }
+  });
+})();
+</script>
+<style>
+#kbd-help-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.55);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9999; padding: 1rem;
+}
+#kbd-help-overlay .kbd-help-card {
+  background: var(--bs-body-bg); color: var(--bs-body-color);
+  border-radius: 14px; padding: 1.5rem 1.7rem; min-width: 320px; max-width: 460px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.4); position: relative;
+  border: 1px solid var(--bs-border-color);
+}
+#kbd-help-overlay h3 { margin: 0 0 .9rem; color: #990000; font-size: 1.15rem; }
+#kbd-help-overlay table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+#kbd-help-overlay td { padding: .25rem .5rem; }
+#kbd-help-overlay td:first-child { white-space: nowrap; }
+#kbd-help-overlay kbd {
+  display: inline-block; padding: 1px 6px; background: var(--bs-secondary-bg);
+  border: 1px solid var(--bs-border-color); border-radius: 4px;
+  font-family: ui-monospace, monospace; font-size: .82rem;
+}
+#kbd-help-overlay .kbd-hint { font-size: .82rem; color: var(--bs-secondary-color); margin: .9rem 0 0; }
+#kbd-help-overlay .kbd-close {
+  position: absolute; top: .55rem; right: .65rem; background: transparent;
+  border: none; font-size: 1.5rem; cursor: pointer; color: var(--bs-secondary-color);
+  line-height: 1;
+}
+#kbd-help-overlay .kbd-close:hover { color: #990000; }
+.kbd-fab {
+  position: fixed; bottom: 18px; right: 18px;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: #990000; color: #FFC72C; border: none;
+  font-weight: 800; font-size: 1.05rem; cursor: pointer;
+  box-shadow: 0 6px 18px rgba(153,0,0,.32); z-index: 99;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .15s ease;
+}
+.kbd-fab:hover { transform: scale(1.08); }
+@media print { .kbd-fab, #kbd-help-overlay { display: none !important; } }
+</style>
+<button class="kbd-fab" title="Keyboard shortcuts (?)" onclick="document.dispatchEvent(new KeyboardEvent('keydown',{key:'?',shiftKey:true}))">?</button>

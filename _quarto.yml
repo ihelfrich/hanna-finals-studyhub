@@ -32,42 +32,30 @@ website:
         text: Home
       - href: tonight.qmd
         text: "🎯 Tonight"
-      - href: cram-sprint.qmd
-        text: "🏃 Cram Sprint"
-      - href: quick-fire.qmd
-        text: "🔥 Quick-Fire"
-      - href: memorize-cold.qmd
-        text: "🧠 Memorize Cold"
-      - href: print-pack.qmd
-        text: "🖨️ Print Packs"
-      - href: flashcards.qmd
-        text: "🃏 Flashcards"
-      - href: connections.qmd
-        text: "🔗 Connections"
-      - href: glossary.qmd
-        text: "📖 Glossary"
-      - href: curveballs.qmd
-        text: "🎢 Curveballs"
-      - href: accuracy-notes.qmd
-        text: "Source Check"
-      - text: "IR 362"
+      - text: "📘 IR 362"
         menu:
           - href: ir362/final-run.qmd
-            text: "Final Run"
-          - href: ir362/index.qmd
-            text: "Full Framework"
-          - href: ir362/iran-axis.qmd
-            text: Iran & the Axis of Resistance
-          - href: ir362/abraham-accords.qmd
-            text: Abraham Accords & Saudi Track
-          - href: ir362/nash-equilibrium.qmd
-            text: Nash Equilibrium & the Carousel
-          - href: ir362/syria-collapse.qmd
-            text: Syria — Alliance & 2024 Collapse
-          - href: ir362/mock-essays.qmd
-            text: "📝 Mock Essays + Sample Answers"
+            text: "🏃 Final Run"
+          - href: ir362/cram-sheet.qmd
+            text: "🧠 Cram Sheet"
           - href: ir362/sample-answers.qmd
             text: "📑 Full Sample Answers (17)"
+          - href: ir362/mock-essays.qmd
+            text: "📝 Mock Essays"
+          - href: ir362/index.qmd
+            text: "📋 Full Framework"
+          - text: "—— Deep dives ——"
+          - href: ir362/iran-axis.qmd
+            text: "Iran & Axis of Resistance"
+          - href: ir362/abraham-accords.qmd
+            text: "Abraham Accords & Saudi Track"
+          - href: ir362/nash-equilibrium.qmd
+            text: "Nash Equilibrium & the Carousel"
+          - href: ir362/syria-collapse.qmd
+            text: "Syria · Alliance & 2024 Collapse"
+          - text: "—— Reference ——"
+          - href: ir362/frames/index.qmd
+            text: "📚 Hammad's 7 Frames"
           - href: ir362/sources/index.qmd
             text: "📜 Primary Sources"
           - href: ir362/timeline.qmd
@@ -75,53 +63,75 @@ website:
           - href: ir362/maps.qmd
             text: "🗺️ Maps Gallery"
           - href: ir362/concept-graph.qmd
-            text: "🗺️ Concept Graph"
-          - href: ir362/frames/index.qmd
-            text: "📚 Hammad's 7 Frames"
-          - href: ir362/cram-sheet.qmd
-            text: Cram Sheet
+            text: "🕸 Concept Graph"
+          - href: ir362/independent-review.qmd
+            text: "🔍 Gemini Review"
           - href: ir362/print-pack.qmd
             text: "🖨️ Printable Pack"
-      - text: "ECON 205"
-        menu:
-          - href: econ205/index.qmd
-            text: Overview & 5-Day Plan
-          - href: econ205/cram-sheet.qmd
-            text: One-Page Cram Sheet
-          - href: econ205/diagrams.qmd
-            text: Diagram Bank
-          - href: econ205/active-recall.qmd
-            text: Active Recall Bank
-          - href: econ205/mock-exam-a.qmd
-            text: Mock Exam A
-          - href: econ205/mock-exam-b.qmd
-            text: Mock Exam B
-          - href: econ205/killer-traps.qmd
-            text: Killer Traps Drills
-          - href: econ205/problem-bank.qmd
-            text: "📊 Problem Bank (by Chapter)"
-          - href: econ205/print-pack.qmd
-            text: "🖨️ Printable Pack"
-      - text: "ACCT 410"
+      - text: "📕 ACCT 410"
         menu:
           - href: acct410x/index.qmd
-            text: Overview & Strategy
+            text: "Overview & Strategy"
           - href: acct410x/cheat-sheet.qmd
-            text: Cheat Sheet
-          - href: acct410x/walkthroughs.qmd
-            text: Transaction Walkthroughs
-          - href: acct410x/mock-final.qmd
-            text: Mock Final
-          - href: acct410x/trap-drills.qmd
-            text: Trap Drills
+            text: "🧠 Cheat Sheet"
           - href: acct410x/day-of.qmd
-            text: Day-Of Playbook
+            text: "🎯 Day-Of Playbook"
+          - href: acct410x/walkthroughs.qmd
+            text: "Transaction Walkthroughs"
+          - href: acct410x/mock-final.qmd
+            text: "Mock Final"
+          - href: acct410x/trap-drills.qmd
+            text: "Trap Drills"
           - href: acct410x/print-pack.qmd
             text: "🖨️ Printable Pack"
-      - text: "Marketing"
+      - text: "🛍️ Marketing"
         menu:
           - href: marketing/index.qmd
-            text: Overview (syllabus pending)
+            text: "Overview (syllabus pending)"
+      - text: "📗 ECON 205"
+        menu:
+          - href: econ205/index.qmd
+            text: "Overview & 5-Day Plan"
+          - href: econ205/cram-sheet.qmd
+            text: "🧠 One-Page Cram Sheet"
+          - href: econ205/diagrams.qmd
+            text: "Diagram Bank"
+          - href: econ205/active-recall.qmd
+            text: "Active Recall Bank"
+          - href: econ205/mock-exam-a.qmd
+            text: "Mock Exam A"
+          - href: econ205/mock-exam-b.qmd
+            text: "Mock Exam B"
+          - href: econ205/killer-traps.qmd
+            text: "Killer Traps Drills"
+          - href: econ205/problem-bank.qmd
+            text: "📊 Problem Bank (by Chapter)"
+          - href: econ205/independent-review.qmd
+            text: "🔍 Gemini Review"
+          - href: econ205/print-pack.qmd
+            text: "🖨️ Printable Pack"
+      - text: "🛠 Tools"
+        menu:
+          - href: cram-sprint.qmd
+            text: "🏃 Cram Sprint"
+          - href: quick-fire.qmd
+            text: "🔥 Quick-Fire Quiz"
+          - href: memorize-cold.qmd
+            text: "🧠 Memorize Cold"
+          - href: flashcards.qmd
+            text: "🃏 Flashcards"
+          - href: connections.qmd
+            text: "🔗 Cross-Course Connections"
+          - href: glossary.qmd
+            text: "📖 Visual Glossary"
+          - href: curveballs.qmd
+            text: "🎢 Curveballs"
+          - href: print-pack.qmd
+            text: "🖨️ Print Packs"
+          - href: accuracy-notes.qmd
+            text: "✓ Source Check"
+      - href: reset.qmd
+        text: "🌬 Reset"
 
   sidebar:
     - title: "IR 362"
@@ -166,6 +176,16 @@ website:
           contents:
             - ir362/timeline.qmd
             - ir362/maps.qmd
+    - title: "ACCT 410"
+      contents:
+        - acct410x/index.qmd
+        - acct410x/cheat-sheet.qmd
+        - acct410x/day-of.qmd
+        - section: "Practice"
+          contents:
+            - acct410x/walkthroughs.qmd
+            - acct410x/mock-final.qmd
+            - acct410x/trap-drills.qmd
     - title: "ECON 205"
       contents:
         - econ205/index.qmd
@@ -178,14 +198,7 @@ website:
             - econ205/mock-exam-b.qmd
             - econ205/killer-traps.qmd
             - econ205/problem-bank.qmd
-    - title: "ACCT 410x"
-      contents:
-        - acct410x/index.qmd
-        - acct410x/cheat-sheet.qmd
-        - acct410x/walkthroughs.qmd
-        - acct410x/mock-final.qmd
-        - acct410x/trap-drills.qmd
-        - acct410x/day-of.qmd
+            - econ205/independent-review.qmd
 
   page-footer:
     border: true
@@ -195,9 +208,10 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
-    css: assets/css/custom.css
+      light: [cosmo, assets/css/custom.scss]
+      dark: [darkly, assets/css/custom.scss]
+    include-after-body:
+      file: assets/js/keymap-include.html
     toc: true
     toc-depth: 3
     toc-title: "On this page"
