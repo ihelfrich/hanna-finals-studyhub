@@ -125,42 +125,30 @@ format:
 ```{=html}
 <div class="hero">
   <div class="accent-bar"></div>
-  <h1>Finals, deliverables, one spine.</h1>
-  <p>Every claim should have a source. Every source should have a frame. Every frame should tie back to the professor's lecture spine. This site is the working spine — built fast, now being tightened for accuracy. Open <a href="tonight.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">Tonight's Plan</a> first, then check <a href="accuracy-notes.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">Source Check</a> for what still needs verification.</p>
+  <h1>One spine. Walk in.</h1>
+  <p>Three throughlines. Eight dates. Four frames. One thesis. Every essay you write today comes from those. Open <a href="ir362/exam-day.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">IR Exam Day</a> and follow it in order.</p>
 </div>
 
 <div class="countdown-card">
   <div class="item">
     <h4>📘 IR 362 (Hammad)</h4>
-    <span class="days">VERIFY</span>
-    <div class="when">Needs Brightspace/syllabus confirmation · USC final period May 6–13</div>
-    <span class="weight">65% · essay-style</span>
+    <span class="days">TODAY</span>
+    <div class="when">Essay-format · 65% of your grade</div>
+    <span class="weight"><a href="ir362/exam-day.html">Open Exam Day Path →</a></span>
   </div>
   <div class="item">
-    <h4>📗 ECON 205 (Pérez)</h4>
-    <span class="days" data-final="2026-05-11T14:00:00">…</span>
-    <div class="when">Mon May 11 · 2:00–4:00 PM · SGM 101</div>
-    <span class="weight">verified schedule · calculator</span>
+    <h4>📕 ACCT 410 (Leventhal)</h4>
+    <span class="days">NEXT</span>
+    <div class="when">User-oriented · cumulative</div>
+    <span class="weight"><a href="acct410x/">Open ACCT prep →</a></span>
   </div>
   <div class="item">
-    <h4>📕 ACCT 410x/410 (Leventhal)</h4>
-    <span class="days" data-final="2026-05-11T16:30:00">…</span>
-    <div class="when">Mon May 11 · 4:30–6:30 PM · Registrar Accounting 410 exception</div>
-    <span class="weight">verify section · user-oriented</span>
-  </div>
-  <div class="item">
-    <h4>🛍️ Marketing (Ensemble)</h4>
-    <span class="days">TBD</span>
-    <div class="when">Project + pitch deck · syllabus pending</div>
-    <span class="weight">needs syllabus</span>
+    <h4>🛍️ Marketing — Ensemble</h4>
+    <span class="days">PROJECT</span>
+    <div class="when">Pitch deck deliverable</div>
+    <span class="weight"><a href="marketing/">Open Marketing →</a></span>
   </div>
 </div>
-
-<section class="verification-note">
-  <h3>Accuracy posture</h3>
-  <p><strong>Verified dates are separated from placeholders.</strong> ACCT 410 was corrected from the old May 13 placeholder to the USC Registrar's Accounting 410 exception slot. IR 362 and Marketing stay marked as verification-needed until the syllabus, Brightspace page, or professor announcement is checked.</p>
-  <p><a href="accuracy-notes.html">Open Source Check</a> before relying on current-events claims, final dates, or lecture-specific frames.</p>
-</section>
 
 <section class="cram-shortcut-section">
   <h2>🚨 Cram-mode shortcuts</h2>

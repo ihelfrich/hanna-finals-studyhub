@@ -15,13 +15,13 @@ order: 1
 
 ```{=html}
 <section class="focus-card primary compact-start">
-  <p class="eyebrow">If this page feels too large</p>
-  <h3>Start with the IR Final Run.</h3>
-  <p>It gives Hanna a timed recall cycle, prompt triage, and the essay skeleton before sending her back here for the full 17-question framework.</p>
+  <p class="eyebrow">For exam day</p>
+  <h3>Start with the Exam Day Path.</h3>
+  <p>Six steps in order — drill, walk through, outline, cram, breathe, walk in. This page is the deeper reference; open it after the first two.</p>
   <div class="focus-actions">
-    <a href="final-run.html">Open Final Run</a>
+    <a href="exam-day.html">Open Exam Day</a>
+    <a href="memorize.html">Open Memorize</a>
     <a href="cram-sheet.html">Open Cram Sheet</a>
-    <a href="sample-answers.html">Open Sample Answers</a>
   </div>
 </section>
 ```

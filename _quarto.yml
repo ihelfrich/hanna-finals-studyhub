@@ -62,16 +62,8 @@ website:
           - text: "—— Reference ——"
           - href: ir362/frames/index.qmd
             text: "📚 Hammad's 7 Frames"
-          - href: ir362/sources/index.qmd
-            text: "📜 Primary Sources"
           - href: ir362/timeline.qmd
             text: "📅 Visual Timeline"
-          - href: ir362/maps.qmd
-            text: "🗺️ Maps Gallery"
-          - href: ir362/concept-graph.qmd
-            text: "🕸 Concept Graph"
-          - href: ir362/independent-review.qmd
-            text: "🔍 Gemini Review"
           - href: ir362/print-pack.qmd
             text: "🖨️ Printable Pack"
       - text: "📕 ACCT 410"
@@ -112,8 +104,6 @@ website:
             text: "Killer Traps Drills"
           - href: econ205/problem-bank.qmd
             text: "📊 Problem Bank (by Chapter)"
-          - href: econ205/independent-review.qmd
-            text: "🔍 Gemini Review"
           - href: econ205/print-pack.qmd
             text: "🖨️ Printable Pack"
       - text: "🛠 Tools"
@@ -134,8 +124,6 @@ website:
             text: "🎢 Curveballs"
           - href: print-pack.qmd
             text: "🖨️ Print Packs"
-          - href: accuracy-notes.qmd
-            text: "✓ Source Check"
       - href: reset.qmd
         text: "🌬 Reset"
 
