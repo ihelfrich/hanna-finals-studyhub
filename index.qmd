@@ -154,6 +154,11 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/slides-vii-plus.html" class="cram-button">
+      <div class="emoji">📌</div>
+      <h4>Hammad's Slides VII Plus</h4>
+      <p>What he's pointing at · 6 most likely prompts · with full outlines</p>
+    </a>
     <a href="ir362/exam-day.html" class="cram-button">
       <div class="emoji">🎯</div>
       <h4>IR — Exam Day Path</h4>

@@ -1,0 +1,269 @@
+---
+title: "Hammad's Slides VII Plus — Where He's Pointing"
+subtitle: "What the slides he sent emphasize · the 6 most likely prompts · what to drill"
+description: "Direct mapping from Hammad's tip-slides to study materials and exam prompts"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #5a0000 0%, #990000 100%); color: white; padding: 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.8rem;">What Hammad's slides actually emphasize</h1>
+  <p style="color: rgba(255,255,255,.92); margin: 0; font-size: 1.04rem; max-width: 70ch;">The "Slides VII Plus" packet he sent is the historical architecture from 1948 to Oslo. The deeper post-2020 material on this site is still useful, but the highest-likelihood essay prompts come from <em>this</em> historical spine. Read this page before the exam.</p>
+</div>
+```
+
+## The historical architecture he wants you to know
+
+The slides walk you forward in this order — memorize the sequence, because his prompts will trace this arc:
+
+1. **1948 War + UN as territorial frame** → UN Partition, Arab perception of Israel, fixed-vs-evolving
+2. **1967 War** → "inter-state conflict but now with territorial dimension" · UNSC 242 · Israel's sense of invincibility · settlements begin
+3. **The (Re)-Palestinization** → Palestinians re-emerge as a distinct national actor after 1967
+4. **Arab-Israeli wars** in chronological order (he listed all of them on a slide)
+5. **1973 War + Kissinger linkage** → UNSC 338 · oil embargo · shuttle diplomacy
+6. **Camp David + Egypt-Israel Peace Treaty** → defection from Arab consensus · *"delinked the Palestinian occupied territories"*
+7. **The Israeli New Historians** → Morris, Pappé, Flapan, Shlaim, Lustick · Joel Beinin's article
+8. **Jordan-Israel Peace Treaty** → pre-1948 understandings · Washington Declaration · Oct 26, 1994
+9. **The Syrian impasse** → Golan annexation Dec 1981 · withdrawal to June 4, 1967 lines
+10. **Oslo Accords** → Areas A/B/C "Islanding" · deferred final status
+
+::: {.callout-warning}
+**Tilt your cram toward this arc tonight.** The Iran-axis / Damascus-2024 / Abraham-Accords material on the rest of this site is still relevant — but Hammad's tip-slides put the historical-architecture material first, so you should too.
+:::
+
+## The 6 most likely essay prompts (with full outlines)
+
+### Prompt 1 — The (Re)-Palestinization of the conflict
+
+> *"Trace the shift from inter-state Arab-Israeli conflict to Palestinian-centered conflict. What were the key inflection points and what did each one change?"*
+
+**Thesis to deploy:**
+> *"The 1967 War defeated the Arab states' claim to be the bearer of Palestinian liberation, opening structural space for the Palestinians themselves to re-emerge as a distinct national actor — a shift that the 1974 Rabat Declaration formalized, the First Intifada deepened, and Oslo institutionalized into a quasi-state."*
+
+**The chain of inflection points:**
+
+| Year | Event | What it changed |
+|---|---|---|
+| 1967 | Six-Day War | Arab states discredited as Palestinian patrons |
+| 1968–70 | PLO transformation under Arafat / Fatah ascendant | Palestinian armed struggle distinct from Arab states |
+| **Sept 1970** | **Black September / Jordanian civil war** | PLO expelled from Jordan to Lebanon |
+| **1974** | **Rabat Declaration** + UN observer status | PLO = "sole legitimate representative" of Palestinians |
+| 1982 | Israeli invasion of Lebanon, Sharon, PLO expelled to Tunisia | PLO physically removed from frontline geography |
+| **Dec 1987** | **First Intifada begins** | Internal Palestinian uprising → Hamas emerges |
+| **1988** | **Jordan's disengagement** + Palestinian Declaration of Independence (Nov) | West Bank no longer Jordanian; PLO claims state |
+| 1991 | Madrid Conference | Palestinians at the diplomatic table |
+| **Sept 13, 1993** | **Oslo I** — mutual recognition | PA created; Palestinian-as-state-actor institutionalized |
+
+**Counterargument to address and rebut:** "Some argue (re-)Palestinization was driven by Israeli rejectionism, not internal Palestinian agency." Acknowledge — then point to Rabat 1974, the First Intifada's grassroots character, and the 1988 Declaration as evidence of distinct Palestinian agency.
+
+---
+
+### Prompt 2 — Camp David and the delinking of Palestine
+
+> *"How did the Egyptian-Israeli Peace Treaty (March 1979) reshape regional politics? What did it preserve, what did it break?"*
+
+**Thesis to deploy:**
+> *"Camp David broke the pan-Arab veto on dealing with Israel and *delinked* the Palestinian question from Egyptian leverage — a structural inversion whose consequences cascaded across Lebanon 1982, Golan 1981, and the Israeli settlement project."*
+
+**Key beats Hammad highlights:**
+- Camp David Accords, **September 5–17, 1978** (Carter, Sadat, Begin)
+- Egyptian-Israeli Peace Treaty, **March 1979**
+- **Complete Israeli withdrawal from Sinai within 3 years** (this was Egypt's win)
+- The **Palestinian dimension reduced to "autonomy"** — Hammad's word: *delinked*
+- Coincides with Iranian Revolution Feb 1979 — same moment, opposite directions
+
+**What broke:**
+- The pan-Arab consensus (Arab League suspended Egypt 1979–89)
+- The Palestinian veto on Arab-Israeli normalization
+- The structural pressure on Israel for Israeli withdrawal beyond Sinai
+
+**What was preserved:**
+- The "land for peace" doctrine of UNSC 242 (one application succeeded)
+- Israel-Egypt as a stable bilateral cold peace ever since
+
+**The cascade Hammad lists:**
+- **June 7, 1981**: Israeli strike on Iraqi nuclear plant ("Begin Doctrine")
+- **Dec 1981**: Annexation of Golan Heights
+- **1982**: Lebanon War — Sharon's goal of destroying PLO militarily and politically; PLO expelled to Tunisia
+- Settlements and land expropriation accelerate
+
+---
+
+### Prompt 3 — Why Egypt and Jordan, but not Syria?
+
+> *"Why did Israel sign peace treaties with Egypt and Jordan, but the Israeli-Syrian track ended in impasse? What explains the difference?"*
+
+**Thesis to deploy:**
+> *"Egypt and Jordan each had a single bounded territorial issue with Israel that could be traded for normalization; Syria's Golan demand collided with the post-1981 annexation and Israel's growing strategic dependence on the Heights, which together raised the price of any Syrian deal beyond what either side could pay."*
+
+**Egypt — Camp David 1978 / Treaty 1979:**
+- Sinai was Egyptian sovereign territory pre-1967, undisputed
+- Israel withdrew completely in 3 years
+- Sadat had domestic latitude post-1973 War to make the deal
+- US guarantees + military aid sweetened the package
+
+**Jordan — Treaty Oct 26, 1994:**
+- Pre-1948 understandings between King Abdullah I and the Yishuv (Hammad emphasizes this)
+- 1989 elections in Jordan
+- Common agenda **September 14, 1993** (one day after Oslo)
+- **"Special role"** for Hashemites regarding Jerusalem holy places
+- **Washington Declaration**, July 1994
+- Specifics: water, border (360 sq km), security (3rd-country forces in Aqaba)
+- Treaty signed October 26, 1994
+
+**Syria — impasse:**
+- Golan annexed by Israel **December 1981** (Israeli law extended)
+- Syrian foreign-policy core demand: **withdrawal to the June 4, 1967 armistice lines**
+- Madrid Conference + Geneva Summit attempts — failed on the meter of withdrawal
+- Syria-Hezbollah-Iran security architecture made Golan a multi-front issue
+- **Trump's March 2019 recognition** of Israeli sovereignty over the Golan further entrenched the impasse
+- Then 2024: Assad's collapse — but the Sharaa government inherits the same border claim
+
+---
+
+### Prompt 4 — The Israeli New Historians and Beinin's article ⚠️
+
+> *"Discuss the methodological contributions of the Israeli New Historians and how they challenged the official Israeli narrative of 1948. Use Joel Beinin's article in your answer."*
+
+::: {.callout-important}
+**This is the highest-confidence prompt to prep.** Hammad explicitly listed Beinin's article on a slide and named all five historians. Do not skip this.
+:::
+
+**Thesis to deploy:**
+> *"The New Historians used newly declassified Israeli state archives to challenge the official 1948 narrative on four specific empirical points — the military balance, the refugee problem, Israeli-Jordanian pre-war understandings, and Arab war aims — and Beinin reads this turn through 'categories of knowledge,' showing how the 1973 War and the invasion of Lebanon shifted what Israeli intellectuals could publicly claim."*
+
+**The five names — memorize cold:**
+- **Benny Morris** — refugee problem (intentional expulsion, not just flight); *The Birth of the Palestinian Refugee Problem* (1988)
+- **Ilan Pappé** — went furthest, calls 1948 "ethnic cleansing"; later *The Ethnic Cleansing of Palestine* (2006)
+- **Simha Flapan** — *The Birth of Israel: Myths and Realities* (1987)
+- **Avi Shlaim** — *Collusion across the Jordan* (Israeli-Jordanian pre-war understandings) and later *The Iron Wall* (2000)
+- **Ian Lustick** — political-science complement; settler-colonial framing
+
+**The four points of contention Hammad lists:**
+1. **British policy** in the Mandate's final years
+2. **Military balance** — myth of Arab numerical superiority debunked
+3. **Refugee problem** — Israeli forces expelled, not just war's fog
+4. **Israeli-Jordanian relations** — pre-war talks/understandings between Yishuv leadership and King Abdullah I; *important in determining the war outcome*
+5. **Arab war aims** — diverse, often contradictory, not unified
+6. **Elusive peace** — multiple 1948–49 missed opportunities
+
+**Joel Beinin's argument** (the specific frame Hammad cites):
+- *History and categories of knowledge* — what counts as legitimate historical claim shifts over time
+- The **1973 War** punctured Israel's sense of invincibility
+- The **1982 invasion of Lebanon** and the death of Israeli soldiers in a "war of choice" cracked open Israeli public discourse
+- *Progress vs. pessimism* — Beinin reads the New Historians as an Israeli liberal Left's reckoning with the costs of occupation, *not* a settler-colonial critique from the outside
+
+**Counterargument to address:** "Some scholars (Karsh especially) argue the New Historians overread or selectively used archives." Acknowledge — then note Morris himself defended the empirical record even as he later shifted his political conclusions.
+
+---
+
+### Prompt 5 — Oslo's structural failure
+
+> *"Assess the Oslo Accords as a framework. Why did they fail to produce a final-status agreement?"*
+
+**Thesis to deploy:**
+> *"Oslo's structural design — interim self-governance with the hardest questions deferred for five years — created an asymmetric incentive: Israel could expand settlements in Areas C while the PA was locked into security cooperation, producing the 'Islanding' geography that made a final-status agreement materially harder to reach with each passing year."*
+
+**The structure to know cold:**
+- Secret negotiations in Oslo, **December 1992 – August 1993**
+- Initiated **August 20, 1993**, signed **September 13, 1993** on the South Lawn
+- **Letter of mutual recognition** (Israel ↔ PLO)
+- **Declaration of Principles** establishes Palestinian Interim Self-Government
+- **Palestinian Authority** — elected council
+- **Initial Israeli withdrawals: Gaza and Jericho first**
+- **5-year interim period**; "permanent" negotiations to begin **May 1996**
+- **Final-status issues deferred:** Jerusalem, borders, refugees, settlements, security arrangements
+- **Oslo II (Sept 1995):** Areas A (PA full control), B (PA civil + Israeli security), C (Israeli full control)
+- **Areas A/B/C "Islanding"** — Hammad's word; Palestinian areas as discontiguous islands inside Israeli-controlled C
+- **Rabin assassinated November 4, 1995** by an Israeli right-wing extremist
+
+**Why it failed (the structural answers):**
+- Settlement expansion in Area C continued, foreclosing territorial contiguity
+- Deferred issues became *more* contested over time, not less
+- The PA's security cooperation hollowed its own legitimacy
+- Hamas's electoral rise (2006) reflected the failure
+- The Second Intifada (2000–05) ended Oslo as a living process
+
+---
+
+### Prompt 6 — Comparing the wars and their consequences
+
+> *"Compare two of the Arab-Israeli wars. How did the wars shape the regional balance and the Palestinian question?"*
+
+**Memorize the chronology cold:**
+
+| War | What changed |
+|---|---|
+| **1948 War** | Founding of Israel; Nakba; territorial baseline |
+| **1956 Suez War** | Britain/France/Israel against Nasser; US-USSR force the cease-fire; end of British/French regional dominance |
+| **June 1967 Six-Day War** | Israel takes WB/Gaza/Sinai/Golan; UNSC 242; **(Re)-Palestinization begins** |
+| **War of Attrition** (1968–70) | Egypt-Israel along Suez Canal |
+| **September 1970 / Black September** | PLO expelled from Jordan to Lebanon |
+| **October 1973 War** | Egyptian-Syrian surprise attack; Kissinger shuttle diplomacy; UNSC 338; oil embargo |
+| **1982 Lebanon War** | Sharon, destruction of PLO, expulsion to Tunisia |
+| **2006 Hezbollah-Israel War** | Hezbollah survives 33 days against Israel |
+| **Gaza Wars: 2008, 2012, 2014, 2021, 2023–26** | The carousel post-Oslo |
+
+**Strongest comparative pair: 1967 vs. 1973.**
+- 1967 produced Israeli invincibility myth + occupation
+- 1973 punctured the myth → opened diplomatic space → led to Camp David
+- Together: the inflection between maximalist Israeli policy and the start of bilateral peace tracks
+
+## What to memorize cold (slides-specific additions)
+
+These are the dates and concepts on the slides that the rest of the site under-emphasizes:
+
+| Date | Event |
+|---|---|
+| Sept 1970 | Black September / Jordanian civil war |
+| 1974 | Rabat Declaration · UN observer status for PLO |
+| Sept 5–17, 1978 | Camp David Accords |
+| March 1979 | Egyptian-Israeli Peace Treaty |
+| June 7, 1981 | Israeli strike on Iraqi nuclear plant |
+| Dec 1981 | Israeli annexation of Golan Heights |
+| 1982 | Lebanon War; PLO expelled to Tunisia |
+| Dec 1987 | First Intifada begins |
+| Nov 1988 | Palestinian Declaration of Independence |
+| Aug 20 / Sept 13, 1993 | Oslo initiated / signed |
+| Sept 14, 1993 | Jordan-Israel common agenda |
+| July 1994 | Washington Declaration |
+| Oct 26, 1994 | Jordan-Israel Peace Treaty |
+| Nov 4, 1995 | Rabin assassinated |
+| March 2019 | Trump recognizes Israeli sovereignty over Golan |
+
+**Concepts unique to these slides:**
+
+- **(Re)-Palestinization** — the master arc
+- **Delinking** of the Palestinian question (Camp David's structural effect)
+- **Begin Doctrine** — preventive strikes against regional WMD threats
+- **The Arab Triangle** — Egypt-Saudi Arabia-Syria coordination going into the 1973 War
+- **Areas A/B/C "Islanding"** — the geography Oslo produced
+- **History and categories of knowledge** — Beinin's framing
+- The **"unfinished business of Zionism"** — Hammad's phrase; settler-colonial expansion as ongoing
+- **"Continued sponsorship of the Zionist project by the Western powers"** — verbatim from his slide
+
+## How to use the rest of the site
+
+The site's deeper material — the Walkthrough, the Sample Answers, Memorize Now, the four deep dives — is still useful. Pair it with this page like this:
+
+- For the **(Re)-Palestinization** prompt → use the [Walkthrough Stop 1 story](walkthrough.html) + the [Memorize Story Chain](memorize.html#section-0-the-story-chain) + this page's date table
+- For **Camp David / Egypt** → use the timeline image (1978-camp-david.jpg) + this page's "What broke / What was preserved" framing
+- For **Syria impasse** → use the [Syria Collapse deep dive](syria-collapse.html) for the 2024 update, but lead the essay with this page's Madrid → Geneva → 2019 → 2024 trajectory
+- For **New Historians** → this page is the primary source for that prompt (the rest of the site doesn't cover it in this depth)
+- For **Oslo** → use this page's structure-then-failure logic + [Primary Sources: Oslo I text](sources/oslo-i.html)
+
+## In the room
+
+When you read the prompts at the start, ask yourself: **which historical-architecture question is this, and which two or three of Hammad's frames does it want?**
+
+- *(Re)-Palestinization* → invoke **Bellin** or **Khalidi** for the agency/structural reading
+- *Egypt's defection* → invoke **Mitchell** for the structural-imperialism layer + **Beinin** for historiography
+- *Syria impasse* → invoke **Goodarzi** for the strategic-not-sectarian reading
+- *New Historians* → invoke **Beinin** explicitly + **Shlaim** as the most-cited revisionist
+- *Oslo's failure* → invoke the **Areas A/B/C** structure as the geographic argument
+
+End the essay by returning to the throughline you opened with. **Drop the sentence:** *"This is part of the unfinished business Hammad's lectures returned to — the question of how a regional system absorbs structural change without resolving its founding ruptures."*
+
+That sentence signals you read his slides. He'll see it.
