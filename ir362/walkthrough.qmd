@@ -3,6 +3,7 @@ title: "IR 362 — One-Page Walkthrough (75 min)"
 subtitle: "Eight stops · the whole exam, told as a story"
 description: "A guided cram walk: read it once, end up ready to write."
 order: 0
+section-divs: false
 ---
 
 ```{=html}
