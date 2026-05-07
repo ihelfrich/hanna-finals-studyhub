@@ -1,0 +1,578 @@
+---
+title: "IR 362 — Memorize Now"
+subtitle: "10 dates · 4 frames · 4 actors · 3 throughlines · 1 sentence"
+description: "Bulk memorization with image anchors, mnemonics, and timed drills"
+order: 0
+---
+
+These are the items. Here are the hooks. Drill them.
+
+Twenty-five atomic facts, each anchored to an image and a one-line mnemonic. Five sections, five drills. Work top to bottom; do every drill twice. By the time you reach the bottom, the spine of the exam will be sitting in working memory.
+
+## Section 1 — The 10 dates
+
+Each card is a year, an event, an image, a one-sentence story, and a hook. Read the story aloud. Repeat the hook. Move on.
+
+```{=html}
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1917-balfour.jpg" alt="The Balfour Declaration, 1917" /></div>
+  <div>
+    <div class="memo-date">1917</div>
+    <div class="memo-event">Balfour Declaration</div>
+    <div class="memo-story">A British foreign secretary, on a single sheet of paper, promises a Jewish homeland in a land already inhabited.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Balfour's brief — a British promise on borrowed ground." 1917, the seventeenth year, the seventeen-word pledge that started everything.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1947-un-partition.png" alt="UN Partition Plan map, 1947" /></div>
+  <div>
+    <div class="memo-date">1947</div>
+    <div class="memo-event">UN Partition Plan · Nov 29</div>
+    <div class="memo-story">The UN draws a map of two states; the Arab world rejects it on the next morning.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Forty-seven, two states cleaved, rejected by morning." Resolution 181 — flip the digits and you get 18-1, the partition number.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1948-ben-gurion.jpg" alt="Ben-Gurion declares Israeli independence, May 14 1948" /></div>
+  <div>
+    <div class="memo-date">1948</div>
+    <div class="memo-event">Israeli Independence + Nakba · May 14</div>
+    <div class="memo-story">Ben-Gurion declares the state; 750,000 Palestinians flee or are expelled — the founding rupture.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Ben-Gurion in Tel Aviv, the Nakba next door." Forty-eight: founding and fracture in the same week.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1967-six-day-map.png" alt="Six-Day War territorial map, 1967" /></div>
+  <div>
+    <div class="memo-date">1967</div>
+    <div class="memo-event">Six-Day War + UNSC 242 · June</div>
+    <div class="memo-story">Israel takes the West Bank, Gaza, Sinai, the Golan in six days; UNSC 242 introduces the "land for peace" formula whose ambiguity would matter for decades.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Six days, four territories, two-forty-two." Count it: six, four, 242 — the staircase of '67.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1978-camp-david.jpg" alt="Carter, Sadat, Begin at Camp David 1978" /></div>
+  <div>
+    <div class="memo-date">1978</div>
+    <div class="memo-event">Camp David Accords · Sept 17</div>
+    <div class="memo-story">Carter, Sadat, Begin shake hands at a Maryland retreat; Egypt is the first Arab state to break the pan-Arab consensus.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Carter, Sadat, Begin — three names, three handshakes, one broken consensus." Camp David in the Catoctin woods.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1979-khomeini.jpg" alt="Khomeini returns to Tehran, 1979" /></div>
+  <div>
+    <div class="memo-date">1979</div>
+    <div class="memo-event">Iranian Revolution</div>
+    <div class="memo-story">Khomeini lands in Tehran; Iran flips overnight from US ally to its sharpest adversary.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Khomeini's plane, Tehran flips lanes." Seventy-nine: the year the axis got its future patron.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/1993-oslo.jpg" alt="Rabin, Clinton, Arafat at Oslo signing, 1993" /></div>
+  <div>
+    <div class="memo-date">1993</div>
+    <div class="memo-event">Oslo I Declaration of Principles · Sept 13</div>
+    <div class="memo-story">Rabin, Clinton, Arafat on the South Lawn — a handshake that creates the Palestinian Authority and defers every hard question.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Rabin, Clinton, Arafat — three at the Lawn, three letters: PA." Ninety-three, the year of deferral.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/2002-arab-peace.jpg" alt="Arab Peace Initiative, Beirut Summit 2002" /></div>
+  <div>
+    <div class="memo-date">2002</div>
+    <div class="memo-event">Arab Peace Initiative · March 28, Beirut</div>
+    <div class="memo-story">Saudi Crown Prince Abdullah's offer: full Arab normalization with Israel for full Israeli withdrawal and a Palestinian state.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "API in Beirut: A for Abdullah, P for Palestine, I for inversion-to-come." All twenty-two Arab states behind one paper.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/2020-abraham-accords.jpg" alt="Abraham Accords signing on White House South Lawn, 2020" /></div>
+  <div>
+    <div class="memo-date">2020</div>
+    <div class="memo-event">Abraham Accords · Sept 15</div>
+    <div class="memo-story">UAE, Bahrain — and later Sudan and Morocco — normalize without a Palestinian state. The price of normalization changed.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Abraham's four — UAE, Bahrain, Sudan, Morocco — without a state on the table." Twenty-twenty: the year the price flipped.</div>
+  </div>
+</div>
+
+<div class="memo-card">
+  <div class="memo-img"><img src="../assets/img/timeline/2024-damascus.jpg" alt="Damascus, December 2024 — fall of the Assad regime" /></div>
+  <div>
+    <div class="memo-date">Dec 8, 2024</div>
+    <div class="memo-event">Damascus falls</div>
+    <div class="memo-story">Twelve days after HTS opened its offensive from Idlib, Assad flees to Russia. Iran's land bridge is severed.</div>
+    <div class="mnemonic"><strong>Hook:</strong> "Twelve days from Idlib to Damascus, December eighth — Assad to Moscow, axis severed." Eight-twelve-twenty-four.</div>
+  </div>
+</div>
+
+<div class="drill-dates" data-drill="dates">
+  <p class="drill-prompt">A date appears. Type the event (or the closest thing). 8 seconds per item. 10 items.</p>
+  <button class="drill-start" data-target="dates">Start drill</button>
+  <div class="drill-stage" hidden>
+    <div class="drill-timer">8</div>
+    <div class="drill-question"></div>
+    <input type="text" class="drill-input" placeholder="Type your answer...">
+    <div class="drill-feedback"></div>
+  </div>
+  <div class="drill-results" hidden>
+    <div class="drill-score"></div>
+    <button class="drill-restart">Try again</button>
+  </div>
+</div>
+```
+
+## Section 2 — The 4 frames
+
+Author, year, claim, hook, deployment trigger. Four cards. The mnemonic for the set: **Bouncers, Both, Mineral, Glue** — Bellin, BMR, Mitchell, Goodarzi.
+
+```{=html}
+<div class="frame-card">
+  <div class="frame-cite">Bellin · 2004</div>
+  <div class="frame-work">The Robustness of Authoritarianism in the Middle East</div>
+  <div class="frame-claim">Coercive apparatus determines transition outcomes — regimes survive when their security state has the will and capacity to repress.</div>
+  <div class="mnemonic"><strong>Hook:</strong> "Bellin → <strong>Bouncers</strong>." The regime keeps its job because its bouncers — military, security, police — keep theirs.</div>
+  <div class="frame-deploy"><strong>Deploy when:</strong> explaining why some Arab Spring uprisings reverted (Egypt, Bahrain) while others transitioned (Tunisia).</div>
+</div>
+
+<div class="frame-card">
+  <div class="frame-cite">Brownlee, Masoud, Reynolds · 2015</div>
+  <div class="frame-work">The Arab Spring: Pathways of Repression and Reform</div>
+  <div class="frame-claim">Two predictors of regime survival across the 2011 wave: hereditary executive AND oil rents. Tunisia had neither — and Tunisia transitioned.</div>
+  <div class="mnemonic"><strong>Hook:</strong> "BMR → <strong>Both Matter Royally</strong>." Both variables together; remove one and the prediction breaks.</div>
+  <div class="frame-deploy"><strong>Deploy when:</strong> any structural-survival question about 2011 outcomes; pairs with Bellin to give two authors on one point.</div>
+</div>
+
+<div class="frame-card">
+  <div class="frame-cite">Mitchell · 2011</div>
+  <div class="frame-work">Carbon Democracy</div>
+  <div class="frame-claim">Energy infrastructure shapes politics; MENA is the most-penetrated subsystem of the global energy order.</div>
+  <div class="mnemonic"><strong>Hook:</strong> "Mitchell → <strong>Mineral</strong>." Oil-as-mineral shapes politics from the pipe outward.</div>
+  <div class="frame-deploy"><strong>Deploy when:</strong> US power, sanctions architecture, structural critique requiring a materialist lens.</div>
+</div>
+
+<div class="frame-card">
+  <div class="frame-cite">Goodarzi · 2006</div>
+  <div class="frame-work">Syria and Iran: Diplomatic Alliance and Power Politics in the Middle East</div>
+  <div class="frame-claim">The Iran-Syria alliance is strategic, not sectarian — locked in by mutual threat perception, not Shia identity.</div>
+  <div class="mnemonic"><strong>Hook:</strong> "Goodarzi → <strong>Glue</strong>." Iran and Syria glued by strategy, not by sect.</div>
+  <div class="frame-deploy"><strong>Deploy when:</strong> any Iran-Syria, axis-of-resistance, or December 2024 Syria-collapse question — inoculates against the lazy sectarian reading.</div>
+</div>
+
+<div class="drill-frames" data-drill="frames">
+  <p class="drill-prompt">An author appears. Type the year, the claim tag, or the deployment trigger. 8 seconds per item. 4 items.</p>
+  <button class="drill-start" data-target="frames">Start drill</button>
+  <div class="drill-stage" hidden>
+    <div class="drill-timer">8</div>
+    <div class="drill-question"></div>
+    <input type="text" class="drill-input" placeholder="Type your answer...">
+    <div class="drill-feedback"></div>
+  </div>
+  <div class="drill-results" hidden>
+    <div class="drill-score"></div>
+    <button class="drill-restart">Try again</button>
+  </div>
+</div>
+```
+
+## Section 3 — The 4 actors
+
+Each actor has three slots: **Wants**, **Has**, **Cannot**. Memorize the trio. The drill below will ask for any one of them.
+
+```{=html}
+<div class="actor-grid">
+  <div class="actor-cell">
+    <h3>Israel</h3>
+    <div class="row"><span class="lbl">Wants</span><span>Security, deterrence, demographic stability, recognition without territorial concession.</span></div>
+    <div class="row"><span class="lbl">Has</span><span>Military primacy, US alignment, advanced tech sector, regional intelligence dominance.</span></div>
+    <div class="row"><span class="lbl">Cannot</span><span>Move unilaterally to a 1967-lines withdrawal without coalition collapse and security exposure.</span></div>
+  </div>
+  <div class="actor-cell">
+    <h3>Palestinians (Hamas + PA)</h3>
+    <div class="row"><span class="lbl">Wants</span><span>Statehood (PA framework) <em>or</em> resistance-driven liberation (Hamas) — bifurcated since the 2007 Gaza split.</span></div>
+    <div class="row"><span class="lbl">Has</span><span>Moral claim, refugee diaspora, regional public opinion, asymmetric tools.</span></div>
+    <div class="row"><span class="lbl">Cannot</span><span>Speak with one voice; the PA cannot crack down on Hamas without losing its own legitimacy.</span></div>
+  </div>
+  <div class="actor-cell">
+    <h3>Iran</h3>
+    <div class="row"><span class="lbl">Wants</span><span>Forward defense, axis-of-resistance scaffolding, sanctions relief, regional veto.</span></div>
+    <div class="row"><span class="lbl">Has</span><span>Asymmetric warfare via proxies (Hezbollah, Iraqi Shia militias, Houthis), oil leverage, geographic depth.</span></div>
+    <div class="row"><span class="lbl">Cannot</span><span>Demobilize the axis without losing deterrence; sustain the engine after the December 2024 Syria collapse.</span></div>
+  </div>
+  <div class="actor-cell">
+    <h3>Saudi Arabia / Gulf</h3>
+    <div class="row"><span class="lbl">Wants</span><span>Regime survival, Vision-2030 economic transformation, Iran balancing, US security guarantee.</span></div>
+    <div class="row"><span class="lbl">Has</span><span>Energy and capital, Mecca/Medina legitimacy, the US security relationship, post-2023 China-brokered Iran channel.</span></div>
+    <div class="row"><span class="lbl">Cannot</span><span>Sign with Israel while the Palestinian street is mobilized without regime risk.</span></div>
+  </div>
+</div>
+
+<div class="drill-actors" data-drill="actors">
+  <p class="drill-prompt">An actor and a slot (Wants / Has / Cannot) appear. Type the answer. 12 seconds per item. 12 items.</p>
+  <button class="drill-start" data-target="actors">Start drill</button>
+  <div class="drill-stage" hidden>
+    <div class="drill-timer">12</div>
+    <div class="drill-question"></div>
+    <input type="text" class="drill-input" placeholder="Type your answer...">
+    <div class="drill-feedback"></div>
+  </div>
+  <div class="drill-results" hidden>
+    <div class="drill-score"></div>
+    <button class="drill-restart">Try again</button>
+  </div>
+</div>
+```
+
+## Section 4 — The 3 throughlines
+
+Three vivid scenes. Walk through each in your head. After each scene, finish the one-sentence version aloud.
+
+```{=html}
+<div class="palace-scene">
+  <h3>Throughline 1 — The Pivot</h3>
+  <p>Picture a literal pivot: <strong>API on the left</strong> (Beirut Summit, 2002 — Crown Prince Abdullah at the podium, twenty-two Arab flags behind him), <strong>Abraham Accords on the right</strong> (South Lawn, September 2020 — UAE, Bahrain, the signed pages on a desk in front of the Truman Balcony). The thing that swung was the <em>price</em> of normalization — from "a Palestinian state" to "shared Iran-deterrence + economic upside." Same actors, same region, inverted sequencing.</p>
+  <div class="cloze" data-cloze="pivot">
+    In one sentence, the pivot is: <input type="text" data-key="pivot" placeholder="finish the sentence...">
+    <div class="cloze-actions">
+      <button class="primary" data-cloze-check="pivot">Check</button>
+      <button data-cloze-show="pivot">Show answer</button>
+    </div>
+  </div>
+</div>
+
+<div class="palace-scene">
+  <h3>Throughline 2 — The Carousel</h3>
+  <p>Picture a slow carousel turning at a fairground. Four horses: <strong>escalation, war, ceasefire, normalization-talks</strong>. Riders rotate through but nobody dismounts. The four actors are Nash-locked: each is choosing its best response given the others, so the structure beneath the phases doesn't move. Hammad's word for this: <em>carousel</em>.</p>
+  <div class="cloze" data-cloze="carousel">
+    In one sentence, the carousel is: <input type="text" data-key="carousel" placeholder="finish the sentence...">
+    <div class="cloze-actions">
+      <button class="primary" data-cloze-check="carousel">Check</button>
+      <button data-cloze-show="carousel">Show answer</button>
+    </div>
+  </div>
+</div>
+
+<div class="palace-scene">
+  <h3>Throughline 3 — The Engine</h3>
+  <p>Picture a long subway line: <strong>Tehran → Baghdad → Damascus → Beirut</strong>. Iran built the line. Hezbollah is the terminus. On <strong>December 8, 2024</strong>, the Damascus station closes and the train can't get through. The land bridge is severed. The engine sputters.</p>
+  <div class="cloze" data-cloze="engine">
+    In one sentence, the engine is: <input type="text" data-key="engine" placeholder="finish the sentence...">
+    <div class="cloze-actions">
+      <button class="primary" data-cloze-check="engine">Check</button>
+      <button data-cloze-show="engine">Show answer</button>
+    </div>
+  </div>
+</div>
+```
+
+## Section 5 — The minimum essay sentence
+
+One thesis sentence that fits almost any IR 362 prompt. Memorize it verbatim. The four anchors are highlighted — those are the load-bearing words.
+
+```{=html}
+<div class="thesis-anchor" style="font-size: 1.1rem; padding: 1.2rem 1.4rem; background: rgba(153,0,0,.05); border-left: 5px solid #990000; border-radius: 8px; margin: 1rem 0; line-height: 1.65;">
+"In 2026, the regional order has shifted from <mark>API</mark>-anchored linkage to <mark>Abraham-Accords</mark>-style security-and-economics linkage, with <mark>Iran as the engine</mark> connecting both spheres until <mark>Damascus fell on December 8, 2024</mark>."
+</div>
+
+<div class="cloze" data-cloze="thesis">
+"In 2026, the regional order has shifted from <input type="text" data-key="t1" placeholder="anchor 1"> linkage to <input type="text" data-key="t2" placeholder="anchor 2"> linkage, with <input type="text" data-key="t3" placeholder="engine actor"> as the engine connecting both spheres until <input type="text" data-key="t4" placeholder="city"> fell on <input type="text" data-key="t5" placeholder="date">."
+<div class="cloze-actions">
+  <button class="primary" data-cloze-check="thesis">Check</button>
+  <button data-cloze-show="thesis">Show answer</button>
+</div>
+</div>
+```
+
+## Memorize check
+
+```{=html}
+<div class="memo-checkpoint">
+  <button id="memo-recite-btn">I can recite the 10 dates, 4 frames, 4 actors, 3 throughlines, and the thesis sentence cold.</button>
+  <div class="celebrate" id="memo-celebrate">
+    Locked in. Walk away from the screen for 10 minutes. Come back and do the drills again. If you nail them again, you're done for tonight.
+  </div>
+</div>
+```
+
+```{=html}
+<script>
+(function() {
+  // ============= DATA =============
+  var DATES = [
+    { q: "1917", a: ["balfour", "balfour declaration"] },
+    { q: "1947", a: ["partition", "un partition", "un partition plan", "unga 181", "181"] },
+    { q: "1948", a: ["independence", "israeli independence", "nakba", "ben-gurion", "ben gurion"] },
+    { q: "1967", a: ["six-day", "six day", "six-day war", "242", "unsc 242"] },
+    { q: "1978", a: ["camp david", "camp david accords"] },
+    { q: "1979", a: ["iranian revolution", "khomeini", "iran revolution"] },
+    { q: "1993", a: ["oslo", "oslo i", "oslo accords", "declaration of principles"] },
+    { q: "2002", a: ["arab peace initiative", "api", "beirut", "beirut summit"] },
+    { q: "2020", a: ["abraham accords", "abraham", "uae", "uae bahrain"] },
+    { q: "December 8, 2024", a: ["damascus", "damascus falls", "assad", "assad falls", "syria collapse"] }
+  ];
+
+  var FRAMES = [
+    { q: "Bellin (2004)", a: ["bouncers", "coercive", "coercive apparatus", "authoritarianism", "robustness"] },
+    { q: "Brownlee, Masoud, Reynolds (2015)", a: ["both", "hereditary", "oil", "oil rents", "hereditary executive", "bmr"] },
+    { q: "Mitchell (2011)", a: ["mineral", "carbon democracy", "carbon", "oil", "energy", "energy infrastructure"] },
+    { q: "Goodarzi (2006)", a: ["glue", "strategic", "strategic alliance", "strategic not sectarian", "iran syria", "iran-syria"] }
+  ];
+
+  var ACTORS_ITEMS = [
+    { q: "Israel · Wants", a: ["security", "deterrence", "demographic", "recognition"] },
+    { q: "Israel · Has", a: ["military", "us alignment", "tech", "intelligence", "primacy"] },
+    { q: "Israel · Cannot", a: ["1967", "withdraw", "withdrawal", "coalition", "unilateral"] },
+    { q: "Palestinians · Wants", a: ["statehood", "liberation", "resistance", "state"] },
+    { q: "Palestinians · Has", a: ["moral", "diaspora", "refugee", "opinion", "asymmetric"] },
+    { q: "Palestinians · Cannot", a: ["one voice", "single voice", "crack down", "hamas", "speak"] },
+    { q: "Iran · Wants", a: ["forward defense", "axis", "sanctions relief", "veto", "resistance"] },
+    { q: "Iran · Has", a: ["proxies", "hezbollah", "asymmetric", "oil", "geographic", "depth"] },
+    { q: "Iran · Cannot", a: ["demobilize", "engine", "deterrence", "syria"] },
+    { q: "Saudi/Gulf · Wants", a: ["regime survival", "vision 2030", "vision-2030", "balancing", "us security"] },
+    { q: "Saudi/Gulf · Has", a: ["energy", "capital", "mecca", "medina", "us security", "china"] },
+    { q: "Saudi/Gulf · Cannot", a: ["sign", "normalize", "palestinian street", "street", "regime risk"] }
+  ];
+
+  var DRILL_CONFIGS = {
+    dates: { items: DATES, seconds: 8 },
+    frames: { items: FRAMES, seconds: 8 },
+    actors: { items: ACTORS_ITEMS, seconds: 12 }
+  };
+
+  var CLOZE_ANSWERS = {
+    pivot: ["price of normalization", "price of normalization changed", "price changed", "palestinian state to security and economics", "from palestinian statehood to security", "sequencing inversion"],
+    carousel: ["nash equilibrium", "nash-equilibrium", "structure stays", "phases rotate", "structure unchanged", "best response", "actors locked"],
+    engine: ["land bridge", "tehran to beirut", "tehran-beirut", "iran's land bridge", "axis", "land bridge severed", "damascus broke"],
+    thesis: {
+      t1: ["api", "arab peace initiative"],
+      t2: ["abraham", "abraham accords", "abraham-accords"],
+      t3: ["iran"],
+      t4: ["damascus"],
+      t5: ["december 8, 2024", "december 8 2024", "dec 8 2024", "dec 8, 2024", "8 december 2024", "12/8/2024", "12-8-24"]
+    }
+  };
+
+  var STORAGE_KEY = "ir362_memorize_missed_v1";
+
+  // ============= UTILS =============
+  function norm(s) { return (s || "").toLowerCase().trim(); }
+  function matchesAny(input, answers) {
+    var n = norm(input);
+    if (!n) return false;
+    for (var i = 0; i < answers.length; i++) {
+      if (n.indexOf(answers[i]) !== -1 || answers[i].indexOf(n) !== -1) return true;
+    }
+    return false;
+  }
+  function loadMissed() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function saveMissed(state) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  function shuffle(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function orderWithMissedFirst(items, drillKey) {
+    var missed = loadMissed()[drillKey] || {};
+    var missedItems = [];
+    var freshItems = [];
+    items.forEach(function(item) {
+      if (missed[item.q]) missedItems.push(item);
+      else freshItems.push(item);
+    });
+    return shuffle(missedItems).concat(shuffle(freshItems));
+  }
+
+  // ============= DRILL ENGINE =============
+  function setupDrill(container) {
+    var key = container.getAttribute("data-drill");
+    var cfg = DRILL_CONFIGS[key];
+    if (!cfg) return;
+
+    var startBtn = container.querySelector(".drill-start");
+    var stage = container.querySelector(".drill-stage");
+    var resultsBox = container.querySelector(".drill-results");
+    var timerEl = container.querySelector(".drill-timer");
+    var questionEl = container.querySelector(".drill-question");
+    var inputEl = container.querySelector(".drill-input");
+    var feedbackEl = container.querySelector(".drill-feedback");
+    var scoreEl = container.querySelector(".drill-score");
+    var restartBtn = container.querySelector(".drill-restart");
+
+    var state = null;
+
+    function startRun() {
+      state = {
+        items: orderWithMissedFirst(cfg.items, key),
+        index: 0,
+        score: 0,
+        missedThisRun: [],
+        timerId: null,
+        secondsLeft: cfg.seconds,
+        locked: false
+      };
+      startBtn.hidden = true;
+      stage.hidden = false;
+      resultsBox.hidden = true;
+      nextItem();
+    }
+
+    function nextItem() {
+      if (state.index >= state.items.length) return finish();
+      state.locked = false;
+      state.secondsLeft = cfg.seconds;
+      var item = state.items[state.index];
+      questionEl.textContent = item.q;
+      inputEl.value = "";
+      inputEl.disabled = false;
+      feedbackEl.textContent = "";
+      feedbackEl.className = "drill-feedback";
+      timerEl.textContent = state.secondsLeft;
+      inputEl.focus();
+      clearTimer();
+      state.timerId = setInterval(tick, 1000);
+    }
+
+    function tick() {
+      state.secondsLeft -= 1;
+      timerEl.textContent = Math.max(0, state.secondsLeft);
+      if (state.secondsLeft <= 0) {
+        clearTimer();
+        gradeAndAdvance(false);
+      }
+    }
+
+    function clearTimer() {
+      if (state.timerId) { clearInterval(state.timerId); state.timerId = null; }
+    }
+
+    function gradeAndAdvance(submitted) {
+      if (state.locked) return;
+      state.locked = true;
+      clearTimer();
+      var item = state.items[state.index];
+      var ok = submitted && matchesAny(inputEl.value, item.a);
+      if (ok) {
+        state.score += 1;
+        feedbackEl.textContent = "Correct.";
+        feedbackEl.className = "drill-feedback correct";
+        // remove from missed list if present
+        var missed = loadMissed();
+        if (missed[key] && missed[key][item.q]) {
+          delete missed[key][item.q];
+          saveMissed(missed);
+        }
+      } else {
+        feedbackEl.textContent = "Answer: " + item.a[0];
+        feedbackEl.className = "drill-feedback wrong";
+        state.missedThisRun.push(item.q);
+        var missed = loadMissed();
+        if (!missed[key]) missed[key] = {};
+        missed[key][item.q] = true;
+        saveMissed(missed);
+      }
+      inputEl.disabled = true;
+      setTimeout(function() {
+        state.index += 1;
+        nextItem();
+      }, 1200);
+    }
+
+    function finish() {
+      stage.hidden = true;
+      resultsBox.hidden = false;
+      var pct = Math.round((state.score / state.items.length) * 100);
+      var summary = state.score + " / " + state.items.length + " · " + pct + "%";
+      if (state.missedThisRun.length) {
+        summary += "<br><span style='font-size:.85rem;font-weight:400;color:var(--bs-secondary-color);'>Missed: " + state.missedThisRun.slice(0, 5).join(" · ") + (state.missedThisRun.length > 5 ? " · …" : "") + "</span>";
+      } else {
+        summary += "<br><span style='font-size:.85rem;font-weight:400;color:#2e7d32;'>Clean run.</span>";
+      }
+      scoreEl.innerHTML = summary;
+    }
+
+    startBtn.addEventListener("click", startRun);
+    restartBtn.addEventListener("click", function() {
+      resultsBox.hidden = true;
+      startRun();
+    });
+
+    inputEl.addEventListener("keydown", function(e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        gradeAndAdvance(true);
+      }
+    });
+  }
+
+  // ============= CLOZE GRADING =============
+  function setupCloze() {
+    document.querySelectorAll(".cloze[data-cloze]").forEach(function(box) {
+      var key = box.getAttribute("data-cloze");
+      var checkBtn = box.querySelector("[data-cloze-check]");
+      var showBtn = box.querySelector("[data-cloze-show]");
+      var inputs = box.querySelectorAll("input[data-key]");
+
+      if (checkBtn) {
+        checkBtn.addEventListener("click", function() {
+          inputs.forEach(function(inp) {
+            var val = inp.value;
+            var slot = inp.getAttribute("data-key");
+            var answers = key === "thesis" ? CLOZE_ANSWERS.thesis[slot] : CLOZE_ANSWERS[key];
+            if (!answers) return;
+            inp.classList.remove("correct", "wrong");
+            inp.classList.add(matchesAny(val, answers) ? "correct" : "wrong");
+          });
+        });
+      }
+
+      if (showBtn) {
+        showBtn.addEventListener("click", function() {
+          inputs.forEach(function(inp) {
+            var slot = inp.getAttribute("data-key");
+            var answers = key === "thesis" ? CLOZE_ANSWERS.thesis[slot] : CLOZE_ANSWERS[key];
+            if (!answers) return;
+            inp.value = answers[0];
+            inp.classList.remove("wrong");
+            inp.classList.add("correct");
+          });
+        });
+      }
+    });
+  }
+
+  // ============= CHECKPOINT =============
+  function setupCheckpoint() {
+    var btn = document.getElementById("memo-recite-btn");
+    var msg = document.getElementById("memo-celebrate");
+    if (!btn || !msg) return;
+    btn.addEventListener("click", function() {
+      msg.style.display = "block";
+      btn.style.display = "none";
+    });
+  }
+
+  // ============= INIT =============
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("[data-drill]").forEach(setupDrill);
+    setupCloze();
+    setupCheckpoint();
+  });
+})();
+</script>
+```

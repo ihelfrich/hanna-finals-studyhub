@@ -166,10 +166,15 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/memorize.html" class="cram-button">
+      <div class="emoji">💎</div>
+      <h4>IR — Memorize Now</h4>
+      <p>10 dates · 4 frames · 4 actors · 3 throughlines · 1 sentence · timed drills</p>
+    </a>
     <a href="ir362/walkthrough.html" class="cram-button">
       <div class="emoji">📖</div>
       <h4>IR — The Walkthrough</h4>
-      <p>The whole exam in eight stops · 75 min · images, story, fill-ins, the game-theory chapter</p>
+      <p>The whole exam in 8 stops · 75 min · images, story, fill-ins, game-theory</p>
     </a>
     <a href="ir362/final-run.html" class="cram-button">
       <div class="emoji">🏃</div>
