@@ -1,8 +1,11 @@
 _site/
 .quarto/
+site_libs/
 .DS_Store
 *.log
 .nojekyll-tmp
+*.html
+!assets/**/*.html
 
 /.quarto/
 **/*.quarto_ipynb

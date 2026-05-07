@@ -1,6 +1,6 @@
 ---
 title: "Hanna's Finals — StudyHub"
-subtitle: "Spring 2026 · IR 362 · ECON 205 · ACCT 410x"
+subtitle: "Spring 2026 · IR 362 · ECON 205 · ACCT 410x/410 · Marketing"
 date: today
 date-format: long
 toc: false
@@ -80,42 +80,130 @@ format:
         .stat-row .stat { border: 1px solid var(--bs-border-color); border-radius: 10px; padding: .9rem .6rem; }
         .stat-row .stat .num { font-size: 1.7rem; font-weight: 800; color: #990000; line-height: 1; }
         .stat-row .stat .lbl { font-size: .8rem; color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .05em; margin-top: .3rem; }
+        .countdown-card .item.bonus {
+          background: linear-gradient(180deg, rgba(120,120,120,0.05), transparent);
+          opacity: .85;
+        }
+        .countdown-card .item.bonus h4 { color: #555; font-size: .9rem; }
+        .countdown-card .item.bonus .days { font-size: 1.6rem; color: #555; }
+        .countdown-card .item.bonus .weight { background: #ddd; color: #444; }
+        .cram-shortcut-section {
+          background: linear-gradient(135deg, rgba(153,0,0,0.06), rgba(255,199,44,0.06));
+          border: 2px solid #990000;
+          border-radius: 14px;
+          padding: 1.4rem 1.4rem 1rem;
+          margin: 1.5rem 0 2rem;
+        }
+        .cram-shortcut-section h2 {
+          margin: 0 0 .2rem; font-size: 1.3rem; color: #990000;
+          display: flex; align-items: center; gap: .5rem;
+        }
+        .cram-shortcut-section .sub { color: var(--bs-secondary-color); font-size: .92rem; margin: 0 0 1rem; }
+        .cram-buttons {
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: .9rem;
+        }
+        .cram-button {
+          display: block; text-decoration: none !important;
+          background: var(--bs-body-bg); border: 2px solid #990000;
+          border-radius: 12px; padding: 1.1rem 1.2rem;
+          color: #990000 !important; transition: all .15s ease;
+        }
+        .cram-button:hover { background: #990000; color: white !important; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(153,0,0,.22); }
+        .cram-button .emoji { font-size: 1.8rem; line-height: 1; }
+        .cram-button h4 { margin: .3rem 0 .2rem; font-size: 1.1rem; color: inherit !important; }
+        .cram-button p { margin: 0; font-size: .85rem; color: inherit; opacity: .85; line-height: 1.4; }
+        .quick-tile.bonus { border-style: dashed; opacity: .9; }
+        .quick-tile .badge {
+          display: inline-block; background: #FFC72C; color: #1a1a1a;
+          font-size: .7rem; font-weight: 700; padding: 2px 8px;
+          border-radius: 999px; margin-left: .4rem;
+        }
         </style>
 ---
 
 ```{=html}
 <div class="hero">
   <div class="accent-bar"></div>
-  <h1>Three finals. One spine.</h1>
-  <p>Every claim has a source. Every source has a frame. Every frame ties back to one of the three professors' lecture spines. This site is the spine — built fast, built deep, built to hold under exam pressure. Open <a href="tonight.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">Tonight's Plan</a> first; everything else is fuel for it.</p>
+  <h1>Finals, deliverables, one spine.</h1>
+  <p>Every claim should have a source. Every source should have a frame. Every frame should tie back to the professor's lecture spine. This site is the working spine — built fast, now being tightened for accuracy. Open <a href="tonight.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">Tonight's Plan</a> first, then check <a href="accuracy-notes.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">Source Check</a> for what still needs verification.</p>
 </div>
 
 <div class="countdown-card">
   <div class="item">
     <h4>📘 IR 362 (Hammad)</h4>
-    <span class="days" data-final="2026-05-14T09:00:00">…</span>
-    <div class="when">Date TBD · finals window May 6–13</div>
+    <span class="days">VERIFY</span>
+    <div class="when">Needs Brightspace/syllabus confirmation · USC final period May 6–13</div>
     <span class="weight">65% · essay-style</span>
   </div>
   <div class="item">
     <h4>📗 ECON 205 (Pérez)</h4>
     <span class="days" data-final="2026-05-11T14:00:00">…</span>
     <div class="when">Mon May 11 · 2:00–4:00 PM · SGM 101</div>
-    <span class="weight">35% · cumulative · pencil + calculator</span>
+    <span class="weight">verified schedule · calculator</span>
   </div>
   <div class="item">
-    <h4>📕 ACCT 410x (Leventhal)</h4>
-    <span class="days" data-final="2026-05-13T09:00:00">…</span>
-    <div class="when">Date TBD · "user-oriented" exam</div>
-    <span class="weight">cumulative · CFO-level lens</span>
+    <h4>📕 ACCT 410x/410 (Leventhal)</h4>
+    <span class="days" data-final="2026-05-11T16:30:00">…</span>
+    <div class="when">Mon May 11 · 4:30–6:30 PM · Registrar Accounting 410 exception</div>
+    <span class="weight">verify section · user-oriented</span>
+  </div>
+  <div class="item">
+    <h4>🛍️ Marketing (Ensemble)</h4>
+    <span class="days">TBD</span>
+    <div class="when">Project + pitch deck · syllabus pending</div>
+    <span class="weight">needs syllabus</span>
   </div>
 </div>
+
+<section class="verification-note">
+  <h3>Accuracy posture</h3>
+  <p><strong>Verified dates are separated from placeholders.</strong> ACCT 410 was corrected from the old May 13 placeholder to the USC Registrar's Accounting 410 exception slot. IR 362 and Marketing stay marked as verification-needed until the syllabus, Brightspace page, or professor announcement is checked.</p>
+  <p><a href="accuracy-notes.html">Open Source Check</a> before relying on current-events claims, final dates, or lecture-specific frames.</p>
+</section>
+
+<section class="cram-shortcut-section">
+  <h2>🚨 Cram-mode shortcuts</h2>
+  <p class="sub">When the exam is hours away. Pick one — go.</p>
+  <div class="cram-buttons">
+    <a href="cram-sprint.html" class="cram-button">
+      <div class="emoji">🏃</div>
+      <h4>Cram Sprint</h4>
+      <p>Time-budgeted sequencer · 30 / 60 / 90 min · panic mode</p>
+    </a>
+    <a href="quick-fire.html" class="cram-button">
+      <div class="emoji">🔥</div>
+      <h4>Quick-Fire Quiz</h4>
+      <p>20 random questions · 30s each · score + weak topic</p>
+    </a>
+    <a href="memorize-cold.html" class="cram-button">
+      <div class="emoji">🧠</div>
+      <h4>Memorize Cold</h4>
+      <p>The irreducible facts per course — minimum viable knowledge</p>
+    </a>
+  </div>
+</section>
 ```
 
 ## What's on the site
 
 ```{=html}
 <div class="quick-grid">
+  <a href="cram-sprint.html" class="quick-tile">
+    <div class="emoji">🏃</div>
+    <h4>Cram Sprint</h4>
+    <p>Time-budgeted sequencer. Pick 30 / 60 / 90 min or panic mode; get a tailored retrieval plan with checkboxes and a timer.</p>
+  </a>
+  <a href="quick-fire.html" class="quick-tile">
+    <div class="emoji">🔥</div>
+    <h4>Quick-Fire Quiz</h4>
+    <p>20 randomly drawn Q&amp;A across IR 362, ACCT 410, ECON 205. 30 seconds each. Score + weakest-topic recommendation.</p>
+  </a>
+  <a href="memorize-cold.html" class="quick-tile">
+    <div class="emoji">🧠</div>
+    <h4>Memorize Cold</h4>
+    <p>The minimum viable knowledge per course — dates, formulas, theses, traps. One printed page per course max.</p>
+  </a>
   <a href="tonight.html" class="quick-tile">
     <div class="emoji">🎯</div>
     <h4>Tonight's Plan</h4>
@@ -124,27 +212,37 @@ format:
   <a href="flashcards.html" class="quick-tile">
     <div class="emoji">🃏</div>
     <h4>75 Flashcards</h4>
-    <p>Three decks — IR 362, ECON 205, ACCT 410x — with localStorage tracking. Click to flip; mark got-it / missed.</p>
+    <p>Three decks — IR 362, ECON 205, ACCT 410 — with localStorage tracking. Click to flip; mark got-it / missed.</p>
   </a>
   <a href="connections.html" class="quick-tile">
     <div class="emoji">🔗</div>
     <h4>Cross-Course Connections</h4>
-    <p>Eight bridges across the three courses — oil rents · GDP · monetary policy · crony capitalism · ratios.</p>
+    <p>Eight bridges across courses — oil rents · GDP · monetary policy · crony capitalism · ratios.</p>
+  </a>
+  <a href="accuracy-notes.html" class="quick-tile">
+    <div class="emoji">✓</div>
+    <h4>Source Check</h4>
+    <p>What is verified, what is lecture-dependent, and what still needs Hanna's syllabus or Brightspace before exam use.</p>
   </a>
   <a href="ir362/" class="quick-tile">
     <div class="emoji">📘</div>
     <h4>IR 362 — heaviest weight</h4>
     <p>17-question framework · 4 deep-dive research pages · 7 lecture frames · 5 mock essays + sample answers · 8 primary sources · concept graph · timeline · maps.</p>
   </a>
-  <a href="econ205/" class="quick-tile">
-    <div class="emoji">📗</div>
-    <h4>ECON 205 — Mon May 11</h4>
-    <p>5-day plan · cram sheet · 60-Q recall bank · 2 mock exams · 25 killer traps · 10 diagrams · 117-problem chapter bank.</p>
-  </a>
   <a href="acct410x/" class="quick-tile">
     <div class="emoji">📕</div>
-    <h4>ACCT 410x — user-oriented</h4>
+    <h4>ACCT 410x/410 — user-oriented</h4>
     <p>Cheat sheet · mock final w/ pedagogical key · 40 trap drills · 10 transaction walkthroughs · day-of playbook.</p>
+  </a>
+  <a href="marketing/" class="quick-tile">
+    <div class="emoji">🛍️</div>
+    <h4>Marketing — Ensemble</h4>
+    <p>Pitch deck for AI styling app. Syllabus pending; placeholder + framework links inside.</p>
+  </a>
+  <a href="econ205/" class="quick-tile">
+    <div class="emoji">📗</div>
+    <h4>ECON 205</h4>
+    <p>5-day plan · cram sheet · 60-Q recall bank · 2 mock exams · 25 killer traps · 10 diagrams · 117-problem chapter bank.</p>
   </a>
 </div>
 ```
@@ -206,11 +304,17 @@ Reading order:
 
 Start here: [econ205/index.qmd](econ205/index.qmd)
 
-### ACCT 410x — date TBD
+### ACCT 410x/410 — Mon May 11, 4:30–6:30 PM
 
-**Strategy:** Leventhal "user-oriented" — emphasize *what the number means for a manager*, not journal-entry mechanics. The April 20 tutoring brief identified four high-yield trap areas (indirect cash flow, multi-product CVP, inventory error reversal, bond pricing). Drill those first.
+**Strategy:** Leventhal "user-oriented" — emphasize *what the number means for a manager*, not journal-entry mechanics. The USC Registrar lists Accounting 410 in the Monday May 11, 4:30–6:30 PM exception slot; verify Hanna's section against Brightspace. The April 20 tutoring brief identified four high-yield trap areas (indirect cash flow, multi-product CVP, inventory error reversal, bond pricing). Drill those first.
 
 Start here: [acct410x/index.qmd](acct410x/index.qmd)
+
+### Marketing — Ensemble project, syllabus pending
+
+**Strategy:** Treat this as a deliverable, not a memorization exam. Until the syllabus arrives, the honest work is to build the pitch spine: target user, problem, competitive set, positioning, evidence, go-to-market, and risk answers.
+
+Start here: [marketing/index.qmd](marketing/index.qmd)
 
 :::
 

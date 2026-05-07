@@ -1,0 +1,95 @@
+---
+title: "Source Check"
+subtitle: "What is verified, what is lecture-dependent, and what still needs Hanna's syllabus"
+description: "Accuracy notes and correction log for the StudyHub"
+toc: true
+toc-depth: 2
+---
+
+::: {.callout-important}
+**Use this page before exam-day reliance.** The study hub is intentionally dense, but dense is only useful if it is honest. Treat this as the control panel for dates, source confidence, and known gaps.
+:::
+
+## Current Status
+
+```{=html}
+<div class="truth-grid">
+  <div class="truth-card">
+    <div class="label">Verified schedule</div>
+    <h3>ECON 205</h3>
+    <p><span class="confidence verified">verified</span> Mon May 11, 2026 · 2:00-4:00 PM, matching the posted final slot currently used on the ECON pages.</p>
+  </div>
+  <div class="truth-card">
+    <div class="label">Registrar exception</div>
+    <h3>ACCT 410x/410</h3>
+    <p><span class="confidence pending">verify section</span> USC's registrar lists Accounting 410 for Mon May 11, 2026 · 4:30-6:30 PM. Confirm Hanna's section in Brightspace.</p>
+  </div>
+  <div class="truth-card">
+    <div class="label">Needs Hanna confirmation</div>
+    <h3>IR 362</h3>
+    <p><span class="confidence caution">date unverified</span> The old May 14 placeholder was outside USC's May 6-13 final period and should not be used.</p>
+  </div>
+  <div class="truth-card">
+    <div class="label">Awaiting syllabus</div>
+    <h3>Marketing</h3>
+    <p><span class="confidence pending">pending</span> Current page is a project scaffold for Ensemble, not a syllabus-backed exam prep page.</p>
+  </div>
+</div>
+```
+
+**Schedule source:** [USC Final Exam Schedule](https://arr.usc.edu/final-exam-schedule/). Brightspace, the syllabus, or direct professor announcements override this page if they are more specific to Hanna's section.
+
+## Correction Log
+
+| Date | Change | Why |
+|---|---|---|
+| May 7, 2026 | Replaced the IR 362 countdown with `VERIFY`. | The prior placeholder used May 14 even though USC's Spring 2026 final period ends May 13. |
+| May 7, 2026 | Updated ACCT from a May 13 placeholder to the Accounting 410 registrar exception slot. | The public registrar schedule lists Accounting 410 on May 11, 4:30-6:30 PM; Hanna's section still needs Brightspace confirmation. |
+| May 7, 2026 | Added this Source Check page and linked it from the navbar/home page. | The site has high-value material, but lecture-specific claims and fast-moving current events need visible confidence labels. |
+| May 7, 2026 | Kept Marketing visible but marked it syllabus-pending. | A project scaffold is useful, but pretending the syllabus is known would be false. |
+
+## Confidence Labels
+
+| Label | Meaning | Exam-use rule |
+|---|---|---|
+| <span class="confidence verified">verified</span> | Confirmed by a public schedule, syllabus, source text, or stable course artifact. | Safe to rely on unless Brightspace contradicts it. |
+| <span class="confidence pending">verify section</span> | A strong lead, but section-specific confirmation is still needed. | Use for planning, not as final truth. |
+| <span class="confidence caution">date unverified</span> | The site does not yet have the needed course-specific evidence. | Ask Hanna for the syllabus, screenshot, or announcement. |
+| Lecture-dependent | Reconstructed from Hammad/Perez/Leventhal framing rather than an external public source. | Cite the professor's lecture notes/slides if writing an exam answer. |
+| Current-events scaffold | Useful context after 2024, but not automatically assigned material. | Do not cite unless the professor permitted or assigned that source. |
+
+## Known Gaps
+
+### IR 362
+
+- **Final date/time:** needs Brightspace or syllabus confirmation.
+- **Nash-equilibrium article and final-slide framing:** the site currently reconstructs the likely game-theory scaffold. It must be checked against Hammad's exact assigned reading and slide.
+- **"Carousel" metaphor:** useful and likely central, but lecture-specific. Hanna should match the wording to her notes.
+- **Syria 2024-26 material:** valuable but fast-moving. Treat it as current-events scaffolding unless Hammad assigned those sources.
+- **Western Sahara, Sudan, Morocco normalization details:** present in the Abraham Accords context, but not as deep as Iran/Syria/Palestine.
+
+### ECON 205
+
+- **Exam room details:** calculator, pencil, room, and permitted materials should be checked against the syllabus.
+- **High-risk content:** tariff math, multipliers with taxes/imports, exchange-rate quote conventions, and loanable-funds shifts. These are conceptually right only if the graph axes and assumptions match the prompt.
+- **Practice problem audit:** numeric answers should be spot-checked after every generated expansion.
+
+### ACCT 410x/410
+
+- **Section confirmation:** Accounting 410 appears on the registrar exception schedule; Hanna's Brightspace page should confirm whether ACCT 410x follows that exact slot.
+- **Exam format:** the site assumes "user-oriented" managerial interpretation plus cumulative accounting mechanics. Confirm any allowed notes, calculator policy, and topic weights.
+- **High-risk content:** indirect cash-flow sign rules, inventory-error reversals, multi-product CVP, and bond premium/discount amortization.
+
+### Marketing
+
+- **Syllabus missing.** No claims about grading, deadline, required slide count, or rubric should be treated as final.
+- **Current useful work:** target customer, competitor matrix, value proposition, positioning, prototype story, and risk-response answers for Ensemble.
+
+## Ground Rule
+
+Do not delete good material just because it is uncertain. Label it. The repair pattern is:
+
+1. Preserve the content.
+2. Mark the confidence level.
+3. Add the missing source or syllabus check.
+4. Correct dates and calculations immediately when contradicted by reliable evidence.

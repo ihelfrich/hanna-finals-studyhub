@@ -71,4 +71,4 @@ Per Pérez's syllabus, the cumulative final pulls from:
 - [Mock Exam A](mock-exam-a.qmd) + key on the same page
 - [Mock Exam B](mock-exam-b.qmd) + key on the same page
 - [Killer Traps Drills](killer-traps.qmd) — 25 trap-style problems
-- Master Study Tool (raw): {{< include _master.md >}}
+- Master Study Tool source: `_master.md` (not rendered directly; distilled into the cram sheet, recall bank, and mock exams)

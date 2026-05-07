@@ -1,0 +1,23 @@
+---
+title: "Marketing — Awaiting Syllabus"
+subtitle: "Course code TBD · final = pitch deck for AI styling app 'Ensemble'"
+---
+
+::: {.callout-warning}
+**Awaiting syllabus.** Once Hanna sends the syllabus, this section fills with: target customer research, competitive matrix, positioning + 4Ps, value-prop one-liner, financial model, and a polished pitch deck for the Ensemble project.
+:::
+
+## What we know so far (from the April 22 Zoom recap)
+
+- **Project:** AI-powered personal styling service for events (weddings, formal occasions, etc.)
+- **Working name:** Ensemble
+- **Differentiator (proposed by Dr. Helfrich):** social/coordination layer — coordinate outfits across attendees in real time
+- **Concerns Hanna raised:** trust in AI vs. human stylists; user adoption; complexity within deadline
+- **Pivot considered:** beauty product instead of full styling app, easier to demo
+
+## Until we have the syllabus
+
+- Read existing pitch-deck guidance frameworks (Sequoia 10-slide template; Y Combinator pitch guide)
+- Draft a 30-second elevator pitch (memorize 3 versions: 5-word, 30-second, 2-minute)
+- Identify 3 closest competitors to Ensemble (likely: Stitch Fix, ASOS Style Match, Cladwell)
+- Draft target-customer persona (1 page)

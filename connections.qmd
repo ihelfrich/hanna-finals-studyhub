@@ -14,8 +14,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Oil rents and the resource curse
 
 ::: {.terms}
-::: {.term}**IR 362** — Mitchell's *Carbon Democracy*; Brownlee/Masoud/Reynolds' "oil + hereditary executive"; rentier-state logic:::
-::: {.term}**ECON 205** — natural-resource curse; the Dutch Disease channel; resource exports → currency appreciation → manufacturing decline:::
+::: {.term}
+**IR 362** — Mitchell's *Carbon Democracy*; Brownlee/Masoud/Reynolds' "oil + hereditary executive"; rentier-state logic
+:::
+
+::: {.term}
+**ECON 205** — natural-resource curse; the Dutch Disease channel; resource exports → currency appreciation → manufacturing decline
+:::
 :::
 
 **Why both at once.** Hammad treats oil as a *political* infrastructure that produces authoritarian robustness. ECON 205 treats oil as an *export* that distorts the exchange-rate channel and sterilizes industrial diversification. They are the **same fact** from different sides: oil rents lower the political cost of repression *and* the economic incentive to industrialize. Once you see this, "Why didn't the Gulf states transition in 2011?" and "Why is Saudi GDP composition unusual?" are the same question.
@@ -29,8 +34,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Sanctions on Iran and the trade/finance channels
 
 ::: {.terms}
-::: {.term}**IR 362** — sanctions as a tool of US primacy; JCPOA 2015 as relief; "maximum pressure" 2018+; Iran's adaptation via the axis of resistance:::
-::: {.term}**ECON 205** — Ch 18 (trade): tariffs, quotas, embargoes shrink trade volumes; Ch 19 (finance): capital-account controls, currency depreciation, parallel exchange rates:::
+::: {.term}
+**IR 362** — sanctions as a tool of US primacy; JCPOA 2015 as relief; "maximum pressure" 2018+; Iran's adaptation via the axis of resistance
+:::
+
+::: {.term}
+**ECON 205** — Ch 18 (trade): tariffs, quotas, embargoes shrink trade volumes; Ch 19 (finance): capital-account controls, currency depreciation, parallel exchange rates
+:::
 :::
 
 **Why both at once.** Sanctions are a *political* instrument with a clean *economic* signature. ECON 205 gives you the supply/demand graph of an embargo (DWL triangles, the rent rectangle going to license-holders or smugglers); IR 362 gives you the strategic intent (forcing a regime to the bargaining table; degrading proxy financing). The 2015 JCPOA is the moment both vocabularies briefly aligned — sanctions relief was *measurable* in oil exports and *visible* in Iran's regional reach.
@@ -44,8 +54,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Gulf currency pegs and fixed exchange rates
 
 ::: {.terms}
-::: {.term}**IR 362** — GCC dollar pegs as a security signal — alignment with US financial system; cost of breaking the peg = exit from US-led order:::
-::: {.term}**ECON 205** — Ch 19: fixed exchange rates, the "trilemma" (you can have any two of: fixed FX, free capital, independent monetary policy); PPP and real exchange-rate divergence:::
+::: {.term}
+**IR 362** — GCC dollar pegs as a security signal — alignment with US financial system; cost of breaking the peg = exit from US-led order
+:::
+
+::: {.term}
+**ECON 205** — Ch 19: fixed exchange rates, the "trilemma" (you can have any two of: fixed FX, free capital, independent monetary policy); PPP and real exchange-rate divergence
+:::
 :::
 
 **Why both at once.** A currency peg is *both* a monetary regime and a foreign-policy posture. ECON tells you what the peg costs (loss of independent monetary policy; vulnerability to speculative attack); IR tells you why Gulf states pay that cost anyway (alignment-signaling, capital-market access, predictable trade with the dollar bloc). The Saudi-Iran rapprochement (3/2023) and any post-Accords realignment will *show up first* in pressure on the peg — that's where the two courses converge.
@@ -61,8 +76,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Egypt's military economy as a financial-statement reading exercise
 
 ::: {.terms}
-::: {.term}**IR 362** — Sayigh (Carnegie 2019): the Egyptian military runs **~25% of government spending**; opaque, off-balance-sheet, immune from civilian audit:::
-::: {.term}**ACCT 410x** — ratio analysis, statement of cash flows, the indirect method; the question of *what's actually in* a reported number:::
+::: {.term}
+**IR 362** — Sayigh (Carnegie 2019): the Egyptian military runs **~25% of government spending**; opaque, off-balance-sheet, immune from civilian audit
+:::
+
+::: {.term}
+**ACCT 410x** — ratio analysis, statement of cash flows, the indirect method; the question of *what's actually in* a reported number
+:::
 :::
 
 **Why both at once.** ACCT 410x trains you to read a financial statement and ask "what's missing, what's reclassified, what's a non-cash item, what's allocated vs. avoidable?" Sayigh is doing exactly that for a *country*. When 25% of an "income statement" is one entity that doesn't get audited, every ratio (profit margin, ROA, debt-to-assets) is meaningless until you adjust for that entity. The IR 362 frame and the ACCT 410x toolkit are the same frame: *don't trust the headline number*.
@@ -76,8 +96,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Crony capitalism as a margin-and-allocation problem
 
 ::: {.terms}
-::: {.term}**IR 362** — Diwan/Malik/Atiyas: crony capitalism reduces *aggregate* growth (not just redistributes); networked firms get tariff protection, contracts, credit:::
-::: {.term}**ACCT 410x** — relevant costs; "ignore allocated fixed costs that don't change"; how reported margins overstate efficiency when subsidies are bundled in:::
+::: {.term}
+**IR 362** — Diwan/Malik/Atiyas: crony capitalism reduces *aggregate* growth (not just redistributes); networked firms get tariff protection, contracts, credit
+:::
+
+::: {.term}
+**ACCT 410x** — relevant costs; "ignore allocated fixed costs that don't change"; how reported margins overstate efficiency when subsidies are bundled in
+:::
 :::
 
 **Why both at once.** The Diwan/Malik/Atiyas claim is, in accounting language: connected firms have *artificially low* costs (subsidized inputs, allocated fixed costs they don't bear) and *artificially high* margins. Their reported profitability is not real economic profit — it's a transfer. The 410x lesson "ignore sunk costs and reallocated FC" is the *same skill* as Diwan's lesson "don't read state-firm profitability as productivity."
@@ -93,8 +118,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### GDP measurement and accounting income measurement
 
 ::: {.terms}
-::: {.term}**ECON 205** — Ch 5–6: spending GDP $Y = C + I + G + NX$; nominal vs real; deflator; double-counting avoided by using *value-added*:::
-::: {.term}**ACCT 410x** — accrual basis: revenue when *earned*, expense when *incurred*; matching principle; net income as a constructed number:::
+::: {.term}
+**ECON 205** — Ch 5–6: spending GDP $Y = C + I + G + NX$; nominal vs real; deflator; double-counting avoided by using *value-added*
+:::
+
+::: {.term}
+**ACCT 410x** — accrual basis: revenue when *earned*, expense when *incurred*; matching principle; net income as a constructed number
+:::
 :::
 
 **Why both at once.** GDP is to a country what net income is to a firm: a *constructed* aggregate that requires choices about timing, scope, and measurement. Both face the same traps — what counts as "production" vs. "transfer," when do you recognize an event, how do you handle non-cash flows. The intuition that builds in 410x ("Unearned Revenue is a liability until it's earned") is the same intuition that builds in 205 ("government transfers are not GDP").
@@ -108,8 +138,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Inflation and inventory accounting
 
 ::: {.terms}
-::: {.term}**ECON 205** — Ch 11: inflation reduces purchasing power; Fisher (real vs nominal); creditors lose / debtors gain on unexpected inflation:::
-::: {.term}**ACCT 410x** — FIFO vs LIFO under rising prices; LIFO → higher COGS → lower NI → lower tax; FIFO → ending inventory at *current* costs:::
+::: {.term}
+**ECON 205** — Ch 11: inflation reduces purchasing power; Fisher (real vs nominal); creditors lose / debtors gain on unexpected inflation
+:::
+
+::: {.term}
+**ACCT 410x** — FIFO vs LIFO under rising prices; LIFO → higher COGS → lower NI → lower tax; FIFO → ending inventory at *current* costs
+:::
 :::
 
 **Why both at once.** Inflation is a measurement problem. ECON 205 tells you that nominal numbers mislead in real terms; ACCT 410x tells you that inventory cost-flow assumptions *react* to that misleading. Under rising prices, LIFO is "more conservative" precisely because it pushes recent (high) costs into COGS, matching today's revenue with today's costs — that's the matching principle doing inflation-adjustment by hand. FIFO leaves inventory holding gains in net income; LIFO doesn't.
@@ -123,8 +158,13 @@ description: "Same week of finals — make the courses talk to each other"
 ### Fed monetary policy and corporate financing decisions
 
 ::: {.terms}
-::: {.term}**ECON 205** — Ch 16: Fed buys/sells bonds → r changes; bond price ↔ yield inverse; transmission to I, C, NX; Taylor Rule:::
-::: {.term}**ACCT 410x** — bond pricing direction: market rate > coupon → discount; market rate < coupon → premium; the carrying value drifts toward face:::
+::: {.term}
+**ECON 205** — Ch 16: Fed buys/sells bonds → r changes; bond price ↔ yield inverse; transmission to I, C, NX; Taylor Rule
+:::
+
+::: {.term}
+**ACCT 410x** — bond pricing direction: market rate > coupon → discount; market rate < coupon → premium; the carrying value drifts toward face
+:::
 :::
 
 **Why both at once.** The bond pricing logic in ACCT 410x is the *same equation* the Fed is using on the macro side. When the Fed raises rates (ECON 205), every outstanding fixed-coupon corporate bond's market price falls (ACCT 410x). The discount/premium classification on the issuer's books is just the firm-level version of "where is the market rate today vs. when we issued this." If you can answer "what does the Fed's rate hike do to AD?" *and* "what does it do to bonds payable on a balance sheet?" with the same intuition, you have both courses' Ch-16-equivalent material in one mental model.

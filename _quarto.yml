@@ -8,6 +8,7 @@ project:
     - "ir362/*.qmd"
     - "econ205/*.qmd"
     - "acct410x/*.qmd"
+    - "marketing/*.qmd"
     - "!research/"
     - "!ir362/_*.md"
     - "!econ205/_*.md"
@@ -31,6 +32,12 @@ website:
         text: Home
       - href: tonight.qmd
         text: "🎯 Tonight"
+      - href: cram-sprint.qmd
+        text: "🏃 Cram Sprint"
+      - href: quick-fire.qmd
+        text: "🔥 Quick-Fire"
+      - href: memorize-cold.qmd
+        text: "🧠 Memorize Cold"
       - href: print-pack.qmd
         text: "🖨️ Print Packs"
       - href: flashcards.qmd
@@ -41,6 +48,8 @@ website:
         text: "📖 Glossary"
       - href: curveballs.qmd
         text: "🎢 Curveballs"
+      - href: accuracy-notes.qmd
+        text: "Source Check"
       - text: "IR 362"
         menu:
           - href: ir362/index.qmd
@@ -89,7 +98,7 @@ website:
             text: "📊 Problem Bank (by Chapter)"
           - href: econ205/print-pack.qmd
             text: "🖨️ Printable Pack"
-      - text: "ACCT 410x"
+      - text: "ACCT 410"
         menu:
           - href: acct410x/index.qmd
             text: Overview & Strategy
@@ -105,6 +114,10 @@ website:
             text: Day-Of Playbook
           - href: acct410x/print-pack.qmd
             text: "🖨️ Printable Pack"
+      - text: "Marketing"
+        menu:
+          - href: marketing/index.qmd
+            text: Overview (syllabus pending)
 
   sidebar:
     - title: "IR 362"
@@ -176,9 +189,9 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, assets/css/custom.scss]
-      dark: [darkly, assets/css/custom.scss]
-    css: assets/css/custom.scss
+      light: cosmo
+      dark: darkly
+    css: assets/css/custom.css
     toc: true
     toc-depth: 3
     toc-title: "On this page"

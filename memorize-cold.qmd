@@ -1,0 +1,211 @@
+---
+title: "🧠 Memorize Cold"
+subtitle: "The Minimum Viable Knowledge per course · pure retrieval bait"
+description: "If you only memorize this, you can defend yourself in any question. One printed page max per course."
+toc: true
+toc-depth: 2
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        details.mc {
+          border: 1px solid var(--bs-border-color); border-radius: 10px;
+          padding: .8rem 1.1rem; margin: .7rem 0;
+          background: var(--bs-body-bg);
+        }
+        details.mc[open] { background: rgba(153,0,0,0.03); border-color: #990000; }
+        details.mc summary {
+          cursor: pointer; font-weight: 700; color: #990000; font-size: 1.05rem;
+          list-style: none;
+        }
+        details.mc summary::before { content: "▸ "; display: inline-block; transition: transform .15s ease; }
+        details.mc[open] summary::before { content: "▾ "; }
+        details.mc table { font-size: .92rem; margin: .5rem 0; }
+        details.mc table th { background: rgba(153,0,0,0.06); font-weight: 700; }
+        details.mc table td, details.mc table th { padding: .35rem .6rem; vertical-align: top; }
+        .course-banner {
+          background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+          color: white; padding: 1rem 1.2rem; border-radius: 10px;
+          font-weight: 800; font-size: 1.2rem; margin: 1.6rem 0 .6rem;
+          display: flex; justify-content: space-between; align-items: center;
+        }
+        .course-banner.muted { background: linear-gradient(135deg, #555 0%, #333 100%); font-size: 1.05rem; padding: .7rem 1rem; }
+        .course-banner .badge {
+          background: #FFC72C; color: #1a1a1a; font-size: .72rem;
+          padding: 3px 10px; border-radius: 999px; letter-spacing: .04em;
+        }
+        </style>
+---
+
+::: {.callout-warning}
+**Read this last.** Everything below is the irreducible. If you have 90 minutes before the exam, this is what you re-read. If you have 15 minutes, this is what you re-read. One printed page max per course.
+:::
+
+```{=html}
+<div class="course-banner">📘 IR 362 · Hammad <span class="badge">65% weight</span></div>
+```
+
+<details class="mc" open>
+<summary>Dates (memorize cold)</summary>
+
+| Date | Event | Significance |
+|---|---|---|
+| 1917 | Balfour Declaration | British promise · settler-colonial framing root |
+| 1947 | UNGA 181 partition plan | International legal basis for Israel |
+| 1948 | Israeli independence + Nakba | Founding rupture · Palestinian dispossession |
+| 1967 | Six-Day War; UNSC 242 | "Land for peace" doctrine |
+| 1973 | Yom Kippur War; UNSC 338 | Last major Arab-state war on Israel |
+| 1978 | Camp David Accords | Egypt-Israel peace · first break with Palestinian veto |
+| 1979 | Iranian Revolution | Iran flips US ally → adversary |
+| 1982 | Israel invades Lebanon → Hezbollah founded | Birth of axis-of-resistance arm |
+| 1993 | Oslo I (DoP) | PA created · two-state diplomacy formalized |
+| 2000–05 | Second Intifada | Oslo dies in practice |
+| 2002 | Arab Peace Initiative (Saudi-led) | Sequencing-precondition logic |
+| 2003 | US invades Iraq | Iran's regional opening · Gause: primacy not hegemony |
+| 2011 | Arab Spring (Bouazizi 12/17/2010) | Bahrain crushed by Peninsula Shield 3/2011 |
+| 2013 | Sisi coup in Egypt | Saudi/UAE-backed counter-revolutionary template |
+| 2015 | JCPOA + Russia enters Syria | Iran's nuclear deal · Assad backstop |
+| 2017 | Hamas Political Document | Transitional 1967-border state language |
+| 2020 | Abraham Accords (UAE 8/13, Bahrain 9/11, Sudan 10/23, Morocco 12/10) | Sequencing inversion |
+| 1/2020 | Soleimani killed | US escalation moment |
+| 3/2023 | Saudi-Iran rapprochement (Beijing) | China as regional broker |
+| 10/7/2023 | Hamas attack on Israel | Spoiler theory of Saudi normalization |
+| 9/27/2024 | Nasrallah killed | Hezbollah decapitated |
+| 12/8/2024 | Damascus falls; Assad to Russia | Iran's land bridge severed |
+
+</details>
+
+<details class="mc">
+<summary>Authors + Frames (cite by author + year)</summary>
+
+| Author | Year | Frame / Claim |
+|---|---|---|
+| Bellin | 2004 | Robustness of authoritarianism; coercive apparatus determines outcomes |
+| Brownlee, Masoud, Reynolds | 2015 | Hereditary executive AND oil rents predict regime survival |
+| Mitchell | 2011 | *Carbon Democracy*; energy infrastructure shapes politics |
+| Gause III | 2024–25 | Primacy ≠ unipolarity ≠ hegemony |
+| Diwan/Malik/Atiyas | 2019 | Crony capitalism reduces aggregate growth |
+| Sayigh | 2019 | Egyptian military runs ~25% of govt spending |
+| Bayat | 2017 | *Revolution without Revolutionaries*; institutions outlive leaders |
+| Schelling | 1960 | Strategy of conflict; coordination + deterrence |
+| Goodarzi | 2006 | Iran-Syria alliance is strategic, not sectarian |
+| Khalidi | 2020 | *Hundred Years' War on Palestine*; settler-colonial frame |
+
+</details>
+
+<details class="mc">
+<summary>Three Throughlines</summary>
+
+1. **API → Abraham Accords pivot** — sequencing inversion: Palestine-precondition removed; security-and-economics linkage takes over.
+2. **Nash equilibrium / carousel** — each actor best-responds; cycles produce the appearance of motion while the structure stays intact; only payoff-matrix shocks shift it.
+3. **Iran's linkage engine** — Tehran connected the Gulf-security sphere to the Israeli sphere via Hezbollah + Syria; structurally central until 2024, functionally diminished after.
+
+</details>
+
+<details class="mc">
+<summary>Five Essay-Bank Theses (deploy + adapt)</summary>
+
+1. *"The Israeli-Palestinian conflict in 2026 cannot be analyzed in isolation — it is one node in a regional system whose center of gravity has shifted from Palestine-centered linkage (the API logic) to security-and-economics linkage (the Abraham Accords logic), with Iran as the engine connecting both spheres until late 2024."*
+2. *"The 2002 API and the 2020 Abraham Accords represent the two competing equilibria — sequencing-precondition vs. sequencing-inversion — and the post-October-7 trajectory shows partial reversion to the former without restoring its formal text."*
+3. *"The regional system is best understood as a Nash equilibrium in which no actor can unilaterally deviate without making itself worse off — which is why escalation cycles produce the appearance of motion (the carousel) while the structure stays intact."*
+4. *"Iran's regional engine functioned by linking the Gulf-security sphere to the Israeli-Lebanese sphere through Syria's geographic position and Hezbollah's forward arm; the December 2024 Assad collapse subtracted that scaffolding, making 2024–26 the most consequential structural shift since 1979."*
+5. *"Authoritarian robustness in MENA depends on a coercive apparatus and rentier resources (Bellin 2004; Brownlee/Masoud/Reynolds 2015), which is why most Arab Spring transitions reverted."*
+
+</details>
+
+<details class="mc">
+<summary>Six Trap-Avoidance Reminders</summary>
+
+- ❌ Don't treat "Abraham Accords" as the full story — they're four bilateral deals, not a regional architecture. Saudi never signed.
+- ❌ Don't conflate "axis of resistance" with monolithic coordination. Each member has local interests.
+- ❌ Don't use "sectarian" as primary explanation for Iran-Syria — it's strategic with a sectarian veneer (Goodarzi).
+- ❌ Don't claim Assad fell because HTS won. Four scaffolds failed simultaneously.
+- ❌ Don't say the API "failed." It became the regional template even without execution.
+- ❌ Don't conflate primacy, unipolarity, and hegemony. Gause's distinction is testable.
+
+</details>
+
+```{=html}
+<div class="course-banner">📕 ACCT 410 · Leventhal <span class="badge">user-oriented</span></div>
+```
+
+<details class="mc" open>
+<summary>15 Formulas (with names)</summary>
+
+| Name | Formula |
+|---|---|
+| Accounting Equation | $Assets = Liabilities + Equity$ |
+| Equity Expansion | $Equity = Contributed~Capital + Retained~Earnings$ |
+| Retained Earnings Roll | $RE_{end} = RE_{begin} + NI - Dividends$ |
+| Net Income | $NI = Revenues - Expenses$ |
+| COGS | $Beginning~Inv + Purchases - Ending~Inv$ |
+| Current Ratio | $CA / CL$ |
+| Inventory Turnover | $COGS / Avg~Inventory$ |
+| Profit Margin | $NI / Net~Sales$ |
+| ROA | $NI / Avg~Total~Assets$ |
+| Debt-to-Assets | $Total~Liab / Total~Assets$ |
+| Straight-Line Depreciation | $(Cost - Salvage) / Useful~Life$ |
+| Contribution Margin | $Sales - Variable~Costs$ |
+| CM Ratio | $Unit~CM / Unit~Price$ |
+| Break-Even (units) | $FC / Unit~CM$ |
+| Target Profit (units) | $(FC + Target~Profit) / Unit~CM$ |
+
+</details>
+
+<details class="mc">
+<summary>Normal Balances — ADE / LER mnemonic</summary>
+
+| Type | Increases with | Examples |
+|---|---|---|
+| **A**ssets | Debit | Cash, AR, Inventory, PP&E |
+| **D**ividends | Debit | Dividends declared |
+| **E**xpenses | Debit | COGS, SG&A, Depreciation |
+| **L**iabilities | Credit | AP, Notes Payable, Bonds |
+| **E**quity | Credit | Common Stock, RE |
+| **R**evenue | Credit | Sales, Service Revenue |
+
+ADE = debit-normal · LER = credit-normal.
+
+</details>
+
+<details class="mc">
+<summary>Four Trap Areas</summary>
+
+- **Indirect cash flow direction rules:** Asset ↑ = Subtract; Liab ↑ = Add. Add back losses, subtract gains.
+- **Multi-product CVP:** use weighted-average CM by sales mix; BE units in mix = FC / Weighted-Avg Unit CM.
+- **Inventory error reversal:** overstating ending inv overstates Year 1 NI, understates Year 2 NI; cumulative RE is correct after Year 2.
+- **Bond pricing direction:** market rate > coupon → discount; market rate < coupon → premium; equal → par.
+
+</details>
+
+<details class="mc">
+<summary>Five User-Perspective Questions a CFO Asks</summary>
+
+1. Can we pay our bills next quarter? (liquidity: current ratio, quick ratio, cash conversion cycle)
+2. Are we earning enough on the assets we own? (profitability: ROA, profit margin)
+3. Can we survive a downturn at this debt level? (solvency: debt-to-assets, interest coverage)
+4. Which products / segments actually contribute, after avoidable costs? (CVP, contribution margin, keep/drop)
+5. Where is cash actually coming from — operations, investing, or financing? (statement of cash flows quality)
+
+</details>
+
+```{=html}
+<div class="course-banner">🛍️ Marketing · Ensemble project <span class="badge">syllabus pending</span></div>
+```
+
+::: {.callout-warning}
+**Awaiting syllabus from user.** Once provided, this section fills with: positioning statement, 4Ps, target customer profile, competitive matrix, value-prop one-liner, pitch deck outline. See [marketing/index.qmd](marketing/index.qmd) for what we know so far.
+:::
+
+```{=html}
+<div class="course-banner muted">📗 ECON 205 · bonus reference <span class="badge">if time permits</span></div>
+```
+
+ECON 205 is largely behind you; the existing materials cover it cold. If you have leftover capacity, the highest-yield items are:
+
+- [Cram sheet](econ205/cram-sheet.qmd) — formulas + AD/AS rules
+- [Killer traps](econ205/killer-traps.qmd) — Fisher, crowding out, quantity theory
+- [Active recall bank](econ205/active-recall.qmd) — flip cards
+
+Don't expand here — those pages are tighter than anything I'd add.

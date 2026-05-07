@@ -1,0 +1,331 @@
+---
+title: "🔥 Quick-Fire Quiz"
+subtitle: "20 random questions · 30 seconds each · score yourself"
+description: "Timed retrieval drill across IR 362, ACCT 410, ECON 205. Mix-and-match, no scaffolding."
+toc: false
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        .qf-hero { background: linear-gradient(135deg, #990000 0%, #5a0000 100%); color: white; padding: 1.6rem 1.4rem; border-radius: 14px; margin-bottom: 1.2rem; }
+        .qf-hero h1 { color: white !important; margin: 0 0 .3rem; font-size: 1.6rem; }
+        .qf-hero p { color: rgba(255,255,255,0.92); margin: 0; }
+        .qf-hero .accent-bar { height: 4px; width: 50px; background: #FFC72C; border-radius: 999px; margin-bottom: .7rem; }
+        .qf-stage {
+          border: 1px solid var(--bs-border-color); border-radius: 14px;
+          background: var(--bs-body-bg); padding: 2rem 1.6rem;
+          min-height: 360px;
+          display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+          margin: 1rem 0;
+        }
+        .qf-tag {
+          display: inline-block; background: #FFC72C; color: #1a1a1a;
+          font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em;
+          padding: 3px 10px; border-radius: 999px; margin-bottom: .8rem;
+        }
+        .qf-question { font-size: 1.4rem; font-weight: 600; line-height: 1.4; max-width: 720px; margin: .4rem 0 1rem; }
+        .qf-answer { font-size: 1.05rem; line-height: 1.5; max-width: 720px; color: var(--bs-secondary-color); border-top: 2px solid #FFC72C; padding-top: .9rem; margin-top: .5rem; }
+        .qf-actions { margin-top: 1.2rem; display: flex; gap: .6rem; flex-wrap: wrap; justify-content: center; }
+        .qf-btn { border: 0; border-radius: 10px; padding: .7rem 1.4rem; font-weight: 700; cursor: pointer; font-size: 1rem; }
+        .qf-btn.primary { background: #990000; color: white; }
+        .qf-btn.primary:hover { background: #7a0000; }
+        .qf-btn.right { background: #1d8348; color: white; }
+        .qf-btn.wrong { background: #b03030; color: white; }
+        .qf-btn.flip { background: #FFC72C; color: #1a1a1a; }
+        .qf-meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: .6rem; font-weight: 700; font-size: .9rem; flex-wrap: wrap; }
+        .qf-progress { color: var(--bs-secondary-color); }
+        .qf-timer-ring {
+          width: 64px; height: 64px; position: relative;
+          display: inline-flex; align-items: center; justify-content: center;
+        }
+        .qf-timer-ring svg { transform: rotate(-90deg); }
+        .qf-timer-ring circle.bg { stroke: var(--bs-border-color); fill: none; stroke-width: 6; }
+        .qf-timer-ring circle.fg { stroke: #990000; fill: none; stroke-width: 6; stroke-linecap: round; transition: stroke-dashoffset 1s linear; }
+        .qf-timer-ring .secs { position: absolute; font-weight: 800; font-size: 1.1rem; color: #990000; }
+        .qf-timer-ring.warn circle.fg { stroke: #FFC72C; }
+        .qf-timer-ring.warn .secs { color: #8a6d00; }
+        .qf-results { padding: 1.2rem 0; }
+        .qf-results .score { font-size: 3.5rem; font-weight: 800; color: #990000; line-height: 1; margin: .4rem 0; }
+        .qf-results .label { color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .06em; font-size: .8rem; }
+        .qf-stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .8rem; margin: 1rem 0; }
+        .qf-stat-row .stat { border: 1px solid var(--bs-border-color); border-radius: 10px; padding: .8rem; }
+        .qf-stat-row .stat .num { font-size: 1.6rem; font-weight: 800; color: #990000; }
+        .qf-stat-row .stat .lbl { font-size: .78rem; color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .05em; }
+        .qf-feedback {
+          position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
+          padding: 1.2rem 2.4rem; border-radius: 14px; font-size: 2.4rem; font-weight: 800;
+          z-index: 9999; pointer-events: none; opacity: 0; transition: opacity .25s ease;
+        }
+        .qf-feedback.show { opacity: 1; }
+        .qf-feedback.right { background: #1d8348; color: white; }
+        .qf-feedback.wrong { background: #b03030; color: white; }
+        @media (max-width: 600px){ .qf-question { font-size: 1.15rem; } }
+        </style>
+---
+
+```{=html}
+<div class="qf-hero">
+  <div class="accent-bar"></div>
+  <h1>🔥 Quick-Fire Quiz</h1>
+  <p>20 questions · 30 seconds each · pulled randomly from the IR 362, ACCT 410, ECON 205 banks. No scaffolding. Self-grade.</p>
+</div>
+
+<div class="qf-meta">
+  <span class="qf-progress" id="qf-progress">Ready</span>
+  <span id="qf-tag-info"></span>
+</div>
+
+<div class="qf-stage" id="qf-stage">
+  <p style="max-width:540px;">Click <strong>Start</strong>. You'll see a question with a 30-second timer. Think it through, then flip the card. Mark yourself <strong>Right</strong> or <strong>Wrong</strong>. Score and weak-topic recommendation at the end.</p>
+  <div class="qf-actions">
+    <button class="qf-btn primary" id="qf-start">Start</button>
+  </div>
+</div>
+
+<div class="qf-feedback" id="qf-feedback"></div>
+
+<script>
+const QF_POOL = [
+  // IR 362 — flashcards (verbatim)
+  {course:"IR 362", topic:"Dates", q:"What happened in 1948 and why does it anchor the conflict?", a:"Israeli independence + the Nakba: founding rupture and Palestinian dispossession. Originating reference point for every later claim."},
+  {course:"IR 362", topic:"Dates", q:"1967 — what war, what doctrine emerged?", a:"Six-Day War; Israel takes WB / Gaza / Sinai / Golan. UNSC 242 launches the 'land for peace' doctrine."},
+  {course:"IR 362", topic:"Dates", q:"1979 — what flips, and how?", a:"Iranian Revolution. Iran flips from US ally to adversary; pivots the regional alignment system."},
+  {course:"IR 362", topic:"Dates", q:"1982 — what is founded and why does it matter long-term?", a:"Israeli invasion of Lebanon → Hezbollah founding. Birth of the axis-of-resistance forward arm."},
+  {course:"IR 362", topic:"Dates", q:"2002 — what document, what bargain?", a:"Arab Peace Initiative (Saudi-led): full normalization in exchange for full withdrawal + Palestinian state. Sequencing-precondition logic."},
+  {course:"IR 362", topic:"Dates", q:"2003 — what event, what regional consequence?", a:"US invasion of Iraq. Opens regional space for Iran. Gause: shows the US never had hegemony, only primacy."},
+  {course:"IR 362", topic:"Dates", q:"2011 — name the spark and the counter-move", a:"Arab Spring. Bouazizi self-immolates 12/17/2010. Bahrain crushed by Peninsula Shield (3/2011) — counter-revolutionary template."},
+  {course:"IR 362", topic:"Dates", q:"2015 — name two events that change Iran's geopolitical position", a:"JCPOA signed (Iran nuclear deal); Russia enters Syria to backstop Assad."},
+  {course:"IR 362", topic:"Dates", q:"2020 — list the four Abraham Accords signatories with months", a:"UAE 8/13, Bahrain 9/11, Sudan 10/23, Morocco 12/10. The sequencing-inversion equilibrium."},
+  {course:"IR 362", topic:"Dates", q:"12/8/2024 — what falls and what is severed?", a:"Damascus falls (HTS offensive 11/27 → 12/8); Assad to Russia. Iran's land bridge severed — most consequential structural shift since 1979."},
+  {course:"IR 362", topic:"Dates", q:"1917 — what document, what frame?", a:"Balfour Declaration. British promise; root of the Mandate-era settler-colonial framing."},
+  {course:"IR 362", topic:"Dates", q:"1947 — what UN action?", a:"UNGA 181 (partition plan). International legal basis for Israel; rejected by Arab states."},
+  {course:"IR 362", topic:"Dates", q:"1973 — what war, what resolution?", a:"Yom Kippur War; UNSC 338. The last major Arab-state war on Israel."},
+  {course:"IR 362", topic:"Dates", q:"1978 — what accord, what break?", a:"Camp David Accords. Egypt-Israel peace; first Arab break with the Palestinian veto."},
+  {course:"IR 362", topic:"Dates", q:"1993 — what document, what institution?", a:"Oslo I (Declaration of Principles). PA created; 'two-state' diplomacy formalized."},
+  {course:"IR 362", topic:"Dates", q:"2000–05 — what happens to Oslo?", a:"Second Intifada. Oslo dies in practice."},
+  {course:"IR 362", topic:"Dates", q:"2013 — what regime change in Egypt?", a:"Sisi coup. Saudi/UAE-backed; the counter-revolutionary template."},
+  {course:"IR 362", topic:"Dates", q:"2017 — what Hamas document?", a:"Hamas Political Document. Accepts 1967-border state as transitional goal without superseding 1988 Charter or recognizing Israel."},
+  {course:"IR 362", topic:"Dates", q:"1/2020 — what assassination?", a:"Soleimani killed by US strike. US escalation moment."},
+  {course:"IR 362", topic:"Dates", q:"3/2023 — what diplomatic move, brokered by whom?", a:"Saudi-Iran rapprochement, brokered in Beijing. China as regional security broker."},
+  {course:"IR 362", topic:"Dates", q:"10/7/2023 — what attack, what theory?", a:"Hamas attack on Israel. Spoiler theory of Saudi normalization."},
+  {course:"IR 362", topic:"Dates", q:"9/27/2024 — who dies, how?", a:"Nasrallah killed by Israeli strike. Hezbollah leadership decapitated."},
+  {course:"IR 362", topic:"Dates", q:"9/17–18/2024 — what covert operation?", a:"Pager / walkie-talkie attacks on Hezbollah. Israeli covert escalation, supply-chain operation."},
+
+  // IR 362 — Authors
+  {course:"IR 362", topic:"Authors", q:"Bellin (2004) — what is her central argument?", a:"Robustness of authoritarianism: the coercive apparatus (its will and capacity to repress) determines transition outcomes — not opposition strength."},
+  {course:"IR 362", topic:"Authors", q:"Brownlee, Masoud, Reynolds (2015) — two-variable predictor?", a:"Regime survival predicted by hereditary executive AND oil rents. Tunisia had neither → it transitioned."},
+  {course:"IR 362", topic:"Authors", q:"Mitchell — name the book and the thesis", a:"Carbon Democracy (Verso 2011). Energy infrastructure shapes political possibility; MENA is the most-penetrated subsystem."},
+  {course:"IR 362", topic:"Authors", q:"Gause III — what distinction does he draw?", a:"Primacy ≠ unipolarity ≠ hegemony. The US had primacy in MENA but never hegemony."},
+  {course:"IR 362", topic:"Authors", q:"Sayigh (2019) — what number do you cite?", a:"Egyptian military runs ~25% of government spending. Carnegie 2019."},
+  {course:"IR 362", topic:"Authors", q:"Bayat (2017) — name the book + slogan", a:"Revolution without Revolutionaries (Stanford). Institutions outlive leaders; mass uprising without a vanguard project."},
+  {course:"IR 362", topic:"Authors", q:"Goodarzi (2006) — what frame for Iran-Syria?", a:"Syria and Iran — alliance is strategic, not sectarian, with a sectarian veneer."},
+  {course:"IR 362", topic:"Authors", q:"Diwan/Malik/Atiyas (2019) — what about crony capitalism?", a:"Crony capitalism reduces aggregate growth, doesn't just redistribute. (Oxford 2019.)"},
+  {course:"IR 362", topic:"Authors", q:"Khalidi (2020) — title and frame?", a:"Hundred Years' War on Palestine — settler-colonial frame."},
+  {course:"IR 362", topic:"Authors", q:"Shlaim (2000) — title and doctrine?", a:"Iron Wall — Jabotinsky's revisionist-Zionist doctrine in practice."},
+  {course:"IR 362", topic:"Authors", q:"Schelling (1960) — what foundational concepts?", a:"Strategy of Conflict. Coordination, deterrence, mutual best-response."},
+
+  // IR 362 — Concepts
+  {course:"IR 362", topic:"Concepts", q:"Define 'the carousel' in Hammad's framing.", a:"A Nash-equilibrium pattern where each actor best-responds; cycles of escalation/de-escalation produce the appearance of motion while the structure stays intact. Only payoff-matrix shocks shift it."},
+  {course:"IR 362", topic:"Concepts", q:"Primacy vs. hegemony — the one-sentence test.", a:"Primacy = preponderant material power. Hegemony = the ability to set the rules others follow. The US has had the first; it never had the second in MENA (Gause)."},
+  {course:"IR 362", topic:"Concepts", q:"What makes the Abraham Accords a 'sequencing inversion'?", a:"The API put a Palestinian state first, normalization second. The Accords reverse the order: normalization first, with the Palestinian question demoted to 'later.'"},
+  {course:"IR 362", topic:"Concepts", q:"Why did Assad fall in 2024 — single-cause vs. structural answer?", a:"Not 'HTS won.' Four scaffolds failed simultaneously: Hezbollah (post-Nasrallah), IRGC (post-Soleimani-doctrine), Russian air (Ukraine drain), regime army (rotted)."},
+  {course:"IR 362", topic:"Concepts", q:"What is Iran's 'linkage engine'?", a:"Tehran connected the Gulf-security sphere to the Israeli-Lebanese sphere via Hezbollah + Syria's geographic land bridge. Structurally central until 12/2024; functionally diminished after."},
+  {course:"IR 362", topic:"Concepts", q:"Complete: 'The regional system is best understood as a Nash equilibrium in which...'", a:"...no actor can unilaterally deviate from its current strategy without making itself worse off — which is why escalation cycles produce the appearance of motion (the carousel) while leaving the underlying structure intact."},
+  {course:"IR 362", topic:"Concepts", q:"Complete: 'Iran's regional engine functioned by linking...'", a:"...the Gulf-security sphere to the Israeli-Lebanese sphere through Syria's geographic position and Hezbollah's forward arm; the December 2024 Assad collapse subtracted that scaffolding."},
+  {course:"IR 362", topic:"Concepts", q:"Complete: 'Authoritarian robustness in MENA depends on...' — and which two authors?", a:"...a coercive apparatus and rentier resources (Bellin 2004; Brownlee/Masoud/Reynolds 2015), which is why most Arab Spring transitions reverted."},
+  {course:"IR 362", topic:"Concepts", q:"What is the API → Abraham Accords pivot in one sentence?", a:"A sequencing inversion: Palestine-precondition removed; security-and-economics linkage takes over."},
+  {course:"IR 362", topic:"Concepts", q:"Name the four key (but not equal) actors.", a:"Israel, Palestinian factions (Hamas + PA), Iran, Saudi Arabia/Gulf. The US is structural backstop — fifth actor whose presence sets the payoff matrix."},
+
+  // ACCT 410 — Formulas (verbatim from cheat sheet & flashcards)
+  {course:"ACCT 410", topic:"Formulas", q:"State the accounting equation and the equity expansion.", a:"Assets = Liabilities + Equity. Equity = Contributed Capital + Retained Earnings."},
+  {course:"ACCT 410", topic:"Formulas", q:"Retained Earnings roll-forward?", a:"RE_end = RE_begin + Net Income − Dividends."},
+  {course:"ACCT 410", topic:"Formulas", q:"COGS equation from inventory flow?", a:"COGS = Beginning Inv + Purchases − Ending Inv."},
+  {course:"ACCT 410", topic:"Formulas", q:"Current ratio and inventory turnover?", a:"Current = CA / CL. Inventory turnover = COGS / Avg Inventory."},
+  {course:"ACCT 410", topic:"Formulas", q:"Profit margin and ROA?", a:"Profit Margin = NI / Net Sales. ROA = NI / Avg Total Assets."},
+  {course:"ACCT 410", topic:"Formulas", q:"Debt-to-Assets ratio?", a:"Total Liabilities / Total Assets. Solvency / leverage measure."},
+  {course:"ACCT 410", topic:"Formulas", q:"Straight-line depreciation?", a:"(Cost − Salvage) / Useful Life per year."},
+  {course:"ACCT 410", topic:"Formulas", q:"Contribution margin and CM ratio?", a:"CM = Sales − Variable Costs. CM ratio = Unit CM / Unit Price (or total CM / total sales)."},
+  {course:"ACCT 410", topic:"Formulas", q:"Break-even units and target-profit units?", a:"BE units = FC / Unit CM. Target = (FC + Target Profit) / Unit CM."},
+  {course:"ACCT 410", topic:"Formulas", q:"Net income in one identity?", a:"NI = Revenues − Expenses. Flows into RE."},
+
+  // ACCT 410 — Concepts
+  {course:"ACCT 410", topic:"Concepts", q:"Normal balance of Assets, Dividends, Expenses?", a:"Debit (mnemonic: ADE). Debits increase, credits decrease."},
+  {course:"ACCT 410", topic:"Concepts", q:"Normal balance of Liabilities, Equity, Revenue?", a:"Credit (mnemonic: LER). Credits increase, debits decrease."},
+  {course:"ACCT 410", topic:"Concepts", q:"Accrual vs. cash basis — one-line distinction?", a:"Accrual recognizes revenue when earned and expense when incurred (matching). Cash recognizes only when money moves."},
+  {course:"ACCT 410", topic:"Concepts", q:"FIFO vs. LIFO in rising-price environment — which gives higher NI? Higher ending inventory?", a:"FIFO: lower COGS → higher NI; ending inv reflects current (higher) costs. LIFO: higher COGS → lower NI and lower taxes; ending inv reflects old (lower) costs."},
+  {course:"ACCT 410", topic:"Concepts", q:"Relevant costs for a decision — what to ignore, what to include?", a:"Ignore: sunk costs, allocated fixed costs that don't change. Include: incremental revenues, variable costs, opportunity costs."},
+  {course:"ACCT 410", topic:"Concepts", q:"Liquidity vs. solvency — which ratios live where?", a:"Liquidity (short-term): Current ratio, Inventory turnover. Solvency (long-term): Debt-to-Assets. Profitability is its own bucket: Profit margin, ROA."},
+  {course:"ACCT 410", topic:"Concepts", q:"Why does depreciation get added back on the indirect cash-flow statement?", a:"It's a non-cash expense that reduced NI. The cash already left in an earlier period. Add it back to reconcile NI to cash from operations."},
+  {course:"ACCT 410", topic:"Traps", q:"Indirect method — direction rules for current-asset and current-liability changes?", a:"Asset ↑ = Subtract, asset ↓ = Add. Liability ↑ = Add, liability ↓ = Subtract. Add back Losses, subtract Gains."},
+  {course:"ACCT 410", topic:"Traps", q:"Multi-product CVP — what's the trick when product mix matters?", a:"Use a weighted-average CM (or weighted CM ratio) based on the sales mix. BE units in mix = FC / Weighted-Avg Unit CM. Then split by mix percentages."},
+  {course:"ACCT 410", topic:"Traps", q:"Inventory error: overstate ending inventory in Year 1 — what happens to NI in Year 1 vs Year 2?", a:"Year 1 NI is overstated (COGS understated). Year 2 NI is understated (COGS overstated). Errors reverse over two years; cumulative RE is correct by end of Year 2."},
+  {course:"ACCT 410", topic:"Traps", q:"Bond pricing direction — when market rate > coupon rate, the bond sells at?", a:"Discount (price < face). Market rate < coupon → premium. Market rate = coupon → par. Carrying value drifts toward face over the bond's life."},
+  {course:"ACCT 410", topic:"Traps", q:"Allocated fixed costs — why is it a trap to include them in keep/drop decisions?", a:"They don't disappear when you drop the segment — they get reallocated. Only avoidable fixed costs are relevant."},
+  {course:"ACCT 410", topic:"Statements", q:"Unearned Revenue collected $10k cash — flow through three statements?", a:"BS: Cash +$10k, Unearned Rev (liability) +$10k. IS: no impact yet. CF: Operating +$10k. Recognize revenue later when earned."},
+  {course:"ACCT 410", topic:"Statements", q:"Buy equipment $50k cash — flow through three statements?", a:"BS: Cash −$50k, PP&E +$50k (asset swap). IS: no immediate impact. CF: Investing −$50k."},
+  {course:"ACCT 410", topic:"Statements", q:"Issue $100k of common stock for cash — three-statement flow?", a:"BS: Cash +$100k, Contributed Capital +$100k. IS: no impact. CF: Financing +$100k."},
+
+  // ECON 205 — Formulas & Models (fallback per spec)
+  {course:"ECON 205", topic:"Formulas", q:"Spending GDP — write the identity, including NX expansion.", a:"Y = C + I + G + NX, with NX = X − M."},
+  {course:"ECON 205", topic:"Formulas", q:"Fisher equation (exact and approximate)?", a:"Exact: 1+i = (1+r)(1+π^e). Approx: i ≈ r + π^e, so r ≈ i − π^e."},
+  {course:"ECON 205", topic:"Formulas", q:"Quantity equation + the long-run quantity-theory implication?", a:"M·V = P·Y. With V, Y stable in LR: %ΔM ≈ π."},
+  {course:"ECON 205", topic:"Formulas", q:"Spending and tax multipliers (closed economy)?", a:"Spending: 1/(1−MPC). Tax: −MPC/(1−MPC). Balanced budget = 1."},
+  {course:"ECON 205", topic:"Formulas", q:"Open-economy multiplier with proportional tax t and import propensity m?", a:"1 / (1 − MPC(1−t) + m). Imports leak → multiplier shrinks."},
+  {course:"ECON 205", topic:"Formulas", q:"Okun's Law (rule of thumb)?", a:"Δu ≈ −0.5 · (real GDP gap growth)."},
+  {course:"ECON 205", topic:"Formulas", q:"Real exchange rate and PPP in the long run?", a:"ε = E·P/P*. PPP (LR): E = P*/P."},
+  {course:"ECON 205", topic:"Formulas", q:"Saving identity in an open economy?", a:"S = I + NX, equivalently S − I = NX (capital outflow = trade surplus)."},
+  {course:"ECON 205", topic:"Formulas", q:"GDP deflator and inflation rate from it?", a:"Def = (Nominal/Real) × 100; π = (Def_t − Def_{t−1}) / Def_{t−1}."},
+  {course:"ECON 205", topic:"Models", q:"Demand shock in AD/AS — how do P and Y co-move?", a:"Same direction. AD↓ → P↓ and Y↓ (recession with disinflation). AD↑ → P↑ and Y↑."},
+  {course:"ECON 205", topic:"Models", q:"Supply (SRAS) shock — how do P and Y move?", a:"Opposite directions. SRAS↓ → P↑, Y↓, u↑ (stagflation)."},
+  {course:"ECON 205", topic:"Models", q:"Long-run self-correction after an AD shift — what restores Y*?", a:"SRAS shifts as wages/prices adjust until output returns to potential. LRAS is vertical at Y*."},
+  {course:"ECON 205", topic:"Models", q:"Loanable funds — government deficit shifts which curve, and what happens to r and I?", a:"Deficit → supply of loanable funds shifts left → r↑, private I↓ = crowding out."},
+  {course:"ECON 205", topic:"Models", q:"Fed buys bonds — trace AD/AS to P, Y.", a:"Reserves↑ → fed funds↓ → r↓ → I↑, C↑, NX↑ → AD shifts right → P↑, Y↑."},
+  {course:"ECON 205", topic:"Models", q:"Tariff vs. quota — what's the rectangle, who gets it?", a:"Tariff: rectangle is government revenue. Quota: identical-shape rectangle is license-holder rent. Two DWL triangles either way."},
+  {course:"ECON 205", topic:"Models", q:"$ appreciates — what happens to X, M, NX?", a:"X↓, M↑ → NX↓. Appreciation hurts exporters."},
+  {course:"ECON 205", topic:"Concepts", q:"Fed raises fed funds rate — bond prices and asset values?", a:"Bond prices fall (price ↔ yield inverse). Asset prices generally fall via PV discounting. Investment demand falls."},
+  {course:"ECON 205", topic:"Concepts", q:"Comparative advantage — what's the basis (and the trap)?", a:"Lowest opportunity cost — NOT lowest absolute cost. Both nations gain by specializing in their CA good."},
+  {course:"ECON 205", topic:"Concepts", q:"Interest-rate parity — direction of capital flows and currency?", a:"Capital flows to the higher-r country → that country's currency appreciates until expected returns equalize."},
+  {course:"ECON 205", topic:"Concepts", q:"Why is the tax multiplier smaller than the spending multiplier in absolute value?", a:"A tax cut adds income; only the MPC fraction is spent on the first round. G is direct purchases — full first-round impact."},
+  {course:"ECON 205", topic:"Concepts", q:"Cobb-Douglas Y = AK^0.5 L^0.5 — if K alone doubles?", a:"Y rises by √2 (diminishing marginal returns). If both K and L double → Y doubles (CRS)."},
+  {course:"ECON 205", topic:"Traps", q:"Fisher direction — common error to avoid?", a:"Don't confuse ex ante (uses π^e) with ex post (uses realized π). When π unexpectedly rises, real rate falls — wealth redistributes from creditors to debtors."},
+  {course:"ECON 205", topic:"Traps", q:"Define crowding out in one sentence.", a:"Government borrowing pushes up real interest rates, reducing private investment (and via $ appreciation, NX) — partially offsetting fiscal expansion."},
+  {course:"ECON 205", topic:"Traps", q:"Quantity theory — confusing ΔM with %ΔM. Which one maps to π?", a:"Percent change in M maps to inflation: %ΔM ≈ π in the long run when V, Y are stable."},
+  {course:"ECON 205", topic:"Concepts", q:"Automatic stabilizers — give two and explain mechanism.", a:"Progressive taxes + unemployment insurance. Tax revenue falls and transfers rise during downturns — dampens cycles without legislative action."}
+];
+
+(function(){
+  const stage = document.getElementById('qf-stage');
+  const progressEl = document.getElementById('qf-progress');
+  const tagInfo = document.getElementById('qf-tag-info');
+  const fb = document.getElementById('qf-feedback');
+
+  let session = null;
+
+  function shuffle(a){ a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; }
+
+  function startSession(){
+    const picks = shuffle(QF_POOL).slice(0, 20);
+    session = { questions: picks, idx: 0, right: 0, wrong: 0, missedTopics: {}, startTs: Date.now(), timer: null, secs: 30, flipped: false };
+    showQuestion();
+  }
+
+  function clearTimer(){
+    if (session && session.timer) { clearInterval(session.timer); session.timer = null; }
+  }
+
+  function flashFeedback(kind, text){
+    fb.className = 'qf-feedback show ' + kind;
+    fb.textContent = text;
+    setTimeout(() => fb.classList.remove('show'), 600);
+  }
+
+  function showQuestion(){
+    clearTimer();
+    if (session.idx >= session.questions.length){ showResults(); return; }
+    const q = session.questions[session.idx];
+    session.flipped = false;
+    session.secs = 30;
+    progressEl.textContent = 'Question ' + (session.idx + 1) + ' of ' + session.questions.length + ' · ' + session.right + ' right · ' + session.wrong + ' wrong';
+    tagInfo.innerHTML = '<span class="qf-tag" style="background:#990000;color:white">' + q.course + '</span> <span class="qf-tag">' + q.topic + '</span>';
+
+    const ringR = 28, C = 2 * Math.PI * ringR;
+    stage.innerHTML = `
+      <div class="qf-timer-ring" id="qf-ring">
+        <svg width="64" height="64"><circle class="bg" cx="32" cy="32" r="${ringR}"></circle><circle class="fg" cx="32" cy="32" r="${ringR}" stroke-dasharray="${C}" stroke-dashoffset="0"></circle></svg>
+        <span class="secs">30</span>
+      </div>
+      <div class="qf-question">${q.q}</div>
+      <div class="qf-actions"><button class="qf-btn flip" id="qf-flip">Flip card</button></div>
+    `;
+
+    const ring = document.getElementById('qf-ring');
+    const ringFg = ring.querySelector('circle.fg');
+    const ringSecs = ring.querySelector('.secs');
+    document.getElementById('qf-flip').addEventListener('click', flipCard);
+
+    session.timer = setInterval(() => {
+      session.secs--;
+      ringSecs.textContent = Math.max(0, session.secs);
+      const progress = session.secs / 30;
+      ringFg.setAttribute('stroke-dashoffset', String(C * (1 - progress)));
+      if (session.secs <= 10) ring.classList.add('warn');
+      if (session.secs <= 0){ flipCard(true); }
+    }, 1000);
+  }
+
+  function flipCard(timedOut){
+    if (session.flipped) return;
+    session.flipped = true;
+    clearTimer();
+    const q = session.questions[session.idx];
+    stage.innerHTML = `
+      ${timedOut ? '<div class="qf-tag" style="background:#b03030;color:white">⏰ Time up</div>' : ''}
+      <div class="qf-question">${q.q}</div>
+      <div class="qf-answer">${q.a}</div>
+      <div class="qf-actions">
+        <button class="qf-btn right" id="qf-right">✓ Right</button>
+        <button class="qf-btn wrong" id="qf-wrong">✗ Wrong</button>
+      </div>
+    `;
+    document.getElementById('qf-right').addEventListener('click', () => mark(true));
+    document.getElementById('qf-wrong').addEventListener('click', () => mark(false));
+  }
+
+  function mark(right){
+    const q = session.questions[session.idx];
+    if (right){ session.right++; flashFeedback('right', '✓ Right'); }
+    else {
+      session.wrong++;
+      const key = q.course + ' · ' + q.topic;
+      session.missedTopics[key] = (session.missedTopics[key] || 0) + 1;
+      flashFeedback('wrong', '✗ Wrong');
+    }
+    session.idx++;
+    setTimeout(showQuestion, 450);
+  }
+
+  function showResults(){
+    clearTimer();
+    const elapsedSec = Math.round((Date.now() - session.startTs) / 1000);
+    const mins = Math.floor(elapsedSec / 60), secs = elapsedSec % 60;
+    let weakest = null, max = 0;
+    for (const k in session.missedTopics){ if (session.missedTopics[k] > max){ max = session.missedTopics[k]; weakest = k; } }
+    let recommendation = '';
+    if (session.right >= 17) recommendation = "You're sharp. Light skim of cram sheets tonight, sleep early.";
+    else if (session.right >= 13) recommendation = "Solid. Drill the 7 you missed, then repeat this quiz.";
+    else if (session.right >= 9) recommendation = "Mid-range. Spend 30 min on the weakest topic before you do anything else.";
+    else recommendation = "Don't panic. Open the Memorize Cold page and rebuild from the irreducible facts.";
+
+    progressEl.textContent = 'Done · ' + session.right + '/' + session.questions.length;
+    tagInfo.innerHTML = '';
+    stage.innerHTML = `
+      <div class="qf-results">
+        <div class="label">Final Score</div>
+        <div class="score">${session.right}/${session.questions.length}</div>
+        <div class="qf-stat-row">
+          <div class="stat"><div class="num">${mins}m ${secs}s</div><div class="lbl">time used</div></div>
+          <div class="stat"><div class="num">${session.right}</div><div class="lbl">right</div></div>
+          <div class="stat"><div class="num">${session.wrong}</div><div class="lbl">wrong</div></div>
+        </div>
+        <div style="max-width: 520px; margin: 0 auto;">
+          <p><strong>Weakest topic:</strong> ${weakest || '—'}</p>
+          <p><strong>Recommendation:</strong> ${recommendation}</p>
+        </div>
+        <div class="qf-actions">
+          <button class="qf-btn primary" id="qf-again">Run another 20</button>
+        </div>
+      </div>
+    `;
+    document.getElementById('qf-again').addEventListener('click', startSession);
+  }
+
+  document.getElementById('qf-start').addEventListener('click', startSession);
+})();
+</script>
+```
+
+::: {.callout-tip}
+**Pool size:** ~96 questions across IR 362, ACCT 410, ECON 205. Each session draws 20 random.
+:::

@@ -6,7 +6,7 @@ toc: false
 ---
 
 ::: {.callout-tip}
-**Open this page first thing every morning.** It auto-generates your priority sequence based on how close each final is.
+**Open this page first thing every morning.** It auto-generates a priority sequence from verified dates first, then flags anything that still needs syllabus or Brightspace confirmation.
 :::
 
 ```{=html}
@@ -27,15 +27,19 @@ toc: false
 <script>
 (function(){
   const finals = [
-    { name: "ECON 205 (Pérez)", date: "2026-05-11T14:00:00", color: "primary", url: "econ205/" },
-    { name: "ACCT 410x (Leventhal)", date: "2026-05-13T09:00:00", color: "secondary", url: "acct410x/", tbd: true },
-    { name: "IR 362 (Hammad)", date: "2026-05-14T09:00:00", color: "primary", url: "ir362/", tbd: true }
+    { name: "IR 362 (Hammad)", date: null, color: "primary", url: "ir362/", tbd: true, priorityScore: 1, note: "Date needs Brightspace/syllabus confirmation; treat as urgent because it is 65% and within the USC final window." },
+    { name: "ECON 205 (Pérez)", date: "2026-05-11T14:00:00", color: "primary", url: "econ205/", verified: true, note: "Known slot: Mon May 11, 2:00–4:00 PM." },
+    { name: "ACCT 410x/410 (Leventhal)", date: "2026-05-11T16:30:00", color: "secondary", url: "acct410x/", verified: false, note: "USC Registrar lists Accounting 410: Mon May 11, 4:30–6:30 PM; verify Hanna's section in Brightspace." },
+    { name: "Marketing — Ensemble", date: null, color: "secondary", url: "marketing/", tbd: true, priorityScore: 6, note: "Syllabus and deliverable deadline pending." }
   ];
   const now = new Date();
   finals.forEach(f => {
-    f.daysOut = Math.ceil((new Date(f.date) - now) / (1000*60*60*24));
+    if (f.date) {
+      f.daysOut = Math.ceil((new Date(f.date) - now) / (1000*60*60*24));
+      f.priorityScore = f.daysOut;
+    }
   });
-  finals.sort((a,b) => a.daysOut - b.daysOut);
+  finals.sort((a,b) => a.priorityScore - b.priorityScore);
 
   // Daily sequencing logic
   const today = new Date();
@@ -44,14 +48,16 @@ toc: false
   let html = `<h2>Today is ${dayOfWeek}</h2>`;
 
   finals.forEach((f, idx) => {
-    const cls = f.daysOut <= 2 ? 'urgent' : (f.daysOut <= 5 ? 'upcoming' : 'distant');
+    const cls = !f.date ? 'upcoming' : (f.daysOut <= 2 ? 'urgent' : (f.daysOut <= 5 ? 'upcoming' : 'distant'));
     const dayWord = f.daysOut === 1 ? 'day' : 'days';
     let priorityLabel = idx === 0 ? '🔥 Top priority tonight' : (idx === 1 ? '🎯 Secondary focus' : '📅 Background work');
-    let dateBlock = f.tbd ? `${f.daysOut} ${dayWord} (date TBD)` : `${f.daysOut} ${dayWord} away · ${new Date(f.date).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'})}`;
+    let dateBlock = f.date
+      ? `${f.daysOut} ${dayWord} away · ${new Date(f.date).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'})}${f.verified ? ' · verified' : ' · verify section'}`
+      : `Date/due time needs verification`;
 
     html += `<div class="day-block ${cls}">
       <h3>${priorityLabel} — ${f.name}</h3>
-      <div class="meta">${dateBlock}</div>
+      <div class="meta">${dateBlock} · ${f.note}</div>
       <ol>${getTasks(f, idx).map(t => `<li><input type="checkbox" class="checkbox">${t}</li>`).join('')}</ol>
     </div>`;
   });
@@ -63,7 +69,7 @@ toc: false
   document.getElementById('tonight-plan').innerHTML = html;
 
   function getTasks(f, idx) {
-    const days = f.daysOut;
+    const days = f.date ? f.daysOut : (f.name.startsWith("IR 362") ? 2 : 99);
     const isPrimary = idx === 0;
     const tasks = [];
 
@@ -113,6 +119,11 @@ toc: false
         tasks.push("Read 1 deep-dive: <a href='ir362/iran-axis.html'>Iran/Axis</a> or <a href='ir362/abraham-accords.html'>Abraham Accords</a>");
         tasks.push(isPrimary ? "Run flashcard deck — IR 362 (<a href='flashcards.html'>here</a>)" : "Read 1 lecture frame from <a href='ir362/frames/'>Frames</a>");
       }
+      tasks.unshift("Verify final date/time in Brightspace or syllabus before using any countdown");
+    } else if (f.name.startsWith("Marketing")) {
+      tasks.push("Open <a href='marketing/index.html'>Marketing</a> and write the current deliverable in one sentence");
+      tasks.push("Ask Hanna for the syllabus, grading rubric, deadline, and any professor-provided pitch-deck template");
+      tasks.push("Draft the Ensemble pitch spine: user, problem, alternative, differentiation, proof, risk");
     }
     return tasks;
   }
@@ -122,11 +133,11 @@ toc: false
 
 ## How this page works
 
-This page reads the date and your final-exam dates, sorts them by urgency, and prescribes the highest-yield activity for *tonight*. It updates automatically — no need to maintain a separate to-do list.
+This page reads the date and the known final-exam dates, then separates verified dates from date placeholders. It updates automatically, but anything marked "verify" should be checked against Brightspace before Hanna relies on it.
 
 The three priority levels:
 
-- 🔥 **Top priority** — the closest exam; spend 60–70% of tonight on it
+- 🔥 **Top priority** — the closest verified exam, or the highest-risk unverified item; spend 60–70% of tonight on it
 - 🎯 **Secondary focus** — the next-closest; 20–30% of tonight
 - 📅 **Background** — the more distant; 10–20% to keep momentum
 
@@ -137,6 +148,7 @@ The checkboxes are local-only (your browser remembers them) — they reset if yo
 - **You did poorly on a mock today.** Override and drill the weak area, regardless of which course is closest.
 - **You're cooked.** Skip the lower-priority finals tonight; full sleep > marginal study after 11 PM.
 - **A friend wants to study together.** Take it. Group study is rare-but-good if both people commit. Use the [Connections](connections.qmd) page to bridge across courses.
+- **A date is unverified.** Check [Source Check](accuracy-notes.qmd), then Brightspace. Do not let a placeholder date make the plan look more certain than it is.
 
 ::: {.callout-warning}
 **The biggest mistake right now is over-planning.** Read the top block. Do those tasks. Don't second-guess the sequence. The compounding wins from consistent execution beat the marginal gains from re-optimizing the schedule every night.
