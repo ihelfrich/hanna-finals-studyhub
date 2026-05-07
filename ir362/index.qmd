@@ -13,6 +13,19 @@ order: 1
 **Heaviest weight on your transcript this term — 65% of your final grade.** Essay-format. Memorization of names + dates is required. Every page on this site is built to serve this exam.
 :::
 
+```{=html}
+<section class="focus-card primary compact-start">
+  <p class="eyebrow">If this page feels too large</p>
+  <h3>Start with the IR Final Run.</h3>
+  <p>It gives Hanna a timed recall cycle, prompt triage, and the essay skeleton before sending her back here for the full 17-question framework.</p>
+  <div class="focus-actions">
+    <a href="final-run.html">Open Final Run</a>
+    <a href="cram-sheet.html">Open Cram Sheet</a>
+    <a href="sample-answers.html">Open Sample Answers</a>
+  </div>
+</section>
+```
+
 ::: {.thesis}
 **Master throughline.** The 17 study-guide questions revolve around three throughlines: (1) the **API → Abraham Accords pivot** — a regional shift from Palestine-centered linkage to security-and-economics linkage; (2) the **Nash equilibrium "carousel"** — a regional system stuck because each actor's strategy is a best response to the others; (3) **Iran's linkage role** — the engine connecting the Israeli-Palestinian sphere to the Gulf-security sphere via Hezbollah and Syria. Every essay you write should anchor itself to one or more of these throughlines and use specific dates, actors, and Hammad's lecture frames as its supporting beams.
 :::

@@ -1,0 +1,220 @@
+---
+title: "IR 362 — Final Run"
+subtitle: "The shortest path from study guide to exam-ready answers"
+description: "A calm, action-first IR 362 final exam path for Hanna"
+order: 0
+toc: false
+page-layout: full
+---
+
+```{=html}
+<section class="focus-hero">
+  <div>
+    <p class="eyebrow">Start here for IR</p>
+    <h2>One page. One cycle. Then write.</h2>
+    <p>Use this when the full IR hub feels too large. The job is simple: pull the spine from memory, check it, repair the weakest point, and write one clean essay outline.</p>
+  </div>
+  <div class="focus-meter" aria-label="IR study sequence">
+    <span>Recall</span>
+    <span>Check</span>
+    <span>Repair</span>
+    <span>Write</span>
+  </div>
+</section>
+
+<section class="timer-panel" aria-label="Focus timer">
+  <div>
+    <p class="eyebrow">Current cycle</p>
+    <div id="focusTimer" class="timer-display">25:00</div>
+    <p id="focusTimerLabel" class="timer-note">Closed-page first pass</p>
+  </div>
+  <div class="timer-controls">
+    <button type="button" data-minutes="20">20</button>
+    <button type="button" data-minutes="25" class="active">25</button>
+    <button type="button" data-minutes="45">45</button>
+    <button type="button" data-minutes="90">90</button>
+    <button type="button" id="timerToggle">Start</button>
+    <button type="button" id="timerReset">Reset</button>
+  </div>
+</section>
+
+<section class="focus-card primary">
+  <p class="eyebrow">Do this first</p>
+  <h3>The 25-minute pass</h3>
+  <ol class="micro-plan">
+    <li><strong>3 min:</strong> On blank paper, write the three throughlines: API → Accords pivot; Nash carousel; Iran linkage engine.</li>
+    <li><strong>7 min:</strong> Add ten dates, four actors, and four author/year frame anchors without opening the site.</li>
+    <li><strong>10 min:</strong> Pick one prompt family below and outline: thesis, three moves, counterargument, final tie-back.</li>
+    <li><strong>5 min:</strong> Open the cram sheet, mark one missing fact, and rewrite only the weak sentence.</li>
+  </ol>
+  <div class="focus-actions">
+    <a href="cram-sheet.html">Cram Sheet</a>
+    <a href="sample-answers.html">Sample Answers</a>
+    <a href="mock-essays.html">Mock Essays</a>
+    <a href="index.html">Full Framework</a>
+  </div>
+</section>
+
+<section class="focus-grid" aria-label="Choose a study runway">
+  <article class="focus-card">
+    <p class="eyebrow">20 minutes</p>
+    <h3>Stabilize</h3>
+    <p>Write the three throughlines, ten dates, and two thesis statements. Check against the cram sheet. Stop after one repair.</p>
+  </article>
+  <article class="focus-card">
+    <p class="eyebrow">45 minutes</p>
+    <h3>Convert</h3>
+    <p>Run two closed-page drills, then build one essay outline from memory. Compare only the structure against the model answer.</p>
+  </article>
+  <article class="focus-card">
+    <p class="eyebrow">90 minutes</p>
+    <h3>Simulate</h3>
+    <p>Ten-date dump, one 30-minute essay, ten-minute model comparison, one focused repair, then a clean second outline.</p>
+  </article>
+  <article class="focus-card">
+    <p class="eyebrow">Final morning</p>
+    <h3>Protect</h3>
+    <p>Cram sheet only. Dates, authors, actors, and two thesis statements. No new deep dive unless a professor-provided topic demands it.</p>
+  </article>
+</section>
+
+<section class="exam-spine">
+  <p class="eyebrow">Essay shape</p>
+  <h3>The answer skeleton</h3>
+  <div class="spine-steps">
+    <div><span>1</span><strong>Thesis</strong><p>Actor + structural shift + why it matters.</p></div>
+    <div><span>2</span><strong>Frame</strong><p>Use Hammad's named lens early: Bellin, Gause, Mitchell, BMR, Goodarzi, Schelling.</p></div>
+    <div><span>3</span><strong>Evidence</strong><p>Four dates minimum. Name the policy instrument, actor, or battlefield shift.</p></div>
+    <div><span>4</span><strong>Counter</strong><p>One serious objection, then beat it with a sharper distinction.</p></div>
+    <div><span>5</span><strong>Tie-back</strong><p>End by naming the throughline the question belongs to.</p></div>
+  </div>
+</section>
+```
+
+## Prompt Triage
+
+| If the question asks about... | Treat it as... | Open only if needed |
+|---|---|---|
+| API, Abraham Accords, normalization, Saudi track | **Sequencing inversion:** Palestine-first conditionality versus security/economics-first normalization | [Q3/Q4/Q7-Q9](sample-answers.html#q3) · [Abraham Accords](abraham-accords.html) |
+| Syria, Iran, Hezbollah, "axis of resistance" | **Linkage engine:** Syria as land bridge, Hezbollah as forward arm, Iran as connector | [Q5/Q6/Q16](sample-answers.html#q5) · [Iran & Axis](iran-axis.html) |
+| Nash equilibrium, carousel, scenarios, four actors | **Best-response trap:** each actor is constrained by the others' strategy | [Q10/Q12-Q15/Q17](sample-answers.html#q10) · [Nash Carousel](nash-equilibrium.html) |
+| Arab Spring, authoritarian resilience, regime-public gap | **Robustness frame:** coercive apparatus, rents, hereditary executive, public delinking | [Frames](frames/index.html) · [Sample Q11](sample-answers.html#q11) |
+| US role, primacy, hegemony, external broker | **Backstop, not ruler:** US sets parts of the payoff matrix but does not dictate outcomes | [Sample Q17](sample-answers.html#q17) · [Frames](frames/index.html) |
+
+## Closed-Page Drills
+
+::: {.drill-grid}
+::: {.drill-card}
+**Three-throughline dump**
+
+Write the three throughlines in one sentence each. Then add the two questions each throughline is most likely to answer.
+:::
+
+::: {.drill-card}
+**Date ladder**
+
+Write 1917, 1947, 1948, 1967, 1973, 1978/79, 1993, 2002, 2020, 2023, 2024. Add one phrase beside each.
+:::
+
+::: {.drill-card}
+**Actor leverage map**
+
+For Israel, Palestinians, Iran, Saudi/Gulf, and the US, write: want, leverage, constraint. One line each.
+:::
+
+::: {.drill-card}
+**Frame match**
+
+Bellin, BMR, Mitchell, Gause, Diwan/Malik/Atiyas, Sayigh, Bayat, Goodarzi. Match each to one exam use.
+:::
+
+::: {.drill-card}
+**Counterargument bank**
+
+For one answer, write "One might object..." and make the objection strong. Then answer it with a distinction, not a vague reassurance.
+:::
+
+::: {.drill-card}
+**Final sentence drill**
+
+Take any prompt and write only the final sentence. It must name the throughline and explain why this question belongs there.
+:::
+:::
+
+## If You Stall
+
+```{=html}
+<section class="reset-strip">
+  <div><strong>Write:</strong> "This question is really about _____."</div>
+  <div><strong>Margin:</strong> four dates, two authors, one actor constraint.</div>
+  <div><strong>Outline:</strong> thesis, move one, move two, move three, counter.</div>
+  <div><strong>Start:</strong> write the first paragraph before improving the plan.</div>
+</section>
+```
+
+## Last Check
+
+Before leaving this page, Hanna should be able to answer these out loud:
+
+1. What changed between the API and the Abraham Accords?
+2. Why is the regional system a carousel rather than a clean peace process?
+3. How did Iran connect the Gulf-security sphere to the Israeli-Palestinian sphere?
+4. What did the 2024 Syria/Hezbollah cascade change, and what did it not change?
+5. Which author/frame belongs in the answer you are about to write?
+
+```{=html}
+<script>
+(function(){
+  const display = document.getElementById("focusTimer");
+  const label = document.getElementById("focusTimerLabel");
+  const toggle = document.getElementById("timerToggle");
+  const reset = document.getElementById("timerReset");
+  const minuteButtons = document.querySelectorAll(".timer-controls [data-minutes]");
+  let total = 25 * 60;
+  let remaining = total;
+  let interval = null;
+
+  function format(seconds) {
+    const mins = Math.floor(seconds / 60).toString().padStart(2, "0");
+    const secs = Math.floor(seconds % 60).toString().padStart(2, "0");
+    return `${mins}:${secs}`;
+  }
+
+  function setMinutes(minutes) {
+    total = minutes * 60;
+    remaining = total;
+    stop();
+    display.textContent = format(remaining);
+    label.textContent = minutes === 90 ? "Mini-final simulation" : minutes === 45 ? "Two drills plus one outline" : minutes === 20 ? "Stabilize the spine" : "Closed-page first pass";
+    minuteButtons.forEach(btn => btn.classList.toggle("active", Number(btn.dataset.minutes) === minutes));
+  }
+
+  function stop() {
+    if (interval) window.clearInterval(interval);
+    interval = null;
+    toggle.textContent = "Start";
+  }
+
+  function tick() {
+    remaining = Math.max(0, remaining - 1);
+    display.textContent = format(remaining);
+    if (remaining === 0) {
+      stop();
+      label.textContent = "Check one thing. Repair one thing.";
+    }
+  }
+
+  minuteButtons.forEach(btn => btn.addEventListener("click", () => setMinutes(Number(btn.dataset.minutes))));
+  toggle.addEventListener("click", () => {
+    if (interval) {
+      stop();
+    } else {
+      toggle.textContent = "Pause";
+      interval = window.setInterval(tick, 1000);
+    }
+  });
+  reset.addEventListener("click", () => setMinutes(total / 60));
+  display.textContent = format(remaining);
+})();
+</script>
+```

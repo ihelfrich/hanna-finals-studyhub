@@ -27,7 +27,7 @@ toc: false
 <script>
 (function(){
   const finals = [
-    { name: "IR 362 (Hammad)", date: null, color: "primary", url: "ir362/", tbd: true, priorityScore: 1, note: "Date needs Brightspace/syllabus confirmation; treat as urgent because it is 65% and within the USC final window." },
+    { name: "IR 362 (Hammad)", date: null, color: "primary", url: "ir362/final-run.html", tbd: true, priorityScore: 1, note: "Date needs Brightspace/syllabus confirmation; treat as urgent because it is 65% and within the USC final window." },
     { name: "ECON 205 (Pérez)", date: "2026-05-11T14:00:00", color: "primary", url: "econ205/", verified: true, note: "Known slot: Mon May 11, 2:00–4:00 PM." },
     { name: "ACCT 410x/410 (Leventhal)", date: "2026-05-11T16:30:00", color: "secondary", url: "acct410x/", verified: false, note: "USC Registrar lists Accounting 410: Mon May 11, 4:30–6:30 PM; verify Hanna's section in Brightspace." },
     { name: "Marketing — Ensemble", date: null, color: "secondary", url: "marketing/", tbd: true, priorityScore: 6, note: "Syllabus and deliverable deadline pending." }
@@ -103,18 +103,19 @@ toc: false
       } else {
         tasks.push("Memorize <a href='acct410x/cheat-sheet.html'>Cheat Sheet</a> formulas");
         tasks.push("Drill indirect-method cash flow questions specifically");
-        tasks.push(isPrimary ? "Take <a href='acct410x/mock-final.html'>Mock Final</a> diagnostic" : "Skim <a href='acct410x/index.qmd'>Strategic Brief</a>");
+        tasks.push(isPrimary ? "Take <a href='acct410x/mock-final.html'>Mock Final</a> diagnostic" : "Skim <a href='acct410x/index.html'>Strategic Brief</a>");
       }
     } else if (f.name.startsWith("IR 362")) {
       if (days <= 1) {
-        tasks.push("Read <a href='ir362/cram-sheet.html'>Cram Sheet</a> end-to-end");
-        tasks.push("Memorize all dates in the cram-sheet table");
-        tasks.push("Sleep with the page on your phone");
+        tasks.push("Run the <a href='ir362/final-run.html'>IR Final Run</a> 20-minute path");
+        tasks.push("Read <a href='ir362/cram-sheet.html'>Cram Sheet</a> dates + frames only");
+        tasks.push("Write two thesis statements from memory, then stop adding new material");
       } else if (days <= 3) {
-        tasks.push("Pick a <a href='ir362/mock-essays.html'>Mock Essay Prompt</a>; outline + write under 30-min timer");
-        tasks.push("Compare your answer to the sample; mark every missing citation");
-        tasks.push("Re-skim <a href='ir362/frames/'>Hammad's 7 Frames</a>");
+        tasks.push("Open <a href='ir362/final-run.html'>IR Final Run</a> and complete the 45-minute path");
+        tasks.push("Pick a <a href='ir362/mock-essays.html'>Mock Essay Prompt</a>; outline before reading any model");
+        tasks.push("Repair one missing citation or date, then move on");
       } else {
+        tasks.push("Start with <a href='ir362/final-run.html'>IR Final Run</a> — one closed-page cycle");
         tasks.push("Read <a href='ir362/index.html'>Framework</a> — all 17 questions");
         tasks.push("Read 1 deep-dive: <a href='ir362/iran-axis.html'>Iran/Axis</a> or <a href='ir362/abraham-accords.html'>Abraham Accords</a>");
         tasks.push(isPrimary ? "Run flashcard deck — IR 362 (<a href='flashcards.html'>here</a>)" : "Read 1 lecture frame from <a href='ir362/frames/'>Frames</a>");

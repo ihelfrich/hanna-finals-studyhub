@@ -166,6 +166,11 @@ format:
   <h2>🚨 Cram-mode shortcuts</h2>
   <p class="sub">When the exam is hours away. Pick one — go.</p>
   <div class="cram-buttons">
+    <a href="ir362/final-run.html" class="cram-button">
+      <div class="emoji">IR</div>
+      <h4>IR Final Run</h4>
+      <p>Low-clutter exam path · timer · closed-page drills · essay spine</p>
+    </a>
     <a href="cram-sprint.html" class="cram-button">
       <div class="emoji">🏃</div>
       <h4>Cram Sprint</h4>
@@ -224,10 +229,10 @@ format:
     <h4>Source Check</h4>
     <p>What is verified, what is lecture-dependent, and what still needs Hanna's syllabus or Brightspace before exam use.</p>
   </a>
-  <a href="ir362/" class="quick-tile">
+  <a href="ir362/final-run.html" class="quick-tile">
     <div class="emoji">📘</div>
-    <h4>IR 362 — heaviest weight</h4>
-    <p>17-question framework · 4 deep-dive research pages · 7 lecture frames · 5 mock essays + sample answers · 8 primary sources · concept graph · timeline · maps.</p>
+    <h4>IR 362 — Final Run</h4>
+    <p>Start with the uncluttered exam path: timed cycle, closed-page drills, prompt triage, and links into the full framework only when needed.</p>
   </a>
   <a href="acct410x/" class="quick-tile">
     <div class="emoji">📕</div>
@@ -272,12 +277,13 @@ format:
 
 Reading order:
 
-1. [Framework with all 17 questions](ir362/index.qmd) — the spine
-2. [Iran & the Axis](ir362/iran-axis.qmd), [Abraham Accords](ir362/abraham-accords.qmd), [Nash Equilibrium](ir362/nash-equilibrium.qmd), [Syria Collapse](ir362/syria-collapse.qmd) — the four deep-dive research pages
-3. [Hammad's 7 Frames](ir362/frames/index.qmd) — Bellin, Brownlee/Masoud/Reynolds, Mitchell, Gause, Diwan/Malik/Atiyas, Sayigh, Bayat
-4. [Primary Sources](ir362/sources/index.qmd) — Balfour → Abraham Accords text
-5. [Mock Essays + Sample Answers](ir362/mock-essays.qmd) — 5 prompts, 6,150 words of A-grade demonstrations
-6. [Cram Sheet](ir362/cram-sheet.qmd) — final-night condensation
+1. [Final Run](ir362/final-run.qmd) — low-clutter path: recall, check, repair, write
+2. [Framework with all 17 questions](ir362/index.qmd) — the full reference spine
+3. [Iran & the Axis](ir362/iran-axis.qmd), [Abraham Accords](ir362/abraham-accords.qmd), [Nash Equilibrium](ir362/nash-equilibrium.qmd), [Syria Collapse](ir362/syria-collapse.qmd) — the four deep-dive research pages
+4. [Hammad's 7 Frames](ir362/frames/index.qmd) — Bellin, Brownlee/Masoud/Reynolds, Mitchell, Gause, Diwan/Malik/Atiyas, Sayigh, Bayat
+5. [Primary Sources](ir362/sources/index.qmd) — Balfour → Abraham Accords text
+6. [Mock Essays + Sample Answers](ir362/mock-essays.qmd) — demonstrations for structure and calibration
+7. [Cram Sheet](ir362/cram-sheet.qmd) — final-night condensation
 
 ::: {.callout-warning}
 **Source-coverage gaps to flag with Hammad's syllabus:**
@@ -302,19 +308,19 @@ Reading order:
 | Sun 5/10 | Mock Exam B under timed conditions · review key | Net error rate ≤ 10% |
 | Mon 5/11 | Light skim of Cram Sheet · 90 min walk · sleep · exam | — |
 
-Start here: [econ205/index.qmd](econ205/index.qmd)
+Start here: [ECON 205 overview](econ205/index.qmd)
 
 ### ACCT 410x/410 — Mon May 11, 4:30–6:30 PM
 
 **Strategy:** Leventhal "user-oriented" — emphasize *what the number means for a manager*, not journal-entry mechanics. The USC Registrar lists Accounting 410 in the Monday May 11, 4:30–6:30 PM exception slot; verify Hanna's section against Brightspace. The April 20 tutoring brief identified four high-yield trap areas (indirect cash flow, multi-product CVP, inventory error reversal, bond pricing). Drill those first.
 
-Start here: [acct410x/index.qmd](acct410x/index.qmd)
+Start here: [ACCT 410x/410 overview](acct410x/index.qmd)
 
 ### Marketing — Ensemble project, syllabus pending
 
 **Strategy:** Treat this as a deliverable, not a memorization exam. Until the syllabus arrives, the honest work is to build the pitch spine: target user, problem, competitive set, positioning, evidence, go-to-market, and risk answers.
 
-Start here: [marketing/index.qmd](marketing/index.qmd)
+Start here: [Marketing overview](marketing/index.qmd)
 
 :::
 

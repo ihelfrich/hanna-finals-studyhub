@@ -52,8 +52,10 @@ website:
         text: "Source Check"
       - text: "IR 362"
         menu:
+          - href: ir362/final-run.qmd
+            text: "Final Run"
           - href: ir362/index.qmd
-            text: Overview & Framework
+            text: "Full Framework"
           - href: ir362/iran-axis.qmd
             text: Iran & the Axis of Resistance
           - href: ir362/abraham-accords.qmd
@@ -128,6 +130,7 @@ website:
       contents:
         - section: "Synthesis"
           contents:
+            - ir362/final-run.qmd
             - ir362/index.qmd
             - ir362/cram-sheet.qmd
             - ir362/sample-answers.qmd
