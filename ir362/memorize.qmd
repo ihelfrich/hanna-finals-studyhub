@@ -7,7 +7,91 @@ order: 0
 
 These are the items. Here are the hooks. Drill them.
 
-Twenty-five atomic facts, each anchored to an image and a one-line mnemonic. Five sections, five drills. Work top to bottom; do every drill twice. By the time you reach the bottom, the spine of the exam will be sitting in working memory.
+Twenty-five atomic facts, each anchored to an image and a one-line mnemonic. Six sections, five drills. Work top to bottom; do every drill twice. By the time you reach the bottom, the spine of the exam will be sitting in working memory.
+
+## Section 0 — The Story Chain {.unnumbered}
+
+```{=html}
+<aside class="story-chain-intro">
+  <p><strong>Read this aloud once before doing anything else.</strong> Each event is because of the one before it. If you remember the chain, you remember the dates — they fall into place like beads on a string.</p>
+</aside>
+```
+
+::: {.story-chain}
+
+**1917 — Britain writes a letter.** A foreign secretary named Balfour scribbles a single page promising a Jewish national home in a place full of people who already live there. *Because* of that promise, when Britain leaves three decades later, two peoples claim one land.
+
+**↓ which forces ↓**
+
+**1947 — The UN draws a map.** Resolution 181 splits the land in two. Arabs reject the map. *Because* the map is rejected, war is the next morning's outcome.
+
+**↓ which produces ↓**
+
+**1948 — Two events at once.** Ben-Gurion declares Israel. 750,000 Palestinians are pushed out — *al-Nakba*, "the catastrophe." *Because* of 1948, every later war is fought over land already settled by force.
+
+**↓ which leaves unfinished ↓**
+
+**1967 — Six days, four territories.** Israel takes the West Bank, Gaza, the Sinai, the Golan. **UNSC 242** is written carefully — "withdrawal from territories occupied" — without "the" — and that one missing definite article will fuel fifty years of argument. *Because* of 1967, "land for peace" becomes the only phrase anyone can agree on.
+
+**↓ which Egypt cashes in first ↓**
+
+**1978 — Camp David.** Carter, Sadat, Begin in a Maryland cabin. Egypt gets the Sinai back; everyone else gets nothing. *Because* Egypt breaks ranks alone, the pan-Arab consensus dies. Each Arab state now negotiates for itself.
+
+**↓ which Iran rejects entirely ↓**
+
+**1979 — Khomeini lands in Tehran.** The Shah is gone. Overnight, the largest non-Arab country in the region flips from US ally to its sharpest opponent. *Because* of 1979, the regional contest now has *two* axes — Israel-Palestine *and* the Gulf — and Iran is the new flag-bearer of resistance.
+
+**↓ which Iran exports to Lebanon ↓**
+
+**1982 — Israel invades Lebanon.** The IRGC slips into the Bekaa Valley and helps stand up **Hezbollah**. *Because* of 1982, Iran has a forward arm one mile from Israel's northern border. The Lebanese front is born.
+
+**↓ which Oslo tries to override ↓**
+
+**1993 — Rabin, Clinton, Arafat on the South Lawn.** A handshake creates the Palestinian Authority and defers every hard question — borders, refugees, Jerusalem. *Because* the hard questions are deferred, the Oslo process can die without anyone declaring it dead.
+
+**↓ which the API tries to revive ↓**
+
+**2002 — Beirut Summit.** Saudi Crown Prince Abdullah offers full Arab normalization with Israel — for full Israeli withdrawal *and* a Palestinian state. *Because* the API is a sequencing rule (state first, then peace), it becomes the regional template even though no one executes it.
+
+**↓ which the Accords invert ↓**
+
+**2020 — The pivot turns.** UAE (13 Aug), Bahrain (11 Sept), Sudan (23 Oct), Morocco (10 Dec). Four Arab states normalize *without* a Palestinian state. *Because* of 2020, the price of peace flips: it's now Iran-deterrence and economic upside, not Palestinian statehood.
+
+**↓ which Hamas tries to stop ↓**
+
+**7 October 2023 — Hamas attacks.** Saudi normalization is reportedly weeks away. *Because* the spoiler theory is at least partially right, Hamas's decision to attack on this exact day is now read as an attempt to derail the train.
+
+**↓ which Israel returns by destroying the axis ↓**
+
+**Sept 17–18, 2024 → Sept 27, 2024 → Nov 27, 2024 → Dec 8, 2024.** Pagers detonate. Nasrallah is killed. HTS opens its offensive from Idlib. Twelve days later Damascus falls. *Because* Hezbollah and the IRGC ground presence collapse together, Iran's land bridge severs and Assad has no scaffolding left. He flees to Moscow.
+
+:::
+
+```{=html}
+<aside class="recitation">
+  <h4>Recite this in 30 seconds</h4>
+  <p class="cadence"><strong>1917</strong> a letter · <strong>1947</strong> a map · <strong>1948</strong> a state and a Nakba · <strong>1967</strong> four territories and a missing "the" · <strong>1978</strong> Egypt breaks ranks · <strong>1979</strong> Iran flips · <strong>1982</strong> Hezbollah is born · <strong>1993</strong> Oslo defers everything · <strong>2002</strong> the Saudi offer · <strong>2020</strong> the pivot turns · <strong>October 7</strong> Hamas spoils · <strong>December 8, 2024</strong> Damascus falls.</p>
+  <p class="hum">Say it three times. The rhythm is the memory.</p>
+</aside>
+```
+
+::: {.surprises}
+
+### Five surprises that hold the chain together {.unnumbered}
+
+The brain remembers what surprises it. Memorize these five counterintuitive facts and you'll remember the connections around them.
+
+1. **Sadat broke ranks for Egypt — not for peace.** The Sinai mattered to Cairo more than the Palestinian cause. The pan-Arab consensus didn't fail because of weakness; it failed because Egypt had a price.
+2. **The API was Saudi Arabia's offer. The Accords made the Saudi offer irrelevant *without* Saudi Arabia.** That's why the Saudis weren't in the 2020 signing — they were being routed around.
+3. **Hamas attacked on October 7, 2023, because Saudi-Israeli normalization was reportedly imminent.** The attack was a *spoiler*, not a random event. The dates are not a coincidence.
+4. **Assad didn't fall because HTS was strong. He fell because Hezbollah and the IRGC had been destroyed first.** Twelve days from the offensive to Damascus is impossibly fast for a strong regime; it's the speed of a regime with no scaffolding left.
+5. **The carousel keeps turning even during war.** Escalation is *part of* the equilibrium, not a deviation from it. Each cycle of war-ceasefire-talks-war leaves the underlying structure exactly where it was.
+
+:::
+
+::: {.callout-tip}
+**The trick:** when the exam asks about *any* moment in the chain, you don't recall the moment alone — you recall the link. *Because of X, Y. Because of Y, Z.* That's how a paragraph writes itself.
+:::
 
 ## Section 1 — The 10 dates
 
@@ -167,6 +251,49 @@ Author, year, claim, hook, deployment trigger. Four cards. The mnemonic for the 
   <div class="frame-deploy"><strong>Deploy when:</strong> any Iran-Syria, axis-of-resistance, or December 2024 Syria-collapse question — inoculates against the lazy sectarian reading.</div>
 </div>
 
+</div>
+```
+
+::: {.palace}
+
+### The Four Professors at a Round Table {.unnumbered}
+
+A memory palace, because palaces work better than lists. Picture a round seminar table at USC. Four scholars sit at the four compass points. Walk around the table clockwise. Each professor *holds something*. The thing they hold *is* their argument.
+
+```{=html}
+<div class="palace-table">
+  <div class="palace-seat seat-n">
+    <div class="seat-prof">Bellin <span class="seat-year">(2004)</span></div>
+    <div class="seat-holds">…holds a clipboard with the names of the bouncers — military, secret police, riot police.</div>
+    <div class="seat-line">"The regime survives because of <strong>who's at the door</strong>."</div>
+    <div class="seat-hook">B → <strong>Bouncers</strong>.</div>
+  </div>
+  <div class="palace-seat seat-e">
+    <div class="seat-prof">Brownlee/Masoud/Reynolds <span class="seat-year">(2015)</span></div>
+    <div class="seat-holds">…hold an oil derrick in one hand and a king's crown in the other. They lift them together.</div>
+    <div class="seat-line">"You need <strong>both</strong> — oil rents <strong>and</strong> hereditary executive — to survive 2011. Tunisia had neither, so Tunisia transitioned."</div>
+    <div class="seat-hook">BMR → <strong>Both Matter Royally</strong>.</div>
+  </div>
+  <div class="palace-seat seat-s">
+    <div class="seat-prof">Mitchell <span class="seat-year">(2011)</span></div>
+    <div class="seat-holds">…points down at a pipeline running under the table. Black, leaking slightly.</div>
+    <div class="seat-line">"<strong>The infrastructure is the politics.</strong> Coal democratized labor. Oil concentrates power. The MENA region is the most-penetrated subsystem because of the pipes."</div>
+    <div class="seat-hook">Mitchell → <strong>Mineral</strong>.</div>
+  </div>
+  <div class="palace-seat seat-w">
+    <div class="seat-prof">Goodarzi <span class="seat-year">(2006)</span></div>
+    <div class="seat-holds">…glues two flags together — Iran and Syria. He's smiling slightly. Someone says "sectarian"; he shakes his head.</div>
+    <div class="seat-line">"<strong>Strategic, not sectarian.</strong> They're glued by mutual threat perception, not by Shia identity."</div>
+    <div class="seat-hook">Goodarzi → <strong>Glue</strong>.</div>
+  </div>
+</div>
+```
+
+Walk around the table once. Read each line aloud. Now close your eyes. Walk it again from memory. **B → BMR → Mitchell → Goodarzi.** Bouncers, Both, Mineral, Glue.
+
+:::
+
+```{=html}
 <div class="drill-frames" data-drill="frames">
   <p class="drill-prompt">An author appears. Type the year, the claim tag, or the deployment trigger. 8 seconds per item. 4 items.</p>
   <button class="drill-start" data-target="frames">Start drill</button>
@@ -233,12 +360,14 @@ Each actor has three slots: **Wants**, **Has**, **Cannot**. Memorize the trio. T
 
 ## Section 4 — The 3 throughlines
 
-Three vivid scenes. Walk through each in your head. After each scene, finish the one-sentence version aloud.
+Three vivid scenes. Each one is a *physical place* you can walk through in your head. The trick: never say the throughline as an abstract noun ("the pivot"). Always say it as a thing you can see and hear ("the seesaw turning, the carousel spinning, the train coming around the bend"). The senses anchor the concept.
 
 ```{=html}
 <div class="palace-scene">
-  <h3>Throughline 1 — The Pivot</h3>
-  <p>Picture a literal pivot: <strong>API on the left</strong> (Beirut Summit, 2002 — Crown Prince Abdullah at the podium, twenty-two Arab flags behind him), <strong>Abraham Accords on the right</strong> (South Lawn, September 2020 — UAE, Bahrain, the signed pages on a desk in front of the Truman Balcony). The thing that swung was the <em>price</em> of normalization — from "a Palestinian state" to "shared Iran-deterrence + economic upside." Same actors, same region, inverted sequencing.</p>
+  <h3>Throughline 1 — The Pivot (the seesaw)</h3>
+  <p>Picture a wooden <strong>seesaw</strong> on a Beirut hotel terrace. On the <strong>left seat</strong>: a wax-sealed envelope marked <strong>"API · 2002"</strong> — written in elegant Arabic, signed by Crown Prince Abdullah, twenty-two Arab flags planted around it. On the <strong>right seat</strong>: a glossy white folder marked <strong>"Abraham Accords · 2020"</strong> — UAE, Bahrain, Sudan, Morocco signed on the inside. The seesaw is balanced on a single fulcrum: <strong>"the price of normalization."</strong></p>
+  <p>Until 2020 the left side was heavier — the price was <em>a Palestinian state first, then peace</em>. After 2020 the right side dropped — the price became <em>Iran-deterrence and economic upside, no state required</em>. The seesaw tipped. Same actors, same region — but the fulcrum had moved.</p>
+  <p><strong>Counterintuitive hook:</strong> Saudi Arabia <em>wrote</em> the API in 2002. Saudi Arabia <em>didn't sign</em> the Accords in 2020. The pivot was Saudi Arabia's own offer being routed around — by the UAE, of all states.</p>
   <div class="cloze" data-cloze="pivot">
     In one sentence, the pivot is: <input type="text" data-key="pivot" placeholder="finish the sentence...">
     <div class="cloze-actions">
@@ -249,8 +378,10 @@ Three vivid scenes. Walk through each in your head. After each scene, finish the
 </div>
 
 <div class="palace-scene">
-  <h3>Throughline 2 — The Carousel</h3>
-  <p>Picture a slow carousel turning at a fairground. Four horses: <strong>escalation, war, ceasefire, normalization-talks</strong>. Riders rotate through but nobody dismounts. The four actors are Nash-locked: each is choosing its best response given the others, so the structure beneath the phases doesn't move. Hammad's word for this: <em>carousel</em>.</p>
+  <h3>Throughline 2 — The Carousel (the fairground)</h3>
+  <p>Picture a fairground at dusk. A <strong>slow carousel</strong> is turning. Calliope music. Four painted horses, each labeled: <strong>Escalation · War · Ceasefire · Normalization-talks</strong>. The riders are Israel, Iran, Saudi/Gulf, Palestinians. The riders rotate through the phases — first one is on <em>War</em>, then <em>Ceasefire</em>, then <em>Talks</em>, then back to <em>Escalation</em> — but nobody dismounts. The platform is bolted to the same axis.</p>
+  <p>Why? Because each rider is choosing its best response given the others. Israel can't withdraw if Iran doesn't pull back the axis. Iran can't pull back the axis if it doesn't trust Israel to stop. Saudi can't sign if the Palestinian street erupts. Each move is rational <em>given</em> the others. That's a Nash equilibrium. That's why the carousel turns but the structure beneath it doesn't.</p>
+  <p><strong>Counterintuitive hook:</strong> Wars are <em>part of</em> the equilibrium, not breaks from it. October 7 was an attempt to <em>break</em> the carousel — and instead the war that followed was the carousel doing its thing. New phase, same structure. Hammad's word: <em>carousel</em>.</p>
   <div class="cloze" data-cloze="carousel">
     In one sentence, the carousel is: <input type="text" data-key="carousel" placeholder="finish the sentence...">
     <div class="cloze-actions">
@@ -261,8 +392,10 @@ Three vivid scenes. Walk through each in your head. After each scene, finish the
 </div>
 
 <div class="palace-scene">
-  <h3>Throughline 3 — The Engine</h3>
-  <p>Picture a long subway line: <strong>Tehran → Baghdad → Damascus → Beirut</strong>. Iran built the line. Hezbollah is the terminus. On <strong>December 8, 2024</strong>, the Damascus station closes and the train can't get through. The land bridge is severed. The engine sputters.</p>
+  <h3>Throughline 3 — The Engine (the subway line)</h3>
+  <p>Picture a long subway line stretching west across the region. Four stations, in order: <strong>Tehran → Baghdad → Damascus → Beirut</strong>. Iran built the line. Iran owns the engine. Iraqi Shia militias work the Baghdad junction. Assad's Syria runs the long middle stretch — the <strong>land bridge</strong>. Hezbollah is the western terminus, parked one mile from Israel's northern border.</p>
+  <p>The whole network only works while <strong>every</strong> station stays open. On <strong>September 27, 2024</strong>, Israel kills Nasrallah and the western terminus catches fire. On <strong>November 27, 2024</strong>, HTS launches its offensive from Idlib. <strong>Twelve days later — December 8, 2024 — Damascus station closes</strong>. The train cannot get through. Assad flees to Moscow. The land bridge severs. The engine in Tehran is still running, but it has nowhere to push power to.</p>
+  <p><strong>Counterintuitive hook:</strong> Assad didn't fall because HTS was strong. Assad fell because <em>Hezbollah and the IRGC ground presence — the western and central props — had already collapsed</em>. The Damascus station closed because the rest of the line had already gone dark. Iran's engine is now disconnected from its forward arm.</p>
   <div class="cloze" data-cloze="engine">
     In one sentence, the engine is: <input type="text" data-key="engine" placeholder="finish the sentence...">
     <div class="cloze-actions">

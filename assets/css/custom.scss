@@ -5,6 +5,122 @@ $body-bg-dark: #0f1419;
 $body-color-dark: #e8e8e8;
 
 /*-- scss:rules --*/
+/* === Memorize: Story Chain, Recitation, Surprises, Palace === */
+.story-chain-intro {
+  background: rgba(255,199,44,.10); border-left: 5px solid $secondary;
+  border-radius: 8px; padding: 1rem 1.2rem; margin: 1rem 0;
+}
+.story-chain {
+  font-size: 1.02rem; line-height: 1.65;
+  border-left: 3px solid rgba(153,0,0,.3);
+  padding: .6rem 0 .6rem 1.2rem; margin: 1.2rem 0;
+}
+.story-chain p {
+  margin: .55rem 0;
+}
+.story-chain p:has(strong:first-child) {
+  background: linear-gradient(180deg, rgba(153,0,0,.04), transparent);
+  padding: .8rem 1rem; border-radius: 8px;
+  border-left: 4px solid $primary;
+  margin-left: -1.2rem;
+}
+.story-chain p strong:first-child {
+  color: $primary; font-size: 1.05rem;
+}
+.story-chain p:has(em:only-child) {
+  text-align: center; color: var(--bs-secondary-color);
+  font-style: italic; font-size: .92rem;
+  margin: .25rem 0; padding-left: 0;
+}
+.recitation {
+  background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+  color: white; border-radius: 12px; padding: 1.4rem 1.6rem;
+  margin: 1.5rem 0; box-shadow: 0 8px 22px rgba(153,0,0,.22);
+}
+.recitation h4 { color: #FFC72C; margin: 0 0 .8rem; font-size: 1rem;
+  letter-spacing: .04em; text-transform: uppercase; font-weight: 800; }
+.recitation .cadence {
+  font-size: 1.04rem; line-height: 1.7; margin: 0 0 .7rem;
+  color: rgba(255,255,255,.96);
+}
+.recitation .cadence strong { color: #FFC72C; font-weight: 800; }
+.recitation .hum {
+  font-size: .88rem; color: rgba(255,255,255,.75);
+  margin: 0; font-style: italic;
+}
+.surprises {
+  border: 1px solid rgba(37,99,235,.4); border-left: 5px solid #2563eb;
+  border-radius: 12px; padding: 1.2rem 1.5rem; margin: 1.5rem 0;
+  background: linear-gradient(180deg, rgba(37,99,235,.05), transparent);
+}
+.surprises h3 { color: #2563eb; margin: 0 0 .8rem; font-size: 1.1rem; }
+.surprises ol { padding-left: 1.4rem; margin: 0; }
+.surprises ol li {
+  margin: .7rem 0; padding-left: .3rem;
+  font-size: .96rem; line-height: 1.55;
+}
+.surprises ol li strong { color: #2563eb; }
+
+/* Memory palace: round table */
+.palace { margin: 1.8rem 0; }
+.palace > h3 { color: $primary; margin: 0 0 .8rem; font-size: 1.15rem; }
+.palace > p { font-size: .98rem; line-height: 1.55; margin-bottom: 1rem; }
+.palace-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  position: relative;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at center, rgba(153,0,0,.08), rgba(153,0,0,.02) 60%, transparent 75%);
+  border-radius: 16px;
+  margin: 1.5rem 0;
+}
+.palace-table::before {
+  content: ""; position: absolute; inset: 35% 25%;
+  border: 2px solid rgba(153,0,0,.2); border-radius: 50%;
+  pointer-events: none;
+}
+.palace-seat {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 10px; padding: 1rem 1.1rem;
+  background: var(--bs-body-bg);
+  position: relative;
+  z-index: 1;
+}
+.palace-seat .seat-prof {
+  font-weight: 800; color: $primary; font-size: 1.05rem; margin-bottom: .15rem;
+}
+.palace-seat .seat-year {
+  font-weight: 600; color: var(--bs-secondary-color); font-size: .9rem;
+}
+.palace-seat .seat-holds {
+  font-size: .92rem; line-height: 1.5; margin: .35rem 0; font-style: italic;
+  color: var(--bs-body-color);
+}
+.palace-seat .seat-line {
+  font-size: .94rem; line-height: 1.5; margin: .55rem 0 .4rem;
+  padding: .5rem .7rem; background: rgba(255,199,44,.10);
+  border-left: 3px solid $secondary; border-radius: 4px;
+}
+.palace-seat .seat-hook {
+  font-size: .85rem; font-weight: 700; color: #8a6d00;
+  letter-spacing: .03em;
+}
+.palace-seat.seat-n { grid-column: 1 / span 2; max-width: 70%; margin: 0 auto; }
+.palace-seat.seat-s { grid-column: 1 / span 2; max-width: 70%; margin: 0 auto; }
+.palace-seat.seat-e { grid-column: 2; }
+.palace-seat.seat-w { grid-column: 1; }
+
+@media (max-width: 700px) {
+  .palace-table { grid-template-columns: 1fr; }
+  .palace-table::before { display: none; }
+  .palace-seat.seat-n,
+  .palace-seat.seat-s,
+  .palace-seat.seat-e,
+  .palace-seat.seat-w { grid-column: 1; max-width: none; }
+}
+
 /* === IR 362 question cards === */
 .q-card {
   border: 1px solid var(--bs-border-color);
