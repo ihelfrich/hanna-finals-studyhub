@@ -64,6 +64,8 @@ website:
             text: Syria — Alliance & 2024 Collapse
           - href: ir362/mock-essays.qmd
             text: "📝 Mock Essays + Sample Answers"
+          - href: ir362/sample-answers.qmd
+            text: "📑 Full Sample Answers (17)"
           - href: ir362/sources/index.qmd
             text: "📜 Primary Sources"
           - href: ir362/timeline.qmd
@@ -128,6 +130,7 @@ website:
           contents:
             - ir362/index.qmd
             - ir362/cram-sheet.qmd
+            - ir362/sample-answers.qmd
         - section: "Deep dives"
           contents:
             - ir362/iran-axis.qmd

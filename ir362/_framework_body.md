@@ -31,7 +31,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q1: Introduction — essay on rupture and alliance of each actor between Arab-Israeli, Syrian-Israeli, and Gulf security conflicts
+## Q1: Introduction — essay on rupture and alliance of each actor between Arab-Israeli, Syrian-Israeli, and Gulf security conflicts {#q1}
 
 **Thesis (one line):** The Middle East regional order has fragmented into three nested theatres (Arab-Israeli, Syrian-Israeli, Gulf security) whose actor alignments rupture along the API-to-Abraham-Accords pivot, with Iran as the linkage engine and the US as a primacy-only outside power.
 
@@ -55,7 +55,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q2: Identify two subconflicts that substitute for the Israeli-Palestinian conflict
+## Q2: Identify two subconflicts that substitute for the Israeli-Palestinian conflict {#q2}
 
 **Thesis (one line):** The Syrian-Israeli conflict (the "northern front" linking Iran-Syria-Hezbollah) and the Gulf security conflict (Iran-Saudi rivalry over the Persian Gulf and Yemen) have functionally substituted for the Israeli-Palestinian conflict as the regional organizing axis.
 
@@ -78,7 +78,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q3: Be able to discuss 2-for-2 — what it means to be a new frame of reference connected to API
+## Q3: Be able to discuss 2-for-2 — what it means to be a new frame of reference connected to API {#q3}
 
 **Thesis (one line):** A "new frame of reference" connected to API means a diplomatic architecture that retains API's *land-for-peace* logic but updates the actor set and the conditionality structure — the Accords keep the form (multilateral normalization) while inverting the substance (no Palestinian precondition).
 
@@ -101,7 +101,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q4: Arab Peace Initiative
+## Q4: Arab Peace Initiative {#q4}
 
 **Thesis (one line):** The API (March 28, 2002) was the first and only collective Arab offer of full normalization conditioned on Israeli withdrawal to 1967 lines, a Palestinian state, and a "just solution" to the refugee question per Resolution 194 — and Israel's non-response combined with subsequent Gulf bilateralism rendered it diplomatically dormant by 2020.
 
@@ -124,7 +124,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q5: Syrian conflict — sources of Syrian-Iranian alliance and how it connects the two subregional conflicts
+## Q5: Syrian conflict — sources of Syrian-Iranian alliance and how it connects the two subregional conflicts {#q5}
 
 **Thesis (one line):** The Syrian-Iranian alliance (formalized after 1979) rests on three host-side pillars — Alawite minority regime survival, anti-US/anti-Israel deterrence, and forward-basing for Hezbollah — and it operates as the connective tissue between the Syrian-Israeli northern front and the Gulf-security axis.
 
@@ -147,7 +147,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q6: How the collapse of the Syrian regime will affect regional politics
+## Q6: How the collapse of the Syrian regime will affect regional politics {#q6}
 
 **Thesis (one line):** Assad's collapse (2024 per study guide) ruptures Iran's land bridge to Hezbollah, weakens the northern front against Israel, opens a contestation space for Turkey and Gulf states, and accelerates the Accords-side regional realignment — but it does *not* resolve the Israeli-Palestinian core.
 
@@ -169,7 +169,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q7: Impact of normalization on the larger Israeli-Palestinian conflict
+## Q7: Impact of normalization on the larger Israeli-Palestinian conflict {#q7}
 
 **Thesis (one line):** Abraham Accords normalization *structurally weakens Palestinian leverage* by removing Arab-state conditionality, while *strengthening Israeli bargaining power* across all final-status issues — accelerating de facto annexation dynamics in the West Bank without producing a final settlement.
 
@@ -193,7 +193,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q8: Impact on both sides
+## Q8: Impact on both sides {#q8}
 
 **Thesis (one line):** Normalization yields asymmetric gains — Israel secures regional legitimacy + security cooperation + economic access without territorial concession; the Palestinians lose their structural Arab-state veto and face accelerated facts-on-the-ground in the West Bank — making the equilibrium less stable, not more.
 
@@ -217,7 +217,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q9: Abraham Accords / normalization — what does it do to Israeli occupation and authoritarianism in Morocco, Sudan, UAE, Saudi Arabia?
+## Q9: Abraham Accords / normalization — what does it do to Israeli occupation and authoritarianism in Morocco, Sudan, UAE, Saudi Arabia? {#q9}
 
 **Thesis (one line):** Normalization simultaneously *entrenches Israeli occupation* (by removing Arab-state conditionality) and *legitimizes Arab authoritarianism* (by trading external recognition + arms transfers for domestic acquiescence) — the two outcomes are causally linked, not coincidental.
 
@@ -243,7 +243,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q10: Nash equilibrium — bring it into the discussion
+## Q10: Nash equilibrium — bring it into the discussion {#q10}
 
 **Thesis (one line):** Middle East regional politics fits a Nash equilibrium where each actor's best response, given everyone else's strategy, is *partial escalation without resolution* — Israel deters, Iran proxies, Gulf hedges, US underwrites, Palestinians resist — and the equilibrium is self-reproducing because no unilateral deviation pays off.
 
@@ -264,7 +264,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q11: Read articles in general — synthesis
+## Q11: Read articles in general — synthesis {#q11}
 
 **Thesis (one line):** The assigned articles converge on one structural claim: MENA regional order is shaped less by ideology or regime type per se than by the *interaction* of coercive apparatus, external rents, oil infrastructure, and US primacy — and the API-to-Accords pivot is the contemporary expression of that interaction.
 
@@ -284,7 +284,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q12: 4 key but not equal actors and basic factors of the so-called peace process
+## Q12: 4 key but not equal actors and basic factors of the so-called peace process {#q12}
 
 **Thesis (one line):** The "peace process" is structured by four unequal actors — the United States (primacy broker), Israel (security veto), the Arab state cluster (Egypt-Jordan-Gulf, mediating but not driving), and the Palestinians (formally a party, structurally the weakest) — and the inequality is the explanation, not a side effect, of why the process loops without resolution.
 
@@ -308,7 +308,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q13: Carousel revolving
+## Q13: Carousel revolving {#q13}
 
 **Thesis (one line):** The "carousel" is Hammad's metaphor for the Nash equilibrium in motion — the same actors cycle through escalation, ceasefire, mediation, and renewed escalation without a final outcome, because the structural incentives reproduce themselves at each rotation.
 
@@ -331,7 +331,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q14: Ways the Nash equilibrium could come to an end (last slide)
+## Q14: Ways the Nash equilibrium could come to an end (last slide) {#q14}
 
 **Thesis (one line):** The MENA Nash equilibrium ends only via *exogenous shocks* that change the strategy-space itself — regime collapse (Syria 2024), nuclear breakout (Iran), US disengagement, internal Israeli political rupture, or a unified Palestinian political settlement — none of which are produced *by* the equilibrium itself.
 
@@ -354,7 +354,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q15: Possible outcomes / scenarios
+## Q15: Possible outcomes / scenarios {#q15}
 
 **Thesis (one line):** Four post-equilibrium scenarios are coherent — (1) Gulf-Israeli alignment consolidates with Palestinian de facto annexation; (2) Iran nuclear breakout triggers regional war; (3) US disengagement produces Russian/Chinese gap-filling; (4) Palestinian unification + external pressure produces a constrained two-state outcome — and which one obtains depends on the *sequence* of exogenous shocks, not their occurrence.
 
@@ -376,7 +376,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q16: Iran-Israeli-US linking of the two spheres; engine behind Iran's policy and connection to Hezbollah + Syria
+## Q16: Iran-Israeli-US linking of the two spheres; engine behind Iran's policy and connection to Hezbollah + Syria {#q16}
 
 **Thesis (one line):** Iran's regional policy engine is *strategic depth via forward-deployed deterrence* — Hezbollah (since 1982) and the Syrian alliance (since 1979/1980, deepened post-2011) are the operational arms of a *defensive* posture against Israeli/US coercion that *appears* offensive because it is forward-positioned.
 
@@ -398,7 +398,7 @@ Hammad's final is essay-format and tests a single throughline: the Middle East r
 
 ---
 
-## Q17: Logic / calculus of different players in connecting different parameters
+## Q17: Logic / calculus of different players in connecting different parameters {#q17}
 
 **Thesis (one line):** Each major player operates a distinct calculus — Israel (security + demographic preservation); Iran (deterrence + regime survival); Gulf monarchies (regime survival + economic diversification); US (primacy at low cost); Palestinians (legitimacy + survival) — and the connections between parameters (security ↔ economy, recognition ↔ territory, deterrence ↔ proxy) determine whether any cooperative move is incentive-compatible.
 

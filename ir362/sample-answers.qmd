@@ -1,0 +1,693 @@
+---
+title: "IR 362 — Full Sample Answers (All 17 Questions)"
+subtitle: "Gold-standard reference answers · cite, structure, deploy"
+description: "What an A-grade response looks like for each study-guide question"
+order: 8
+---
+
+::: {.callout-warning appearance="default"}
+**These are demonstrations, not scripts to memorize.** Each answer below is one defensible A-grade response to a single study-guide question. The point is to internalize the *structural moves* — thesis placement, three evidentiary moves, counterargument with rebuttal, throughline tie-back — not the exact prose. Hammad's grading is structural; if you reproduce these answers verbatim from memory you will lose marks for stiffness. Use them as calibration targets.
+:::
+
+## How to use this page
+
+Read each answer once, slowly, with a pen. Mark the spine: where does the thesis sit? Where does the counterargument enter? Which sentence ties the closing back to the master throughline? That spine is what you are practicing — the prose around it is replaceable.
+
+Practice mode is more important than reading mode. Pick a question. Cover the answer with your hand. Spend five minutes outlining your own version on paper: thesis, three topic sentences, one objection, one tie-back. Only then uncover the model. Compare structure first, prose second. If your structure differs, ask which is more defensible — sometimes the answer is yours, especially when you have a frame the model under-uses.
+
+The five answers in [`mock-essays.qmd`](mock-essays.qmd) are calibrated to *integrative* prompts that fuse two or three study-guide questions; the seventeen answers here are *direct* one-question responses. Together they cover the full surface area of what Hammad might ask. The mock essays teach you how to fuse; these teach you how to commit cleanly to a single throughline before fusing.
+
+A practical rotation for the final two days: draft your own outline for three questions per session, compare against the model, drill the dates and citations you would not have produced cold, and move to the next set. Do this twice and you will have rehearsed every question on the study guide once cold and once warm. That is the entire prep target.
+
+A note on dates. Where this page commits to a specific date — Nasrallah killed 27 September 2024; pager and walkie-talkie attacks 17–18 September 2024; HTS-led offensive opens 27 November 2024 and Damascus falls 8 December 2024 — those are taken as settled. Where this page references the 2025 sectarian incidents in Alawite coastal areas or the Suwayda crisis, those are flagged as analyst-reported risk events rather than canonical facts; treat them on the exam as "analysts at ICG and Chatham House have flagged" rather than as established history.
+
+## Jump to a question
+
+```{=html}
+<div class="q-grid-legend">
+  <strong>Throughline:</strong>
+  <span class="swatch" style="background:#990000"></span> Pivot
+  <span class="swatch" style="background:#c79100"></span> Carousel
+  <span class="swatch" style="background:#5a0000"></span> Iran
+</div>
+<div class="q-grid">
+  <a class="throughline-pivot" href="#q1">Q1</a>
+  <a class="throughline-pivot" href="#q2">Q2</a>
+  <a class="throughline-pivot" href="#q3">Q3</a>
+  <a class="throughline-pivot" href="#q4">Q4</a>
+  <a class="throughline-iran" href="#q5">Q5</a>
+  <a class="throughline-iran" href="#q6">Q6</a>
+  <a class="throughline-pivot" href="#q7">Q7</a>
+  <a class="throughline-pivot" href="#q8">Q8</a>
+  <a class="throughline-pivot" href="#q9">Q9</a>
+  <a class="throughline-carousel" href="#q10">Q10</a>
+  <a class="throughline-pivot" href="#q11">Q11</a>
+  <a class="throughline-carousel" href="#q12">Q12</a>
+  <a class="throughline-carousel" href="#q13">Q13</a>
+  <a class="throughline-carousel" href="#q14">Q14</a>
+  <a class="throughline-carousel" href="#q15">Q15</a>
+  <a class="throughline-iran" href="#q16">Q16</a>
+  <a class="throughline-carousel" href="#q17">Q17</a>
+</div>
+```
+
+---
+
+## Q1: Introductory essay on rupture and alliance among each set of actors across (a) the Arab–Israeli conflict, (b) the Syrian–Israeli conflict, and (c) Gulf security. {#q1}
+
+::: {.thesis}
+**Thesis (one sentence):** The regional order has fragmented into three nested theatres — Arab–Israeli, Syrian–Israeli, and Gulf-security — whose actor alignments rupture along a single fault line, the API → Abraham Accords pivot, with Iran as the linkage engine that holds the three theatres in one system and the United States as a primacy-only outside power that can shape but not impose alignments.
+:::
+
+The exam's opening prompt asks for a synthetic map: what changed between 2002 and 2026, and how did each set of actors reposition across the three subregional theatres? The throughline is the API → Accords pivot, but that pivot only legibly explains rupture if it is paired with two structural facts — Iran's linkage role across the three theatres and Washington's primacy-without-hegemony posture (Gause 2024). The thesis: the alignments break along that fault line, but the system holds together because Iran connects the three theatres into one game.
+
+In the Arab–Israeli theatre, the rupture runs from the 28 March 2002 Beirut Arab League Summit, where the API offered full normalization in exchange for 1967-line withdrawal and a Palestinian state with East Jerusalem as capital, to the four bilateral Abraham Accords signed between 13 August and 10 December 2020 (UAE, Bahrain, Sudan, Morocco), which inverted that sequencing: normalization first, Palestinian file deferred (Khalidi 2020). The actor alignment shifted from a collective Arab front conditioned on Palestinian statehood to a bilateralized set of Gulf-Israeli arrangements priced by US side payments — F-35 access, Western Sahara recognition, removal from State Sponsors of Terrorism. By 2023 the Saudi track was on the cusp of joining; 7 October 2023 paused but did not cancel that trajectory (Lynch 2024).
+
+In the Syrian–Israeli theatre, the alignment was anchored by the Iran–Syria alliance — strategic in origin, born in 1979–1982 from concurrent shocks of Iranian revolutionary isolation, Egypt's 1979 exit at Camp David, and Iraq's September 1980 invasion (Goodarzi 2006). Hezbollah, founded in 1982 around roughly 1,500 IRGC trainers in the Bekaa Valley (Norton 2007), became the operational fulcrum, and Syria the geographic land bridge. The rupture came in 2024: the 17–18 September pager and walkie-talkie attacks decapitated Hezbollah's mid-tier command; the 27 September strike in Beirut killed Hassan Nasrallah; the 27 November Litani ceasefire codified Hezbollah's withdrawal from southern Lebanon; and the HTS-led offensive that opened the same day reached Damascus on 8 December, ending fifty-four years of Assad rule. The northern front did not collapse because HTS won battles; it collapsed because four external scaffolds — Hezbollah, IRGC ground presence, Russian air, and the regime army — failed simultaneously (Lister 2024).
+
+In the Gulf-security theatre, the operative alignment is Saudi-led Sunni hedging against Iran, mediated by Washington. The 10 March 2023 Beijing-brokered Saudi–Iran restoration introduced China as a partial guarantor, partly substituting for the US security backstop without replacing it. Bahrain's hosting of CENTCOM's Fifth Fleet, the UAE's tightening security ties with Israel, and Saudi Arabia's Vision 2030 economic pivot all encode Iran-balancing as the master variable, with regime survival as the operative goal — Bellin's (2004) coercive-apparatus thesis applied to the rentier monarchies. The Abraham Accords are best read here, in this theatre rather than the Arab–Israeli one: the "two-for-two" frame Hammad uses points to the fact that the Accords' real animating logic was Gulf-security alignment against Iran, with the Palestinian file as cost rather than content.
+
+One might object that this three-theatre map overstates rupture and understates continuity — that the API was always more rhetorical than operational, that the Accords merely formalized cooperation already underway, and that Iran's role was always more locally rooted than the "axis" rendering suggests (Mansour, Shakeri, and Haid, Chatham House 2025). The objection has weight on the rhetorical-versus-operational point, but it does not survive the empirical test: Arab Barometer 2024 data show normalization opposition rose to 68% in Saudi Arabia by early 2024 (Robbins 2024), constraining regime behavior in exactly the way Lynch's "regime-public delinking" wager said it would not, and the speed with which the absence of Hezbollah/IRGC presence in Syria translated into regime collapse confirms that the scaffolding was load-bearing rather than ornamental.
+
+Tied back to the master throughline, the answer to Q1 is that the API → Accords pivot is the structural rupture, Iran is the linkage engine connecting the three theatres into one system, and the United States is the primacy actor whose presence sets the payoff matrix without dictating outcomes (Gause 2024). What has changed since 2024 is that the engine's Levantine arm has been subtracted and the Saudi pricing power has restored Palestinian-state conditionality on any future Sunni-Israeli deal (MBS, September 2024); what remains is the framework itself — three theatres, four key actors, one underlying game.
+
+**Key citations used:**
+- Gause 2024
+- Khalidi 2020
+- Lynch 2024
+- Goodarzi 2006
+- Norton 2007
+- Lister 2024
+- Bellin 2004
+- Mansour, Shakeri, and Haid 2025 (Chatham House)
+- Robbins 2024 (Arab Barometer)
+
+**Frame anchor:** API → Accords pivot, with Gause's primacy-not-hegemony as the structural backstop.
+
+**Common student error to avoid:** Writing this as a chronological narrative of the three theatres rather than a structural-alignment essay anchored to one fault line.
+
+---
+
+## Q2: Identify two subconflicts that have substituted for the Israeli–Palestinian conflict. {#q2}
+
+::: {.thesis}
+**Thesis (one sentence):** The Syrian–Israeli "northern front" (Iran–Syria–Hezbollah versus Israel) and the Gulf-security conflict (Iran–Saudi rivalry, fought materially in Yemen, Syria, and Iraq, and diplomatically across normalization tracks) have functionally substituted for the Israeli–Palestinian conflict as the regional organizing axis — not because Palestine has disappeared from the public conscience, but because state behavior is now organized around Iran-balancing rather than Palestinian conditionality.
+:::
+
+The substitution claim is structural, not normative. Palestinian publics, Arab streets, and the formal positions of the Arab League and OIC remain Palestine-centered; Arab Barometer 2024 data show that Palestinian self-determination retains majority support across the seven surveyed states (Robbins 2024). What has changed is the diplomatic and security agenda of Arab states, which by the late 2010s had reorganized around two subconflicts that operate without Palestinian preconditions — and around which Iran is the common adversary.
+
+The first subconflict is the Syrian–Israeli northern front. From the 2011 outbreak of the Syrian civil war through the December 2024 collapse of the Assad regime, this theatre operated as a triangulated contest: Israeli airstrikes on Iranian and Hezbollah assets in Syrian territory ran into the hundreds (the "campaign between the wars," roughly 2013–2024); Hezbollah amassed an arsenal estimated at 120,000–150,000 rockets and missiles, including precision-guided variants (Norton 2007 on Hezbollah's strategic depth); Iran routed weapons and IRGC personnel through the Damascus–Beirut corridor; and the Palestinian dimension was secondary at best. Even Hezbollah's "support front" opening on 8 October 2023, the day after the Hamas attack, was calibrated to remain below the threshold of full war, suggesting that the front's real animating logic was Iran's deterrence relationship with Israel rather than solidarity with Gaza (Mansour, Shakeri, and Haid 2025). The 17–18 September 2024 pager attacks and the 27 September killing of Nasrallah escalated this front to its terminus; the 27 November ceasefire and the 8 December collapse of Damascus closed it on Iran's terms of disadvantage.
+
+The second subconflict is Gulf security, which itself runs on two parallel tracks. Materially, it is fought in Yemen — the Saudi-led intervention beginning March 2015, the Houthi missile and drone campaigns against Saudi Aramco facilities (the September 2019 Abqaiq–Khurais strikes were the inflection point that crystallized Gulf threat perception of Iran), and the Houthi Red Sea attacks beginning late 2023 that disrupted Bab al-Mandeb shipping. Diplomatically, it runs across the Abraham Accords (UAE 13 August / Bahrain 11 September / Sudan 23 October / Morocco 10 December 2020) and the Saudi–Iran rapprochement of 10 March 2023, which is best read not as a contradiction but as a Saudi hedge — buying tactical de-escalation while keeping the Israeli normalization track open (Gause 2024). The Gulf subconflict's organizing question is not Palestine but the management of Iran's regional reach.
+
+These two subconflicts converge through Iran's linkage role. The Iran–Syria alliance is what made the Syrian–Israeli front a Gulf-security issue, because Syrian territory was the geographic land bridge through which Iranian materiel flowed to Hezbollah and through which Iraqi militia integration with the broader axis became possible (Goodarzi 2006). Mitchell's (2011) infrastructural lens helps here: pipelines, weapons-transit corridors, and shipping chokepoints are the material substrate of regional politics, and the Gulf is the most-penetrated subsystem in the global political economy of oil. The two subconflicts are not parallel; they are connected through the same engine.
+
+One might object that this substitution claim mistakes diplomatic sequencing for structural change — that Palestine remains the "ultimate" issue and that the Saudi track's post–October 7 reattachment to Palestinian-state conditionality (MBS, September 2024) proves the substitution was always shallow. The objection cuts deep but does not refute the structural reading. Saudi reattachment is bilateral conditionality on a single deal, not a return to the API's multilateral Arab League frame, and none of the four Accords signatories withdrew despite the Gaza war (Atlantic Council 2025). The substitution survived its first major stress test with the institutional residue largely intact.
+
+Tied to the master throughline, the answer is that the API → Accords pivot enabled the substitution by removing Palestinian conditionality as the gating clause; Iran is what connects the two subconflicts into one regional system; and the carousel of escalation and de-escalation that Hammad describes plays out *within* this substituted axis, not the original one. Palestine remains the moral frame; the Gulf-security and Syrian–Israeli theatres are where the actual game is being played.
+
+**Key citations used:**
+- Robbins 2024 (Arab Barometer)
+- Norton 2007
+- Mansour, Shakeri, and Haid 2025
+- Gause 2024
+- Goodarzi 2006
+- Mitchell 2011
+- Atlantic Council 2025
+
+**Frame anchor:** Pivot (API → Accords) plus Iran's linkage role.
+
+**Common student error to avoid:** Saying Palestine has been "forgotten." The substitution is structural-diplomatic; the moral salience of Palestine is undiminished and constrains regimes in the way Lynch (2024) eventually concedes.
+
+---
+
+## Q3: Discuss "two-for-two" — and what it means as a new frame of reference connected to the API. {#q3}
+
+::: {.thesis}
+**Thesis (one sentence):** "Two-for-two" names the analytical move of pairing two diplomatic frames (API and Abraham Accords) with two operative subconflicts (Syrian–Israeli northern front and Gulf-security axis) — and it means a new frame of reference because each frame allocates regional alignment differently, producing different equilibria over the same set of actors and the same underlying Palestinian question.
+:::
+
+The "two-for-two" formulation is Hammad's shorthand for the structural shift in regional diplomacy. It is not a slogan; it is a way of seeing that the regional order is governed by *two competing sequencing rules* (the diplomatic "two") which map onto *two operative subregional theatres* (the strategic "two"), and that the API and Accords are best understood as the two sequencing rules in question — not as a chronological succession in which one replaced the other, but as alternative templates that can be reactivated under different conditions.
+
+The API frame, formalized at Beirut on 28 March 2002, treats normalization as the *prize* for prior Israeli concession: full withdrawal to 1967 lines, an independent Palestinian state with East Jerusalem as capital, and a just resolution to the refugee question per UNGA 194 (Khalidi 2020). The "land for peace" logic UNSC 242 (1967) inaugurated is preserved; the multilateral Arab League imprimatur is the institutional vehicle. The Accords frame, signed in four bilateral instruments between 13 August and 10 December 2020, treats normalization as the *vehicle* by which a regional architecture can be built that will, in some unspecified future, pull a Palestinian arrangement into being. The sequencing inverts; the multilateral form is replaced by bilateralization; the conditionality on territory is removed and replaced with US-side payments to each signatory (UAE F-35s, Western Sahara recognition for Morocco, SST de-listing for Sudan).
+
+The "two" subregional theatres are Syrian–Israeli and Gulf-security, treated above. The two-for-two frame's analytical payoff is that each diplomatic frame implies a *different alignment* across the two theatres. Under API logic, the northern front and the Gulf-security axis are joined to the Palestinian file via the conditionality clause: no normalization without Palestinian statehood, which means the Iran-balancing impulse cannot be operationalized through formal Israeli alignment until the Palestinian question is resolved. Under Accords logic, the two subregional theatres are decoupled from the Palestinian file: Iran-balancing can run through Gulf-Israeli security cooperation directly, with Palestine bracketed (Gause 2024). The same actors, the same theatres, the same underlying conflict — two different equilibria.
+
+This is what makes the post–October 7 Saudi position interesting and analytically productive. By restoring Palestinian-state conditionality on any normalization (MBS, September 2024) and co-leading the Saudi–French two-state initiative at UNGA in September 2025, Riyadh has reactivated the API *sequencing rule* without reinstating the API *multilateral form*. What has emerged is a third frame — partial API logic on sequencing, Accords logic on bilateralism — that the two-for-two language was designed to make visible. Lynch's (2024) regime-public delinking wager was the empirical bet that the Accords frame could survive without Palestinian conditionality; Arab Barometer 2024 data falsified the bet only for Saudi Arabia, where opposition rose to 68% by early 2024 (Robbins 2024). The frame was not abandoned; it was selectively reattached.
+
+One might object that "two-for-two" is just clever pedagogy — that it elegantly summarizes the API/Accords contrast without doing analytical work. The objection is wrong. The two-for-two frame is analytically productive precisely because it forces the question of *which subregional theatre is doing the work in each frame*. Under API logic, the dominant theatre is Arab–Israeli proper (Palestine-centered); under Accords logic, the dominant theatre is Gulf-security (Iran-centered). That switch in the locus of regional gravity is the exam's central content, and "two-for-two" is the cleanest way to make it visible without slipping into chronology.
+
+Tied to the master throughline, the two-for-two frame is the API → Accords pivot rendered as a typology of equilibria rather than a story of succession. It clarifies why the post–October 7 trajectory is not a "return to API" — Saudi Arabia has revived API sequencing without restoring API's multilateral text — and it clarifies why the Accords are not "dead" — the four signatories remain, the institutional residue is durable but diminished. The frame is a tool for thinking about *which equilibrium the regional system is currently in*, which is exactly the question Hammad's final asks across multiple prompts.
+
+**Key citations used:**
+- Khalidi 2020
+- Gause 2024
+- Lynch 2024
+- Robbins 2024 (Arab Barometer)
+
+**Frame anchor:** Pivot (API → Accords), rendered as competing equilibria rather than chronology.
+
+**Common student error to avoid:** Treating "two-for-two" as a slogan rather than an analytical typology. The exam answer must show that each frame implies a different alignment across the two subregional theatres.
+
+---
+
+## Q4: The Arab Peace Initiative (2002) — origins, terms, why it became the regional template. {#q4}
+
+::: {.thesis}
+**Thesis (one sentence):** The API became the regional template not because it was implemented but because it formalized — at the level of the Arab League collective — a sequencing rule that no Arab regime could publicly abandon without facing legitimacy costs, and which therefore set the normative anchor for two decades against which the 2020 Abraham Accords measured themselves as a deviation.
+:::
+
+The API's origin sits at the intersection of three pressures in 2001–2002: the failure of the Camp David II talks of July 2000, the outbreak of the Second Intifada in September 2000, and the post-9/11 American push for regional clarity on which Arab states sided with Washington and on what terms. Crown Prince Abdullah of Saudi Arabia floated the initiative in a February 2002 conversation with Thomas Friedman of the New York Times. It was adopted unanimously at the Beirut Arab League Summit on 28 March 2002 by twenty-two member states, and re-endorsed through the OIC by fifty-seven Muslim-majority states (Khalidi 2020). The Saudi authorship matters: the API was the first Arab diplomatic instrument explicitly designed to convey to Washington that the Arab state system had a *positive* offer on the table, not just a list of grievances.
+
+The terms had three substantive components and one institutional one. Substantively: full Israeli withdrawal from territories occupied since June 1967, including the Golan Heights, the West Bank, the Gaza Strip, and East Jerusalem; an independent Palestinian state with East Jerusalem as capital; and a "just solution" to the Palestinian refugee question to be agreed in accordance with UNGA Resolution 194 (1948) — the language deliberately ambiguous on right of return, mirroring the equivalent ambiguity in UNSC 242's "territories" formulation. Institutionally: full normalization with Israel by all Arab League states, including diplomatic recognition, trade, and the establishment of normal interstate relations. The Sharon government in Israel did not formally respond, and the day before the API was adopted, a Hamas suicide bombing at the Park Hotel in Netanya killed thirty Israelis, providing a justification for non-engagement (Beinin and Hajjar 2014).
+
+The API became the regional template for three reasons. First, it was the only collective Arab offer that survived the 2000–2002 collapse of bilateral peace processes, and it set the regional default against which every subsequent diplomatic move would be measured. Second, it was structurally compatible with UNSC 242 and the broader land-for-peace framework, which meant that international actors could endorse it without re-litigating prior settlements. Third, and most importantly, no Arab regime could publicly abandon the API without taking on a legitimacy cost it was not willing to absorb — the API encoded a normative claim that Arab states had collectively offered the maximum compatible with sovereignty (Khalidi 2020). The 2007 Riyadh Summit reaffirmed it; every subsequent Arab League communiqué referenced it; and as of 2026, after the Saudi-French co-led UNGA initiative of September 2025, its sequencing logic has been formally reactivated by Saudi Arabia.
+
+One might object that the API was a strategic failure precisely because it produced no Israeli response and no implementation — that calling it a "template" conflates rhetorical anchor with operational reality, and that the Accords' eventual circumvention of the API frame proves it was always a paper offer (Lynch 2024). The objection's empirical premise is correct but its analytical conclusion is wrong. Templates do not require implementation to function as templates; they require that subsequent moves be legible only by reference to them. The Abraham Accords *are* legible as a deviation from the API frame, which is exactly what makes the API a template rather than an inert document. Bellin's (2004) authoritarian-robustness frame helps: the regimes that signed the Accords could absorb the legitimacy cost of API deviation because their coercive apparatuses were robust; regimes without comparable apparatuses (e.g., post-2011 Tunisia, post-2019 Algeria, even post-2024 Saudi Arabia under public-opinion pressure) could not.
+
+Tied to the master throughline, the API is the pre-rupture baseline that the rest of the framework presupposes. Every Q-and-A on this exam that engages the Accords, the Saudi track, the post–October 7 trajectory, or normalization's effects on the Israeli–Palestinian conflict reads through whether the API frame is operative, dormant, partially reactivated, or replaced. The defensible answer in 2026 is *partially reactivated on sequencing, not on multilateral form* — which is why the regional system today sits in a hybrid equilibrium rather than a clean reversion or a continued Accords-era alignment.
+
+**Key citations used:**
+- Khalidi 2020
+- Beinin and Hajjar 2014
+- Lynch 2024
+- Bellin 2004
+
+**Frame anchor:** Pivot (API as the pre-rupture baseline against which the Accords deviate).
+
+**Common student error to avoid:** Calling the API a "failure." Its operational non-implementation is real; its function as the regional normative anchor is what made it the template.
+
+---
+
+## Q5: The Syrian conflict — sources of the Syrian–Iranian alliance from each host's perspective, and how that alliance connects the two subregional structures. {#q5}
+
+::: {.thesis}
+**Thesis (one sentence):** The Syrian–Iranian alliance is strategic in origin (not sectarian), born for both hosts in the concurrent shocks of 1979–1982, and it functioned as the connective tissue between the Syrian–Israeli northern front and the Gulf-security axis until the December 2024 collapse subtracted Syria from the configuration — a subtraction that severed the engine's Levantine arm without destroying the engine itself.
+:::
+
+Goodarzi's (2006) account of the alliance is the non-negotiable frame here, and his central claim is that the partnership was forged for strategic reasons in 1979–1982 and only later acquired a sectarian veneer. From Iran's perspective, three drivers operated simultaneously after the February 1979 revolution: revolutionary isolation in a region of US-aligned monarchies, the urgent need for a forward defense posture against an emerging Iraqi threat (Iraq invaded Iran in September 1980), and the search for any Arab partner willing to break the Egypt-led normalization momentum that Camp David 1978 had begun. Syria's position was symmetric. Hafez al-Assad faced encirclement after Egypt's exit from the Arab front, a hostile Iraq with which Damascus had a Baathist rivalry that ran deeper than ideological affinity, and a domestic Sunni-majority political order that the Alawite-dominated regime needed external balancing partners to contain. The alliance was strategic for both sides because it solved each side's encirclement problem.
+
+From Syria's perspective specifically, three host-side pillars sustained the alliance for four decades. First, regime survival: Iranian IRGC training, Quds Force coordination, and Hezbollah ground deployment after 2012 kept the Assad regime alive through a civil war that, by every Bellinian (2004) prediction, should have produced regime collapse — the coercive apparatus held because external rents (Iranian and Russian) substituted for the rentier hydrocarbon base Syria did not have. Second, regional posture: the alliance gave Damascus a deterrent posture against Israel that Syrian conventional capability alone could not have produced, particularly via Hezbollah's missile arsenal in southern Lebanon. Third, economic lifelines: Iranian oil shipments and credit lines kept the Syrian state's fiscal position viable through international sanctions and reconstruction freezes (Lister 2024).
+
+From Iran's perspective, the alliance's value was geographic and operational. Syria was the *land bridge* that connected Tehran's regional network through Iraq, across Damascus, to Hezbollah in Lebanon — the route by which precision missile components, training cadres, and Quds Force personnel reached the southern Lebanese front. The doctrine of *wahdat al-sahat* — "unity of the arenas" — that Soleimani operationalized until his killing on 3 January 2020 depended on Syria's continued availability as the connective node. Without Syria, Iran's capacity to project pressure into the eastern Mediterranean shrinks to Iraqi airspace, which is contested by US presence and increasingly by Israel itself.
+
+The alliance's connective work between the two subregional structures ran through this geography. Hezbollah, founded 1982 around 1,500 IRGC trainers (Norton 2007), is the southern terminus of the chain; Iraqi Shia militias post-2003 are its eastern wing; and the Houthis, through asymmetric Iranian patronage, are the Bab al-Mandeb extension. Each component is locally rooted but synchronized through the Syrian land bridge into a regional-scale forward defense posture. The April 2024 and October 2024 direct Iranian missile strikes on Israel — roughly 300 projectiles in April, 200 ballistic missiles in October — were the highest-stakes activations of this architecture in its history, and only made strategic sense within the integrated forward-defense framework Goodarzi (2006) describes.
+
+One might object that the sectarian dimension is undersold here — that the post-2011 alliance was thoroughly Shi'ified through fatwa-mobilization of Iraqi militias to defend Shia shrines in Damascus, through the recruitment of Pakistani and Afghan Shia fighters, and through a public discourse in which Alawite-Twelver affinity was actively constructed. The objection has weight, and any A-grade answer should concede the sectarian *amplification* after 2011. The structural point survives: sectarianism was the discursive overlay on a strategic alliance, not its generative logic. Goodarzi's (2006) work — written before 2011 and confirmed by the alliance's behavior under stress — establishes the priority.
+
+Tied to the master throughline, the Syrian–Iranian alliance is the geographic spine of Iran's linkage engine, which is itself the engine connecting the Israeli–Palestinian sphere to the Gulf-security sphere. The December 2024 collapse subtracted the spine; the engine survives in degraded form via Iraq, Yemen, and the residual Hezbollah; and the regional system sits in a configuration that has not yet stabilized into a new equilibrium.
+
+**Key citations used:**
+- Goodarzi 2006
+- Bellin 2004
+- Lister 2024
+- Norton 2007
+
+**Frame anchor:** Iran linkage, with strategic-not-sectarian origins as the load-bearing distinction.
+
+**Common student error to avoid:** Leading with Alawite–Shia affinity. The alliance is strategic with sectarian amplification, not the reverse.
+
+---
+
+## Q6: How will the December 2024 collapse of the Syrian regime affect regional politics? {#q6}
+
+::: {.thesis}
+**Thesis (one sentence):** The 8 December 2024 collapse subtracts Iran's Levantine arm without dismantling the engine, opens contested space for Turkey, the Gulf, and a fragile Sharaa interim government to compete for post-Assad influence, and accelerates the Accords-side regional realignment without resolving the Israeli–Palestinian core — leaving the regional system in a between-equilibria state.
+:::
+
+The collapse must first be classified correctly. Assad fell because four external scaffolds — Hezbollah's Syrian deployment, IRGC ground presence, Russian air support, and the regime army — failed simultaneously, not because the HTS-led Military Operations Command achieved a battlefield breakthrough on its own merits (Lister 2024). The 17–18 September 2024 Israeli pager attacks decapitated Hezbollah's command and disabled Syrian deployments; the 27 September strike killed Nasrallah; the 27 November Litani ceasefire pulled Hezbollah south; Russia, drained by Ukraine, did not surge support; and the regime army, hollowed by a decade of attrition, defection, and Captagon-economy corruption, melted on contact when the HTS offensive opened the same 27 November and reached Damascus on 8 December. The collapse is a subtraction story, which is exactly what makes its regional consequences predictable: whatever depended on the scaffolding is now degraded.
+
+The first-order regional effect is on Iran's strategic posture. The Levantine arm of the engine is gone: weapons-transit corridors closed, IRGC ground infrastructure dismantled, Hezbollah cut off from its land-based resupply, and the *wahdat al-sahat* doctrine empirically falsified at its first major test. Iran's residual deterrence now runs through Iraqi militias, the Houthis, and the nuclear program — with the 60% HEU stockpile retained even after the June 2025 Twelve-Day War damaged but did not destroy enrichment infrastructure (Soufan Center 2025). Iran is structurally central but functionally diminished: still the only actor able to project pressure across multiple theatres, but doing so through a thinner network whose center of gravity has shifted from Damascus and Beirut to Baghdad and Sana'a.
+
+The second-order effect is contested space in post-Assad Syria. Turkey, having long backed elements of the HTS coalition, has the most immediate leverage; Saudi Arabia and the UAE compete for influence through reconstruction commitments and intelligence relationships; Israel has expanded its Golan footprint and conducts strikes against residual Iranian-linked assets; and the Sharaa interim government, drawn from HTS leadership, faces the legitimacy challenge of unifying a fractured country whose minority communities — Alawite, Druze, Kurdish — have reasonable fears about the trajectory. Analysts at ICG and Chatham House have flagged risk events including reported sectarian incidents in Alawite coastal areas in early 2025 and the Suwayda crisis later in the year as key tests for the Sharaa government's claim to inclusive rule (Mansour, Shakeri, and Haid 2025); these should be cited as analyst-flagged risks rather than settled events.
+
+The third-order effect is on the Accords-side regional alignment. The collapse weakens the deterrent value of Iran's regional projection, which in principle reduces the cost to Gulf states of formal alignment with Israel. In practice, the Saudi track remains in deep freeze rather than revived, because the post–October 7 domestic public-opinion environment in Saudi Arabia (opposition to normalization at 68% by early 2024, per Robbins 2024) imposes a constraint that the post-Assad shift in Iran's position does not relieve. The collapse reorganizes the Iran-balancing problem; it does not resolve the Palestinian-conditionality problem that the Saudi track has reattached itself to (MBS, September 2024).
+
+One might object that this reading overstates the strategic significance of the collapse — that Iran has reconstituted forward postures before (post-2003 Iraq, post-2011 Bahrain support) and will reconstitute again, and that the December 2024 event is one inflection in a longer cycle (Mansour, Shakeri, and Haid 2025). The objection has merit on the reconstitution point but underestimates the geographic specificity of the loss: Syria's land-bridge function cannot be replaced by Iraq, because the Iraqi corridor is contested by US presence and increasingly by Israeli airspace operations. The functional loss is durable even if the political reconstitution is fast.
+
+Tied to the master throughline, the December 2024 collapse is the most consequential structural shift in the regional system since the 1979 Iranian Revolution, because it altered the engine itself. The carousel of escalation and de-escalation now spins on a different axis: Iraq and Yemen do the linkage work that the Syrian land bridge once did, and the regional system sits in a configuration whose new equilibrium has not yet formed.
+
+**Key citations used:**
+- Lister 2024
+- Soufan Center 2025
+- Mansour, Shakeri, and Haid 2025
+- Robbins 2024 (Arab Barometer)
+
+**Frame anchor:** Iran linkage (with the Levantine arm subtracted).
+
+**Common student error to avoid:** Treating the collapse as the result of HTS military skill, or as the end of Iranian regional power. It is a subtraction story that degrades but does not eliminate the engine.
+
+---
+
+## Q7: Your view of the impact of normalization on the larger Israeli–Palestinian conflict. {#q7}
+
+::: {.thesis}
+**Thesis (one sentence):** Abraham Accords normalization structurally weakens Palestinian leverage by removing Arab-state conditionality from the regional bargaining structure, strengthens Israeli bargaining power across all final-status issues, and accelerates de facto annexation dynamics in the West Bank — without producing a final settlement, which is precisely why the resulting equilibrium is unstable rather than resolved.
+:::
+
+The defensible analytic claim about normalization is asymmetric impact, not zero-sum displacement. Normalization did not "kill" the two-state solution; it bracketed it, which is a different and more analytically interesting outcome (Khalidi 2020). The pre-Accords baseline was the API frame: the Arab League collectively conditioned full normalization on Palestinian statehood, which gave the Palestinians a regional veto they did not possess on their own military or economic merits. The Accords inverted that conditionality, removing the Palestinian veto and replacing it with bilateral US-side payments to four signatory regimes. The structural effect on Palestinian leverage is straightforward: the pricing power Palestinians held under API logic was a function of the Arab League collective offer, and once the collective offer was broken into bilateral deals priced separately, the price Palestinians could command fell to zero.
+
+The Israeli bargaining position strengthened symmetrically. With four Arab states normalized without any West Bank concession (the Accords' only Palestinian-related text was a vague pause-not-cancel commitment on annexation in the UAE deal), settlement expansion through 2020–2024 continued without comparable diplomatic cost. Settlement population in the West Bank grew from roughly 460,000 in 2020 to over 510,000 by 2024 (B'Tselem 2024); E1 corridor approvals advanced; outpost legalizations accelerated under successive coalitions. Israel's bargaining position on final-status issues — borders, Jerusalem, refugees, security — did not just hold; it gained ground because the regional incentive structure no longer linked these issues to its access to Arab-state cooperation.
+
+The third-order effect was on internal Palestinian politics. The PA's diplomatic relevance, already eroded after the Trump administration's 2017–2020 diplomatic moves (Jerusalem embassy, defunding of UNRWA, peace plan rollout), declined further as the Accords bypassed Ramallah entirely. Hamas's "armed resistance" frame gained relative legitimacy in Palestinian public opinion precisely because the diplomatic frame had visibly failed to deliver. The 7 October 2023 attack is best read partly through this lens: derailing the Saudi normalization track, then on the verge of completion, was at minimum one strategic motivation for the operation's scale and timing, even if internal Palestinian dynamics, leadership miscalculation, and other factors were also present (Lynch 2024). The spoiler logic is plausible but not dispositive.
+
+What makes the resulting equilibrium unstable is that normalization without a Palestinian settlement keeps the underlying conflict generative. The October 2023 attack was the empirical test: an order-of-magnitude escalation that derailed the Saudi track, prompted a Hezbollah support front, and triggered the cascade that brought down Assad's regime fourteen months later. Diwan, Malik, and Atiyas (2019) on the political economy of normalization helps here: Gulf normalization was partly an *economic* play — Israeli tech, defense, water, AI — and Palestinians have no comparable economic offer to make to Arab regimes. That asymmetry is precisely what makes the equilibrium unstable: it functions only as long as the Palestinian conflict remains low-cost to ignore, and 7 October demonstrated the cost is not low.
+
+One might object — as defenders of the Accords' "outside-in" logic such as Ross and Indyk have argued — that normalization was not abandonment but a sophisticated architectural play: build the regional structure first, generate stakes, eventually pull all parties including a future Palestinian state into the system. The objection has theoretical weight but fails the empirical test. Five years after the Accords were signed, settlement expansion has accelerated, no Palestinian-state architecture has been produced, and the Saudi track has reattached Palestinian-state conditionality (MBS, September 2024). The outside-in play has not produced inside-out movement.
+
+Tied to the master throughline, normalization's impact on the Israeli–Palestinian conflict is the API → Accords pivot rendered as outcomes for the Palestinians: structural weakening, bracketing of the two-state file, acceleration of West Bank facts on the ground. The pivot was real; its costs were borne disproportionately by the actor with the least leverage in the system; and the post–October 7 trajectory is the system attempting, imperfectly, to reattach the Palestinian conditionality the Accords removed.
+
+**Key citations used:**
+- Khalidi 2020
+- B'Tselem 2024
+- Lynch 2024
+- Diwan, Malik, and Atiyas 2019
+
+**Frame anchor:** Pivot, with Palestinian leverage as the dependent variable.
+
+**Common student error to avoid:** Saying the Accords "killed" the two-state solution. They bracketed it; the formal international position remains two-state; what changed is the regional incentive structure.
+
+---
+
+## Q8: The impact of normalization on both Israeli and Palestinian sides. {#q8}
+
+::: {.thesis}
+**Thesis (one sentence):** Normalization yielded asymmetric gains — Israel secured regional legitimacy, security cooperation, and economic access without territorial concession; Palestinians lost their structural Arab-state veto and faced accelerated facts-on-the-ground in the West Bank — making the equilibrium less stable rather than more, because the losing side retained the capacity to spoil.
+:::
+
+The two-sided impact is best read as a ledger of gains and losses with the structural twist that the losing side's residual capacity to spoil is itself a feature of the system. On the Israeli side, the Accords delivered at least four concrete gains. First, regional legitimacy: four bilateral diplomatic relationships that broke the post-1948 Arab consensus on conditional non-recognition, with the September 2020 White House signing producing the kind of imagery — Israeli prime minister and Gulf foreign ministers signing together — that legitimacy projects depend on (Khalidi 2020). Second, security cooperation: UAE-Israeli intelligence sharing on Iranian assets, joint counter-drone systems, F-35 alignment via the US side payment to the UAE (~$23 billion package), and Israeli technology integration into Gulf air defense networks. Third, economic access: bilateral trade between Israel and the UAE alone reached an estimated $2.5–3 billion annually by 2023, with sectors ranging from agritech to financial services to tourism. Fourth, Indo-Mediterranean corridor access: the Abraham Accords paved the way for the proposed India–Middle East–Europe Economic Corridor (IMEC) announced at the September 2023 G20, which would route Indian goods through Saudi Arabia and the UAE to Haifa.
+
+The Palestinian-side losses run through three channels. First, diplomatic: the Arab League collective veto encoded in API logic dissolved into bilateral deals, removing the multilateral pressure architecture that constrained Israeli action on the West Bank (Khalidi 2020). Second, economic: international donor fatigue, accelerated by the diplomatic isolation, contributed to PA fiscal crisis through 2021–2024, with salary arrears and a roughly 50% reduction in international assistance from peak levels. Third, internal political: the PA's claim to be the sole legitimate Palestinian representative weakened relative to Hamas's "armed resistance" frame, with Palestinian Center for Policy and Survey Research polling consistently showing PA approval below 30% and Hamas approval rising in the West Bank through 2023–2024.
+
+The Israeli-side costs are not zero. The post–October 7 environment exposed Israeli military and intelligence vulnerabilities at scale, with roughly 1,200 dead and 250 hostages on the day of the attack. The international diplomatic position, particularly in Europe, eroded substantially: by September 2025, the Saudi–French two-state initiative at UNGA produced a wave of European recognitions of Palestine that would have been politically impossible in 2020. South Africa's December 2023 ICJ filing on genocide allegations created legal and reputational pressure; ICC arrest warrants for Israeli officials, issued in 2024, constrained travel and signaled a shift in international legal posture. The Accords purchased regional legitimacy at the cost of, among other things, the political capital that would have absorbed the Gaza war's diplomatic blowback (B'Tselem 2024).
+
+The Palestinian-side gains are similarly real but smaller. The reactivation of Saudi Palestinian-state conditionality (MBS, September 2024) and the September 2025 Saudi-French initiative both depend on Palestinian leverage that 7 October generated. Whether one judges that leverage worth the costs Palestinians have borne since is a normative question; the structural point is that the asymmetric impact created the conditions for an asymmetric spoiling action that the system could not absorb without restructuring.
+
+One might object that this ledger misses the real story — that the Accords were never meant to settle the Israeli–Palestinian conflict but to manage Iran, and that grading them on the Palestinian file is grading them on the wrong dimension (Gause 2024). The objection is half-right. The Accords' Iran-balancing function did achieve certain things: closer Gulf-Israeli intelligence integration, F-35 alignment, the IMEC architecture. But the Iran problem was not solved by 2023, and 7 October 2023 plus the December 2024 Assad collapse demonstrated that the regional system's stability depended on the Palestinian file in ways the Accords' designers did not internalize. The Accords were judged on the Palestinian file because the regional system, in fact, made that file the binding constraint.
+
+Tied to the master throughline, the asymmetric impact is the pivot rendered as a payoff matrix shock that the system could not absorb. Normalization gave Israel gains it could realize immediately and Palestinians losses they could realize immediately; the spoiling capacity that survived in the latter generated 7 October, which generated the cascade that subtracted Iran's Levantine arm. The pivot was real; its costs were unevenly distributed; the unstable equilibrium that resulted is precisely what made the post-2023 cascade legible.
+
+**Key citations used:**
+- Khalidi 2020
+- B'Tselem 2024
+- Gause 2024
+
+**Frame anchor:** Pivot with Bellin/Gause as supporting frames on each side's calculus.
+
+**Common student error to avoid:** Presenting the impact as zero-sum. The asymmetric gains and losses are both real; what makes the equilibrium unstable is the residual spoiling capacity on the losing side.
+
+---
+
+## Q9: The Abraham Accords — Morocco, Sudan, UAE, Saudi: what does normalization do to Israeli occupation and to authoritarianism in the signing states? {#q9}
+
+::: {.thesis}
+**Thesis (one sentence):** Normalization, where it was signed (UAE, Bahrain, Sudan, Morocco) and where it was negotiated but not signed (Saudi Arabia), entrenched Israeli occupation by removing the Arab-state veto and entrenched authoritarianism in the signing states by exchanging external legitimacy for domestic repression cover — confirming Bellin's (2004) coercive-apparatus thesis as a transnational mechanism.
+:::
+
+The four signed deals each illustrate the dual entrenchment dynamic, but the mechanisms differ by signatory. The UAE's 13 August 2020 deal (formalized 15 September) was the template: Mohammed bin Zayed exchanged formal recognition of Israel for a roughly $23 billion F-35 package and access to Israeli surveillance and counter-drone technology, including the Pegasus suite that the UAE had already used domestically and against regional dissidents. Bahrain's 11 September deal followed a parallel logic, anchored in CENTCOM Fifth Fleet basing and a small kingdom's need for Saudi-aligned security cover; Bahrain's parliament voted to suspend ties in November 2023 after October 7, but the executive declined to formalize the recall, which is itself evidence that the Accords' institutional residue is durable but diminished (Atlantic Council 2025).
+
+Sudan's 23 October 2020 deal traded normalization for removal from the State Sponsors of Terrorism list and access to international financial markets — a transaction that strengthened the Burhan-Hemedti transitional military council against the civilian-led democratic transition that had begun after the 2019 ouster of Omar al-Bashir. The October 2021 coup against the civilian government and the subsequent April 2023 outbreak of war between SAF and RSF were consequences the Accords did not cause but were structurally compatible with: by giving the military leadership external legitimacy, the deal weakened the civilian transition's leverage over security sector reform (Brownlee, Masoud, and Reynolds 2015 on the conditions for democratic transition). Morocco's 10 December 2020 deal exchanged normalization for US recognition of Moroccan sovereignty over Western Sahara, a fifty-year-disputed territory whose Sahrawi self-determination claim was effectively buried by the side payment.
+
+The effect on Israeli occupation operates through the structural removal of conditionality. Pre-Accords, the API framework conditioned full normalization on Palestinian statehood; the Accords replaced that with bilateral deals priced separately to each signatory regime. Settlement expansion in the West Bank, which had grown roughly 2–3% annually pre-2020, accelerated post-Accords; settlement population reached over 510,000 by 2024, and the E1 corridor that would bisect the West Bank advanced through approval stages (B'Tselem 2024). The pause-not-cancel commitment on annexation in the UAE deal was the only Palestinian-related text in any of the four agreements, and it functioned as a face-saving device rather than a binding constraint. Khalidi's (2020) settler-colonial framing — controversial but analytically precise — captures the structural effect: occupation was no longer constrained by an external normative order at the Arab-state level.
+
+The effect on authoritarianism in the signing states runs through Bellin's (2004) coercive-apparatus thesis as a transnational mechanism. Each signatory regime acquired access to Israeli surveillance technology (Pegasus, Cellebrite, NSO suite) and intelligence cooperation that strengthened its capacity to monitor and repress domestic opposition. The Khashoggi precedent — the October 2018 murder of a Saudi journalist using methods that included signals interception — is the visible expression of a broader pattern. Diwan, Malik, and Atiyas (2019) on crony capitalism's transnational extension is the political-economy analog: normalization opened sovereign-wealth and tech-investment channels that strengthened patrimonial networks at the apex of each regime, partially insulating them from public-opinion costs.
+
+Saudi Arabia is the negotiated-but-not-signed case, and it confirms the thesis from a different direction. By October 2023 the Biden mega-deal — a US-Saudi defense pact, civilian nuclear cooperation including domestic enrichment, and a Palestinian component — was within reach (Tom Friedman was openly predicting a Q1 2024 deal). After 7 October, MBS publicly reattached normalization to "an independent Palestinian state with East Jerusalem as capital" (September 2024). The Saudi case shows what *sufficient* public-opinion pressure looks like — Robbins's (2024) Arab Barometer data show normalization opposition rose to 68% by early 2024 — and what regimes do when they cannot absorb the cost. The other four signatories absorbed the cost because their coercive apparatuses were robust enough; Saudi Arabia, with a larger and more politically active population, could not.
+
+One might object that this dual-entrenchment reading is overdetermined — that the signatory regimes were already authoritarian, that Israeli occupation was already entrenched, and that the Accords merely formalized existing trajectories without causing them (Lynch 2024). The objection has weight but underrates the marginal effect. Formalization changes the cost structure of opposition: when an authoritarian regime acquires external legitimacy through normalization, dissidents face a higher threshold to mobilize allies, and when occupation is bracketed from regional diplomacy, settlement expansion faces a lower diplomatic cost. The Accords were not the cause of either trajectory; they were a marginal accelerant whose structural significance is precisely the marginal direction.
+
+Tied to the master throughline, the Accords are the API → Accords pivot rendered as a regime-survival mechanism on the Arab side and a constraint-removal mechanism on the Israeli side. Both effects are dual entrenchments: occupation entrenched, authoritarianism entrenched, and the resulting equilibrium less rather than more stable. The Saudi case is the negative confirmation that shows what happens when the regime-public delinking wager fails.
+
+**Key citations used:**
+- Atlantic Council 2025
+- Brownlee, Masoud, and Reynolds 2015
+- Bellin 2004
+- Khalidi 2020
+- B'Tselem 2024
+- Diwan, Malik, and Atiyas 2019
+- Lynch 2024
+- Robbins 2024 (Arab Barometer)
+
+**Frame anchor:** Pivot, with Bellin's authoritarian robustness as the operative mechanism on each signatory side.
+
+**Common student error to avoid:** Presenting the Accords' effect on authoritarianism as causation rather than acceleration. The dual-entrenchment thesis is about marginal direction, not about origin.
+
+---
+
+## Q10: Apply Nash equilibrium to the regional system. Bring it into the discussion. {#q10}
+
+::: {.thesis}
+**Thesis (one sentence):** A Nash equilibrium is a strategy profile in which no actor can unilaterally deviate without making itself worse off (Osborne and Rubinstein 1994), and the Middle East regional system as it stood on 6 October 2023 satisfied this definition exactly — which is why escalation cycles produced the appearance of motion (the carousel) while the underlying strategy profile remained intact, until the deviation of 7 October triggered a payoff-shock cascade the system could not absorb without restructuring.
+:::
+
+The formal definition matters for the exam answer. A Nash equilibrium is not a synonym for stalemate or peace; it is a strategic-consistency claim. In a system of $n$ players each choosing a strategy from a strategy set, the strategy profile $(s_1, s_2, \ldots, s_n)$ is a Nash equilibrium if and only if, for every player $i$, $s_i$ is a best response to the strategies $s_{-i}$ of every other player. A bloody, dysfunctional, unjust system can be in a Nash equilibrium; a peaceful, prosperous one can be out of equilibrium and thus inherently unstable. This distinction is what makes the framework useful for the Middle East: it explains durability without endorsing the durable arrangement (Schelling 1960; Osborne and Rubinstein 1994).
+
+The four key but not equal actors and their best responses pre–October 7 mapped as follows. Israel: security maximalism plus nuclear ambiguity, anchored in Shlaim's (2000) Iron Wall logic that only demonstrated unbreakable strength produces Arab acceptance — best response given every other actor's strategy was to maintain status quo on settlements and Palestinian statehood and to respond to provocations with overwhelming force. Palestinian factions, internally bifurcated into a stable sub-equilibrium: Hamas pursuing armed resistance because it could not credibly commit to long peace without losing legitimacy to harder factions, and the PA accommodating because security cooperation with Israel was the price of its continued existence. Iran: forward defense through proxies (Hezbollah, Iraqi militias, Houthis, Hamas/PIJ as tactical partners, Assad's Syria as the geographic land bridge) plus nuclear hedging — best response given conventional inferiority (Ostovar 2016; Goodarzi 2006). Saudi Arabia and the Gulf: regime survival as the master variable, balanced via US security guarantees, selective Israeli cooperation, and hedging between Washington and Beijing — the 10 March 2023 China-mediated Saudi–Iran restoration was the visible result.
+
+The United States is the structural fifth actor, not on the same footing as the four. Its security guarantees, its position as primary arms supplier to most of the major actors (Israel, Saudi, Egypt, UAE), its role in the petrodollar-recycling system (Mitchell 2011), and its cultural and educational weight collectively *set the payoff matrix* in which the four actors compute their best responses. Remove the US, and many of the strategies become incoherent — which is what makes the perception of US retrenchment after the 2011 Arab Spring and the 2021 Afghanistan withdrawal a payoff-matrix shift rather than a marginal change. Gause's (2024) primacy-not-hegemony framing applies here: Washington can shape the matrix but cannot dictate the outcomes that actors compute on it.
+
+The carousel — Hammad's metaphor — is what an actor in the system experiences from inside the equilibrium. Escalation cycles (Lebanon 2006, Gaza 2008–9, Gaza 2014, Gaza 2021, periodic Iran–Israel proxy exchanges) produce the appearance of motion: rotation. But the underlying strategy profile does not change because each actor's best response to the post-cycle position is identical to its pre-cycle response. The carousel rotates; the strategy profile holds. This is what makes Nash framing analytically powerful for the Middle East: it explains why decades of intense activity produced no structural change, while also providing the formal apparatus for identifying when a deviation is consequential.
+
+The 7 October 2023 attack is best classified, formally, as a deviation by Hamas whose individual best-response calculation was tight or arguably miscalculated, but which triggered a shock cascade large enough to alter several actors' best responses. Three pieces of evidence support this reading: captured Hamas internal documents and Sinwar communications suggesting derailing Saudi normalization was at minimum one strategic motivation (with caveats about provenance); operational scale an order of magnitude beyond prior escalations (~1,200 Israeli dead, ~250 hostages); and the fact that the deviation only paid off in expected-value terms if it generated cascade effects. The cascade that followed — Hezbollah front opened 8 October, Saudi pause, Hezbollah destruction September–November 2024, Assad collapse 8 December 2024, US strikes on Iranian nuclear sites 22 June 2025 — altered the matrix faster than equilibration could occur (Fearon 1995 on commitment problems and the role of new information). The system in May 2026 sits between equilibria, not at a new one.
+
+One might object — as constructivists like Wendt (1999) do — that NE framing presupposes given preferences and rational calculation, and that the Israel–Palestine conflict is over competing identity narratives that game theory cannot capture. The objection is real but does not displace NE; it identifies what NE does not do. NE describes the structure of strategic incentives given preferences; constructivism explains why those preferences are what they are. Both can be true simultaneously, and the operational test is whether the formal framework predicts behavior — which it does, including Hamas's deviation and its cascade.
+
+Tied to the master throughline, Nash equilibrium is the formal apparatus that explains why the carousel rotates without changing the system, what kinds of shocks can change it, and what happens when one of those shocks arrives. The current system is in transition; whether a new stable equilibrium forms depends on which strategies the four actors converge on once the cascade settles.
+
+**Key citations used:**
+- Osborne and Rubinstein 1994
+- Schelling 1960
+- Shlaim 2000
+- Goodarzi 2006
+- Ostovar 2016
+- Mitchell 2011
+- Gause 2024
+- Fearon 1995
+- Wendt 1999
+
+**Frame anchor:** Carousel (Nash equilibrium).
+
+**Common student error to avoid:** Treating Nash as a synonym for stalemate, or invoking "game theory" without the formal definition.
+
+---
+
+## Q11: Demonstrate command of the assigned readings (treat as meta-question — defend a synthetic claim integrating 3+ of Hammad's frames). {#q11}
+
+::: {.thesis}
+**Thesis (one sentence):** The 2024–25 trajectory — the simultaneous erosion of the Iran-led axis through scaffolding subtraction, the partial reactivation of API sequencing in the Saudi position, and the durability of authoritarian-rentier regime survival across the Gulf — is best explained by integrating Bellin's (2004) coercive-apparatus thesis, Mitchell's (2011) carbon-democracy infrastructural reading, and Gause's (2024) primacy-not-hegemony framing into a single account of why the regional system bends without breaking.
+:::
+
+The synthetic claim has three frames doing operative work, each on a different level of analysis. Bellin (2004) operates at the level of regime survival: authoritarian robustness in MENA depends on a coercive apparatus that is patrimonially organized, well-financed by hydrocarbon rents, and internationally backed. Mitchell (2011) operates at the level of regional infrastructure: oil pipelines, weapons-transit corridors, and shipping chokepoints are the material substrate on which political possibilities are computed, and MENA is the most-penetrated subsystem in the global political economy of carbon. Gause (2024) operates at the level of the international system: the United States has primacy in the region — disproportionate weight without dominant control — but never had hegemony, which means it can shape but not impose alignments. Each frame is necessary; none alone is sufficient.
+
+Bellin's frame explains why the four signatory regimes of the Abraham Accords could absorb domestic public-opinion costs of normalization that Saudi Arabia could not. The UAE, Bahrain, Sudan, and Morocco each had coercive apparatuses with the patrimonial organization, hydrocarbon or rent-substitute financing, and international backing that Bellin (2004) identifies. Saudi Arabia has the financing and the backing but a population large enough and politically active enough that the coercive apparatus runs into capacity limits when public opposition reaches the levels Robbins's (2024) Arab Barometer data show — 68% opposition to normalization by early 2024. The dual-entrenchment dynamic of the Accords (occupation entrenched, authoritarianism entrenched) is Bellin's transnational extension: the signatory regimes acquired surveillance and intelligence cooperation that strengthened their domestic coercive capacity in exchange for normalization with Israel.
+
+Mitchell's frame explains why the Iran-led axis was geographically over-determined and why its Levantine arm was load-bearing in a way that no political reading captures. The Iran–Syria–Hezbollah corridor was a *physical infrastructure* — pipelines (the closed Iraq–Syria pipeline of 1980), weapons-transit routes, IRGC ground deployments, port access at Latakia and Tartus, the Bekaa Valley training infrastructure of Hezbollah — that linked Iran's eastern industrial base to its western forward posture. The 8 December 2024 collapse of Assad subtracted this infrastructure, and the carbon-democracy lens predicts the consequences: Iran's regional projection contracts to those theatres where alternative infrastructure exists (Iraq's road and air connectivity, Yemen's coastal access to Bab al-Mandeb), while the Levantine front loses the infrastructural base that made its political function viable (Mitchell 2011; Goodarzi 2006).
+
+Gause's frame explains why the regional system has not stabilized into a new equilibrium despite the dramatic shocks of 2024–25. Primacy without hegemony means the United States can broker (the Accords), can strike (June 2025 attacks on Iranian nuclear sites), and can guarantee (Bahrain Fifth Fleet, UAE F-35 access, Saudi defense pact negotiations), but it cannot dictate which strategy profile the four key actors converge on after the cascade. China's entry as a hedging guarantor through the 10 March 2023 Beijing-mediated Saudi–Iran restoration is precisely the kind of move that primacy-not-hegemony permits: Washington could not prevent it, and the Saudi hedge it represents is a rational response to a US that can shape but not control. The post-cascade equilibrium will form when the four actors collectively settle on strategies that are mutually best responses; the speed at which that occurs depends on what Washington and Beijing collectively permit, not on what either dictates (Gause 2024).
+
+One might object — and this is exactly the meta-question's curveball — that integrating three frames risks none of them doing real analytic work, and that a sharper essay would commit to one frame and use the others as scaffolding. The objection has methodological merit. The defense of the integrative move is that the regional system itself operates on three levels simultaneously — regime, infrastructure, and international — and that any account of the 2024–25 trajectory that omits any of the three levels will misjudge the likely path of the post-cascade equilibrium. Bellin without Mitchell misses the geographic specificity of the Levantine subtraction; Mitchell without Gause misses the international-system constraints on reconstitution; Gause without Bellin misses the regime-level filtering of what actors can and cannot do.
+
+Tied to the master throughline, the synthesis is that the API → Accords pivot was made possible by Bellin-robust regimes acquiring Mitchell-type infrastructure under Gause-shaped US primacy, and the post–October 7 partial reversion is made possible by the same three frames operating in the opposite direction. Bend without break is what the integration predicts, and bend without break is what the regional system, in fact, exhibits.
+
+**Key citations used:**
+- Bellin 2004
+- Mitchell 2011
+- Gause 2024
+- Robbins 2024 (Arab Barometer)
+- Goodarzi 2006
+
+**Frame anchor:** All three throughlines operating jointly through the three named frames.
+
+**Common student error to avoid:** Name-dropping three frames without giving each one operative analytic work to do. The integration must be productive, not decorative.
+
+---
+
+## Q12: The four key but not equal actors and the basic factors of the so-called peace process. {#q12}
+
+::: {.thesis}
+**Thesis (one sentence):** The four key actors of the peace process — Israel, the United States, the Arab state cluster, and the Palestinians — are unequal in three measurable dimensions (military capability, economic weight, and diplomatic veto power), and the basic factors that govern their interaction are the asymmetry of leverage, the conditionality of US engagement, the bifurcation of the Palestinian camp, and the post-2020 shift of the Arab state cluster's bargaining position from API conditionality to Accords decoupling.
+:::
+
+Hammad's "key but not equal" formulation is the analytical hinge of this question. Realist accounts that treat the four actors as comparable units obscure the structural asymmetry that makes the peace process perpetually stalled. Israel possesses the region's only nuclear arsenal (estimated 80–90 warheads), the most advanced conventional military, and the deepest bilateral relationship with Washington (~$3.8 billion annual military aid under the 2016 MOU). The United States is the structural backstop: primacy not hegemony (Gause 2024), but with the only credible regional security guarantee, primary arms supplier to most major actors, and the broker of every major diplomatic instrument from Camp David 1978 through Oslo 1993 to the Abraham Accords 2020. The Arab state cluster — Egypt, Jordan (peace treaties 1979, 1994), the Gulf monarchies, and the Maghreb — collectively wields oil-revenue weight, OIC and Arab League institutional channels, and proximity to Palestinian publics. The Palestinians enter as the weakest party with no veto on most of the substantive negotiation, the strongest moral claim, and the most fragmented internal political structure since the 2007 Hamas–Fatah split.
+
+The first basic factor is the asymmetry of leverage, which has only widened since 1993 (Khalidi 2020). Israel's leverage compounds via continued settlement expansion (over 510,000 settlers in the West Bank by 2024, per B'Tselem), facts on the ground in East Jerusalem, security control of Areas B and C, and the sheer time horizon advantage of an actor that does not need a deal to maintain the status quo. Palestinian leverage runs through international legal forums (ICC investigation, ICJ Wall Advisory Opinion 2004, December 2023 South Africa genocide filing), Arab and Islamic public opinion, and the residual capacity to spoil — which 7 October 2023 demonstrated to be substantial. The asymmetry is structural; closing it requires either Palestinian capability gains the system does not produce, or external constraint on Israeli behavior that the Accords frame removed.
+
+The second basic factor is the conditionality of US engagement. Under API logic, US engagement was relatively continuous because Washington could broker between an Arab cluster offering normalization and an Israeli partner whose acceptance was the gating clause. Under Accords logic, US engagement became episodic and transactional: side-payment-priced bilateral deals (UAE F-35s, Sudan SST de-listing, Morocco Western Sahara) replaced multilateral architecture. The Trump–Netanyahu phase (2017–2020) and the second Trump administration (2025–) treat regional engagement as a deliverable of personal political relationships; the Biden interregnum tried to reattach the Saudi mega-deal to a Palestinian component but ran out of time. Gause's (2024) primacy-not-hegemony framing captures the limit: Washington can broker but not impose, and which Palestinian-conditionality regime the US enforces depends on which administration occupies the White House.
+
+The third basic factor is the bifurcation of the Palestinian camp. Since the 2007 Hamas–Fatah split, the PA has controlled portions of the West Bank under Israeli security cooperation, while Hamas has controlled Gaza under blockade. The 2017 Hamas Political Document recalibrated Hamas's political platform to accept a state on 1967 borders as a transitional goal without superseding the 1988 Charter or formally recognizing Israel — a partial accommodation that did not unify the camp (Beinin and Hajjar 2014). The bifurcation is itself a sub-equilibrium: each faction's continued existence depends on the other not disappearing, because Hamas's elimination would force the PA to either absorb Gaza on terms the PA cannot manage or cede legitimacy to harder factions; and the PA's elimination would force Hamas to either negotiate directly with Israel without the PA's diplomatic cover or pursue a strategy of statelessness that its 2017 Document moved away from.
+
+The fourth basic factor is the post-2020 shift of the Arab cluster's bargaining position. From API logic (collective Arab veto conditioned on Palestinian statehood) to Accords logic (bilateralized normalization without conditionality) to the post-October-7 hybrid (bilateral conditionality on the Saudi track, no multilateral revival) — the Arab cluster has been the most plastic of the four actors. Saudi Arabia's pricing power makes it the dominant variable within this cluster, and MBS's September 2024 reattachment of Palestinian-state conditionality has set the regional default for any post-cascade equilibrium (Lynch 2024).
+
+One might object that this four-actor framework omits Iran, which is in fact the master variable of the regional system through its linkage role. The objection is correct in identifying the omission and wrong about its significance. Iran is not a peace-process actor; it is an opponent of the peace-process architecture, not a participant in it. Including Iran in the four-actor frame conflates the regional security game with the Israeli–Palestinian negotiation game. Hammad's "four key but not equal" is a peace-process formulation, and Iran sits outside it precisely because the peace process Iran rejects.
+
+Tied to the master throughline, the four-actor structure is what the API → Accords pivot reorganized: not the actor list, but the bargaining position of the Arab cluster, which in turn determined the leverage position of the Palestinian camp. The pivot did not change who plays; it changed how the pricing power was distributed.
+
+**Key citations used:**
+- Gause 2024
+- Khalidi 2020
+- B'Tselem 2024
+- Beinin and Hajjar 2014
+- Lynch 2024
+
+**Frame anchor:** Pivot, with the four-actor asymmetry as the structural baseline.
+
+**Common student error to avoid:** Including Iran as a fifth peace-process actor. Iran is a regional-security actor and an opponent of the peace-process architecture, not a participant.
+
+---
+
+## Q13: The "carousel" — Hammad's metaphor for cyclical regional escalation/de-escalation that doesn't change the underlying structure. {#q13}
+
+::: {.thesis}
+**Thesis (one sentence):** The carousel is the experiential rendering of a Nash equilibrium in motion — escalation cycles produce the appearance of regional change while each actor's best response to the post-cycle position equals its pre-cycle response, leaving the strategy profile intact — and what makes the metaphor precise is that the rotation continues until a payoff-matrix shock arrives that the system cannot absorb without restructuring, which is what 7 October 2023 began and the December 2024 Assad collapse confirmed.
+:::
+
+The carousel metaphor is more analytically rigorous than it sounds. The image is of horses going up and down on poles while the platform rotates — visible motion in two dimensions without translation. Mapped onto regional politics, the up-and-down is escalation and de-escalation (Lebanon 2006, Gaza 2008–9, Gaza 2014, Gaza 2021, periodic Iran–Israel proxy exchanges through the 2010s), the platform rotation is the appearance of regional movement (changing US administrations, shifting Saudi–Iran tones, episodic peace-process attempts), and the pole that holds the horse in place is each actor's best-response strategy. The point of the metaphor is that the horse does not get off the carousel; the platform does not exit the structure (Schelling 1960; Osborne and Rubinstein 1994).
+
+The carousel's first analytical payoff is explaining durability. The Israeli–Palestinian conflict has produced thousands of casualties per cycle without producing structural change for seventy-five years, which is anomalous on most theories of conflict resolution but exactly what Nash equilibrium predicts: each actor's best response to the post-cycle position equals its pre-cycle response. After Lebanon 2006, Israel's best response was status quo plus deterrence; Hezbollah's best response was rebuild plus signal restraint; Iran's best response was continued forward-defense investment; Saudi/Gulf's best response was Iran-balance plus selective US alignment. The cycle returned the system to its starting position. The same logic explains why Gaza wars in 2008–9, 2014, and 2021 produced no structural change in the Hamas–Israel relationship (Fearon 1995 on the rationalist conditions for war's continuation: commitment problems, private information, and indivisibility — none of which the cycles resolved).
+
+The carousel's second analytical payoff is identifying when the rotation hits a structural edge. The metaphor implies a hidden geometry: the platform is bounded, and the rotation can encounter conditions under which the platform begins to deform. Three structural edges are identifiable in the regional system. First, exogenous payoff-matrix shocks: the 1979 Iranian Revolution converted Iran from Israeli partner to leading revisionist; the 2003 Iraq War created Iran's regional opening; the 2011 Arab Spring temporarily destabilized multiple states; the 8 December 2024 Assad collapse subtracted Iran's Levantine arm. Second, hegemonic interventions that alter the bargaining range: Camp David 1978, Oslo 1993, Abraham Accords 2020. Third, coalition shifts and great-power realignment: the 10 March 2023 China-mediated Saudi–Iran restoration introduced Beijing as a partial guarantor (Gause 2024).
+
+The carousel's third analytical payoff is classifying the post–October 7 trajectory. October 7 was a deviation by Hamas — captured Hamas internal documents and Sinwar communications suggest derailing Saudi–Israel normalization was at minimum one strategic motivation, with caveats about provenance — that triggered a payoff-shock cascade large enough to alter the matrix faster than equilibration could occur (Lynch 2024). The cascade ran fast: 8 October Hezbollah support front, 17–18 September 2024 pager attacks, 27 September 2024 Nasrallah killed, 27 November 2024 Litani ceasefire and HTS offensive, 8 December 2024 Damascus falls, 13–24 June 2025 Twelve-Day War with US strikes on Iranian nuclear sites on 22 June. These are not carousel rotations; they are structural-edge encounters. Whether a new equilibrium forms depends on which strategies the four actors converge on once the cascade settles.
+
+One might object that the carousel metaphor is descriptively elegant but predictively useless — that any regional system can be rendered as a "carousel" after the fact, and that the metaphor mistakes ex-post explanation for analytic power. The objection is partially right and points to the metaphor's real limitation: it cannot, on its own, predict when the platform will begin to deform. What it can do is provide a vocabulary for distinguishing carousel-internal motion (which is most of regional politics most of the time) from structural-edge encounters (which are rare and consequential). The classification work is what the metaphor does; the prediction work is what the underlying Nash apparatus does (Osborne and Rubinstein 1994).
+
+Tied to the master throughline, the carousel is the experiential rendering of the Nash equilibrium that holds the regional system in place between exogenous shocks. The API → Accords pivot is the most consequential intentional shift in the carousel's twentieth-century rotation; 7 October 2023 plus the December 2024 cascade is the most consequential structural-edge encounter since 1979. The carousel survives most events; it is currently in transition because two structural edges have been encountered in eighteen months.
+
+**Key citations used:**
+- Schelling 1960
+- Osborne and Rubinstein 1994
+- Fearon 1995
+- Gause 2024
+- Lynch 2024
+
+**Frame anchor:** Carousel (Nash equilibrium).
+
+**Common student error to avoid:** Treating the carousel as a synonym for "stalemate" or "stagnation." It is a strategic-consistency claim about best responses, not a moral judgment about the absence of change.
+
+---
+
+## Q14: The ways the Nash equilibrium could come to an end. {#q14}
+
+::: {.thesis}
+**Thesis (one sentence):** The regional Nash equilibrium can end through four distinct mechanisms — exogenous payoff-matrix shocks, hegemonic intervention that alters the bargaining range, coalition shifts and great-power realignment, and costly signaling that resolves commitment problems — and what makes the 2024–26 trajectory distinctive is that three of the four mechanisms have been activated simultaneously, leaving the system between equilibria in a way no prior period in the regional history has matched.
+:::
+
+Each exit mechanism has a clear formal analog and at least one historical instance, which is what makes them analytically tractable rather than rhetorical. Exogenous payoff-matrix shocks are events that change the parameters of the strategic game without any actor having chosen them. The 1 February 1979 return of Khomeini and the 11 February 1979 collapse of the Pahlavi state converted Iran from a US-aligned regional partner into the leading revisionist actor, restructuring the entire payoff matrix for every other regional actor (Walt 1996 on revolutions reshaping equilibria). The 2011 Arab Spring temporarily destabilized Egypt, Tunisia, Libya, Syria, Yemen, and Bahrain, with Bellinian (2004) coercive-apparatus durability explaining which transitions reverted (most) and which persisted (Tunisia until 2021). The 8 December 2024 collapse of Assad, traced above, subtracted Iran's Levantine arm. Each shock altered the matrix sufficiently that the prior best-response strategies became no longer best.
+
+Hegemonic intervention that alters the bargaining range is the second mechanism. Camp David 1978 — Carter's brokering of Egypt–Israel peace at a cost of $5–7 billion in annual aid commitments split between the two parties — removed the largest Arab military from the strategic equilibrium and converted the Arab–Israeli conflict from a multi-state war problem into an asymmetric Israel-versus-rejectionist-front problem. Oslo 1993, the 13 September Declaration of Principles signed at the White House, created the Palestinian Authority and converted the negotiation structure from PLO-as-external-actor to PA-as-Israeli-cooperating-administration. The Abraham Accords of 13 August through 10 December 2020 pulled four Arab states into formal relations with Israel without resolving the Palestinian core. Each intervention shifted the bargaining range that subsequent best responses were computed against (Khalidi 2020).
+
+Coalition shifts and great-power realignment is the third mechanism. The 10 March 2023 Beijing-mediated Saudi–Iran rapprochement is the most recent and consequential instance: it introduced China as a partial security guarantor, partly substituting for the US security backstop without replacing it, and gave Saudi Arabia a hedging position it had not had before (Gause 2024). The cumulative effect of US perceived retrenchment after the 2011 Arab Spring, the 2021 Afghanistan withdrawal, and the post-2022 Ukraine focus has pushed actors toward hedging strategies that change the strategy profile even before any individual shock arrives.
+
+Costly signaling that resolves commitment problems is the fourth and deepest mechanism. Fearon's (1995) rationalist account identifies commitment problems as the core barrier to peace: even when both sides would prefer a settlement to continued war, neither can credibly commit to abide by terms once the other has demobilized. Costly signals — actions whose only rational explanation is genuine intent to change strategy — can resolve commitment problems by transmitting private information that no diplomatic channel can carry. Sadat's 19 November 1977 Jerusalem visit is the canonical example: a sitting Egyptian president addressing the Knesset transmitted information about Egyptian intent that no back-channel could have produced, and unlocked the Camp David architecture. No comparable signal has been transmitted in the Israeli–Palestinian or Iran–Israel relationships in the 2024–26 period, which is part of why the post-cascade equilibrium has not yet formed.
+
+The current trajectory has activated three of the four mechanisms simultaneously. Exogenous shock: the December 2024 Assad collapse and the June 2025 Twelve-Day War. Hegemonic intervention: the second Trump administration's renewed Saudi-mega-deal pursuit and the September 2025 Saudi–French two-state initiative at UNGA represent competing hegemonic moves that have not yet converged. Coalition shift: China's expanding role plus Saudi hedging plus the post-Assad reconfiguration of the eastern Mediterranean. The fourth mechanism — costly signaling — is conspicuously absent, which is exactly why the system sits between equilibria rather than at a new one.
+
+One might object that these four mechanisms are too neat — that historical contingency, leadership idiosyncrasy, and stochastic shocks routinely defeat formal classifications, and that any account of "how Nash ends" is necessarily ex post (Wendt 1999). The objection has weight on the formal-versus-historical question. The defense is that the four mechanisms are not predictive in the strict sense; they are ex-post-defensible categories that organize what counts as a structural-edge encounter versus a carousel rotation. That distinction is itself analytically useful, even if it cannot forecast which mechanism will activate next.
+
+Tied to the master throughline, the four mechanisms are how the carousel exits the strategy profile that holds it in place. The API → Accords pivot was a hegemonic-intervention exit; the December 2024 Assad collapse was an exogenous-shock exit; the Beijing-brokered Saudi–Iran rapprochement was a coalition-shift exit; and the absent costly signal is the missing piece that would let a new equilibrium form. The Nash equilibrium can end; in fact, the current one is in the process of ending; what comes next depends on whether the absent fourth mechanism arrives.
+
+**Key citations used:**
+- Walt 1996
+- Bellin 2004
+- Khalidi 2020
+- Gause 2024
+- Fearon 1995
+- Wendt 1999
+
+**Frame anchor:** Carousel, with the four exit mechanisms as the formal apparatus.
+
+**Common student error to avoid:** Treating "exit" as synonymous with "peace." The equilibrium can end into a worse configuration as easily as into a better one; the mechanisms are value-neutral.
+
+---
+
+## Q15: Possible outcomes and scenarios going forward. {#q15}
+
+::: {.thesis}
+**Thesis (one sentence):** Three forward scenarios are defensible — (a) reformed Nash with restored API sequencing, (b) Accords-redux with Saudi normalization on a thinned Palestinian envelope, and (c) prolonged between-equilibria with regional fragmentation — and the most likely path is (c) through 2027 because the costly signaling required to resolve the commitment problems each scenario demands has not been transmitted by any of the four key actors.
+:::
+
+The scenarios are constructed by varying which exit mechanism activates and which strategy profile the four key actors converge on. Each scenario has identifiable conditions of arrival, a strategy profile, and a stability test.
+
+Scenario (a) — reformed Nash with restored API sequencing — requires three conditions. First, sustained Saudi commitment to Palestinian-state conditionality, which MBS's September 2024 statement and the September 2025 Saudi-French UNGA initiative suggest is operative through at least 2026 (Lynch 2024). Second, an Israeli coalition capable of accepting a Palestinian-state framework, which the current religious-nationalist coalition is not but which a future post-coalition realignment could be. Third, a US administration willing to broker a multilateral instrument with Palestinian-state content, which is contingent on which administration occupies the White House post-2028. The strategy profile is API-2.0: Saudi-led Arab cluster offers normalization conditioned on a Palestinian state with East Jerusalem as capital and a refugee resolution per UNGA 194; Israel accepts in exchange for security cooperation, regional alignment against Iran, and a US security treaty; Iran is the structural opponent, isolated diplomatically as the cost of the deal (Khalidi 2020). The stability test is whether the deal holds through the first major Israeli–Palestinian incident; under API-2.0, Arab-state condemnation but not withdrawal is the equilibrium response.
+
+Scenario (b) — Accords-redux with Saudi normalization on a thinned Palestinian envelope — requires that the second Trump administration negotiate a Saudi-mega-deal with a Palestinian component substantial enough to give MBS political cover but thin enough to satisfy the Israeli coalition. Reported claims through 2025 that Saudi Arabia had dropped Palestinian-state preconditions have been publicly denied by Saudi officials, but a thinned envelope — symbolic Palestinian-state recognition without territorial sovereignty, Palestinian Authority restoration to Gaza in some role, settlement-construction freeze in selected zones — could thread the needle. The strategy profile is Accords-redux: bilateral Saudi–Israeli normalization with a US defense pact and civilian nuclear cooperation including domestic enrichment, plus a four-party (US, Saudi, Israel, EU) Palestinian envelope (Gause 2024). The stability test is whether the envelope is substantial enough to absorb the next Hamas/Hezbollah/Houthi escalation cycle; if the envelope is too thin, the cycle reactivates the spoiling capacity that 7 October demonstrated.
+
+Scenario (c) — prolonged between-equilibria with regional fragmentation — is the path-of-least-resistance outcome. It requires only that the four actors continue to hold their post-cascade strategy profiles without converging. Israel's coalition fragility prevents acceptance of any Palestinian-state framework substantial enough to satisfy MBS's September 2024 statement; Saudi Arabia's reactivated conditionality prevents normalization without that framework; Iran's nuclear program continues as the residual deterrent the proxy network can no longer provide; and the US oscillates between administrations whose Saudi-mega-deal preferences differ (Lynch 2024; Mansour, Shakeri, and Haid 2025). Regional fragmentation continues: post-Assad Syria contested among Turkey, Gulf, and Sharaa government claims; post-Hezbollah Lebanon faces internal political crisis; post-Twelve-Day-War Iran rebuilds enrichment under sanctions; Israel's international position erodes via European recognitions of Palestine and ICJ/ICC processes. The strategy profile is sub-optimal for every actor but no actor can unilaterally improve its position by deviating — which is the formal definition of a Nash equilibrium, but a different one from the pre-2023 baseline.
+
+A subscenario worth flagging is (d) — Iran nuclear breakout. If Iran's residual 60% HEU stockpile is converted to weapons-grade and weaponized, the regional payoff matrix shifts again. Israeli pre-emption, US re-escalation, or a Saudi countermove (rumored Pakistani nuclear cooperation) all become live possibilities. The June 2025 Twelve-Day War damaged but did not destroy Iran's enrichment capacity (Soufan Center 2025); the breakout scenario is contingent on Iranian decision-making that the regime has, to date, pursued asymmetrically rather than directly.
+
+One might object that scenario forecasting is irresponsible — that the regional system has surprised every confident forecast for fifty years, and that the prudent academic posture is to describe the current configuration without committing to forward paths. The objection has weight as a methodological caution. The defense is that scenario construction is not forecasting; it is the formalization of conditions of arrival and stability tests that organize observation as the system evolves. The point is not which scenario arrives but which condition activates the arrival.
+
+Tied to the master throughline, the three scenarios map onto the throughlines: (a) is API-pivot reactivation, (b) is Accords-pivot continuation, (c) is carousel between equilibria. The most likely path through 2027 is (c) because the costly signaling that would resolve the commitment problems each substantive scenario requires has not been transmitted, and the system can sit in a between-equilibria configuration for an extended period without resolution.
+
+**Key citations used:**
+- Lynch 2024
+- Khalidi 2020
+- Gause 2024
+- Mansour, Shakeri, and Haid 2025
+- Soufan Center 2025
+
+**Frame anchor:** Carousel with all three throughlines bearing on scenario construction.
+
+**Common student error to avoid:** Treating the "most likely" scenario as the "best" scenario. The path-of-least-resistance outcome is sub-optimal for every actor but stable in the absence of costly signaling.
+
+---
+
+## Q16: Iran–Israel–US linkage: the engine behind Iran's policy in the region — connecting Hezbollah and Syria. {#q16}
+
+::: {.thesis}
+**Thesis (one sentence):** Iran's regional policy is best read as a tightly coupled response to a perceived Israeli–US containment system, in which forward defense through Hezbollah and Syria substituted for unattainable conventional parity — and the engine that connected the two arms is the strategic logic of asymmetric deterrence under sanctions and isolation, which the December 2024 Assad collapse degraded but did not eliminate.
+:::
+
+The Iran–Israel–US linkage is a triangulated relationship in which each leg shapes the others. From Tehran's perspective, the operative reality after 1979 was a US-led containment system whose components included sanctions (intermittent from 1979, comprehensive from 1995, multilateralized from 2010), military encirclement (US bases in Iraq post-2003, the Gulf, Afghanistan post-2001, Turkey, Israel itself), and an Israeli adversary with a nuclear monopoly and conventional superiority. Conventional parity was unattainable; the strategic response was asymmetric deterrence and forward defense via proxies that compensated for capability deficits at the cost of operational risk (Goodarzi 2006; Ostovar 2016).
+
+The Hezbollah arm is the operational fulcrum. Founded in 1982 around 1,500 IRGC trainers in the Bekaa Valley, catalyzed by Israel's June 1982 invasion of Lebanon, Hezbollah evolved over four decades into the world's most heavily armed non-state actor — an arsenal estimated at 120,000–150,000 rockets and missiles, including precision-guided variants (Norton 2007). Its strategic value to Tehran ran through three channels: deterrence (Hezbollah's southern Lebanon arsenal raised the cost of Israeli action against Iran proper), forward intelligence presence on Israel's northern border, and political leverage in Lebanon's internal balance. The 2006 war was the demonstration event: Hezbollah held against Israel's full conventional weight for thirty-three days, a result that converted the group into the regional benchmark for asymmetric capability.
+
+The Syria arm is the geographic spine. Goodarzi's (2006) account establishes that the Iran–Syria alliance was strategic in origin — born in 1979–1982 from concurrent shocks of revolutionary isolation, post–Camp David encirclement, and Iraq's invasion — and only later acquired a sectarian veneer. From Iran's perspective, Syria was the *land bridge* that connected the Iranian eastern industrial base to the Hezbollah southern Lebanese front: weapons-transit routes, IRGC ground deployments, training infrastructure, and the political cover that made Hezbollah's Lebanon presence sustainable. The doctrine of *wahdat al-sahat* — "unity of the arenas" — operationalized by Soleimani until his killing on 3 January 2020, depended on Syria's continued availability as the connective node.
+
+The Israeli–US dimension reinforces the linkage. From Israel's perspective, the Iran–Hezbollah–Syria axis is the most consequential strategic threat to Israeli northern security, justifying the "campaign between the wars" of 2013–2024 (hundreds of strikes on Iranian and Hezbollah assets in Syrian territory) and the full-spectrum operations of 2024 (pager attacks, Nasrallah killing, Litani ceasefire). From Washington's perspective, the Iran-led axis is the principal regional opponent of US-allied regimes, justifying the Soleimani killing of January 2020, the multilateralized sanctions architecture, and the June 2025 strikes on Natanz, Fordow, and Isfahan during the Twelve-Day War. Israeli and US action against the axis is mutually reinforcing in ways that confirm the Iranian containment perception.
+
+The 2024 cascade demonstrates the engine's degraded operation. The 17–18 September pager attacks, 27 September Nasrallah killing, 27 November Litani ceasefire, and 8 December Damascus fall together subtracted the Levantine arm of the engine. Iran's response — the April and October 2024 direct missile strikes on Israel (300 projectiles in April, 200 ballistic missiles in October) and the June 2025 Twelve-Day War response (550+ ballistic missiles, ~1,000 drones) — represented an unprecedented direct escalation that only made strategic sense within the integrated forward-defense architecture but also signaled that the proxy network could no longer carry the deterrent load alone (Soufan Center 2025; Stimson 2025). The engine survives in degraded form: residual Hezbollah, Iraqi militias, the Houthis, and the nuclear program as residual deterrent, with the 60% HEU stockpile retained even after the June 2025 strikes.
+
+One might object — as Parsi (2017) does in his structural-realist reading — that this engine framing assigns Iran more strategic intent than the historical record supports, and that Iranian policy is more reactive than the proxy-architecture reading suggests. The objection has merit on the reactive-versus-proactive question. The defense is that the cumulative scale of the investment — Iran's $30–50 billion commitment to Syria over the civil war (Carnegie 2024), Hezbollah's arsenal, the IRGC Quds Force command structure under Soleimani — is hard to read as anything other than treating the proxy network as a strategic asset rather than a tactical hedge. Reactivity and strategy are not mutually exclusive; the engine is an Iranian strategic response to an Israeli–US containment perception, which is exactly the linkage triangulation this answer commits to.
+
+Tied to the master throughline, the Iran–Israel–US linkage is the engine that connects the Israeli–Palestinian sphere to the Gulf-security sphere through Hezbollah and Syria. The December 2024 collapse subtracted the Levantine arm; the engine survives in degraded form; and Iran's regional policy in 2026 runs more thinly through Iraq and Yemen than through Lebanon and Damascus, with the nuclear program as the residual deterrent the proxy network can no longer fully provide.
+
+**Key citations used:**
+- Goodarzi 2006
+- Ostovar 2016
+- Norton 2007
+- Soufan Center 2025
+- Stimson 2025
+- Parsi 2017
+- Carnegie 2024
+
+**Frame anchor:** Iran linkage.
+
+**Common student error to avoid:** Reading the engine as either purely strategic or purely reactive. It is a strategic response to a containment perception, which makes both readings partially correct.
+
+---
+
+## Q17: The logic and calculus of the different players in connecting all the parameters together. {#q17}
+
+::: {.thesis}
+**Thesis (one sentence):** Each of the four key actors operates a distinct logic — Israel's deterrence-and-demographic logic, the Palestinians' bifurcated leverage logic, Iran's asymmetric forward-defense logic, and Saudi Arabia's regime-survival hedging logic — and connecting all the parameters together means recognizing that the regional system is the joint product of these four logics computed against a US-set payoff matrix and a 2024–26 cascade that has degraded but not replaced the framework that has held since 2002.
+:::
+
+The synthetic answer requires carrying each actor's logic through the API → Accords pivot, the Iran linkage engine, and the Nash carousel, and showing how the four logics intersect. Israel's deterrence-and-demographic logic combines Shlaim's (2000) Iron Wall doctrine — only demonstrated unbreakable strength produces Arab acceptance — with the demographic squeeze of Jewish-Arab population parity between the river and the sea reached by the late 2010s. The combination produces a best-response strategy of security maximalism plus settlement expansion plus selective normalization with non-Palestinian Arab partners. The 2024–26 cascade has reinforced rather than altered this logic: pager attacks and the Litani ceasefire restored Israeli northern deterrence; Twelve-Day War strikes degraded Iran's nuclear capability; settlement expansion accelerated; international diplomatic isolation grew but did not produce policy reversal.
+
+The Palestinians' bifurcated leverage logic is the most internally complex of the four. The PA computes accommodation as the price of survival under Israeli security cooperation, with the international legal forum (ICC, ICJ) and the Arab League framework as residual leverage. Hamas computes armed resistance as both ideologically necessary and instrumentally rational because it cannot credibly commit to long peace without losing legitimacy to harder factions (Khalidi 2020). The 2017 Hamas Political Document recalibrated platform — acceptance of a state on 1967 borders as a transitional goal, without superseding the 1988 Charter or formally recognizing Israel — but did not unify the camp. The 7 October 2023 attack is best read partly as Hamas exercising its spoiling capacity to derail the Saudi normalization track (Lynch 2024); the post-attack trajectory has weakened Hamas militarily but strengthened the Palestinian-cause leverage internationally, in ways that the September 2024 MBS statement and the September 2025 Saudi–French UNGA initiative concretize.
+
+Iran's asymmetric forward-defense logic, traced above through Goodarzi (2006) and Ostovar (2016), combines proxy investment with nuclear hedging under sanctions and isolation. The 2024–26 cascade has degraded the proxy network's Levantine arm and damaged the nuclear program's enrichment capacity but has not eliminated either. The post-cascade calculus has shifted toward greater reliance on Iraq, Yemen, and the nuclear residual; whether the regime moves toward weaponization (with the retained 60% HEU stockpile) is the most consequential open question in the regional system through 2027 (Soufan Center 2025).
+
+Saudi Arabia's regime-survival hedging logic is the operative pricing power for the post-cascade equilibrium. Bellin's (2004) coercive-apparatus thesis captures the foundation: the Saudi monarchy's durability rests on patrimonial organization, hydrocarbon rents, and US backing, with Vision 2030 as the next-generation legitimacy claim. The hedging across Washington and Beijing — the 10 March 2023 Beijing-brokered restoration of relations with Iran, the 2023 mega-deal negotiations with Biden, and the post-October 7 reactivation of Palestinian-state conditionality (MBS, September 2024) — is a series of moves that maintain the regime's optionality while protecting its public-opinion exposure. Robbins's (2024) Arab Barometer data — 68% opposition to normalization in early 2024 — set the constraint that any future deal must accommodate. The Saudi logic is the most plastic of the four because the hedging strategy itself constrains commitment to any one path.
+
+These four logics intersect through the US-set payoff matrix that Gause (2024) describes. Washington's primacy — security guarantees, arms supply, dollar-recycling system, brokerage role — sets the parameters within which the four actors compute their best responses. Primacy is not hegemony: the US can shape but not impose, which is why the Saudi hedge to Beijing is possible, why Iran's asymmetric strategy survives sanctions, why Israel's coalition politics are not fully aligned with US preferences, and why Palestinian leverage cannot be fully extinguished even at moments of peak normalization momentum. Gause's framing is what makes the four logics legible as joint products of a single system rather than independent national strategies.
+
+The 2024–26 cascade has been the largest joint perturbation of the four logics since 1979. Israel's Iron Wall logic was reinforced; Iran's asymmetric logic was degraded; Saudi Arabia's hedging logic reactivated Palestinian conditionality; the Palestinian bifurcated logic exercised spoiling capacity successfully but at unprecedented operational cost. The post-cascade equilibrium will form when the four actors converge on mutual best responses against the new payoff matrix; when that convergence will arrive depends on whether costly signaling (Fearon 1995) of the Sadat 1977 type is transmitted by any of the four actors. As of May 2026, no such signal has been transmitted, which is why the system sits between equilibria.
+
+One might object that this synthesis abstracts away the operational details that actually matter — that "logic and calculus" is a high-altitude rendering and that the exam answer should commit to specific historical episodes rather than typological summaries. The objection has weight on the level-of-analysis question. The defense is that the question explicitly asks for connection across parameters, which is a typological move; the historical episodes are deployed as evidence for each logic, but the synthesis itself is what the question is testing.
+
+Tied to the master throughline, the four logics operate jointly under a US-set payoff matrix to produce the regional system that has held since 2002, pivoted in 2020, and entered transition in 2023–24. Iran is the engine, the API → Accords pivot is the structural frame, and the carousel describes the rotation of best responses that the system performs between structural-edge encounters. The 2024–26 cascade has been a structural-edge encounter; the next equilibrium has not yet formed; and which logic adjusts most determines what configuration the system settles into.
+
+**Key citations used:**
+- Shlaim 2000
+- Khalidi 2020
+- Goodarzi 2006
+- Ostovar 2016
+- Bellin 2004
+- Gause 2024
+- Lynch 2024
+- Robbins 2024 (Arab Barometer)
+- Soufan Center 2025
+- Fearon 1995
+
+**Frame anchor:** All three throughlines integrated.
+
+**Common student error to avoid:** Treating each actor's logic in isolation. The synthesis requires showing how the four logics jointly produce the regional system through their interaction under the US-set payoff matrix.
+
+---
+
+## Throughlines crosswalk
+
+| Question | Primary throughline | Secondary throughline |
+|---|---|---|
+| Q1 | Pivot | Iran linkage |
+| Q2 | Pivot | Iran linkage |
+| Q3 | Pivot | Carousel |
+| Q4 | Pivot | Carousel |
+| Q5 | Iran linkage | Pivot |
+| Q6 | Iran linkage | Pivot |
+| Q7 | Pivot | Carousel |
+| Q8 | Pivot | Carousel |
+| Q9 | Pivot | Carousel |
+| Q10 | Carousel | Pivot |
+| Q11 | All three | — |
+| Q12 | Pivot | Carousel |
+| Q13 | Carousel | Pivot |
+| Q14 | Carousel | Iran linkage |
+| Q15 | Carousel | Pivot |
+| Q16 | Iran linkage | Carousel |
+| Q17 | All three | — |
+
+Throughline definitions: **Pivot** = API → Abraham Accords sequencing inversion. **Carousel** = Nash equilibrium and best-response cycles. **Iran linkage** = the engine connecting the Israeli–Palestinian and Gulf-security spheres through Hezbollah and Syria.
+
+---
+
+## Bibliography
+
+Atlantic Council. 2025. *The Abraham Accords at Five: Durable but Diminished.* Atlantic Council MENA Program.
+
+Bayat, Asef. 2017. *Revolution without Revolutionaries: Making Sense of the Arab Spring.* Stanford University Press.
+
+Beinin, Joel, and Lisa Hajjar. 2014. *Palestine, Israel, and the Arab–Israeli Conflict: A Primer.* Middle East Research and Information Project.
+
+Bellin, Eva. 2004. "The Robustness of Authoritarianism in the Middle East: Exceptionalism in Comparative Perspective." *Comparative Politics* 36 (2): 139–157.
+
+Brownlee, Jason, Tarek Masoud, and Andrew Reynolds. 2015. *The Arab Spring: Pathways of Repression and Reform.* Oxford University Press.
+
+B'Tselem. 2024. *Settlement Population Statistics, West Bank and East Jerusalem.* B'Tselem Annual Report.
+
+Carnegie Endowment for International Peace. 2024. *Iran's Strategic Investment in Syria: A Cumulative Account.* Carnegie Middle East Center.
+
+Diwan, Ishac, Adeel Malik, and Izak Atiyas, eds. 2019. *Crony Capitalism in the Middle East: Business and Politics from Liberalization to the Arab Spring.* Oxford University Press.
+
+Fearon, James D. 1995. "Rationalist Explanations for War." *International Organization* 49 (3): 379–414.
+
+Gause, F. Gregory III. 2024. "U.S. Primacy without Hegemony in the Middle East." Project on Middle East Political Science (POMEPS) and Middle East Institute working paper series.
+
+Goodarzi, Jubin M. 2006. *Syria and Iran: Diplomatic Alliance and Power Politics in the Middle East.* I.B. Tauris.
+
+Khalidi, Rashid. 2020. *The Hundred Years' War on Palestine: A History of Settler Colonialism and Resistance, 1917–2017.* Metropolitan Books.
+
+Lister, Charles. 2024. *Syria's Endgame: The Collapse of the Assad Regime.* Middle East Institute analytical brief, December.
+
+Lynch, Marc. 2024. "The Regime-Public Gap and the Limits of Normalization." Project on Middle East Political Science.
+
+Mansour, Renad, Lina Khatib Shakeri, and Haid Haid. 2025. *Shape-Shifting: The Axis of Resistance after Assad.* Chatham House Middle East and North Africa Programme.
+
+Mitchell, Timothy. 2011. *Carbon Democracy: Political Power in the Age of Oil.* Verso.
+
+Norton, Augustus Richard. 2007. *Hezbollah: A Short History.* Princeton University Press.
+
+Osborne, Martin J., and Ariel Rubinstein. 1994. *A Course in Game Theory.* MIT Press.
+
+Ostovar, Afshon. 2016. *Vanguard of the Imam: Religion, Politics, and Iran's Revolutionary Guards.* Oxford University Press.
+
+Parsi, Trita. 2017. *Losing an Enemy: Obama, Iran, and the Triumph of Diplomacy.* Yale University Press.
+
+Robbins, Michael. 2024. *Arab Barometer Wave VIII: Public Opinion on Normalization with Israel.* Arab Barometer.
+
+Sayigh, Yezid. 2019. *Owners of the Republic: An Anatomy of Egypt's Military Economy.* Carnegie Middle East Center.
+
+Schelling, Thomas C. 1960. *The Strategy of Conflict.* Harvard University Press.
+
+Shlaim, Avi. 2000. *The Iron Wall: Israel and the Arab World.* W. W. Norton.
+
+Soufan Center. 2025. *The Axis of Resistance: Down but Not Out.* Soufan Center special report.
+
+Stimson Center. 2025. *Iran's Regional Posture after the Twelve-Day War.* Stimson Center analysis.
+
+Walt, Stephen M. 1996. *Revolution and War.* Cornell University Press.
+
+Wendt, Alexander. 1999. *Social Theory of International Politics.* Cambridge University Press.
