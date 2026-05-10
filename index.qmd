@@ -147,7 +147,7 @@ format:
       </div>
       <span class="ed-course-arrow">→</span>
     </a>
-    <a href="acct410x/exam-day.html" class="ed-course">
+    <a href="acct410x/study.html" class="ed-course">
       <div class="ed-course-status ed-course-status-next">Next</div>
       <div class="ed-course-body">
         <h3>ACCT 410 — Foundations of Accounting</h3>

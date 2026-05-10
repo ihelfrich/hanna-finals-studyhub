@@ -1,0 +1,635 @@
+---
+title: "ACCT 410 — Study"
+subtitle: "Read top to bottom. Try every problem before revealing. Walk in."
+description: "Single long-form page. Five sections. Pattern → formula → worked example → you try → trap."
+order: 0
+toc: false
+section-divs: false
+format:
+  html:
+    page-layout: article
+    css:
+      - ../assets/css/custom.css
+---
+
+```{=html}
+<style>
+:root {
+  --pg-paper: #fbf8f3;
+  --pg-ink: #2a2520;
+  --pg-ink-soft: #6e655e;
+  --pg-line: rgba(40,30,25,.10);
+  --pg-line-soft: rgba(40,30,25,.06);
+  --pg-accent: #7a1f1f;
+  --pg-accent-soft: rgba(122,31,31,.08);
+  --pg-gold: #b07a1c;
+  --pg-sage: #6b7d4e;
+}
+body:not(.quarto-dark) {
+  background: var(--pg-paper) !important;
+  color: var(--pg-ink) !important;
+}
+.pg-article {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 1.4rem 1.2rem 4rem;
+  font-family: "Newsreader", Charter, Georgia, serif;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: var(--pg-ink);
+}
+.pg-article p { margin: 0 0 1.1em; }
+
+.pg-eyebrow {
+  font-family: "Inter", -apple-system, sans-serif;
+  font-size: .72rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--pg-ink-soft); font-weight: 600;
+  margin: 0 0 .8rem;
+}
+.pg-h1 {
+  font-family: "Newsreader", Charter, Georgia, serif !important;
+  font-size: clamp(2.4rem, 5vw, 3.6rem) !important;
+  font-weight: 500 !important;
+  line-height: 1.05 !important;
+  letter-spacing: -0.022em !important;
+  color: var(--pg-ink) !important;
+  margin: 0 0 1rem !important;
+}
+.pg-h1 em { color: var(--pg-accent); font-style: italic; }
+.pg-lede {
+  font-size: 1.22rem !important;
+  line-height: 1.55 !important;
+  color: var(--pg-ink-soft) !important;
+  margin: 0 0 2.5rem !important;
+  font-style: italic;
+}
+
+.pg-toc {
+  border-top: 1px solid var(--pg-line);
+  border-bottom: 1px solid var(--pg-line);
+  padding: 1.1rem 0;
+  margin: 0 0 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+}
+.pg-toc a {
+  font-family: "Inter", sans-serif;
+  font-size: .82rem; font-weight: 500;
+  color: var(--pg-ink-soft) !important;
+  text-decoration: none !important;
+  text-align: center;
+  padding: .35rem .25rem;
+  border-right: 1px solid var(--pg-line-soft);
+  transition: color .2s ease;
+  letter-spacing: -0.005em;
+}
+.pg-toc a:last-child { border-right: 0; }
+.pg-toc a:hover { color: var(--pg-accent) !important; }
+.pg-toc a .pg-toc-num {
+  display: block; font-family: "Newsreader", serif;
+  font-size: 1.4rem; font-weight: 500;
+  color: var(--pg-accent); font-style: italic; margin-bottom: .1rem;
+}
+@media (max-width: 600px) {
+  .pg-toc { grid-template-columns: repeat(2, 1fr); }
+  .pg-toc a:nth-child(2n) { border-right: 0; }
+  .pg-toc a:nth-child(odd) { border-right: 1px solid var(--pg-line-soft); }
+  .pg-toc a { border-bottom: 1px solid var(--pg-line-soft); padding: .55rem .25rem; }
+}
+
+.pg-section {
+  margin: 4rem 0;
+  scroll-margin-top: 1rem;
+}
+.pg-section-head {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 1.5rem;
+  align-items: baseline;
+  margin: 0 0 1.6rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--pg-line);
+}
+.pg-section-num {
+  font-family: "Newsreader", serif;
+  font-size: 4rem; font-weight: 400; font-style: italic;
+  color: var(--pg-accent); line-height: 1;
+  letter-spacing: -0.04em;
+}
+.pg-section-title {
+  font-family: "Newsreader", serif !important;
+  font-size: 1.9rem !important;
+  font-weight: 500 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.018em !important;
+  margin: 0 !important;
+  color: var(--pg-ink) !important;
+}
+.pg-section-kicker {
+  font-family: "Inter", sans-serif;
+  font-size: .72rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--pg-ink-soft); font-weight: 600;
+  margin: 0 0 .35rem;
+}
+@media (max-width: 600px) {
+  .pg-section-head { grid-template-columns: 1fr; gap: .35rem; }
+  .pg-section-num { font-size: 2.6rem; }
+  .pg-section-title { font-size: 1.5rem !important; }
+}
+
+.pg-pattern {
+  background: var(--pg-accent-soft);
+  border-left: 3px solid var(--pg-accent);
+  padding: 1rem 1.3rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--pg-ink);
+  border-radius: 0 6px 6px 0;
+}
+.pg-pattern strong { font-style: normal; color: var(--pg-accent); }
+
+.pg-formula {
+  background: #fefcf8;
+  border: 1px solid var(--pg-line);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin: 1.4rem 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .98rem;
+  line-height: 1.85;
+  white-space: pre;
+  overflow-x: auto;
+  color: var(--pg-ink);
+}
+.pg-formula .pg-result { color: var(--pg-accent); font-weight: 600; }
+.pg-formula .pg-comment { color: var(--pg-ink-soft); font-style: italic; }
+.pg-formula .pg-label {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: .68rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--pg-ink-soft); font-weight: 600; font-style: normal;
+  margin-bottom: .8rem;
+  white-space: normal;
+}
+
+.pg-example {
+  border-left: 2px solid var(--pg-line);
+  padding: .35rem 0 .35rem 1.3rem;
+  margin: 1.5rem 0;
+  color: var(--pg-ink-soft);
+}
+.pg-example strong { color: var(--pg-ink); }
+
+.pg-try {
+  background: rgba(176,122,28,.06);
+  border: 1px solid rgba(176,122,28,.25);
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  margin: 1.8rem 0;
+}
+.pg-try-tag {
+  font-family: "Inter", sans-serif;
+  font-size: .68rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--pg-gold); font-weight: 700;
+  margin: 0 0 .5rem;
+}
+.pg-try-q {
+  font-family: "Newsreader", serif;
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+  color: var(--pg-ink);
+}
+.pg-try-toggle {
+  font-family: "Inter", sans-serif;
+  background: transparent; border: 1px solid rgba(176,122,28,.45);
+  color: var(--pg-gold); padding: .4rem .9rem; border-radius: 999px;
+  font-size: .82rem; font-weight: 600; cursor: pointer;
+  transition: all .2s ease;
+}
+.pg-try-toggle:hover { background: var(--pg-gold); color: #fefcf8; }
+.pg-try-answer {
+  display: none;
+  margin-top: 1rem; padding-top: 1rem;
+  border-top: 1px dashed rgba(176,122,28,.3);
+  font-family: "JetBrains Mono", monospace;
+  font-size: .92rem; line-height: 1.7;
+  white-space: pre-wrap;
+  color: var(--pg-ink);
+}
+.pg-try-answer.shown { display: block; }
+.pg-try-answer strong { color: var(--pg-accent); }
+
+.pg-trap {
+  font-family: "Inter", sans-serif;
+  border-top: 1px solid var(--pg-line);
+  padding-top: .9rem;
+  margin: 1.5rem 0 0;
+  font-size: .92rem;
+  color: var(--pg-ink-soft);
+}
+.pg-trap-tag {
+  font-size: .65rem; letter-spacing: .14em; text-transform: uppercase;
+  font-weight: 700; color: var(--pg-accent);
+  display: block; margin-bottom: .25rem;
+}
+
+.pg-finale {
+  margin: 5rem 0 2rem;
+  padding: 2.5rem 0;
+  border-top: 3px double var(--pg-accent);
+  border-bottom: 3px double var(--pg-accent);
+}
+.pg-finale h2 {
+  font-family: "Newsreader", serif !important;
+  font-size: 1.6rem !important; font-weight: 500 !important;
+  font-style: italic;
+  margin: 0 0 1.2rem !important;
+  color: var(--pg-accent) !important;
+  text-align: center;
+}
+.pg-spine {
+  font-family: "JetBrains Mono", monospace;
+  font-size: .92rem;
+  line-height: 1.85;
+  white-space: pre;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+.pg-spine .num {
+  display: inline-block; width: 2.4em;
+  color: var(--pg-accent); font-weight: 600;
+}
+
+.pg-end {
+  text-align: center;
+  font-family: "Newsreader", serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--pg-accent);
+  margin: 3rem 0 0;
+  letter-spacing: -0.012em;
+}
+.pg-end::before, .pg-end::after { content: " · "; opacity: .4; margin: 0 .8rem; }
+
+body.quarto-dark {
+  --pg-paper: #1a1612;
+  --pg-ink: #f0e6dd;
+  --pg-ink-soft: #b8aea4;
+  --pg-line: rgba(255,240,225,.10);
+  --pg-line-soft: rgba(255,240,225,.05);
+  --pg-accent: #d4a437;
+  --pg-accent-soft: rgba(212,164,55,.10);
+  --pg-gold: #d4a437;
+  --pg-sage: #9aa882;
+}
+body.quarto-dark .pg-formula { background: #221d18; }
+body.quarto-dark .pg-h1 em { color: #d4a437; }
+
+/* hide quarto chrome on this page */
+.pg-article + .quarto-margin-sidebar,
+body.pg-mode .quarto-margin-sidebar { display: none; }
+</style>
+
+<article class="pg-article">
+
+<p class="pg-eyebrow">ACCT 410 · Cram · Spring 2026</p>
+<h1 class="pg-h1">Five sections.<br><em>One scroll.</em></h1>
+<p class="pg-lede">Read top to bottom. Try every problem before revealing the answer. The patterns repeat — by the third section the formulas will start filling themselves in.</p>
+
+<nav class="pg-toc">
+  <a href="#mc"><span class="pg-toc-num">i</span>Multiple Choice</a>
+  <a href="#bond"><span class="pg-toc-num">ii</span>Bond</a>
+  <a href="#scf"><span class="pg-toc-num">iii</span>Cash Flows</a>
+  <a href="#job"><span class="pg-toc-num">iv</span>Job-Order</a>
+  <a href="#cvp"><span class="pg-toc-num">v</span>CVP Analysis</a>
+</nav>
+```
+
+::: {#mc .pg-section}
+```{=html}
+<header class="pg-section-head">
+  <div class="pg-section-num">i.</div>
+  <div>
+    <p class="pg-section-kicker">Section I · 10 questions · ~25%</p>
+    <h2 class="pg-section-title">Multiple Choice</h2>
+  </div>
+</header>
+```
+
+The MC tests whether you know what each thing *is*. Definitions, decision rules, the line between two close concepts. Wrong answers usually flip a sign or swap a category. Read every option before answering — the wrong one usually sounds right.
+
+```{=html}
+<div class="pg-pattern"><strong>Pattern.</strong> Match the trigger word in the question to the right concept. The math, when it appears, is one step.</div>
+```
+
+**The ten distinctions to know cold:**
+
+```{=html}
+<div class="pg-formula">
+<span class="pg-label">Cheat Sheet</span>
+<span class="pg-comment">P/E ratio high     →</span>  market expects future growth (not current profit)
+<span class="pg-comment">PPE sale at loss   →</span>  cash inflow = NBV − Loss; loss adds back to CFO
+<span class="pg-comment">SCF basis          →</span>  cash, NOT accrual; CFO &lt; NI = aggressive recognition
+<span class="pg-comment">Direct product cost→</span>  traceable to one unit (DM, DL); MOH = indirect
+<span class="pg-comment">Predetermined OH   →</span>  ESTIMATED ÷ ESTIMATED (set at start of year)
+<span class="pg-comment">Allocated OH       →</span>  Predetermined rate × ACTUAL base
+<span class="pg-comment">Stock split        →</span>  SE unchanged
+<span class="pg-comment">Stock repurchase   →</span>  SE decreases (treasury = contra-equity)
+<span class="pg-comment">Earnings mgmt      →</span>  intentional, may stay within GAAP
+<span class="pg-comment">Fraud              →</span>  intentional, violates GAAP / misleads users
+</div>
+```
+
+```{=html}
+<div class="pg-example">
+<strong>Worked.</strong> Burberry sells a Yorkshire factory. Original cost $40,000, accumulated depreciation $24,000, sold at a $4,000 loss.<br>
+NBV = $40,000 − $24,000 = $16,000.<br>
+Sale price = NBV − Loss = $16,000 − $4,000 = <strong>$12,000 cash inflow, Investing section</strong>.<br>
+The $4,000 loss is non-cash and adds back in CFO.
+</div>
+
+<div class="pg-try">
+  <p class="pg-try-tag">You try</p>
+  <p class="pg-try-q">Tiffany & Co. repurchases $500M of its own shares (treasury stock). What happens to total stockholders' equity?</p>
+  <button class="pg-try-toggle" onclick="this.nextElementSibling.classList.toggle('shown')">Reveal answer</button>
+  <div class="pg-try-answer"><strong>SE decreases by $500M.</strong> Treasury stock is a contra-equity account (a deduction from equity), not an asset. Total equity drops by exactly the buyback amount.</div>
+</div>
+
+<div class="pg-trap">
+<span class="pg-trap-tag">Common trap</span>
+"Both processes are the same across companies and governed by standard rules" — this is FALSE. Only <em>financial</em> accounting is standardized; managerial accounting is custom and varies by company.
+</div>
+```
+:::
+
+::: {#bond .pg-section}
+```{=html}
+<header class="pg-section-head">
+  <div class="pg-section-num">ii.</div>
+  <div>
+    <p class="pg-section-kicker">Section II · One bond · ~15%</p>
+    <h2 class="pg-section-title">Bond</h2>
+  </div>
+</header>
+```
+
+One bond, seven questions about it. Coupon rate, journal entry, premium-vs-discount, year-1 interest expense, NBV at year-end, retirement entry, total interest vs total coupons. The formulas chain: each one feeds the next.
+
+```{=html}
+<div class="pg-pattern"><strong>Pattern.</strong> The cash payment is the coupon. The accounting expense is something else: NBV × MARKET rate. The difference is amortization, which moves NBV toward face over the bond's life.</div>
+
+<div class="pg-formula">
+<span class="pg-label">Formula chain</span>
+Coupon rate          = Annual coupon $ / Face value
+Premium vs. Discount = Issue price &gt; Face → premium
+                       Issue price &lt; Face → discount
+Interest expense     = NBV at start × MARKET rate     <span class="pg-comment">(NOT coupon)</span>
+Amortization         = Coupon (cash) − Interest expense
+New NBV (premium)    = Old NBV − Amortization         <span class="pg-comment">(decays toward face)</span>
+New NBV (discount)   = Old NBV + Amortization         <span class="pg-comment">(climbs toward face)</span>
+At maturity          = NBV is back to face; retire by paying face
+
+Total interest expense over life:
+   Premium  →  LOWER than total coupons    <span class="pg-comment">(premium amortization reduces interest)</span>
+   Discount →  HIGHER than total coupons   <span class="pg-comment">(discount amortization adds to interest)</span>
+</div>
+```
+
+```{=html}
+<div class="pg-example">
+<strong>Worked.</strong> Cartier issues a $200,000 face-value bond on Jan 1, 2024. Market rate 3%. $8,000 coupon paid each Dec 31. Bond sold at $209,159. Five-year term.
+<br><br>
+Coupon rate = $8,000 / $200,000 = <strong>4%</strong>.<br>
+Issue $209,159 &gt; Face $200,000 → <strong>premium</strong>.<br>
+Year-1 interest expense = $209,159 × 3% = <strong>$6,275</strong>.<br>
+Amortization = $8,000 − $6,275 = <strong>$1,725</strong>.<br>
+New NBV at Jan 1, 2025 = $209,159 − $1,725 = <strong>$207,434</strong>.<br>
+Total coupons over 5 years = $40,000. Total interest expense = $40,000 − $9,159 premium = <strong>$30,841</strong> (lower than total coupons, as expected for a premium bond).
+</div>
+
+<div class="pg-try">
+  <p class="pg-try-tag">You try</p>
+  <p class="pg-try-q">A bond is issued at $96,000 with a face value of $100,000. The coupon is $5,000/year and the market rate is 6%. What's the year-1 interest expense?</p>
+  <button class="pg-try-toggle" onclick="this.nextElementSibling.classList.toggle('shown')">Reveal answer</button>
+  <div class="pg-try-answer">Issue $96,000 &lt; Face $100,000 → <strong>discount</strong>.<br>
+Year-1 interest expense = NBV × MARKET rate = $96,000 × 6% = <strong>$5,760</strong>.<br>
+Amortization = $5,760 − $5,000 = $760.<br>
+New NBV climbs: $96,000 + $760 = $96,760.</div>
+</div>
+
+<div class="pg-trap">
+<span class="pg-trap-tag">Common trap</span>
+Multiplying NBV by the <em>coupon</em> rate. Always use the MARKET rate for interest expense. The coupon rate gives you the cash payment only.
+</div>
+```
+:::
+
+::: {#scf .pg-section}
+```{=html}
+<header class="pg-section-head">
+  <div class="pg-section-num">iii.</div>
+  <div>
+    <p class="pg-section-kicker">Section III · Indirect method · ~25%</p>
+    <h2 class="pg-section-title">Statement of Cash Flows</h2>
+  </div>
+</header>
+```
+
+Two balance sheets, one income statement, plus a note about an asset sold and one bought. Compute three sections, reconcile to the change in cash. The hardest question on the exam if you don't know the sign rule; mechanical if you do.
+
+```{=html}
+<div class="pg-pattern"><strong>Pattern.</strong> Start with NI. Add back non-cash items. Add or subtract changes in current accounts using the sign rule. Then handle Investing and Financing separately.</div>
+
+<div class="pg-formula">
+<span class="pg-label">The sign rule</span>
+Current ASSETS       → opposite sign  (AR up = cash use; Inventory down = cash source)
+Current LIABILITIES  → same sign      (AP up = cash source; Accrued down = cash use)
+Non-cash expenses    → add back       (depreciation, amortization)
+Losses on PPE sales  → add back       (non-cash from operations)
+Gains on PPE sales   → subtract       (non-cash, but inflated NI)
+</div>
+
+<div class="pg-formula">
+<span class="pg-label">Three short formulas</span>
+Cash from PPE sale  = NBV − Loss   <span class="pg-comment">(or NBV + Gain)</span>
+                       NBV = Cost − Accumulated depreciation
+PPE purchases       from roll: End PPE = Beg PPE + Purchases − Cost of PPE sold
+Dividends paid      = Beg RE + NI − End RE     <span class="pg-comment">(financing outflow)</span>
+</div>
+```
+
+```{=html}
+<div class="pg-example">
+<strong>Worked — CFO.</strong> NI $31,000, Depreciation $16,000, Loss on PPE sale $15,000.<br>
+ΔAR +$40k, ΔInv −$16k, ΔPrepaid +$2k, ΔAP +$8k, ΔAccrued +$20k.
+<br><br>
+CFO = 31 + 16 + 15 − 40 + 16 − 2 + 8 + 20 = <strong>$64,000</strong>.
+</div>
+
+<div class="pg-example">
+<strong>Worked — Sale of building.</strong> Cost $200,000, accumulated depreciation $45,000, sold at $15,000 loss.<br>
+NBV = 200 − 45 = $155,000. Cash received = NBV − Loss = $155 − $15 = <strong>$140,000 inflow, Investing</strong>.
+</div>
+
+<div class="pg-try">
+  <p class="pg-try-tag">You try</p>
+  <p class="pg-try-q">Beg RE = $72,000. Net income for the year = $31,000. End RE = $100,000. How much was paid in dividends?</p>
+  <button class="pg-try-toggle" onclick="this.nextElementSibling.classList.toggle('shown')">Reveal answer</button>
+  <div class="pg-try-answer">Beg RE + NI − Dividends = End RE<br>
+$72,000 + $31,000 − Dividends = $100,000<br>
+Dividends = <strong>$3,000</strong>. Goes in Financing as an outflow.</div>
+</div>
+
+<div class="pg-trap">
+<span class="pg-trap-tag">Common trap</span>
+Dividends aren't on the income statement. Compute them from the Retained Earnings roll-forward. Also: PPE roll uses the original COST of sold PPE (not NBV) when subtracting from the PP&E balance.
+</div>
+```
+:::
+
+::: {#job .pg-section}
+```{=html}
+<header class="pg-section-head">
+  <div class="pg-section-num">iv.</div>
+  <div>
+    <p class="pg-section-kicker">Section IV · ~20%</p>
+    <h2 class="pg-section-title">Job-Order Costing</h2>
+  </div>
+</header>
+```
+
+A manufacturer with estimates at the start of the year (estimated machine hours, estimated direct labor hours, estimated overhead) plus a list of transactions during the year. Compute the predetermined rate, the allocated overhead, the actual overhead, total product cost, period costs.
+
+```{=html}
+<div class="pg-pattern"><strong>Pattern.</strong> Predetermined uses ESTIMATES (set at start of year). Allocated uses Predetermined × ACTUAL. The numbers are different on purpose. Anything tied to the factory is a product cost; everything else is a period cost.</div>
+
+<div class="pg-formula">
+<span class="pg-label">The formulas</span>
+Predetermined OH rate  = ESTIMATED total OH / ESTIMATED allocation base
+Allocated OH           = Predetermined rate × ACTUAL allocation base
+Direct materials used  = Materials placed in production − Indirect materials
+Manufacturing OH       = indirect materials + indirect labor (incl. supervisor)
+                         + factory rent + factory depreciation + factory utilities
+Total product cost     = DM + DL + Allocated OH      <span class="pg-comment">(capitalized into inventory)</span>
+Period costs           = corporate HQ + sales + customer service + admin + marketing
+                         <span class="pg-comment">(expensed immediately)</span>
+</div>
+```
+
+```{=html}
+<div class="pg-example">
+<strong>Worked.</strong> Estimates: $280,000 OH, 100,000 machine hours, 20,000 direct labor hours.<br>
+Year actuals: 95,000 machine hours, $90,000 assembly-line wages.<br>
+Materials placed in production: $55,000 ($17,000 indirect, $38,000 direct).<br>
+Factory supervisor $65,000. Factory rent $40,000. Customer-service salaries $45,000. Corporate HQ rent $10,000.
+<br><br>
+Predetermined rate = $280,000 / 100,000 = <strong>$2.80 / machine hour</strong>.<br>
+Allocated OH = $2.80 × 95,000 actual MH = <strong>$266,000</strong>.<br>
+Total product cost = $38,000 DM + $90,000 DL + $266,000 OH = <strong>$394,000</strong>.<br>
+Period costs = $45,000 customer service + $10,000 corporate rent = <strong>$55,000</strong>.<br>
+Actual MOH incurred = $17,000 + $65,000 + $40,000 = <strong>$122,000</strong> (different from allocated).
+</div>
+
+<div class="pg-try">
+  <p class="pg-try-tag">You try</p>
+  <p class="pg-try-q">A bakery estimates $60,000 in overhead and 12,000 oven-hours per year. They actually use 11,500 oven-hours. What's the allocated overhead?</p>
+  <button class="pg-try-toggle" onclick="this.nextElementSibling.classList.toggle('shown')">Reveal answer</button>
+  <div class="pg-try-answer">Predetermined rate = $60,000 / 12,000 = <strong>$5/hour</strong>.<br>
+Allocated OH = $5 × 11,500 actual = <strong>$57,500</strong>.</div>
+</div>
+
+<div class="pg-trap">
+<span class="pg-trap-tag">Common trap</span>
+Mixing actual and estimated. Predetermined uses two estimates. Allocated uses predetermined × actual. Period costs (corporate HQ, marketing, customer service) are NEVER in MOH.
+</div>
+```
+:::
+
+::: {#cvp .pg-section}
+```{=html}
+<header class="pg-section-head">
+  <div class="pg-section-num">v.</div>
+  <div>
+    <p class="pg-section-kicker">Section V · ~15%</p>
+    <h2 class="pg-section-title">Cost-Volume-Price Analysis</h2>
+  </div>
+</header>
+```
+
+A product with a sales price, variable cost per unit, and total fixed costs. The exam gives you a base scenario then asks two or three "what if" variations: rising costs, automation, target profit. Always recompute Unit CM at the top of each new scenario.
+
+```{=html}
+<div class="pg-pattern"><strong>Pattern.</strong> Unit CM is sales price minus variable cost per unit. Breakeven is just FC divided by Unit CM. Target profit is the same with the target added in the numerator. Round up.</div>
+
+<div class="pg-formula">
+<span class="pg-label">The formulas</span>
+Unit CM            = Sales price/unit − Variable cost/unit
+Breakeven units    = Fixed Costs / Unit CM           <span class="pg-comment">(round UP)</span>
+Target-profit units = (Fixed Costs + Target Profit) / Unit CM
+Net income at vol  = (Volume × Unit CM) − Fixed Costs
+
+For any scenario:
+  1) Recompute new VC/unit
+  2) Recompute new FC
+  3) Recompute new Unit CM
+  4) Plug into the formulas above
+</div>
+```
+
+```{=html}
+<div class="pg-example">
+<strong>Worked.</strong> A bracelet line. $4,000/unit, VC $2,400/unit, FC $960,000/year. Last year: 800 units, NI $320,000.
+<br><br>
+Unit CM = $4,000 − $2,400 = <strong>$1,600</strong>.<br>
+Breakeven = $960,000 / $1,600 = <strong>600 units</strong>.<br>
+Scenario: VC rises to $2,800. New CM = $1,200. To maintain $320k profit:<br>
+Units = ($960,000 + $320,000) / $1,200 = 1,067 units (round up). <strong>1,067 bracelets.</strong>
+</div>
+
+<div class="pg-try">
+  <p class="pg-try-tag">You try</p>
+  <p class="pg-try-q">A scooter sells for $500. Variable cost $300/unit. Fixed costs $1,200,000. The company sold 8,000 units last year. What's the breakeven point?</p>
+  <button class="pg-try-toggle" onclick="this.nextElementSibling.classList.toggle('shown')">Reveal answer</button>
+  <div class="pg-try-answer">Unit CM = $500 − $300 = <strong>$200</strong>.<br>
+Breakeven = $1,200,000 / $200 = <strong>6,000 units</strong>.</div>
+</div>
+
+<div class="pg-try">
+  <p class="pg-try-tag">You try (harder)</p>
+  <p class="pg-try-q">Same scooter company. Variable cost rises by $40/unit (now $340). How many units must they sell to maintain a $400,000 profit?</p>
+  <button class="pg-try-toggle" onclick="this.nextElementSibling.classList.toggle('shown')">Reveal answer</button>
+  <div class="pg-try-answer">New Unit CM = $500 − $340 = <strong>$160</strong>.<br>
+Units = (FC + Target) / Unit CM = ($1,200,000 + $400,000) / $160<br>
+= $1,600,000 / $160 = <strong>10,000 units</strong>.</div>
+</div>
+
+<div class="pg-trap">
+<span class="pg-trap-tag">Common trap</span>
+Forgetting to recompute Unit CM at the top of a new scenario. The whole point of "what if" problems is that VC or FC changed — both the breakeven and the profit math have to start from the new Unit CM.
+</div>
+```
+:::
+
+```{=html}
+<section class="pg-finale">
+  <h2>The spine, in one card</h2>
+  <pre class="pg-spine"><span class="num">01</span>Bond interest expense  =  NBV × MARKET rate    (not coupon)
+<span class="num">02</span>Premium  =  coupon &gt; market  →  total interest LOWER than total coupons
+<span class="num">03</span>SCF sign rule:  current assets opposite,  current liabilities same
+<span class="num">04</span>Cash from PPE sale  =  NBV − Loss
+<span class="num">05</span>Dividends paid  =  Beg RE + NI − End RE
+<span class="num">06</span>Predetermined OH  =  ESTIMATED ÷ ESTIMATED
+<span class="num">07</span>Allocated OH  =  Predetermined × ACTUAL
+<span class="num">08</span>Product  =  DM + DL + factory MOH    (capitalized)
+<span class="num">09</span>Period   =  corporate, sales, customer service, admin    (expensed)
+<span class="num">10</span>Breakeven units  =  Fixed Costs ÷ Unit CM   (round UP)
+<span class="num">11</span>Target-profit units  =  (FC + Target) ÷ Unit CM
+<span class="num">12</span>Stock split = SE unchanged.   Stock repurchase = SE decreases.
+<span class="num">13</span>P/E high  =  market expects future growth   (not current profit)</pre>
+</section>
+
+<p class="pg-end">walk in</p>
+
+</article>
+```

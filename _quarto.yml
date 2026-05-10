@@ -74,31 +74,21 @@ website:
             text: "📅 Visual Timeline"
           - href: ir362/print-pack.qmd
             text: "🖨️ Printable Pack"
-      - text: "📕 ACCT 410"
+      - text: "ACCT 410"
         menu:
-          - href: acct410x/exam-day.qmd
-            text: "🎯 Exam Day Path"
-          - href: acct410x/decision-tree.qmd
-            text: "🔑 Match Question → Formula"
-          - href: acct410x/luxury-examples.qmd
-            text: "🧡 The Luxury Edition"
-          - href: acct410x/practice-walkthrough.qmd
-            text: "📝 Practice Final Walkthrough"
-          - href: acct410x/smallest-version.qmd
-            text: "🌱 Smallest Version"
-          - href: acct410x/formula-bank.qmd
-            text: "📐 Formula Bank"
-          - href: acct410x/cheat-sheet.qmd
-            text: "🧠 Cheat Sheet"
+          - href: acct410x/study.qmd
+            text: "Study (one page)"
           - text: "—— Reference ——"
-          - href: acct410x/index.qmd
-            text: "Overview & Strategy"
-          - href: acct410x/walkthroughs.qmd
-            text: "Transaction Walkthroughs"
-          - href: acct410x/mock-final.qmd
-            text: "Mock Final (older)"
-          - href: acct410x/trap-drills.qmd
-            text: "Trap Drills"
+          - href: acct410x/practice-walkthrough.qmd
+            text: "Practice Final · worked"
+          - href: acct410x/decision-tree.qmd
+            text: "Question → Formula"
+          - href: acct410x/luxury-examples.qmd
+            text: "Luxury examples"
+          - href: acct410x/cheat-sheet.qmd
+            text: "Cheat sheet"
+          - href: acct410x/formula-bank.qmd
+            text: "Formula bank"
           - href: acct410x/print-pack.qmd
             text: "🖨️ Printable Pack"
       - text: "🛍️ Marketing"
@@ -200,19 +190,17 @@ website:
             - ir362/maps.qmd
     - title: "ACCT 410"
       contents:
-        - section: "Cram path"
-          contents:
-            - acct410x/exam-day.qmd
-            - acct410x/decision-tree.qmd
-            - acct410x/luxury-examples.qmd
-            - acct410x/practice-walkthrough.qmd
-            - acct410x/smallest-version.qmd
-            - acct410x/formula-bank.qmd
-            - acct410x/cheat-sheet.qmd
-            - acct410x/day-of.qmd
+        - acct410x/study.qmd
         - section: "Reference"
           contents:
-            - acct410x/index.qmd
+            - acct410x/practice-walkthrough.qmd
+            - acct410x/decision-tree.qmd
+            - acct410x/luxury-examples.qmd
+            - acct410x/cheat-sheet.qmd
+            - acct410x/formula-bank.qmd
+            - acct410x/exam-day.qmd
+            - acct410x/smallest-version.qmd
+            - acct410x/day-of.qmd
             - acct410x/walkthroughs.qmd
             - acct410x/mock-final.qmd
             - acct410x/trap-drills.qmd
