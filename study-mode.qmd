@@ -1,0 +1,465 @@
+---
+title: "Study Mode"
+subtitle: "Quizlet-style focus mode · one card · keyboard + swipe · mastery tracking"
+description: "Single-card study experience with spaced rating (Hard / Good / Easy)"
+order: 0
+toc: false
+section-divs: false
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<div class="sm-shell">
+
+<header class="sm-topbar">
+  <div class="sm-deck-tabs" role="tablist" aria-label="Choose a deck">
+    <button class="sm-tab active" data-deck="ir362" role="tab" aria-selected="true">📘 IR 362</button>
+    <button class="sm-tab" data-deck="acct410x" role="tab">📕 ACCT 410</button>
+    <button class="sm-tab" data-deck="econ205" role="tab">📗 ECON 205</button>
+  </div>
+  <div class="sm-meta">
+    <span id="sm-counter">— / —</span>
+    <span class="sm-dot">·</span>
+    <span id="sm-mastery">— mastered</span>
+  </div>
+</header>
+
+<div class="sm-progressbar"><div id="sm-progressfill"></div></div>
+
+<main class="sm-stage" id="sm-stage" tabindex="0">
+  <div class="sm-card" id="sm-card">
+    <div class="sm-card-inner" id="sm-card-inner">
+      <div class="sm-card-face sm-card-front">
+        <div class="sm-face-label">Question</div>
+        <div class="sm-face-content" id="sm-q">Loading…</div>
+        <div class="sm-tap-hint">Tap card or press <kbd>Space</kbd> to flip</div>
+      </div>
+      <div class="sm-card-face sm-card-back">
+        <div class="sm-face-label">Answer</div>
+        <div class="sm-face-content" id="sm-a"></div>
+        <div class="sm-rate-row">
+          <button class="sm-rate sm-rate-hard" data-rating="hard">
+            <span class="sm-rate-key">1</span><span class="sm-rate-label">Hard</span>
+          </button>
+          <button class="sm-rate sm-rate-good" data-rating="good">
+            <span class="sm-rate-key">2</span><span class="sm-rate-label">Good</span>
+          </button>
+          <button class="sm-rate sm-rate-easy" data-rating="easy">
+            <span class="sm-rate-key">3</span><span class="sm-rate-label">Easy</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sm-controls">
+    <button class="sm-ctrl" id="sm-prev" title="Previous (←)">←</button>
+    <button class="sm-ctrl" id="sm-flip" title="Flip (Space)">↻ Flip</button>
+    <button class="sm-ctrl" id="sm-next" title="Next (→)">→</button>
+  </div>
+
+  <div class="sm-secondary">
+    <button class="sm-link" id="sm-shuffle">Shuffle deck</button>
+    <button class="sm-link" id="sm-reset">Reset deck</button>
+    <button class="sm-link" id="sm-due">Due only</button>
+  </div>
+</main>
+
+<footer class="sm-shortcuts">
+  <kbd>Space</kbd> flip · <kbd>1</kbd> hard · <kbd>2</kbd> good · <kbd>3</kbd> easy · <kbd>←</kbd>/<kbd>→</kbd> nav · <kbd>S</kbd> shuffle · swipe on mobile
+</footer>
+
+<div class="sm-celebrate" id="sm-celebrate" hidden>
+  <div class="sm-cel-card">
+    <div class="sm-cel-emoji">🎉</div>
+    <h2>Deck cleared</h2>
+    <p id="sm-cel-stats">— / — easy · — good · — hard</p>
+    <div class="sm-cel-actions">
+      <button class="sm-cel-btn" id="sm-cel-again">Run it again</button>
+      <button class="sm-cel-btn sm-cel-btn-secondary" id="sm-cel-next">Next deck</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<style>
+.sm-shell {
+  max-width: 820px; margin: 0 auto; padding: .8rem 1rem 2rem;
+  display: flex; flex-direction: column; gap: 1rem;
+}
+.sm-topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+}
+.sm-deck-tabs { display: flex; gap: .35rem; flex-wrap: wrap; }
+.sm-tab {
+  background: transparent; border: 1px solid rgba(0,0,0,.06);
+  padding: .55rem 1rem; border-radius: 999px; cursor: pointer;
+  font-weight: 600; font-size: .9rem; color: #5b5450;
+  transition: all .2s ease;
+}
+.sm-tab:hover { background: rgba(138,36,36,.06); color: #8a2424; border-color: rgba(138,36,36,.25); }
+.sm-tab.active { background: #8a2424; color: #fbf8f3; border-color: #8a2424; box-shadow: 0 4px 12px rgba(138,36,36,.22); }
+.sm-meta { font-size: .82rem; color: #5b5450; font-variant-numeric: tabular-nums; font-weight: 600; }
+.sm-meta .sm-dot { opacity: .35; margin: 0 .35rem; }
+
+.sm-progressbar {
+  height: 4px; width: 100%; background: rgba(0,0,0,.05);
+  border-radius: 999px; overflow: hidden;
+}
+#sm-progressfill {
+  height: 100%; width: 0%;
+  background: linear-gradient(90deg, #8a2424 0%, #d4a437 100%);
+  transition: width .35s cubic-bezier(.4,.2,.2,1);
+}
+
+.sm-stage {
+  display: flex; flex-direction: column; align-items: center; gap: 1rem;
+  outline: none;
+}
+.sm-card {
+  width: 100%; max-width: 720px; aspect-ratio: 16 / 11;
+  perspective: 1400px; cursor: pointer; user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.sm-card-inner {
+  position: relative; width: 100%; height: 100%;
+  transform-style: preserve-3d;
+  transition: transform .55s cubic-bezier(.4,.2,.2,1);
+}
+.sm-card.flipped .sm-card-inner { transform: rotateY(180deg); }
+.sm-card-face {
+  position: absolute; inset: 0;
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  border-radius: 24px; padding: 2rem 2.4rem;
+  display: flex; flex-direction: column; gap: 1rem;
+  box-shadow: 0 16px 48px rgba(45,30,25,.10), 0 4px 12px rgba(45,30,25,.05);
+  border: 1px solid rgba(0,0,0,.06);
+}
+.sm-card-front {
+  background: linear-gradient(180deg, #fefcf8 0%, #fbf6ed 100%);
+}
+.sm-card-back {
+  background: linear-gradient(180deg, rgba(138,36,36,.06) 0%, rgba(212,164,55,.10) 100%);
+  transform: rotateY(180deg);
+}
+.sm-face-label {
+  font-size: .68rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+  color: #8a2424; opacity: .75;
+}
+.sm-card-back .sm-face-label { color: #6b5418; }
+.sm-face-content {
+  flex: 1; display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; font-weight: 600; line-height: 1.45; color: #2b2522;
+  text-align: center; max-height: 100%; overflow-y: auto;
+}
+.sm-face-content strong { color: #8a2424; font-weight: 750; }
+.sm-card-back .sm-face-content { font-size: 1.18rem; font-weight: 500; }
+.sm-tap-hint { text-align: center; font-size: .78rem; color: #5b5450; opacity: .55; }
+.sm-tap-hint kbd {
+  background: rgba(0,0,0,.05); padding: 1px 6px;
+  border-radius: 4px; font-size: .72rem;
+  font-family: ui-monospace, monospace;
+}
+.sm-rate-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: .55rem; margin-top: auto; }
+.sm-rate {
+  display: flex; align-items: center; justify-content: center; gap: .45rem;
+  padding: .85rem 1rem; border-radius: 12px; cursor: pointer;
+  font-weight: 700; font-size: .95rem;
+  transition: transform .15s ease, box-shadow .2s ease;
+  border: 1px solid transparent;
+}
+.sm-rate:hover { transform: translateY(-2px); }
+.sm-rate-key {
+  background: rgba(0,0,0,.10); color: inherit;
+  width: 22px; height: 22px; border-radius: 6px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: ui-monospace, monospace; font-size: .78rem; font-weight: 700;
+}
+.sm-rate-hard { background: rgba(160,64,64,.12); color: #a04040; border-color: rgba(160,64,64,.3); }
+.sm-rate-hard:hover { background: rgba(160,64,64,.20); box-shadow: 0 6px 16px rgba(160,64,64,.18); }
+.sm-rate-good { background: rgba(212,164,55,.18); color: #7e5f1f; border-color: rgba(212,164,55,.4); }
+.sm-rate-good:hover { background: rgba(212,164,55,.28); box-shadow: 0 6px 16px rgba(212,164,55,.22); }
+.sm-rate-easy { background: rgba(139,157,107,.18); color: #5a6a40; border-color: rgba(139,157,107,.4); }
+.sm-rate-easy:hover { background: rgba(139,157,107,.28); box-shadow: 0 6px 16px rgba(139,157,107,.22); }
+
+.sm-controls { display: flex; gap: .6rem; align-items: center; }
+.sm-ctrl {
+  background: #fefcf8; border: 1px solid rgba(0,0,0,.08);
+  border-radius: 999px; padding: .55rem 1.1rem;
+  font-weight: 700; font-size: .92rem; cursor: pointer;
+  color: #5b5450; transition: all .2s ease;
+}
+.sm-ctrl:hover { background: #8a2424; color: #fbf8f3; border-color: #8a2424; transform: translateY(-1px); box-shadow: 0 6px 14px rgba(138,36,36,.18); }
+.sm-secondary {
+  display: flex; gap: 1rem; justify-content: center;
+  font-size: .85rem;
+}
+.sm-link {
+  background: transparent; border: none; cursor: pointer;
+  color: #5b5450; padding: .35rem .55rem; border-radius: 6px;
+  font-size: .85rem; font-weight: 600;
+  transition: color .2s ease, background .2s ease;
+}
+.sm-link:hover { color: #8a2424; background: rgba(138,36,36,.05); }
+.sm-shortcuts {
+  text-align: center; font-size: .78rem; color: #5b5450; opacity: .65;
+  padding-top: .8rem; border-top: 1px solid rgba(0,0,0,.05);
+}
+.sm-shortcuts kbd {
+  background: rgba(0,0,0,.05); padding: 1px 5px;
+  border-radius: 4px; font-size: .72rem;
+  font-family: ui-monospace, monospace; margin: 0 .15rem;
+}
+
+.sm-celebrate {
+  position: fixed; inset: 0;
+  background: rgba(43,37,34,.6); backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9990; padding: 1rem;
+}
+.sm-cel-card {
+  background: #fefcf8; border-radius: 24px;
+  padding: 2.4rem 2.6rem; max-width: 460px; width: 100%; text-align: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,.3);
+  animation: sm-cel-in .35s cubic-bezier(.4,.2,.2,1);
+}
+@keyframes sm-cel-in { from { opacity: 0; transform: scale(.9); } to { opacity: 1; transform: scale(1); } }
+.sm-cel-emoji { font-size: 3.6rem; margin-bottom: .4rem; }
+.sm-cel-card h2 { font-size: 1.7rem; margin: 0 0 .35rem; color: #8a2424; font-weight: 800; }
+.sm-cel-card p { font-size: 1rem; color: #5b5450; margin: 0 0 1.6rem; }
+.sm-cel-actions { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; }
+.sm-cel-btn {
+  background: #8a2424; color: #fbf8f3; border: none;
+  padding: .8rem 1.4rem; border-radius: 999px;
+  font-weight: 700; font-size: .95rem; cursor: pointer;
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+.sm-cel-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(138,36,36,.25); }
+.sm-cel-btn-secondary { background: rgba(0,0,0,.05); color: #5b5450; }
+.sm-cel-btn-secondary:hover { background: rgba(0,0,0,.10); box-shadow: 0 8px 22px rgba(0,0,0,.10); }
+
+body.quarto-dark .sm-card-front {
+  background: linear-gradient(180deg, #1c2128 0%, #161a20 100%);
+  border-color: rgba(255,255,255,.06);
+}
+body.quarto-dark .sm-card-back {
+  background: linear-gradient(180deg, rgba(212,164,55,.12) 0%, rgba(138,36,36,.18) 100%);
+}
+body.quarto-dark .sm-face-content { color: #f5e9df; }
+body.quarto-dark .sm-tab { color: #c8c0bc; border-color: rgba(255,255,255,.08); }
+body.quarto-dark .sm-ctrl { background: #1f242c; color: #c8c0bc; border-color: rgba(255,255,255,.08); }
+body.quarto-dark .sm-cel-card { background: #1f242c; }
+body.quarto-dark .sm-cel-card h2 { color: #f5b96b; }
+body.quarto-dark .sm-cel-card p { color: #c8c0bc; }
+
+@media (max-width: 600px) {
+  .sm-card { aspect-ratio: 4 / 5; }
+  .sm-face-content { font-size: 1.15rem; }
+  .sm-card-back .sm-face-content { font-size: 1rem; }
+  .sm-card-face { padding: 1.4rem 1.5rem; border-radius: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sm-card-inner { transition: none; }
+  .sm-cel-card { animation: none; }
+}
+</style>
+
+<script>
+(function(){
+  const ROOT = (() => {
+    const a = document.querySelector(".navbar a[href$='index.html'], .navbar a[href$='/']");
+    return a ? a.getAttribute("href").replace(/index\.html$/, "") : "./";
+  })();
+
+  const STATE_KEY = "studyhub_sm_v1";
+  const TABS = document.querySelectorAll(".sm-tab");
+  const Q = document.getElementById("sm-q");
+  const A = document.getElementById("sm-a");
+  const CARD = document.getElementById("sm-card");
+  const COUNTER = document.getElementById("sm-counter");
+  const MASTERY = document.getElementById("sm-mastery");
+  const FILL = document.getElementById("sm-progressfill");
+  const STAGE = document.getElementById("sm-stage");
+  const CEL = document.getElementById("sm-celebrate");
+
+  let allCards = [];
+  let deck = "ir362";
+  let order = [];
+  let idx = 0;
+  let state = {};
+  let stats = { hard: 0, good: 0, easy: 0 };
+  let dueOnly = false;
+
+  // Convert markdown-ish strong syntax to HTML
+  function md(text){
+    return text
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.+?)\*/g, "<em>$1</em>");
+  }
+
+  function loadState(){
+    try { state = JSON.parse(localStorage.getItem(STATE_KEY)) || {}; }
+    catch(e) { state = {}; }
+  }
+  function saveState(){
+    try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch(e){}
+  }
+
+  function deckCards(){
+    return allCards.filter(c => c.deck === deck);
+  }
+
+  function buildOrder(){
+    const cards = deckCards();
+    const due = cards.filter(c => !state[c.id] || state[c.id] === "hard");
+    if (dueOnly && due.length) order = due.slice();
+    else order = cards.slice();
+    // missed-first
+    order.sort((a, b) => {
+      const ar = state[a.id] || "new"; const br = state[b.id] || "new";
+      const w = { hard: 0, new: 1, good: 2, easy: 3 };
+      return (w[ar] ?? 1) - (w[br] ?? 1);
+    });
+    idx = 0;
+  }
+
+  function shuffle(){
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+    idx = 0; render();
+  }
+
+  function render(){
+    const cards = deckCards();
+    const mastered = cards.filter(c => state[c.id] === "easy" || state[c.id] === "good").length;
+    MASTERY.textContent = `${mastered} mastered`;
+    if (!order.length) {
+      Q.innerHTML = "Empty deck.";
+      A.innerHTML = "";
+      COUNTER.textContent = "0 / 0";
+      FILL.style.width = "0%";
+      return;
+    }
+    const card = order[idx];
+    Q.innerHTML = md(card.q);
+    A.innerHTML = md(card.a);
+    COUNTER.textContent = `${idx + 1} / ${order.length}`;
+    FILL.style.width = `${((idx + 1) / order.length) * 100}%`;
+    CARD.classList.remove("flipped");
+  }
+
+  function flip(){ CARD.classList.toggle("flipped"); }
+
+  function next(){
+    if (idx < order.length - 1) { idx++; render(); }
+    else { celebrate(); }
+  }
+  function prev(){
+    if (idx > 0) { idx--; render(); }
+  }
+
+  function rate(rating){
+    const card = order[idx];
+    if (!card) return;
+    state[card.id] = rating;
+    stats[rating] = (stats[rating] || 0) + 1;
+    saveState();
+    next();
+  }
+
+  function celebrate(){
+    document.getElementById("sm-cel-stats").textContent =
+      `${order.length} cards · ${stats.easy} easy · ${stats.good} good · ${stats.hard} hard`;
+    CEL.hidden = false;
+    if (window.shConfetti) window.shConfetti();
+  }
+  document.getElementById("sm-cel-again").addEventListener("click", () => {
+    stats = { hard: 0, good: 0, easy: 0 };
+    buildOrder(); render(); CEL.hidden = true;
+  });
+  document.getElementById("sm-cel-next").addEventListener("click", () => {
+    const decks = ["ir362", "acct410x", "econ205"];
+    const i = decks.indexOf(deck);
+    deck = decks[(i + 1) % decks.length];
+    setActiveTab(); stats = { hard: 0, good: 0, easy: 0 };
+    buildOrder(); render(); CEL.hidden = true;
+  });
+
+  function setActiveTab(){
+    TABS.forEach(t => {
+      const a = t.dataset.deck === deck;
+      t.classList.toggle("active", a);
+      t.setAttribute("aria-selected", a ? "true" : "false");
+    });
+  }
+  TABS.forEach(t => t.addEventListener("click", () => {
+    deck = t.dataset.deck; setActiveTab(); stats = { hard: 0, good: 0, easy: 0 };
+    buildOrder(); render();
+  }));
+
+  CARD.addEventListener("click", flip);
+  document.getElementById("sm-flip").addEventListener("click", flip);
+  document.getElementById("sm-next").addEventListener("click", next);
+  document.getElementById("sm-prev").addEventListener("click", prev);
+  document.getElementById("sm-shuffle").addEventListener("click", shuffle);
+  document.getElementById("sm-reset").addEventListener("click", () => {
+    if (!confirm("Reset progress for this deck?")) return;
+    deckCards().forEach(c => { delete state[c.id]; });
+    saveState(); buildOrder(); render();
+    if (window.shToast) window.shToast("Deck reset");
+  });
+  document.getElementById("sm-due").addEventListener("click", () => {
+    dueOnly = !dueOnly; buildOrder(); render();
+    if (window.shToast) window.shToast(dueOnly ? "Showing due only" : "Showing all");
+  });
+  document.querySelectorAll(".sm-rate").forEach(b => {
+    b.addEventListener("click", e => { e.stopPropagation(); rate(b.dataset.rating); });
+  });
+
+  document.addEventListener("keydown", e => {
+    const tag = (e.target?.tagName || "").toLowerCase();
+    if (tag === "input" || tag === "textarea" || tag === "select" || e.target?.isContentEditable) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (CEL.hidden === false) return;
+    if (e.key === " ") { e.preventDefault(); flip(); }
+    else if (e.key === "ArrowRight") { e.preventDefault(); next(); }
+    else if (e.key === "ArrowLeft") { e.preventDefault(); prev(); }
+    else if (e.key === "1") { rate("hard"); }
+    else if (e.key === "2") { rate("good"); }
+    else if (e.key === "3") { rate("easy"); }
+    else if (e.key.toLowerCase() === "s") { shuffle(); }
+  });
+
+  // Touch swipe
+  let touchX = null;
+  STAGE.addEventListener("touchstart", e => { touchX = e.touches[0].clientX; }, { passive: true });
+  STAGE.addEventListener("touchend", e => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 60) { dx < 0 ? next() : prev(); }
+    touchX = null;
+  });
+
+  // Load card data
+  fetch(ROOT + "assets/js/flashcard-data.json")
+    .then(r => r.json())
+    .then(data => {
+      allCards = data;
+      loadState();
+      buildOrder();
+      render();
+    })
+    .catch(err => {
+      Q.innerHTML = "Could not load deck data.";
+      console.error(err);
+    });
+})();
+</script>
+```

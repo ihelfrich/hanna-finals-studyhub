@@ -125,6 +125,8 @@ website:
             text: "🖨️ Printable Pack"
       - text: "🛠 Tools"
         menu:
+          - href: study-mode.qmd
+            text: "🎴 Study Mode (focus)"
           - href: cram-sprint.qmd
             text: "🏃 Cram Sprint"
           - href: quick-fire.qmd
@@ -132,7 +134,7 @@ website:
           - href: memorize-cold.qmd
             text: "🧠 Memorize Cold"
           - href: flashcards.qmd
-            text: "🃏 Flashcards"
+            text: "🃏 Flashcards (grid)"
           - href: connections.qmd
             text: "🔗 Cross-Course Connections"
           - href: glossary.qmd
