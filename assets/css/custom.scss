@@ -1966,3 +1966,248 @@ body.sh-large .eday-hero h1,
 body.sh-large .lx-hero h1 {
   font-size: 2.4rem;
 }
+
+/* ============================================================
+   TYPE SYSTEM — editorial, calm, refined
+   Newsreader serif for headings + body reading.
+   Inter for UI / labels / buttons.
+   JetBrains Mono for formulas + code.
+   Loaded via Google Fonts in <head>.
+   ============================================================ */
+
+:root {
+  --sh-font-serif: "Newsreader", Charter, "Iowan Old Style", "Apple Garamond", Georgia, serif;
+  --sh-font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sh-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Body — sans by default, used for UI. Article body switches to serif. */
+body {
+  font-family: var(--sh-font-sans);
+  font-feature-settings: "ss01", "cv01", "cv11";
+  font-optical-sizing: auto;
+  letter-spacing: -0.005em;
+}
+
+/* Article body and prose — Newsreader serif. */
+body main p,
+body main li,
+body main blockquote,
+body main td:not(.lx-mc-num):not(.lx-mc-q),
+body main .stop p,
+body main .essay-block p,
+body main .essay-bloc p,
+body main .sample-answer p,
+body main .smallstory,
+body main .recitation .cadence,
+body main .lx-section p,
+body main .palace-scene p,
+body main .actor-cell .row span:last-child,
+body main .vivid-frame p,
+body main .frame-card .frame-claim,
+body main .sb-card p:not(.sb-tag) {
+  font-family: var(--sh-font-serif);
+  font-size: 1.06rem;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Display headings — large serif with character */
+body main h1,
+body main h2,
+body main h3,
+body .hero h1,
+body .eday-hero h1,
+body .lx-hero h1,
+body .focus-hero h2,
+body .active-target h2 {
+  font-family: var(--sh-font-serif);
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  font-feature-settings: "ss01";
+}
+
+body main h1 { font-size: 2.4rem; line-height: 1.1; margin-top: 0; }
+body main h2 { font-size: 1.7rem; line-height: 1.2; margin-top: 2.2rem; margin-bottom: .65rem; font-weight: 600; }
+body main h3 { font-size: 1.25rem; line-height: 1.25; margin-top: 1.6rem; margin-bottom: .4rem; font-weight: 600; }
+
+/* Subtitle italic */
+body main .quarto-title .subtitle,
+body main .subtitle {
+  font-family: var(--sh-font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: var(--sh-ink-soft, #5b5450);
+  letter-spacing: 0;
+  margin-top: .25rem;
+}
+
+/* UI elements — sans */
+body .navbar,
+body .sidebar,
+body .ct-card,
+body .quick-tile,
+body .countdown-card,
+body .focus-card,
+body .stop-header,
+body button,
+body .badge,
+body .dt-card .dt-trigger,
+body .dt-kw,
+body .fb-tag,
+body .recipe-tag,
+body .bloc-tag,
+body .bloc-pill,
+body .sm-tab,
+body .sm-rate,
+body .sm-ctrl,
+body .lx-mc-trap,
+body kbd,
+body .ef-num,
+body .stop-num,
+body .q-num,
+body .effort-badge,
+body .at-eyebrow,
+body .ct-label,
+body .lx-eyebrow,
+body .at-cta,
+body .focus-meter span,
+body .timer-controls button,
+body .lx-rule-tag,
+body .chanel-tag,
+body .recipe-prompt,
+body .frame-meta .frame-work,
+body .ef-card p,
+body .quick-tile p,
+body .countdown-card .item .when,
+body .ct-meta {
+  font-family: var(--sh-font-sans);
+  letter-spacing: -0.005em;
+}
+
+/* Code + formulas — JetBrains Mono */
+body code,
+body pre,
+body .lx-formula,
+body .cfo-recipe pre,
+body .sketch,
+body .scaffold,
+body .fb-formula {
+  font-family: var(--sh-font-mono);
+  font-feature-settings: "ss02", "ss03", "calt";
+}
+
+/* Display flourishes for the luxury page hero — keep distinct */
+body .lx-hero h1,
+body .lx-section h2,
+body .lx-section .lx-roman,
+body .lx-divider,
+body .lx-mc .lx-mc-num {
+  font-family: "Newsreader", "Didot", "Bodoni 72", Georgia, serif;
+}
+body .lx-hero h1 { font-weight: 500; letter-spacing: -0.015em; }
+body .lx-section h2 { font-weight: 500; }
+
+/* Heading first-letter elegance on long-form sections */
+body main .essay-block p:first-of-type::first-letter,
+body main .smallstory p:first-of-type::first-letter {
+  font-family: var(--sh-font-serif);
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+/* Numbers and dates — tabular */
+body .stat-row .num,
+body .countdown-card .days,
+body .timer-display,
+body .finger-year,
+body .memo-card .memo-date,
+body .frame-card .frame-cite,
+body .eday-step .num,
+body .sm-progressbar,
+body #sm-counter,
+body .sm-meta,
+body .lx-formula-result {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Tighten and clean nav */
+body .navbar {
+  font-family: var(--sh-font-sans);
+  font-weight: 500;
+  font-size: .92rem;
+}
+body .navbar .navbar-title,
+body .navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Sidebar items — sans, smaller, clean */
+body .sidebar-item .sidebar-link {
+  font-family: var(--sh-font-sans);
+  font-size: .9rem;
+  font-weight: 500;
+}
+body .sidebar-item-section > .sidebar-item-container .sidebar-link {
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 700;
+  color: var(--sh-ink-soft, #5b5450);
+}
+
+/* Page Title block */
+body #title-block-header h1.title {
+  font-family: var(--sh-font-serif);
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.05;
+  margin-bottom: .15rem;
+}
+
+/* Body text width — comfortable reading column */
+body main {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.quarto-grid-widebody main { max-width: 920px; }
+
+/* Block quotes */
+body main blockquote {
+  font-family: var(--sh-font-serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  border-left: 3px solid var(--sh-burgundy, #7a1f1f);
+  padding: .25rem 0 .25rem 1.4rem;
+  color: var(--sh-ink-soft, #5b5450);
+  line-height: 1.6;
+}
+
+/* Improve link underlines — subtle */
+body main a:not(.cram-button):not(.quick-tile):not(.ct-card):not(.sb-card):not(.ef-card):not(.dt-card):not(.fb-card):not(.lx-mc) {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(122, 31, 31, 0.35);
+  transition: text-decoration-color 0.2s ease;
+}
+body main a:hover {
+  text-decoration-color: var(--sh-burgundy, #7a1f1f);
+}
+
+/* Cleaner table typography */
+body main table {
+  font-family: var(--sh-font-sans);
+  font-size: .94rem;
+}
+body main table th {
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+}
