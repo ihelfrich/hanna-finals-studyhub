@@ -150,68 +150,201 @@ format:
   </div>
 </div>
 
-<section class="cram-shortcut-section">
-  <h2>🚨 Cram-mode shortcuts</h2>
-  <p class="sub">When the exam is hours away. Pick one — go.</p>
-  <div class="cram-buttons">
-    <a href="ir362/smallest-version.html" class="cram-button" style="border-color:#2e7d32;color:#2e7d32;">
-      <div class="emoji">🌱</div>
-      <h4>The Smallest Version</h4>
-      <p>If you only have 5 minutes · 6 dates as a story · hand mnemonic · 3 frames · 1 thesis</p>
-    </a>
-    <a href="ir362/sentence-bank.html" class="cram-button" style="border-color:#2563eb;color:#2563eb;">
-      <div class="emoji">💬</div>
-      <h4>The Sentence Bank</h4>
-      <p>~30 pre-built sentences by function · openers · evidence · frames · counter+rebuttal · closers</p>
-    </a>
-    <a href="ir362/the-essay.html" class="cram-button">
-      <div class="emoji">✍️</div>
-      <h4>The Essay (memorize)</h4>
-      <p>9 modular blocks · 6 recipe cards · pick the recipe and write</p>
-    </a>
-    <a href="ir362/slides-vii-plus.html" class="cram-button">
-      <div class="emoji">📌</div>
-      <h4>Hammad's Slides VII Plus</h4>
-      <p>What he's pointing at · 6 most likely prompts · with full outlines</p>
-    </a>
-    <a href="ir362/exam-day.html" class="cram-button">
-      <div class="emoji">🎯</div>
-      <h4>IR — Exam Day Path</h4>
-      <p>Six steps in order · drills → walkthrough → outline → cram → walk → walk in</p>
-    </a>
-    <a href="ir362/memorize.html" class="cram-button">
-      <div class="emoji">💎</div>
-      <h4>IR — Memorize Now</h4>
-      <p>10 dates · 4 frames · 4 actors · 3 throughlines · 1 sentence · timed drills</p>
-    </a>
-    <a href="ir362/walkthrough.html" class="cram-button">
-      <div class="emoji">📖</div>
-      <h4>IR — The Walkthrough</h4>
-      <p>The whole exam in 8 stops · 75 min · images, story, fill-ins, game-theory</p>
-    </a>
-    <a href="ir362/final-run.html" class="cram-button">
-      <div class="emoji">🏃</div>
-      <h4>IR Final Run</h4>
-      <p>Quick low-clutter path · timer · drills · essay spine</p>
-    </a>
-    <a href="cram-sprint.html" class="cram-button">
-      <div class="emoji">🏃</div>
-      <h4>Cram Sprint</h4>
-      <p>Time-budgeted sequencer · 30 / 60 / 90 min · panic mode</p>
-    </a>
-    <a href="quick-fire.html" class="cram-button">
-      <div class="emoji">🔥</div>
-      <h4>Quick-Fire Quiz</h4>
-      <p>20 random questions · 30s each · score + weak topic</p>
-    </a>
-    <a href="memorize-cold.html" class="cram-button">
-      <div class="emoji">🧠</div>
-      <h4>Memorize Cold</h4>
-      <p>The irreducible facts per course — minimum viable knowledge</p>
-    </a>
+<section class="active-target">
+  <div class="at-eyebrow">Right now · resume here</div>
+  <a href="ir362/exam-day.html" class="at-link">
+    <div class="at-content">
+      <h2>📘 IR 362 — Exam Day Path</h2>
+      <p>Six ordered steps. Memorize → walkthrough → outline → cram → walk → walk in.</p>
+    </div>
+    <div class="at-cta">Resume →</div>
+  </a>
+</section>
+
+<section class="cram-tiers">
+  <h2 class="ct-title">Cram path</h2>
+  <p class="ct-sub">Three tiers, in order of compression. Start at the smallest version; expand only if you have time.</p>
+
+  <div class="ct-tier ct-tier-1">
+    <div class="ct-label">Tier 1 · The Minimums</div>
+    <div class="ct-row">
+      <a href="ir362/smallest-version.html" class="ct-card ct-card-large gradient-card">
+        <div class="ct-emoji">🌱</div>
+        <div class="ct-name">Smallest Version (IR)</div>
+        <div class="ct-meta">5 min · 6 dates · hand mnemonic</div>
+      </a>
+      <a href="acct410x/smallest-version.html" class="ct-card ct-card-large gradient-card">
+        <div class="ct-emoji">📐</div>
+        <div class="ct-name">Smallest Version (ACCT)</div>
+        <div class="ct-meta">5 sections · 5 formula chains · 5 rules</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="ct-tier ct-tier-2">
+    <div class="ct-label">Tier 2 · The Drill</div>
+    <div class="ct-row">
+      <a href="ir362/exam-day.html" class="ct-card">
+        <div class="ct-emoji">🎯</div>
+        <div class="ct-name">IR Exam Day Path</div>
+      </a>
+      <a href="acct410x/exam-day.html" class="ct-card">
+        <div class="ct-emoji">🎯</div>
+        <div class="ct-name">ACCT Exam Day Path</div>
+      </a>
+      <a href="ir362/walkthrough.html" class="ct-card">
+        <div class="ct-emoji">📖</div>
+        <div class="ct-name">IR Walkthrough (75 min)</div>
+      </a>
+      <a href="acct410x/practice-walkthrough.html" class="ct-card">
+        <div class="ct-emoji">📝</div>
+        <div class="ct-name">ACCT Practice Walkthrough</div>
+      </a>
+      <a href="ir362/memorize.html" class="ct-card">
+        <div class="ct-emoji">💎</div>
+        <div class="ct-name">IR Memorize Now</div>
+      </a>
+      <a href="acct410x/decision-tree.html" class="ct-card">
+        <div class="ct-emoji">🔑</div>
+        <div class="ct-name">ACCT Match → Formula</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="ct-tier ct-tier-3">
+    <div class="ct-label">Tier 3 · The Banks</div>
+    <div class="ct-row">
+      <a href="ir362/sentence-bank.html" class="ct-card">
+        <div class="ct-emoji">💬</div>
+        <div class="ct-name">IR Sentence Bank</div>
+      </a>
+      <a href="ir362/the-essay.html" class="ct-card">
+        <div class="ct-emoji">✍️</div>
+        <div class="ct-name">IR The Essay (modular)</div>
+      </a>
+      <a href="ir362/slides-vii-plus.html" class="ct-card">
+        <div class="ct-emoji">📌</div>
+        <div class="ct-name">Hammad's Slides VII Plus</div>
+      </a>
+      <a href="acct410x/formula-bank.html" class="ct-card">
+        <div class="ct-emoji">📐</div>
+        <div class="ct-name">ACCT Formula Bank</div>
+      </a>
+      <a href="flashcards.html" class="ct-card">
+        <div class="ct-emoji">🃏</div>
+        <div class="ct-name">75 Flashcards</div>
+      </a>
+      <a href="quick-fire.html" class="ct-card">
+        <div class="ct-emoji">🔥</div>
+        <div class="ct-name">Quick-Fire Quiz</div>
+      </a>
+    </div>
   </div>
 </section>
 ```
+
+<style>
+.active-target {
+  margin: 1.5rem 0 1.8rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(138,36,36,.06) 0%, rgba(212,164,55,.08) 100%);
+  border: 1px solid rgba(138,36,36,.18);
+  overflow: hidden;
+  position: relative;
+}
+.active-target::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, #8a2424 0%, #d4a437 100%);
+}
+.active-target .at-eyebrow {
+  padding: .9rem 1.4rem .15rem; font-size: .72rem; font-weight: 800;
+  letter-spacing: .12em; text-transform: uppercase; color: #8a2424;
+}
+.active-target .at-link {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: .35rem 1.4rem 1.2rem;
+  text-decoration: none; color: inherit;
+  transition: background .2s ease;
+}
+.active-target .at-link:hover { background: rgba(138,36,36,.04); }
+.active-target h2 { margin: .15rem 0 .25rem; font-size: 1.4rem; color: #2b2522; font-weight: 750; letter-spacing: -0.01em; }
+.dark .active-target h2 { color: #f5e9df; }
+.active-target p { margin: 0; color: #5b5450; font-size: .98rem; line-height: 1.5; }
+.dark .active-target p { color: #c8c0bc; }
+.active-target .at-cta {
+  background: #8a2424; color: #fbf8f3;
+  padding: .5rem 1.05rem; border-radius: 999px;
+  font-weight: 700; font-size: .9rem;
+  white-space: nowrap; flex-shrink: 0; margin-left: 1rem;
+  box-shadow: 0 4px 12px rgba(138,36,36,.22);
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+.active-target .at-link:hover .at-cta {
+  transform: translateX(2px); box-shadow: 0 6px 16px rgba(138,36,36,.28);
+}
+
+.cram-tiers { margin: 2rem 0 1.5rem; }
+.cram-tiers .ct-title { font-size: 1.4rem; margin: 0 0 .25rem; color: #2b2522; letter-spacing: -0.01em; }
+.dark .cram-tiers .ct-title { color: #f5e9df; }
+.cram-tiers .ct-sub { color: #5b5450; margin: 0 0 1.4rem; font-size: .95rem; }
+.dark .cram-tiers .ct-sub { color: #c8c0bc; }
+
+.ct-tier { margin: 1.4rem 0; }
+.ct-label {
+  font-size: .68rem; font-weight: 800;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: #8a6d00; margin-bottom: .65rem;
+}
+.ct-tier-2 .ct-label { color: #5a6a40; }
+.ct-tier-3 .ct-label { color: #5b5450; }
+
+.ct-row {
+  display: grid; gap: .7rem;
+}
+.ct-tier-1 .ct-row {
+  grid-template-columns: 1fr 1fr;
+}
+.ct-tier-2 .ct-row {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.ct-tier-3 .ct-row {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  opacity: .92;
+}
+@media (max-width: 600px) {
+  .ct-tier-1 .ct-row { grid-template-columns: 1fr; }
+}
+
+.ct-card {
+  display: flex; flex-direction: column;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 12px;
+  background: #fefcf8;
+  text-decoration: none; color: #2b2522;
+  transition: transform .18s ease, box-shadow .25s ease, border-color .2s ease;
+  box-shadow: 0 2px 8px rgba(45,30,25,.04);
+}
+.dark .ct-card { background: #1a1f27; color: #e8e8e8; border-color: rgba(255,255,255,.06); }
+.ct-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(45,30,25,.10);
+  border-color: rgba(138,36,36,.35);
+}
+.ct-card-large {
+  padding: 1.5rem 1.7rem;
+  background: linear-gradient(135deg, rgba(138,36,36,.04), rgba(212,164,55,.05));
+}
+.ct-card-large .ct-emoji { font-size: 2.2rem; }
+.ct-card-large .ct-name { font-size: 1.15rem; }
+.ct-card-large .ct-meta { font-size: .88rem; }
+
+.ct-emoji { font-size: 1.55rem; line-height: 1; margin-bottom: .35rem; }
+.ct-name { font-weight: 700; font-size: .98rem; color: #8a2424; margin-bottom: .15rem; }
+.dark .ct-name { color: #f5b96b; }
+.ct-meta { font-size: .82rem; color: #5b5450; line-height: 1.4; }
+.dark .ct-meta { color: #c8c0bc; }
+</style>
 
 ## What's on the site
 
@@ -277,21 +410,6 @@ format:
     <h4>ECON 205</h4>
     <p>5-day plan · cram sheet · 60-Q recall bank · 2 mock exams · 25 killer traps · 10 diagrams · 117-problem chapter bank.</p>
   </a>
-</div>
-```
-
-## What's already in here
-
-```{=html}
-<div class="stat-row">
-  <div class="stat"><div class="num">~50K</div><div class="lbl">words written</div></div>
-  <div class="stat"><div class="num">17,000</div><div class="lbl">words deep research</div></div>
-  <div class="stat"><div class="num">75</div><div class="lbl">flashcards</div></div>
-  <div class="stat"><div class="num">117</div><div class="lbl">ECON practice problems</div></div>
-  <div class="stat"><div class="num">40</div><div class="lbl">ACCT trap drills</div></div>
-  <div class="stat"><div class="num">5</div><div class="lbl">mock IR 362 essays</div></div>
-  <div class="stat"><div class="num">10</div><div class="lbl">macro diagrams</div></div>
-  <div class="stat"><div class="num">8</div><div class="lbl">primary sources</div></div>
 </div>
 ```
 

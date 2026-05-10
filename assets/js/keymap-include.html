@@ -165,4 +165,273 @@
     animation: hero-drift 22s ease-in-out infinite;
   }
 }
+
+/* ============================================================
+   Wave 24 — interactive enhancements (calm + modern)
+   ============================================================ */
+
+/* Top reading progress bar */
+#sh-progress {
+  position: fixed; top: 0; left: 0; right: 0; height: 3px;
+  z-index: 9998; background: transparent; pointer-events: none;
+}
+#sh-progress-fill {
+  height: 100%; width: 0%;
+  background: linear-gradient(90deg, #8a2424 0%, #d4a437 50%, #8b9d6b 100%);
+  transition: width .15s ease-out;
+  box-shadow: 0 0 8px rgba(138,36,36,.35);
+}
+
+/* Floating mini-toolbar (bottom-left) */
+.sh-fab-stack {
+  position: fixed; bottom: 18px; left: 18px;
+  display: flex; flex-direction: column; gap: 8px;
+  z-index: 99;
+}
+.sh-fab {
+  width: 42px; height: 42px; border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.06);
+  background: rgba(254,252,248,.92); backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 14px rgba(45,30,25,.10);
+  cursor: pointer; font-size: 1.05rem;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .15s ease, box-shadow .2s ease, background .2s ease;
+  color: #5b5450;
+}
+.sh-fab:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 18px rgba(45,30,25,.16);
+  background: #fff;
+  color: #8a2424;
+}
+.sh-fab.active {
+  background: #8a2424; color: #fbf8f3;
+  border-color: #8a2424;
+}
+body.quarto-dark .sh-fab {
+  background: rgba(20,24,30,.92); border-color: rgba(255,255,255,.08);
+  color: #c8c0bc;
+}
+body.quarto-dark .sh-fab:hover { background: #1f242c; color: #f5d063; }
+
+/* Focus mode — minimal chrome */
+body.sh-focus .navbar { opacity: 0.15; transition: opacity .2s ease; }
+body.sh-focus .navbar:hover { opacity: 1; }
+body.sh-focus .sidebar.sidebar-navigation { opacity: 0.15; transition: opacity .2s ease; }
+body.sh-focus .sidebar.sidebar-navigation:hover { opacity: 1; }
+body.sh-focus .page-footer,
+body.sh-focus .quarto-margin-sidebar,
+body.sh-focus #quarto-margin-sidebar { display: none; }
+body.sh-focus main { max-width: 760px; margin: 0 auto; }
+
+/* Reading-density toggle — large mode */
+body.sh-large main { font-size: 1.12rem; line-height: 1.75; }
+body.sh-large main h1 { font-size: 2.2rem; }
+body.sh-large main h2 { font-size: 1.55rem; }
+body.sh-large main h3 { font-size: 1.25rem; }
+body.sh-large main p, body.sh-large main li { line-height: 1.8; }
+
+/* Toast notifications */
+#sh-toast-container {
+  position: fixed; bottom: 18px; left: 50%;
+  transform: translateX(-50%);
+  z-index: 9997; display: flex; flex-direction: column-reverse;
+  gap: 8px; pointer-events: none; max-width: 90vw;
+}
+.sh-toast {
+  background: rgba(43,37,34,.95); color: #fbf8f3;
+  padding: .75rem 1.1rem; border-radius: 999px;
+  font-size: .9rem; font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0,0,0,.20);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  animation: sh-toast-in .25s ease-out both;
+  border: 1px solid rgba(255,255,255,.08);
+}
+.sh-toast.fade { animation: sh-toast-out .35s ease-in both; }
+@keyframes sh-toast-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes sh-toast-out { from { opacity: 1; } to { opacity: 0; transform: translateY(8px); } }
+
+/* Gradient-border cards (utility class) */
+.gradient-card {
+  position: relative; isolation: isolate;
+  border-radius: var(--calm-radius, 14px);
+  background: var(--calm-paper, #fefcf8);
+  padding: 1.1rem 1.3rem;
+  box-shadow: var(--calm-shadow, 0 2px 12px rgba(45,30,25,.04));
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+.gradient-card::before {
+  content: ""; position: absolute; inset: 0;
+  border-radius: inherit; padding: 1.5px;
+  background: linear-gradient(135deg, #8a2424 0%, #d4a437 50%, #8b9d6b 100%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+  pointer-events: none;
+}
+.gradient-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(138,36,36,.10);
+}
+
+/* Confetti container respects reduced-motion via JS guard */
+#sh-confetti-canvas {
+  position: fixed; inset: 0; pointer-events: none; z-index: 9996;
+}
 </style>
+<script>
+/* Wave 24 — interactive enhancements */
+(function(){
+  if (typeof document === "undefined") return;
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // ---------- Top reading-progress bar ----------
+  function makeProgress(){
+    const bar = document.createElement("div"); bar.id = "sh-progress";
+    const fill = document.createElement("div"); fill.id = "sh-progress-fill";
+    bar.appendChild(fill); document.body.appendChild(bar);
+    function tick(){
+      const h = document.documentElement;
+      const max = (h.scrollHeight - h.clientHeight) || 1;
+      const p = Math.min(100, (h.scrollTop || window.scrollY) / max * 100);
+      fill.style.width = p.toFixed(2) + "%";
+    }
+    let raf = 0;
+    window.addEventListener("scroll", () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => { tick(); raf = 0; });
+    }, { passive: true });
+    tick();
+  }
+
+  // ---------- Floating toolbar ----------
+  function makeFAB(){
+    const stack = document.createElement("div"); stack.className = "sh-fab-stack";
+    function btn(emoji, title, onclick, key){
+      const b = document.createElement("button");
+      b.className = "sh-fab"; b.title = title; b.textContent = emoji;
+      b.dataset.shKey = key || "";
+      b.addEventListener("click", onclick);
+      return b;
+    }
+
+    // Focus mode
+    const focusBtn = btn("⊙", "Focus mode (F)", () => {
+      document.body.classList.toggle("sh-focus");
+      focusBtn.classList.toggle("active", document.body.classList.contains("sh-focus"));
+      try { localStorage.setItem("sh_focus", document.body.classList.contains("sh-focus") ? "1" : "0"); } catch(e){}
+      toast(document.body.classList.contains("sh-focus") ? "Focus mode on" : "Focus mode off");
+    }, "f");
+
+    // Larger reading
+    const largeBtn = btn("Aa", "Larger text (L)", () => {
+      document.body.classList.toggle("sh-large");
+      largeBtn.classList.toggle("active", document.body.classList.contains("sh-large"));
+      try { localStorage.setItem("sh_large", document.body.classList.contains("sh-large") ? "1" : "0"); } catch(e){}
+      toast(document.body.classList.contains("sh-large") ? "Larger text" : "Default text");
+    }, "l");
+
+    stack.appendChild(focusBtn);
+    stack.appendChild(largeBtn);
+    document.body.appendChild(stack);
+
+    // Restore state
+    try {
+      if (localStorage.getItem("sh_focus") === "1") { document.body.classList.add("sh-focus"); focusBtn.classList.add("active"); }
+      if (localStorage.getItem("sh_large") === "1") { document.body.classList.add("sh-large"); largeBtn.classList.add("active"); }
+    } catch(e){}
+
+    // Keyboard shortcuts for these toggles
+    document.addEventListener("keydown", (e) => {
+      const t = (e.target?.tagName || "").toLowerCase();
+      if (t === "input" || t === "textarea" || t === "select" || e.target?.isContentEditable) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === "f" && !e.shiftKey) { focusBtn.click(); }
+      else if (e.key === "l" && !e.shiftKey) { largeBtn.click(); }
+    });
+  }
+
+  // ---------- Toasts ----------
+  function getToastContainer(){
+    let c = document.getElementById("sh-toast-container");
+    if (!c) { c = document.createElement("div"); c.id = "sh-toast-container"; document.body.appendChild(c); }
+    return c;
+  }
+  function toast(msg, ms){
+    const c = getToastContainer();
+    const t = document.createElement("div"); t.className = "sh-toast"; t.textContent = msg;
+    c.appendChild(t);
+    setTimeout(() => { t.classList.add("fade"); setTimeout(() => t.remove(), 350); }, ms || 1800);
+  }
+  window.shToast = toast;
+
+  // ---------- Mini confetti ----------
+  function confetti(){
+    if (reduce) return;
+    const canvas = document.createElement("canvas"); canvas.id = "sh-confetti-canvas";
+    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext("2d");
+    const colors = ["#8a2424", "#d4a437", "#8b9d6b", "#a04040", "#c79100", "#6b8e23"];
+    const N = 80;
+    const parts = [];
+    for (let i = 0; i < N; i++) {
+      parts.push({
+        x: window.innerWidth / 2 + (Math.random() - 0.5) * 60,
+        y: window.innerHeight / 2,
+        vx: (Math.random() - 0.5) * 12,
+        vy: -Math.random() * 14 - 4,
+        g: 0.35 + Math.random() * 0.15,
+        size: 4 + Math.random() * 5,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        rot: Math.random() * Math.PI * 2,
+        vrot: (Math.random() - 0.5) * 0.3,
+        life: 0
+      });
+    }
+    let frame = 0;
+    function step(){
+      frame++; ctx.clearRect(0, 0, canvas.width, canvas.height);
+      let alive = 0;
+      parts.forEach(p => {
+        p.vy += p.g; p.x += p.vx; p.y += p.vy; p.rot += p.vrot; p.life++;
+        if (p.y > canvas.height + 40) return;
+        alive++;
+        ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot);
+        ctx.fillStyle = p.color;
+        ctx.globalAlpha = Math.max(0, 1 - p.life / 140);
+        ctx.fillRect(-p.size/2, -p.size/2, p.size, p.size);
+        ctx.restore();
+      });
+      if (alive > 0 && frame < 200) requestAnimationFrame(step);
+      else canvas.remove();
+    }
+    requestAnimationFrame(step);
+  }
+  window.shConfetti = confetti;
+
+  // Wire up confetti to existing checkpoint buttons (memorize-checkpoint, walkthrough completion etc.)
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".memo-checkpoint button, .memo-check button, [data-celebrate]").forEach(btn => {
+      btn.addEventListener("click", () => { confetti(); toast("✓ Stage cleared", 2200); });
+    });
+    // Trigger confetti when all walkthrough stops checked
+    const walkBoxes = document.querySelectorAll('.stop-complete input[type="checkbox"][data-stop]');
+    if (walkBoxes.length) {
+      walkBoxes.forEach(box => {
+        box.addEventListener("change", () => {
+          const all = Array.from(walkBoxes).every(b => b.checked);
+          if (all) { confetti(); toast("All stops complete — sleep well", 3500); }
+        });
+      });
+    }
+  });
+
+  // ---------- Init ----------
+  document.addEventListener("DOMContentLoaded", () => {
+    if (!reduce) makeProgress();
+    makeFAB();
+  });
+})();
+</script>
