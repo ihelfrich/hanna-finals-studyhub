@@ -1,0 +1,490 @@
+---
+title: "ACCT 410 — Practice Final Walkthrough"
+subtitle: "The actual practice final, walked step by step. This is what the exam looks like."
+description: "Worked solutions to every section of the official practice exam, with the patterns called out"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #5a0000 0%, #990000 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">This is the exam. Walk it once, walk it again, walk in.</h1>
+  <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">The practice final has five sections. Every one of them follows a pattern that repeats on the real exam. Read each problem, attempt it cold, then check the worked solution. By the third section the patterns will start to feel familiar, and that is the entire trick.</p>
+</div>
+```
+
+## Exam structure (memorize this first)
+
+| Section | What | Time-share |
+|---|---|---|
+| **I.** | Multiple Choice (10 questions) | ~25% |
+| **II.** | Bond accounting | ~15% |
+| **III.** | Statement of Cash Flows (indirect method) | ~25% |
+| **IV.** | Job-Order Costing System | ~20% |
+| **V.** | Cost-Volume-Price (CVP) Analysis | ~15% |
+
+Five sections. **The patterns matter more than the numbers.** Every problem in each section is a variation on a single template — learn the template once and the numbers fill themselves in.
+
+---
+
+## Section I — Multiple Choice (10 questions)
+
+The MC section tests *concepts*, not calculations. The wrong answers usually reverse a sign, swap a category, or confuse two definitions. Read each option carefully — the wrong answer often *sounds* right.
+
+### Q1 · P/E Ratio interpretation → **A**
+
+> *Company ABC has a higher P/E ratio than its competitor. What does this imply?*
+
+A higher Price/Earnings ratio means **investors are willing to pay more per dollar of current earnings** — usually because they expect higher future growth. It does NOT mean the company is currently more profitable, more efficient, or has more assets. P/E is a *forward-looking* sentiment signal.
+
+::: {.callout-tip}
+**Pattern:** P/E high = market expects growth. P/E low = market expects stagnation or risk.
+:::
+
+### Q2 · Cash flow from selling PPE at a loss → **B**
+
+> *USC Co. sold a truck that originally cost $40,000 and had accumulated depreciation of $24,000. They sold it at a loss of $4,000. What appears on the SCF?*
+
+**Three-step pattern, every time:**
+1. **Net Book Value** = Cost − Accumulated Depreciation = $40,000 − $24,000 = **$16,000**
+2. **Sale price** = NBV − Loss = $16,000 − $4,000 = **$12,000** *(or NBV + Gain if gain)*
+3. **SCF treatment**: cash inflow of **$12,000** in the **Investing** section. The loss itself goes back to Operating as an *add-back* to NI (it's non-cash from operations standpoint).
+
+::: {.callout-warning}
+**The trap**: students try to put the $4,000 loss in Investing. The loss is a non-cash NI adjustment, not a cash flow. Only the actual cash received ($12,000) is the investing cash flow.
+:::
+
+### Q3 · Financial vs Managerial Accounting → **C** (NOT TRUE)
+
+> *Which is NOT true about financial vs managerial?*
+
+**Financial accounting** is GAAP-governed, external-user-focused, standardized across companies. **Managerial accounting** is internal, custom, varies by company. So the statement *"both entail processes that are the same across companies and governed by standard rules"* is **false** — only financial accounting is standardized.
+
+### Q4 · Direct vs Indirect Product Costs → **B**
+
+> *Which is a DIRECT product cost for a candy manufacturer?*
+
+**Direct product cost** = traceable to a specific unit of product. **Indirect product cost (manufacturing overhead)** = factory-related but not traceable to a single unit.
+
+| Item | Direct? | Why |
+|---|---|---|
+| Machine oil for PP&E | Indirect (MOH) | Not traceable to one candy |
+| **Candy wrappers** | **Direct material** ✓ | Goes on each candy |
+| Factory utilities | Indirect (MOH) | Whole factory |
+| Factory supervisor's salary | Indirect (MOH) | Supervises everything |
+
+### Q5 · Statement of Cash Flows facts → **B**
+
+The statement of cash flows reports on a **cash basis** (NOT accrual). If CFO is **consistently lower** than NI, that's a red flag for aggressive revenue recognition (booking revenue you haven't collected yet).
+
+### Q6 · Equity vs Debt Securities → **D** (all true)
+
+- Equity = ownership; debt = lender
+- In bankruptcy, debt holders get paid first (higher in the hierarchy)
+- Equity holders receive dividends; debt holders receive interest
+
+All three statements are true.
+
+### Q7 · Predetermined Overhead Rate → **A · $17.80**
+
+> *TechBuild has these estimated costs. Predetermined overhead rate per direct labor hour?*
+
+**The trick: only manufacturing overhead goes in the numerator.** Direct materials and direct labor are NOT overhead. Office salaries are NOT overhead (they're period costs).
+
+```
+Manufacturing Overhead = Factory rent + Depreciation on factory equipment
+                       + Factory supervisor salary + Indirect materials
+                       = $180,000 + $120,000 + $130,000 + $15,000
+                       = $445,000
+
+Predetermined OH rate = $445,000 / 25,000 DLH = $17.80 per DLH
+```
+
+::: {.callout-warning}
+**The trap**: it's tempting to add direct materials ($75k) or assembly wages ($400k). Those are not overhead. *Office* admin salaries are also not in MOH — they're SG&A (period costs).
+:::
+
+### Q8 · Ratio Comparison → **B**
+
+| Metric | Company A | Company B | Reading |
+|---|---|---|---|
+| ROA | 0.02 | 0.06 | B more profitable |
+| Current Ratio | 1.16 | 2.02 | B more liquid |
+| Times Interest Earned | 4.68 | 20.22 | B more solvent |
+| Dividend Payout | 0.54 | 0 | A pays dividends |
+
+**Company B is stronger across the financial-health metrics. Company A is more attractive specifically to *dividend* investors** because B doesn't pay any dividends.
+
+### Q9 · Earnings Management vs Fraud → **C**
+
+- **Earnings management**: intentional, may stay within GAAP (e.g., timing accruals)
+- **Fraud**: intentional, violates GAAP or misleads users
+
+Both are intentional; the difference is whether GAAP is violated.
+
+### Q10 · Stock Splits vs Stock Repurchases → **C**
+
+- **Stock split**: total stockholders' equity unchanged. (Just changes share count and par value.)
+- **Stock repurchase (treasury stock)**: total SE *decreases* — treasury stock is a contra-equity account, not an asset.
+
+---
+
+## Section II — Bond Problem
+
+**The setup that repeats:** Face value, market rate, coupon payment, term, issue price. From these you compute *coupon rate, premium/discount, interest expense, amortization, NBV, retirement entry*.
+
+> *January 1, 2024: Protagonist issues a $200,000 face bond. Market rate 3%. Coupon $8,000 paid Dec 31 each year. Matures Dec 31, 2028. Sold at $209,159.*
+
+### Pattern: 7 questions, every time
+
+**Q1: Coupon rate** = Annual coupon ÷ Face value
+$$\text{Coupon rate} = \frac{8{,}000}{200{,}000} = \boxed{4\%}$$
+
+**Q2: Journal entry at issuance**
+
+| Account | Dr. | Cr. |
+|---|---|---|
+| Cash | 209,159 | |
+| Bonds Payable | | 200,000 |
+| Premium on Bonds Payable | | 9,159 |
+
+::: {.callout-tip}
+**Three-line format always**: Cash (debit, equal to issue price) · Bonds Payable (credit, equal to face) · Premium OR Discount (the difference).
+:::
+
+**Q3: Premium / Discount / Face?** → **At Premium**
+
+**The decision rule (memorize this verbatim):**
+- Issue price > Face → **Premium** (because coupon rate > market rate)
+- Issue price < Face → **Discount** (because coupon rate < market rate)
+- Issue price = Face → **At Face Value** (because coupon = market)
+
+In this case: $209,159 > $200,000, so premium. Confirms: coupon 4% > market 3%.
+
+**Q4: Interest expense in 2024**
+$$\text{Interest expense} = \text{NBV at start of year} \times \text{Market rate} = 209{,}159 \times 3\% = \boxed{\$6{,}275}$$
+
+::: {.callout-warning}
+**The trap**: students multiply by the COUPON rate. Wrong. **Interest expense = NBV × MARKET rate.** The coupon rate gives you the cash payment ($8,000); the market rate gives you the accounting expense ($6,275). The difference is *amortization*.
+:::
+
+**Q5: NBV on 1/1/2025**
+
+Three-step:
+1. Coupon (cash paid) = $8,000
+2. Interest expense (recognized) = $6,275
+3. **Amortization** = Coupon − Interest expense = $8,000 − $6,275 = **$1,725**
+
+Because it's a *premium*, the amortization *reduces* the bond payable carrying value:
+$$\text{New NBV} = 209{,}159 - 1{,}725 = \boxed{\$207{,}434}$$
+
+For a *discount*, amortization would *add to* NBV (bringing it up toward face).
+
+**Q6: Retirement entry at end of 2028**
+
+By 2028, the bond has been fully amortized down to face value. The retirement entry pays face value:
+
+| Account | Dr. | Cr. |
+|---|---|---|
+| Bonds Payable | 200,000 | |
+| Cash | | 200,000 |
+
+**Q7: Total interest expense vs total coupon payments?** → **B · LOWER**
+
+Total coupons over life = $8,000 × 5 = $40,000. For a *premium* bond, total interest expense = $40,000 − Premium = $40,000 − $9,159 = **$30,841**. *Lower* than coupons — the premium amortization reduces interest expense.
+
+::: {.callout-tip}
+**Memorize the rule**: For a **premium** bond, total interest expense is **LOWER** than total coupons. For a **discount** bond, total interest expense is **HIGHER** than total coupons. (Premium reduces; discount adds.)
+:::
+
+---
+
+## Section III — Statement of Cash Flows (Indirect Method)
+
+**The setup that repeats:** Two balance sheets (this year + last year), one income statement, plus a note about an asset sale. You compute the three sections of the SCF and reconcile to the change in cash.
+
+> *Versailles Co. data: BS comparison + IS for 2025. Sold a building at a $15,000 loss (cost $200,000, accum dep $45,000). Bought a new building for cash.*
+
+### Q1 · Cash interest paid
+
+Interest expense from IS = $3,000. No interest payable on either BS, so all $3k was paid in cash.
+
+**$3,000 · Operating section.**
+
+### Q2 · Dividends paid
+
+```
+Retained Earnings rolls: Beg RE + NI − Dividends = End RE
+72,000 + 31,000 − Div = 100,000
+Dividends = 3,000
+```
+
+**$3,000 · Financing section.**
+
+::: {.callout-tip}
+**The decision rule**: when the question asks for dividends, do not look for the line on the IS. Compute from the **Retained Earnings roll**. RE goes up by NI and down by Dividends.
+:::
+
+### Q3 · Tax rate
+
+```
+Pretax income = Operating income − Interest expense − Loss on sale of PPE
+              = 54,000 − 3,000 − 15,000
+              = $36,000
+
+Tax rate = Tax expense / Pretax income = $5,000 / $36,000 = 13.9%
+```
+
+**Income tax: Operating section** (it's an operating cash adjustment when tax expense ≠ tax paid; here the IS expense of $5k is what's reported).
+
+### Q4 · Cash Flow from Operations (the big one)
+
+**The indirect-method recipe — memorize this in this order:**
+
+```
+Net Income                                      31,000
++ Non-cash expenses (depreciation)              16,000
++ Non-cash losses (loss on PPE sale)            15,000
+− Non-cash gains                                     0
+± Changes in current operating accounts:
+   − Increase in AR (40k more receivable)      (40,000)
+   + Decrease in Inventory (16k less held)      16,000
+   − Increase in Prepaid (2k more prepaid)      (2,000)
+   + Increase in AP (8k more owed to suppliers)   8,000
+   + Increase in Accrued liab. (20k more owed)  20,000
+                                              ────────
+Cash Flow from Operations                       64,000
+```
+
+::: {.callout-warning}
+**The two traps that kill students:**
+1. The *loss* on PPE sale is added back (non-cash from operations standpoint), not subtracted. The loss reduced NI but no cash left operations.
+2. The *direction of the AR/AP/Inventory changes*: AR up = cash use (you didn't collect); AR down = cash source. AP up = cash source (you owe more); AP down = cash use. Same for Accrued. Inventory up = cash use; Inventory down = cash source. **Sign rule for current assets: opposite. For current liabilities: same direction.**
+:::
+
+### Q5 · Cash inflow from selling building
+
+```
+NBV of sold building = Cost − Accumulated dep on it
+                     = $200,000 − $45,000
+                     = $155,000
+
+Sale price = NBV − Loss
+           = $155,000 − $15,000
+           = $140,000
+```
+
+**$140,000 · Investing section** (cash inflow).
+
+### Q6 · Cash paid for new building
+
+**The PP&E roll-forward equation:**
+
+$$\text{End PP\&E} = \text{Beg PP\&E} + \text{Purchases} - \text{Cost of PP\&E sold}$$
+
+```
+454,000 = 404,000 + Purchases − 200,000
+Purchases = 250,000
+```
+
+**$250,000 · Investing section** (cash outflow).
+
+### Q7 · Cash Flow from Financing
+
+```
+ΔLong-term debt           = 190,000 − 200,000 =  −10,000  (paid down)
+ΔCommon stock             =  10,000 −   8,000 =   +2,000  (issued)
+ΔAdditional paid-in cap.  = 448,000 − 430,000 =  +18,000
+− Dividends paid                              =   −3,000
+                                              ────────
+Cash Flow from Financing                          7,000
+```
+
+### Q8 · Net change in cash + reconciliation
+
+```
+CFO  =   64,000
+CFI  = +140,000 − 250,000 = −110,000
+CFF  =    7,000
+─────────────────
+Net change in cash = 64,000 − 110,000 + 7,000 = −39,000
+
+Reconciliation: 51,000 − 90,000 = −39,000 ✓
+```
+
+**Net change in cash: −$39,000.** Yes, it reconciles to the BS change.
+
+---
+
+## Section IV — Job-Order Costing
+
+**The setup that repeats:** Estimates (estimated MH, DLH, OH costs), then a list of transactions during the year (T1–T6). Compute direct labor, direct materials, manufacturing OH actually incurred, predetermined OH rate, allocated OH, total product costs, period costs.
+
+> *Superior Corp · estimates: 100,000 MH, 20,000 DLH, $280,000 OH. Transactions T1–T6.*
+
+### Q1 · Direct labor used
+
+Look at T3: "Assembly-line workers' wages: $90,000." That's the direct labor.
+
+> Factory supervisor's salary ($65,000) is **indirect labor** = manufacturing overhead, not direct labor.
+> Customer-complaint phone reps ($45,000) are **period costs** (not even product costs).
+
+**Direct labor = $90,000.**
+
+### Q2 · Direct materials used
+
+Look at T2: "Placed $55,000 of raw materials into production. $17,000 indirect."
+
+```
+Direct materials = Total used − Indirect materials
+                 = $55,000 − $17,000
+                 = $38,000
+```
+
+::: {.callout-warning}
+**The trap**: T1 mentions $60,000 of materials *purchased*. That's not what's *used*. Use the placed-in-production number from T2, then subtract indirect.
+:::
+
+### Q3 · Manufacturing OH actually incurred
+
+```
+Indirect materials (T2)        $17,000
++ Factory supervisor (T3)       65,000
++ Factory rent (T4: $50k − $10k corp HQ)  40,000
+                              ────────
+Manufacturing OH incurred     $122,000
+```
+
+::: {.callout-tip}
+**The pattern: MOH = indirect materials + indirect labor + factory overhead.** Anything tied to the *factory* (rent, supervisor, utilities, depreciation on factory equipment, indirect materials, indirect labor) is MOH. Corporate headquarters costs are *period costs*.
+:::
+
+### Q4 · Predetermined overhead rate
+
+```
+Predetermined OH rate = Estimated OH / Estimated allocation base
+                     = $280,000 / 100,000 MH
+                     = $2.80 per machine hour
+```
+
+::: {.callout-warning}
+**The trap: use ESTIMATED values, not actual.** Predetermined = computed *at the start of the year* using budget estimates. The "predetermined" name is the giveaway.
+:::
+
+### Q5 · Allocated overhead
+
+```
+Allocated OH = Predetermined OH rate × ACTUAL allocation base
+            = $2.80 × 95,000 actual MH
+            = $266,000
+```
+
+The allocation base for *applied* (allocated) OH is the **actual** measure — actual machine hours, actual direct labor hours, etc.
+
+### Q6 · Total product costs
+
+```
+Total product cost = Direct materials + Direct labor + Allocated OH
+                  = $38,000 + $90,000 + $266,000
+                  = $394,000
+```
+
+### Q7 · Period costs
+
+Period costs are **NOT** product costs. They flow through the income statement as expenses in the period incurred.
+
+```
+Customer-complaint phone reps (T3)   $45,000
++ Corporate HQ rent (T4)              10,000
+                                    ────────
+Period costs                         $55,000
+```
+
+::: {.callout-tip}
+**Decision rule for product vs period:**
+- **Product costs** = direct material + direct labor + manufacturing overhead (anything factory-related). They get *capitalized into inventory* and only become an expense when the product sells (as COGS).
+- **Period costs** = SG&A, customer service, corporate HQ, sales commissions, marketing. Expensed *immediately*.
+:::
+
+---
+
+## Section V — Cost-Volume-Price (CVP) Analysis
+
+**The setup that repeats:** Sales price, variable cost per unit, fixed costs, current units sold. Then 2-3 scenarios that change one or more variables. Compute breakeven, profit-at-volume, units-needed-for-target-profit.
+
+> *Velocity Bikes: $500/unit · $300 VC/unit · $1,200,000 FC · 8,000 units last year · NI $400,000.*
+
+### Q1 · Current breakeven
+
+**Formula (memorize cold):**
+$$\text{Breakeven (units)} = \frac{\text{Fixed Costs}}{\text{Unit Contribution Margin}}$$
+
+```
+Unit CM = $500 − $300 = $200
+Breakeven = $1,200,000 / $200 = 6,000 units
+```
+
+::: {.callout-tip}
+**The visualization**: imagine a giant fixed cost block of $1.2M. Each unit's $200 of CM is a brick that climbs that block. You need 6,000 bricks to reach the top — anything above is profit.
+:::
+
+### Q2 · Scenario 1 — Variable costs rise by $40/unit
+
+**(a) NI at 8,000 units?**
+
+```
+New unit CM = $500 − $340 = $160
+NI = (8,000 × $160) − $1,200,000 = $1,280,000 − $1,200,000 = $80,000
+```
+
+**(b) Units needed to maintain $400,000 profit?**
+
+**Formula for target profit (memorize cold):**
+$$\text{Units} = \frac{\text{Fixed Costs} + \text{Target Profit}}{\text{Unit CM}}$$
+
+```
+Units = ($1,200,000 + $400,000) / $160 = $1,600,000 / $160 = 10,000 units
+```
+
+### Q3 · Scenario 2 — Automation (independent of Scenario 1)
+
+VC reduced 30% → $300 × 0.70 = **$210/unit**.
+FC increased 75% → $1,200,000 × 1.75 = **$2,100,000**.
+New unit CM = $500 − $210 = **$290**.
+
+**(a) New breakeven?**
+
+```
+Breakeven = $2,100,000 / $290 = 7,241.38 → round up to 7,242 units
+```
+
+**(b) Profit at 8,000 units?**
+
+```
+NI = (8,000 × $290) − $2,100,000 = $2,320,000 − $2,100,000 = $220,000
+```
+
+**(c) Units needed for $400,000 profit?**
+
+```
+Units = ($2,100,000 + $400,000) / $290 = $2,500,000 / $290 = 8,620.7 → round up to 8,621 units
+```
+
+::: {.callout-warning}
+**The trap with automation problems**: students forget to compute the *new* unit CM after the variable-cost change, OR they use the old fixed costs. **Both have to update.** Always recompute unit CM and FC at the top of the scenario.
+:::
+
+---
+
+## After this walkthrough
+
+If you walked through every problem above and the patterns started to feel familiar, you're ready. If a particular section still feels foreign:
+
+- **MC questions**: review the [Cheat Sheet](cheat-sheet.html) and [Trap Drills](trap-drills.html)
+- **Bonds**: re-read Section II above. The premium/discount decision rule is the whole game.
+- **SCF**: re-read Section III. The indirect-method recipe is the muscle memory you need.
+- **Job-Order**: re-read Section IV. Predetermined vs Actual is the trap.
+- **CVP**: re-read Section V. Always recompute unit CM and FC at the top of any scenario.
+
+**One last move:** open a blank piece of paper. Without looking at this page, write the recipe for one section (your choice). If you can do it cold, you have it. If you can't, re-read just that section and try again.

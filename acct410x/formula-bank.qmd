@@ -1,0 +1,446 @@
+---
+title: "ACCT 410 — The Formula Bank"
+subtitle: "Drop-in formulas + decision rules. Memorize the ones you need; plug in the numbers."
+description: "Color-coded formula reference for every section of the exam"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">Don't memorize concepts. Memorize formulas.</h1>
+  <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">A formula is a sentence the brain can hold. Pattern-match the question to a formula, plug in the numbers, write the answer. Color-coded by section so you can find what you need fast.</p>
+</div>
+```
+
+## How to use this page
+
+1. **Read it once** — about 8 minutes.
+2. **Mark the 10–12 formulas you find easiest to remember.** Memorize those.
+3. **In the room**, pattern-match: read the problem, find the section, find the matching formula, plug in numbers.
+4. **The decision rules** at the bottom of each section are the tiebreakers when two formulas could apply. Memorize those verbatim.
+
+---
+
+## 🪙 Bonds
+
+```{=html}
+<div class="fb-grid">
+  <div class="fb-card fb-bond">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Coupon rate</h4>
+    <p class="fb-formula">= Annual coupon $ / Face value</p>
+  </div>
+  <div class="fb-card fb-bond">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Interest expense (per period)</h4>
+    <p class="fb-formula">= NBV at start of period × MARKET rate</p>
+    <p class="fb-warn">⚠️ Use MARKET rate, not coupon rate.</p>
+  </div>
+  <div class="fb-card fb-bond">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Amortization (per period)</h4>
+    <p class="fb-formula">= Coupon paid (cash) − Interest expense</p>
+  </div>
+  <div class="fb-card fb-bond">
+    <div class="fb-tag">FORMULA</div>
+    <h4>New NBV (premium bond)</h4>
+    <p class="fb-formula">= Old NBV − Amortization</p>
+    <p class="fb-warn">For discount bonds: Old NBV + Amortization (NBV climbs toward face).</p>
+  </div>
+  <div class="fb-card fb-bond">
+    <div class="fb-tag">JOURNAL ENTRY</div>
+    <h4>Issuance (always 3 lines)</h4>
+    <p class="fb-formula">Dr. Cash (issue price) · Cr. Bonds Payable (face) · Cr/Dr. Premium/Discount (the difference)</p>
+  </div>
+  <div class="fb-card fb-bond">
+    <div class="fb-tag">JOURNAL ENTRY</div>
+    <h4>Retirement at maturity</h4>
+    <p class="fb-formula">Dr. Bonds Payable (face) · Cr. Cash (face)</p>
+  </div>
+</div>
+
+<div class="fb-rule">
+<strong>DECISION RULE — Premium vs Discount:</strong>
+<ul>
+  <li><strong>Premium</strong>: Issue price &gt; Face · Coupon rate &gt; Market rate · Total interest expense &lt; Total coupons</li>
+  <li><strong>Discount</strong>: Issue price &lt; Face · Coupon rate &lt; Market rate · Total interest expense &gt; Total coupons</li>
+  <li><strong>Face value</strong>: Issue price = Face · Coupon = Market</li>
+</ul>
+</div>
+```
+
+---
+
+## 💵 Statement of Cash Flows (Indirect Method)
+
+```{=html}
+<div class="fb-grid">
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">RECIPE</div>
+    <h4>Cash Flow from Operations</h4>
+    <p class="fb-formula">= NI + non-cash expenses + non-cash losses − non-cash gains ± Δ in current operating accounts</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Cash from sale of PPE</h4>
+    <p class="fb-formula">= NBV − Loss (or NBV + Gain)<br>NBV = Original cost − Accumulated depreciation</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Dividends paid</h4>
+    <p class="fb-formula">= Beg RE + NI − End RE</p>
+    <p class="fb-warn">From the Retained Earnings roll-forward.</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>PPE purchased (cash)</h4>
+    <p class="fb-formula">From PP&amp;E roll: End PPE = Beg PPE + Purchases − Cost of PPE sold</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Cash interest paid</h4>
+    <p class="fb-formula">= Interest expense ± Δ in Interest Payable<br>(if no IP balance, = interest expense)</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Tax rate</h4>
+    <p class="fb-formula">= Tax expense / Pretax income<br>Pretax income = Operating income − Interest exp − Loss on sale</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Cash Flow from Financing</h4>
+    <p class="fb-formula">= ΔLong-term debt + ΔCommon stock + ΔAdditional paid-in capital − Dividends paid</p>
+  </div>
+  <div class="fb-card fb-scf">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Reconciliation check</h4>
+    <p class="fb-formula">CFO + CFI + CFF = ΔCash on Balance Sheet</p>
+  </div>
+</div>
+
+<div class="fb-rule">
+<strong>SIGN RULE — the most important rule on the SCF:</strong>
+<ul>
+  <li><strong>Current ASSETS</strong> (AR, Inventory, Prepaid) → <strong>OPPOSITE sign</strong> from the change. AR up = cash use (subtract). AR down = cash source (add).</li>
+  <li><strong>Current LIABILITIES</strong> (AP, Accrued, Wages payable) → <strong>SAME sign</strong> as the change. AP up = cash source (add). AP down = cash use (subtract).</li>
+  <li><strong>Non-cash items</strong> (depreciation, loss on sale, amortization) → <strong>add back</strong>. Non-cash gains → subtract.</li>
+</ul>
+</div>
+```
+
+---
+
+## 🏭 Job-Order Costing
+
+```{=html}
+<div class="fb-grid">
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Predetermined OH rate</h4>
+    <p class="fb-formula">= ESTIMATED total OH / ESTIMATED allocation base</p>
+    <p class="fb-warn">Computed at start of year. Always uses estimates.</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Allocated (applied) OH</h4>
+    <p class="fb-formula">= Predetermined OH rate × ACTUAL allocation base</p>
+    <p class="fb-warn">Predetermined × ACTUAL. Mixed.</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Direct materials used</h4>
+    <p class="fb-formula">= Materials placed in production − Indirect materials</p>
+    <p class="fb-warn">Don't use materials purchased — use materials placed.</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Manufacturing OH actually incurred</h4>
+    <p class="fb-formula">= Indirect materials + Indirect labor (incl. supervisor) + Factory rent + Factory dep + Factory utilities</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Total product cost</h4>
+    <p class="fb-formula">= Direct materials + Direct labor + Allocated OH</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Period costs</h4>
+    <p class="fb-formula">= Corporate HQ rent + Office salaries + Customer service + Sales + Marketing + SG&amp;A</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Cost of Goods Manufactured (COGM)</h4>
+    <p class="fb-formula">= Beg WIP + (DM used + DL + MOH) − End WIP</p>
+  </div>
+  <div class="fb-card fb-job">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Cost of Goods Sold (COGS)</h4>
+    <p class="fb-formula">= Beg Finished Goods + COGM − End Finished Goods</p>
+  </div>
+</div>
+
+<div class="fb-rule">
+<strong>DECISION RULE — Product vs Period:</strong>
+<ul>
+  <li><strong>Product cost</strong> (capitalized into inventory, expensed when sold as COGS): direct materials + direct labor + ALL factory-related overhead. <em>"If it's tied to the factory, it's product."</em></li>
+  <li><strong>Period cost</strong> (expensed immediately): corporate HQ, office admin, sales, marketing, customer service. <em>"If it's tied to anything besides the factory, it's period."</em></li>
+</ul>
+
+<strong>DECISION RULE — Direct vs Indirect (within product costs):</strong>
+<ul>
+  <li><strong>Direct material</strong>: traceable to one unit (candy wrappers in candy, fabric in shirts).</li>
+  <li><strong>Direct labor</strong>: traceable to one unit (assembly-line worker wages).</li>
+  <li><strong>Indirect material</strong>: factory but not per-unit (lubricants, glue, screws). → Goes into MOH.</li>
+  <li><strong>Indirect labor</strong>: factory but not per-unit (supervisor, janitor). → Goes into MOH.</li>
+</ul>
+</div>
+```
+
+---
+
+## 📈 CVP Analysis
+
+```{=html}
+<div class="fb-grid">
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Unit Contribution Margin</h4>
+    <p class="fb-formula">Unit CM = Sales price/unit − Variable cost/unit</p>
+  </div>
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>CM Ratio</h4>
+    <p class="fb-formula">= Unit CM / Sales price/unit<br>OR = Total CM / Total Sales</p>
+  </div>
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Breakeven (units)</h4>
+    <p class="fb-formula">= Fixed Costs / Unit CM</p>
+    <p class="fb-warn">Always round UP — you can't sell partial units.</p>
+  </div>
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Breakeven (sales $)</h4>
+    <p class="fb-formula">= Fixed Costs / CM Ratio</p>
+  </div>
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Units for target profit</h4>
+    <p class="fb-formula">= (Fixed Costs + Target Profit) / Unit CM</p>
+  </div>
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>NI at any volume</h4>
+    <p class="fb-formula">= (Volume × Unit CM) − Fixed Costs</p>
+  </div>
+  <div class="fb-card fb-cvp">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Variable Expense Ratio (VER)</h4>
+    <p class="fb-formula">= Variable Costs / Sales = 1 − CM Ratio</p>
+  </div>
+</div>
+
+<div class="fb-rule">
+<strong>DECISION RULE — Scenario Analysis:</strong>
+Every scenario changes one or more of: <strong>(a)</strong> sales price, <strong>(b)</strong> variable cost per unit, <strong>(c)</strong> total fixed costs.
+
+Always do this in order:
+<ol>
+<li>Recompute the new variable cost per unit.</li>
+<li>Recompute the new fixed costs.</li>
+<li>Recompute the new unit CM.</li>
+<li>Then plug into breakeven / target-profit / NI formulas.</li>
+</ol>
+
+Never use stale values from the prior scenario.
+</div>
+```
+
+---
+
+## 🧮 Ratios (for MC questions)
+
+```{=html}
+<div class="fb-grid">
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Current Ratio (liquidity)</h4>
+    <p class="fb-formula">= Current Assets / Current Liabilities</p>
+    <p class="fb-warn">Higher = more liquid. &gt;1 typically healthy.</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>ROA (profitability)</h4>
+    <p class="fb-formula">= Net Income / Average Total Assets</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Times Interest Earned (solvency)</h4>
+    <p class="fb-formula">= EBIT / Interest Expense<br>OR = (NI + Interest + Tax) / Interest</p>
+    <p class="fb-warn">Higher = better at covering interest.</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Debt-to-Assets</h4>
+    <p class="fb-formula">= Total Debt / Total Assets</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Debt-to-Equity</h4>
+    <p class="fb-formula">= Total Debt / Shareholders' Equity</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>P/E Ratio</h4>
+    <p class="fb-formula">= Market price per share / EPS</p>
+    <p class="fb-warn">Higher = market expects growth (NOT current profitability).</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Dividend Payout Ratio</h4>
+    <p class="fb-formula">= Dividends per share / EPS<br>OR = Total Dividends / Net Income</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Inventory Turnover</h4>
+    <p class="fb-formula">= COGS / Average Inventory</p>
+  </div>
+  <div class="fb-card fb-ratio">
+    <div class="fb-tag">FORMULA</div>
+    <h4>Profit Margin</h4>
+    <p class="fb-formula">= Net Income / Sales</p>
+  </div>
+</div>
+```
+
+---
+
+## 📊 Income Statement Formats
+
+```{=html}
+<div class="fb-comp">
+  <div class="fb-comp-side">
+    <h4>Contribution Margin Format (internal use)</h4>
+    <pre>
+Revenue                   ___
+− Variable Costs         (___)
+= Contribution Margin     ___
+− Fixed Costs            (___)
+= Operating Income        ___
+    </pre>
+    <p>Used for break-even, pricing, CVP analysis, internal management.</p>
+  </div>
+  <div class="fb-comp-side">
+    <h4>GAAP Format (external use)</h4>
+    <pre>
+Revenue                   ___
+− COGS                   (___)
+= Gross Profit            ___
+− Operating Expenses     (___)
+= Operating Income        ___
+    </pre>
+    <p>Required for external financial statements (banks, investors, taxes).</p>
+  </div>
+</div>
+```
+
+---
+
+## Memorize check (3 minutes)
+
+If you can do these from memory, you're ready.
+
+```{=html}
+<ol class="memo-check">
+  <li>Bond interest expense formula: <strong>NBV × MARKET rate</strong>.</li>
+  <li>SCF sign rule: current assets opposite, current liabilities same.</li>
+  <li>Cash from PPE sale: <strong>NBV − Loss</strong>.</li>
+  <li>Dividends paid: <strong>Beg RE + NI − End RE</strong>.</li>
+  <li>Predetermined OH rate: <strong>Estimated / Estimated</strong>.</li>
+  <li>Allocated OH: <strong>Predetermined × ACTUAL</strong>.</li>
+  <li>Breakeven: <strong>FC ÷ unit CM</strong>. Round up.</li>
+  <li>Target profit units: <strong>(FC + target) ÷ unit CM</strong>.</li>
+  <li>Stock split = SE unchanged. Stock repurchase = SE decreases.</li>
+  <li>P/E high = market expects growth.</li>
+</ol>
+```
+
+Walk in.
+
+```{=html}
+<style>
+.fb-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: .8rem; margin: 1rem 0;
+}
+.fb-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 10px; padding: 1rem 1.15rem;
+  background: var(--bs-body-bg);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.fb-card:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.06); }
+.fb-card .fb-tag {
+  display: inline-block; font-size: .65rem; font-weight: 800;
+  padding: 2px 8px; border-radius: 999px; margin-bottom: .4rem;
+  letter-spacing: .07em; font-family: ui-monospace, monospace;
+}
+.fb-card h4 { margin: 0 0 .4rem; font-size: 1rem; color: #1a1a1a; }
+.dark .fb-card h4 { color: #f5f5f5; }
+.fb-card .fb-formula {
+  font-family: ui-monospace, "JetBrains Mono", monospace;
+  font-size: .92rem; line-height: 1.55; margin: 0;
+  background: var(--bs-secondary-bg); padding: .5rem .7rem; border-radius: 6px;
+}
+.fb-card .fb-warn {
+  margin: .45rem 0 0; font-size: .78rem; color: var(--bs-secondary-color); font-style: italic;
+}
+
+.fb-bond { border-left: 5px solid #c79100; }
+.fb-bond .fb-tag { background: rgba(199,145,0,.12); color: #8a6d00; }
+.fb-bond h4 { color: #8a6d00; }
+
+.fb-scf { border-left: 5px solid #2563eb; }
+.fb-scf .fb-tag { background: rgba(37,99,235,.12); color: #1e40af; }
+.fb-scf h4 { color: #1e40af; }
+
+.fb-job { border-left: 5px solid #6b21a8; }
+.fb-job .fb-tag { background: rgba(107,33,168,.12); color: #6b21a8; }
+.fb-job h4 { color: #6b21a8; }
+
+.fb-cvp { border-left: 5px solid #2e7d32; }
+.fb-cvp .fb-tag { background: rgba(46,125,50,.12); color: #1b5e20; }
+.fb-cvp h4 { color: #1b5e20; }
+
+.fb-ratio { border-left: 5px solid #b71c1c; }
+.fb-ratio .fb-tag { background: rgba(183,28,28,.12); color: #b71c1c; }
+.fb-ratio h4 { color: #b71c1c; }
+
+.fb-rule {
+  background: rgba(255,199,44,.10); border: 1px solid rgba(255,199,44,.45);
+  border-left: 5px solid #FFC72C; border-radius: 8px;
+  padding: 1rem 1.2rem; margin: 1.2rem 0;
+  font-size: .92rem; line-height: 1.55;
+}
+.fb-rule strong { color: #8a6d00; }
+.fb-rule ul, .fb-rule ol { margin: .35rem 0; padding-left: 1.3rem; }
+.fb-rule ul li, .fb-rule ol li { margin: .25rem 0; }
+
+.fb-comp {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;
+}
+.fb-comp-side {
+  border: 1px solid var(--bs-border-color); border-left: 4px solid #990000;
+  border-radius: 10px; padding: 1rem 1.2rem; background: var(--bs-body-bg);
+}
+.fb-comp-side h4 { color: #990000; margin: 0 0 .55rem; font-size: 1rem; }
+.fb-comp-side pre {
+  background: var(--bs-secondary-bg); border-radius: 6px;
+  padding: .7rem; font-size: .85rem; line-height: 1.6; margin: 0 0 .6rem;
+}
+.fb-comp-side p { font-size: .85rem; color: var(--bs-secondary-color); margin: 0; }
+@media (max-width: 700px) { .fb-comp { grid-template-columns: 1fr; } }
+</style>
+```

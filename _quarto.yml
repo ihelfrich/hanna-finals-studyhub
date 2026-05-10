@@ -187,11 +187,17 @@ website:
             - ir362/maps.qmd
     - title: "ACCT 410"
       contents:
-        - acct410x/index.qmd
-        - acct410x/cheat-sheet.qmd
-        - acct410x/day-of.qmd
-        - section: "Practice"
+        - section: "Cram path"
           contents:
+            - acct410x/exam-day.qmd
+            - acct410x/practice-walkthrough.qmd
+            - acct410x/smallest-version.qmd
+            - acct410x/formula-bank.qmd
+            - acct410x/cheat-sheet.qmd
+            - acct410x/day-of.qmd
+        - section: "Reference"
+          contents:
+            - acct410x/index.qmd
             - acct410x/walkthroughs.qmd
             - acct410x/mock-final.qmd
             - acct410x/trap-drills.qmd

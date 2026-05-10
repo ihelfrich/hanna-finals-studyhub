@@ -1,0 +1,238 @@
+---
+title: "ACCT 410 — The Smallest Version"
+subtitle: "Five sections. Five formulas. Five decision rules. Walk in."
+description: "Minimum viable ACCT 410 spine — formulas that recur on every problem"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">If you only have 30 minutes, this page gets you through the exam.</h1>
+  <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">Five exam sections. One formula chain per section. One decision rule per section. The numbers change; the patterns don't. Memorize these and the rest of the exam fills itself in.</p>
+</div>
+```
+
+## The five sections of the exam
+
+```{=html}
+<div class="exam-five">
+  <div class="ef-card"><span class="ef-num">I</span><h3>Multiple Choice</h3><p>10 questions on definitions, decision rules, and trap distinctions.</p></div>
+  <div class="ef-card"><span class="ef-num">II</span><h3>Bond</h3><p>One bond. Compute coupon rate, journal entry, premium/discount, interest expense, NBV, retirement.</p></div>
+  <div class="ef-card"><span class="ef-num">III</span><h3>Statement of Cash Flows</h3><p>Indirect method. NI → CFO. Asset sale → CFI. Stock/debt/dividends → CFF. Reconcile to ΔCash.</p></div>
+  <div class="ef-card"><span class="ef-num">IV</span><h3>Job-Order Costing</h3><p>Predetermined OH rate (estimated) · Allocated OH (predetermined × actual) · Product vs period costs.</p></div>
+  <div class="ef-card"><span class="ef-num">V</span><h3>CVP Analysis</h3><p>Breakeven · Target profit · Scenario sensitivity to VC and FC changes.</p></div>
+</div>
+```
+
+## Section I — Multiple Choice: 10 decision rules
+
+Memorize these one-line answers. They cover almost every MC variant.
+
+```{=html}
+<div class="rule-stack">
+<div class="rule"><strong>P/E ratio high</strong> → market expects future growth. Not current profitability.</div>
+<div class="rule"><strong>Sale of PPE at loss</strong> → cash inflow = NBV − Loss. Loss adds back to NI in operating; cash goes in investing.</div>
+<div class="rule"><strong>SCF basis</strong> → cash, NOT accrual. If CFO consistently lower than NI, watch for aggressive revenue recognition.</div>
+<div class="rule"><strong>Direct product cost</strong> → traceable to one unit (materials, assembly labor). Indirect = factory overhead. Office salaries = period.</div>
+<div class="rule"><strong>Equity vs Debt</strong> → debt holders paid first in bankruptcy. Equity = ownership + dividends. Debt = lender + interest.</div>
+<div class="rule"><strong>Predetermined OH rate</strong> → uses ESTIMATED values, computed at start of year.</div>
+<div class="rule"><strong>Allocated OH</strong> → predetermined rate × ACTUAL allocation base.</div>
+<div class="rule"><strong>Stock split</strong> → SE unchanged. <strong>Stock repurchase</strong> → SE decreases (treasury is contra-equity, not asset).</div>
+<div class="rule"><strong>Earnings management</strong> → intentional, may be within GAAP. <strong>Fraud</strong> → violates GAAP / misleads users.</div>
+<div class="rule"><strong>Strong company</strong> → high ROA, high current ratio, high TIE. <strong>Dividend-investor pick</strong> → high dividend payout ratio.</div>
+</div>
+```
+
+## Section II — Bond: One formula chain
+
+```{=html}
+<div class="formula-chain">
+  <div class="fc-step"><span class="fc-num">1</span><div><strong>Coupon rate</strong> = Annual coupon ÷ Face value</div></div>
+  <div class="fc-step"><span class="fc-num">2</span><div><strong>Issue price &gt; Face?</strong> Premium · <strong>Issue price &lt; Face?</strong> Discount · <strong>Equal?</strong> Face</div></div>
+  <div class="fc-step"><span class="fc-num">3</span><div><strong>Interest expense (year 1)</strong> = Issue price × MARKET rate (NOT coupon rate)</div></div>
+  <div class="fc-step"><span class="fc-num">4</span><div><strong>Amortization</strong> = Coupon (cash paid) − Interest expense</div></div>
+  <div class="fc-step"><span class="fc-num">5</span><div><strong>New NBV</strong> = Old NBV − Amortization (premium) · OR + Amortization (discount)</div></div>
+  <div class="fc-step"><span class="fc-num">6</span><div><strong>Retirement entry at maturity</strong> → Dr. Bonds Payable (face), Cr. Cash (face). NBV is back to face by then.</div></div>
+</div>
+```
+
+::: {.fillrule}
+**The decision rule that wins this section:**
+**Premium** → coupon rate > market rate · total interest expense over life is **LOWER** than total coupons.
+**Discount** → coupon rate < market rate · total interest expense over life is **HIGHER** than total coupons.
+:::
+
+## Section III — Statement of Cash Flows: One recipe
+
+The indirect-method recipe. Memorize the order. Plug numbers in.
+
+```{=html}
+<div class="cfo-recipe">
+<pre>
+Cash Flow from Operations (Indirect Method):
+
+      Net Income                                   ___
+   +  Depreciation expense                         ___
+   +  Loss on sale of PPE  (or − Gain)             ___
+   ±  Changes in current operating accounts:
+      − Increase in AR                             (___)
+      + Decrease in AR                              ___
+      + Decrease in Inventory                       ___
+      − Increase in Inventory                      (___)
+      − Increase in Prepaid expenses               (___)
+      + Increase in AP                              ___
+      + Increase in Accrued liabilities             ___
+                                                  ────
+   =  Cash Flow from Operations                    ___
+</pre>
+</div>
+```
+
+::: {.fillrule}
+**The sign rule, memorize this verbatim:**
+**Current ASSETS** (AR, Inventory, Prepaid) — *opposite* sign from change. Up = cash use. Down = cash source.
+**Current LIABILITIES** (AP, Accrued) — *same* sign as change. Up = cash source. Down = cash use.
+:::
+
+**Then:** CFI (asset sale + asset purchase) and CFF (debt + stock + dividends). Sum the three. Should equal ΔCash on the balance sheet.
+
+**Three quick formulas you'll need:**
+
+```{=html}
+<div class="formula-chain">
+  <div class="fc-step"><span class="fc-num">A</span><div><strong>Dividends paid</strong> = Beg RE + NI − End RE</div></div>
+  <div class="fc-step"><span class="fc-num">B</span><div><strong>Cash from PPE sale</strong> = NBV − Loss (or NBV + Gain). NBV = Cost − Accum Dep.</div></div>
+  <div class="fc-step"><span class="fc-num">C</span><div><strong>PPE purchases</strong> from roll-forward: End PPE = Beg PPE + Purchases − Cost of PPE sold</div></div>
+</div>
+```
+
+## Section IV — Job-Order Costing: One formula chain
+
+```{=html}
+<div class="formula-chain">
+  <div class="fc-step"><span class="fc-num">1</span><div><strong>Predetermined OH rate</strong> = Estimated total OH ÷ Estimated allocation base (machine hours OR direct labor hours)</div></div>
+  <div class="fc-step"><span class="fc-num">2</span><div><strong>Allocated OH</strong> = Predetermined OH rate × ACTUAL allocation base</div></div>
+  <div class="fc-step"><span class="fc-num">3</span><div><strong>Total product cost</strong> = Direct materials + Direct labor + Allocated OH</div></div>
+  <div class="fc-step"><span class="fc-num">4</span><div><strong>Period cost</strong> = Everything NOT factory-related (corporate HQ, customer service, sales, admin)</div></div>
+</div>
+```
+
+::: {.fillrule}
+**The decision rule that wins this section: PRODUCT vs PERIOD**
+
+**Product** = factory-related = capitalized into inventory:
+- Direct materials (DM)
+- Direct labor (DL)
+- Manufacturing overhead (MOH): factory rent, depreciation on factory equipment, factory supervisor, indirect materials, indirect labor
+
+**Period** = expensed immediately:
+- Corporate HQ rent
+- Office admin salaries
+- Sales commissions
+- Customer service phone reps
+- Marketing
+:::
+
+**The MOH-bucket rule:** If it's tied to the *factory*, it's MOH. If it's tied to *anything else* (corporate, sales, customer service), it's a period cost. **Direct materials and direct labor are NOT in the MOH bucket** — they get added to product cost separately.
+
+## Section V — CVP Analysis: Two formulas
+
+```{=html}
+<div class="formula-chain">
+  <div class="fc-step"><span class="fc-num">1</span><div><strong>Unit CM</strong> = Sales price per unit − Variable cost per unit</div></div>
+  <div class="fc-step"><span class="fc-num">2</span><div><strong>Breakeven (units)</strong> = Fixed Costs ÷ Unit CM</div></div>
+  <div class="fc-step"><span class="fc-num">3</span><div><strong>Units for target profit</strong> = (Fixed Costs + Target Profit) ÷ Unit CM</div></div>
+  <div class="fc-step"><span class="fc-num">4</span><div><strong>NI at any volume</strong> = (Volume × Unit CM) − Fixed Costs</div></div>
+</div>
+```
+
+::: {.fillrule}
+**The scenario-handling rule:** every scenario changes one or more of: **(a)** sales price, **(b)** variable cost, **(c)** fixed cost. Always recompute unit CM and FC at the top of each scenario, then plug into the formulas. Don't use stale values.
+:::
+
+**Round up** for breakeven and target-profit unit answers. You can't sell 7,241.38 units; you need 7,242.
+
+## What to memorize cold (10 minutes of repetition)
+
+```{=html}
+<ol class="memo-check">
+  <li><strong>Bond:</strong> Premium = coupon &gt; market = lower interest expense. Discount = coupon &lt; market = higher interest expense. Interest expense = NBV × MARKET rate.</li>
+  <li><strong>SCF sign rule:</strong> Current assets opposite (AR up = cash use). Current liabilities same (AP up = cash source).</li>
+  <li><strong>SCF asset sale:</strong> Cash = NBV − Loss. NBV = Cost − Accum Dep. Loss adds back in CFO.</li>
+  <li><strong>SCF dividends:</strong> Beg RE + NI − End RE.</li>
+  <li><strong>Predetermined OH:</strong> Estimated ÷ Estimated. <strong>Allocated OH:</strong> Predetermined rate × ACTUAL.</li>
+  <li><strong>Product vs period:</strong> Factory-related = product (capitalized). Everything else = period (expensed).</li>
+  <li><strong>Breakeven:</strong> FC ÷ unit CM. Round UP.</li>
+  <li><strong>Target profit:</strong> (FC + target) ÷ unit CM.</li>
+  <li><strong>Stock split:</strong> SE unchanged. <strong>Stock repurchase:</strong> SE decreases (treasury = contra-equity).</li>
+  <li><strong>P/E high</strong> = market expects growth (not current profit).</li>
+</ol>
+```
+
+If you can recite all 10 in 90 seconds without looking, you have the spine. Walk in.
+
+```{=html}
+<style>
+.exam-five {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .8rem; margin: 1.5rem 0;
+}
+.ef-card {
+  border: 1px solid var(--bs-border-color); border-left: 5px solid #990000;
+  border-radius: 10px; padding: .9rem 1rem; background: var(--bs-body-bg);
+  position: relative;
+}
+.ef-card .ef-num {
+  position: absolute; top: -10px; right: 12px;
+  background: #990000; color: #FFC72C; font-weight: 850;
+  font-size: .8rem; padding: 3px 9px; border-radius: 999px;
+  font-family: ui-monospace, monospace;
+}
+.ef-card h3 { margin: 0 0 .25rem; color: #990000; font-size: 1rem; }
+.ef-card p { margin: 0; font-size: .85rem; line-height: 1.45; color: var(--bs-secondary-color); }
+
+.rule-stack { display: grid; gap: .5rem; margin: 1rem 0; }
+.rule {
+  background: linear-gradient(180deg, rgba(46,125,50,.05), transparent);
+  border: 1px solid var(--bs-border-color); border-left: 4px solid #2e7d32;
+  border-radius: 6px; padding: .55rem .85rem; font-size: .92rem; line-height: 1.5;
+}
+.rule strong { color: #1b5e20; }
+
+.formula-chain { display: grid; gap: .6rem; margin: 1rem 0; }
+.fc-step {
+  display: grid; grid-template-columns: 36px 1fr; gap: .8rem;
+  align-items: start; padding: .7rem .9rem;
+  background: var(--bs-body-bg); border: 1px solid var(--bs-border-color);
+  border-left: 4px solid #2563eb; border-radius: 8px;
+}
+.fc-step .fc-num {
+  display: flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: #2563eb; color: white; font-weight: 800; font-size: .85rem;
+  font-family: ui-monospace, monospace;
+}
+.fc-step strong { color: #1e40af; }
+
+.fillrule {
+  background: rgba(255,199,44,.10); border: 1px solid rgba(255,199,44,.45);
+  border-left: 5px solid #FFC72C; border-radius: 8px;
+  padding: 1rem 1.2rem; margin: 1.2rem 0;
+  font-size: .95rem; line-height: 1.55;
+}
+.fillrule strong { color: #8a6d00; }
+
+.cfo-recipe {
+  background: var(--bs-secondary-bg); border-radius: 10px;
+  padding: 1rem 1.2rem; margin: 1rem 0;
+  border-left: 5px solid #2563eb;
+}
+.cfo-recipe pre {
+  margin: 0; font-family: ui-monospace, "JetBrains Mono", monospace;
+  font-size: .9rem; line-height: 1.7; white-space: pre;
+  background: transparent; padding: 0;
+}
+</style>
+```

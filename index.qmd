@@ -139,8 +139,8 @@ format:
   <div class="item">
     <h4>📕 ACCT 410 (Leventhal)</h4>
     <span class="days">NEXT</span>
-    <div class="when">User-oriented · cumulative</div>
-    <span class="weight"><a href="acct410x/">Open ACCT prep →</a></span>
+    <div class="when">5-section exam · MC · Bond · SCF · Job-Order · CVP</div>
+    <span class="weight"><a href="acct410x/exam-day.html">Open Exam Day Path →</a></span>
   </div>
   <div class="item">
     <h4>🛍️ Marketing — Ensemble</h4>
@@ -257,10 +257,10 @@ format:
     <h4>IR 362 — The Walkthrough</h4>
     <p>The whole exam in eight stops, told as a story with images and the game-theory chapter walked through scene by scene. ~75 minutes.</p>
   </a>
-  <a href="acct410x/" class="quick-tile">
+  <a href="acct410x/exam-day.html" class="quick-tile">
     <div class="emoji">📕</div>
-    <h4>ACCT 410x/410 — user-oriented</h4>
-    <p>Cheat sheet · mock final w/ pedagogical key · 40 trap drills · 10 transaction walkthroughs · day-of playbook.</p>
+    <h4>ACCT 410 — Exam Day Path</h4>
+    <p>The 6-step path: formula bank · practice walkthrough · re-do · smallest version · walk · walk in. Practice final + worked solutions live here.</p>
   </a>
   <a href="marketing/" class="quick-tile">
     <div class="emoji">🛍️</div>
