@@ -7,8 +7,8 @@ section-divs: false
 ---
 
 ```{=html}
-<div class="hero" style="background: linear-gradient(135deg, #5a0000 0%, #990000 100%); color: white; padding: 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
-  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+<div class="hero" style="background: linear-gradient(135deg, #4a1010 0%, #7a1f1f 100%); color: white; padding: 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #c79100; border-radius: 999px; margin-bottom: 1rem;"></div>
   <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.8rem;">What Hammad's slides actually emphasize</h1>
   <p style="color: rgba(255,255,255,.92); margin: 0; font-size: 1.04rem; max-width: 70ch;">The "Slides VII Plus" packet he sent is the historical architecture from 1948 to Oslo. The deeper post-2020 material on this site is still useful, but the highest-likelihood essay prompts come from <em>this</em> historical spine. Read this page before the exam.</p>
 </div>

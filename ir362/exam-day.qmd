@@ -9,22 +9,22 @@ toc: false
 ```{=html}
 <style>
 .eday-hero {
-  background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+  background: linear-gradient(135deg, #7a1f1f 0%, #4a1010 100%);
   color: white; padding: 2rem 2rem 2.2rem; border-radius: 14px;
-  margin-bottom: 1.6rem; box-shadow: 0 8px 28px rgba(153,0,0,.22);
+  margin-bottom: 1.6rem; box-shadow: 0 8px 28px rgba(122,31,31,.22);
 }
 .eday-hero h1 { color: white !important; margin: .15rem 0 .35rem; font-size: 1.9rem; letter-spacing: -0.02em; }
-.eday-hero .accent { width: 56px; height: 4px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem; }
+.eday-hero .accent { width: 56px; height: 4px; background: #c79100; border-radius: 999px; margin-bottom: 1rem; }
 .eday-hero p { color: rgba(255,255,255,.92); font-size: 1.05rem; line-height: 1.55; margin: 0; max-width: 64ch; }
 .eday-step {
   display: grid; grid-template-columns: 70px 1fr; gap: 1.1rem;
-  border: 1px solid var(--bs-border-color); border-left: 5px solid #990000;
+  border: 1px solid var(--bs-border-color); border-left: 5px solid #7a1f1f;
   border-radius: 12px; padding: 1.2rem 1.3rem; margin: 1rem 0;
   background: var(--bs-body-bg);
   scroll-margin-top: 80px;
 }
 .eday-step .num {
-  font-weight: 850; font-size: 2.2rem; color: #990000; line-height: .95;
+  font-weight: 850; font-size: 2.2rem; color: #7a1f1f; line-height: .95;
   font-variant-numeric: tabular-nums; letter-spacing: -0.02em;
 }
 .eday-step .num small {
@@ -41,21 +41,21 @@ toc: false
   color: var(--bs-body-color); text-decoration: none; font-weight: 700; font-size: .92rem;
 }
 .eday-step .actions a:hover {
-  background: rgba(153,0,0,.08); border-color: rgba(153,0,0,.4); color: #990000;
+  background: rgba(122,31,31,.08); border-color: rgba(122,31,31,.4); color: #7a1f1f;
 }
 .eday-step .actions a.primary {
-  background: #990000; color: #FFC72C; border-color: #990000;
+  background: #7a1f1f; color: #c79100; border-color: #7a1f1f;
 }
-.eday-step .actions a.primary:hover { background: #5a0000; color: #FFC72C; }
+.eday-step .actions a.primary:hover { background: #4a1010; color: #c79100; }
 .eday-spine {
-  background: linear-gradient(180deg, rgba(255,199,44,.10), transparent);
-  border: 1px solid rgba(255,199,44,.5); border-radius: 12px;
+  background: linear-gradient(180deg, rgba(199,145,0,.10), transparent);
+  border: 1px solid rgba(199,145,0,.5); border-radius: 12px;
   padding: 1.1rem 1.4rem; margin: 1.5rem 0;
 }
-.eday-spine h2 { color: #8a6d00; font-size: 1.1rem; margin: 0 0 .6rem; }
+.eday-spine h2 { color: #7e5f1f; font-size: 1.1rem; margin: 0 0 .6rem; }
 .eday-spine ol { margin: 0; padding-left: 1.3rem; }
 .eday-spine li { margin: .35rem 0; }
-.eday-spine li strong { color: #990000; }
+.eday-spine li strong { color: #7a1f1f; }
 .eday-mini {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .8rem;
   margin: 1rem 0;
@@ -64,7 +64,7 @@ toc: false
   border: 1px solid var(--bs-border-color); border-radius: 10px;
   padding: .85rem 1rem; background: var(--bs-body-bg);
 }
-.eday-mini h4 { margin: 0 0 .25rem; color: #990000; font-size: .95rem; }
+.eday-mini h4 { margin: 0 0 .25rem; color: #7a1f1f; font-size: .95rem; }
 .eday-mini ul { margin: 0; padding-left: 1.1rem; font-size: .88rem; line-height: 1.45; }
 @media (max-width: 600px) { .eday-step { grid-template-columns: 50px 1fr; gap: .8rem; } .eday-step .num { font-size: 1.7rem; } }
 </style>

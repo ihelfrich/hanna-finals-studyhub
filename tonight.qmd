@@ -13,7 +13,7 @@ toc: false
 <style>
 .day-block { border: 1px solid var(--bs-border-color); border-radius: 12px; padding: 1.2rem 1.4rem; margin: 1rem 0; }
 .day-block.urgent { border-left: 6px solid #b71c1c; background: linear-gradient(180deg, rgba(183,28,28,0.06), transparent); }
-.day-block.upcoming { border-left: 6px solid #FFC72C; background: linear-gradient(180deg, rgba(255,199,44,0.06), transparent); }
+.day-block.upcoming { border-left: 6px solid #c79100; background: linear-gradient(180deg, rgba(199,145,0,0.06), transparent); }
 .day-block.distant { border-left: 6px solid #2e7d32; background: linear-gradient(180deg, rgba(46,125,50,0.04), transparent); }
 .day-block h3 { margin-top: 0; }
 .day-block .meta { font-size: .9rem; color: var(--bs-secondary-color); }

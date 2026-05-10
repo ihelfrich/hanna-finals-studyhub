@@ -8,7 +8,7 @@ section-divs: false
 
 ```{=html}
 <div class="hero" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
-  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #c79100; border-radius: 999px; margin-bottom: 1rem;"></div>
   <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">Don't memorize concepts. Memorize formulas.</h1>
   <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">A formula is a sentence the brain can hold. Pattern-match the question to a formula, plug in the numbers, write the answer. Color-coded by section so you can find what you need fast.</p>
 </div>
@@ -399,8 +399,8 @@ Walk in.
 }
 
 .fb-bond { border-left: 5px solid #c79100; }
-.fb-bond .fb-tag { background: rgba(199,145,0,.12); color: #8a6d00; }
-.fb-bond h4 { color: #8a6d00; }
+.fb-bond .fb-tag { background: rgba(199,145,0,.12); color: #7e5f1f; }
+.fb-bond h4 { color: #7e5f1f; }
 
 .fb-scf { border-left: 5px solid #2563eb; }
 .fb-scf .fb-tag { background: rgba(37,99,235,.12); color: #1e40af; }
@@ -419,12 +419,12 @@ Walk in.
 .fb-ratio h4 { color: #b71c1c; }
 
 .fb-rule {
-  background: rgba(255,199,44,.10); border: 1px solid rgba(255,199,44,.45);
-  border-left: 5px solid #FFC72C; border-radius: 8px;
+  background: rgba(199,145,0,.10); border: 1px solid rgba(199,145,0,.45);
+  border-left: 5px solid #c79100; border-radius: 8px;
   padding: 1rem 1.2rem; margin: 1.2rem 0;
   font-size: .92rem; line-height: 1.55;
 }
-.fb-rule strong { color: #8a6d00; }
+.fb-rule strong { color: #7e5f1f; }
 .fb-rule ul, .fb-rule ol { margin: .35rem 0; padding-left: 1.3rem; }
 .fb-rule ul li, .fb-rule ol li { margin: .25rem 0; }
 
@@ -432,10 +432,10 @@ Walk in.
   display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;
 }
 .fb-comp-side {
-  border: 1px solid var(--bs-border-color); border-left: 4px solid #990000;
+  border: 1px solid var(--bs-border-color); border-left: 4px solid #7a1f1f;
   border-radius: 10px; padding: 1rem 1.2rem; background: var(--bs-body-bg);
 }
-.fb-comp-side h4 { color: #990000; margin: 0 0 .55rem; font-size: 1rem; }
+.fb-comp-side h4 { color: #7a1f1f; margin: 0 0 .55rem; font-size: 1rem; }
 .fb-comp-side pre {
   background: var(--bs-secondary-bg); border-radius: 6px;
   padding: .7rem; font-size: .85rem; line-height: 1.6; margin: 0 0 .6rem;

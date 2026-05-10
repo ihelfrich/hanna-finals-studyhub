@@ -14,25 +14,25 @@ format:
           padding: .8rem 1.1rem; margin: .7rem 0;
           background: var(--bs-body-bg);
         }
-        details.mc[open] { background: rgba(153,0,0,0.03); border-color: #990000; }
+        details.mc[open] { background: rgba(122,31,31,0.03); border-color: #7a1f1f; }
         details.mc summary {
-          cursor: pointer; font-weight: 700; color: #990000; font-size: 1.05rem;
+          cursor: pointer; font-weight: 700; color: #7a1f1f; font-size: 1.05rem;
           list-style: none;
         }
         details.mc summary::before { content: "▸ "; display: inline-block; transition: transform .15s ease; }
         details.mc[open] summary::before { content: "▾ "; }
         details.mc table { font-size: .92rem; margin: .5rem 0; }
-        details.mc table th { background: rgba(153,0,0,0.06); font-weight: 700; }
+        details.mc table th { background: rgba(122,31,31,0.06); font-weight: 700; }
         details.mc table td, details.mc table th { padding: .35rem .6rem; vertical-align: top; }
         .course-banner {
-          background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+          background: linear-gradient(135deg, #7a1f1f 0%, #4a1010 100%);
           color: white; padding: 1rem 1.2rem; border-radius: 10px;
           font-weight: 800; font-size: 1.2rem; margin: 1.6rem 0 .6rem;
           display: flex; justify-content: space-between; align-items: center;
         }
         .course-banner.muted { background: linear-gradient(135deg, #555 0%, #333 100%); font-size: 1.05rem; padding: .7rem 1rem; }
         .course-banner .badge {
-          background: #FFC72C; color: #1a1a1a; font-size: .72rem;
+          background: #c79100; color: #1a1a1a; font-size: .72rem;
           padding: 3px 10px; border-radius: 999px; letter-spacing: .04em;
         }
         </style>

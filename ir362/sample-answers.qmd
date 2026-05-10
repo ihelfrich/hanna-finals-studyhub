@@ -26,9 +26,9 @@ A note on dates. Where this page commits to a specific date — Nasrallah killed
 ```{=html}
 <div class="q-grid-legend">
   <strong>Throughline:</strong>
-  <span class="swatch" style="background:#990000"></span> Pivot
+  <span class="swatch" style="background:#7a1f1f"></span> Pivot
   <span class="swatch" style="background:#c79100"></span> Carousel
-  <span class="swatch" style="background:#5a0000"></span> Iran
+  <span class="swatch" style="background:#4a1010"></span> Iran
 </div>
 <div class="q-grid">
   <a class="throughline-pivot" href="#q1">Q1</a>

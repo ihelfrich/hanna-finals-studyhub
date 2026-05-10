@@ -9,10 +9,10 @@ format:
     include-in-header:
       text: |
         <style>
-        .qf-hero { background: linear-gradient(135deg, #990000 0%, #5a0000 100%); color: white; padding: 1.6rem 1.4rem; border-radius: 14px; margin-bottom: 1.2rem; }
+        .qf-hero { background: linear-gradient(135deg, #7a1f1f 0%, #4a1010 100%); color: white; padding: 1.6rem 1.4rem; border-radius: 14px; margin-bottom: 1.2rem; }
         .qf-hero h1 { color: white !important; margin: 0 0 .3rem; font-size: 1.6rem; }
         .qf-hero p { color: rgba(255,255,255,0.92); margin: 0; }
-        .qf-hero .accent-bar { height: 4px; width: 50px; background: #FFC72C; border-radius: 999px; margin-bottom: .7rem; }
+        .qf-hero .accent-bar { height: 4px; width: 50px; background: #c79100; border-radius: 999px; margin-bottom: .7rem; }
         .qf-stage {
           border: 1px solid var(--bs-border-color); border-radius: 14px;
           background: var(--bs-body-bg); padding: 2rem 1.6rem;
@@ -21,19 +21,19 @@ format:
           margin: 1rem 0;
         }
         .qf-tag {
-          display: inline-block; background: #FFC72C; color: #1a1a1a;
+          display: inline-block; background: #c79100; color: #1a1a1a;
           font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em;
           padding: 3px 10px; border-radius: 999px; margin-bottom: .8rem;
         }
         .qf-question { font-size: 1.4rem; font-weight: 600; line-height: 1.4; max-width: 720px; margin: .4rem 0 1rem; }
-        .qf-answer { font-size: 1.05rem; line-height: 1.5; max-width: 720px; color: var(--bs-secondary-color); border-top: 2px solid #FFC72C; padding-top: .9rem; margin-top: .5rem; }
+        .qf-answer { font-size: 1.05rem; line-height: 1.5; max-width: 720px; color: var(--bs-secondary-color); border-top: 2px solid #c79100; padding-top: .9rem; margin-top: .5rem; }
         .qf-actions { margin-top: 1.2rem; display: flex; gap: .6rem; flex-wrap: wrap; justify-content: center; }
         .qf-btn { border: 0; border-radius: 10px; padding: .7rem 1.4rem; font-weight: 700; cursor: pointer; font-size: 1rem; }
-        .qf-btn.primary { background: #990000; color: white; }
+        .qf-btn.primary { background: #7a1f1f; color: white; }
         .qf-btn.primary:hover { background: #7a0000; }
         .qf-btn.right { background: #1d8348; color: white; }
         .qf-btn.wrong { background: #b03030; color: white; }
-        .qf-btn.flip { background: #FFC72C; color: #1a1a1a; }
+        .qf-btn.flip { background: #c79100; color: #1a1a1a; }
         .qf-meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: .6rem; font-weight: 700; font-size: .9rem; flex-wrap: wrap; }
         .qf-progress { color: var(--bs-secondary-color); }
         .qf-timer-ring {
@@ -42,16 +42,16 @@ format:
         }
         .qf-timer-ring svg { transform: rotate(-90deg); }
         .qf-timer-ring circle.bg { stroke: var(--bs-border-color); fill: none; stroke-width: 6; }
-        .qf-timer-ring circle.fg { stroke: #990000; fill: none; stroke-width: 6; stroke-linecap: round; transition: stroke-dashoffset 1s linear; }
-        .qf-timer-ring .secs { position: absolute; font-weight: 800; font-size: 1.1rem; color: #990000; }
-        .qf-timer-ring.warn circle.fg { stroke: #FFC72C; }
-        .qf-timer-ring.warn .secs { color: #8a6d00; }
+        .qf-timer-ring circle.fg { stroke: #7a1f1f; fill: none; stroke-width: 6; stroke-linecap: round; transition: stroke-dashoffset 1s linear; }
+        .qf-timer-ring .secs { position: absolute; font-weight: 800; font-size: 1.1rem; color: #7a1f1f; }
+        .qf-timer-ring.warn circle.fg { stroke: #c79100; }
+        .qf-timer-ring.warn .secs { color: #7e5f1f; }
         .qf-results { padding: 1.2rem 0; }
-        .qf-results .score { font-size: 3.5rem; font-weight: 800; color: #990000; line-height: 1; margin: .4rem 0; }
+        .qf-results .score { font-size: 3.5rem; font-weight: 800; color: #7a1f1f; line-height: 1; margin: .4rem 0; }
         .qf-results .label { color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .06em; font-size: .8rem; }
         .qf-stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .8rem; margin: 1rem 0; }
         .qf-stat-row .stat { border: 1px solid var(--bs-border-color); border-radius: 10px; padding: .8rem; }
-        .qf-stat-row .stat .num { font-size: 1.6rem; font-weight: 800; color: #990000; }
+        .qf-stat-row .stat .num { font-size: 1.6rem; font-weight: 800; color: #7a1f1f; }
         .qf-stat-row .stat .lbl { font-size: .78rem; color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .05em; }
         .qf-feedback {
           position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
@@ -228,7 +228,7 @@ const QF_POOL = [
     session.flipped = false;
     session.secs = 30;
     progressEl.textContent = 'Question ' + (session.idx + 1) + ' of ' + session.questions.length + ' · ' + session.right + ' right · ' + session.wrong + ' wrong';
-    tagInfo.innerHTML = '<span class="qf-tag" style="background:#990000;color:white">' + q.course + '</span> <span class="qf-tag">' + q.topic + '</span>';
+    tagInfo.innerHTML = '<span class="qf-tag" style="background:#7a1f1f;color:white">' + q.course + '</span> <span class="qf-tag">' + q.topic + '</span>';
 
     const ringR = 28, C = 2 * Math.PI * ringR;
     stage.innerHTML = `

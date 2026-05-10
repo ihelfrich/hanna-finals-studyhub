@@ -8,7 +8,7 @@ section-divs: false
 
 ```{=html}
 <div class="hero" style="background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
-  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #c79100; border-radius: 999px; margin-bottom: 1rem;"></div>
   <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">If you only have 30 minutes, this page gets you through the exam.</h1>
   <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">Five exam sections. One formula chain per section. One decision rule per section. The numbers change; the patterns don't. Memorize these and the rest of the exam fills itself in.</p>
 </div>
@@ -180,17 +180,17 @@ If you can recite all 10 in 90 seconds without looking, you have the spine. Walk
   gap: .8rem; margin: 1.5rem 0;
 }
 .ef-card {
-  border: 1px solid var(--bs-border-color); border-left: 5px solid #990000;
+  border: 1px solid var(--bs-border-color); border-left: 5px solid #7a1f1f;
   border-radius: 10px; padding: .9rem 1rem; background: var(--bs-body-bg);
   position: relative;
 }
 .ef-card .ef-num {
   position: absolute; top: -10px; right: 12px;
-  background: #990000; color: #FFC72C; font-weight: 850;
+  background: #7a1f1f; color: #c79100; font-weight: 850;
   font-size: .8rem; padding: 3px 9px; border-radius: 999px;
   font-family: ui-monospace, monospace;
 }
-.ef-card h3 { margin: 0 0 .25rem; color: #990000; font-size: 1rem; }
+.ef-card h3 { margin: 0 0 .25rem; color: #7a1f1f; font-size: 1rem; }
 .ef-card p { margin: 0; font-size: .85rem; line-height: 1.45; color: var(--bs-secondary-color); }
 
 .rule-stack { display: grid; gap: .5rem; margin: 1rem 0; }
@@ -217,12 +217,12 @@ If you can recite all 10 in 90 seconds without looking, you have the spine. Walk
 .fc-step strong { color: #1e40af; }
 
 .fillrule {
-  background: rgba(255,199,44,.10); border: 1px solid rgba(255,199,44,.45);
-  border-left: 5px solid #FFC72C; border-radius: 8px;
+  background: rgba(199,145,0,.10); border: 1px solid rgba(199,145,0,.45);
+  border-left: 5px solid #c79100; border-radius: 8px;
   padding: 1rem 1.2rem; margin: 1.2rem 0;
   font-size: .95rem; line-height: 1.55;
 }
-.fillrule strong { color: #8a6d00; }
+.fillrule strong { color: #7e5f1f; }
 
 .cfo-recipe {
   background: var(--bs-secondary-bg); border-radius: 10px;

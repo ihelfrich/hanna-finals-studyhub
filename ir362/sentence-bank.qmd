@@ -8,7 +8,7 @@ section-divs: false
 
 ```{=html}
 <div class="hero" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
-  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #c79100; border-radius: 999px; margin-bottom: 1rem;"></div>
   <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">Don't memorize keywords. Memorize sentences.</h1>
   <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">A whole sentence is easier to remember than a list of facts. Pick five or six you like from each section. Read them aloud until they feel natural. In the room, glue them together — that <em>is</em> the essay. The keywords come along automatically because they're already inside the sentences.</p>
 </div>
@@ -426,10 +426,10 @@ If you can do all six steps in three minutes, you have a full essay's worth of p
 .sb-arc { border-left: 5px solid #6b21a8; }
 .sb-arc .sb-tag { background: rgba(107,33,168,.12); color: #6b21a8; }
 
-.sb-evidence { border-left: 5px solid #990000; }
+.sb-evidence { border-left: 5px solid #7a1f1f; }
 .sb-evidence p::before { content: "📅 "; opacity: .6; font-size: .9em; }
 
-.sb-frame { border-left: 5px solid #c79100; background: linear-gradient(180deg, rgba(255,199,44,.05), transparent); }
+.sb-frame { border-left: 5px solid #c79100; background: linear-gradient(180deg, rgba(199,145,0,.05), transparent); }
 
 .sb-transition { border-left: 5px solid #0f766e; font-style: italic; }
 
@@ -445,8 +445,8 @@ If you can do all six steps in three minutes, you have a full essay's worth of p
 .sb-closer .sb-tag { background: rgba(46,125,50,.12); color: #2e7d32; }
 
 .example-paragraph {
-  background: linear-gradient(180deg, rgba(255,199,44,.08), transparent);
-  border: 1px dashed rgba(255,199,44,.5); border-left: 5px solid #FFC72C;
+  background: linear-gradient(180deg, rgba(199,145,0,.08), transparent);
+  border: 1px dashed rgba(199,145,0,.5); border-left: 5px solid #c79100;
   border-radius: 12px; padding: 1.4rem 1.6rem; margin: 1.5rem 0;
 }
 .example-paragraph blockquote { margin: 0; padding-left: 1rem; border-left: 3px solid rgba(0,0,0,.1); }

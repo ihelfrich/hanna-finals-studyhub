@@ -7,8 +7,8 @@ section-divs: false
 ---
 
 ```{=html}
-<div class="hero" style="background: linear-gradient(135deg, #5a0000 0%, #990000 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
-  <div class="accent-bar" style="height: 4px; width: 56px; background: #FFC72C; border-radius: 999px; margin-bottom: 1rem;"></div>
+<div class="hero" style="background: linear-gradient(135deg, #4a1010 0%, #7a1f1f 100%); color: white; padding: 1.8rem 2rem; border-radius: 14px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #c79100; border-radius: 999px; margin-bottom: 1rem;"></div>
   <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">One essay, three prompts, sixty-second sketch.</h1>
   <p style="color: rgba(255,255,255,.92); margin: 0; font-size: 1.02rem; max-width: 70ch;">This is the essay you memorize today. Six paragraphs. About 700 words. Built around the (Re)-Palestinization arc so it flexes to answer Hammad's most likely prompts. Read it three times. Sketch the spine. Walk in.</p>
 </div>
@@ -253,7 +253,7 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
 <style>
 .sketch {
   background: var(--bs-body-bg);
-  border: 2px dashed #990000;
+  border: 2px dashed #7a1f1f;
   border-radius: 12px;
   padding: 1.4rem;
   font-family: ui-monospace, "JetBrains Mono", monospace;
@@ -268,7 +268,7 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
 }
 .essay-bloc {
   border: 1px solid var(--bs-border-color);
-  border-left: 6px solid #990000;
+  border-left: 6px solid #7a1f1f;
   border-radius: 12px;
   padding: 1.2rem 1.4rem;
   background: var(--bs-body-bg);
@@ -278,7 +278,7 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
 .essay-bloc:hover { box-shadow: 0 8px 22px rgba(0,0,0,.08); transform: translateY(-1px); }
 .essay-bloc header { display: flex; flex-wrap: wrap; align-items: baseline; gap: .7rem; margin-bottom: .55rem; }
 .essay-bloc .bloc-tag {
-  background: #990000; color: #FFC72C; font-weight: 850; font-size: .72rem;
+  background: #7a1f1f; color: #c79100; font-weight: 850; font-size: .72rem;
   letter-spacing: .08em; padding: 4px 10px; border-radius: 999px;
   font-family: ui-monospace, monospace;
 }
@@ -289,13 +289,13 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
   flex-basis: 100%; line-height: 1.4;
 }
 .essay-bloc p { margin: 0; line-height: 1.6; font-size: .96rem; }
-.essay-bloc.bloc-thesis { border-left-color: #990000; }
+.essay-bloc.bloc-thesis { border-left-color: #7a1f1f; }
 .essay-bloc.bloc-pre67 { border-left-color: #2563eb; }
 .essay-bloc.bloc-1967 { border-left-color: #b71c1c; }
 .essay-bloc.bloc-1979 { border-left-color: #c79100; }
 .essay-bloc.bloc-1993 { border-left-color: #6b21a8; }
 .essay-bloc.bloc-jordan { border-left-color: #0f766e; }
-.essay-bloc.bloc-beinin { border-left-color: #b08700; background: linear-gradient(180deg, rgba(255,199,44,.06), transparent); }
+.essay-bloc.bloc-beinin { border-left-color: #b08700; background: linear-gradient(180deg, rgba(199,145,0,.06), transparent); }
 .essay-bloc.bloc-counter { border-left-color: #555; }
 .essay-bloc.bloc-tieback { border-left-color: #2e7d32; background: linear-gradient(180deg, rgba(46,125,50,.05), transparent); }
 
@@ -313,11 +313,11 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
 }
 .recipe header { display: flex; align-items: baseline; gap: .6rem; margin-bottom: .35rem; }
 .recipe .recipe-tag {
-  background: #FFC72C; color: #1a1a1a; font-weight: 850; font-size: .68rem;
+  background: #c79100; color: #1a1a1a; font-weight: 850; font-size: .68rem;
   letter-spacing: .07em; padding: 3px 8px; border-radius: 999px;
   font-family: ui-monospace, monospace;
 }
-.recipe h4 { margin: 0; font-size: .98rem; color: #990000; }
+.recipe h4 { margin: 0; font-size: .98rem; color: #7a1f1f; }
 .recipe .recipe-prompt {
   font-style: italic; color: var(--bs-secondary-color);
   font-size: .88rem; margin: .25rem 0 .7rem;
@@ -332,13 +332,13 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
   background: rgba(255,255,255,.5);
   font-family: ui-monospace, monospace;
 }
-.bloc-pill.bloc-thesis { color: #990000; background: rgba(153,0,0,.08); }
+.bloc-pill.bloc-thesis { color: #7a1f1f; background: rgba(122,31,31,.08); }
 .bloc-pill.bloc-pre67 { color: #2563eb; background: rgba(37,99,235,.08); }
 .bloc-pill.bloc-1967 { color: #b71c1c; background: rgba(183,28,28,.08); }
 .bloc-pill.bloc-1979 { color: #c79100; background: rgba(199,145,0,.10); }
 .bloc-pill.bloc-1993 { color: #6b21a8; background: rgba(107,33,168,.08); }
 .bloc-pill.bloc-jordan { color: #0f766e; background: rgba(15,118,110,.08); }
-.bloc-pill.bloc-beinin { color: #b08700; background: rgba(255,199,44,.15); }
+.bloc-pill.bloc-beinin { color: #b08700; background: rgba(199,145,0,.15); }
 .bloc-pill.bloc-counter { color: #555; background: rgba(85,85,85,.08); }
 .bloc-pill.bloc-tieback { color: #2e7d32; background: rgba(46,125,50,.08); }
 .flex-table {
@@ -350,9 +350,9 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
   vertical-align: top; text-align: left;
 }
 .flex-table thead {
-  background: rgba(153,0,0,.06);
+  background: rgba(122,31,31,.06);
 }
-.flex-table th { color: #990000; font-weight: 800; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
+.flex-table th { color: #7a1f1f; font-weight: 800; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
 .opener-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -361,13 +361,13 @@ If you can do all six in five minutes without notes, you have the essay cold. Wa
 }
 .opener-card {
   border: 1px solid var(--bs-border-color);
-  border-left: 4px solid #FFC72C;
+  border-left: 4px solid #c79100;
   border-radius: 10px;
   padding: 1rem 1.2rem;
   background: var(--bs-body-bg);
 }
 .opener-card h4 {
-  color: #8a6d00; font-size: .95rem; margin: 0 0 .5rem;
+  color: #7e5f1f; font-size: .95rem; margin: 0 0 .5rem;
 }
 .opener-card p {
   font-size: .92rem; line-height: 1.55; margin: 0;

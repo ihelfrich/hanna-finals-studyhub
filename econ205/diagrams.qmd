@@ -32,16 +32,16 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="355" y="245" font-size="11" fill="#888">S</text>
   <path d="M 70 240 L 350 50" stroke="#888" stroke-width="2" fill="none"/>
   <text x="355" y="55" font-size="11" fill="#888">D</text>
-  <path d="M 130 240 L 380 90" stroke="#990000" stroke-width="2" fill="none" stroke-dasharray="6,3"/>
-  <text x="383" y="95" font-size="11" fill="#990000">D'</text>
+  <path d="M 130 240 L 380 90" stroke="#7a1f1f" stroke-width="2" fill="none" stroke-dasharray="6,3"/>
+  <text x="383" y="95" font-size="11" fill="#7a1f1f">D'</text>
   <circle cx="210" cy="145" r="3.5" fill="#333"/>
   <text x="215" y="140" font-size="11" fill="#333">E₀</text>
   <line x1="210" y1="145" x2="210" y2="260" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
   <line x1="210" y1="145" x2="50" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
   <text x="200" y="275" font-size="11" fill="#333">Q₀</text>
   <text x="30" y="150" font-size="11" fill="#333">P₀</text>
-  <circle cx="265" cy="115" r="3.5" fill="#990000"/>
-  <text x="270" y="110" font-size="11" fill="#990000">E₁</text>
+  <circle cx="265" cy="115" r="3.5" fill="#7a1f1f"/>
+  <text x="270" y="110" font-size="11" fill="#7a1f1f">E₁</text>
 </svg>
 
 **What shifts what.**
@@ -76,10 +76,10 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="120" y="100" font-size="11" fill="#333">A (efficient)</text>
   <circle cx="120" cy="200" r="3.5" fill="#333"/>
   <text x="80" y="205" font-size="11" fill="#333">B (inefficient)</text>
-  <circle cx="280" cy="80" r="3.5" fill="#990000"/>
-  <text x="290" y="80" font-size="11" fill="#990000">C (unattainable)</text>
-  <path d="M 50 30 Q 100 50 220 110 Q 320 200 380 250" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
-  <text x="385" y="245" font-size="11" fill="#990000">PPF'</text>
+  <circle cx="280" cy="80" r="3.5" fill="#7a1f1f"/>
+  <text x="290" y="80" font-size="11" fill="#7a1f1f">C (unattainable)</text>
+  <path d="M 50 30 Q 100 50 220 110 Q 320 200 380 250" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="385" y="245" font-size="11" fill="#7a1f1f">PPF'</text>
 </svg>
 
 **What shifts what.**
@@ -118,15 +118,15 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="215" y="140" font-size="11" fill="#333">E₀</text>
   <line x1="50" y1="145" x2="210" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
   <text x="20" y="150" font-size="11" fill="#333">W*</text>
-  <line x1="50" y1="90" x2="350" y2="90" stroke="#990000" stroke-width="2" stroke-dasharray="6,3"/>
-  <text x="20" y="94" font-size="11" fill="#990000">W̄</text>
-  <text x="355" y="86" font-size="11" fill="#990000">min wage</text>
-  <circle cx="130" cy="90" r="3.5" fill="#990000"/>
-  <text x="100" y="83" font-size="11" fill="#990000">Lᴰ@W̄</text>
-  <circle cx="290" cy="90" r="3.5" fill="#990000"/>
-  <text x="295" y="83" font-size="11" fill="#990000">Lˢ@W̄</text>
-  <line x1="130" y1="90" x2="290" y2="90" stroke="#990000" stroke-width="3" opacity="0.4"/>
-  <text x="180" y="110" font-size="11" fill="#990000" font-weight="bold">unemployment</text>
+  <line x1="50" y1="90" x2="350" y2="90" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="20" y="94" font-size="11" fill="#7a1f1f">W̄</text>
+  <text x="355" y="86" font-size="11" fill="#7a1f1f">min wage</text>
+  <circle cx="130" cy="90" r="3.5" fill="#7a1f1f"/>
+  <text x="100" y="83" font-size="11" fill="#7a1f1f">Lᴰ@W̄</text>
+  <circle cx="290" cy="90" r="3.5" fill="#7a1f1f"/>
+  <text x="295" y="83" font-size="11" fill="#7a1f1f">Lˢ@W̄</text>
+  <line x1="130" y1="90" x2="290" y2="90" stroke="#7a1f1f" stroke-width="3" opacity="0.4"/>
+  <text x="180" y="110" font-size="11" fill="#7a1f1f" font-weight="bold">unemployment</text>
 </svg>
 
 **What shifts what.**
@@ -160,8 +160,8 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="355" y="70" font-size="11" fill="#888">y = f(k)</text>
   <path d="M 50 260 Q 150 200 350 165" stroke="#444" stroke-width="2" fill="none"/>
   <text x="355" y="170" font-size="11" fill="#444">s·f(k)</text>
-  <line x1="50" y1="260" x2="350" y2="80" stroke="#990000" stroke-width="2"/>
-  <text x="355" y="85" font-size="11" fill="#990000">(n+δ)k</text>
+  <line x1="50" y1="260" x2="350" y2="80" stroke="#7a1f1f" stroke-width="2"/>
+  <text x="355" y="85" font-size="11" fill="#7a1f1f">(n+δ)k</text>
   <circle cx="200" cy="190" r="3.5" fill="#333"/>
   <text x="205" y="186" font-size="11" fill="#333">k*</text>
   <line x1="200" y1="190" x2="200" y2="260" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
@@ -201,16 +201,16 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="225" y="35" font-size="11" fill="#888">Mˢ</text>
   <path d="M 70 60 Q 150 130 350 240" stroke="#888" stroke-width="2" fill="none"/>
   <text x="355" y="245" font-size="11" fill="#888">Mᴰ</text>
-  <line x1="290" y1="20" x2="290" y2="260" stroke="#990000" stroke-width="2" stroke-dasharray="6,3"/>
-  <text x="295" y="35" font-size="11" fill="#990000">Mˢ'</text>
+  <line x1="290" y1="20" x2="290" y2="260" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="295" y="35" font-size="11" fill="#7a1f1f">Mˢ'</text>
   <circle cx="220" cy="150" r="3.5" fill="#333"/>
   <text x="225" y="145" font-size="11" fill="#333">E₀</text>
   <line x1="50" y1="150" x2="220" y2="150" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
   <text x="30" y="155" font-size="11" fill="#333">i₀</text>
-  <circle cx="290" cy="190" r="3.5" fill="#990000"/>
-  <text x="295" y="185" font-size="11" fill="#990000">E₁</text>
-  <line x1="50" y1="190" x2="290" y2="190" stroke="#990000" stroke-width="0.7" stroke-dasharray="2,2"/>
-  <text x="30" y="195" font-size="11" fill="#990000">i₁</text>
+  <circle cx="290" cy="190" r="3.5" fill="#7a1f1f"/>
+  <text x="295" y="185" font-size="11" fill="#7a1f1f">E₁</text>
+  <line x1="50" y1="190" x2="290" y2="190" stroke="#7a1f1f" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="30" y="195" font-size="11" fill="#7a1f1f">i₁</text>
 </svg>
 
 **What shifts what.**
@@ -244,16 +244,16 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="355" y="60" font-size="11" fill="#888">SRAS</text>
   <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
   <text x="355" y="245" font-size="11" fill="#888">AD</text>
-  <path d="M 70 200 L 350 20" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
-  <text x="355" y="20" font-size="11" fill="#990000">SRAS' (neg shock)</text>
-  <path d="M 130 50 L 380 195" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
-  <text x="385" y="200" font-size="11" fill="#990000">AD' (pos shock)</text>
+  <path d="M 70 200 L 350 20" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="355" y="20" font-size="11" fill="#7a1f1f">SRAS' (neg shock)</text>
+  <path d="M 130 50 L 380 195" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="385" y="200" font-size="11" fill="#7a1f1f">AD' (pos shock)</text>
   <circle cx="210" cy="145" r="3.5" fill="#333"/>
   <text x="215" y="140" font-size="11" fill="#333">E₀</text>
-  <circle cx="160" cy="120" r="3.5" fill="#990000"/>
-  <text x="120" y="118" font-size="11" fill="#990000">stagflation</text>
-  <circle cx="260" cy="120" r="3.5" fill="#990000"/>
-  <text x="265" y="118" font-size="11" fill="#990000">boom</text>
+  <circle cx="160" cy="120" r="3.5" fill="#7a1f1f"/>
+  <text x="120" y="118" font-size="11" fill="#7a1f1f">stagflation</text>
+  <circle cx="260" cy="120" r="3.5" fill="#7a1f1f"/>
+  <text x="265" y="118" font-size="11" fill="#7a1f1f">boom</text>
 </svg>
 
 **What shifts what.**
@@ -287,16 +287,16 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="355" y="55" font-size="11" fill="#888">S (saving)</text>
   <path d="M 70 50 L 350 240" stroke="#888" stroke-width="2" fill="none"/>
   <text x="355" y="245" font-size="11" fill="#888">I (investment)</text>
-  <path d="M 130 240 L 380 90" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
-  <text x="385" y="95" font-size="11" fill="#990000">S' (deficit ↑)</text>
+  <path d="M 130 240 L 380 90" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="385" y="95" font-size="11" fill="#7a1f1f">S' (deficit ↑)</text>
   <circle cx="210" cy="145" r="3.5" fill="#333"/>
   <text x="180" y="140" font-size="11" fill="#333">E₀</text>
-  <circle cx="260" cy="115" r="3.5" fill="#990000"/>
-  <text x="265" y="110" font-size="11" fill="#990000">E₁ (crowding out)</text>
+  <circle cx="260" cy="115" r="3.5" fill="#7a1f1f"/>
+  <text x="265" y="110" font-size="11" fill="#7a1f1f">E₁ (crowding out)</text>
   <line x1="50" y1="145" x2="210" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
   <text x="30" y="150" font-size="11" fill="#333">r₀</text>
-  <line x1="50" y1="115" x2="260" y2="115" stroke="#990000" stroke-width="0.7" stroke-dasharray="2,2"/>
-  <text x="30" y="120" font-size="11" fill="#990000">r₁</text>
+  <line x1="50" y1="115" x2="260" y2="115" stroke="#7a1f1f" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="30" y="120" font-size="11" fill="#7a1f1f">r₁</text>
 </svg>
 
 **What shifts what.**
@@ -328,12 +328,12 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="55" y="18" font-size="12" fill="#333">π (inflation)</text>
   <path d="M 70 60 Q 150 100 350 230" stroke="#888" stroke-width="2" fill="none"/>
   <text x="355" y="245" font-size="11" fill="#888">SRPC</text>
-  <path d="M 70 30 Q 150 70 350 200" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
-  <text x="355" y="200" font-size="11" fill="#990000">SRPC' (supply shock)</text>
+  <path d="M 70 30 Q 150 70 350 200" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="355" y="200" font-size="11" fill="#7a1f1f">SRPC' (supply shock)</text>
   <circle cx="210" cy="145" r="3.5" fill="#333"/>
   <text x="215" y="140" font-size="11" fill="#333">E₀</text>
-  <circle cx="210" cy="115" r="3.5" fill="#990000"/>
-  <text x="215" y="110" font-size="11" fill="#990000">stagflation point</text>
+  <circle cx="210" cy="115" r="3.5" fill="#7a1f1f"/>
+  <text x="215" y="110" font-size="11" fill="#7a1f1f">stagflation point</text>
 </svg>
 
 **What shifts what.**
@@ -366,16 +366,16 @@ Every macro graph in this course has the same skeleton: two curves that cross at
   <text x="355" y="245" font-size="11" fill="#888">D (foreign $)</text>
   <path d="M 70 240 L 350 50" stroke="#888" stroke-width="2" fill="none"/>
   <text x="355" y="55" font-size="11" fill="#888">S (foreign $)</text>
-  <path d="M 30 50 L 310 240" stroke="#990000" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
-  <text x="35" y="48" font-size="11" fill="#990000">D' (US rates ↑)</text>
+  <path d="M 30 50 L 310 240" stroke="#7a1f1f" stroke-width="2" stroke-dasharray="6,3" fill="none"/>
+  <text x="35" y="48" font-size="11" fill="#7a1f1f">D' (US rates ↑)</text>
   <circle cx="210" cy="145" r="3.5" fill="#333"/>
   <text x="215" y="140" font-size="11" fill="#333">E₀</text>
-  <circle cx="170" cy="118" r="3.5" fill="#990000"/>
-  <text x="120" y="115" font-size="11" fill="#990000">E₁ (USD ↑)</text>
+  <circle cx="170" cy="118" r="3.5" fill="#7a1f1f"/>
+  <text x="120" y="115" font-size="11" fill="#7a1f1f">E₁ (USD ↑)</text>
   <line x1="50" y1="145" x2="210" y2="145" stroke="#666" stroke-width="0.7" stroke-dasharray="2,2"/>
   <text x="20" y="150" font-size="11" fill="#333">e₀</text>
-  <line x1="50" y1="118" x2="170" y2="118" stroke="#990000" stroke-width="0.7" stroke-dasharray="2,2"/>
-  <text x="20" y="123" font-size="11" fill="#990000">e₁</text>
+  <line x1="50" y1="118" x2="170" y2="118" stroke="#7a1f1f" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="20" y="123" font-size="11" fill="#7a1f1f">e₁</text>
 </svg>
 
 **What shifts what** (axis = USD per unit of foreign currency; $e$ ↑ = USD *depreciates*, foreign currency appreciates).
@@ -408,9 +408,9 @@ flowchart LR
   KA -->|"surplus (KFA>0)<br/>⟹ foreigners buy US assets"| ID
   ID --> Result["**If CA < 0**: country is a net borrower<br/>**If CA > 0**: country is a net lender"]
 
-  classDef ca fill:#FFC72C,stroke:#990000,stroke-width:2px,color:#000
-  classDef kfa fill:#FFC72C,stroke:#990000,stroke-width:2px,color:#000
-  classDef id fill:#990000,stroke:#990000,stroke-width:2px,color:#fff
+  classDef ca fill:#c79100,stroke:#7a1f1f,stroke-width:2px,color:#000
+  classDef kfa fill:#c79100,stroke:#7a1f1f,stroke-width:2px,color:#000
+  classDef id fill:#7a1f1f,stroke:#7a1f1f,stroke-width:2px,color:#fff
   classDef result fill:#fff,stroke:#333,stroke-width:1px,color:#000
 
   class CA ca

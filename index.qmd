@@ -26,17 +26,17 @@ format:
         </script>
         <style>
         .hero {
-          background: linear-gradient(135deg, #990000 0%, #5a0000 100%);
+          background: linear-gradient(135deg, #7a1f1f 0%, #4a1010 100%);
           color: white;
           padding: 2.5rem 2rem;
           border-radius: 14px;
           margin-bottom: 2rem;
-          box-shadow: 0 8px 24px rgba(153,0,0,0.18);
+          box-shadow: 0 8px 24px rgba(122,31,31,0.18);
         }
         .hero h1 { color: white !important; font-size: 2.2rem; margin: 0 0 .5rem; letter-spacing: -0.02em; }
         .hero p { color: rgba(255,255,255,0.92); font-size: 1.08rem; line-height: 1.55; margin-bottom: 0; max-width: 720px; }
         .hero .accent-bar {
-          height: 5px; width: 60px; background: #FFC72C; border-radius: 999px; margin-bottom: 1.2rem;
+          height: 5px; width: 60px; background: #c79100; border-radius: 999px; margin-bottom: 1.2rem;
         }
         .countdown-card {
           display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -45,16 +45,16 @@ format:
         .countdown-card .item {
           border: 1px solid var(--bs-border-color); border-radius: 14px;
           padding: 1.2rem 1.4rem;
-          background: linear-gradient(180deg, rgba(153,0,0,0.04), transparent);
+          background: linear-gradient(180deg, rgba(122,31,31,0.04), transparent);
           position: relative; transition: transform .15s ease, box-shadow .2s ease;
         }
         .countdown-card .item:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,.08); }
-        .countdown-card .item h4 { margin: 0 0 .3rem 0; font-size: 1rem; color: #990000; font-weight: 700; }
+        .countdown-card .item h4 { margin: 0 0 .3rem 0; font-size: 1rem; color: #7a1f1f; font-weight: 700; }
         .countdown-card .item .days { font-size: 2.6rem; font-weight: 800; line-height: 1; letter-spacing: -0.03em; color: #1a1a1a; }
         .dark .countdown-card .item .days { color: #f5f5f5; }
         .countdown-card .item .when { color: var(--bs-secondary-color); font-size: .92rem; margin-top: .3rem; }
         .countdown-card .item .weight {
-          display: inline-block; background: #FFC72C; color: #1a1a1a; font-weight: 700;
+          display: inline-block; background: #c79100; color: #1a1a1a; font-weight: 700;
           font-size: .75rem; padding: 3px 10px; border-radius: 999px; margin-top: .55rem;
         }
         .quick-grid {
@@ -69,16 +69,16 @@ format:
           transition: all .15s ease;
           display: block;
         }
-        .quick-tile:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.06); border-color: #990000; }
+        .quick-tile:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.06); border-color: #7a1f1f; }
         .quick-tile .emoji { font-size: 1.8rem; line-height: 1; }
-        .quick-tile h4 { margin: .35rem 0 .25rem; color: #990000; font-size: 1.05rem; }
+        .quick-tile h4 { margin: .35rem 0 .25rem; color: #7a1f1f; font-size: 1.05rem; }
         .quick-tile p { margin: 0; font-size: .88rem; color: var(--bs-secondary-color); line-height: 1.45; }
         .stat-row {
           display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
           gap: 1rem; margin: 1.2rem 0 2rem; text-align: center;
         }
         .stat-row .stat { border: 1px solid var(--bs-border-color); border-radius: 10px; padding: .9rem .6rem; }
-        .stat-row .stat .num { font-size: 1.7rem; font-weight: 800; color: #990000; line-height: 1; }
+        .stat-row .stat .num { font-size: 1.7rem; font-weight: 800; color: #7a1f1f; line-height: 1; }
         .stat-row .stat .lbl { font-size: .8rem; color: var(--bs-secondary-color); text-transform: uppercase; letter-spacing: .05em; margin-top: .3rem; }
         .countdown-card .item.bonus {
           background: linear-gradient(180deg, rgba(120,120,120,0.05), transparent);
@@ -88,14 +88,14 @@ format:
         .countdown-card .item.bonus .days { font-size: 1.6rem; color: #555; }
         .countdown-card .item.bonus .weight { background: #ddd; color: #444; }
         .cram-shortcut-section {
-          background: linear-gradient(135deg, rgba(153,0,0,0.06), rgba(255,199,44,0.06));
-          border: 2px solid #990000;
+          background: linear-gradient(135deg, rgba(122,31,31,0.06), rgba(199,145,0,0.06));
+          border: 2px solid #7a1f1f;
           border-radius: 14px;
           padding: 1.4rem 1.4rem 1rem;
           margin: 1.5rem 0 2rem;
         }
         .cram-shortcut-section h2 {
-          margin: 0 0 .2rem; font-size: 1.3rem; color: #990000;
+          margin: 0 0 .2rem; font-size: 1.3rem; color: #7a1f1f;
           display: flex; align-items: center; gap: .5rem;
         }
         .cram-shortcut-section .sub { color: var(--bs-secondary-color); font-size: .92rem; margin: 0 0 1rem; }
@@ -105,17 +105,17 @@ format:
         }
         .cram-button {
           display: block; text-decoration: none !important;
-          background: var(--bs-body-bg); border: 2px solid #990000;
+          background: var(--bs-body-bg); border: 2px solid #7a1f1f;
           border-radius: 12px; padding: 1.1rem 1.2rem;
-          color: #990000 !important; transition: all .15s ease;
+          color: #7a1f1f !important; transition: all .15s ease;
         }
-        .cram-button:hover { background: #990000; color: white !important; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(153,0,0,.22); }
+        .cram-button:hover { background: #7a1f1f; color: white !important; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(122,31,31,.22); }
         .cram-button .emoji { font-size: 1.8rem; line-height: 1; }
         .cram-button h4 { margin: .3rem 0 .2rem; font-size: 1.1rem; color: inherit !important; }
         .cram-button p { margin: 0; font-size: .85rem; color: inherit; opacity: .85; line-height: 1.4; }
         .quick-tile.bonus { border-style: dashed; opacity: .9; }
         .quick-tile .badge {
-          display: inline-block; background: #FFC72C; color: #1a1a1a;
+          display: inline-block; background: #c79100; color: #1a1a1a;
           font-size: .7rem; font-weight: 700; padding: 2px 8px;
           border-radius: 999px; margin-left: .4rem;
         }
@@ -126,7 +126,7 @@ format:
 <div class="hero">
   <div class="accent-bar"></div>
   <h1>One spine. Walk in.</h1>
-  <p>Three throughlines. Eight dates. Four frames. One thesis. Every essay you write today comes from those. Open <a href="ir362/exam-day.html" style="color:#FFC72C;font-weight:700;text-decoration:underline;">IR Exam Day</a> and follow it in order.</p>
+  <p>Three throughlines. Eight dates. Four frames. One thesis. Every essay you write today comes from those. Open <a href="ir362/exam-day.html" style="color:#c79100;font-weight:700;text-decoration:underline;">IR Exam Day</a> and follow it in order.</p>
 </div>
 
 <div class="countdown-card">
@@ -297,7 +297,7 @@ format:
 .ct-label {
   font-size: .68rem; font-weight: 800;
   letter-spacing: .14em; text-transform: uppercase;
-  color: #8a6d00; margin-bottom: .65rem;
+  color: #7e5f1f; margin-bottom: .65rem;
 }
 .ct-tier-2 .ct-label { color: #5a6a40; }
 .ct-tier-3 .ct-label { color: #5b5450; }

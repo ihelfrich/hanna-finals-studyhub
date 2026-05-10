@@ -411,7 +411,7 @@ Three vivid scenes. Each one is a *physical place* you can walk through in your 
 One thesis sentence that fits almost any IR 362 prompt. Memorize it verbatim. The four anchors are highlighted — those are the load-bearing words.
 
 ```{=html}
-<div class="thesis-anchor" style="font-size: 1.1rem; padding: 1.2rem 1.4rem; background: rgba(153,0,0,.05); border-left: 5px solid #990000; border-radius: 8px; margin: 1rem 0; line-height: 1.65;">
+<div class="thesis-anchor" style="font-size: 1.1rem; padding: 1.2rem 1.4rem; background: rgba(122,31,31,.05); border-left: 5px solid #7a1f1f; border-radius: 8px; margin: 1rem 0; line-height: 1.65;">
 "In 2026, the regional order has shifted from <mark>API</mark>-anchored linkage to <mark>Abraham-Accords</mark>-style security-and-economics linkage, with <mark>Iran as the engine</mark> connecting both spheres until <mark>Damascus fell on December 8, 2024</mark>."
 </div>
 

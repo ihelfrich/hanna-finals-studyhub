@@ -6,7 +6,7 @@ order: 1
 ---
 
 ```{=html}
-<img src="../assets/img/banners/ir362-banner.svg" alt="IR 362 banner with regional actor map" style="width:100%;border-radius:14px;margin-bottom:1.5rem;box-shadow:0 8px 24px rgba(153,0,0,0.15);" />
+<img src="../assets/img/banners/ir362-banner.svg" alt="IR 362 banner with regional actor map" style="width:100%;border-radius:14px;margin-bottom:1.5rem;box-shadow:0 8px 24px rgba(122,31,31,0.15);" />
 ```
 
 ::: {.callout-warning appearance="default"}
@@ -48,9 +48,9 @@ Then return to this page and re-read the 17-question framework. The deep-dives w
 ```{=html}
 <div class="q-grid-legend">
   <strong>Throughline color:</strong>
-  <span class="swatch" style="background:#990000"></span> Pivot (API↔Accords)
+  <span class="swatch" style="background:#7a1f1f"></span> Pivot (API↔Accords)
   <span class="swatch" style="background:#c79100"></span> Carousel (Nash)
-  <span class="swatch" style="background:#5a0000"></span> Iran linkage
+  <span class="swatch" style="background:#4a1010"></span> Iran linkage
 </div>
 <div class="q-grid">
   <a class="throughline-pivot" href="#q1">Q1</a>
