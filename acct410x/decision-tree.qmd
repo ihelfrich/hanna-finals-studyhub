@@ -1,0 +1,509 @@
+---
+title: "ACCT 410 — Match the Question to the Formula"
+subtitle: "When you see this in the question, do this. Memorize the triggers, not the theory."
+description: "Pattern-matching guide: keyword triggers → formula to apply"
+order: 0
+section-divs: false
+---
+
+```{=html}
+<div class="hero" style="background: linear-gradient(135deg, #8a2424 0%, #6b1e1e 100%); color: white; padding: 1.8rem 2rem; border-radius: 16px; margin-bottom: 1.5rem;">
+  <div class="accent-bar" style="height: 4px; width: 56px; background: #d4a437; border-radius: 999px; margin-bottom: 1rem;"></div>
+  <h1 style="color: white !important; margin: 0 0 .5rem; font-size: 1.7rem;">If the question says ___, do ___.</h1>
+  <p style="color: rgba(255,255,255,.94); margin: 0; font-size: 1.04rem; max-width: 70ch;">The exam rewards formula application, not theory. Most questions have a keyword that signals which formula to grab. Memorize the triggers; the formulas come along.</p>
+</div>
+```
+
+::: {.callout-tip}
+**This exam is effort-based.** Show your work. Apply the formula. The points are for the *application*, not for inventing anything new. If you can pattern-match the question to the right formula and execute the arithmetic carefully, you pass.
+:::
+
+## How to use this page
+
+Each card is a **trigger phrase** the question might contain → the **formula to apply** → the **trap to avoid**.
+
+In the room: read the question, scan for the trigger keywords, find the matching card here in your head, plug in the numbers, write your work.
+
+---
+
+## 🪙 Bond questions
+
+```{=html}
+<div class="dt-grid">
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What is the coupon rate?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">coupon rate</span>
+    <span class="dt-kw">stated rate</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Coupon rate = Annual coupon $ / Face value</div>
+  <p class="dt-trap">Use face value (e.g., $200,000), not issue price.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Was it issued at premium / discount / face?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">premium</span>
+    <span class="dt-kw">discount</span>
+    <span class="dt-kw">at par</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Compare issue price to face:<br>Issue &gt; Face → Premium<br>Issue &lt; Face → Discount<br>Issue = Face → At par</div>
+  <p class="dt-trap">Equivalent: coupon rate &gt; market = premium. Coupon &lt; market = discount.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What is the interest expense for year ___?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">interest expense</span>
+    <span class="dt-kw">year 1, year 2…</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Interest expense = NBV at start of year × MARKET rate</div>
+  <p class="dt-trap">Use MARKET rate, NOT coupon rate. The coupon rate gives you cash; the market rate gives you the accounting expense.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What is the NBV at end of year ___?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">net book value</span>
+    <span class="dt-kw">carrying value</span>
+    <span class="dt-kw">balance sheet value</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Amortization = Coupon (cash) − Interest expense<br>Premium: New NBV = Old NBV − Amortization<br>Discount: New NBV = Old NBV + Amortization</div>
+  <p class="dt-trap">Premium decays toward face. Discount climbs toward face. Both end at face value at maturity.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Make the journal entry for issuance."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">journal entry</span>
+    <span class="dt-kw">issuance</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Dr. Cash (issue price)<br>Cr. Bonds Payable (face)<br>Cr/Dr. Premium or Discount (the diff)</div>
+  <p class="dt-trap">Three lines, always. The premium is a CREDIT, the discount is a DEBIT (contra-liability).</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Total interest expense vs total coupon payments?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">over the life of the bond</span>
+    <span class="dt-kw">total interest</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Premium → total interest expense LOWER than total coupons<br>Discount → total interest expense HIGHER than total coupons</div>
+  <p class="dt-trap">Premium amortization reduces interest expense. Discount amortization adds to it.</p>
+</div>
+
+</div>
+```
+
+---
+
+## 💵 Statement of Cash Flows questions
+
+```{=html}
+<div class="dt-grid">
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Calculate cash flow from operations."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">CFO</span>
+    <span class="dt-kw">operating activities</span>
+    <span class="dt-kw">indirect method</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Start with NI<br>+ depreciation, + amortization<br>+ losses (subtract gains) on PPE/investments<br>± Δ in current operating accounts</div>
+  <p class="dt-trap">Sign rule: current ASSETS opposite (AR up = subtract). Current LIABILITIES same (AP up = add).</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Cash received from selling PPE / equipment / building."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">sold a building/truck/equipment</span>
+    <span class="dt-kw">cash inflow from sale</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">NBV = Original cost − Accumulated depreciation<br>Cash received = NBV − Loss (or NBV + Gain)<br>Cash inflow goes in INVESTING section</div>
+  <p class="dt-trap">The loss/gain is a non-cash adjustment in CFO. Only the actual cash received goes in CFI.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"How much was paid for new PPE / how much purchased?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">purchased a new building</span>
+    <span class="dt-kw">acquired equipment</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">PP&E roll-forward:<br>End PPE = Beg PPE + Purchases − Cost of PPE sold<br>Solve for Purchases</div>
+  <p class="dt-trap">Use the ORIGINAL COST of sold PPE (not NBV) when subtracting from PP&E balance.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"How much in dividends were paid?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">dividends paid</span>
+    <span class="dt-kw">paid to shareholders</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Dividends = Beg RE + NI − End RE<br>Goes in FINANCING section.</div>
+  <p class="dt-trap">Dividends are NOT on the income statement. Compute from the Retained Earnings roll.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What is the cash interest payment?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">interest paid in cash</span>
+    <span class="dt-kw">cash interest</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Cash interest = Interest expense ± Δ Interest Payable<br>If no Interest Payable balance → Cash interest = Interest expense.<br>Goes in OPERATING section.</div>
+  <p class="dt-trap">Interest is in OPERATING (not financing) under US GAAP for SCF.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What was the tax rate?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">tax rate</span>
+    <span class="dt-kw">effective tax rate</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Pretax income = Operating income − Interest expense − Loss on sale<br>Tax rate = Tax expense / Pretax income</div>
+  <p class="dt-trap">Don't use Operating income as the denominator — subtract interest and any non-operating losses first.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Cash flow from financing activities."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">CFF</span>
+    <span class="dt-kw">financing</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">CFF = ΔLT Debt + ΔCommon Stock + ΔAdditional Paid-In Capital − Dividends Paid</div>
+  <p class="dt-trap">Dividends DECLARED ≠ Dividends PAID. Use the paid number (from RE roll). Don't double-count.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Net change in cash. Does it reconcile?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">net change in cash</span>
+    <span class="dt-kw">reconcile</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">CFO + CFI + CFF = ΔCash<br>Compare to End Cash − Beg Cash from BS.</div>
+  <p class="dt-trap">If they don't match, you have a sign error in CFO somewhere. Recheck the sign rule.</p>
+</div>
+
+</div>
+```
+
+---
+
+## 🏭 Job-Order Costing questions
+
+```{=html}
+<div class="dt-grid">
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Predetermined overhead rate."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">predetermined</span>
+    <span class="dt-kw">budgeted overhead rate</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Predetermined OH rate = ESTIMATED total OH / ESTIMATED allocation base</div>
+  <p class="dt-trap">Both numerator AND denominator are ESTIMATED (budgeted at start of year). Never use actual.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Allocated overhead / applied overhead."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">allocated</span>
+    <span class="dt-kw">applied</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Allocated OH = Predetermined rate × ACTUAL allocation base</div>
+  <p class="dt-trap">Mixed: predetermined (estimated) × actual. This is the rule that's tested every year.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Direct materials used in production."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">direct materials used</span>
+    <span class="dt-kw">DM used</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">DM used = Materials placed in production − Indirect materials</div>
+  <p class="dt-trap">"Placed in production" ≠ "purchased". The exam will give both — use the placed-in-production number.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Direct labor cost."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">direct labor</span>
+    <span class="dt-kw">assembly-line workers</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Direct labor = Wages of workers traceable to specific units (assembly-line, machine operators)</div>
+  <p class="dt-trap">Factory supervisor's salary is INDIRECT labor → MOH, not direct labor. Customer service = period cost.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Manufacturing overhead actually incurred."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">MOH actually incurred</span>
+    <span class="dt-kw">actual overhead</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Sum of: indirect materials + indirect labor (incl. supervisor) + factory rent + factory depreciation + factory utilities</div>
+  <p class="dt-trap">Only FACTORY-related items. Corporate HQ rent, office salaries, customer service = period costs (not in MOH).</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Total product cost."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">total product costs</span>
+    <span class="dt-kw">cost of jobs</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Total product cost = Direct materials + Direct labor + Allocated OH</div>
+  <p class="dt-trap">Use ALLOCATED overhead (predetermined × actual), not actually-incurred overhead.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Period costs."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">period costs</span>
+    <span class="dt-kw">selling, general, admin</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Period costs = Corporate HQ rent + Office admin salaries + Sales + Customer service + Marketing</div>
+  <p class="dt-trap">Period costs are EXPENSED IMMEDIATELY (income statement). Product costs are CAPITALIZED (inventory) until sold.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Cost of Goods Manufactured (COGM)."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">COGM</span>
+    <span class="dt-kw">cost of goods manufactured</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">COGM = Beg WIP + Total Manufacturing Costs − End WIP<br>(Total Mfg Costs = DM used + DL + MOH applied)</div>
+  <p class="dt-trap">COGM ≠ COGS. COGM = produced this period. COGS = sold this period.</p>
+</div>
+
+</div>
+```
+
+---
+
+## 📈 CVP Analysis questions
+
+```{=html}
+<div class="dt-grid">
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What is the breakeven point in units?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">breakeven</span>
+    <span class="dt-kw">break-even units</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Breakeven units = Fixed Costs / Unit CM<br>Unit CM = Sales price/unit − Variable cost/unit</div>
+  <p class="dt-trap">Round UP. You can't sell 7,241.38 units; you need 7,242.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"How many units to maintain a profit of ___?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">target profit</span>
+    <span class="dt-kw">maintain profit</span>
+    <span class="dt-kw">net income of</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Units = (Fixed Costs + Target Profit) / Unit CM</div>
+  <p class="dt-trap">Add the target profit to fixed costs in the numerator BEFORE dividing.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"What would profit be at ___ units?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">profit at</span>
+    <span class="dt-kw">net income if sales remain</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">NI = (Volume × Unit CM) − Fixed Costs</div>
+  <p class="dt-trap">Recompute Unit CM if the scenario changed sales price or variable cost.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Variable costs increase by $___ per unit."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">variable cost increase</span>
+    <span class="dt-kw">supply chain issues</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">New VC/unit = Old VC + increase<br>New Unit CM = Sales price − new VC<br>Then plug into breakeven or target-profit formulas</div>
+  <p class="dt-trap">Always recompute Unit CM at the top of the new scenario.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Reduce variable costs by ___% / increase fixed costs by ___%."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">automation</span>
+    <span class="dt-kw">reduce variable by 30%</span>
+    <span class="dt-kw">increase fixed by 75%</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">New VC/unit = Old VC × (1 − reduction%)<br>New FC = Old FC × (1 + increase%)<br>New Unit CM = Sales price − new VC</div>
+  <p class="dt-trap">Both VC and FC change. Recompute both, then Unit CM, then plug into formulas.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Contribution margin ratio."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">CM ratio</span>
+    <span class="dt-kw">contribution margin ratio</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">CM Ratio = Unit CM / Sales price/unit<br>OR = Total CM / Total Sales</div>
+  <p class="dt-trap">Used for breakeven in DOLLARS: BE$ = FC / CM Ratio. Memorize this if asked for breakeven sales dollars.</p>
+</div>
+
+</div>
+```
+
+---
+
+## 🎯 Multiple-choice triggers
+
+```{=html}
+<div class="dt-grid">
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Higher P/E ratio implies…"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">P/E ratio</span>
+    <span class="dt-kw">price-earnings</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">→ Investors expect HIGHER FUTURE GROWTH</div>
+  <p class="dt-trap">P/E does NOT mean current profitability or efficiency. It's about expectations.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"DIRECT product cost is…"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">direct product cost</span>
+    <span class="dt-kw">candy wrappers, fabric</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">→ Materials TRACEABLE to one unit (wrappers, fabric, board)</div>
+  <p class="dt-trap">Factory utilities, supervisor, machine oil = INDIRECT (overhead). Office salaries = period.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Stock split vs stock repurchase."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">stock split</span>
+    <span class="dt-kw">treasury stock</span>
+    <span class="dt-kw">stock repurchase</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Stock split → SE UNCHANGED<br>Stock repurchase → SE DECREASES (treasury = contra-equity, not asset)</div>
+  <p class="dt-trap">Treasury stock is NOT an asset; it sits on the equity side as a deduction.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Earnings management vs fraud."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">earnings management</span>
+    <span class="dt-kw">fraud</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Earnings management → INTENTIONAL, may be within GAAP<br>Fraud → INTENTIONAL, violates GAAP / misleads users</div>
+  <p class="dt-trap">Both are intentional. The line is whether GAAP is violated.</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"SCF reports on what basis?"</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">accrual vs cash</span>
+    <span class="dt-kw">basis of SCF</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">SCF is on a CASH basis. The income statement is on accrual.</div>
+  <p class="dt-trap">If CFO is consistently LOWER than NI → potentially aggressive revenue recognition (booking revenue you haven't collected).</p>
+</div>
+
+<div class="dt-card">
+  <p class="dt-trigger">Trigger</p>
+  <h4>"Equity vs debt securities."</h4>
+  <div class="dt-keywords">
+    <span class="dt-kw">debt holders, equity holders</span>
+    <span class="dt-kw">bankruptcy hierarchy</span>
+  </div>
+  <div class="dt-arrow">↓</div>
+  <div class="dt-action">Debt = lender, gets paid first in bankruptcy, receives interest<br>Equity = owner, paid last, receives dividends</div>
+  <p class="dt-trap">In bankruptcy: secured debt → unsecured debt → preferred equity → common equity. All four statements about this are usually true.</p>
+</div>
+
+</div>
+```
+
+---
+
+## In the room
+
+When you read a question, do this:
+
+1. **Scan for the trigger keyword** — "predetermined," "allocated," "premium," "breakeven," "indirect method," "cash from sale of," "P/E ratio," etc.
+2. **Pull the matching card from memory** — formula + trap.
+3. **Plug in the numbers**. Show your work.
+4. **Check the trap** before circling your answer.
+5. **Move on**. Come back to anything stuck at the end.
+
+::: {.callout-tip}
+**This exam rewards effort.** Show every step. Even if your final number is wrong, the right setup with a clean arithmetic mistake usually earns most of the points. The only way to lose all the points is to leave the answer blank — so write something for every question, even a rough setup.
+:::
+
+```{=html}
+<p class="effort-badge">Effort-based · formula-application · partial credit lives</p>
+```

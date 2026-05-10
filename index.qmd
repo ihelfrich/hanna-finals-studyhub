@@ -262,6 +262,11 @@ format:
     <h4>ACCT 410 — Exam Day Path</h4>
     <p>The 6-step path: formula bank · practice walkthrough · re-do · smallest version · walk · walk in. Practice final + worked solutions live here.</p>
   </a>
+  <a href="acct410x/decision-tree.html" class="quick-tile" style="border-left:4px solid #8a2424;">
+    <div class="emoji">🔑</div>
+    <h4>ACCT — Match Question → Formula</h4>
+    <p>Pattern-matching cards. When the question says X, do Y. Effort-based exam: show your work, apply the formula, collect the points.</p>
+  </a>
   <a href="marketing/" class="quick-tile">
     <div class="emoji">🛍️</div>
     <h4>Marketing — Ensemble</h4>

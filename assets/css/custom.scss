@@ -1348,3 +1348,366 @@ table thead { background: rgba(153,0,0,0.06); }
   .drill-timer { transition: none; }
   .memo-card { transition: none; }
 }
+
+/* ============================================================
+   CALM PASS — soft palette overrides for soothing study mode
+   Appended last so it cascades over earlier styles.
+   ============================================================ */
+
+:root {
+  --calm-cream: #fbf8f3;
+  --calm-cream-soft: #faf6ef;
+  --calm-ink: #2b2522;
+  --calm-ink-soft: #5b5450;
+  --calm-cardinal-deep: #8a2424;
+  --calm-cardinal-soft: rgba(138, 36, 36, 0.85);
+  --calm-cardinal-tint: rgba(138, 36, 36, 0.07);
+  --calm-cardinal-tintier: rgba(138, 36, 36, 0.04);
+  --calm-gold-warm: #d4a437;
+  --calm-gold-soft: rgba(212, 164, 55, 0.18);
+  --calm-paper: #fefcf8;
+  --calm-border: rgba(0, 0, 0, 0.06);
+  --calm-border-soft: rgba(0, 0, 0, 0.04);
+  --calm-shadow: 0 2px 12px rgba(45, 30, 25, 0.04);
+  --calm-shadow-hover: 0 4px 20px rgba(45, 30, 25, 0.06);
+  --calm-radius: 14px;
+  --calm-radius-lg: 16px;
+}
+
+/* Light mode body — soft cream background instead of hard white */
+body:not(.quarto-dark) {
+  background: var(--calm-cream);
+  color: var(--calm-ink);
+}
+
+/* Soften nav bar */
+body:not(.quarto-dark) .navbar {
+  background: var(--calm-paper) !important;
+  border-bottom: 1px solid var(--calm-border-soft);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+body:not(.quarto-dark) .navbar .nav-link,
+body:not(.quarto-dark) .navbar .navbar-title,
+body:not(.quarto-dark) .navbar-brand {
+  color: var(--calm-ink) !important;
+}
+body:not(.quarto-dark) .navbar .nav-link:hover {
+  color: var(--calm-cardinal-deep) !important;
+}
+
+/* Sidebar softening */
+body:not(.quarto-dark) .sidebar.sidebar-navigation {
+  background: var(--calm-cream-soft);
+  border-right: 1px solid var(--calm-border-soft);
+}
+body:not(.quarto-dark) .sidebar-item .sidebar-link {
+  color: var(--calm-ink-soft);
+  padding: .35rem .8rem;
+  border-radius: 6px;
+  transition: all .2s ease;
+}
+body:not(.quarto-dark) .sidebar-item .sidebar-link:hover {
+  background: var(--calm-cardinal-tint);
+  color: var(--calm-cardinal-deep);
+}
+body:not(.quarto-dark) .sidebar-item .sidebar-link.active {
+  background: var(--calm-cardinal-tint);
+  color: var(--calm-cardinal-deep);
+  font-weight: 600;
+}
+
+/* Headings — slightly softer */
+body:not(.quarto-dark) h1,
+body:not(.quarto-dark) h2,
+body:not(.quarto-dark) h3 {
+  color: var(--calm-ink);
+  letter-spacing: -0.012em;
+  font-weight: 750;
+}
+body:not(.quarto-dark) h1 { font-weight: 800; }
+
+body:not(.quarto-dark) p,
+body:not(.quarto-dark) li {
+  color: var(--calm-ink);
+  line-height: 1.65;
+}
+
+/* Card-like elements: soften shadow + radius */
+body:not(.quarto-dark) .quick-tile,
+body:not(.quarto-dark) .countdown-card .item,
+body:not(.quarto-dark) .focus-card,
+body:not(.quarto-dark) .essay-bloc,
+body:not(.quarto-dark) .recipe,
+body:not(.quarto-dark) .sb-card,
+body:not(.quarto-dark) .fb-card,
+body:not(.quarto-dark) .ef-card,
+body:not(.quarto-dark) .vivid-frame,
+body:not(.quarto-dark) .frame-card,
+body:not(.quarto-dark) .memo-card,
+body:not(.quarto-dark) .sample-answer,
+body:not(.quarto-dark) .truth-card,
+body:not(.quarto-dark) .map-card,
+body:not(.quarto-dark) .gloss-card,
+body:not(.quarto-dark) .actor-cell,
+body:not(.quarto-dark) .stop {
+  background: var(--calm-paper);
+  border-color: var(--calm-border);
+  box-shadow: var(--calm-shadow);
+  border-radius: var(--calm-radius);
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+body:not(.quarto-dark) .quick-tile:hover,
+body:not(.quarto-dark) .countdown-card .item:hover,
+body:not(.quarto-dark) .essay-bloc:hover,
+body:not(.quarto-dark) .sb-card:hover,
+body:not(.quarto-dark) .fb-card:hover,
+body:not(.quarto-dark) .vivid-frame:hover,
+body:not(.quarto-dark) .map-card:hover,
+body:not(.quarto-dark) .gloss-card:hover,
+body:not(.quarto-dark) .memo-card:hover {
+  box-shadow: var(--calm-shadow-hover);
+  transform: translateY(-1px);
+}
+
+/* Soften the hero gradients */
+body:not(.quarto-dark) .hero {
+  background: linear-gradient(135deg, #8a2424 0%, #6b1e1e 100%);
+  box-shadow: 0 6px 20px rgba(138, 36, 36, 0.12);
+  border-radius: var(--calm-radius-lg);
+}
+body:not(.quarto-dark) .focus-hero {
+  background: linear-gradient(180deg, var(--calm-cardinal-tint), var(--calm-cardinal-tintier));
+  border-color: var(--calm-border);
+  border-top-color: var(--calm-cardinal-soft);
+  border-radius: var(--calm-radius);
+}
+body:not(.quarto-dark) .eday-hero {
+  background: linear-gradient(135deg, #8a2424 0%, #6b1e1e 100%);
+  box-shadow: 0 6px 20px rgba(138, 36, 36, 0.14);
+  border-radius: var(--calm-radius-lg);
+}
+
+/* Soften the cram-shortcut section */
+body:not(.quarto-dark) .cram-shortcut-section {
+  background: linear-gradient(135deg, var(--calm-cardinal-tint), var(--calm-gold-soft));
+  border: 1px solid var(--calm-border);
+  border-left: 4px solid var(--calm-cardinal-soft);
+  border-radius: var(--calm-radius);
+}
+body:not(.quarto-dark) .cram-button {
+  background: var(--calm-paper);
+  border: 1px solid var(--calm-border);
+  border-left: 4px solid var(--calm-cardinal-soft);
+  color: var(--calm-cardinal-deep) !important;
+  box-shadow: var(--calm-shadow);
+}
+body:not(.quarto-dark) .cram-button:hover {
+  background: var(--calm-cardinal-deep);
+  color: var(--calm-paper) !important;
+  box-shadow: 0 6px 20px rgba(138, 36, 36, 0.18);
+}
+
+/* Soften callouts */
+body:not(.quarto-dark) .callout {
+  border-radius: var(--calm-radius);
+  border-color: var(--calm-border);
+  background: var(--calm-paper);
+}
+body:not(.quarto-dark) .callout-tip {
+  border-left-color: #8b9d6b;
+  background: rgba(139, 157, 107, 0.05);
+}
+body:not(.quarto-dark) .callout-warning {
+  border-left-color: #c79100;
+  background: rgba(199, 145, 0, 0.04);
+}
+body:not(.quarto-dark) .callout-important {
+  border-left-color: #a04040;
+  background: rgba(160, 64, 64, 0.04);
+}
+
+/* Soften the hero accent text colors */
+body:not(.quarto-dark) .hero a,
+body:not(.quarto-dark) .eday-hero a {
+  color: #f5d063 !important;
+}
+
+/* Soften .thesis */
+body:not(.quarto-dark) .thesis {
+  background: var(--calm-cardinal-tintier);
+  border-left-color: var(--calm-cardinal-soft);
+  border-radius: 0 var(--calm-radius) var(--calm-radius) 0;
+}
+
+/* Soften the stat row */
+body:not(.quarto-dark) .stat-row .stat {
+  background: var(--calm-paper);
+  border: 1px solid var(--calm-border);
+  border-radius: var(--calm-radius);
+  box-shadow: var(--calm-shadow);
+}
+body:not(.quarto-dark) .stat-row .stat .num {
+  color: var(--calm-cardinal-deep);
+  font-weight: 700;
+}
+
+/* Soften body text in cards */
+body:not(.quarto-dark) .quick-tile h4,
+body:not(.quarto-dark) .countdown-card .item h4,
+body:not(.quarto-dark) .focus-card h3 {
+  color: var(--calm-cardinal-deep);
+  font-weight: 700;
+}
+body:not(.quarto-dark) .quick-tile p,
+body:not(.quarto-dark) .countdown-card .item .when {
+  color: var(--calm-ink-soft);
+}
+
+/* Smoother transitions on countdown numbers */
+body:not(.quarto-dark) .countdown-card .item .days {
+  color: var(--calm-cardinal-deep);
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+/* Memo check / closer panels */
+body:not(.quarto-dark) .memo-check {
+  background: rgba(139, 157, 107, 0.05);
+  border-color: rgba(139, 157, 107, 0.3);
+  border-left-color: #8b9d6b;
+  border-radius: var(--calm-radius);
+}
+
+/* Smaller headings in cards lighter */
+body:not(.quarto-dark) .ef-card h3,
+body:not(.quarto-dark) .vivid-frame h3,
+body:not(.quarto-dark) .frame-card h3,
+body:not(.quarto-dark) .palace-scene h3 {
+  color: var(--calm-cardinal-deep);
+  font-weight: 700;
+}
+
+/* Soften the bordered tags */
+body:not(.quarto-dark) .essay-bloc .bloc-tag,
+body:not(.quarto-dark) .recipe .recipe-tag,
+body:not(.quarto-dark) .sb-card .sb-tag {
+  background: var(--calm-cardinal-deep);
+  color: var(--calm-paper);
+  font-weight: 700;
+}
+
+/* Anti-aliased rendering for body */
+body:not(.quarto-dark) {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* More breathing room in body content */
+body:not(.quarto-dark) main p {
+  margin-bottom: 1.1em;
+}
+
+/* Soften code blocks */
+body:not(.quarto-dark) pre {
+  background: var(--calm-cream-soft);
+  border: 1px solid var(--calm-border);
+  border-radius: 10px;
+  padding: 1rem;
+}
+body:not(.quarto-dark) code {
+  background: var(--calm-cream-soft);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+/* === Decision-tree page styles (formula → question matcher) === */
+.dt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.dt-card {
+  border: 1px solid var(--calm-border, var(--bs-border-color));
+  border-left: 5px solid #8a2424;
+  border-radius: var(--calm-radius, 12px);
+  padding: 1.1rem 1.3rem;
+  background: var(--calm-paper, var(--bs-body-bg));
+  box-shadow: var(--calm-shadow, 0 2px 8px rgba(0,0,0,.04));
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+.dt-card:hover {
+  box-shadow: var(--calm-shadow-hover, 0 4px 16px rgba(0,0,0,.06));
+  transform: translateY(-1px);
+}
+.dt-trigger {
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: #8a2424;
+  margin: 0 0 .4rem;
+}
+.dt-card h4 {
+  margin: 0 0 .55rem;
+  color: var(--calm-ink, inherit);
+  font-size: 1rem;
+}
+.dt-card .dt-keywords {
+  display: flex; flex-wrap: wrap; gap: .35rem;
+  margin: 0 0 .65rem;
+}
+.dt-card .dt-kw {
+  background: rgba(212, 164, 55, 0.18);
+  color: #7e5f1f;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: .78rem;
+  font-weight: 600;
+  font-family: ui-monospace, monospace;
+}
+.dt-card .dt-arrow {
+  font-size: 1.1rem;
+  color: var(--calm-ink-soft, var(--bs-secondary-color));
+  margin: .2rem 0 .35rem;
+  text-align: center;
+  font-weight: 700;
+}
+.dt-card .dt-action {
+  background: var(--calm-cardinal-tint, rgba(138, 36, 36, 0.07));
+  border-radius: 8px;
+  padding: .6rem .8rem;
+  font-family: ui-monospace, monospace;
+  font-size: .92rem;
+  line-height: 1.5;
+  color: var(--calm-ink, inherit);
+}
+.dt-card .dt-trap {
+  margin-top: .55rem;
+  font-size: .82rem;
+  font-style: italic;
+  color: var(--calm-ink-soft, var(--bs-secondary-color));
+}
+
+/* Effort framing badges */
+.effort-badge {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: rgba(139, 157, 107, 0.12);
+  color: #5a6a40;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: .78rem;
+  font-weight: 700;
+  border: 1px solid rgba(139, 157, 107, 0.3);
+}
+.effort-badge::before {
+  content: "✓";
+  font-weight: 850;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body:not(.quarto-dark) * {
+    transition: none !important;
+  }
+}
