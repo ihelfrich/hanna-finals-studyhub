@@ -1,548 +1,264 @@
 ---
-title: "ACCT 410 — The Luxury Edition"
-subtitle: "Every formula, every concept, every problem — through Hermès, Cartier, and the cautionary tale of late-stage Chanel."
-description: "The same exam, told through luxury jewelry and handbags. Examples that pop. Patterns that stick."
+title: "ACCT 410 · The Luxury Edition"
+subtitle: "Same exam. Same formulas. Examples drawn from Hermès, Cartier, Bulgari — anchors that stick."
+description: "Practice-final material reframed in luxury terms for memorability"
 order: 0
-section-divs: false
 ---
 
-```{=html}
-<style>
-.lx-hero {
-  background:
-    radial-gradient(ellipse at top right, rgba(255,110,0,.15), transparent 55%),
-    radial-gradient(ellipse at bottom left, rgba(212,164,55,.12), transparent 55%),
-    linear-gradient(180deg, #1a1410 0%, #2b1a0a 100%);
-  color: #f5e9df;
-  padding: 2.6rem 2.4rem 2.8rem;
-  border-radius: 20px;
-  margin-bottom: 1.8rem;
-  border: 1px solid rgba(255,110,0,.18);
-  position: relative;
-  overflow: hidden;
-}
-.lx-hero::before {
-  content: "H"; position: absolute; right: -30px; bottom: -80px;
-  font-family: "Didot", "Bodoni 72", "Playfair Display", Georgia, serif;
-  font-size: 22rem; line-height: 1; font-weight: 400;
-  color: rgba(255,110,0,.05);
-  pointer-events: none;
-}
-.lx-hero .lx-eyebrow {
-  font-size: .7rem; letter-spacing: .25em; text-transform: uppercase;
-  color: #FF6E00; font-weight: 700; margin-bottom: .8rem;
-}
-.lx-hero h1 {
-  font-family: "Didot", "Bodoni 72", "Playfair Display", Georgia, serif;
-  font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; letter-spacing: -0.02em;
-  line-height: 1.1; margin: 0 0 1rem; color: #fbf8f3 !important;
-}
-.lx-hero p {
-  font-size: 1.06rem; line-height: 1.55; max-width: 60ch; margin: 0 0 .8rem;
-  color: rgba(245,233,223,.88);
-}
-.lx-hero .lx-tag {
-  display: inline-block; padding: 4px 12px;
-  background: rgba(255,110,0,.18); border: 1px solid rgba(255,110,0,.4);
-  color: #FF6E00; font-size: .78rem; letter-spacing: .08em;
-  font-weight: 700; border-radius: 999px; margin-top: .8rem;
-}
-
-.lx-section {
-  background: #fefcf8;
-  border-radius: 20px;
-  padding: 2rem 2.2rem;
-  margin: 1.8rem 0;
-  border: 1px solid rgba(255,110,0,.10);
-  box-shadow: 0 4px 16px rgba(45,30,25,.04);
-  position: relative;
-}
-body.quarto-dark .lx-section { background: #1c1814; border-color: rgba(255,110,0,.12); }
-.lx-section::before {
-  content: ""; position: absolute; top: 0; left: 2rem; right: 2rem; height: 2px;
-  background: linear-gradient(90deg, transparent, #FF6E00 30%, #d4a437 70%, transparent);
-  opacity: .8;
-}
-
-.lx-section h2 {
-  font-family: "Didot", "Bodoni 72", "Playfair Display", Georgia, serif;
-  font-size: 2rem; font-weight: 400; letter-spacing: -0.01em;
-  margin: 0 0 .35rem; color: #2b1a0a;
-}
-body.quarto-dark .lx-section h2 { color: #f5e9df; }
-.lx-section .lx-roman {
-  font-family: "Didot", Georgia, serif; font-size: 1.1rem; color: #FF6E00;
-  font-style: italic; margin-bottom: 1.2rem; letter-spacing: .04em;
-}
-
-.lx-illust {
-  display: flex; align-items: center; justify-content: center;
-  gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0;
-}
-.lx-illust svg { width: 200px; height: auto; flex-shrink: 0; }
-.lx-illust .lx-illust-text { flex: 1; min-width: 240px; }
-
-.lx-q {
-  background: linear-gradient(180deg, rgba(255,110,0,.04), transparent);
-  border-left: 4px solid #FF6E00;
-  padding: 1.1rem 1.4rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-  font-style: italic;
-  color: #2b1a0a;
-}
-body.quarto-dark .lx-q { color: #f5e9df; background: linear-gradient(180deg, rgba(255,110,0,.10), transparent); }
-
-.lx-formula {
-  background: #1a1410; color: #ffd9b3;
-  border-radius: 10px; padding: 1rem 1.3rem;
-  font-family: ui-monospace, "JetBrains Mono", monospace;
-  font-size: .92rem; line-height: 1.7;
-  margin: .9rem 0;
-  border: 1px solid rgba(255,110,0,.2);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
-}
-.lx-formula .lx-formula-result {
-  display: inline-block; margin-top: .55rem;
-  padding: 4px 12px; background: rgba(255,110,0,.18);
-  color: #FFB877; border-radius: 6px; border: 1px solid rgba(255,110,0,.35);
-  font-weight: 700;
-}
-
-.lx-rule {
-  background: linear-gradient(135deg, rgba(255,110,0,.08), rgba(212,164,55,.05));
-  border: 1px solid rgba(255,110,0,.25);
-  border-radius: 12px; padding: 1.1rem 1.3rem;
-  margin: 1.2rem 0;
-}
-.lx-rule .lx-rule-tag {
-  font-size: .68rem; font-weight: 800; letter-spacing: .14em;
-  text-transform: uppercase; color: #FF6E00;
-  display: block; margin-bottom: .5rem;
-}
-.lx-rule strong { color: #2b1a0a; }
-body.quarto-dark .lx-rule strong { color: #ffb877; }
-
-.chanel-aside {
-  background: linear-gradient(135deg, #1a1410 0%, #2b2218 100%);
-  color: #c8c0bc; border: 1px solid rgba(255,255,255,.05);
-  border-left: 4px solid #999;
-  border-radius: 10px;
-  padding: 1rem 1.3rem; margin: 1.2rem 0;
-  font-style: italic; font-size: .92rem; line-height: 1.55;
-  position: relative;
-}
-.chanel-aside::before {
-  content: "✕"; position: absolute; right: 1rem; top: .8rem;
-  color: rgba(180,140,140,.5); font-size: 1.1rem; font-weight: 700;
-}
-.chanel-aside .chanel-tag {
-  display: block; font-size: .65rem; letter-spacing: .15em;
-  text-transform: uppercase; color: #a87878; font-weight: 700;
-  font-style: normal; margin-bottom: .35rem;
-}
-
-.lx-mc-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem; margin: 1.2rem 0;
-}
-.lx-mc {
-  background: #fefcf8; border-radius: 12px;
-  padding: 1.1rem 1.3rem;
-  border: 1px solid rgba(255,110,0,.12);
-  border-left: 4px solid #FF6E00;
-  position: relative;
-}
-body.quarto-dark .lx-mc { background: #1c1814; }
-.lx-mc .lx-mc-num {
-  position: absolute; top: -10px; left: 14px;
-  background: #FF6E00; color: #fff;
-  width: 28px; height: 28px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 800; font-size: .85rem;
-  font-family: "Didot", Georgia, serif;
-  box-shadow: 0 4px 10px rgba(255,110,0,.3);
-}
-.lx-mc h4 { color: #2b1a0a; margin: .5rem 0 .35rem; font-size: 1rem; font-weight: 700; }
-body.quarto-dark .lx-mc h4 { color: #ffd9b3; }
-.lx-mc .lx-mc-q { font-size: .9rem; line-height: 1.5; margin: 0 0 .55rem; color: #5b5450; }
-.lx-mc .lx-mc-a {
-  font-size: .82rem; padding: .45rem .7rem;
-  background: rgba(212,164,55,.12); color: #7e5f1f;
-  border-radius: 6px; font-weight: 600;
-  border-left: 3px solid #d4a437;
-}
-.lx-mc .lx-mc-trap {
-  margin-top: .4rem; font-size: .78rem; color: #a04040; font-style: italic;
-}
-
-.lx-divider {
-  text-align: center; margin: 2.2rem 0;
-  font-family: "Didot", Georgia, serif;
-  font-size: 1.4rem; color: #FF6E00;
-  letter-spacing: .8em; padding-left: .8em;
-}
-.lx-divider::before, .lx-divider::after {
-  content: ""; display: inline-block; vertical-align: middle;
-  width: 60px; height: 1px;
-  background: linear-gradient(90deg, transparent, #FF6E00, transparent);
-  margin: 0 .8rem;
-}
-</style>
-
-<section class="lx-hero">
-  <div class="lx-eyebrow">Maison ACCT 410</div>
-  <h1>The Birkin teaches you Job-Order Costing.<br>The Hermès atelier teaches you everything else.</h1>
-  <p>Same exam. Same five sections. Same formulas. Examples drawn from the only world where margins, scarcity, premium pricing, and brand equity are stitched into every transaction. By the time you finish this page, every formula will have a Birkin's-eye view to anchor it.</p>
-  <span class="lx-tag">Hermès · Cartier · LVMH · Bulgari</span>
-</section>
-```
-
-::: {.chanel-aside}
-[A note on Chanel]{.chanel-tag}
-We won't be using Chanel in these examples. Once a maison stops disclosing its financials *and* lets quality slip on the Classic Flap (rumored fluctuations in lambskin sourcing, plastic-feel hardware on recent runs, public Reddit threads of fakes that look better than the real thing), there is nothing for an accounting student to learn from it. The brand sells the *idea* of luxury with declining attention to the inputs. We need actual numbers and actual quality control. So — Hermès, Cartier, LVMH. Skip Chanel.
+::: {.callout-tip}
+**How to read this page.** Every section maps directly to a section of the practice exam. The numbers are the same. The formulas are the same. The maisons are anchors — when you see a Job-Order question on the exam, picture the Hermès atelier; the formula chain follows.
 :::
 
-```{=html}
-<div class="lx-divider">i.</div>
+## 1. The Birkin · Job-Order Costing
 
-<section class="lx-section">
-  <h2>The Hermès Birkin · A Job-Order Costing Story</h2>
-  <p class="lx-roman">Section IV of the exam. Every Birkin is a job. Every artisan is direct labor. Every atelier wall is overhead.</p>
+A custom Birkin 30 in Togo leather, gold hardware. Hermès assigns one master saddler from the Pantin atelier. **One bag, one artisan, eighteen hours.** Total product cost = direct materials + direct labor + allocated overhead. The boutique on Rue du Faubourg Saint-Honoré is a *period* cost, not in the bag's cost.
 
-  <div class="lx-illust">
-    <svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg" aria-label="Birkin silhouette">
-      <defs>
-        <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#FF8c1f"/>
-          <stop offset="100%" stop-color="#cc4c00"/>
-        </linearGradient>
-        <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#d4a437"/>
-          <stop offset="100%" stop-color="#a87f1f"/>
-        </linearGradient>
-      </defs>
-      <!-- bag body -->
-      <rect x="30" y="80" width="140" height="110" rx="12" fill="url(#bg1)" stroke="#5a2400" stroke-width="2"/>
-      <!-- handles -->
-      <path d="M 70 80 Q 70 40 100 40 Q 130 40 130 80" fill="none" stroke="#5a2400" stroke-width="3" stroke-linecap="round"/>
-      <!-- flap -->
-      <path d="M 30 100 L 100 130 L 170 100 L 170 80 L 30 80 Z" fill="url(#bg1)" stroke="#5a2400" stroke-width="2"/>
-      <path d="M 75 130 L 75 165 L 125 165 L 125 130" fill="#5a2400"/>
-      <!-- lock -->
-      <circle cx="100" cy="148" r="6" fill="url(#bg2)" stroke="#5a2400" stroke-width="1.5"/>
-      <!-- stitching detail -->
-      <path d="M 30 95 L 170 95" stroke="#fff" stroke-width=".5" stroke-dasharray="3,2" opacity=".6"/>
-      <text x="100" y="208" text-anchor="middle" font-family="Didot, serif" font-size="11" fill="#cc4c00" font-style="italic" letter-spacing=".15em">BIRKIN 30</text>
-    </svg>
-    <div class="lx-illust-text">
-      <p>A client orders a custom <strong>Birkin 30 in Togo leather, gold hardware</strong>. Hermès pulls one master saddler from the Pantin atelier and assigns the job. The saddler will spend 18 hours on this single bag — no rotation, no assembly line. <em>One bag, one artisan, signed when complete.</em></p>
-      <p>Total product cost = <strong>direct materials + direct labor + allocated overhead</strong>. Period costs (the boutique on Rue du Faubourg Saint-Honoré) live elsewhere.</p>
-    </div>
-  </div>
+**Setup**
 
-  <div class="lx-q">
-    <strong>The numbers:</strong> Hermès' Pantin atelier estimated $720,000 in annual manufacturing overhead for 24,000 estimated atelier-hours. This Birkin took 18 hours of master-saddler labor at $85/hour. Materials: $4,400 Togo leather + $480 palladium hardware. The atelier rent shared by this bag is part of overhead. Compute the predetermined OH rate, the allocated OH on this bag, and the total product cost.
-  </div>
+- Estimated annual manufacturing overhead: **$720,000**
+- Estimated atelier hours: **24,000**
+- This Birkin: **18 hours** of master-saddler labor at **$85/hour**
+- Materials: **$4,400** Togo leather + **$480** palladium hardware
 
-  <div class="lx-formula">
-    <div>1) Predetermined OH rate = ESTIMATED OH / ESTIMATED hours</div>
-    <div>   = $720,000 / 24,000 = <span class="lx-formula-result">$30.00 / atelier-hour</span></div>
-    <br>
-    <div>2) Allocated OH on this Birkin = Predetermined rate × ACTUAL hours</div>
-    <div>   = $30 × 18 = <span class="lx-formula-result">$540</span></div>
-    <br>
-    <div>3) Direct labor = 18 × $85 = <span class="lx-formula-result">$1,530</span></div>
-    <br>
-    <div>4) Total product cost = DM + DL + Allocated OH</div>
-    <div>   = ($4,400 + $480) + $1,530 + $540 = <span class="lx-formula-result">$6,950</span></div>
-  </div>
+**Solve**
 
-  <p>Hermès retails the bag for ~$15,000. Gross margin per Birkin: <strong>~54%</strong>. (And there's a four-year waitlist.)</p>
-
-  <div class="lx-rule">
-    <span class="lx-rule-tag">Decision rule</span>
-    <p><strong>Period costs ≠ product costs.</strong> The boutique manager's salary on Rue du Faubourg Saint-Honoré is a period cost — it's expensed when paid. The atelier supervisor in Pantin is a period — wait, no — the atelier supervisor is <em>indirect labor</em>, which is part of <strong>manufacturing overhead</strong>, which IS in product cost. Anything tied to the factory/atelier is product. Anything tied to the boutique, corporate HQ, or marketing is period.</p>
-  </div>
-</section>
-
-<div class="lx-divider">ii.</div>
-
-<section class="lx-section">
-  <h2>Maison Cartier Issues a Bond · Section II</h2>
-  <p class="lx-roman">When a maison expands its Place Vendôme flagship, it borrows. The market always pays a premium for the right name on the cover.</p>
-
-  <div class="lx-illust">
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Cartier ring">
-      <defs>
-        <radialGradient id="diamond" cx="50%" cy="40%" r="50%">
-          <stop offset="0%" stop-color="#fff"/>
-          <stop offset="60%" stop-color="#cdd9ff"/>
-          <stop offset="100%" stop-color="#7088c8"/>
-        </radialGradient>
-        <linearGradient id="band" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#f5d063"/>
-          <stop offset="100%" stop-color="#a87f1f"/>
-        </linearGradient>
-      </defs>
-      <ellipse cx="100" cy="130" rx="55" ry="14" fill="none" stroke="url(#band)" stroke-width="14"/>
-      <ellipse cx="100" cy="130" rx="55" ry="14" fill="none" stroke="#5a4112" stroke-width="1.5"/>
-      <polygon points="100,60 90,80 110,80" fill="url(#diamond)" stroke="#5a4112" stroke-width="1"/>
-      <polygon points="90,80 110,80 100,100" fill="url(#diamond)" stroke="#5a4112" stroke-width="1" opacity=".85"/>
-      <line x1="100" y1="60" x2="100" y2="100" stroke="#fff" stroke-width=".5" opacity=".6"/>
-      <text x="100" y="180" text-anchor="middle" font-family="Didot, serif" font-size="10" fill="#a87f1f" font-style="italic" letter-spacing=".25em">CARTIER</text>
-    </svg>
-    <div class="lx-illust-text">
-      <p>On January 1, 2024, Cartier (the Richemont subsidiary) issues a bond at <strong>face value $200,000</strong>. The market interest rate is <strong>3%</strong>. The bond pays an <strong>$8,000 coupon</strong> on December 31 of each year. The bond sells at <strong>$209,159</strong>.</p>
-      <p>Investors paid <em>more than face</em>. Why? Because this is Cartier paper. The coupon (<strong>4%</strong>) is higher than the market rate (<strong>3%</strong>). Above-market coupons command a premium.</p>
-    </div>
-  </div>
-
-  <div class="lx-formula">
-    <div>Coupon rate = $8,000 / $200,000 = <span class="lx-formula-result">4%</span></div>
-    <br>
-    <div>Issue price ($209,159) > Face ($200,000) → <span class="lx-formula-result">Premium</span></div>
-    <br>
-    <div>Year 1 interest expense = NBV at start × MARKET rate</div>
-    <div>   = $209,159 × 3% = <span class="lx-formula-result">$6,275</span></div>
-    <br>
-    <div>Amortization = Coupon (cash) − Interest expense</div>
-    <div>   = $8,000 − $6,275 = <span class="lx-formula-result">$1,725</span></div>
-    <br>
-    <div>NBV at end of year 1 = $209,159 − $1,725 = <span class="lx-formula-result">$207,434</span></div>
-    <div class="lx-formula-note" style="margin-top:.6rem;font-size:.82rem;color:#ffaa66;">(Premium decays toward face. Discount climbs toward face. Both end at face.)</div>
-  </div>
-
-  <div class="lx-rule">
-    <span class="lx-rule-tag">The Cartier Rule</span>
-    <p><strong>Premium</strong> = coupon rate &gt; market rate = total interest expense over life is <strong>LOWER</strong> than total coupon payments. <strong>Discount</strong> = coupon rate &lt; market rate = total interest expense is <strong>HIGHER</strong> than coupons. <em>Cartier issues at premium because Cartier is Cartier.</em></p>
-  </div>
-
-  <div class="chanel-aside">
-    <span class="chanel-tag">Counterexample · Chanel</span>
-    Chanel can't issue corporate bonds the same way because they're privately held by the Wertheimer family. Which is fine, until you realize they also won't tell you the cost of producing a Classic Flap. The opacity is the point — and the point is exactly what an accounting student learns to disbelieve. Move on.
-  </div>
-</section>
-
-<div class="lx-divider">iii.</div>
-
-<section class="lx-section">
-  <h2>Versailles Maison Co. · Section III · Statement of Cash Flows</h2>
-  <p class="lx-roman">A high-jewelry maison sells off an old Lyon workshop. New flagship in Tokyo. Track the cash.</p>
-
-  <div class="lx-illust">
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Hermès orange box">
-      <defs>
-        <linearGradient id="box-top" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#ff8a2c"/>
-          <stop offset="100%" stop-color="#cc4c00"/>
-        </linearGradient>
-        <linearGradient id="box-side" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#cc5500"/>
-          <stop offset="100%" stop-color="#7f3000"/>
-        </linearGradient>
-      </defs>
-      <!-- box bottom -->
-      <polygon points="20,120 100,150 180,120 180,170 100,200 20,170" fill="url(#box-side)" stroke="#3a1a00" stroke-width="1.5"/>
-      <!-- box top -->
-      <polygon points="20,80 100,50 180,80 180,120 100,150 20,120" fill="url(#box-top)" stroke="#3a1a00" stroke-width="1.5"/>
-      <!-- ribbon vertical -->
-      <rect x="92" y="50" width="16" height="150" fill="#5a2400" opacity=".55"/>
-      <!-- ribbon horizontal -->
-      <polygon points="20,95 100,68 180,95 180,105 100,135 20,105" fill="#5a2400" opacity=".55"/>
-      <!-- bow loops -->
-      <ellipse cx="78" cy="58" rx="14" ry="8" fill="#5a2400" transform="rotate(-25, 78, 58)"/>
-      <ellipse cx="122" cy="58" rx="14" ry="8" fill="#5a2400" transform="rotate(25, 122, 58)"/>
-      <circle cx="100" cy="60" r="5" fill="#3a1a00"/>
-    </svg>
-    <div class="lx-illust-text">
-      <p>Versailles Maison sold a workshop building (originally cost <strong>$200,000</strong>, accumulated depreciation <strong>$45,000</strong>) at a <strong>$15,000 loss</strong>. They also bought a new building in cash. NI <strong>$31,000</strong>. Depreciation <strong>$16,000</strong>. AR went up $40k, inventory went down $16k, prepaids up $2k, AP up $8k, accrued liabilities up $20k.</p>
-    </div>
-  </div>
-
-  <div class="lx-formula">
-    <div>NBV of sold workshop = $200,000 − $45,000 = $155,000</div>
-    <div>Cash received = NBV − Loss = $155,000 − $15,000 = <span class="lx-formula-result">$140,000 (CFI inflow)</span></div>
-    <br>
-    <div>CFO (indirect):</div>
-    <div>   NI                           +$31,000</div>
-    <div>   Depreciation (non-cash)      +$16,000</div>
-    <div>   Loss on sale (non-cash)      +$15,000</div>
-    <div>   ΔAR (up = cash use)          −$40,000</div>
-    <div>   ΔInventory (down = source)   +$16,000</div>
-    <div>   ΔPrepaid (up = use)          −$2,000</div>
-    <div>   ΔAP (up = source)            +$8,000</div>
-    <div>   ΔAccrued liab (up = source)  +$20,000</div>
-    <div>                              ─────────</div>
-    <div>   CFO                          <span class="lx-formula-result">$64,000</span></div>
-  </div>
-
-  <div class="lx-rule">
-    <span class="lx-rule-tag">The Hermès Box Rule</span>
-    <p><strong>Cash from a sale = NBV − Loss</strong> (or NBV + Gain). The loss/gain is non-cash and adds back to CFO. Only the <em>actual cash</em> goes to the Investing section. <em>Like an Hermès box: the contents (cash) are what matter; the wrapping (gain/loss accounting) is for show.</em></p>
-  </div>
-</section>
-
-<div class="lx-divider">iv.</div>
-
-<section class="lx-section">
-  <h2>The Velocity Bracelet · Section V · CVP Analysis</h2>
-  <p class="lx-roman">A Bulgari Serpenti Tubogas line. Each bracelet retails at $4,000. How many do you sell to break even?</p>
-
-  <div class="lx-illust">
-    <svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg" aria-label="Tubogas bracelet">
-      <defs>
-        <linearGradient id="snake" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#f5d063"/>
-          <stop offset="50%" stop-color="#fff5d6"/>
-          <stop offset="100%" stop-color="#a87f1f"/>
-        </linearGradient>
-      </defs>
-      <ellipse cx="120" cy="110" rx="80" ry="35" fill="none" stroke="url(#snake)" stroke-width="22"/>
-      <ellipse cx="120" cy="110" rx="80" ry="35" fill="none" stroke="#5a4112" stroke-width="1.5" opacity=".7"/>
-      <!-- coil texture lines -->
-      <ellipse cx="120" cy="110" rx="80" ry="35" fill="none" stroke="#a87f1f" stroke-width=".6" stroke-dasharray="1,4" opacity=".6"/>
-      <!-- snake head -->
-      <ellipse cx="200" cy="105" rx="14" ry="10" fill="url(#snake)" stroke="#5a4112" stroke-width="1.5"/>
-      <circle cx="206" cy="100" r="2" fill="#cc1a1a"/>
-      <circle cx="208" cy="106" r="1.5" fill="#5a4112"/>
-      <text x="120" y="180" text-anchor="middle" font-family="Didot, serif" font-size="11" fill="#a87f1f" font-style="italic" letter-spacing=".2em">SERPENTI</text>
-    </svg>
-    <div class="lx-illust-text">
-      <p>Sales price <strong>$4,000/unit</strong>. Variable cost <strong>$2,400/unit</strong> (gold + master setter labor). Fixed costs <strong>$960,000/year</strong> (master-jeweler salaries, certifications, the Roma marketing campaign). Last year sold <strong>800 units</strong>, NI = <strong>$320,000</strong>.</p>
-    </div>
-  </div>
-
-  <div class="lx-formula">
-    <div>Unit CM = $4,000 − $2,400 = <span class="lx-formula-result">$1,600</span></div>
-    <br>
-    <div>Breakeven (units) = FC / Unit CM = $960,000 / $1,600 = <span class="lx-formula-result">600 bracelets</span></div>
-    <br>
-    <div>Scenario · Gold prices spike, VC up to $2,800/unit. New CM = $1,200.</div>
-    <div>To maintain $320k profit:</div>
-    <div>   Units = (FC + Target) / Unit CM = ($960,000 + $320,000) / $1,200</div>
-    <div>   = $1,280,000 / $1,200 ≈ <span class="lx-formula-result">1,067 bracelets</span> (round up)</div>
-  </div>
-
-  <div class="lx-rule">
-    <span class="lx-rule-tag">The Bulgari Rule</span>
-    <p><strong>Round up</strong> for breakeven units. You can't sell 600.4 bracelets. <em>Bulgari doesn't ship a Serpenti with the snake half-finished.</em></p>
-  </div>
-</section>
-
-<div class="lx-divider">v.</div>
-
-<section class="lx-section">
-  <h2>Multiple Choice · The Maison Edition</h2>
-  <p class="lx-roman">Ten patterns, in luxury. Each one is a question you'll see on the exam.</p>
-
-  <div class="lx-mc-grid">
-    <div class="lx-mc">
-      <span class="lx-mc-num">1</span>
-      <h4>P/E Ratio · Hermès vs LVMH</h4>
-      <p class="lx-mc-q">Hermès trades at ~55× earnings. LVMH at ~25×. What does this imply about Hermès?</p>
-      <div class="lx-mc-a">→ Investors expect HIGHER FUTURE GROWTH at Hermès. P/E is forward-looking sentiment.</div>
-      <div class="lx-mc-trap">Trap: P/E doesn't mean Hermès is currently more profitable. It means the market expects more.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">2</span>
-      <h4>Sale of PPE at a Loss · Burberry</h4>
-      <p class="lx-mc-q">Burberry sold a Yorkshire factory for $12,000. It originally cost $40,000 with $24,000 accumulated depreciation. What appears on the SCF?</p>
-      <div class="lx-mc-a">→ Cash inflow $12,000 in INVESTING. The $4,000 loss is a non-cash NI adjustment in CFO.</div>
-      <div class="lx-mc-trap">Trap: don't put the loss in Investing. Cash got received, not lost.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">3</span>
-      <h4>Direct Cost · The Birkin</h4>
-      <p class="lx-mc-q">For a Birkin manufactured in Pantin, which is a DIRECT product cost?</p>
-      <div class="lx-mc-a">→ Togo leather. (Atelier rent = MOH. Boutique manager = period. Sewing-machine oil = MOH indirect.)</div>
-      <div class="lx-mc-trap">Trap: factory utilities are indirect → MOH. Office salaries are period.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">4</span>
-      <h4>Predetermined OH · The Atelier</h4>
-      <p class="lx-mc-q">Hermès estimated $720,000 OH and 24,000 atelier-hours for the year. What's the predetermined rate?</p>
-      <div class="lx-mc-a">→ $720,000 / 24,000 = $30/hour. Both ESTIMATED. Set at start of year.</div>
-      <div class="lx-mc-trap">Trap: never use actual hours in the predetermined formula. The "predetermined" tells you it's pre-actual.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">5</span>
-      <h4>Stock Split · LVMH (2000)</h4>
-      <p class="lx-mc-q">LVMH announced a 5-for-1 stock split. What happens to total stockholders' equity?</p>
-      <div class="lx-mc-a">→ NOTHING. SE unchanged. Just more shares at lower price each.</div>
-      <div class="lx-mc-trap">Trap: don't confuse split with repurchase. Repurchase = treasury stock = SE decreases.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">6</span>
-      <h4>Earnings Mgmt vs Fraud · Burberry's bad quarter</h4>
-      <p class="lx-mc-q">Burberry stretches a "Q3 launch" to capture pre-orders into reported Q3 sales. Earnings management or fraud?</p>
-      <div class="lx-mc-a">→ Earnings management — intentional, may be within GAAP if they document the cutoff policy. Fraud violates GAAP.</div>
-      <div class="lx-mc-trap">Trap: both are intentional. The line is GAAP-compliance.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">7</span>
-      <h4>SCF Basis · The Brand Story</h4>
-      <p class="lx-mc-q">Coach Inc. reports $200M NI but only $40M cash from operations. What does this potentially indicate?</p>
-      <div class="lx-mc-a">→ Aggressive revenue recognition — booking sales before collecting cash. Watch the AR balance.</div>
-      <div class="lx-mc-trap">Trap: SCF is on cash basis. Income statement is accrual.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">8</span>
-      <h4>Bond Hierarchy · LVMH Bankruptcy Hypothetical</h4>
-      <p class="lx-mc-q">If (hypothetically) LVMH went bankrupt tomorrow, who gets paid first?</p>
-      <div class="lx-mc-a">→ Secured debt → unsecured debt → preferred equity → common equity. Bondholders before shareholders.</div>
-      <div class="lx-mc-trap">Trap: shareholders are owners. They eat the loss first. Equity = ownership = subordinated.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">9</span>
-      <h4>Allocated OH · The Birkin Atelier</h4>
-      <p class="lx-mc-q">The atelier predetermined rate is $30/hour. The Birkin took 18 actual hours. Allocated overhead on this Birkin?</p>
-      <div class="lx-mc-a">→ $30 × 18 = $540. Predetermined rate × ACTUAL base.</div>
-      <div class="lx-mc-trap">Trap: mixed inputs. Predetermined uses estimates; allocated uses predetermined × actual.</div>
-    </div>
-
-    <div class="lx-mc">
-      <span class="lx-mc-num">10</span>
-      <h4>Treasury Stock · Tiffany Buyback</h4>
-      <p class="lx-mc-q">Tiffany & Co. (pre-LVMH acquisition) repurchased $500M of its own shares. Total stockholders' equity?</p>
-      <div class="lx-mc-a">→ DECREASES by $500M. Treasury stock is contra-equity, not an asset.</div>
-      <div class="lx-mc-trap">Trap: treasury stock looks like the company "owns" itself, but it's actually a deduction from equity.</div>
-    </div>
-  </div>
-</section>
-
-<div class="lx-divider">vi.</div>
-
-<section class="lx-section">
-  <h2>The Spine, In Luxury</h2>
-  <p class="lx-roman">Ten things to memorize. Each one tied to a maison.</p>
-
-  <ol class="memo-check" style="background: linear-gradient(180deg, rgba(255,110,0,.06), transparent); border-left-color: #FF6E00;">
-    <li><strong>Bond interest expense</strong> = NBV × MARKET rate, not coupon. <em>(Cartier's coupon is generous; the market rate sets the expense.)</em></li>
-    <li><strong>Premium</strong> = coupon &gt; market = total interest expense LOWER than total coupons. <em>(Cartier paper sells at a premium; the company books less interest.)</em></li>
-    <li><strong>SCF sign rule:</strong> current assets opposite (AR up = cash use), current liabilities same (AP up = cash source). <em>(Hermès sells, but until customers pay, the cash isn't there.)</em></li>
-    <li><strong>Cash from PPE sale</strong> = NBV − Loss. NBV = Cost − Accum Dep. <em>(Versailles sold the Lyon workshop; take the depreciation off, then the loss.)</em></li>
-    <li><strong>Dividends paid</strong> = Beg RE + NI − End RE. <em>(LVMH dividends — compute from RE roll, not the IS.)</em></li>
-    <li><strong>Predetermined OH</strong> = ESTIMATED ÷ ESTIMATED. <strong>Allocated OH</strong> = predetermined × ACTUAL. <em>(Hermès sets the atelier rate at the start of the year; the bag's actual hours determine its allocated overhead.)</em></li>
-    <li><strong>Product cost</strong> (capitalized): DM + DL + factory MOH. <strong>Period cost</strong> (expensed): boutique, corporate, marketing. <em>(The Togo leather is in the Birkin's cost. The Rue du Faubourg Saint-Honoré boutique rent is not.)</em></li>
-    <li><strong>Breakeven</strong> = FC ÷ Unit CM. <em>(How many Serpenti bracelets to cover the master jeweler salaries.)</em> Round UP.</li>
-    <li><strong>Target profit units</strong> = (FC + Target) ÷ Unit CM. <em>(Bulgari needs to maintain margin even when gold prices rise.)</em></li>
-    <li><strong>Stock split</strong> = SE unchanged. <strong>Stock repurchase</strong> = SE decreases (treasury = contra-equity). <em>(LVMH split. Tiffany bought back. Different effects.)</em></li>
-  </ol>
-</section>
-
-<section class="chanel-aside" style="margin-top:2rem;">
-  <span class="chanel-tag">Closing note · Why luxury examples work</span>
-  Margins, scarcity, premium pricing, brand equity, supply-chain integrity, atelier discipline, the difference between product and period cost — these are the <em>actual</em> debates inside a maison's finance committee. Hermès is the world's clearest case study in long-horizon production economics. Cartier is the cleanest example of premium-bond credit. Bulgari is the clearest CVP case in jewelry. The exam questions are abstract; the maisons make them real.
-  <br><br>
-  Chanel could have been the fourth example. They chose otherwise. Skip them.
-</section>
 ```
+1) Predetermined OH rate = ESTIMATED OH / ESTIMATED hours
+   = $720,000 / 24,000 = $30.00 per atelier-hour
+
+2) Allocated OH on this Birkin = Predetermined rate × ACTUAL hours
+   = $30 × 18 = $540
+
+3) Direct labor = 18 × $85 = $1,530
+
+4) Total product cost = DM + DL + Allocated OH
+   = ($4,400 + $480) + $1,530 + $540 = $6,950
+```
+
+Hermès retails the bag around $15,000. Gross margin per Birkin: roughly **54%**. (And there's a four-year waitlist.)
+
+::: {.callout-warning}
+**Decision rule.** *Period* ≠ *product*. The atelier supervisor in Pantin is **indirect labor → MOH → product cost**. The boutique manager on Rue du Faubourg Saint-Honoré is a **period cost** (expensed when paid). If it's tied to the factory/atelier, it's product. Anything else — boutique, corporate HQ, marketing — is period.
+:::
+
+---
+
+## 2. Cartier Bond at Premium · Section II
+
+Cartier (a Richemont subsidiary) issues a bond on January 1, 2024 to fund a Place Vendôme expansion.
+
+**Setup**
+
+- Face value: **$200,000**
+- Market interest rate: **3%**
+- Coupon paid each Dec 31: **$8,000**
+- Bond sold at: **$209,159**
+- Term: **5 years**, matures Dec 31, 2028
+
+**Solve**
+
+```
+Coupon rate = $8,000 / $200,000 = 4%
+
+Issue price ($209,159) > Face ($200,000) → Premium
+(Equivalent: coupon 4% > market 3%.)
+
+Year-1 interest expense = NBV at start × MARKET rate
+                        = $209,159 × 3% = $6,275
+
+Amortization year 1 = Coupon (cash) − Interest expense
+                    = $8,000 − $6,275 = $1,725
+
+NBV at end of year 1 = $209,159 − $1,725 = $207,434
+(Premium decays toward face. Discount climbs toward face. Both end at face at maturity.)
+
+Retirement entry at maturity:
+   Dr. Bonds Payable    $200,000
+       Cr. Cash         $200,000
+```
+
+::: {.callout-warning}
+**Decision rule.** **Premium** = coupon rate > market rate → total interest expense over the bond's life is **lower** than total coupon payments. **Discount** = coupon < market → total interest expense **higher** than total coupons. Investors paid more upfront for Cartier's above-market coupon; the company books less interest in return.
+:::
+
+::: {.callout-tip}
+**Why this exam loves bonds.** Bonds are pure formula application: NBV × market rate. The trap is using the coupon rate by mistake. *Cartier paper sells at a premium because it's Cartier*; the math behind that observation is the whole problem.
+:::
+
+---
+
+## 3. Versailles Maison · Statement of Cash Flows
+
+A high-jewelry maison sells a Lyon workshop and buys a new Tokyo flagship. Track the cash through 2025.
+
+**Setup**
+
+- Net income **$31,000**, depreciation **$16,000**
+- Sold a workshop building (cost **$200,000**, accum dep **$45,000**) at a **$15,000 loss**
+- Bought a new building (in cash) — exact amount via PP&E roll
+- AR up $40k, Inventory down $16k, Prepaid up $2k
+- AP up $8k, Accrued liabilities up $20k
+- Long-term debt down $10k, Common stock up $2k, APIC up $18k
+- Dividends paid: solve from RE roll
+
+**Solve — Cash Flow from Operations (indirect)**
+
+```
+Net income                                      +$31,000
++ Depreciation expense                          +$16,000
++ Loss on sale of PPE                           +$15,000
+− Increase in Accounts Receivable               −$40,000
++ Decrease in Inventory                         +$16,000
+− Increase in Prepaid expenses                  − $2,000
++ Increase in Accounts Payable                  + $8,000
++ Increase in Accrued liabilities               +$20,000
+                                              ──────────
+CFO                                              $64,000
+```
+
+**Solve — the discrete pieces**
+
+```
+NBV of sold workshop = $200,000 − $45,000 = $155,000
+Cash received       = NBV − Loss
+                    = $155,000 − $15,000 = $140,000   (CFI inflow)
+
+PP&E roll: End = Beg + Purchases − Cost of PPE sold
+$454,000 = $404,000 + Purchases − $200,000
+Purchases = $250,000                                  (CFI outflow)
+
+Dividends paid = Beg RE + NI − End RE
+              = $72,000 + $31,000 − $100,000 = $3,000 (CFF outflow)
+```
+
+::: {.callout-warning}
+**Decision rule — the SCF sign rule.** Current **assets** opposite (AR up = cash *use*; Inventory down = cash *source*). Current **liabilities** same direction (AP up = cash *source*). Non-cash items (depreciation, gain/loss on sale, amortization) **add back** in CFO; gains subtract.
+:::
+
+---
+
+## 4. The Bulgari Serpenti · CVP Analysis
+
+A new Tubogas bracelet line. **$4,000 retail per unit.**
+
+**Setup**
+
+- Sales price/unit: **$4,000**
+- Variable cost/unit: **$2,400** (gold + master-setter labor)
+- Fixed costs/year: **$960,000** (master-jeweler salaries, certifications, the Roma campaign)
+- Last year sold **800 units**, NI = **$320,000**
+
+**Solve**
+
+```
+Unit CM = $4,000 − $2,400 = $1,600
+
+Breakeven (units) = FC / Unit CM = $960,000 / $1,600
+                  = 600 bracelets
+
+Scenario · gold prices spike. New VC/unit = $2,800. New CM = $1,200.
+
+Units to maintain $320,000 profit:
+   = (FC + Target Profit) / Unit CM
+   = ($960,000 + $320,000) / $1,200
+   = $1,280,000 / $1,200
+   ≈ 1,067 units (round up)
+```
+
+::: {.callout-warning}
+**Decision rule.** **Always recompute Unit CM and FC at the top of every scenario.** Don't carry over stale values. **Round up** for breakeven and target-profit unit answers. You can't sell 1,066.7 bracelets — Bulgari doesn't ship a Serpenti with the snake half-finished.
+:::
+
+---
+
+## 5. Multiple Choice · The Maison Edition
+
+Ten patterns from the practice exam, each anchored to a recognizable maison so the answer triggers the right pattern.
+
+### Q1 · P/E Ratio — Hermès vs LVMH
+
+Hermès trades around 55× earnings; LVMH around 25×. What does Hermès' higher P/E imply?
+
+**→** Investors expect **higher future growth** at Hermès. P/E is forward-looking sentiment, not current profitability. *Trap: don't confuse P/E with current margin.*
+
+### Q2 · Sale of PPE at a Loss — Burberry
+
+Burberry sells a Yorkshire factory for $12,000. Original cost $40,000, accumulated depreciation $24,000.
+
+**→** NBV = $40,000 − $24,000 = $16,000. Sale price = NBV − Loss = $16,000 − $4,000 = **$12,000 cash inflow in INVESTING**. The $4,000 loss is non-cash; it adds back in CFO.
+
+### Q3 · Direct Cost — The Birkin
+
+Which is a *direct* product cost for a Birkin?
+
+**→** **Togo leather.** Atelier rent is MOH (indirect product cost). Sewing-machine oil is also MOH. Boutique manager's salary is a period cost. Direct = traceable to one unit.
+
+### Q4 · Predetermined Overhead — The Atelier
+
+Hermès estimated $720,000 OH and 24,000 atelier-hours.
+
+**→** $720,000 / 24,000 = **$30/hour**. *Both estimated. Set at start of year.* Trap: never use actual hours in the predetermined formula.
+
+### Q5 · Stock Split — LVMH
+
+LVMH announces a 5-for-1 split. What happens to total stockholders' equity?
+
+**→** **Nothing.** SE unchanged. More shares at lower price each. Trap: don't confuse with repurchase.
+
+### Q6 · Stock Repurchase — Tiffany
+
+Tiffany repurchases $500M of its own shares.
+
+**→** **SE decreases by $500M.** Treasury stock is a contra-equity account (not an asset).
+
+### Q7 · Earnings Mgmt vs Fraud — Burberry
+
+Burberry stretches Q3 launch dates to capture pre-orders into reported Q3 sales.
+
+**→** **Earnings management.** Intentional, may be within GAAP if cutoff policy is documented. *Fraud* would mean violating GAAP outright.
+
+### Q8 · SCF Basis — Aggressive Recognition
+
+Coach reports $200M NI but only $40M cash from operations.
+
+**→** Potential **aggressive revenue recognition** — booking sales before collecting cash. *Watch the AR balance.* SCF is on a cash basis; the income statement is on accrual.
+
+### Q9 · Bond Hierarchy — Bankruptcy
+
+If LVMH went bankrupt (hypothetically), who gets paid first?
+
+**→** **Secured debt → unsecured debt → preferred equity → common equity.** Bondholders before shareholders. Equity is ownership; ownership is subordinated.
+
+### Q10 · Allocated OH — The Atelier
+
+The atelier predetermined rate is $30/hour. Birkin took 18 actual hours.
+
+**→** Allocated OH = $30 × 18 = **$540**. *Predetermined rate × ACTUAL base.*
+
+---
+
+## 6. The Spine in One Page
+
+```
+01.  Bond interest expense  =  NBV × MARKET rate          (not coupon)
+02.  Premium  =  coupon > market  →  total interest LOWER than total coupons
+03.  SCF sign rule:  current assets opposite,  current liabilities same
+04.  Cash from PPE sale  =  NBV − Loss
+05.  Dividends paid  =  Beg RE + NI − End RE
+06.  Predetermined OH  =  ESTIMATED ÷ ESTIMATED
+07.  Allocated OH  =  Predetermined rate × ACTUAL base
+08.  Product cost  =  DM + DL + factory MOH      (capitalized into inventory)
+09.  Period cost  =  corporate, sales, customer service, admin   (expensed)
+10.  Breakeven units  =  Fixed Costs ÷ Unit CM    (round up)
+11.  Target profit units  =  (FC + Target) ÷ Unit CM
+12.  Stock split = SE unchanged.   Repurchase = SE decreases.
+13.  P/E high  =  market expects future growth   (not current profit)
+```
+
+::: {.callout-tip}
+**On Chanel.** I've left them out of these examples. Once a maison stops disclosing its financials and lets quality slip on the Classic Flap, there is nothing for an accounting student to learn from it — opacity is the opposite of what we're practicing here. Hermès, Cartier, Bulgari, LVMH all give us actual numbers and visible quality control. Skip Chanel.
+:::
+
+---
+
+**Walk in.**
