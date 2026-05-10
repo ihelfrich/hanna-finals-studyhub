@@ -80,6 +80,8 @@ website:
             text: "🎯 Exam Day Path"
           - href: acct410x/decision-tree.qmd
             text: "🔑 Match Question → Formula"
+          - href: acct410x/luxury-examples.qmd
+            text: "🧡 The Luxury Edition"
           - href: acct410x/practice-walkthrough.qmd
             text: "📝 Practice Final Walkthrough"
           - href: acct410x/smallest-version.qmd
@@ -202,6 +204,7 @@ website:
           contents:
             - acct410x/exam-day.qmd
             - acct410x/decision-tree.qmd
+            - acct410x/luxury-examples.qmd
             - acct410x/practice-walkthrough.qmd
             - acct410x/smallest-version.qmd
             - acct410x/formula-bank.qmd

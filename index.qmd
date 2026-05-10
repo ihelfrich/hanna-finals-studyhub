@@ -208,6 +208,10 @@ format:
         <div class="ct-emoji">🔑</div>
         <div class="ct-name">ACCT Match → Formula</div>
       </a>
+      <a href="acct410x/luxury-examples.html" class="ct-card" style="border-left:4px solid #FF6E00;">
+        <div class="ct-emoji">🧡</div>
+        <div class="ct-name">ACCT · Luxury Edition</div>
+      </a>
     </div>
   </div>
 
