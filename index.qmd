@@ -123,32 +123,169 @@ format:
 ---
 
 ```{=html}
-<div class="hero">
-  <div class="accent-bar"></div>
-  <h1>One spine. Walk in.</h1>
-  <p>Three throughlines. Eight dates. Four frames. One thesis. Every essay you write today comes from those. Open <a href="ir362/exam-day.html" style="color:#c79100;font-weight:700;text-decoration:underline;">IR Exam Day</a> and follow it in order.</p>
-</div>
+<header class="ed-hero">
+  <div class="ed-hero-meta">
+    <span>Issue No. 1</span>
+    <span class="ed-hero-sep">·</span>
+    <span>Spring 2026</span>
+    <span class="ed-hero-sep">·</span>
+    <span>Studyhub</span>
+  </div>
+  <h1 class="ed-hero-title">One spine.<br><em>Walk in.</em></h1>
+  <p class="ed-hero-lede">
+    Three throughlines, eight dates, four frames, one thesis. Every essay you write today comes from those. Open the <a href="ir362/exam-day.html">IR Exam Day path</a> and follow it in order.
+  </p>
+</header>
 
-<div class="countdown-card">
-  <div class="item">
-    <h4>📘 IR 362 (Hammad)</h4>
-    <span class="days">TODAY</span>
-    <div class="when">Essay-format · 65% of your grade</div>
-    <span class="weight"><a href="ir362/exam-day.html">Open Exam Day Path →</a></span>
+<section class="ed-courses">
+  <div class="ed-course-row">
+    <a href="ir362/exam-day.html" class="ed-course">
+      <div class="ed-course-status">Today</div>
+      <div class="ed-course-body">
+        <h3>IR 362 — Politics of the Middle East</h3>
+        <p class="ed-course-byline">Hammad · essay format · 65%</p>
+      </div>
+      <span class="ed-course-arrow">→</span>
+    </a>
+    <a href="acct410x/exam-day.html" class="ed-course">
+      <div class="ed-course-status ed-course-status-next">Next</div>
+      <div class="ed-course-body">
+        <h3>ACCT 410 — Foundations of Accounting</h3>
+        <p class="ed-course-byline">Leventhal · five sections · effort-based</p>
+      </div>
+      <span class="ed-course-arrow">→</span>
+    </a>
+    <a href="marketing/" class="ed-course">
+      <div class="ed-course-status ed-course-status-project">Project</div>
+      <div class="ed-course-body">
+        <h3>Marketing — Ensemble</h3>
+        <p class="ed-course-byline">AI styling pitch deck · in progress</p>
+      </div>
+      <span class="ed-course-arrow">→</span>
+    </a>
   </div>
-  <div class="item">
-    <h4>📕 ACCT 410 (Leventhal)</h4>
-    <span class="days">NEXT</span>
-    <div class="when">5-section exam · MC · Bond · SCF · Job-Order · CVP</div>
-    <span class="weight"><a href="acct410x/exam-day.html">Open Exam Day Path →</a></span>
-  </div>
-  <div class="item">
-    <h4>🛍️ Marketing — Ensemble</h4>
-    <span class="days">PROJECT</span>
-    <div class="when">Pitch deck deliverable</div>
-    <span class="weight"><a href="marketing/">Open Marketing →</a></span>
-  </div>
-</div>
+</section>
+
+<style>
+.ed-hero {
+  padding: 3.2rem 0 2rem;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  margin-bottom: 2.5rem;
+}
+.ed-hero-meta {
+  font-family: var(--sh-font-sans);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--sh-ink-soft, #5b5450);
+  margin-bottom: 1.5rem;
+}
+.ed-hero-meta .ed-hero-sep { margin: 0 .5rem; opacity: .4; }
+.ed-hero-title {
+  font-family: var(--sh-font-serif) !important;
+  font-size: clamp(2.6rem, 6vw, 4.4rem) !important;
+  font-weight: 500 !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.025em !important;
+  color: var(--sh-ink, #2b2522) !important;
+  margin: 0 0 1.4rem !important;
+}
+.ed-hero-title em {
+  font-style: italic;
+  color: var(--sh-burgundy, #7a1f1f);
+  font-weight: 500;
+}
+.ed-hero-lede {
+  font-family: var(--sh-font-serif) !important;
+  font-size: 1.22rem !important;
+  line-height: 1.55 !important;
+  font-weight: 400 !important;
+  color: var(--sh-ink-soft, #5b5450) !important;
+  max-width: 56ch;
+  margin: 0 !important;
+}
+.ed-hero-lede a {
+  color: var(--sh-burgundy, #7a1f1f) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.16em !important;
+  font-weight: 500;
+}
+body.quarto-dark .ed-hero { border-bottom-color: rgba(255,255,255,.1); }
+body.quarto-dark .ed-hero-title { color: #f5e9df !important; }
+body.quarto-dark .ed-hero-title em { color: #d4a437; }
+body.quarto-dark .ed-hero-lede { color: #c8c0bc !important; }
+body.quarto-dark .ed-hero-lede a { color: #f5b96b !important; }
+
+.ed-courses { margin: 0 0 3rem; }
+.ed-course-row {
+  display: grid; gap: 0;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+.ed-course {
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: padding-left .25s ease;
+}
+.ed-course:hover { padding-left: .8rem; }
+.ed-course-status {
+  font-family: var(--sh-font-sans);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--sh-burgundy, #7a1f1f);
+  align-self: start;
+  padding-top: .35rem;
+}
+.ed-course-status-next { color: #6b4a8a; }
+.ed-course-status-project { color: var(--sh-sage, #6b7d4e); }
+.ed-course-body h3 {
+  font-family: var(--sh-font-serif) !important;
+  font-size: 1.6rem !important;
+  font-weight: 500 !important;
+  line-height: 1.15 !important;
+  margin: 0 0 .25rem !important;
+  letter-spacing: -0.012em !important;
+  color: var(--sh-ink, #2b2522) !important;
+}
+.ed-course:hover .ed-course-body h3 { color: var(--sh-burgundy, #7a1f1f) !important; }
+.ed-course-byline {
+  font-family: var(--sh-font-serif) !important;
+  font-style: italic !important;
+  font-size: 1rem !important;
+  color: var(--sh-ink-soft, #5b5450) !important;
+  margin: 0 !important;
+  font-weight: 400 !important;
+}
+.ed-course-arrow {
+  font-family: var(--sh-font-serif);
+  font-size: 1.6rem;
+  color: var(--sh-ink-soft, #5b5450);
+  transition: transform .25s ease, color .2s ease;
+}
+.ed-course:hover .ed-course-arrow {
+  transform: translateX(8px);
+  color: var(--sh-burgundy, #7a1f1f);
+}
+body.quarto-dark .ed-course-row,
+body.quarto-dark .ed-course { border-color: rgba(255,255,255,.1); }
+body.quarto-dark .ed-course-body h3 { color: #f5e9df !important; }
+body.quarto-dark .ed-course:hover .ed-course-body h3 { color: #d4a437 !important; }
+body.quarto-dark .ed-course-byline { color: #c8c0bc !important; }
+body.quarto-dark .ed-course-status { color: #d4a437; }
+@media (max-width: 600px) {
+  .ed-course { grid-template-columns: 1fr auto; }
+  .ed-course-status { grid-column: 1 / -1; padding-top: 0; padding-bottom: .25rem; }
+}
+</style>
 
 <section class="active-target">
   <div class="at-eyebrow">Right now · resume here</div>
